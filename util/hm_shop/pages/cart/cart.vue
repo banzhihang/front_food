@@ -1,8 +1,6 @@
 <template>
-	<view class="content">
-		<view>
-			
-		</view>
+	<view>
+		购物车
 	</view>
 </template>
 
@@ -13,15 +11,12 @@
 				
 			}
 		},
-		onLoad() {
-
-		},
 		methods: {
-
+			
 		}
 	}
 </script>
 
 <style>
-	
+
 </style>
