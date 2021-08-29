@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/self/self"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#41BD55",
+    "list": [
+      {
+        "text": "吃",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/eat.png",
+        "selectedIconPath": "static/icon/eat-active.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/self/self",
+        "iconPath": "static/icon/self.png",
+        "selectedIconPath": "static/icon/self-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

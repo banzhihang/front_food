@@ -1,0 +1,40 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "吃"
+			}
+		},
+		{
+            "path" :"pages/self/self",
+            "style" : {
+                "navigationBarTitleText": "我",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#41BD55",
+		"list":[
+			{
+				"text":"吃",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/eat.png",
+				"selectedIconPath":"static/icon/eat-active.png"
+			},
+			{
+				"text":"我",
+				"pagePath":"pages/self/self",
+				"iconPath":"static/icon/self.png",
+				"selectedIconPath":"static/icon/self-active.png"
+			}
+		]
+	}
+}
