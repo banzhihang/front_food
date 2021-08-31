@@ -1,0 +1,1 @@
+<view class="content"><view><food-list vue-id="57282994-1" foods="{{foods}}" bind:__l="__l"></food-list></view></view>

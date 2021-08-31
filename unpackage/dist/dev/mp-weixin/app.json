@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/self/self"
+    "pages/self/self",
+    "pages/list/list",
+    "pages/index/food-details"
   ],
   "subPackages": [],
   "window": {
@@ -27,5 +29,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }
