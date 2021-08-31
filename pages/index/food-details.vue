@@ -42,7 +42,15 @@
 			<uni-card title="图片"
 			thumbnail="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dc-site/460d46d0-4fcc-11eb-8ff1-d5dcf8779628.png"
 			 isShadow >
-			   <previewImage ref="previewImage" :imgs="food.image" @longPress="longPress"></previewImage>
+			 <view class="food-address-photo-ing">
+				 <u-image height="200rpx" width="200rpx" src="https://hotschool.ltd/011e9c909d72429e9318d7455080f523"></u-image>
+				 <u-image height="200rpx" width="200rpx" src="https://hotschool.ltd/011e9c909d72429e9318d7455080f523"></u-image>
+				 <u-image height="200rpx" width="200rpx" src="https://hotschool.ltd/011e9c909d72429e9318d7455080f523"></u-image>
+				 <u-image height="200rpx" width="200rpx" src="https://hotschool.ltd/011e9c909d72429e9318d7455080f523"></u-image>
+				 <u-image height="200rpx" width="200rpx" src="https://hotschool.ltd/011e9c909d72429e9318d7455080f523"></u-image>
+				 <u-image height="200rpx" width="200rpx" src="https://hotschool.ltd/011e9c909d72429e9318d7455080f523"></u-image>
+			 </view>
+			  
 			</uni-card>
 		</view>
 	</view>
@@ -83,7 +91,7 @@
 	}
 </script>
 
-<style lang='scss'>
+<style lang='scss' scoped>
 	@import '../../common/uni-ui.scss';
 	.content {
 		margin-left: 20rpx;
@@ -140,15 +148,18 @@
 	}
 	.score {
 		font-size: 25rpx;
-		margin-left: -25rpx;
+		margin-left: -30rpx;
 	}
 	.desc{
 		font-size: 25rpx;
-		margin-left: -25rpx;
+		margin-left: -30rpx;
 	}
 	.food-photo{
 		font-size: 25rpx;
-		margin-left: -25rpx;
+		margin-left: -30rpx;
+	}
+	.food-address-photo-ing {
+		display: flex;
 	}
 	
 </style>

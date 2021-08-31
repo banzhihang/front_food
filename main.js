@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App'
 import { myRequest } from './util/api.js'
+import uView from "uview-ui";
 
+Vue.use(uView);
 Vue.prototype.$myRuquest = myRequest
 Vue.filter('formatDate',(date)=>{
 	const nDate = new Date(date)
