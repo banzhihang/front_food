@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "美食详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "short-comment": "/components/short-comment/short-comment",
+    "discuss": "/components/discuss/discuss"
+  }
+}

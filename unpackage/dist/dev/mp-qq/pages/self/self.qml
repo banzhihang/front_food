@@ -1,1 +1,1 @@
-<view></view>
+<view class="data-v-6cbfa486"></view>

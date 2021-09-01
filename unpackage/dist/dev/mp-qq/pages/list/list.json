@@ -1,6 +1,6 @@
 {
   "enablePullDownRefresh": true,
-  "navigationBarTitleText": "商品列表",
+  "navigationBarTitleText": "美食列表",
   "usingComponents": {
     "list-unicloud-db-default": "/pages/list/list-unicloud-db-default",
     "uni-section": "/components/uni-section/uni-section",

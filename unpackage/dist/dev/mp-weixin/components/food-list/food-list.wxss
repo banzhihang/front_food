@@ -24,29 +24,29 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.uni-flex, .uni-flex-row, .uni-list-box, .uni-media-box, .uni-footer, .uni-flex-column, .uni-content {
+.uni-flex.data-v-d5d31d40, .uni-flex-row.data-v-d5d31d40, .uni-list-box.data-v-d5d31d40, .uni-media-box.data-v-d5d31d40, .uni-footer.data-v-d5d31d40, .uni-flex-column.data-v-d5d31d40, .uni-content.data-v-d5d31d40 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.uni-flex-row, .uni-list-box, .uni-media-box, .uni-footer {
+.uni-flex-row.data-v-d5d31d40, .uni-list-box.data-v-d5d31d40, .uni-media-box.data-v-d5d31d40, .uni-footer.data-v-d5d31d40 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
           flex-direction: row;
   box-sizing: border-box;
 }
-.uni-flex-column, .uni-content {
+.uni-flex-column.data-v-d5d31d40, .uni-content.data-v-d5d31d40 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
           flex-direction: column;
 }
-.uni-color-gary {
+.uni-color-gary.data-v-d5d31d40 {
   color: #3b4144;
 }
 /* 标题 */
-.uni-title {
+.uni-title.data-v-d5d31d40 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -55,7 +55,7 @@
   font-weight: bold;
   color: #3b4144;
 }
-.uni-title-sub {
+.uni-title-sub.data-v-d5d31d40 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -64,20 +64,20 @@
   color: #3b4144;
 }
 /* 描述 额外文本 */
-.uni-note {
+.uni-note.data-v-d5d31d40 {
   margin-top: 10px;
   color: #999;
   font-size: 12px;
 }
 /* 列表内容 */
-.uni-list-box {
+.uni-list-box.data-v-d5d31d40 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
   margin-top: 10px;
 }
 /* 略缩图 */
-.uni-thumb {
+.uni-thumb.data-v-d5d31d40 {
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
   margin-right: 10px;
@@ -87,15 +87,15 @@
   overflow: hidden;
   border: 1px #f5f5f5 solid;
 }
-.uni-thumb image {
+.uni-thumb image.data-v-d5d31d40 {
   width: 100%;
   height: 100%;
 }
-.uni-media-box {
+.uni-media-box.data-v-d5d31d40 {
   border-radius: 6px;
   overflow: hidden;
 }
-.uni-media-box .uni-thumb {
+.uni-media-box .uni-thumb.data-v-d5d31d40 {
   margin: 0;
   margin-left: 4px;
   -webkit-flex-shrink: 1;
@@ -103,29 +103,29 @@
   width: 33%;
   border-radius: 0;
 }
-.uni-media-box .uni-thumb:first-child {
+.uni-media-box .uni-thumb.data-v-d5d31d40:first-child {
   margin: 0;
 }
 /* 内容 */
-.uni-content {
+.uni-content.data-v-d5d31d40 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
           justify-content: space-between;
 }
 /* 列表footer */
-.uni-footer {
+.uni-footer.data-v-d5d31d40 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
           justify-content: space-between;
   margin-top: 12px;
 }
-.uni-footer-text {
+.uni-footer-text.data-v-d5d31d40 {
   font-size: 12px;
   color: #999;
   margin-left: 5px;
 }
 /* 标签 */
-.uni-tag {
+.uni-tag.data-v-d5d31d40 {
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
   padding: 0 5px;
@@ -137,12 +137,12 @@
   font-size: 12px;
 }
 /* 链接 */
-.uni-link {
+.uni-link.data-v-d5d31d40 {
   margin-left: 10px;
   color: #333;
   text-decoration: underline;
 }
-.food-list {
+.food-list.data-v-d5d31d40 {
   padding: 0 5rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -153,39 +153,39 @@
   -webkit-justify-content: space-between;
           justify-content: space-between;
 }
-.food-list .food-items {
+.food-list .food-items.data-v-d5d31d40 {
   background: #fff;
   width: 355rpx;
   box-sizing: border-box;
 }
-.middle-desc {
+.middle-desc.data-v-d5d31d40 {
   font-size: 18rpx;
   line-height: 50rpx;
   padding-bottom: 15rpx;
   padding-top: 10rpx;
 }
-.food-picture {
+.food-picture.data-v-d5d31d40 {
   height: 70px;
   width: 60px;
 }
-.want-eat {
+.want-eat.data-v-d5d31d40 {
   height: 30px;
   width: 60px;
   font-size: 5px;
 }
-.want-eat .want-eat-btn {
+.want-eat .want-eat-btn.data-v-d5d31d40 {
   position: absolute;
   right: 0;
   top: 20;
   background-color: #F7CC5B;
 }
-.middle-rate {
+.middle-rate.data-v-d5d31d40 {
   margin-top: 5px;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.middle-rate .score-text {
+.middle-rate .score-text.data-v-d5d31d40 {
   margin-top: -6rpx;
   margin-left: 7rpx;
   font-size: 4rpx;

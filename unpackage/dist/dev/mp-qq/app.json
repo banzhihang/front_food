@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/self/self",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/index/food-details"
   ],
   "window": {
     "navigationBarTextStyle": "black",

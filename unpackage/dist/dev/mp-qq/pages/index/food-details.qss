@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.box.data-v-450927c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.left .comment-num.data-v-450927c6 {
+  margin-top: -5rpx;
+}
+.left .comment-num text.data-v-450927c6 {
+  margin-left: 21rpx;
+  color: #b8b8b8;
+}
+.right.data-v-450927c6 {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.right .discuss-title.data-v-450927c6 {
+  font-size: 30rpx;
+}
+.right .user.data-v-450927c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20rpx;
+}
+.right .user image.data-v-450927c6 {
+  width: 29rpx;
+  height: 29rpx;
+  border-radius: 50%;
+  background-color: #c1bec3;
+}
+.right .user view.data-v-450927c6 {
+  font-size: 5rpx;
+  margin-left: 10rpx;
+  margin-top: -5rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.uni-flex.data-v-4227a229, .uni-flex-row.data-v-4227a229, .uni-list-box.data-v-4227a229, .uni-media-box.data-v-4227a229, .uni-footer.data-v-4227a229, .uni-flex-column.data-v-4227a229, .uni-content.data-v-4227a229 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.uni-flex-row.data-v-4227a229, .uni-list-box.data-v-4227a229, .uni-media-box.data-v-4227a229, .uni-footer.data-v-4227a229 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  box-sizing: border-box;
+}
+.uni-flex-column.data-v-4227a229, .uni-content.data-v-4227a229 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.uni-color-gary.data-v-4227a229 {
+  color: #3b4144;
+}
+/* 标题 */
+.uni-title.data-v-4227a229 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 16;
+  font-weight: bold;
+  color: #3b4144;
+}
+.uni-title-sub.data-v-4227a229 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b4144;
+}
+/* 描述 额外文本 */
+.uni-note.data-v-4227a229 {
+  margin-top: 10px;
+  color: #999;
+  font-size: 12px;
+}
+/* 列表内容 */
+.uni-list-box.data-v-4227a229 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-top: 10px;
+}
+/* 略缩图 */
+.uni-thumb.data-v-4227a229 {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin-right: 10px;
+  width: 125px;
+  height: 75px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px #f5f5f5 solid;
+}
+.uni-thumb image.data-v-4227a229 {
+  width: 100%;
+  height: 100%;
+}
+.uni-media-box.data-v-4227a229 {
+  border-radius: 6px;
+  overflow: hidden;
+}
+.uni-media-box .uni-thumb.data-v-4227a229 {
+  margin: 0;
+  margin-left: 4px;
+  -webkit-flex-shrink: 1;
+          flex-shrink: 1;
+  width: 33%;
+  border-radius: 0;
+}
+.uni-media-box .uni-thumb.data-v-4227a229:first-child {
+  margin: 0;
+}
+/* 内容 */
+.uni-content.data-v-4227a229 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+/* 列表footer */
+.uni-footer.data-v-4227a229 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 12px;
+}
+.uni-footer-text.data-v-4227a229 {
+  font-size: 12px;
+  color: #999;
+  margin-left: 5px;
+}
+/* 标签 */
+.uni-tag.data-v-4227a229 {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  padding: 0 5px;
+  border: 1px #c8c7cc solid;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: #f8f8f8;
+  color: #333;
+  font-size: 12px;
+}
+/* 链接 */
+.uni-link.data-v-4227a229 {
+  margin-left: 10px;
+  color: #333;
+  text-decoration: underline;
+}
+.content.data-v-4227a229 {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.header.data-v-4227a229 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.header .food-picture.data-v-4227a229 {
+  height: 112px;
+  width: 94px;
+}
+.header .food-name.data-v-4227a229 {
+  font-size: 38rpx;
+}
+.header .food-address.data-v-4227a229 {
+  width: 500rpx;
+  margin-top: 5rpx;
+  color: #696a6c;
+  font-size: 5rpx;
+}
+.header .food-address .food-address-img.data-v-4227a229 {
+  height: 23rpx;
+  width: 26rpx;
+}
+.header .food-time.data-v-4227a229 {
+  margin-top: 10rpx;
+  color: #696a6c;
+  font-size: 18rpx;
+}
+.header .food-time .food-time-img.data-v-4227a229 {
+  margin-right: 5rpx;
+  height: 23rpx;
+  width: 26rpx;
+}
+.header .food-want-eated.data-v-4227a229 {
+  margin-top: 20rpx;
+}
+.header .food-want-eated .food-want.data-v-4227a229 {
+  background-color: #FFFFFF;
+  font-size: 10rpx;
+  color: #F7CC5B;
+  height: 60rpx;
+  width: 120rpx;
+  margin-right: 30rpx;
+}
+.header .food-want-eated .food-eated.data-v-4227a229 {
+  background-color: #FFFFFF;
+  color: #F7CC5B;
+  font-size: 10rpx;
+  height: 60rpx;
+  width: 120rpx;
+}
+.score.data-v-4227a229 {
+  font-size: 25rpx;
+  margin-left: -30rpx;
+}
+.desc.data-v-4227a229 {
+  font-size: 25rpx;
+  margin-left: -30rpx;
+}
+.food-photo.data-v-4227a229 {
+  font-size: 25rpx;
+  margin-left: -30rpx;
+}
+.food-address-photo-ing.data-v-4227a229 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.short-comment.data-v-4227a229 {
+  font-size: 25rpx;
+  margin-left: -30rpx;
+}
+.short-comment-foot.data-v-4227a229 {
+  position: relative;
+}
+.short-comment-foot .short-comment-foot-arrow.data-v-4227a229 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.discuss.data-v-4227a229 {
+  font-size: 25rpx;
+  margin-left: -30rpx;
+}
+.discuss-foot.data-v-4227a229 {
+  position: relative;
+}
+.discuss-foot .discuss-foot-arrow.data-v-4227a229 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+

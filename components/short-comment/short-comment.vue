@@ -49,6 +49,7 @@
 
 <style lang="scss" scoped>
 .comment {
+	margin-bottom: 30rpx;
 	display: flex;
 	padding: 10rpx 0 0 10rpx;
 	.left {

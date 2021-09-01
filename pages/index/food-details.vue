@@ -55,7 +55,7 @@
 			:border="false"
 			:head-border-bottom="false">
 				<view slot="body">
-					<u-swiper :list="food.image" mode="none" :effect3d="true" effect3d-previous-margin="70" duration="1000"></u-swiper>
+					<u-swiper :list="food.image" mode="none" :effect3d="true" effect3d-previous-margin="40" duration="1000"></u-swiper>
 				</view>
 			</u-card>
 		</view>
@@ -95,9 +95,8 @@
 </template>
 
 <script>
-	import previewImage from '@/components/kxj-previewImage/kxj-previewImage.vue';
 	import shortComment from '../../components/short-comment/short-comment.vue';
-	import disCuss from '../../components/discuss/discuss.vue'
+	import disCuss from '../../components/discuss/discuss.vue';
 	export default {
 		data() {
 			return {
@@ -131,7 +130,7 @@
 							"type": 1
 						},
 						{
-							"id": 5,
+							"id": 4,
 							"user": 1,
 							"user_nick_name": "你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -144,7 +143,7 @@
 							"type": 1
 						},
 						{
-							"id": 5,
+							"id": 3,
 							"user": 1,
 							"user_nick_name": "你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -157,7 +156,7 @@
 							"type": 1
 						},
 						{
-							"id": 5,
+							"id": -1,
 							"user": 1,
 							"user_nick_name": "你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -170,7 +169,7 @@
 							"type": 1
 						},
 						{
-							"id": 5,
+							"id": 1,
 							"user": 1,
 							"user_nick_name": "你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -187,13 +186,13 @@
 						{
 							  "id": 2,
 							  "user_nick_name": "哈哈",
-							  "user_head_portrait": "2233",
-							  "title": "哈哈哈哈",
+							  "user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
+							  "title": "哈哈哈哈还不好不好不好不好不好不好v不会v好就南京南京不好不好vv",
 							  "comment_number": 3
 						},
 						  {
 							  "id": 1,
-							  "user_nick_name": "你好",
+							  "user_nick_name": "你好好久不",
 							  "user_head_portrait": "123456",
 							  "title": "真的可以吃吗",
 							  "comment_number": 0
@@ -215,7 +214,6 @@
 			}
 		},
 		components:{
-			previewImage,
 			shortComment
 		}
 	}
