@@ -38,7 +38,7 @@
 	}
 	.left {
 		.comment-num {
-			margin-top: -5rpx;
+			margin-top: -20rpx;
 			text {
 				margin-left: 21rpx;
 				color: #b8b8b8;

@@ -49,7 +49,6 @@
 
 <style lang="scss" scoped>
 .comment {
-	margin-bottom: 30rpx;
 	display: flex;
 	padding: 10rpx 0 0 10rpx;
 	.left {
@@ -91,7 +90,8 @@
 			}
 		}
 		.content {
-			margin-bottom: 10rpx;
+			font-size: 26rpx;
+			margin-bottom: 30rpx;
 		}
 		.score-time {
 			display: flex;

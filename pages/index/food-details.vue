@@ -290,10 +290,10 @@
 		display: flex;
 	}
 	.short-comment{
-		font-size: 25rpx;
 		margin-left: -30rpx;
 	}
 	.short-comment-foot {
+		font-size: 10rpx;
 		position: relative;
 		.short-comment-foot-arrow {
 			position: absolute;
@@ -302,10 +302,10 @@
 		}
 	}
 	.discuss{
-		font-size: 25rpx;
 		margin-left: -30rpx;
 	}
 	.discuss-foot{
+		font-size: 10rpx;
 		position: relative;
 		.discuss-foot-arrow {
 			position: absolute;
