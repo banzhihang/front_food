@@ -27,11 +27,12 @@
 							<u-icon name="star" color="#EC9F3A"></u-icon>
 							<text style="font-size: 29rpx;">吃过</text>
 							</u-button>
+							
 							<u-popup v-model="isShowShortCommentEdit" mode="bottom" 
-							length="100%" close-icon-pos="top-left" :closeable="true"
-							close-icon-size="40"
+								length="100%" close-icon-pos="top-left" :closeable="true"
+								close-icon-size="40"
 							>
-							<short-comment-edit></short-comment-edit>
+								<short-comment-edit></short-comment-edit>
 							</u-popup>
 					</view>
 				</view>
@@ -271,6 +272,7 @@
 			getShortCommentNum(num){
 				return "全部"+num+" >"
 			},
+			// 点击吃过按钮
 			eated(){
 				this.isShowShortCommentEdit = true
 			}
