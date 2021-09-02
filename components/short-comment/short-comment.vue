@@ -9,7 +9,7 @@
 					<view>
 						<view class="name">{{ res.user_nick_name }}</view>
 						<view class="score-time">
-							<uni-rate :value="getScore(res.user_score)" size="0.05" allowHalf readonly/>
+							<uni-rate :value="getScore(res.user_score)" size="10" allowHalf readonly/>
 							<text class="time">{{res.add_time}}</text>
 						</view>
 					</view>
@@ -69,7 +69,7 @@
 			align-items: center;
 			margin-bottom: 10rpx;
 			.name {
-				font-size: 8rpx;
+				font-size: 25rpx;
 				color: #5677fc;
 			}
 			.like {
@@ -90,7 +90,7 @@
 			}
 		}
 		.content {
-			font-size: 26rpx;
+			font-size: 28rpx;
 			margin-bottom: 30rpx;
 		}
 		.score-time {
@@ -98,7 +98,7 @@
 			.time {
 				margin-top: -7rpx;
 				margin-left: 15rpx;
-				font-size: 1rpx;
+				font-size: 20rpx;
 			}
 		}
 	}

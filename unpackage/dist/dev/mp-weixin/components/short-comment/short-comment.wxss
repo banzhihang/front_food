@@ -56,7 +56,7 @@
   margin-bottom: 10rpx;
 }
 .comment .right .top .name.data-v-2fbbad3c {
-  font-size: 8rpx;
+  font-size: 25rpx;
   color: #5677fc;
 }
 .comment .right .top .like.data-v-2fbbad3c {
@@ -80,7 +80,8 @@
   color: #5677fc;
 }
 .comment .right .content.data-v-2fbbad3c {
-  margin-bottom: 10rpx;
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
 }
 .comment .right .score-time.data-v-2fbbad3c {
   display: -webkit-box;
@@ -90,6 +91,6 @@
 .comment .right .score-time .time.data-v-2fbbad3c {
   margin-top: -7rpx;
   margin-left: 15rpx;
-  font-size: 1rpx;
+  font-size: 20rpx;
 }
 

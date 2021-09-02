@@ -38,7 +38,7 @@
 	}
 	.left {
 		.comment-num {
-			margin-top: -20rpx;
+			margin-top: -25rpx;
 			text {
 				margin-left: 21rpx;
 				color: #b8b8b8;
@@ -46,7 +46,7 @@
 		}
 	}
 	.right {
-		margin-top: 10rpx;
+		margin-top: 6rpx;
 		margin-left: 20rpx;
 		.discuss-title {
 			font-size: 30rpx;
@@ -61,7 +61,7 @@
 				background-color: #c1bec3;
 			}
 			view{
-				font-size: 5rpx;
+				font-size: 23rpx;
 				margin-left: 10rpx;
 				margin-top: -5rpx;
 			}

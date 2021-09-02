@@ -2,10 +2,14 @@
   "navigationBarTitleText": "美食详情",
   "enablePullDownRefresh": false,
   "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-button": "/uview-ui/components/u-button/u-button",
     "u-card": "/uview-ui/components/u-card/u-card",
     "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
     "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
     "short-comment": "/components/short-comment/short-comment",
-    "discuss": "/components/discuss/discuss"
+    "discuss": "/components/discuss/discuss",
+    "dis-cuss": "/components/discuss/discuss"
   }
 }
