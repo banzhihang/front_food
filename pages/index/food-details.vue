@@ -73,7 +73,7 @@
 				<view slot="head" class="photo-head">
 					<u-icon name="https://hotschool.ltd/photo.png" color="#1a56b4" size="32" style="margin-right: 10rpx;"></u-icon>
 					<text style="margin-top: -46rpx;display: block;margin-left: 40rpx;">图片</text>
-					<text class="photo-head-right" style="margin-top: -4rpx;" @click="isShowAllPhoto=true">查看全部 ></text>
+					<text class="photo-head-right" style="margin-top: -4rpx;" @click="isShowAllPhoto=true">全部{{photoNum}} ></text>
 					<u-popup v-model="isShowAllPhoto" mode="bottom"
 						length="100%" close-icon-pos="top-left" :closeable="true"
 						close-icon-size="30"
@@ -140,6 +140,7 @@
 	export default {
 		data() {
 			return {
+				photoNum:6,
 				// 控制全部照片页面是否显示
 				isShowAllPhoto: false,
 				// 控制打分界面的弹出

@@ -339,6 +339,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 {
   data: function data() {
     return {
+      photoNum: 6,
       // 控制全部照片页面是否显示
       isShowAllPhoto: false,
       // 控制打分界面的弹出
