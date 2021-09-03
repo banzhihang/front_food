@@ -65,7 +65,7 @@
 	.rate {
 		position: absolute;
 		top:250rpx;
-		right: 470rpx;
+		right: 480rpx;
 		width: 100rpx;
 	}
 	.rate-text {

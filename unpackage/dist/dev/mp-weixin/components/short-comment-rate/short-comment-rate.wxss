@@ -37,7 +37,7 @@
 .box .rate.data-v-09e54c64 {
   position: absolute;
   top: 250rpx;
-  right: 470rpx;
+  right: 480rpx;
   width: 100rpx;
 }
 .box .rate-text.data-v-09e54c64 {
