@@ -6,12 +6,13 @@
     "u-button": "/uview-ui/components/u-button/u-button",
     "u-popup": "/uview-ui/components/u-popup/u-popup",
     "u-card": "/uview-ui/components/u-card/u-card",
-    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
-    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "food-rate": "/components/food-rate/food-rate",
+    "photo-list": "/components/photo-list/photo-list",
     "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
     "short-comment": "/components/short-comment/short-comment",
     "discuss": "/components/discuss/discuss",
     "dis-cuss": "/components/discuss/discuss",
-    "short-comment-edit": "/components/short-comment-rate"
+    "short-comment-edit": "/components/short-comment-rate/short-comment-rate",
+    "all-photo": "/components/photo-list/photo-list"
   }
 }

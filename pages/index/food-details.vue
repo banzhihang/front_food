@@ -2,16 +2,16 @@
 	<view class="content">
 		<view class="header">
 			<view class="food-picture uni-thumb">
-				<image :src="food.first_image" mode="aspectFill"></image>
+				<image :src="food.first_image" mode="aspectFill" ></image>
 			</view>
 			<view>
 				<text class="food-name">{{food.foodName}}</text>
 				<view class="food-time">
-					<u-icon name="clock-fill" class="food-time-img"></u-icon>
+					<u-icon name="clock" class="food-time-img" color="#1a56b4" size="25"></u-icon>
 					<text>{{food.add_time}}</text>
 				</view>
 				<view class="food-address">
-					<u-icon name="map-fill" class="food-address-img"></u-icon>
+					<u-icon name="map" class="food-address-img" color="#1a56b4" size="26"></u-icon>
 					<text>{{food.address}}</text>
 				</view>
 				<view class="food-want-eated">
@@ -41,67 +41,46 @@
 		<view class="score">
 			<u-card title="吃小猪评分" 
 			style="background: rgba(0,0,0,0.02);"
-			:sub-title="food.vote_number"
-			thumb="../../static/icon/score.png"
-			thumb-width="30"
-			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx">
+			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx"
+			>
+				<view slot="head" class="score-head">
+					<u-icon name="https://hotschool.ltd/score.png" color="#1a56b4" size="38" style="margin-right: 10rpx;"></u-icon>
+					<text style="margin-top: -46rpx;display: block;margin-left: 40rpx;">吃小猪评分</text>
+					<text class="score-head-right" style="margin-top: -4rpx;">{{food.vote_number}}人评分</text>
+				</view>
 				<view slot="body" class="score-body">
-				<view class="score-text">
-					<text >{{food.score}}</text>
-					<uni-rate :value="getScore(food.score)" size="17" allowHalf readonly color="#d7d5da" activeColor="#EC9F3A"/>
-				</view> 
-				<view class="score-rate">
-					<uni-rate value="0" size="13" max="5" allowHalf readonly color="#d7d5da" activeColor="#EC9F3A"/>
-					<uni-rate value="0" size="13" max="4" allowHalf readonly color="#d7d5da" activeColor="#EC9F3A"/>				
-					<uni-rate value="0" size="13" max="3" allowHalf readonly color="#d7d5da" activeColor="#EC9F3A"/>				
-					<uni-rate value="0" size="13" max="2" allowHalf readonly color="#d7d5da" activeColor="#EC9F3A"/>				
-					<uni-rate value="0" size="13" max="1" allowHalf readonly color="#d7d5da" activeColor="#EC9F3A"/>					
-				</view>
-				<view class="score-progress">
-					<view style="height: 28rpx;">
-						<u-line-progress active-color="#EC9F3A" :percent="food.rate[0]" :show-percent="false" height="6"
-							class="progress" ></u-line-progress>
-					</view>
-					<view style="height: 28rpx;">
-						<u-line-progress active-color="#EC9F3A" :percent="food.rate[1]" :show-percent="false" height="6"
-							class="progress" ></u-line-progress>
-					</view>
-					<view style="height: 25rpx;">
-						<u-line-progress active-color="#EC9F3A" :percent="food.rate[2]" :show-percent="false" height="6"
-							class="progress" ></u-line-progress>
-					</view>
-					<view style="height: 28rpx;">
-						<u-line-progress active-color="#EC9F3A" :percent="food.rate[3]" :show-percent="false" height="6"
-							class="progress" ></u-line-progress>
-					</view>
-					<view style="height: 25rpx;">
-						<u-line-progress active-color="#EC9F3A" :percent="food.rate[4]" :show-percent="false" height="6"
-							class="progress" ></u-line-progress>
-					</view>
-
-				</view>
-			</view>	
+					<food-rate :foodRate="food.rate_score"></food-rate>
+				</view>	
 			</u-card>
 		</view>
 		<view class="desc">
 			<u-card title="简介"
-			thumb="../../static/icon/abstract.png"
-			thumb-width="33"
 			:border="false"
 			:head-border-bottom="false">
-				<view slot="body">
+				<view slot="head" class="desc-head">
+					<u-icon name="https://hotschool.ltd/brief.png" color="#1a56b4" size="30" style="margin-right: 10rpx;"></u-icon>
+					<text style="margin-top: -44rpx;display: block;margin-left: 40rpx;">简介</text>
+				</view>
+				<view slot="body" class="desc-body">
 					<text>{{food.desc}}</text>
 				</view>
-			</u-card>
-			   
+			</u-card> 
 		</view>
 		<view class="food-photo">
 			<u-card title="图片" 
-			sub-title="查看全部"
-			thumb="../../static/icon/picture.png"
-			thumb-width="33"
 			:border="false"
 			:head-border-bottom="false">
+				<view slot="head" class="photo-head">
+					<u-icon name="https://hotschool.ltd/photo.png" color="#1a56b4" size="32" style="margin-right: 10rpx;"></u-icon>
+					<text style="margin-top: -46rpx;display: block;margin-left: 40rpx;">图片</text>
+					<text class="photo-head-right" style="margin-top: -4rpx;" @click="isShowAllPhoto=true">查看全部 ></text>
+					<u-popup v-model="isShowAllPhoto" mode="bottom"
+						length="100%" close-icon-pos="top-left" :closeable="true"
+						close-icon-size="30"
+					>
+						<photo-list :photoId="food.id"></photo-list>
+					</u-popup>
+				</view>
 				<view slot="body">
 					<u-swiper :list="food.image" mode="none" :effect3d="true" effect3d-previous-margin="40" duration="1000"></u-swiper>
 				</view>
@@ -110,17 +89,19 @@
 		<view class="short-comment">
 			<u-card title="短评" 
 			style="background: rgba(0,0,0,0.02);"
-			:sub-title="getShortCommentNum(food.short_comment_number)"
-			thumb="../../static/icon/short-comment.png"
-			thumb-width="30"
 			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx"
-			>
+			>	
+				<view slot="head" class="comment-head">
+					<u-icon name="https://hotschool.ltd/short-comment.png" color="#1a56b4" size="30" style="margin-right: 10rpx;"></u-icon>
+					<text style="margin-top: -48rpx;display: block;margin-left: 40rpx;">短评</text>
+					<text class="comment-head-right" style="margin-top: -9rpx;">{{getShortCommentNum(food.short_comment_number)}}</text>
+				</view>
 				<view slot="body"> 
 					<short-comment :shortCommentList="food.short_comment"></short-comment>
 				</view>
 				<view slot="foot" class="short-comment-foot">
-					<text>查看全部{{food.short_comment_number}}条短评</text>
-					<text class="short-comment-foot-arrow">></text>
+					<text style="color: #000000;">查看全部{{food.short_comment_number}}条短评</text>
+					<text  style="color: #000000;" class="short-comment-foot-arrow">></text>
 				</view>
 			</u-card>
 		</view>
@@ -128,16 +109,21 @@
 			<u-card title="讨论"
 			style="background: rgba(0,0,0,0.02);"
 			:sub-title="getShortCommentNum(food.discuss_number)"
-			thumb="../../static/icon/discuss.png"
+			thumb="https://hotschool.ltd/discuss.png"
 			thumb-width="30"
 			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 3rpx 3rpx"
 			>
+				<view slot="head" class="discuss-head">
+					<u-icon name="https://hotschool.ltd/discuss.png" color="#1a56b4" size="35" style="margin-right: 10rpx;"></u-icon>
+					<text style="margin-top: -48rpx;display: block;margin-left: 40rpx;">讨论</text>
+					<text class="discuss-head-right" style="margin-top: -7rpx;">{{getDiscussNum(food.short_comment_number)}}</text>
+				</view>
 				<view slot="body">
 					<discuss :dissCussList="food.discuss"></discuss>
 				</view>
 				<view slot="foot" class="discuss-foot">
-					<text>查看全部{{food.discuss_number}}个讨论</text>
-					<text class="discuss-foot-arrow">></text>
+					<text style="color: #000000;" >查看全部{{food.discuss_number}}个讨论</text>
+					<text style="color: #000000;" class="discuss-foot-arrow">></text>
 				</view>
 			</u-card>
 		</view>
@@ -147,11 +133,15 @@
 <script>
 	import shortComment from 'components/short-comment/short-comment.vue';
 	import disCuss from 'components/discuss/discuss.vue';
-	import shortCommentEdit from '../../components/short-comment-rate.vue'
+	import shortCommentEdit from '../../components/short-comment-rate/short-comment-rate.vue';
+	import foodRate from '../../components/food-rate/food-rate.vue';
+	import allPhoto from '../../components/photo-list/photo-list.vue';
 	
 	export default {
 		data() {
 			return {
+				// 控制全部照片页面是否显示
+				isShowAllPhoto: false,
 				// 控制打分界面的弹出
 				isShowShortCommentEdit:false,
 				customStyle: {
@@ -160,12 +150,12 @@
 					color: '#000000',
 				},
 				food :{
+					id:1,
 					first_image:"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
 					foodName:"青椒肉丝",
 					address:"田坝街天财路你家那就是不断进步",
 					add_time:"2020-12-11",
-					vote_number:"3000人评分",
-					score:5.9,
+					vote_number:"3000",
 					desc:"这个非常不错！炒鸡好吃哈哈碚的胡说八道还是不胡说八道好几遍世界的变化就是v大概就是v大家还是博大精深博大精深v不到v过山车时光和vv先公后私v",
 					image:[
 						"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
@@ -174,7 +164,10 @@
 					],
 					short_comment_number:962,
 					discuss_number:100,
-					rate:[10,20,30,10,30],
+					rate_score:{
+						score:5.9,
+						rate:[10,20,30,10,30]
+					},
 					short_comment:[
 						{
 							"id": 5,
@@ -262,6 +255,7 @@
 			};
 		},
 		methods:{
+			// 获得星星显示数量
 			getScore(score) {
 				if (score !== null) {
 					return (score/2).toFixed(1)
@@ -269,9 +263,15 @@
 					return 'zaneu'
 				}
 			},
+			
 			getShortCommentNum(num){
 				return "全部"+num+" >"
 			},
+			
+			getDiscussNum(num){
+				return "全部"+num+" >"
+			},
+			
 			// 点击吃过按钮
 			eated(){
 				this.isShowShortCommentEdit = true
@@ -280,7 +280,9 @@
 		components:{
 			shortComment,
 			disCuss,
-			shortCommentEdit
+			shortCommentEdit,
+			foodRate,
+			allPhoto,
 		}
 	}
 </script>
@@ -299,7 +301,7 @@
 		}
 		
 		.food-name{
-			font-size: 38rpx;
+			font-size: 36rpx;
 		}
 		
 		.food-address {
@@ -307,20 +309,18 @@
 			color: #696a6c;
 			font-size: 25rpx;
 			width: 500rpx;
-			.food-address-img {
-				height: 23rpx;
-				width: 26rpx;
+			text {
+				margin-left: 5rpx;
 			}
+			
 		}	
 		
 		.food-time {
 			margin-top: 10rpx;
 			color: #696a6c;
 			font-size: 25rpx;
-			.food-time-img {
-				margin-right: 5rpx;
-				height: 23rpx;
-				width: 26rpx;
+			text {
+				margin-left: 5rpx;
 			}
 		}
 		
@@ -347,49 +347,54 @@
 			}
 		}
 	}
+	
 	.score {
 		margin-top: 30rpx;
 		font-size: 25rpx;
 		margin-left: -30rpx;
-		.score-body {
-			display: flex;
-			.score-text {
-				text-align: center;
-				font-size: 40rpx;
-				margin-top: 10rpx;
-				margin-left: 60rpx;
-			}
-			.score-rate{
-				margin-top: 0rpx;
-				text-align: center;
-				margin-left: 20rpx;
-				width: 150rpx;
-				/deep/ .uni-rate {
-					justify-content: flex-end;
-				 }
-				}
-			}
-			.score-progress {
-				margin-top: -17rpx;
-				margin-left: 20rpx;
-				width: 200rpx;
-				
+		.score-head {
+			position: relative;
+			.score-head-right {
+				position: absolute;
+				right: 0;
+				top: 0;
 			}
 		}
-	
+	}
 	.desc{
 		font-size: 25rpx;
 		margin-left: -30rpx;
+		.desc-body {
+			margin-top: -40rpx;
+		}
 	}
 	.food-photo{
 		font-size: 25rpx;
 		margin-left: -30rpx;
+		.photo-head {
+			position: relative;
+			.photo-head-right {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
+		
 	}
 	.food-address-photo-ing {
 		display: flex;
 	}
 	.short-comment{
 		margin-left: -30rpx;
+		.comment-head {
+			margin-bottom: -10rpx;
+			position: relative;
+			.comment-head-right {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
 	}
 	.short-comment-foot {
 		font-size: 25rpx;
@@ -402,6 +407,15 @@
 	}
 	.discuss{
 		margin-left: -30rpx;
+		.discuss-head {
+			margin-bottom: -10rpx;
+			position: relative;
+			.discuss-head-right {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
 	}
 	.discuss-foot{
 		font-size: 25rpx;

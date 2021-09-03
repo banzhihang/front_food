@@ -35,14 +35,14 @@
 }
 .left .comment-num text.data-v-450927c6 {
   margin-left: 21rpx;
-  color: #b8b8b8;
+  color: #838184;
 }
 .right.data-v-450927c6 {
-  margin-top: 6rpx;
+  margin-top: 5rpx;
   margin-left: 20rpx;
 }
 .right .discuss-title.data-v-450927c6 {
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 .right .user.data-v-450927c6 {
   display: -webkit-box;

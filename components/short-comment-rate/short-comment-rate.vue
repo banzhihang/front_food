@@ -11,7 +11,7 @@
 			gutter='15' min-count='1' v-model='rateNum' @change="rateChange"></u-rate>
 		</view>
 		<view class="short-comment" >
-			<textarea placeholder="说说你吃过之后的感受吧..." style="height: 800rpx;" 
+			<textarea placeholder="说说你吃过之后的感受吧..." style="height: 800rpx;color: #e4e4e4;" 
 			placeholder-style="font-size: 30rpx;" :adjust-position="false"
 			:disable-default-padding="true"></textarea>
 		</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load"
+  },
+  "component": true
+}

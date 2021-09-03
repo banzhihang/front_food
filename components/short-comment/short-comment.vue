@@ -9,7 +9,7 @@
 					<view>
 						<view class="name">{{ res.user_nick_name }}</view>
 						<view class="score-time">
-							<uni-rate :value="getScore(res.user_score)" size="10" allowHalf readonly/>
+							<uni-rate :value="getScore(res.user_score)" size="10" allowHalf readonly active-color='#EC9F3A'/>
 							<text class="time">{{res.add_time}}</text>
 						</view>
 					</view>
@@ -17,7 +17,7 @@
 						<view>{{res.approval_number}}</view>
 						<view class="num">{{ res.likeNum }}</view>
 						<u-icon v-if="!getIsApproval(res.is_approval)" name="thumb-up" :size="30" color="#9a9a9a" @click="getLike(index)"></u-icon>
-						<u-icon v-if="getIsApproval(res.is_approval)" name="thumb-up-fill" :size="30" @click="getLike(index)"></u-icon>
+						<u-icon v-if="getIsApproval(res.is_approval)" name="thumb-up" :size="30" @click="getLike(index)" color="#1a56b4" ></u-icon>
 					</view>
 				</view>
 				<view class="content">{{ res.content }}</view>
@@ -70,7 +70,7 @@
 			margin-bottom: 10rpx;
 			.name {
 				font-size: 25rpx;
-				color: #5677fc;
+				color: #000000;
 			}
 			.like {
 				display: flex;
@@ -83,9 +83,9 @@
 				}
 			}
 			.highlight {
-				color: #5677fc;
+				color: #1a56b4;
 				.num {
-					color: #5677fc;
+					color: #1a56b4;
 				}
 			}
 		}

@@ -41,15 +41,16 @@
 			margin-top: -25rpx;
 			text {
 				margin-left: 21rpx;
-				color: #b8b8b8;
+				color: #838184;
 			}
 		}
 	}
 	.right {
-		margin-top: 6rpx;
+		margin-top: 5rpx;
 		margin-left: 20rpx;
 		.discuss-title {
-			font-size: 30rpx;
+			font-size: 28rpx;
+			
 		}
 		.user{
 			display: flex;

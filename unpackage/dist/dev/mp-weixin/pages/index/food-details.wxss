@@ -156,7 +156,7 @@
   width: 194rpx;
 }
 .header .food-name.data-v-4227a229 {
-  font-size: 38rpx;
+  font-size: 36rpx;
 }
 .header .food-address.data-v-4227a229 {
   margin-top: 5rpx;
@@ -164,19 +164,16 @@
   font-size: 25rpx;
   width: 500rpx;
 }
-.header .food-address .food-address-img.data-v-4227a229 {
-  height: 23rpx;
-  width: 26rpx;
+.header .food-address text.data-v-4227a229 {
+  margin-left: 5rpx;
 }
 .header .food-time.data-v-4227a229 {
   margin-top: 10rpx;
   color: #696a6c;
   font-size: 25rpx;
 }
-.header .food-time .food-time-img.data-v-4227a229 {
-  margin-right: 5rpx;
-  height: 23rpx;
-  width: 26rpx;
+.header .food-time text.data-v-4227a229 {
+  margin-left: 5rpx;
 }
 .header .food-want-eated.data-v-4227a229 {
   display: -webkit-box;
@@ -207,40 +204,32 @@
   font-size: 25rpx;
   margin-left: -30rpx;
 }
-.score .score-body.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
+.score .score-head.data-v-4227a229 {
+  position: relative;
 }
-.score .score-body .score-text.data-v-4227a229 {
-  text-align: center;
-  font-size: 40rpx;
-  margin-top: 10rpx;
-  margin-left: 60rpx;
-}
-.score .score-body .score-rate.data-v-4227a229 {
-  margin-top: 0rpx;
-  text-align: center;
-  margin-left: 20rpx;
-  width: 150rpx;
-}
-.score .score-body .score-rate.data-v-4227a229 .uni-rate {
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-          justify-content: flex-end;
-}
-.score .score-progress.data-v-4227a229 {
-  margin-top: -17rpx;
-  margin-left: 20rpx;
-  width: 200rpx;
+.score .score-head .score-head-right.data-v-4227a229 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .desc.data-v-4227a229 {
   font-size: 25rpx;
   margin-left: -30rpx;
 }
+.desc .desc-body.data-v-4227a229 {
+  margin-top: -40rpx;
+}
 .food-photo.data-v-4227a229 {
   font-size: 25rpx;
   margin-left: -30rpx;
+}
+.food-photo .photo-head.data-v-4227a229 {
+  position: relative;
+}
+.food-photo .photo-head .photo-head-right.data-v-4227a229 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .food-address-photo-ing.data-v-4227a229 {
   display: -webkit-box;
@@ -249,6 +238,15 @@
 }
 .short-comment.data-v-4227a229 {
   margin-left: -30rpx;
+}
+.short-comment .comment-head.data-v-4227a229 {
+  margin-bottom: -10rpx;
+  position: relative;
+}
+.short-comment .comment-head .comment-head-right.data-v-4227a229 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .short-comment-foot.data-v-4227a229 {
   font-size: 25rpx;
@@ -261,6 +259,15 @@
 }
 .discuss.data-v-4227a229 {
   margin-left: -30rpx;
+}
+.discuss .discuss-head.data-v-4227a229 {
+  margin-bottom: -10rpx;
+  position: relative;
+}
+.discuss .discuss-head .discuss-head-right.data-v-4227a229 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .discuss-foot.data-v-4227a229 {
   font-size: 25rpx;
