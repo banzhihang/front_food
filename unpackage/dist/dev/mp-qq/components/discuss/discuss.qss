@@ -25,24 +25,31 @@
 /* 透明度 */
 /* 文章场景相关 */
 .box.data-v-450927c6 {
+  margin-top: -10rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  margin-bottom: 30rpx;
+  position: relative;
+  margin-bottom: 80rpx;
+}
+.box .bottom-line.data-v-450927c6 {
+  position: absolute;
+  bottom: -40rpx;
+  left: -30rpx;
 }
 .left .comment-num.data-v-450927c6 {
   margin-top: -25rpx;
 }
 .left .comment-num text.data-v-450927c6 {
   margin-left: 21rpx;
-  color: #b8b8b8;
+  color: #838184;
 }
 .right.data-v-450927c6 {
-  margin-top: 6rpx;
+  margin-top: 5rpx;
   margin-left: 20rpx;
 }
 .right .discuss-title.data-v-450927c6 {
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 .right .user.data-v-450927c6 {
   display: -webkit-box;
@@ -60,5 +67,10 @@
   font-size: 23rpx;
   margin-left: 10rpx;
   margin-top: -5rpx;
+}
+.right .bottom-line.data-v-450927c6 {
+  margin-left: -70rpx;
+  margin-bottom: 40rpx;
+  margin-top: 40rpx;
 }
 

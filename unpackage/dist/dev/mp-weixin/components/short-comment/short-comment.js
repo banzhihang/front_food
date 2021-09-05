@@ -80,10 +80,13 @@ var components
 try {
   components = {
     uniRate: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/uni-rate/components/uni-rate/uni-rate */ "uni_modules/uni-rate/components/uni-rate/uni-rate").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-rate/components/uni-rate/uni-rate.vue */ 195))
+      return __webpack_require__.e(/*! import() | uni_modules/uni-rate/components/uni-rate/uni-rate */ "uni_modules/uni-rate/components/uni-rate/uni-rate").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-rate/components/uni-rate/uni-rate.vue */ 202))
     },
     uIcon: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 125))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 118))
+    },
+    uLine: function() {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-line/u-line */ "uview-ui/components/u-line/u-line").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-line/u-line.vue */ 252))
     }
   }
 } catch (e) {
@@ -110,16 +113,14 @@ var render = function() {
   var l0 = _vm.__map(_vm.shortCommentList, function(res, __i0__) {
     var $orig = _vm.__get_orig(res)
 
-    var m0 = _vm.getScore(res.user_score)
+    var m0 = _vm.getIsApproval(res.is_approval)
     var m1 = _vm.getIsApproval(res.is_approval)
     var m2 = _vm.getIsApproval(res.is_approval)
-    var m3 = _vm.getIsApproval(res.is_approval)
     return {
       $orig: $orig,
       m0: m0,
       m1: m1,
-      m2: m2,
-      m3: m3
+      m2: m2
     }
   })
 
@@ -165,6 +166,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
 //
 //
 //

@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/self/self",
     "pages/list/list",
-    "pages/index/food-details"
+    "pages/index/food-details",
+    "pages/discuss-info/discuss-info"
   ],
   "subPackages": [],
   "window": {
@@ -13,7 +14,7 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
-    "selectedColor": "#41BD55",
+    "selectedColor": "#1a56b4",
     "list": [
       {
         "text": "吃",
@@ -29,6 +30,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

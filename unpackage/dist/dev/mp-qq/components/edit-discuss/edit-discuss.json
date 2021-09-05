@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "jin-edit": "/components/jin-edit/jin-edit"
+  }
+}

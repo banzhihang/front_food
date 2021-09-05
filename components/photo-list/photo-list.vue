@@ -13,7 +13,7 @@
 
 <script>
 	export default {
-		props: ['photoId'],
+		props: ['foodId'],
 		name:"photo-list",
 		data() {
 			return {
@@ -70,8 +70,8 @@
 	position: relative;
 	.photo-num {
 		position: absolute;
-		left: 80rpx;
-		top:30rpx
+		left: 60rpx;
+		top:29rpx
 	}
 	.photo-box {
 		position: absolute;

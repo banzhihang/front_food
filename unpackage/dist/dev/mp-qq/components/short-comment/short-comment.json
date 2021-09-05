@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
-    "u-icon": "/uview-ui/components/u-icon/u-icon"
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-line": "/uview-ui/components/u-line/u-line"
   },
   "component": true
 }

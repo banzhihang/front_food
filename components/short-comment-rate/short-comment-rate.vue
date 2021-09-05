@@ -1,19 +1,19 @@
 <template>
 	<view class="box">
 		<view class="btn">
-			<u-button type="warning">确定</u-button>
+			<u-button type="warning" :ripple="true" ripple-bg-color="rgba(0,0,0,0.2)">确定</u-button>
 		</view>
 		<view class="rate-text">
 			<text>{{rateText}}</text>
 		</view>
 		<view class="rate">
-			<u-rate size='70' active-color='#EC9F3A' inactive-color='#d7d5da' 
+			<u-rate size='70' active-color='#EC9F3A' inactive-color='#b4b7c1' 
 			gutter='15' min-count='1' v-model='rateNum' @change="rateChange"></u-rate>
 		</view>
 		<view class="short-comment" >
-			<textarea placeholder="说说你吃过之后的感受吧..." style="height: 800rpx;color: #e4e4e4;" 
-			placeholder-style="font-size: 30rpx;" :adjust-position="false"
-			:disable-default-padding="true"></textarea>
+			<u-input type="textarea"
+			:clearable="false" placeholder="说说你吃过之后的感受吧..." placeholder-style="font-size: 30rpx;color:#bfbac2"
+			:auto-height="true" maxlength='10000' :border="true" height="250" border-color="#f7faff"/>
 		</view>
 	</view>
 </template>
@@ -74,22 +74,17 @@
 		right: 20rpx;
 		width: 750rpx;
 		text-align: center;
-		color: #c4c6cb;
+		color: #b4b7c1;
 		font-size: 25rpx;
 		padding-left: 55rpx;
 	}
 	.short-comment {
 		color: #000000;
-		padding: 20rpx;
 		display: inline-block;
-		left: 25rpx;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #f0f4ff;
+		left: 50rpx;
 		position: absolute;
 		top:400rpx;
-		width: 700rpx;
-		
+		width: 650rpx;
 	}
 }
 </style>

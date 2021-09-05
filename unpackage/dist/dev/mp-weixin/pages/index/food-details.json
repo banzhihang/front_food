@@ -10,7 +10,9 @@
     "photo-list": "/components/photo-list/photo-list",
     "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
     "short-comment": "/components/short-comment/short-comment",
+    "all-short-comment": "/components/all-short-comment/all-short-comment",
     "discuss": "/components/discuss/discuss",
+    "all-discuss": "/components/all-discuss/all-discuss",
     "dis-cuss": "/components/discuss/discuss",
     "short-comment-edit": "/components/short-comment-rate/short-comment-rate",
     "all-photo": "/components/photo-list/photo-list"

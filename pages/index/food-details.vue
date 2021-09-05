@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="content u-skeleton">
 		<view class="header">
 			<view class="food-picture uni-thumb">
 				<image :src="food.first_image" mode="aspectFill" ></image>
@@ -16,14 +16,15 @@
 				</view>
 				<view class="food-want-eated">
 					<view class="food-want">
-						<u-button type="default" :plain="true" :custom-style="customStyle" :hair-line="false">
+						<u-button type="default" :plain="true" :custom-style="customStyle" 
+						:hair-line="false" :ripple="true" ripple-bg-color="rgba(236,159,58,0.5)">
 							<u-icon name="bookmark" color="#EC9F3A"></u-icon>
 							<text style="font-size: 29rpx;">想吃</text>
 							</u-button>
 					</view>
 					<view class="food-eated" >
 						<u-button type="default" :plain="true" :custom-style="customStyle" 
-						:hair-line="false" @click="eated()">
+						:hair-line="false" @click="isShowShortCommentEdit=true" :ripple="true" ripple-bg-color="rgba(236,159,58,0.5)">
 							<u-icon name="star" color="#EC9F3A"></u-icon>
 							<text style="font-size: 29rpx;">吃过</text>
 							</u-button>
@@ -42,10 +43,11 @@
 			<u-card title="吃小猪评分" 
 			style="background: rgba(0,0,0,0.02);"
 			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx"
+			border-radius="20"
 			>
 				<view slot="head" class="score-head">
 					<u-icon name="https://hotschool.ltd/score.png" color="#1a56b4" size="38" style="margin-right: 10rpx;"></u-icon>
-					<text style="margin-top: -46rpx;display: block;margin-left: 40rpx;">吃小猪评分</text>
+					<text style="margin-top: -49rpx;display: block;margin-left: 40rpx;">吃小猪评分</text>
 					<text class="score-head-right" style="margin-top: -4rpx;">{{food.vote_number}}人评分</text>
 				</view>
 				<view slot="body" class="score-body">
@@ -78,7 +80,7 @@
 						length="100%" close-icon-pos="top-left" :closeable="true"
 						close-icon-size="30"
 					>
-						<photo-list :photoId="food.id"></photo-list>
+						<photo-list :foodId="food.id"></photo-list>
 					</u-popup>
 				</view>
 				<view slot="body">
@@ -90,42 +92,61 @@
 			<u-card title="短评" 
 			style="background: rgba(0,0,0,0.02);"
 			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx"
+			:head-border-bottom="false"
+			:foot-border-top="false"
+			border-radius="20"
+			:foot-style="cardStyle"
 			>	
 				<view slot="head" class="comment-head">
 					<u-icon name="https://hotschool.ltd/short-comment.png" color="#1a56b4" size="30" style="margin-right: 10rpx;"></u-icon>
 					<text style="margin-top: -48rpx;display: block;margin-left: 40rpx;">短评</text>
-					<text class="comment-head-right" style="margin-top: -9rpx;">{{getShortCommentNum(food.short_comment_number)}}</text>
+					<text class="comment-head-right" style="margin-top: -9rpx;" @click="isShowAllShortComment=true">{{getShortCommentNum(food.short_comment_number)}}</text>
 				</view>
 				<view slot="body"> 
 					<short-comment :shortCommentList="food.short_comment"></short-comment>
 				</view>
-				<view slot="foot" class="short-comment-foot">
-					<text style="color: #000000;">查看全部{{food.short_comment_number}}条短评</text>
+				<view slot="foot" class="short-comment-foot" @click="isShowAllShortComment=true">
+					<text style="color: #000000;" >查看全部{{food.short_comment_number}}条短评</text>
 					<text  style="color: #000000;" class="short-comment-foot-arrow">></text>
 				</view>
 			</u-card>
+			<u-popup v-model="isShowAllShortComment" mode="bottom"
+				length="100%" close-icon-pos="top-left" :closeable="true"
+				close-icon-size="30"
+			>
+				<all-short-comment :foodId="food.id"></all-short-comment>
+			</u-popup>
 		</view>
 		<view class="discuss">
 			<u-card title="讨论"
 			style="background: rgba(0,0,0,0.02);"
-			:sub-title="getShortCommentNum(food.discuss_number)"
-			thumb="https://hotschool.ltd/discuss.png"
-			thumb-width="30"
 			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 3rpx 3rpx"
+			:head-border-bottom="false"
+			:foot-border-top="false"
+			border-radius="20"
+			:foot-style="cardStyle"
 			>
 				<view slot="head" class="discuss-head">
 					<u-icon name="https://hotschool.ltd/discuss.png" color="#1a56b4" size="35" style="margin-right: 10rpx;"></u-icon>
 					<text style="margin-top: -48rpx;display: block;margin-left: 40rpx;">讨论</text>
-					<text class="discuss-head-right" style="margin-top: -7rpx;">{{getDiscussNum(food.short_comment_number)}}</text>
+					<text class="discuss-head-right" style="margin-top: -7rpx;" @click="isShowAllDiscuss=true">
+					{{getDiscussNum(food.short_comment_number)}}</text>
 				</view>
 				<view slot="body">
 					<discuss :dissCussList="food.discuss"></discuss>
 				</view>
-				<view slot="foot" class="discuss-foot">
-					<text style="color: #000000;" >查看全部{{food.discuss_number}}个讨论</text>
+				<view slot="foot" class="discuss-foot" @click="isShowAllDiscuss=true">
+					<text style="color: #000000;">查看全部{{food.discuss_number}}个讨论</text>
 					<text style="color: #000000;" class="discuss-foot-arrow">></text>
 				</view>
 			</u-card>
+			
+			<u-popup v-model="isShowAllDiscuss" mode="bottom"
+				length="100%" close-icon-pos="top-left" :closeable="true"
+				close-icon-size="30"
+			>
+				<all-discuss :foodId="food.id"></all-discuss>
+			</u-popup>
 		</view>
 	</view>
 </template>
@@ -133,14 +154,19 @@
 <script>
 	import shortComment from 'components/short-comment/short-comment.vue';
 	import disCuss from 'components/discuss/discuss.vue';
-	import shortCommentEdit from '../../components/short-comment-rate/short-comment-rate.vue';
-	import foodRate from '../../components/food-rate/food-rate.vue';
-	import allPhoto from '../../components/photo-list/photo-list.vue';
-	
+	import shortCommentEdit from 'components/short-comment-rate/short-comment-rate.vue';
+	import foodRate from 'components/food-rate/food-rate.vue';
+	import allPhoto from 'components/photo-list/photo-list.vue';
+	import allShortComment from 'components/all-short-comment/all-short-comment.vue';
+	import allDiscuss from '../../components/all-discuss/all-discuss.vue';
+
 	export default {
+		options: { styleIsolation: 'shared' },
 		data() {
 			return {
 				photoNum:6,
+				isShowAllDiscuss:false,
+				isShowAllShortComment:false,
 				// 控制全部照片页面是否显示
 				isShowAllPhoto: false,
 				// 控制打分界面的弹出
@@ -149,6 +175,9 @@
 					borderColor: '#EC9F3A',
 					boxShadow:"rgba(0, 0, 0, 0.05) 1rpx 1rpx 0.5rpx 0.5rpx",
 					color: '#000000',
+				},
+				cardStyle:{
+					padding:"0 25rpx 30rpx 40rpx",
 				},
 				food :{
 					id:1,
@@ -175,7 +204,7 @@
 							"user": 1,
 							"user_nick_name": "你好你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
-							"user_score": 5,
+							"user_score": 4,
 							"is_approval": 0,
 							"content": "是的",
 							"approval_number": 0,
@@ -201,7 +230,7 @@
 							"user": 1,
 							"user_nick_name": "你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
-							"user_score": 5,
+							"user_score": 1,
 							"is_approval": 1,
 							"content": "是的会不会v把vv和v南京南京不好就会v个v结果v个v个v个v个v韩国v规划v韩国v哈哈",
 							"approval_number": 9,
@@ -227,7 +256,7 @@
 							"user": 1,
 							"user_nick_name": "你好",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
-							"user_score": 5,
+							"user_score": 3,
 							"is_approval": 0,
 							"content": "是的会不会v把vv和v南京南京不好就会v个v结果v个v个v个v个v韩国v规划v韩国v哈哈",
 							"approval_number": 100,
@@ -273,10 +302,6 @@
 				return "全部"+num+" >"
 			},
 			
-			// 点击吃过按钮
-			eated(){
-				this.isShowShortCommentEdit = true
-			}
 		},
 		components:{
 			shortComment,
@@ -284,6 +309,8 @@
 			shortCommentEdit,
 			foodRate,
 			allPhoto,
+			allShortComment,
+			allDiscuss,
 		}
 	}
 </script>
@@ -380,6 +407,9 @@
 				top: 0;
 			}
 		}
+		::v-deep .u-icon__icon {
+			left:-15rpx;
+		}
 		
 	}
 	.food-address-photo-ing {
@@ -398,6 +428,7 @@
 		}
 	}
 	.short-comment-foot {
+		margin-top: -30rpx;
 		font-size: 25rpx;
 		position: relative;
 		.short-comment-foot-arrow {
@@ -419,6 +450,7 @@
 		}
 	}
 	.discuss-foot{
+		margin-top: -40rpx;
 		font-size: 25rpx;
 		position: relative;
 		.discuss-foot-arrow {

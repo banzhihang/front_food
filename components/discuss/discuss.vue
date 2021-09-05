@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view v-for="discuss in dissCussList" :key="discuss.id" class="box">
+		<view v-for="discuss in dissCussList" :key="discuss.id" class="box" >
 			<view class="left">
 				<u-icon size="60" name="http://hotschool.ltd/reply.png"></u-icon>
 				<view class="comment-num">
@@ -9,16 +9,21 @@
 					</text>
 				</view>
 			</view>
-			<view class="right">
-				<view class="discuss-title">
-					{{discuss.title}}
-				</view>
-				<view class="user">
-					<image :src="discuss.user_head_portrait" mode="aspectFill"></image>
-					<view>
-						<text>{{discuss.user_nick_name}}</text>
+			<navigator hover-class="none" url="../../pages/discuss-info/discuss-info">
+				<view class="right">
+					<view class="discuss-title">
+						{{discuss.title}}
+					</view>
+					<view class="user">
+						<image :src="discuss.user_head_portrait" mode="aspectFill"></image>
+						<view>
+							<text>{{discuss.user_nick_name}}</text>
+						</view>
 					</view>
 				</view>
+			</navigator>
+			<view class="bottom-line">
+				<u-line color="#e0dde3" length="800rpx"/>
 			</view>
 		</view>
 	</view>
@@ -33,8 +38,16 @@
 
 <style lang="scss" scoped>
 	.box {
+		margin-top: -10rpx;
 		display: flex;
-		margin-bottom: 30rpx;
+		position: relative;
+		margin-bottom: 80rpx;
+		.bottom-line {
+			position: absolute;
+			bottom:-40rpx;
+			left: -30rpx;
+		}
+	
 	}
 	.left {
 		.comment-num {
@@ -66,6 +79,11 @@
 				margin-left: 10rpx;
 				margin-top: -5rpx;
 			}
+		}
+		.bottom-line {
+			margin-left: -70rpx;
+			margin-bottom: 40rpx;
+			margin-top: 40rpx;
 		}
 	}
 	
