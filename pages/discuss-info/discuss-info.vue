@@ -1,42 +1,42 @@
 <template>
-	<view class="box">
-		<view class="top">
-			<view class="userinfo">
-				<view class="left">
-					<image :src="discussInfo.user_head_portrait" mode="aspectFill"></image>
-				</view>
-				<view class="right">
-					<view>
-						<view class="name">{{ discussInfo.user_nick_name }}</view>
-						<text>发布讨论</text>
+	<view>
+		<view class="box">
+			<view class="top">
+				<view class="userinfo">
+					<view class="left">
+						<image :src="discussInfo.user_head_portrait" mode="aspectFill"></image>
 					</view>
-					<view>
-						<text>{{discussInfo.add_time}}</text>
+					<view class="right">
+						<view>
+							<view class="name">{{ discussInfo.user_nick_name }}</view>
+							<text>发布讨论</text>
+						</view>
+						<view>
+							<text>{{discussInfo.add_time}}</text>
+						</view>
+					</view>
+				</view>
+				<view class="content">
+					<u-parse :html="discussInfo.content"></u-parse>
+				</view>
+			</view>
+			<view class="gap">
+				<u-gap height="18" bg-color="#ebebf2"></u-gap>
+			</view>
+			<view class="mid">
+				<view class="tab">
+					<u-tabs :list="tabList" :is-scroll="false" :current="current" 
+					font-size="30" inactive-color="#b5b5bb" active-color="#585758"></u-tabs>
+					<view class="bottom-line">
+						<u-line color="#e0dde3" length="800rpx"/>
 					</view>
 				</view>
 			</view>
-			<view class="content">
-				<u-parse :html="discussInfo.content"></u-parse>
+			<view class="bottom">
+				<discuss-comment></discuss-comment>
 			</view>
 		</view>
-		<view class="gap">
-			<u-gap height="18" bg-color="#ebebf2"></u-gap>
-		</view>
-		<view class="mid">
-			<view class="tab">
-				<u-tabs :list="tabList" :is-scroll="false" :current="current" 
-				font-size="30" inactive-color="#b5b5bb" active-color="#585758"></u-tabs>
-				<view class="bottom-line">
-					<u-line color="#e0dde3" length="800rpx"/>
-				</view>
-			</view>
-		</view>
-		<view class="bottom">
-			<discuss-comment></discuss-comment>
-		</view>
-		<view class="comment-input">
-			<input-comment-reply :content="评论千万条,评论第一条"></input-comment-reply>
-		</view>
+		<input-comment-reply class="comment-input"></input-comment-reply>
 	</view>
 </template>
 
@@ -75,15 +75,16 @@
 <style lang="scss" scoped>
 .box{
 	margin: 40rpx 25rpx 0 25rpx;
-	position: relative;
-	.comment-input {
-		width: 750rpx;
-		position: fixed;
-		bottom: 0;
-		left: 0;
-	}
+	
 }
-
+.comment-input {
+		height: 80rpx;
+		width: 100%;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+	}
+	
 .top{
 	.userinfo{
 		display: flex;
@@ -127,7 +128,6 @@
 		padding-right: 630rpx;
 		.bottom-line {
 			margin-top: -7rpx;
-			
 		}
 	}
 }

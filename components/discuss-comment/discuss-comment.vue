@@ -41,7 +41,11 @@
 				
 			</view>
 		</view>
-		<u-divider half-width="500" style="margin: 30rpx 0 30rpx 0;">没有更多了</u-divider>
+		
+		<u-divider half-width="500" margin-bottom="200rpx">没有更多了</u-divider>
+		<view>
+			<image></image>
+		</view>
 	</view>
 </template>
 

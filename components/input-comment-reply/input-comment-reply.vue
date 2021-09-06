@@ -1,20 +1,13 @@
 <template>
-	<view class="box">
+	<view class="box-x">
+		<view class="bottom-line">
+			<u-line color="#e4e7ed" length="800rpx"/>
+		</view>
 		<view class="btn1">
-			<u-button size="default"
-			:custom-style="customStyle"
-			:plain="true"
-			:hair-line="false"
-			>
-			评论千万条，友善第一条
-			</u-button>
+			<text>评论千万条，友善第一条</text>
 		</view>
 		<view class="btn2">
-			<u-button size="default"
-			:custom-style="customStyle"
-			:plain="true"
-			:hair-line="false"
-			>确定</u-button>
+			<text>确定</text>
 		</view>
 	</view>
 </template>
@@ -25,25 +18,38 @@
 		name:"input-comment-reply",
 		data() {
 			return {
-				customStyle:{
-					borderStyle: "none" ,
-					fontSize: "28rpx",
-					padding: "30rpx 40rpx 30rpx 40rpx",
-				},
 			};
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
-.box {
+.box-x {
 	display: flex;
 	justify-content: space-between;
 	height: 100%;
 	width: 100%;
+	position: relative;
 	.btn1 {
 		flex:1;
-		text-align: left;
+		background-color: #FFFFFF;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 30rpx;
+		color: #999999;
+	}
+	.btn2{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-right: 20rpx;
+		color: #2979ff;
+	}
+	.bottom-line {
+		position: absolute;
+		top: 0rpx;
+		left: -30rpx;
 	}
 }
 </style>
