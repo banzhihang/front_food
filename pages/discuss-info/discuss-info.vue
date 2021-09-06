@@ -31,10 +31,18 @@
 				</view>
 			</view>
 		</view>
+		<view class="bottom">
+			<discuss-comment></discuss-comment>
+		</view>
+		<view class="comment-input">
+			<input-comment-reply :content="评论千万条,评论第一条"></input-comment-reply>
+		</view>
 	</view>
 </template>
 
 <script>
+	import commentInput from '@/components/input-comment-reply/input-comment-reply.vue'
+	import discussComment from '@/components/discuss-comment/discuss-comment.vue'
 	export default {
 		data() {
 			return {
@@ -43,7 +51,8 @@
 					user_nick_name:"你哈哈哈",
 					user_head_portrait:"https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
 					content: `
-					<p>露从今夜白，月是故乡明</p>
+					<h2>露从今夜白，月是故乡明</h2>
+					<br/>
 					<img src="https://cdn.uviewui.com/uview/swiper/2.jpg" />
 					<img src="https://cdn.uviewui.com/uview/swiper/2.jpg" />
 					<img src="https://cdn.uviewui.com/uview/swiper/2.jpg" />
@@ -57,11 +66,22 @@
 			};
 		}
 	}
+	components:{
+		discussComment,
+		commentInput
+	}
 </script>
 
 <style lang="scss" scoped>
 .box{
-	margin: 40rpx 20rpx 0 20rpx;
+	margin: 40rpx 25rpx 0 25rpx;
+	position: relative;
+	.comment-input {
+		width: 750rpx;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
 }
 
 .top{
@@ -83,11 +103,11 @@
 			justify-content: space-between;
 			align-items: center;
 			.name {
-				font-size: 27rpx;
+				font-size: 29rpx;
 			}
 			view {
 				text{
-					font-size: 20rpx;
+					font-size: 25rpx;
 					color: #b5b5bb;
 				}
 			}

@@ -14,10 +14,9 @@
 						</view>
 					</view>
 					<view class="like" :class="{ highlight: getIsApproval(res.is_approval) }">
-						<view>{{res.approval_number}}</view>
-						<view class="num">{{ res.likeNum }}</view>
-						<u-icon v-if="!getIsApproval(res.is_approval)" name="thumb-up" :size="30" color="#9a9a9a" @click="getLike(index)"></u-icon>
-						<u-icon v-if="getIsApproval(res.is_approval)" name="thumb-up" :size="30" @click="getLike(index)" color="#1a56b4" ></u-icon>
+						<view class="num">{{res.approval_number}}</view>
+						<u-icon v-if="!getIsApproval(res.is_approval)" name="thumb-up" :size="30" color="#9a9a9a" ></u-icon>
+						<u-icon v-if="getIsApproval(res.is_approval)" name="thumb-up" :size="30"  color="#1a56b4" ></u-icon>
 					</view>
 				</view>
 				<view class="content">{{ res.content }}</view>
