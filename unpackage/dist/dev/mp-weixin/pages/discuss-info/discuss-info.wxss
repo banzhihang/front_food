@@ -25,7 +25,15 @@
 /* 透明度 */
 /* 文章场景相关 */
 .box.data-v-d77b3034 {
-  margin: 40rpx 20rpx 0 20rpx;
+  margin: 40rpx 25rpx 0 25rpx;
+}
+.comment-input.data-v-d77b3034 {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  z-index: 5000;
 }
 .top .userinfo.data-v-d77b3034 {
   display: -webkit-box;
@@ -57,10 +65,10 @@
           align-items: center;
 }
 .top .userinfo .right .name.data-v-d77b3034 {
-  font-size: 27rpx;
+  font-size: 29rpx;
 }
 .top .userinfo .right view text.data-v-d77b3034 {
-  font-size: 20rpx;
+  font-size: 25rpx;
   color: #b5b5bb;
 }
 .top .content.data-v-d77b3034 {

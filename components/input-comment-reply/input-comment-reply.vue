@@ -1,13 +1,19 @@
 <template>
 	<view class="box-x">
-		<view class="bottom-line">
-			<u-line color="#e4e7ed" length="800rpx"/>
-		</view>
+		
 		<view class="btn1">
-			<text>评论千万条，友善第一条</text>
+			<u-input v-model="inputValue" 
+			type="textarea"
+			:clearable="false"
+			placeholder-style="font-size: 30rpx;color: #afaeb0;"
+			maxlength="1000"
+			:auto-height="true"
+			:height="40"
+			ref="textare"
+			placeholder="评论千万条，友善第一条" />
 		</view>
-		<view class="btn2">
-			<text>确定</text>
+		<view class="btn2" >
+			<text :style="{color:(inputValue ? '#2B63F3' : '#B9D0F9')}">确定</text>
 		</view>
 	</view>
 </template>
@@ -18,38 +24,42 @@
 		name:"input-comment-reply",
 		data() {
 			return {
+				inputValue:"",
 			};
-		}
+		},
 	}
 </script>
 
 <style lang="scss" scoped>
 .box-x {
-	display: flex;
-	justify-content: space-between;
-	height: 100%;
 	width: 100%;
 	position: relative;
+	display: flex;
+	padding-bottom: 25rpx;
+	box-sizing: border-box;
 	.btn1 {
-		flex:1;
 		background-color: #FFFFFF;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		margin-left: 30rpx;
-		color: #999999;
+		color: #bab9bc;
+		position: relative;
+		top: 15rpx;
+		left: 0;
+		width: 75%;
+		background-color:#F7F7F7 ;
+		border-radius: 30rpx;
+		padding-left: 30rpx;
+		padding-top: 6rpx;
 	}
 	.btn2{
+		flex: 1;
+		font-size: 30rpx;
+		position: relative;
+		bottom: 0;
+		right: 0;
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
-		margin-right: 20rpx;
-		color: #2979ff;
-	}
-	.bottom-line {
-		position: absolute;
-		top: 0rpx;
-		left: -30rpx;
+		align-items: center;
+		padding-top: 30rpx;
 	}
 }
 </style>

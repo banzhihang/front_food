@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "discuss-reply": "/components/discuss-reply/discuss-reply",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "reply": "/components/discuss-reply/discuss-reply"
+  }
+}

@@ -64,11 +64,11 @@
 					}
 				]
 			};
+		},
+		components:{
+			discussComment,
+			commentInput
 		}
-	}
-	components:{
-		discussComment,
-		commentInput
 	}
 </script>
 
@@ -78,11 +78,12 @@
 	
 }
 .comment-input {
-		height: 80rpx;
 		width: 100%;
 		position: fixed;
 		left: 0;
 		bottom: 0;
+		background-color: #FFFFFF;
+		z-index: 5000;
 	}
 	
 .top{

@@ -96,37 +96,37 @@ var components
 try {
   components = {
     uIcon: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 118))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 141))
     },
     uButton: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 125))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 148))
     },
     uPopup: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-popup/u-popup */ "uview-ui/components/u-popup/u-popup").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-popup/u-popup.vue */ 132))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-popup/u-popup */ "uview-ui/components/u-popup/u-popup").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-popup/u-popup.vue */ 155))
     },
     uCard: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-card/u-card */ "uview-ui/components/u-card/u-card").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-card/u-card.vue */ 139))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-card/u-card */ "uview-ui/components/u-card/u-card").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-card/u-card.vue */ 162))
     },
     foodRate: function() {
-      return __webpack_require__.e(/*! import() | components/food-rate/food-rate */ "components/food-rate/food-rate").then(__webpack_require__.bind(null, /*! @/components/food-rate/food-rate.vue */ 146))
+      return __webpack_require__.e(/*! import() | components/food-rate/food-rate */ "components/food-rate/food-rate").then(__webpack_require__.bind(null, /*! @/components/food-rate/food-rate.vue */ 169))
     },
     photoList: function() {
-      return __webpack_require__.e(/*! import() | components/photo-list/photo-list */ "components/photo-list/photo-list").then(__webpack_require__.bind(null, /*! @/components/photo-list/photo-list.vue */ 153))
+      return __webpack_require__.e(/*! import() | components/photo-list/photo-list */ "components/photo-list/photo-list").then(__webpack_require__.bind(null, /*! @/components/photo-list/photo-list.vue */ 176))
     },
     uSwiper: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-swiper/u-swiper */ "uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-swiper/u-swiper.vue */ 160))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-swiper/u-swiper */ "uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-swiper/u-swiper.vue */ 183))
     },
     shortComment: function() {
-      return __webpack_require__.e(/*! import() | components/short-comment/short-comment */ "components/short-comment/short-comment").then(__webpack_require__.bind(null, /*! @/components/short-comment/short-comment.vue */ 167))
+      return __webpack_require__.e(/*! import() | components/short-comment/short-comment */ "components/short-comment/short-comment").then(__webpack_require__.bind(null, /*! @/components/short-comment/short-comment.vue */ 190))
     },
     allShortComment: function() {
-      return __webpack_require__.e(/*! import() | components/all-short-comment/all-short-comment */ "components/all-short-comment/all-short-comment").then(__webpack_require__.bind(null, /*! @/components/all-short-comment/all-short-comment.vue */ 174))
+      return __webpack_require__.e(/*! import() | components/all-short-comment/all-short-comment */ "components/all-short-comment/all-short-comment").then(__webpack_require__.bind(null, /*! @/components/all-short-comment/all-short-comment.vue */ 197))
     },
     discuss: function() {
-      return __webpack_require__.e(/*! import() | components/discuss/discuss */ "components/discuss/discuss").then(__webpack_require__.bind(null, /*! @/components/discuss/discuss.vue */ 181))
+      return __webpack_require__.e(/*! import() | components/discuss/discuss */ "components/discuss/discuss").then(__webpack_require__.bind(null, /*! @/components/discuss/discuss.vue */ 204))
     },
     allDiscuss: function() {
-      return __webpack_require__.e(/*! import() | components/all-discuss/all-discuss */ "components/all-discuss/all-discuss").then(__webpack_require__.bind(null, /*! @/components/all-discuss/all-discuss.vue */ 188))
+      return __webpack_require__.e(/*! import() | components/all-discuss/all-discuss */ "components/all-discuss/all-discuss").then(__webpack_require__.bind(null, /*! @/components/all-discuss/all-discuss.vue */ 211))
     }
   }
 } catch (e) {
@@ -221,7 +221,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var shortComment = function shortComment() {__webpack_require__.e(/*! require.ensure | components/short-comment/short-comment */ "components/short-comment/short-comment").then((function () {return resolve(__webpack_require__(/*! components/short-comment/short-comment.vue */ 167));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var disCuss = function disCuss() {__webpack_require__.e(/*! require.ensure | components/discuss/discuss */ "components/discuss/discuss").then((function () {return resolve(__webpack_require__(/*! components/discuss/discuss.vue */ 181));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var shortCommentEdit = function shortCommentEdit() {__webpack_require__.e(/*! require.ensure | components/short-comment-rate/short-comment-rate */ "components/short-comment-rate/short-comment-rate").then((function () {return resolve(__webpack_require__(/*! components/short-comment-rate/short-comment-rate.vue */ 195));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var foodRate = function foodRate() {__webpack_require__.e(/*! require.ensure | components/food-rate/food-rate */ "components/food-rate/food-rate").then((function () {return resolve(__webpack_require__(/*! components/food-rate/food-rate.vue */ 146));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var allPhoto = function allPhoto() {__webpack_require__.e(/*! require.ensure | components/photo-list/photo-list */ "components/photo-list/photo-list").then((function () {return resolve(__webpack_require__(/*! components/photo-list/photo-list.vue */ 153));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var allShortComment = function allShortComment() {__webpack_require__.e(/*! require.ensure | components/all-short-comment/all-short-comment */ "components/all-short-comment/all-short-comment").then((function () {return resolve(__webpack_require__(/*! components/all-short-comment/all-short-comment.vue */ 174));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var allDiscuss = function allDiscuss() {__webpack_require__.e(/*! require.ensure | components/all-discuss/all-discuss */ "components/all-discuss/all-discuss").then((function () {return resolve(__webpack_require__(/*! ../../components/all-discuss/all-discuss.vue */ 188));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var shortComment = function shortComment() {__webpack_require__.e(/*! require.ensure | components/short-comment/short-comment */ "components/short-comment/short-comment").then((function () {return resolve(__webpack_require__(/*! components/short-comment/short-comment.vue */ 190));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var disCuss = function disCuss() {__webpack_require__.e(/*! require.ensure | components/discuss/discuss */ "components/discuss/discuss").then((function () {return resolve(__webpack_require__(/*! components/discuss/discuss.vue */ 204));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var shortCommentEdit = function shortCommentEdit() {__webpack_require__.e(/*! require.ensure | components/short-comment-rate/short-comment-rate */ "components/short-comment-rate/short-comment-rate").then((function () {return resolve(__webpack_require__(/*! components/short-comment-rate/short-comment-rate.vue */ 218));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var foodRate = function foodRate() {__webpack_require__.e(/*! require.ensure | components/food-rate/food-rate */ "components/food-rate/food-rate").then((function () {return resolve(__webpack_require__(/*! components/food-rate/food-rate.vue */ 169));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var allPhoto = function allPhoto() {__webpack_require__.e(/*! require.ensure | components/photo-list/photo-list */ "components/photo-list/photo-list").then((function () {return resolve(__webpack_require__(/*! components/photo-list/photo-list.vue */ 176));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var allShortComment = function allShortComment() {__webpack_require__.e(/*! require.ensure | components/all-short-comment/all-short-comment */ "components/all-short-comment/all-short-comment").then((function () {return resolve(__webpack_require__(/*! components/all-short-comment/all-short-comment.vue */ 197));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var allDiscuss = function allDiscuss() {__webpack_require__.e(/*! require.ensure | components/all-discuss/all-discuss */ "components/all-discuss/all-discuss").then((function () {return resolve(__webpack_require__(/*! ../../components/all-discuss/all-discuss.vue */ 211));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
