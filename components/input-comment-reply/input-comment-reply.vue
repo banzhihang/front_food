@@ -10,7 +10,7 @@
 			:auto-height="true"
 			:height="40"
 			ref="textare"
-			placeholder="评论千万条，友善第一条" />
+			:placeholder="content" />
 		</view>
 		<view class="btn2" >
 			<text :style="{color:(inputValue ? '#2B63F3' : '#B9D0F9')}">确定</text>
@@ -20,7 +20,12 @@
 
 <script>
 	export default {
-		props:["content"],
+		props:{
+			content:{
+				type: String,
+				default: "评论千万条，友善第一条"
+			}
+		},
 		name:"input-comment-reply",
 		data() {
 			return {

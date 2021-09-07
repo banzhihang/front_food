@@ -33,10 +33,10 @@
 				</view>
 			</view>
 			<view class="bottom">
-				<discuss-comment></discuss-comment>
+				<discuss-comment @reply="replyEdit"></discuss-comment>
 			</view>
 		</view>
-		<input-comment-reply class="comment-input"></input-comment-reply>
+		<input-comment-reply class="comment-input" :content="replyText"></input-comment-reply>
 	</view>
 </template>
 
@@ -46,6 +46,7 @@
 	export default {
 		data() {
 			return {
+				replyText:"评论千万条，友善第一条",
 				discussInfo:{
 					add_time:"9小时之前",
 					user_nick_name:"你哈哈哈",
@@ -68,6 +69,12 @@
 		components:{
 			discussComment,
 			commentInput
+		},
+		methods:{
+			replyEdit(e) {
+				const text = '回复 '+e.targetUserName+":"
+				this.replyText = text
+			}
 		}
 	}
 </script>

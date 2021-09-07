@@ -17,14 +17,18 @@
 					<view class="bottom">
 						<text>{{item.add_time}}</text>
 						<view class="bottom-right">
-							<view class="reply-icon">
-								<u-icon name="https://hotschool.ltd/comment-reply.png" color="#2979ff" size="30"></u-icon>
+							
+							<view class="reply-icon" @click="reply(item.user,item.user_nick_name)">
+								<u-icon 
+								name="http://hotschool.ltd/comment-reply.png" 
+								color="#2979ff" size="30"></u-icon>
 							</view>
 							<view class="like-num" >
-								<u-icon v-if="!item.is_approval" name="thumb-up" class="like" :size="35" color="#9a9a9a" @click="getLike(index)"></u-icon>
-								<u-icon v-if="item.is_approval" name="thumb-up" class="like" :size="35" @click="getLike(index)" color="#1a56b4"></u-icon>
+								<u-icon v-if="!item.is_approval" name="thumb-up" class="like" :size="35" color="#9a9a9a" @click="reply(item.target_user,item.target_user_nick_name)"></u-icon>
+								<u-icon v-if="item.is_approval" name="thumb-up" class="like" :size="35" @click="reply(item.target_user,item.target_user_nick_name)" color="#1a56b4"></u-icon>
 								<view class="num">{{ item.approval_number }}</view>
 							</view>
+							
 						</view>
 					</view>
 				</view>
@@ -46,7 +50,7 @@
 						{
 							"id": 1,
 							"user": 1,
-							"user_nick_name": "你好",
+							"user_nick_name": "小明",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
 							"target_user": 2,
 							"target_user_nick_name": "哈哈",
@@ -104,13 +108,19 @@
 				if (is_approval ===0 ) return false
 				return true
 			},
+			reply(targetUserId,targetUserName) {
+				const data = {
+					"targetUserId":targetUserId,
+					"targetUserName":targetUserName
+				}
+				this.$emit('reply',data)
+			}
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
 .box {
-	
 	.item {
 		.top {
 			display: flex;

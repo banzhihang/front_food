@@ -22,7 +22,7 @@
 				</view>
 				<view class="reply-box">
 					<view>
-						<discuss-reply :replyList="res.revert"></discuss-reply>
+						<discuss-reply :replyList="res.revert" @reply="replyEdit"></discuss-reply>
 					</view>
 					<view class="all-reply"  v-if="res.revert != undefined">
 						<u-button size="mini" 
@@ -69,7 +69,7 @@
 						 {
 							"id": 2,
 							"user": 1,
-							"user_nick_name": "你好",
+							"user_nick_name": "小明",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
 							"content": "真大",
 							"is_approval": 0,
@@ -81,10 +81,10 @@
 								{
 									"id": 1,
 									"user": 1,
-									"user_nick_name": "你好",
+									"user_nick_name": "小明",
 									"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
 									"target_user": 2,
-									"target_user_nick_name": "哈哈",
+									"target_user_nick_name": "小红",
 									"content": "真的吗",
 									"is_approval": false,
 									"approval_number": 12,
@@ -149,7 +149,12 @@
 					]
 				},			
 			};
-		},	
+		},
+		methods:{
+			replyEdit(e){
+				this.$emit('reply',e)
+			}
+		}
 }	
 </script>
 
