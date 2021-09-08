@@ -50,11 +50,11 @@
 						{
 							"id": 1,
 							"user": 1,
-							"user_nick_name": "小明",
+							"user_nick_name": "小明😄",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
 							"target_user": 2,
 							"target_user_nick_name": "哈哈",
-							"content": "真的吗",
+							"content": "真的吗妈妈妈妈",
 							"is_approval": true,
 							"approval_number": 12,
 							"add_time": "9小时前",
