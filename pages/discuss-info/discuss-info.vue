@@ -25,7 +25,7 @@
 			</view>
 			<view class="mid">
 				<view class="tab">
-					<u-tabs :list="tabList" :is-scroll="false" :current="current" 
+					<u-tabs :list="tabList" :is-scroll="false"
 					font-size="30" inactive-color="#b5b5bb" active-color="#585758"></u-tabs>
 					<view class="bottom-line">
 						<u-line color="#e0dde3" length="800rpx"/>
@@ -33,7 +33,7 @@
 				</view>
 			</view>
 			<view class="bottom">
-				<discuss-comment @reply="replyEdit"></discuss-comment>
+				<discuss-comment @reply="replyEdit" @comment="commentdit"></discuss-comment>
 			</view>
 		</view>
 		<input-comment-reply class="comment-input" :content="replyText"></input-comment-reply>
@@ -74,7 +74,12 @@
 			replyEdit(e) {
 				const text = '回复 '+e.targetUserName+":"
 				this.replyText = text
-			}
+			},
+			commentdit(e) {
+				console.log(e)
+				const text = '评论 '+e.targetUserName+":"
+				this.replyText = text
+			},
 		}
 	}
 </script>
@@ -91,7 +96,7 @@
 		bottom: 0;
 		background-color: #FFFFFF;
 		z-index: 5000;
-	}
+}
 	
 .top{
 	.userinfo{

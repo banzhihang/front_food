@@ -41,7 +41,7 @@
   -webkit-flex: 1;
           flex: 1;
   padding-left: 20rpx;
-  font-size: 30rpx;
+  font-size: 27rpx;
 }
 .comment .right .top.data-v-3304f9ea {
   display: -webkit-box;

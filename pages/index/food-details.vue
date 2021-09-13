@@ -324,8 +324,8 @@
 	.header{
 		display: flex;
 		.food-picture {
-			height: 250rpx;
-			width: 194rpx;
+			height: 230rpx;
+			width: 184rpx;
 		}
 		
 		.food-name{

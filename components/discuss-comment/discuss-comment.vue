@@ -10,7 +10,7 @@
 				<view class="bottom">
 					<text>{{res.add_time}}</text>
 					<view class="bottom-right">
-						<view class="reply-icon">
+						<view class="reply-icon" @click="commentEdit({targetUser:res.user,targetUserName:res.user_nick_name})">
 							<u-icon name="https://hotschool.ltd/comment-reply.png" color="#2979ff" size="30"></u-icon>
 						</view>
 						<view class="like-num" >
@@ -25,17 +25,18 @@
 						<discuss-reply :replyList="res.revert" @reply="replyEdit"></discuss-reply>
 					</view>
 					<view class="all-reply"  v-if="res.revert != undefined">
-						<u-button size="mini" 
-						type="default"
-						:plain="true"
-						:hair-line="false"
-						shape="circle"
-						:custom-style="customStyle"
-						class="btn"
-						>
-							查看全部 {{ res.revert_number }} 条回复
-							<u-icon class="more" name="arrow-right" :size="21"></u-icon>
-							</u-button>
+						<u-button size="mini"
+							type="default"
+							:plain="true"
+							:hair-line="false"
+							shape="circle"
+							:custom-style="customStyle"
+							class="btn"
+							@click="jumpReplyInfo(res)"
+							>
+								查看全部 {{ res.revert_number }} 条回复
+							<u-icon class="more" name="arrow-right" size="20"></u-icon>
+						</u-button>
 					</view>
 				</view>
 				
@@ -61,13 +62,13 @@
 				customStyle:{
 					borderStyle:"none" ,
 					backgroundColor: "#F6F6F6",
-					fontSize:"26rpx",
+					fontSize:"20rpx",
 					padding:"30rpx 40rpx 30rpx 40rpx",
 				},
 				commentInfo:{
 					commentList:[
 						 {
-							"id": 2,
+							"id": 1,
 							"user": 1,
 							"user_nick_name": "小明",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -92,7 +93,7 @@
 									"is_author": 1
 								},
 								{
-									"id": 1,
+									"id": 2,
 									"user": 1,
 									"user_nick_name": "你好",
 									"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -132,7 +133,7 @@
 									"is_author": 1
 								},
 								{
-									"id": 1,
+									"id": 2,
 									"user": 1,
 									"user_nick_name": "你好",
 									"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
@@ -153,6 +154,29 @@
 		methods:{
 			replyEdit(e){
 				this.$emit('reply',e)
+			},
+			commentEdit(e){
+				this.$emit('comment',e)
+			},
+			jumpReplyInfo(res){
+				const d = {
+					"id": res.id,
+					"user": res.user,
+					"user_nick_name": res.user_nick_name,
+					"user_head_portrait": res.user_head_portrait,
+					"content": res.content,
+					"is_approval": res.is_approval,
+					"revert_number": res.revert_number,
+					"approval_number": res.approval_number,
+					"add_time": res.add_time,
+					"is_author": res.is_author,
+				}
+				
+				uni.navigateTo({
+					url: "../../pages/discuss-info/disscuss-reply-page/disscuss-reply-page?data=" + encodeURIComponent(JSON.stringify(d)),
+					animationDuration:700,
+				})
+				
 			}
 		}
 }	
@@ -173,7 +197,7 @@
 	.right {
 		flex: 1;
 		padding-left: 20rpx;
-		font-size: 30rpx;
+		font-size: 27rpx;
 		.top {
 			display: flex;
 			justify-content: space-between;

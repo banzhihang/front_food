@@ -25,12 +25,14 @@
 /* 透明度 */
 /* 文章场景相关 */
 .box .item .top.data-v-56fe0500 {
+  margin-bottom: 10rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
 .box .item .top .left.data-v-56fe0500 {
-  margin-top: 5rpx;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
 }
 .box .item .top .left image.data-v-56fe0500 {
   width: 44rpx;
@@ -66,10 +68,10 @@
           align-items: center;
 }
 .box .item .top .right .right-top .user-info .name.data-v-56fe0500 {
-  font-size: 29rpx;
+  font-size: 26rpx;
 }
 .box .item .top .right .right-top .user-info .target-name.data-v-56fe0500 {
-  font-size: 29rpx;
+  font-size: 26rpx;
 }
 .box .item .top .right .bottom.data-v-56fe0500 {
   margin-top: 10rpx;

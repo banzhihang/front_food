@@ -13,7 +13,7 @@
 							<view class="target-name">{{ item.target_user_nick_name }}</view>
 						</view>
 					</view>
-					<view class="content" style="font-size: 29rpx;">{{ item.content }}</view>
+					<view class="content" style="font-size: 27rpx;color: #5f5f5f;">{{ item.content }}</view>
 					<view class="bottom">
 						<text>{{item.add_time}}</text>
 						<view class="bottom-right">
@@ -41,7 +41,7 @@
 <script>
 	export default {
 		name:"discuss-reply",
-		props:['replyList','showReplyIcon'],
+		props:['replyList'],
 		data() {
 			return {
 				replyInfo:{
@@ -50,7 +50,7 @@
 						{
 							"id": 1,
 							"user": 1,
-							"user_nick_name": "小明😄",
+							"user_nick_name": "小明😄22",
 							"user_head_portrait": "https://tse4-mm.cn.bing.net/th/id/OIP-C.ZToVEV_uqawGxTf0eDFdZQAAAA?pid=ImgDet&rs=1",
 							"target_user": 2,
 							"target_user_nick_name": "哈哈",
@@ -123,15 +123,17 @@
 .box {
 	.item {
 		.top {
+			margin-bottom: 10rpx;
 			display: flex;
 			.left {
-				margin-top: 5rpx;
+				margin-top: 10rpx;
 				image{
 					width: 44rpx;
 					height: 44rpx;
 					border-radius: 50%;
 					background-color: #f2f2f2;
 				}
+				margin-right: 10rpx;
 			}
 			
 			.right{
@@ -147,14 +149,15 @@
 						display: flex;
 						align-items: center;
 						.name {
-							font-size: 29rpx;
+							font-size: 26rpx;
 						}
 						.target-name{
-							font-size: 29rpx;
+							font-size: 26rpx;
 						}
 					}
 					
 				}
+				
 				.bottom {
 					margin-top: 10rpx;
 					align-items: center;

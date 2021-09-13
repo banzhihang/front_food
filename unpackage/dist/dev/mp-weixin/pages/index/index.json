@@ -1,6 +1,8 @@
 {
-  "navigationBarTitleText": "吃",
+  "navigationBarTitleText": "吃小猪",
   "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-search": "/uview-ui/components/u-search/u-search",
     "food-list": "/components/food-list/food-list"
   }
 }

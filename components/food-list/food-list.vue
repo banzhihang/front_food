@@ -1,40 +1,44 @@
 <template>
-	<view class="food-list">
-		<uni-list >
-			<uni-list-item :title="food.name" :thumb="food.first_image" v-for="food in foods" :key="food.id" 
-			to="../../pages/index/food-details">
-			 <template v-slot:header>
-				 <view class="uni-thumb food-picture">
-				 	<image :src="food.first_image" mode="aspectFill"></image>
-				 </view>
-			 </template>
-			 <template v-slot:body>
-			 	<view class="middle">
-					<view class="middle-title">
-						<text>{{ food.name }}</text>
-					</view>
-					<view class="middle-rate">
-						<uni-rate :value="getScore(food.score)" size="0.5" allowHalf readonly/>
-						<text class="score-text">{{food.score}}</text>
-					</view>
-			 		<view class="middle-desc">
-			 			<text>{{food.desc}}</text>
-			 		</view>
-			 	</view>
-			 </template>
-			 <template v-slot:footer>
-				 <view class="want-eat">
-					 <uni-tag text="想吃" type="warning" class="want-eat-btn" circle></uni-tag>
-				 </view>
-			 </template>
-			 </uni-list-item>
-		</uni-list>
+	<view class="wrap">
+		<view class="header">
+			
+		</view>
+		<view class="food-info" v-for="food in foodsInfo" :key="food.id">
+			<view class="left">
+				<view class="food-picture uni-thumb">
+					<image :src="food.first_image" mode="aspectFill"></image>
+				</view>
+			</view>
+			<view class="middle">
+				<view class="middle-title">
+					<text>{{ food.name }}</text>
+				</view>
+				<view class="middle-rate">
+					<uni-rate :value="getScore(food.score)" size="12" allowHalf readonly activeColor="#EC9F3A"/>
+					<view class="score-text">{{food.score}}</view>
+				</view>
+				<view class="middle-distance">
+					<text>{{food.distance}}</text>
+				</view>
+				<view class="middle-desc">
+					<text>{{food.desc}}</text>
+				</view>
+			</view>
+			<view class="right">
+				<view>
+					<u-icon></u-icon>
+					<view>想吃</view>
+				</view>
+			</view>
+		</view>
+		<view class="bottom">
+		</view>
 	</view>
 </template>
 
 <script>
 	export default {
-		props: ['foods'],
+		props: ['foodsInfo'],
 		name:"food-list",
 		methods:{
 			navigator (id) {
@@ -52,26 +56,18 @@
 </script>
 
 <style lang='scss' scoped>
-	@import '../../common/uni-ui.scss';
-	.food-list {
-		padding: 0 5rpx;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		.food-items {
-			background: #fff;
-			width: 355rpx;
-			box-sizing: border-box;
-		}
-	}
-	
+@import '../../common/uni-ui.scss';
+.food-info {
+	margin: 10rpx 40rpx 0 40rpx;
+	display: flex;
+	justify-content: space-between;
 	.middle-desc {
 		font-size: 18rpx;
 		line-height: 50rpx;
 		padding-bottom: 15rpx;
 		padding-top: 10rpx;
 	}
-
+	
 	.food-picture {
 		height: 70px;
 		width: 60px;
@@ -92,11 +88,13 @@
 	.middle-rate {
 		margin-top: 5px;
 		display: flex;
+		align-items: center;
 		.score-text {
-			margin-top: -6rpx;
-			margin-left: 7rpx;
-			font-size: 4rpx;
-			color: #F7CC5B;
+			margin-left: 10rpx;
+			font-size: 20rpx;
+			color:"#EC9F3A" ;
 		}
 	}
+}
+	
 </style>

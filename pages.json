@@ -6,7 +6,10 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "吃"
+				"navigationBarTitleText": "吃小猪",
+				"app-plus":{
+					"titleNView":false
+				}
 			}
 		},
 		{
@@ -36,16 +39,16 @@
             "path" : "pages/discuss-info/discuss-info",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "讨论详情",
                 "enablePullDownRefresh": false
             }
             
         }
         ,{
-            "path" : "pages/discuss-info/disscuss-reply/disscuss-reply",
+            "path" : "pages/discuss-info/disscuss-reply-page/disscuss-reply-page",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "评论回复",
                 "enablePullDownRefresh": false
             }
             
