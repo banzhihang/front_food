@@ -17,7 +17,6 @@
 					<view class="bottom">
 						<text>{{item.add_time}}</text>
 						<view class="bottom-right">
-							
 							<view class="reply-icon" @click="reply(item.user,item.user_nick_name)">
 								<u-icon 
 								name="http://hotschool.ltd/comment-reply.png" 

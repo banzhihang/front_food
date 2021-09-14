@@ -1,18 +1,60 @@
 <template>
 	<view class="content">
-		<view>
-			<u-navbar back-text="" title="" :is-back="false">
-				<view class="slot-wrap">
-					<view>
-						<u-search shape="round"></u-search>
+		<view class="top-select">
+			<view class="top">
+				<u-navbar :is-back="false" :border-bottom="false" height="37" :background="background">
+					<view class="search-wrap">
+						<u-search shape="round" v-model="keyword"
+							bg-color="#F7F7F7"
+							placeholder="请输入美食名" height="60"
+							:show-action="false">
+						</u-search>
 					</view>
-					<view>
-						
-					</view>
-				</view>
-			</u-navbar>
+				</u-navbar>
+			</view>
+			<view class="search-select">
+				<u-dropdown height="80" title-size="25" border-radius="10" ref="dropDown">
+					<u-dropdown-item  :title="distanceText" v-model="distanceValue">
+						<view class="slot-content">
+							<view class="distance-select">
+								<view class="distance-select-btn" v-for="value,index in distance" :key="index">
+									<u-button 
+										size="mini"
+										type="default"
+										:plain="true"
+										:hair-line="false"
+										@click="changeSelectDistance(value)"
+										:custom-style="customStyle">
+										{{value.name}}
+									</u-button>
+								</view>
+							</view>
+						</view>
+					</u-dropdown-item>
+					<u-dropdown-item  :title="sortText" v-model="sortValue">
+						<view class="slot-content">
+							<view class="sort-select">
+								<view class="sort-select-btn" v-for="value,index in sort" :key="index">
+									<u-button 
+										size="mini"
+										type="default"
+										:plain="true"
+										:hair-line="false"
+										@click="changeSelectSort(value)"
+										:custom-style="customStyle">
+										{{value.name}}
+									</u-button>
+								</view>
+							</view>
+						</view>
+					</u-dropdown-item>
+				</u-dropdown>
+			</view>
+			<view class="select-blank">
+				
+			</view>
 		</view>
-		<view>
+		<view class="middle">
 			<food-list :foodsInfo="foods"></food-list>
 		</view>
 	</view>
@@ -23,41 +65,84 @@
 	export default {
 		data() {
 			return {
+				background:{
+					backgroundColor: '#2B63F3',
+				},
+				customStyle:{
+					borderStyle:"none" ,
+					backgroundColor: "#F6F6F6",
+					fontSize:"20rpx",
+					padding:"30rpx 40rpx 30rpx 40rpx",
+				},
+				keyword:"",
+				distanceValue:0,
+				distanceText:"全部",
+				sortValue:0,
+				sortText:"高分优先",
+				distance:[
+					{
+						"name":"全部",
+						"value":0
+					},
+					{
+						"name":"< 1KM",
+						"value":1
+					},
+					{
+						"name":"< 3KM",
+						"value":2
+					},
+					{
+						"name":"< 5KM",
+						"value":3
+					},
+					{
+						"name":"< 7KM",
+						"value":4
+					},
+				],
+				sort:[
+					{
+						"name":"高分优先",
+						"value":0
+					},
+					{
+						"name":"时间优先",
+						"value":1
+					},
+				],
 				foods:[
 					{
 						"id":18,
 						"name":"青椒肉丝",
 						"first_image":"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
-						"desc":"这个真的不错哦ggbvghvh hb vh ！",
+						"desc":"这个不怎么辣，但徐爱您需不得不也不顶用成都必不得已你们顶焦度计顶焦度计姐姐斤斤计较你米你你你你",
 						"score":8.2,
 						"distance":"1.5km",
 					},
 					{
 						"id":17,
 						"name":"青椒肉丝",
-						"first_image":"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
-						"desc":"这个真的不错哦ggbvghvh hb vh ！",
+						"first_image":"https://img.zcool.cn/community/019f7e5c061a3da80121ab5dd1990e.jpg@1280w_1l_2o_100sh.jpg",
+						"desc":"这个不怎么你辣，但徐爱您需不得不也不顶用成都必不得已你们顶焦度计顶焦度计姐姐斤斤计较你米你你你",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 					{
 						"id":16,
 						"name":"青椒肉丝",
-						"first_image":"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
-						"desc":"这个真的不错哦ggbvghvh hb vh ！",
+						"first_image":"https://img.zcool.cn/community/018a4c56dfbcdb6ac72531cb07004c.jpg@1280w_1l_2o_100sh.jpg",
+						"desc":"这个不怎么辣，但徐爱您需不得不也不顶用成都必不得已你们顶焦度计顶焦度计姐姐斤斤计较你米你你你",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 					{
 						"id":15,
 						"name":"青椒肉丝",
-						"first_image":"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
-						"desc":"这个真的不错哦ggbvghvh hb vh ！",
+						"first_image":"https://img.zcool.cn/community/019f7e5c061a3da80121ab5dd1990e.jpg@1280w_1l_2o_100sh.jpg",
+						"desc":"这个不怎么辣，但徐爱您需不得不也不顶用成都必不得已你们顶焦度计顶焦度计姐姐斤斤计较你米你你你",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 					{
 						"id":14,
@@ -66,7 +151,6 @@
 						"desc":"这个真的不错哦ggbvghvh hb vh ！",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 					{
 						"id":13,
@@ -75,7 +159,6 @@
 						"desc":"这个真的不错哦ggbvghvh hb vh ！",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 					{
 						"id":112,
@@ -92,8 +175,7 @@
 						"first_image":"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
 						"desc":"这个真的不错哦ggbvghvh hb vh ！",
 						"score":8.2,
-						
-						
+						"distance":"1.5km",
 					},
 					{
 						"id":12,
@@ -102,7 +184,6 @@
 						"desc":"这个真的不错哦ggbvghvh hb vh ！",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 					{
 						"id":11,
@@ -111,7 +192,6 @@
 						"desc":"这个真的不错哦ggbvghvh hb vh ！",
 						"score":8.2,
 						"distance":"1.5km",
-						
 					},
 				],
 				nextUrl:"",
@@ -130,19 +210,63 @@
 				}
 				this.foods = res.data.results
 				this.nextUrl = res.results.next
+			},
+			changeSelectDistance(obj){
+				this.distanceText = obj.name
+				this.distanceValue = obj.value
+				this.$refs.dropDown.close()
+			},
+			changeSelectSort(obj){
+				this.sortText = obj.name
+				this.sortValue = obj.value
+				this.$refs.dropDown.close()
 			}
-		}
+		},
 	}
 </script>
 
 <style lang='scss' scoped>
 @import '../../common/uni-ui.scss';
-.slot-wrap {
-		display: flex;
-		align-items: center;
-		/* 如果您想让slot内容占满整个导航栏的宽度 */
-		/* flex: 1; */
-		/* 如果您想让slot内容与导航栏左右有空隙 */
-		/* padding: 0 30rpx; */
+.top-select {
+	.select-blank{
+		height: 80rpx;
 	}
+	.search-select {
+		position: absolute;
+		z-index: 10;
+		background-color: #FFFFFF;
+		width: 100%;
+		margin-bottom: 20rpx;
+		.distance-select {
+			background-color: #FFFFFF;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			.distance-select-btn {
+				margin: 20rpx 0rpx 20rpx 0rpx;
+			}
+		}
+		.sort-select{
+			background-color: #FFFFFF;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			.sort-select-btn {
+				margin: 20rpx 0rpx 20rpx 0rpx;
+			}
+		}
+	}
+}
+.top{
+	.search-wrap {
+		display: flex;
+		padding: 0 30rpx;
+		align-items: center;
+		flex: 1;
+		u-search{
+			flex: 1;
+		}
+	}
+}
+
 </style>

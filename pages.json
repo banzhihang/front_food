@@ -6,10 +6,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "吃小猪",
-				"app-plus":{
-					"titleNView":false
-				}
+				"navigationStyle": "custom" ,
+				"navigationBarTextStyle": "white" 
 			}
 		},
 		{

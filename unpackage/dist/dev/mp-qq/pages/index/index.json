@@ -1,6 +1,12 @@
 {
-  "navigationBarTitleText": "吃",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
   "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-dropdown": "/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-button": "/uview-ui/components/u-button/u-button",
     "food-list": "/components/food-list/food-list"
   }
 }

@@ -55,5 +55,6 @@
 }
 .box .body .content.data-v-5c3074a4 {
   margin-top: 20rpx;
+  margin-left: -35rpx;
 }
 

@@ -152,8 +152,8 @@
   display: flex;
 }
 .header .food-picture.data-v-4227a229 {
-  height: 250rpx;
-  width: 194rpx;
+  height: 230rpx;
+  width: 184rpx;
 }
 .header .food-name.data-v-4227a229 {
   font-size: 36rpx;
