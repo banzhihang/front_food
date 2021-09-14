@@ -142,11 +142,15 @@
   color: #333;
   text-decoration: underline;
 }
+.top-select.data-v-57280228 {
+  position: relative;
+  background-color: "#FFFFFF";
+}
 .top-select .select-blank.data-v-57280228 {
   height: 80rpx;
 }
 .top-select .search-select.data-v-57280228 {
-  position: absolute;
+  position: fixed;
   z-index: 10;
   background-color: #FFFFFF;
   width: 100%;
@@ -157,8 +161,6 @@
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
   -webkit-justify-content: space-around;
           justify-content: space-around;
 }

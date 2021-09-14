@@ -27,7 +27,7 @@
 			<view class="right">
 				<view>
 					<u-icon name="http://hotschool.ltd/collection.png" size=40></u-icon>
-					<view>想吃</view>
+					<view style="margin-left: -5rpx;">想吃</view>
 				</view>
 			</view>
 		</view>
@@ -107,6 +107,8 @@
 			.score-text {
 				margin-left: 10rpx;
 				font-size: 25rpx;
+				margin-top: 3rpx;
+				margin-bottom: 3rpx;
 			}
 		}
 	}

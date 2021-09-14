@@ -62,7 +62,7 @@
 				customStyle:{
 					borderStyle:"none" ,
 					backgroundColor: "#F6F6F6",
-					fontSize:"20rpx",
+					fontSize:"25rpx",
 					padding:"30rpx 40rpx 30rpx 40rpx",
 				},
 				commentInfo:{

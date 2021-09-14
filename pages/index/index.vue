@@ -2,7 +2,7 @@
 	<view class="content">
 		<view class="top-select">
 			<view class="top">
-				<u-navbar :is-back="false" :border-bottom="false" height="37" :background="background">
+				<u-navbar :is-back="false" :border-bottom="false"  >
 					<view class="search-wrap">
 						<u-search shape="round" v-model="keyword"
 							bg-color="#F7F7F7"
@@ -13,7 +13,7 @@
 				</u-navbar>
 			</view>
 			<view class="search-select">
-				<u-dropdown height="80" title-size="25" border-radius="10" ref="dropDown">
+				<u-dropdown height="80" title-size="25" border-radius="10" ref="dropDown" duration="400">
 					<u-dropdown-item  :title="distanceText" v-model="distanceValue">
 						<view class="slot-content">
 							<view class="distance-select">
@@ -65,20 +65,17 @@
 	export default {
 		data() {
 			return {
-				background:{
-					backgroundColor: '#2B63F3',
-				},
 				customStyle:{
 					borderStyle:"none" ,
 					backgroundColor: "#F6F6F6",
-					fontSize:"20rpx",
-					padding:"30rpx 40rpx 30rpx 40rpx",
+					fontSize:"25rpx",
+					
 				},
 				keyword:"",
 				distanceValue:0,
 				distanceText:"全部",
 				sortValue:0,
-				sortText:"高分优先",
+				sortText:"按得分",
 				distance:[
 					{
 						"name":"全部",
@@ -103,11 +100,11 @@
 				],
 				sort:[
 					{
-						"name":"高分优先",
+						"name":"按得分",
 						"value":0
 					},
 					{
-						"name":"时间优先",
+						"name":"按时间",
 						"value":1
 					},
 				],
@@ -228,11 +225,13 @@
 <style lang='scss' scoped>
 @import '../../common/uni-ui.scss';
 .top-select {
+	position: relative;
+	background-color: "#FFFFFF";
 	.select-blank{
 		height: 80rpx;
 	}
 	.search-select {
-		position: absolute;
+		position: fixed;
 		z-index: 10;
 		background-color: #FFFFFF;
 		width: 100%;
@@ -240,7 +239,6 @@
 		.distance-select {
 			background-color: #FFFFFF;
 			display: flex;
-			flex-wrap: wrap;
 			justify-content: space-around;
 			.distance-select-btn {
 				margin: 20rpx 0rpx 20rpx 0rpx;

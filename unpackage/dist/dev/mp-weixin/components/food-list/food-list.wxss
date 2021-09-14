@@ -194,5 +194,7 @@
 .food-info .left-wrap .middle-rate .score-text.data-v-d5d31d40 {
   margin-left: 10rpx;
   font-size: 25rpx;
+  margin-top: 3rpx;
+  margin-bottom: 3rpx;
 }
 

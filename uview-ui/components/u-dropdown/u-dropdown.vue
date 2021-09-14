@@ -19,10 +19,11 @@
 				</view>
 			</view>
 		</view>
-		<view class="u-dropdown__content" :style="[contentStyle, {
+		<view class="u-dropdown__content" v-show="dropDownShowMy" :style="[contentStyle, {
 			transition: `opacity ${duration / 1000}s linear`,
 			top: $u.addUnit(height),
 			height: contentHeight + 'px'
+			
 		}]"
 		 @tap="maskClick" @touchmove.stop.prevent>
 			<view @tap.stop.prevent class="u-dropdown__content__popup" :style="[popupStyle]">
@@ -112,6 +113,7 @@
 		},
 		data() {
 			return {
+				dropDownShowMy:false,
 				showDropdown: true, // 是否打开下来菜单,
 				menuList: [], // 显示的菜单
 				active: false, // 下拉菜单的状态
@@ -186,6 +188,8 @@
 				this.children.map((val, idx) => {
 					val.active = index == idx ? true : false;
 				})
+				
+				this.dropDownShowMy=true
 				this.$emit('open', this.current);
 			},
 			// 设置下拉菜单处于收起状态
@@ -199,6 +203,9 @@
 					zIndex: -1,
 					opacity: 0
 				}
+				setTimeout(() => {
+					this.dropDownShowMy=false
+				}, this.duration)
 			},
 			// 点击遮罩
 			maskClick() {
