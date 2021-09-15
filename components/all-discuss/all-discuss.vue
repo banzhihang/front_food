@@ -4,11 +4,11 @@
 			<text>全部讨论({{discussInfo.discuss_num}})</text>
 		</view>
 		<view class="slider">
-			<u-subsection :list="selectList" current="0" 
-			height="55" font-size="20rpx" active-color="#1a56b4"
-			:bold="false"
-			>
-			</u-subsection>
+			<uni-segmented-control
+				:values="selectList" @clickItem="onClickItem" 
+				styleType="button" 
+				activeColor="#1a56b4">
+			</uni-segmented-control>
 		</view>
 		<view class="body">
 			<discuss :dissCussList="discussInfo.discuss_list"></discuss>
@@ -37,12 +37,8 @@
 			return {
 				isShowDisscussEdit:false,
 				selectList:[
-					{
-						name:"热门",
-					},
-					{
-						name:"最新",
-					}
+					"热门",
+					"最新",
 				],
 				discussInfo:{
 					discuss_num:30,

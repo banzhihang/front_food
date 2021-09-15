@@ -1,6 +1,7 @@
 {
 	"easycom": {
-	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+			"tui-(.*)": "@/thorui/tui-$1/tui-$1.vue"
 	    },
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
@@ -13,7 +14,7 @@
 		{
             "path" :"pages/self/self",
             "style" : {
-                "navigationBarTitleText": "我",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
         }
@@ -62,13 +63,11 @@
 		"selectedColor":"#1a56b4",
 		"list":[
 			{
-				"text":"吃",
 				"pagePath":"pages/index/index",
 				"iconPath":"static/icon/eat.png",
 				"selectedIconPath":"static/icon/eat-active.png"
 			},
 			{
-				"text":"我",
 				"pagePath":"pages/self/self",
 				"iconPath":"static/icon/self.png",
 				"selectedIconPath":"static/icon/self-active.png"

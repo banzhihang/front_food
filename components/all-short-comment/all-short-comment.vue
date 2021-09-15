@@ -4,9 +4,10 @@
 			<text>全部短评({{shortCommentInfo.short_comment_num}})</text>
 		</view>
 		<view class="slider">
-			<u-subsection :list="selectList" :current="0" 
+			<u-subsection :list="selectList" 
 			height="55" font-size="20rpx" active-color="#1a56b4"
 			:bold="false"
+			bg-color="#EFF4F0"
 			>
 			</u-subsection>
 		</view>

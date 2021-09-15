@@ -2064,9 +2064,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 11:
-/*!**************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/util/api.js ***!
-  \**************************************************************/
+/*!*********************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/util/api.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2092,9 +2092,9 @@ var myRequest = function myRequest(options) {
 /***/ }),
 
 /***/ 12:
-/*!********************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/index.js ***!
-  \********************************************************************/
+/*!***************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/index.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2244,9 +2244,9 @@ var install = function install(Vue) {
 /***/ }),
 
 /***/ 13:
-/*!*******************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/mixin/mixin.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/mixin/mixin.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2615,9 +2615,9 @@ function initVueI18n(messages) {var fallbackLocale = arguments.length > 1 && arg
 /***/ }),
 
 /***/ 136:
-/*!*****************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/pages.json?{"type":"stat"} ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/pages.json?{"type":"stat"} ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2684,9 +2684,9 @@ module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"新增成功\
 /***/ }),
 
 /***/ 14:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/request/index.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/request/index.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2898,9 +2898,9 @@ module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"新增成功\
 /***/ }),
 
 /***/ 15:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/deepMerge.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/deepMerge.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2939,9 +2939,9 @@ deepMerge;exports.default = _default;
 /***/ }),
 
 /***/ 16:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/deepClone.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/deepClone.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2973,9 +2973,9 @@ deepClone;exports.default = _default;
 /***/ }),
 
 /***/ 17:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/test.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/test.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3215,9 +3215,9 @@ function code(value) {var len = arguments.length > 1 && arguments[1] !== undefin
 /***/ }),
 
 /***/ 18:
-/*!****************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/queryParams.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/queryParams.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3284,17 +3284,17 @@ queryParams;exports.default = _default;
 /***/ }),
 
 /***/ 19:
-/*!**********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/route.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/route.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 20));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 并且带有路由拦截功能
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              */var
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  * 并且带有路由拦截功能
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  */var
 
 Router = /*#__PURE__*/function () {
   function Router() {_classCallCheck(this, Router);
@@ -10258,9 +10258,9 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 23:
-/*!***************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/timeFormat.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/timeFormat.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10320,9 +10320,9 @@ timeFormat;exports.default = _default;
 /***/ }),
 
 /***/ 24:
-/*!*************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/timeFrom.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/timeFrom.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10378,9 +10378,9 @@ timeFrom;exports.default = _default;
 /***/ }),
 
 /***/ 246:
-/*!***************************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/components/u-parse/libs/MpHtmlParser.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/components/u-parse/libs/MpHtmlParser.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10969,9 +10969,9 @@ module.exports = MpHtmlParser;
 /***/ }),
 
 /***/ 247:
-/*!*********************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/components/u-parse/libs/config.js ***!
-  \*********************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/components/u-parse/libs/config.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11059,9 +11059,9 @@ module.exports = cfg;
 /***/ }),
 
 /***/ 248:
-/*!*************************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/components/u-parse/libs/CssHandler.js ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/components/u-parse/libs/CssHandler.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11169,9 +11169,9 @@ parser.prototype.Content = function () {
 /***/ }),
 
 /***/ 25:
-/*!******************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/colorGradient.js ***!
-  \******************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/colorGradient.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11313,9 +11313,9 @@ function colorToRgba(color) {var alpha = arguments.length > 1 && arguments[1] !=
 /***/ }),
 
 /***/ 26:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/guid.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/guid.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11365,9 +11365,9 @@ guid;exports.default = _default;
 /***/ }),
 
 /***/ 27:
-/*!**********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/color.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/color.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11413,9 +11413,9 @@ color;exports.default = _default;
 /***/ }),
 
 /***/ 28:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/type2icon.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/type2icon.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11459,9 +11459,9 @@ type2icon;exports.default = _default;
 /***/ }),
 
 /***/ 29:
-/*!****************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/randomArray.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/randomArray.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11508,9 +11508,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 30:
-/*!************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/addUnit.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/addUnit.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11527,9 +11527,9 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 /***/ }),
 
 /***/ 31:
-/*!***********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/random.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/random.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11548,9 +11548,9 @@ random;exports.default = _default;
 /***/ }),
 
 /***/ 32:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/trim.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/trim.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11574,9 +11574,9 @@ trim;exports.default = _default;
 /***/ }),
 
 /***/ 326:
-/*!******************************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/uni-icons/components/uni-icons/icons.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uni_modules/uni-icons/components/uni-icons/icons.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11716,9 +11716,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 33:
-/*!**********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/toast.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/toast.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11737,9 +11737,9 @@ toast;exports.default = _default;
 /***/ }),
 
 /***/ 34:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/getParent.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/getParent.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11795,9 +11795,9 @@ function getParent(name, keys) {
 /***/ }),
 
 /***/ 35:
-/*!************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/$parent.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/$parent.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11824,9 +11824,9 @@ function $parent() {var name = arguments.length > 0 && arguments[0] !== undefine
 /***/ }),
 
 /***/ 36:
-/*!********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/sys.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/sys.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11843,9 +11843,9 @@ function sys() {
 /***/ }),
 
 /***/ 37:
-/*!*************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/debounce.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/debounce.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11883,9 +11883,9 @@ debounce;exports.default = _default;
 /***/ }),
 
 /***/ 38:
-/*!*************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/throttle.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/function/throttle.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11926,9 +11926,9 @@ throttle;exports.default = _default;
 /***/ }),
 
 /***/ 39:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/config/config.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/config/config.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11950,9 +11950,9 @@ var version = '1.8.4';var _default =
 /***/ }),
 
 /***/ 390:
-/*!********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/util/emitter.js ***!
-  \********************************************************************************/
+/*!***************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/util/emitter.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12010,9 +12010,9 @@ function _broadcast(componentName, eventName, params) {
 /***/ }),
 
 /***/ 4:
-/*!*************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/pages.json ***!
-  \*************************************************************/
+/*!********************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/pages.json ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12021,9 +12021,9 @@ function _broadcast(componentName, eventName, params) {
 /***/ }),
 
 /***/ 40:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/config/zIndex.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hahaha/Desktop/food/front_food/uview-ui/libs/config/zIndex.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
