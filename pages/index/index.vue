@@ -4,6 +4,10 @@
 			<view class="top">
 				<u-navbar :is-back="false" :border-bottom="false"  >
 					<view class="search-wrap">
+						<view>
+							<u-icon name="plus-circle" size="45" color="#1a5abf"></u-icon>
+						</view>
+						
 						<u-search shape="round" v-model="keyword"
 							bg-color="#F7F7F7"
 							placeholder="请输入美食名" height="60"
@@ -13,7 +17,8 @@
 				</u-navbar>
 			</view>
 			<view class="search-select">
-				<u-dropdown height="80" title-size="25" border-radius="10" ref="dropDown" duration="400">
+				<u-dropdown height="80" title-size="25" border-radius="10" ref="dropDown" 
+				duration="400" active-color="#1a56b4">
 					<u-dropdown-item  :title="distanceText" v-model="distanceValue">
 						<view class="slot-content">
 							<view class="distance-select">
@@ -263,6 +268,10 @@
 		flex: 1;
 		u-search{
 			flex: 1;
+		}
+		view{
+			margin-right: 25rpx;
+			margin-left: 10rpx;
 		}
 	}
 }

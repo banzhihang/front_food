@@ -197,4 +197,8 @@
   -webkit-flex: 1;
           flex: 1;
 }
+.top .search-wrap view.data-v-57280228 {
+  margin-right: 25rpx;
+  margin-left: 10rpx;
+}
 

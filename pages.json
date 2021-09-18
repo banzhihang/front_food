@@ -8,21 +8,23 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationStyle": "custom" ,
-				"navigationBarTextStyle": "white" 
+				"navigationBarTextStyle":"black"
 			}
 		},
 		{
             "path" :"pages/self/self",
             "style" : {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "吃小猪",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
             }
         }
         ,{
             "path" : "pages/list/list",
             "style" : {
                 "enablePullDownRefresh": true,
-                "navigationBarTitleText": "美食列表"
+                "navigationBarTitleText": "美食列表",
+				"navigationBarBackgroundColor":"#FFFFFF"
             } 
         },
         {
@@ -30,7 +32,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "美食详情",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
             }
             
         }
@@ -39,7 +42,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "讨论详情",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
             }
             
         }
@@ -48,7 +52,32 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "评论回复",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/self/my-content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/all-discuss/all-discuss",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				 "app-plus": {
+				        "animationType": "slide-in-bottom",
+				        "animationDuration": 300
+				    }
             }
             
         }

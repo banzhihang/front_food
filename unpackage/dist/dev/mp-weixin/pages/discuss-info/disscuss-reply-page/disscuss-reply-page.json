@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "评论回复",
   "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
     "u-icon": "/uview-ui/components/u-icon/u-icon",
     "u-gap": "/uview-ui/components/u-gap/u-gap",

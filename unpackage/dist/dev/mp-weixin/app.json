@@ -5,7 +5,9 @@
     "pages/list/list",
     "pages/index/food-details",
     "pages/discuss-info/discuss-info",
-    "pages/discuss-info/disscuss-reply-page/disscuss-reply-page"
+    "pages/discuss-info/disscuss-reply-page/disscuss-reply-page",
+    "pages/self/my-content",
+    "pages/all-discuss/all-discuss"
   ],
   "subPackages": [],
   "window": {

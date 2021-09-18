@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "讨论详情",
   "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
     "u-parse": "/uview-ui/components/u-parse/u-parse",
     "u-gap": "/uview-ui/components/u-gap/u-gap",

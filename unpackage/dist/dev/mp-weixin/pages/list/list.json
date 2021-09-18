@@ -1,6 +1,7 @@
 {
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "美食列表",
+  "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
     "list-unicloud-db-default": "/pages/list/list-unicloud-db-default",
     "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",

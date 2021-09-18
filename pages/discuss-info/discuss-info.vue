@@ -86,7 +86,7 @@
 
 <style lang="scss" scoped>
 .box{
-	margin: 40rpx 25rpx 0 25rpx;
+	margin: 0 25rpx 0 25rpx;
 	
 }
 .comment-input {

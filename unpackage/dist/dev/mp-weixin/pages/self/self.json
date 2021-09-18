@@ -1,5 +1,11 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "吃小猪",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
 }

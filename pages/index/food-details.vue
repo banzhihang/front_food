@@ -135,18 +135,12 @@
 				<view slot="body">
 					<discuss :dissCussList="food.discuss"></discuss>
 				</view>
-				<view slot="foot" class="discuss-foot" @click="isShowAllDiscuss=true">
+				<view slot="foot" class="discuss-foot" @click="jumpToAllDiscuss(food.id)">
 					<text style="color: #000000;">查看全部{{food.discuss_number}}个讨论</text>
 					<text style="color: #000000;" class="discuss-foot-arrow">></text>
 				</view>
 			</u-card>
 			
-			<u-popup v-model="isShowAllDiscuss" mode="bottom"
-				length="100%" close-icon-pos="top-left" :closeable="true"
-				close-icon-size="30"
-			>
-				<all-discuss :foodId="food.id"></all-discuss>
-			</u-popup>
 		</view>
 	</view>
 </template>
@@ -301,6 +295,13 @@
 			getDiscussNum(num){
 				return "全部"+num+" >"
 			},
+			jumpToAllDiscuss(id) {
+				uni.navigateTo({
+					url: "/pages/all-discuss/all-discuss",
+					animationDuration:700,
+					animationType: 'slide-in-bottom',
+				})
+			}
 			
 		},
 		components:{

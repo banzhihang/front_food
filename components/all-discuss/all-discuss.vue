@@ -5,9 +5,9 @@
 		</view>
 		<view class="slider">
 			<uni-segmented-control
-				:values="selectList" @clickItem="onClickItem" 
-				styleType="button" 
-				activeColor="#1a56b4">
+					:values="selectList" @clickItem="onClickItem" 
+					styleType="button" 
+					activeColor="#1d65d8">
 			</uni-segmented-control>
 		</view>
 		<view class="body">
@@ -127,6 +127,7 @@
 <style lang="scss" scoped>
 @import '../../common/uni-ui.scss';
 .box {
+	margin-top: 20rpx;
 	position: relative;
 	text{
 		position: absolute;
@@ -135,10 +136,18 @@
 		font-size: 30rpx;
 	}
 	.slider{
-		width: 300rpx;
+		display: block;
+		width: 200rpx;
 		position: absolute;
-		top: 80rpx;
+		top: 83rpx;
 		right: 45rpx;
+		/deep/ .segmented-control__text {
+			font-size: 25rpx;
+		}
+		
+		/deep/ .segmented-control {
+			height: 50rpx;
+		}
 	}
 	.body {
 		position: absolute;

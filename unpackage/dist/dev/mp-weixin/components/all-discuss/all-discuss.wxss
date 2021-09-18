@@ -143,6 +143,7 @@
   text-decoration: underline;
 }
 .box.data-v-5d7b2024 {
+  margin-top: 20rpx;
   position: relative;
 }
 .box text.data-v-5d7b2024 {
@@ -152,10 +153,17 @@
   font-size: 30rpx;
 }
 .box .slider.data-v-5d7b2024 {
-  width: 300rpx;
+  display: block;
+  width: 200rpx;
   position: absolute;
-  top: 80rpx;
+  top: 83rpx;
   right: 45rpx;
+}
+.box .slider.data-v-5d7b2024 .segmented-control__text {
+  font-size: 25rpx;
+}
+.box .slider.data-v-5d7b2024 .segmented-control {
+  height: 50rpx;
 }
 .box .body.data-v-5d7b2024 {
   position: absolute;

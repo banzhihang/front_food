@@ -25,7 +25,7 @@
 /* 透明度 */
 /* 文章场景相关 */
 .box.data-v-d77b3034 {
-  margin: 40rpx 25rpx 0 25rpx;
+  margin: 0 25rpx 0 25rpx;
 }
 .comment-input.data-v-d77b3034 {
   width: 100%;
