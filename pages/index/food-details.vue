@@ -105,17 +105,11 @@
 				<view slot="body"> 
 					<short-comment :shortCommentList="food.short_comment"></short-comment>
 				</view>
-				<view slot="foot" class="short-comment-foot" @click="isShowAllShortComment=true">
+				<view slot="foot" class="short-comment-foot" @click="jumpToAllShortComment(food.id)">
 					<text style="color: #000000;" >查看全部{{food.short_comment_number}}条短评</text>
 					<text  style="color: #000000;" class="short-comment-foot-arrow">></text>
 				</view>
 			</u-card>
-			<u-popup v-model="isShowAllShortComment" mode="bottom"
-				length="100%" close-icon-pos="top-left" :closeable="true"
-				close-icon-size="30"
-			>
-				<all-short-comment :foodId="food.id"></all-short-comment>
-			</u-popup>
 		</view>
 		<view class="discuss">
 			<u-card title="讨论"
@@ -159,8 +153,6 @@
 		data() {
 			return {
 				photoNum:6,
-				isShowAllDiscuss:false,
-				isShowAllShortComment:false,
 				// 控制全部照片页面是否显示
 				isShowAllPhoto: false,
 				// 控制打分界面的弹出
@@ -301,7 +293,15 @@
 					animationDuration:700,
 					animationType: 'slide-in-bottom',
 				})
-			}
+			},
+			jumpToAllShortComment(id) {
+				uni.navigateTo({
+					url: "/pages/all-short-comment/all-short-comment",
+					animationDuration:700,
+					animationType: 'slide-in-bottom',
+				})
+			},
+			
 			
 		},
 		components:{

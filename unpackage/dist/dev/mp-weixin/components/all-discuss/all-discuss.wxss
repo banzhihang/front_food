@@ -167,9 +167,7 @@
 }
 .box .body.data-v-5d7b2024 {
   position: absolute;
-  width: 695rpx;
-  top: 185rpx;
-  right: 35rpx;
+  width: 750rpx;
 }
 .box .write.data-v-5d7b2024 {
   width: 80rpx;

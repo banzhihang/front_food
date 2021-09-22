@@ -151,9 +151,7 @@
 	}
 	.body {
 		position: absolute;
-		width: 695rpx;
-		top: 185rpx;
-		right: 35rpx;
+		width: 750rpx;
 	}
 	.write {
 		width: 80rpx;

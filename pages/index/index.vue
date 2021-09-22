@@ -4,7 +4,7 @@
 			<view class="top">
 				<u-navbar :is-back="false" :border-bottom="false"  >
 					<view class="search-wrap">
-						<view>
+						<view @click="jumpFoodPush">
 							<u-icon name="plus-circle" size="45" color="#1a5abf"></u-icon>
 						</view>
 						
@@ -222,6 +222,13 @@
 				this.sortText = obj.name
 				this.sortValue = obj.value
 				this.$refs.dropDown.close()
+			},
+			jumpFoodPush(){
+				uni.navigateTo({
+					url: "/pages/food-push/food-push",
+					animationDuration:700,
+					animationType: 'slide-in-bottom',
+				})
 			}
 		},
 	}

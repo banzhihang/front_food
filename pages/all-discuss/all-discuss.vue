@@ -1,6 +1,6 @@
 <template>
 	<view class="box">
-		<u-sticky class="header" >
+		<view class="header">
 			<view class="header-wrap">
 				<text>全部讨论({{discussInfo.discuss_num}})</text>
 				<view class="slider">
@@ -11,7 +11,10 @@
 					</uni-segmented-control>
 				</view>
 			</view>
-		</u-sticky>
+			<view class="header-empty">
+				
+			</view>
+		</view>
 		
 		<view class="body">
 			<discuss :dissCussList="discussInfo.discuss_list"></discuss>
@@ -131,17 +134,29 @@
 @import '../../common/uni-ui.scss';
 .box {
 	.header {
+		position: relative;
+		background-color: "#FFFFFF";
+		.header-empty {
+			width: 100%;
+			height: 90rpx;
+			background-color: #FFFFFF;
+		}
 		.header-wrap{
+			z-index: 10;
+			position: fixed;
+			width: 100%;
+			height: 90rpx;
 			background-color: #FFFFFF;
 			display: flex;
 			justify-content: space-between;
 			text{
-				margin-top: 10rpx;
+				margin-top: 15rpx;
 				margin-left: 30rpx;
+				font-size: 30rpx;
 			}
 			.slider{
-				margin-bottom: 40rpx;
-				margin-right: 30rpx;
+				padding-top: 10rpx;
+				margin-right: 50rpx;
 				width: 200rpx;
 				/deep/ .segmented-control__text {
 					font-size: 25rpx;
@@ -152,9 +167,11 @@
 			}
 		}
 	}
+	
+	
 	.body {
-		width: 695rpx;
-		margin-left: 20rpx;
+		width: 700rpx;
+		margin-left: 30rpx;
 		
 	}
 	.write {

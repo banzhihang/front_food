@@ -85,6 +85,7 @@
 		position: absolute;
 		top:400rpx;
 		width: 650rpx;
+		color:#bfbac2 ;
 	}
 }
 </style>

@@ -24,7 +24,16 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.u-sticky.data-v-5d41d740 {
-  z-index: 9999999999;
+.top-wrap.data-v-daa0894c {
+  width: 100%;
+}
+.top-wrap .btn.data-v-daa0894c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  margin-right: 20rpx;
 }
 

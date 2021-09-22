@@ -95,23 +95,20 @@ __webpack_require__.r(__webpack_exports__);
 var components
 try {
   components = {
-    uSticky: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-sticky/u-sticky */ "uview-ui/components/u-sticky/u-sticky").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-sticky/u-sticky.vue */ 337))
-    },
     uniSegmentedControl: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control */ "uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue */ 344))
+      return __webpack_require__.e(/*! import() | uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control */ "uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue */ 353))
     },
     discuss: function() {
-      return __webpack_require__.e(/*! import() | components/discuss/discuss */ "components/discuss/discuss").then(__webpack_require__.bind(null, /*! @/components/discuss/discuss.vue */ 250))
+      return __webpack_require__.e(/*! import() | components/discuss/discuss */ "components/discuss/discuss").then(__webpack_require__.bind(null, /*! @/components/discuss/discuss.vue */ 259))
     },
     uImage: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 166))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 182))
     },
     uPopup: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-popup/u-popup */ "uview-ui/components/u-popup/u-popup").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-popup/u-popup.vue */ 208))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-popup/u-popup */ "uview-ui/components/u-popup/u-popup").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-popup/u-popup.vue */ 224))
     },
     editDiscuss: function() {
-      return __webpack_require__.e(/*! import() | components/edit-discuss/edit-discuss */ "components/edit-discuss/edit-discuss").then(__webpack_require__.bind(null, /*! @/components/edit-discuss/edit-discuss.vue */ 351))
+      return __webpack_require__.e(/*! import() | components/edit-discuss/edit-discuss */ "components/edit-discuss/edit-discuss").then(__webpack_require__.bind(null, /*! @/components/edit-discuss/edit-discuss.vue */ 360))
     }
   }
 } catch (e) {
@@ -173,7 +170,10 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var disCuss = function disCuss() {__webpack_require__.e(/*! require.ensure | components/discuss/discuss */ "components/discuss/discuss").then((function () {return resolve(__webpack_require__(/*! components/discuss/discuss.vue */ 250));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var disCussEdit = function disCussEdit() {__webpack_require__.e(/*! require.ensure | components/edit-discuss/edit-discuss */ "components/edit-discuss/edit-discuss").then((function () {return resolve(__webpack_require__(/*! components/edit-discuss/edit-discuss.vue */ 351));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var disCuss = function disCuss() {__webpack_require__.e(/*! require.ensure | components/discuss/discuss */ "components/discuss/discuss").then((function () {return resolve(__webpack_require__(/*! components/discuss/discuss.vue */ 259));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var disCussEdit = function disCussEdit() {__webpack_require__.e(/*! require.ensure | components/edit-discuss/edit-discuss */ "components/edit-discuss/edit-discuss").then((function () {return resolve(__webpack_require__(/*! components/edit-discuss/edit-discuss.vue */ 360));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+
 
 
 

@@ -25,23 +25,26 @@
 /* 透明度 */
 /* 文章场景相关 */
 .box.data-v-450927c6 {
-  margin-top: -10rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   position: relative;
-  margin-bottom: 80rpx;
+  margin-bottom: 60rpx;
 }
 .box .bottom-line.data-v-450927c6 {
   position: absolute;
   bottom: -40rpx;
   left: -30rpx;
 }
+.left .icon.data-v-450927c6 {
+  margin-top: 10rpx;
+}
 .left .comment-num.data-v-450927c6 {
-  margin-top: -25rpx;
+  margin-top: -15rpx;
 }
 .left .comment-num text.data-v-450927c6 {
-  margin-left: 21rpx;
+  font-size: 20rpx;
+  margin-left: 6rpx;
   color: #838184;
 }
 .right.data-v-450927c6 {

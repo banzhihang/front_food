@@ -7,7 +7,9 @@
     "pages/discuss-info/discuss-info",
     "pages/discuss-info/disscuss-reply-page/disscuss-reply-page",
     "pages/self/my-content",
-    "pages/all-discuss/all-discuss"
+    "pages/all-discuss/all-discuss",
+    "pages/all-short-comment/all-short-comment",
+    "pages/food-push/food-push"
   ],
   "subPackages": [],
   "window": {
