@@ -18,6 +18,7 @@
 					<view class="middle-distance">
 						<u-icon name="map" class="food-address-img" color="#6c7071" size="25"></u-icon>
 						<text style="color:#6c7071;">{{food.distance}}</text>
+						<text style="color:#6c7071;margin-left: 25rpx;font-size:">{{food.restaurant}}</text>
 					</view>
 					<view class="middle-desc">
 						<text style="color:#6c7071;">{{getDesc(food.desc)}}</text>
@@ -93,7 +94,7 @@
 		}
 		.middle-distance{
 			font-size: 25rpx;
-			margin-bottom: 5rpx;
+			margin-bottom: 7rpx;
 			.food-address {
 				color: #EC9F3A;
 				font-size: 25rpx;
@@ -102,6 +103,7 @@
 		}
 		.middle-rate {
 			margin-top: -2px;
+			margin-bottom: 5rpx;
 			display: flex;
 			align-items: center;
 			.score-text {

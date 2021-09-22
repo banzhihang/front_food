@@ -175,7 +175,7 @@
 }
 .food-info .left-wrap .middle-distance.data-v-d5d31d40 {
   font-size: 25rpx;
-  margin-bottom: 5rpx;
+  margin-bottom: 7rpx;
 }
 .food-info .left-wrap .middle-distance .food-address.data-v-d5d31d40 {
   color: #EC9F3A;
@@ -184,6 +184,7 @@
 }
 .food-info .left-wrap .middle-rate.data-v-d5d31d40 {
   margin-top: -2px;
+  margin-bottom: 5rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;

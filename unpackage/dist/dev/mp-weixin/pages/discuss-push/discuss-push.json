@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "jin-edit": "/components/jin-edit/jin-edit"
+  }
+}

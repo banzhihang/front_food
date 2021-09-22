@@ -25,11 +25,12 @@
 /* 透明度 */
 /* 文章场景相关 */
 .box.data-v-450927c6 {
+  padding-top: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
   position: relative;
-  margin-bottom: 60rpx;
+  margin-bottom: 50rpx;
 }
 .box .bottom-line.data-v-450927c6 {
   position: absolute;

@@ -36,4 +36,67 @@
           justify-content: flex-end;
   margin-right: 20rpx;
 }
+.top-wrap .btn .btn-draft.data-v-daa0894c {
+  margin-right: 35rpx;
+  border-radius: 30rpx;
+}
+.top-wrap .btn .btn-ok.data-v-daa0894c {
+  border-radius: 20rpx;
+}
+.body.data-v-daa0894c {
+  padding-left: 30rpx;
+}
+.body .desc.data-v-daa0894c {
+  padding-top: 10rpx;
+  padding-right: 20rpx;
+}
+.body .upload.data-v-daa0894c {
+  margin-left: -10rpx;
+}
+.body .upload.data-v-daa0894c .u-add-tips {
+  color: #8C8C8C;
+}
+.body .upload.data-v-daa0894c .u-iconfont {
+  color: #8C8C8C;
+}
+.body .upload.data-v-daa0894c .u-add-wrap {
+  width: 218rpx !important;
+  height: 218rpx !important;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.body .upload.data-v-daa0894c .u-preview-wrap {
+  width: 218rpx !important;
+  height: 218rpx !important;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.body .location.data-v-daa0894c {
+  white-space: pre-wrap;
+  display: inline-block;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  margin-top: 20rpx;
+  line-height: 60rpx;
+  height: 60rpx;
+  background-color: #F6F6F6;
+  border-radius: 40rpx;
+  color: #8C8C8C;
+  font-size: 25rpx;
+}
+.body .restaurant-name.data-v-daa0894c {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  margin-top: 20rpx;
+  line-height: 60rpx;
+  height: 60rpx;
+  background-color: #F6F6F6;
+  border-radius: 40rpx;
+  color: #8C8C8C;
+  font-size: 25rpx;
+  display: inline-block;
+}
+.body .restaurant-name .name-input.data-v-daa0894c {
+  display: inline-block;
+}
 

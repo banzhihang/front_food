@@ -9,7 +9,8 @@
     "pages/self/my-content",
     "pages/all-discuss/all-discuss",
     "pages/all-short-comment/all-short-comment",
-    "pages/food-push/food-push"
+    "pages/food-push/food-push",
+    "pages/discuss-push/discuss-push"
   ],
   "subPackages": [],
   "window": {
@@ -33,6 +34,10 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取你当前的定位地点"
+    }
+  },
+  "usingComponents": {}
 }

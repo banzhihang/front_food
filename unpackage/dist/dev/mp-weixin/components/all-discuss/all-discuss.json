@@ -4,8 +4,6 @@
     "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
     "discuss": "/components/discuss/discuss",
     "u-image": "/uview-ui/components/u-image/u-image",
-    "u-popup": "/uview-ui/components/u-popup/u-popup",
-    "edit-discuss": "/components/edit-discuss/edit-discuss",
     "dis-cuss": "/components/discuss/discuss",
     "dis-cuss-edit": "/components/edit-discuss/edit-discuss"
   }

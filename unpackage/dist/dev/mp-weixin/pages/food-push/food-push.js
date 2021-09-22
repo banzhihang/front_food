@@ -96,10 +96,22 @@ var components
 try {
   components = {
     uNavbar: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-navbar/u-navbar */ "uview-ui/components/u-navbar/u-navbar").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-navbar/u-navbar.vue */ 126))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-navbar/u-navbar */ "uview-ui/components/u-navbar/u-navbar").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-navbar/u-navbar.vue */ 132))
     },
     uButton: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 161))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-button/u-button */ "uview-ui/components/u-button/u-button").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-button/u-button.vue */ 167))
+    },
+    uInput: function() {
+      return Promise.all(/*! import() | uview-ui/components/u-input/u-input */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-input/u-input")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-input/u-input.vue */ 373))
+    },
+    uLine: function() {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-line/u-line */ "uview-ui/components/u-line/u-line").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-line/u-line.vue */ 317))
+    },
+    uUpload: function() {
+      return Promise.all(/*! import() | uview-ui/components/u-upload/u-upload */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-upload/u-upload")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-upload/u-upload.vue */ 381))
+    },
+    uIcon: function() {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 139))
     }
   }
 } catch (e) {
@@ -180,20 +192,96 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
+  options: { styleIsolation: 'shared' },
   data: function data() {
     return {
-      customStyle: _defineProperty({
+      customStyle1: _defineProperty({
+        borderColor: '#f3eff6',
+        height: '120rpx',
+        width: '120rpx' }, "height",
+      '50rpx'),
+
+      customStyle2: _defineProperty({
         borderColor: '#1a56b4',
-        height: '100rpx',
-        width: '100rpx' }, "height",
+        backgroundColor: '#1a56b4',
+        height: '120rpx',
+        width: '120rpx' }, "height",
       '50rpx'),
 
       navCustomStyle: {
         color: '#000000',
-        fontSize: '32rpx' } };
+        fontSize: '32rpx' },
 
+      restaurantNameCustomStyle: {
+        color: '#8C8C8C',
+        fontSize: '25rpx' },
+
+      titleCustomStyle: {
+        fontSize: '35rpx' },
+
+      descCustomStyle: {
+        fontSize: '30rpx' },
+
+      locationName: "中国重庆市北培区天生路",
+      foodName: "",
+      restaurantName: "" };
 
   } };exports.default = _default;
 

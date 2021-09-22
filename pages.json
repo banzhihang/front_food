@@ -61,7 +61,7 @@
             "path" : "pages/self/my-content",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "吃小猪",
                 "enablePullDownRefresh": false,
 				"navigationBarBackgroundColor":"#FFFFFF"
             }
@@ -71,7 +71,7 @@
             "path" : "pages/all-discuss/all-discuss",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "讨论",
                 "enablePullDownRefresh": false,
 				"navigationBarBackgroundColor":"#FFFFFF",
 				 "app-plus": {
@@ -85,7 +85,7 @@
             "path" : "pages/all-short-comment/all-short-comment",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "短评",
                 "enablePullDownRefresh": false,
 				"navigationBarBackgroundColor":"#FFFFFF"
             }
@@ -97,6 +97,15 @@
             	"navigationStyle": "custom" ,
             	"navigationBarTextStyle":"black"
             }
+        }
+        ,{
+            "path" : "pages/discuss-push/discuss-push",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" 
+            }
+            
         }
     ],
 	"globalStyle": {

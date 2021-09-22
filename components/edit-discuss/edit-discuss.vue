@@ -8,12 +8,14 @@
 		</view>
 		<view class="btn">
 			<u-button type="primary" :custom-style="customStyle" :ripple="true" 
-			ripple-bg-color="rgba(0,0,0,0.2)">确定</u-button>
+			ripple-bg-color="rgba(0,0,0,0.2)">确</u-button>
 		</view>
 		<view class="body">
 			<view class="title">
 				<u-input v-model="title" type="text" 
-				:clearable="false" placeholder="标题" height="80" placeholder-style="font-size: 35rpx;color:#c8c5ca"/>
+				:clearable="false" placeholder="标题" height="80" 
+				:custom-style="titleCustomStyle"
+				placeholder-style="font-size: 35rpx;color:#c8c5ca"/>
 			</view>
 			<u-line color="#e0dde3" length="699rpx"/>
 			<view class="content">
@@ -38,6 +40,9 @@
 					height:'100rpx',
 					width: '100rpx',
 					height: '50rpx',
+				},
+				titleCustomStyle:{
+					fontSize:'35rpx',
 				},
 				title:'',
 			};

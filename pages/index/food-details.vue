@@ -10,9 +10,14 @@
 					<u-icon name="clock" class="food-time-img" color="#1a56b4" size="25"></u-icon>
 					<text>{{food.add_time}}</text>
 				</view>
-				<view class="food-address">
-					<u-icon name="map" class="food-address-img" color="#1a56b4" size="26"></u-icon>
+				<view class="restaurant-nme">
+					<u-icon name="home" size="23" color="#1a56b4" ></u-icon>
+					<text>{{food.restaurant_name}}</text>
+				</view>
+				<view class="food-address" @click="jumpToMap">
+					<u-icon name="map" color="#1a56b4" size="26"></u-icon>
 					<text>{{food.address}}</text>
+					<u-icon name="arrow-right" color="#696a6c" size="20"></u-icon>
 				</view>
 				<view class="food-want-eated">
 					<view class="food-want">
@@ -75,7 +80,13 @@
 				<view slot="head" class="photo-head">
 					<u-icon name="https://hotschool.ltd/photo.png" color="#1a56b4" size="32" style="margin-right: 10rpx;"></u-icon>
 					<text style="margin-top: -46rpx;display: block;margin-left: 40rpx;">图片</text>
-					<text class="photo-head-right" style="margin-top: -4rpx;" @click="isShowAllPhoto=true">全部{{photoNum}} ></text>
+					<view class="photo-head-right" @click="isShowAllPhoto=true">
+						<text style="margin-top: -6rpx;margin-right: 15rpx;" >
+							全部{{photoNum}}
+						</text>
+						<u-icon name="arrow-right" color="#000000" size="20" style="margin-left: 5rpx;margin-right: -10rpx;"></u-icon>
+					</view>
+					
 					<u-popup v-model="isShowAllPhoto" mode="bottom"
 						length="100%" close-icon-pos="top-left" :closeable="true"
 						close-icon-size="30"
@@ -100,14 +111,19 @@
 				<view slot="head" class="comment-head">
 					<u-icon name="https://hotschool.ltd/short-comment.png" color="#1a56b4" size="30" style="margin-right: 10rpx;"></u-icon>
 					<text style="margin-top: -48rpx;display: block;margin-left: 40rpx;">短评</text>
-					<text class="comment-head-right" style="margin-top: -9rpx;" @click="isShowAllShortComment=true">{{getShortCommentNum(food.short_comment_number)}}</text>
+					<view  class="comment-head-right" @click="jumpToAllShortComment(food.id)">
+						<text style="margin-top: -7rpx;">
+							全部{{food.short_comment_number}}
+						</text>
+						<u-icon name="arrow-right" color="#000000" size="20" style="margin-left: 5rpx;margin-right: -10rpx;"></u-icon>
+					</view>
 				</view>
 				<view slot="body"> 
 					<short-comment :shortCommentList="food.short_comment"></short-comment>
 				</view>
 				<view slot="foot" class="short-comment-foot" @click="jumpToAllShortComment(food.id)">
 					<text style="color: #000000;" >查看全部{{food.short_comment_number}}条短评</text>
-					<text  style="color: #000000;" class="short-comment-foot-arrow">></text>
+					<u-icon name="arrow-right" color="#000000" size="20" class="short-comment-foot-arrow"></u-icon>
 				</view>
 			</u-card>
 		</view>
@@ -123,15 +139,19 @@
 				<view slot="head" class="discuss-head">
 					<u-icon name="https://hotschool.ltd/discuss.png" color="#1a56b4" size="35" style="margin-right: 10rpx;"></u-icon>
 					<text style="margin-top: -48rpx;display: block;margin-left: 40rpx;">讨论</text>
-					<text class="discuss-head-right" style="margin-top: -7rpx;" @click="isShowAllDiscuss=true">
-					{{getDiscussNum(food.short_comment_number)}}</text>
+					<view class="discuss-head-right" @click="jumpToAllDiscuss(food.id)">
+						<text style="margin-top: -7rpx;">
+							全部{{food.discuss_number}}
+						</text>
+						<u-icon name="arrow-right" color="#000000" size="20" style="margin-left: 5rpx;margin-right: -10rpx;"></u-icon>
+					</view>
 				</view>
-				<view slot="body">
+				<view slot="body" class="discuss-body">
 					<discuss :dissCussList="food.discuss"></discuss>
 				</view>
 				<view slot="foot" class="discuss-foot" @click="jumpToAllDiscuss(food.id)">
 					<text style="color: #000000;">查看全部{{food.discuss_number}}个讨论</text>
-					<text style="color: #000000;" class="discuss-foot-arrow">></text>
+					<u-icon name="arrow-right" color="#000000" size="20" class="discuss-foot-arrow"></u-icon>
 				</view>
 			</u-card>
 			
@@ -167,11 +187,14 @@
 				},
 				food :{
 					id:1,
+					lon:116.33193,
+					lat:39.897255,
 					first_image:"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
 					foodName:"青椒肉丝",
-					address:"田坝街天财路你家那就是不断进步",
+					address:"田坝街天财路你家那就是不断进你你你嗯阿胶阿胶你焦恩俊呢就",
 					add_time:"2020-12-11",
 					vote_number:"3000",
+					restaurant_name:"成都担担面",
 					desc:"这个非常不错！炒鸡好吃哈哈碚的胡说八道还是不胡说八道好几遍世界的变化就是v大概就是v大家还是博大精深博大精深v不到v过山车时光和vv先公后私v",
 					image:[
 						"https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
@@ -301,7 +324,25 @@
 					animationType: 'slide-in-bottom',
 				})
 			},
-			
+			jumpToMap() {
+				const lat = parseFloat(this.food.lat)
+				const log = parseFloat(this.food.lon)
+				const locationName = this.food.address
+				uni.authorize({
+					scope: 'scope.userLocation',
+					success(res) {
+						uni.openLocation({
+							latitude: lat,
+							longitude: log,
+							name:locationName,
+							success: function() {}
+						});
+					},
+					fail(err) {
+						
+					}
+				})
+			},
 			
 		},
 		components:{
@@ -345,7 +386,15 @@
 		}	
 		
 		.food-time {
-			margin-top: 10rpx;
+			margin-top: 5rpx;
+			color: #696a6c;
+			font-size: 25rpx;
+			text {
+				margin-left: 5rpx;
+			}
+		}
+		.restaurant-nme {
+			margin-top: 1rpx;
 			color: #696a6c;
 			font-size: 25rpx;
 			text {
@@ -355,7 +404,7 @@
 		
 		.food-want-eated{
 			display: flex;
-			margin-top: 30rpx;
+			margin-top: 20rpx;
 			/deep/ .u-size-default{
 				height: 60rpx;
 			}
@@ -403,9 +452,14 @@
 		.photo-head {
 			position: relative;
 			.photo-head-right {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				width: 200rpx;
 				position: absolute;
 				right: 0;
 				top: 0;
+				
 			}
 		}
 		::v-deep .u-icon__icon {
@@ -422,6 +476,10 @@
 			margin-bottom: -10rpx;
 			position: relative;
 			.comment-head-right {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				width: 200rpx;
 				position: absolute;
 				right: 0;
 				top: 0;
@@ -432,18 +490,20 @@
 		margin-top: -30rpx;
 		font-size: 25rpx;
 		position: relative;
-		.short-comment-foot-arrow {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	.discuss{
 		margin-left: -30rpx;
 		.discuss-head {
-			margin-bottom: -10rpx;
+			margin-bottom: -30rpx;
 			position: relative;
 			.discuss-head-right {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				width: 200rpx;
 				position: absolute;
 				right: 0;
 				top: 0;
@@ -451,14 +511,12 @@
 		}
 	}
 	.discuss-foot{
-		margin-top: -40rpx;
+		margin-top: -20rpx;
 		font-size: 25rpx;
 		position: relative;
-		.discuss-foot-arrow {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	
 </style>

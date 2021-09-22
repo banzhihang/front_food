@@ -19,16 +19,10 @@
 		<view class="body">
 			<discuss :dissCussList="discussInfo.discuss_list"></discuss>
 		</view>
-		<view class="write" @click="isShowDisscussEdit=true">
+		<view class="write" @click="jumpToDiscussPush">
 			<u-image width="80rpx" height="80rpx" src="https://hotschool.ltd/write.png"></u-image>
 		</view>
 		
-		<u-popup v-model="isShowDisscussEdit" mode="bottom"
-			length="100%" close-icon-pos="top-left" :closeable="true"
-			close-icon-size="40" close-icon="arrow-left" close-icon-color="#000000" 
-		>
-			<edit-discuss :foodId="foodId"></edit-discuss>
-		</u-popup>
 	</view>
 </template>
 
@@ -126,6 +120,15 @@
 		components:{
 			disCuss,
 			disCussEdit,
+		},
+		methods:{
+			jumpToDiscussPush(){
+				uni.navigateTo({
+					url: "/pages/discuss-push/discuss-push",
+					animationDuration:700,
+					animationType: 'slide-in-bottom',
+				})
+			}
 		}
 	}
 </script>

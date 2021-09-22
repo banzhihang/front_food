@@ -41,9 +41,10 @@
 
 <style lang="scss" scoped>
 	.box {
+		padding-top: 20rpx;
 		display: flex;
 		position: relative;
-		margin-bottom: 60rpx;
+		margin-bottom: 50rpx;
 		.bottom-line {
 			position: absolute;
 			bottom:-40rpx;
