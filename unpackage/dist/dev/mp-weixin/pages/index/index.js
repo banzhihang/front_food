@@ -117,7 +117,7 @@ try {
       return __webpack_require__.e(/*! import() | components/food-list/food-list */ "components/food-list/food-list").then(__webpack_require__.bind(null, /*! @/components/food-list/food-list.vue */ 95))
     },
     uDivider: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-divider/u-divider */ "uview-ui/components/u-divider/u-divider").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-divider/u-divider.vue */ 347))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-divider/u-divider */ "uview-ui/components/u-divider/u-divider").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-divider/u-divider.vue */ 176))
     }
   }
 } catch (e) {
@@ -258,39 +258,43 @@ __webpack_require__.r(__webpack_exports__);
 
       keyword: "",
       distanceValue: 0,
-      distanceText: "全部",
+      distanceText: "附近",
       sortValue: 0,
-      sortText: "按得分",
+      sortText: "最高评分",
       distance: [
       {
-        "name": "全部",
+        "name": "附近",
         "value": 0 },
 
       {
-        "name": "< 1KM",
+        "name": "< 1km",
         "value": 1 },
 
       {
-        "name": "< 3KM",
+        "name": "< 3km",
         "value": 2 },
 
       {
-        "name": "< 5KM",
+        "name": "< 5km",
         "value": 3 },
 
       {
-        "name": "< 7KM",
+        "name": "< 7km",
         "value": 4 }],
 
 
       sort: [
       {
-        "name": "按得分",
+        "name": "最高评分",
         "value": 0 },
 
       {
-        "name": "按时间",
-        "value": 1 }],
+        "name": "最多评分",
+        "value": 1 },
+
+      {
+        "name": "最新发布",
+        "value": 2 }],
 
 
       foods: [

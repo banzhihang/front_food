@@ -99,10 +99,10 @@ try {
       return __webpack_require__.e(/*! import() | uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control */ "uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue */ 361))
     },
     shortComment: function() {
-      return __webpack_require__.e(/*! import() | components/short-comment/short-comment */ "components/short-comment/short-comment").then(__webpack_require__.bind(null, /*! @/components/short-comment/short-comment.vue */ 260))
+      return __webpack_require__.e(/*! import() | components/short-comment/short-comment */ "components/short-comment/short-comment").then(__webpack_require__.bind(null, /*! @/components/short-comment/short-comment.vue */ 267))
     },
     uDivider: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-divider/u-divider */ "uview-ui/components/u-divider/u-divider").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-divider/u-divider.vue */ 347))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-divider/u-divider */ "uview-ui/components/u-divider/u-divider").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-divider/u-divider.vue */ 176))
     }
   }
 } catch (e) {
@@ -159,7 +159,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var shortComment = function shortComment() {__webpack_require__.e(/*! require.ensure | components/short-comment/short-comment */ "components/short-comment/short-comment").then((function () {return resolve(__webpack_require__(/*! components/short-comment/short-comment.vue */ 260));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var shortComment = function shortComment() {__webpack_require__.e(/*! require.ensure | components/short-comment/short-comment */ "components/short-comment/short-comment").then((function () {return resolve(__webpack_require__(/*! components/short-comment/short-comment.vue */ 267));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 

@@ -82,39 +82,43 @@
 				},
 				keyword:"",
 				distanceValue:0,
-				distanceText:"全部",
+				distanceText:"附近",
 				sortValue:0,
-				sortText:"按得分",
+				sortText:"最高评分",
 				distance:[
 					{
-						"name":"全部",
+						"name":"附近",
 						"value":0
 					},
 					{
-						"name":"< 1KM",
+						"name":"< 1km",
 						"value":1
 					},
 					{
-						"name":"< 3KM",
+						"name":"< 3km",
 						"value":2
 					},
 					{
-						"name":"< 5KM",
+						"name":"< 5km",
 						"value":3
 					},
 					{
-						"name":"< 7KM",
+						"name":"< 7km",
 						"value":4
 					},
 				],
 				sort:[
 					{
-						"name":"按得分",
+						"name":"最高评分",
 						"value":0
 					},
 					{
-						"name":"按时间",
+						"name":"最多评分",
 						"value":1
+					},
+					{
+						"name":"最新发布",
+						"value":2
 					},
 				],
 				foods:[

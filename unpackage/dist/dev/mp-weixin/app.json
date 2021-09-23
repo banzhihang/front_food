@@ -40,5 +40,6 @@
       "desc": "获取你当前的定位地点"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }
