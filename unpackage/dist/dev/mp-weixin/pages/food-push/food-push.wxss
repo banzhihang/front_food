@@ -77,23 +77,23 @@
   padding-left: 30rpx;
   padding-right: 30rpx;
   margin-top: 20rpx;
-  line-height: 60rpx;
-  height: 60rpx;
+  line-height: 70rpx;
+  height: 70rpx;
   background-color: #F6F6F6;
   border-radius: 40rpx;
   color: #8C8C8C;
-  font-size: 25rpx;
+  font-size: 28rpx;
 }
 .body .restaurant-name.data-v-daa0894c {
   padding-left: 30rpx;
   padding-right: 30rpx;
   margin-top: 20rpx;
-  line-height: 60rpx;
-  height: 60rpx;
+  line-height: 70rpx;
+  height: 70rpx;
   background-color: #F6F6F6;
   border-radius: 40rpx;
   color: #8C8C8C;
-  font-size: 25rpx;
+  font-size: 28rpx;
   display: inline-block;
 }
 .body .restaurant-name .name-input.data-v-daa0894c {

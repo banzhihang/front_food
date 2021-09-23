@@ -8,6 +8,7 @@
     "u-dropdown": "/uview-ui/components/u-dropdown/u-dropdown",
     "u-dropdown-item": "/uview-ui/components/u-dropdown-item/u-dropdown-item",
     "u-button": "/uview-ui/components/u-button/u-button",
-    "food-list": "/components/food-list/food-list"
+    "food-list": "/components/food-list/food-list",
+    "u-divider": "/uview-ui/components/u-divider/u-divider"
   }
 }

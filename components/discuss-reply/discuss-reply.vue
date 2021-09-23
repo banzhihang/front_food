@@ -13,7 +13,7 @@
 							<view class="target-name">{{ item.target_user_nick_name }}</view>
 						</view>
 					</view>
-					<view class="content" style="font-size: 27rpx;color: #5f5f5f;">{{ item.content }}</view>
+					<view class="content" style="font-size: 28rpx;color: #5f5f5f;">{{ item.content }}</view>
 					<view class="bottom">
 						<text>{{item.add_time}}</text>
 						<view class="bottom-right">
@@ -148,10 +148,10 @@
 						display: flex;
 						align-items: center;
 						.name {
-							font-size: 26rpx;
+							font-size: 28rpx;
 						}
 						.target-name{
-							font-size: 26rpx;
+							font-size: 28rpx;
 						}
 					}
 					

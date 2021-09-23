@@ -25,7 +25,7 @@
 				:clearable="false" placeholder="标题" height="80" 
 				maxlength="20"
 				:custom-style="titleCustomStyle"
-				placeholder-style="font-size: 30rpx;color:#c8c5ca"/>
+				placeholder-style="font-size: 35rpx;color:#c8c5ca"/>
 			</view>
 			<view class="line-in">
 				<u-line color="#e0dde3" length="690rpx"/>
@@ -47,10 +47,17 @@
 			return {
 				customStyle1: {
 					borderColor: '#f3eff6',
-					backgroundColor:'#1a56b4',
+					backgroundColor:'#3363D1',
 					height:'120rpx',
 					width: '120rpx',
 					height: '50rpx',
+				},
+				navCustomStyle: {
+					color:'#000000',
+					fontSize:'33rpx',
+				},
+				titleCustomStyle:{
+					fontSize:'35rpx',
 				},
 			};
 		},

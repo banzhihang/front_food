@@ -1,6 +1,12 @@
 <template>
 	<view>
-		<food-list :foodsInfo="foodDataList"></food-list>
+		<view>
+			<food-list :foodsInfo="foodDataList"></food-list>
+		</view>
+		<u-divider half-width="500" margin-bottom="200rpx">没有更多了</u-divider>
+		<view>
+			<image></image>
+		</view>
 	</view>
 </template>
 

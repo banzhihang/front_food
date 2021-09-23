@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view class="comment" v-for="res in shortCommentList" :key="res.id">
+		<view class="comment" v-for="(res,idx) in shortCommentList" :key="res.id">
 			<view class="left">
 				<image :src="res.user_head_portrait" mode="aspectFill"></image>
 			</view>
@@ -9,7 +9,7 @@
 					<view>
 						<view class="name">{{ res.user_nick_name }}</view>
 						<view class="score-time">
-							<uni-rate :value="res.user_score" size="10" allowHalf readonly active-color='#EC9F3A'/>
+							<uni-rate :value="res.user_score" size="12" allowHalf readonly active-color='#EC9F3A'/>
 							<text class="time">{{res.add_time}}</text>
 						</view>
 					</view>
@@ -21,7 +21,7 @@
 				</view>
 				<view class="content">{{ res.content }}</view>
 			</view>
-			<view class="bottom-line">
+			<view class="bottom-line" v-show="showBottomLine(idx)">
 				<u-line color="#e0dde3" length="800rpx"/>
 			</view>
 		</view>
@@ -31,7 +31,16 @@
 
 <script>
 	export default {
-		props: ['shortCommentList'],
+		props: {
+			shortCommentList:{
+				type:Array,
+				default:[]
+			},
+			hiddenBottom:{
+				type:Boolean,
+				default:true
+			}
+		},
 		name:"shortComment",
 		methods:{
 			getIsApproval(is_approval) {
@@ -45,6 +54,13 @@
 					return 'www'
 				}
 			},
+			showBottomLine(idx){
+				if (idx === this.shortCommentList.length-1  && this.hiddenBottom ) {
+					return false
+				}else {
+					return true
+				}
+			}
 			
 		}
 	}
@@ -79,7 +95,7 @@
 			align-items: center;
 			margin-bottom: 10rpx;
 			.name {
-				font-size: 25rpx;
+				font-size: 30rpx;
 				color: #000000;
 			}
 			.like {
@@ -100,16 +116,16 @@
 			}
 		}
 		.content {
-			font-size: 28rpx;
+			font-size: 30rpx;
 			margin-bottom: 30rpx;
 		}
 		
 		.score-time {
 			display: flex;
 			.time {
-				margin-top: -7rpx;
+				margin-top: -6rpx;
 				margin-left: 15rpx;
-				font-size: 20rpx;
+				font-size: 23rpx;
 			}
 		}
 	}

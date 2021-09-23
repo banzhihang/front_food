@@ -119,7 +119,7 @@
 					</view>
 				</view>
 				<view slot="body"> 
-					<short-comment :shortCommentList="food.short_comment"></short-comment>
+					<short-comment :shortCommentList="food.short_comment" :hiddenBottom="false" ></short-comment>
 				</view>
 				<view slot="foot" class="short-comment-foot" @click="jumpToAllShortComment(food.id)">
 					<text style="color: #000000;" >查看全部{{food.short_comment_number}}条短评</text>
@@ -147,7 +147,7 @@
 					</view>
 				</view>
 				<view slot="body" class="discuss-body">
-					<discuss :dissCussList="food.discuss"></discuss>
+					<discuss :dissCussList="food.discuss" :hiddenBottom="false"></discuss>
 				</view>
 				<view slot="foot" class="discuss-foot" @click="jumpToAllDiscuss(food.id)">
 					<text style="color: #000000;">查看全部{{food.discuss_number}}个讨论</text>
@@ -440,9 +440,10 @@
 		}
 	}
 	.desc{
-		font-size: 25rpx;
+		font-size: 30rpx;
 		margin-left: -30rpx;
 		.desc-body {
+			font-size: 30rpx;
 			margin-top: -40rpx;
 		}
 	}
@@ -488,7 +489,7 @@
 	}
 	.short-comment-foot {
 		margin-top: -30rpx;
-		font-size: 25rpx;
+		font-size: 30rpx;
 		position: relative;
 		display: flex;
 		justify-content: space-between;
@@ -512,7 +513,7 @@
 	}
 	.discuss-foot{
 		margin-top: -20rpx;
-		font-size: 25rpx;
+		font-size: 30rpx;
 		position: relative;
 		display: flex;
 		justify-content: space-between;

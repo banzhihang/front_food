@@ -3,6 +3,7 @@
   "enablePullDownRefresh": false,
   "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
-    "food-list": "/components/food-list/food-list"
+    "food-list": "/components/food-list/food-list",
+    "u-divider": "/uview-ui/components/u-divider/u-divider"
   }
 }

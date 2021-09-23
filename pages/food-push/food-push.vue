@@ -35,7 +35,7 @@
 				:clearable="false" placeholder="美食名称" height="80" 
 				maxlength="20"
 				:custom-style="titleCustomStyle"
-				placeholder-style="font-size: 30rpx;color:#c8c5ca"/>
+				placeholder-style="font-size: 32rpx;color:#c8c5ca"/>
 			</view>
 			<view class="line-in">
 				<u-line color="#e0dde3" length="690rpx"/>
@@ -46,7 +46,7 @@
 				:auto-height="true"
 				maxlength="200"
 				:custom-style="descCustomStyle"
-				placeholder-style="font-size: 30rpx;color:#c8c5ca"/>
+				placeholder-style="font-size: 32rpx;color:#c8c5ca"/>
 			</view>
 			<view class="upload">
 				<u-upload :action="action"  :auto-upload="false" 
@@ -89,8 +89,8 @@
 					height: '50rpx',
 				},
 				customStyle2: {
-					borderColor: '#1a56b4',
-					backgroundColor:'#1a56b4',
+					borderColor: '#3363D1',
+					backgroundColor:'#3363D1',
 					height:'120rpx',
 					width: '120rpx',
 					height: '50rpx',
@@ -101,7 +101,7 @@
 				},
 				restaurantNameCustomStyle:{
 					color:'#8C8C8C',
-					fontSize:'25rpx',
+					fontSize:'28rpx',
 				},
 				titleCustomStyle:{
 					fontSize:'35rpx',
@@ -109,7 +109,7 @@
 				descCustomStyle:{
 					fontSize:'30rpx',
 				},
-				locationName:"中国重庆市北培区天生路",
+				locationName:"中国重庆市北培区天生路你你斤斤计较",
 				foodName:"",
 				restaurantName:"",
 			};
@@ -167,23 +167,23 @@
 			padding-left: 30rpx;
 			padding-right: 30rpx;
 			margin-top: 20rpx;
-			line-height: 60rpx;
-			height: 60rpx;
+			line-height: 70rpx;
+			height: 70rpx;
 			background-color: #F6F6F6;
 			border-radius: 40rpx;
 			color: #8C8C8C;
-			font-size: 25rpx;
+			font-size: 28rpx;
 		}
 		.restaurant-name {
 			padding-left: 30rpx;
 			padding-right: 30rpx;
 			margin-top: 20rpx;
-			line-height: 60rpx;
-			height: 60rpx;
+			line-height: 70rpx;
+			height: 70rpx;
 			background-color: #F6F6F6;
 			border-radius: 40rpx;
 			color: #8C8C8C;
-			font-size: 25rpx;
+			font-size: 28rpx;
 			display: inline-block;
 			.name-input {
 				display: inline-block;

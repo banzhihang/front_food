@@ -28,6 +28,7 @@
   position: relative;
 }
 .box .photo-num.data-v-1f033bb8 {
+  font-size: 30rpx;
   position: absolute;
   left: 60rpx;
   top: 29rpx;

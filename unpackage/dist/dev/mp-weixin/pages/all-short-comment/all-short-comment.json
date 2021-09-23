@@ -4,6 +4,7 @@
   "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
     "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
-    "short-comment": "/components/short-comment/short-comment"
+    "short-comment": "/components/short-comment/short-comment",
+    "u-divider": "/uview-ui/components/u-divider/u-divider"
   }
 }

@@ -96,13 +96,16 @@ var components
 try {
   components = {
     uniSegmentedControl: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control */ "uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue */ 359))
+      return __webpack_require__.e(/*! import() | uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control */ "uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control.vue */ 361))
     },
     discuss: function() {
-      return __webpack_require__.e(/*! import() | components/discuss/discuss */ "components/discuss/discuss").then(__webpack_require__.bind(null, /*! @/components/discuss/discuss.vue */ 265))
+      return __webpack_require__.e(/*! import() | components/discuss/discuss */ "components/discuss/discuss").then(__webpack_require__.bind(null, /*! @/components/discuss/discuss.vue */ 267))
     },
     uImage: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 188))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 190))
+    },
+    uDivider: function() {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-divider/u-divider */ "uview-ui/components/u-divider/u-divider").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-divider/u-divider.vue */ 347))
     }
   }
 } catch (e) {
@@ -159,7 +162,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var disCuss = function disCuss() {__webpack_require__.e(/*! require.ensure | components/discuss/discuss */ "components/discuss/discuss").then((function () {return resolve(__webpack_require__(/*! components/discuss/discuss.vue */ 265));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var disCussEdit = function disCussEdit() {__webpack_require__.e(/*! require.ensure | components/edit-discuss/edit-discuss */ "components/edit-discuss/edit-discuss").then((function () {return resolve(__webpack_require__(/*! components/edit-discuss/edit-discuss.vue */ 366));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var disCuss = function disCuss() {__webpack_require__.e(/*! require.ensure | components/discuss/discuss */ "components/discuss/discuss").then((function () {return resolve(__webpack_require__(/*! components/discuss/discuss.vue */ 267));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var disCussEdit = function disCussEdit() {__webpack_require__.e(/*! require.ensure | components/edit-discuss/edit-discuss */ "components/edit-discuss/edit-discuss").then((function () {return resolve(__webpack_require__(/*! components/edit-discuss/edit-discuss.vue */ 368));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
 
 
 

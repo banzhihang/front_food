@@ -165,6 +165,7 @@
 .box {
 	position: relative;
 	.photo-num {
+		font-size: 30rpx;
 		position: absolute;
 		left: 60rpx;
 		top:29rpx

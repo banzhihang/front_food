@@ -12,7 +12,6 @@
 				</view>
 			</view>
 			<view class="header-empty">
-				
 			</view>
 		</view>
 		
@@ -22,7 +21,10 @@
 		<view class="write" @click="jumpToDiscussPush">
 			<u-image width="80rpx" height="80rpx" src="https://hotschool.ltd/write.png"></u-image>
 		</view>
-		
+		<u-divider half-width="500" margin-bottom="200rpx">没有更多了</u-divider>
+		<view>
+			<image></image>
+		</view>
 	</view>
 </template>
 

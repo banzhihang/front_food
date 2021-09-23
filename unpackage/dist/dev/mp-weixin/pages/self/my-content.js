@@ -124,6 +124,9 @@ try {
   components = {
     foodList: function() {
       return Promise.resolve(/*! import() */).then(__webpack_require__.bind(null, /*! @/components/food-list/food-list.vue */ 95))
+    },
+    uDivider: function() {
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-divider/u-divider */ "uview-ui/components/u-divider/u-divider").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-divider/u-divider.vue */ 347))
     }
   }
 } catch (e) {
@@ -187,19 +190,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
+
 var _foodList = _interopRequireDefault(__webpack_require__(/*! ../../components/food-list/food-list.vue */ 95));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
 //
 //
 //
-var _default = { data: function data() {return { foodDataList: [{ "id": 18,
-        "name": "青椒肉丝",
-        "first_image": "https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0",
-        "desc": "这个不怎么辣，但徐爱您需不得不也不顶用成都必不得已你们顶焦度计顶焦度计姐姐斤斤计较你米你你你你",
-        "score": 8.2,
-        "distance": "1.5km",
-        "restaurant": "成都担担面" },
+//
+//
+//
+//
+//
+//
+var _default = { data: function data() {return { foodDataList: [{ "id": 18, "name": "青椒肉丝", "first_image": "https://tse1-mm.cn.bing.net/th/id/R-C.d24a44c17e185f0e1cc914af445140ba?rik=xrfhvAmLVuQWSA&riu=http%3a%2f%2fpic40.photophoto.cn%2f20160816%2f0042040257956376_b.jpg&ehk=2nbiodlGWhaSDo8CqK5FiZ1aNDv47p7ElifuLTtvUdk%3d&risl=&pid=ImgRaw&r=0", "desc": "这个不怎么辣，但徐爱您需不得不也不顶用成都必不得已你们顶焦度计顶焦度计姐姐斤斤计较你米你你你你", "score": 8.2, "distance": "1.5km", "restaurant": "成都担担面" },
 
       {
         "id": 17,
@@ -374,10 +383,10 @@ var components
 try {
   components = {
     uniRate: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/uni-rate/components/uni-rate/uni-rate */ "uni_modules/uni-rate/components/uni-rate/uni-rate").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-rate/components/uni-rate/uni-rate.vue */ 352))
+      return __webpack_require__.e(/*! import() | uni_modules/uni-rate/components/uni-rate/uni-rate */ "uni_modules/uni-rate/components/uni-rate/uni-rate").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-rate/components/uni-rate/uni-rate.vue */ 354))
     },
     uIcon: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 139))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-icon/u-icon */ "uview-ui/components/u-icon/u-icon").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-icon/u-icon.vue */ 141))
     }
   }
 } catch (e) {

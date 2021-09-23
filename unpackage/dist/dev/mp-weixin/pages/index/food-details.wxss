@@ -221,10 +221,11 @@
   top: 0;
 }
 .desc.data-v-4227a229 {
-  font-size: 25rpx;
+  font-size: 30rpx;
   margin-left: -30rpx;
 }
 .desc .desc-body.data-v-4227a229 {
+  font-size: 30rpx;
   margin-top: -40rpx;
 }
 .food-photo.data-v-4227a229 {
@@ -281,7 +282,7 @@
 }
 .short-comment-foot.data-v-4227a229 {
   margin-top: -30rpx;
-  font-size: 25rpx;
+  font-size: 30rpx;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -317,7 +318,7 @@
 }
 .discuss-foot.data-v-4227a229 {
   margin-top: -20rpx;
-  font-size: 25rpx;
+  font-size: 30rpx;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;

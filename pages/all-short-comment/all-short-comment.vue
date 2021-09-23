@@ -18,6 +18,10 @@
 		<view class="body">
 			<short-comment :shortCommentList="shortCommentInfo.short_comment_list"></short-comment>
 		</view>
+		<u-divider half-width="500" margin-bottom="200rpx">没有更多了</u-divider>
+		<view>
+			<image></image>
+		</view>
 	</view>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view v-for="discuss in dissCussList" :key="discuss.id" class="box" >
+		<view v-for="(discuss,idx) in dissCussList" :key="discuss.id" class="box" >
 			<view class="left">
 				<view class="icon">
 					<u-icon size="30" name="http://hotschool.ltd/reply.png"></u-icon>
@@ -25,7 +25,7 @@
 				</view>
 			</navigator>
 			
-			<view class="bottom-line">
+			<view class="bottom-line" v-show="showBottomLine(idx)">
 				<u-line color="#e0dde3" length="800rpx"/>
 			</view>
 		</view>
@@ -34,8 +34,26 @@
 
 <script>
 	export default {
-		props: ['dissCussList'],
+		props: {
+			dissCussList:{
+				type:Array,
+				default:[]
+			},
+			hiddenBottom:{
+				type:Boolean,
+				default:true
+			}
+		},
 		name:"discuss",
+		methods:{
+			showBottomLine(idx){
+				if (idx === this.dissCussList.length-1  && this.hiddenBottom ) {
+					return false
+				}else {
+					return true
+				}
+			}
+		}
 	}
 </script>
 
@@ -54,12 +72,12 @@
 	}
 	.left {
 		.icon {
-			margin-top: 10rpx;
+			margin-top: 13rpx;
 		}
 		.comment-num {
 			margin-top: -15rpx;
 			text {
-				font-size: 20rpx;
+				font-size: 25rpx;
 				margin-left: 6rpx;
 				color: #838184;
 			}
@@ -69,7 +87,7 @@
 		margin-top: 5rpx;
 		margin-left: 20rpx;
 		.discuss-title {
-			font-size: 28rpx;
+			font-size: 32rpx;
 			
 		}
 		.user{
@@ -82,7 +100,7 @@
 				background-color: #c1bec3;
 			}
 			view{
-				font-size: 23rpx;
+				font-size: 25rpx;
 				margin-left: 10rpx;
 				margin-top: -5rpx;
 			}
