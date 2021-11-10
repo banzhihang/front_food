@@ -25,8 +25,6 @@
 /* 透明度 */
 /* 文章场景相关 */
 .comment.data-v-3304f9ea {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   padding: 30rpx 15rpx 0rpx 10rpx;
 }
@@ -37,34 +35,23 @@
   background-color: #f2f2f2;
 }
 .comment .right.data-v-3304f9ea {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
   padding-left: 20rpx;
   font-size: 27rpx;
 }
 .comment .right .top.data-v-3304f9ea {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 10rpx;
 }
 .comment .right .top .name.data-v-3304f9ea {
   color: #0b0f1b;
+  font-size: 30rpx;
 }
 .comment .right .top .like.data-v-3304f9ea {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
   color: #9a9a9a;
   font-size: 26rpx;
 }
@@ -80,17 +67,12 @@
 }
 .comment .right .content.data-v-3304f9ea {
   margin-bottom: -10rpx;
+  font-size: 30rpx;
 }
 .comment .right .bottom.data-v-3304f9ea {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 20rpx;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  display: -webkit-box;
-  display: -webkit-flex;
+  justify-content: space-between;
   display: flex;
 }
 .comment .right .bottom text.data-v-3304f9ea {
@@ -99,24 +81,16 @@
 }
 .comment .right .bottom .bottom-right.data-v-3304f9ea {
   margin-right: 20rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .comment .right .bottom .bottom-right .reply-icon.data-v-3304f9ea {
   margin-top: 5rpx;
-  margin-right: 30rpx;
+  margin-right: 40rpx;
 }
 .comment .right .bottom .bottom-right .like-num.data-v-3304f9ea {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -webkit-flex;
+  flex: 1;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
   color: #9a9a9a;
   font-size: 26rpx;
 }

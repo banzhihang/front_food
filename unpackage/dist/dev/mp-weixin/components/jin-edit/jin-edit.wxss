@@ -20,14 +20,9 @@
 }
 .tool.data-v-52149304 {
   height: 100rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   background: #eee;
 }
@@ -35,18 +30,12 @@
   position: absolute;
   left: 0;
   bottom: 100rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   background: #ebebeb;
   overflow: hidden;
-  -webkit-transition: all 0.15s;
   transition: all 0.15s;
 }
 .setting-layer.data-v-52149304 {
@@ -62,17 +51,10 @@
   height: 80rpx;
   font-size: 32rpx;
   padding: 0 30rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
   line-height: 80rpx;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   color: #666;
 }
 .setting-layer .single .icon.data-v-52149304 {

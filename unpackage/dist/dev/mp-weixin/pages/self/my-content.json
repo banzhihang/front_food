@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "吃小猪",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "my-loading": "/components/my-loading/my-loading",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "my-food": "/components/my-food/my-food",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "my-food-list": "/components/my-food/my-food"
+  }
+}

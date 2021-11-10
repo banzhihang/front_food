@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "搜索",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "mescroll-uni": "/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-uni",
+    "food-list": "/components/food-list/food-list",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "history": "/components/search/search-history"
+  }
+}

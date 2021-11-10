@@ -1,6 +1,6 @@
-(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
-
-/***/ 1:
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],[
+/* 0 */,
+/* 1 */
 /*!************************************************************!*\
   !*** ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js ***!
   \************************************************************/
@@ -8,10 +8,39 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createComponent = createComponent;exports.createPage = createPage;exports.createPlugin = createPlugin;exports.createSubpackageApp = createSubpackageApp;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}
+/* WEBPACK VAR INJECTION */(function(global) {Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createComponent = createComponent;exports.createPage = createPage;exports.createPlugin = createPlugin;exports.createSubpackageApp = createSubpackageApp;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
+var _uniI18n = __webpack_require__(/*! @dcloudio/uni-i18n */ 4);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}
+
+var realAtob;
+
+var b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+var b64re = /^(?:[A-Za-z\d+/]{4})*?(?:[A-Za-z\d+/]{2}(?:==)?|[A-Za-z\d+/]{3}=?)?$/;
+
+if (typeof atob !== 'function') {
+  realAtob = function realAtob(str) {
+    str = String(str).replace(/[\t\n\f\r ]+/g, '');
+    if (!b64re.test(str)) {throw new Error("Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.");}
+
+    // Adding the padding if missing, for semplicity
+    str += '=='.slice(2 - (str.length & 3));
+    var bitmap;var result = '';var r1;var r2;var i = 0;
+    for (; i < str.length;) {
+      bitmap = b64.indexOf(str.charAt(i++)) << 18 | b64.indexOf(str.charAt(i++)) << 12 |
+      (r1 = b64.indexOf(str.charAt(i++))) << 6 | (r2 = b64.indexOf(str.charAt(i++)));
+
+      result += r1 === 64 ? String.fromCharCode(bitmap >> 16 & 255) :
+      r2 === 64 ? String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255) :
+      String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255, bitmap & 255);
+    }
+    return result;
+  };
+} else {
+  // 注意atob只能在全局对象上调用，例如：`const Base64 = {atob};Base64.atob('xxxx')`是错误的用法
+  realAtob = atob;
+}
 
 function b64DecodeUnicode(str) {
-  return decodeURIComponent(atob(str).split('').map(function (c) {
+  return decodeURIComponent(realAtob(str).split('').map(function (c) {
     return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
   }).join(''));
 }
@@ -295,7 +324,7 @@ var promiseInterceptor = {
 
 
 var SYNC_API_RE =
-/^\$|Window$|WindowStyle$|sendNativeEvent|restoreGlobal|getCurrentSubNVue|getMenuButtonBoundingClientRect|^report|interceptors|Interceptor$|getSubNVueById|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$|base64ToArrayBuffer|arrayBufferToBase64/;
+/^\$|Window$|WindowStyle$|sendNativeEvent|restoreGlobal|getCurrentSubNVue|getMenuButtonBoundingClientRect|^report|interceptors|Interceptor$|getSubNVueById|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$|base64ToArrayBuffer|arrayBufferToBase64|getLocale|setLocale/;
 
 var CONTEXT_API_RE = /^create|Manager$/;
 
@@ -408,6 +437,44 @@ function upx2px(number, newDeviceWidth) {
   return number < 0 ? -result : result;
 }
 
+function getLocale() {
+  // 优先使用 $locale
+  var app = getApp({
+    allowDefault: true });
+
+  if (app && app.$vm) {
+    return app.$vm.$locale;
+  }
+  return wx.getSystemInfoSync().language || 'zh-Hans';
+}
+
+function setLocale(locale) {
+  var app = getApp();
+  if (!app) {
+    return false;
+  }
+  var oldLocale = app.$vm.$locale;
+  if (oldLocale !== locale) {
+    app.$vm.$locale = locale;
+    onLocaleChangeCallbacks.forEach(function (fn) {return fn({
+        locale: locale });});
+
+    return true;
+  }
+  return false;
+}
+
+var onLocaleChangeCallbacks = [];
+function onLocaleChange(fn) {
+  if (onLocaleChangeCallbacks.indexOf(fn) === -1) {
+    onLocaleChangeCallbacks.push(fn);
+  }
+}
+
+if (typeof global !== 'undefined') {
+  global.getLocale = getLocale;
+}
+
 var interceptors = {
   promiseInterceptor: promiseInterceptor };
 
@@ -415,6 +482,9 @@ var interceptors = {
 var baseApi = /*#__PURE__*/Object.freeze({
   __proto__: null,
   upx2px: upx2px,
+  getLocale: getLocale,
+  setLocale: setLocale,
+  onLocaleChange: onLocaleChange,
   addInterceptor: addInterceptor,
   removeInterceptor: removeInterceptor,
   interceptors: interceptors });
@@ -745,7 +815,7 @@ function initTriggerEvent(mpInstance) {
   };
 }
 
-function initHook(name, options) {
+function initHook(name, options, isComponent) {
   var oldHook = options[name];
   if (!oldHook) {
     options[name] = function () {
@@ -1315,6 +1385,54 @@ function handleEvent(event) {var _this = this;
   }
 }
 
+var locale;
+
+{
+  locale = wx.getSystemInfoSync().language;
+}
+
+var i18n = (0, _uniI18n.initVueI18n)(
+locale,
+{});
+
+var t = i18n.t;
+var i18nMixin = i18n.mixin = {
+  beforeCreate: function beforeCreate() {var _this2 = this;
+    var unwatch = i18n.i18n.watchLocale(function () {
+      _this2.$forceUpdate();
+    });
+    this.$once('hook:beforeDestroy', function () {
+      unwatch();
+    });
+  },
+  methods: {
+    $$t: function $$t(key, values) {
+      return t(key, values);
+    } } };
+
+
+var setLocale$1 = i18n.setLocale;
+var getLocale$1 = i18n.getLocale;
+
+function initAppLocale(Vue, appVm, locale) {
+  var state = Vue.observable({
+    locale: locale || i18n.getLocale() });
+
+  var localeWatchers = [];
+  appVm.$watchLocale = function (fn) {
+    localeWatchers.push(fn);
+  };
+  Object.defineProperty(appVm, '$locale', {
+    get: function get() {
+      return state.locale;
+    },
+    set: function set(v) {
+      state.locale = v;
+      localeWatchers.forEach(function (watch) {return watch(v);});
+    } });
+
+}
+
 var eventChannels = {};
 
 var eventChannelStack = [];
@@ -1488,6 +1606,8 @@ function parseBaseApp(vm, _ref3)
       appOptions[name] = methods[name];
     });
   }
+
+  initAppLocale(_vue.default, vm, wx.getSystemInfoSync().language || 'zh-Hans');
 
   initHooks(appOptions, hooks);
 
@@ -1931,1493 +2051,40 @@ wx.createPlugin = createPlugin;
 var uni$1 = uni;var _default =
 
 uni$1;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ 2)))
 
 /***/ }),
-
-/***/ 10:
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \**********************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode, /* vue-cli only */
-  components, // fixed by xxxxxx auto components
-  renderjs // fixed by xxxxxx renderjs
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // fixed by xxxxxx auto components
-  if (components) {
-    if (!options.components) {
-      options.components = {}
-    }
-    var hasOwn = Object.prototype.hasOwnProperty
-    for (var name in components) {
-      if (hasOwn.call(components, name) && !hasOwn.call(options.components, name)) {
-        options.components[name] = components[name]
-      }
-    }
-  }
-  // fixed by xxxxxx renderjs
-  if (renderjs) {
-    (renderjs.beforeCreate || (renderjs.beforeCreate = [])).unshift(function() {
-      this[renderjs.__module] = this
-    });
-    (options.mixins || (options.mixins = [])).push(renderjs)
-  }
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
-
-
-/***/ }),
-
-/***/ 11:
-/*!**************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/util/api.js ***!
-  \**************************************************************/
+/* 2 */
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.myRequest = void 0;var BASE_URL = 'http://localhost:8082';
-var myRequest = function myRequest(options) {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: BASE_URL + options.url,
-      method: options.method || 'GET',
-      data: options.data || {},
-      success: function success(res) {
-        resolve(res);
-      },
-      fail: function fail(err) {
-        reject(err);
-      } });
-
-  });
-};exports.myRequest = myRequest;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 12:
-/*!********************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/index.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 13));
-
-
-
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 14));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 18));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 19));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 23));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 24));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 25));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 26));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 27));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 28));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 29));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 16));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 15));
-
-var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 30));
-
-
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 17));
-
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 31));
-
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 32));
-
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 33));
-
-var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 34));
-
-var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 35));
-
-
-
-var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 36);
-
-var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 37));
-
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 38));
-
-
-
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 39));
-
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 40));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
-// 引入关于是否mixin集成小程序分享的配置
-// import wxshare from './libs/mixin/mpShare.js'
-// 全局挂载引入http相关请求拦截插件
-function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
-  // 这个环境的来由是在程序编写时候,点击hx编辑器运行调试代码的时候,详见:
-  // 	https://uniapp.dcloud.io/frame?id=%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e5%92%8c%e7%94%9f%e4%ba%a7%e7%8e%af%e5%a2%83
-  if (true) {console.warn(str);}} // 尝试判断在根目录的/store中是否有$u.mixin.js，此文件uView默认为需要挂在到全局的vuex的state变量
-// HX2.6.11版本,放到try中,控制台依然会警告,暂时不用此方式，
-// let vuexStore = {};
-// try {
-// 	vuexStore = require("@/store/$u.mixin.js");
-// } catch (e) {
-// 	//TODO handle the exception
-// }
-// post类型对象参数转为get类型url参数
-var $u = { queryParams: _queryParams.default, route: _route.default, timeFormat: _timeFormat.default, date: _timeFormat.default, // 另名date
-  timeFrom: _timeFrom.default, colorGradient: _colorGradient.default.colorGradient, colorToRgba: _colorGradient.default.colorToRgba, guid: _guid.default, color: _color.default, sys: _sys.sys, os: _sys.os, type2icon: _type2icon.default, randomArray: _randomArray.default, wranning: wranning, get: _request.default.get,
-  post: _request.default.post,
-  put: _request.default.put,
-  'delete': _request.default.delete,
-  hexToRgb: _colorGradient.default.hexToRgb,
-  rgbToHex: _colorGradient.default.rgbToHex,
-  test: _test.default,
-  random: _random.default,
-  deepClone: _deepClone.default,
-  deepMerge: _deepMerge.default,
-  getParent: _getParent.default,
-  $parent: _$parent.default,
-  addUnit: _addUnit.default,
-  trim: _trim.default,
-  type: ['primary', 'success', 'error', 'warning', 'info'],
-  http: _request.default,
-  toast: _toast.default,
-  config: _config.default, // uView配置信息相关，比如版本号
-  zIndex: _zIndex.default,
-  debounce: _debounce.default,
-  throttle: _throttle.default };
-
-
-// $u挂载到uni对象上
-uni.$u = $u;
-
-var install = function install(Vue) {
-  Vue.mixin(_mixin.default);
-  if (Vue.prototype.openShare) {
-    Vue.mixin(mpShare);
-  }
-  // Vue.mixin(vuexStore);
-  // 时间格式化，同时两个名称，date和timeFormat
-  Vue.filter('timeFormat', function (timestamp, format) {
-    return (0, _timeFormat.default)(timestamp, format);
-  });
-  Vue.filter('date', function (timestamp, format) {
-    return (0, _timeFormat.default)(timestamp, format);
-  });
-  // 将多久以前的方法，注入到全局过滤器
-  Vue.filter('timeFrom', function (timestamp, format) {
-    return (0, _timeFrom.default)(timestamp, format);
-  });
-  Vue.prototype.$u = $u;
-};var _default =
-
-{
-  install: install };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 13:
-/*!*******************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/mixin/mixin.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(uni) {module.exports = {
-  data: function data() {
-    return {};
-  },
-  onLoad: function onLoad() {
-    // getRect挂载到$u上，因为这方法需要使用in(this)，所以无法把它独立成一个单独的文件导出
-    this.$u.getRect = this.$uGetRect;
-  },
-  methods: {
-    // 查询节点信息
-    // 目前此方法在支付宝小程序中无法获取组件跟接点的尺寸，为支付宝的bug(2020-07-21)
-    // 解决办法为在组件根部再套一个没有任何作用的view元素
-    $uGetRect: function $uGetRect(selector, all) {var _this = this;
-      return new Promise(function (resolve) {
-        uni.createSelectorQuery().
-        in(_this)[all ? 'selectAll' : 'select'](selector).
-        boundingClientRect(function (rect) {
-          if (all && Array.isArray(rect) && rect.length) {
-            resolve(rect);
-          }
-          if (!all && rect) {
-            resolve(rect);
-          }
-        }).
-        exec();
-      });
-    },
-    getParentData: function getParentData() {var _this2 = this;var parentName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-      // 避免在created中去定义parent变量
-      if (!this.parent) this.parent = false;
-      // 这里的本质原理是，通过获取父组件实例(也即u-radio-group的this)
-      // 将父组件this中对应的参数，赋值给本组件(u-radio的this)的parentData对象中对应的属性
-      // 之所以需要这么做，是因为所有端中，头条小程序不支持通过this.parent.xxx去监听父组件参数的变化
-      this.parent = this.$u.$parent.call(this, parentName);
-      if (this.parent) {
-        // 历遍parentData中的属性，将parent中的同名属性赋值给parentData
-        Object.keys(this.parentData).map(function (key) {
-          _this2.parentData[key] = _this2.parent[key];
-        });
-      }
-    },
-    // 阻止事件冒泡
-    preventEvent: function preventEvent(e) {
-      e && e.stopPropagation && e.stopPropagation();
-    } },
-
-  onReachBottom: function onReachBottom() {
-    uni.$emit('uOnReachBottom');
-  },
-  beforeDestroy: function beforeDestroy() {var _this3 = this;
-    // 判断当前页面是否存在parent和chldren，一般在checkbox和checkbox-group父子联动的场景会有此情况
-    // 组件销毁时，移除子组件在父组件children数组中的实例，释放资源，避免数据混乱
-    if (this.parent && uni.$u.test.array(this.parent.children)) {
-      // 组件销毁时，移除父组件中的children数组中对应的实例
-      var childrenList = this.parent.children;
-      childrenList.map(function (child, index) {
-        // 如果相等，则移除
-        if (child === _this3) {
-          childrenList.splice(index, 1);
-        }
-      });
-    }
-  } };
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 134:
-/*!************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/uni-cloud/dist/index.js ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global, uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 20));var _uniI18n = __webpack_require__(/*! @dcloudio/uni-i18n */ 135);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _createForOfIteratorHelper(o, allowArrayLike) {var it;if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) {if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {if (it) o = it;var i = 0;var F = function F() {};return { s: F, n: function n() {if (i >= o.length) return { done: true };return { done: false, value: o[i++] };}, e: function e(_e26) {throw _e26;}, f: F };}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}var normalCompletion = true,didErr = false,err;return { s: function s() {it = o[Symbol.iterator]();}, n: function n() {var step = it.next();normalCompletion = step.done;return step;}, e: function e(_e27) {didErr = true;err = _e27;}, f: function f() {try {if (!normalCompletion && it.return != null) it.return();} finally {if (didErr) throw err;}} };}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function");}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } });if (superClass) _setPrototypeOf(subClass, superClass);}function _createSuper(Derived) {var hasNativeReflectConstruct = _isNativeReflectConstruct();return function _createSuperInternal() {var Super = _getPrototypeOf(Derived),result;if (hasNativeReflectConstruct) {var NewTarget = _getPrototypeOf(this).constructor;result = Reflect.construct(Super, arguments, NewTarget);} else {result = Super.apply(this, arguments);}return _possibleConstructorReturn(this, result);};}function _possibleConstructorReturn(self, call) {if (call && (typeof call === "object" || typeof call === "function")) {return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self) {if (self === void 0) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return self;}function _wrapNativeSuper(Class) {var _cache = typeof Map === "function" ? new Map() : undefined;_wrapNativeSuper = function _wrapNativeSuper(Class) {if (Class === null || !_isNativeFunction(Class)) return Class;if (typeof Class !== "function") {throw new TypeError("Super expression must either be null or a function");}if (typeof _cache !== "undefined") {if (_cache.has(Class)) return _cache.get(Class);_cache.set(Class, Wrapper);}function Wrapper() {return _construct(Class, arguments, _getPrototypeOf(this).constructor);}Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } });return _setPrototypeOf(Wrapper, Class);};return _wrapNativeSuper(Class);}function _construct(Parent, args, Class) {if (_isNativeReflectConstruct()) {_construct = Reflect.construct;} else {_construct = function _construct(Parent, args, Class) {var a = [null];a.push.apply(a, args);var Constructor = Function.bind.apply(Parent, a);var instance = new Constructor();if (Class) _setPrototypeOf(instance, Class.prototype);return instance;};}return _construct.apply(null, arguments);}function _isNativeReflectConstruct() {if (typeof Reflect === "undefined" || !Reflect.construct) return false;if (Reflect.construct.sham) return false;if (typeof Proxy === "function") return true;try {Date.prototype.toString.call(Reflect.construct(Date, [], function () {}));return true;} catch (e) {return false;}}function _isNativeFunction(fn) {return Function.toString.call(fn).indexOf("[native code]") !== -1;}function _setPrototypeOf(o, p) {_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {o.__proto__ = p;return o;};return _setPrototypeOf(o, p);}function _getPrototypeOf(o) {_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {return o.__proto__ || Object.getPrototypeOf(o);};return _getPrototypeOf(o);}"undefined" != typeof globalThis ? globalThis : "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self && self;function t(e) {return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;}function n(e, t, n) {return e(n = { path: t, exports: {}, require: function require(e, t) {return function () {throw new Error("Dynamic requires are not currently supported by @rollup/plugin-commonjs");}(null == t && n.path);} }, n.exports), n.exports;}var s = n(function (e, t) {var n;e.exports = (n = n || function (e, t) {var n = Object.create || function () {function e() {}return function (t) {var n;return e.prototype = t, n = new e(), e.prototype = null, n;};}(),s = {},r = s.lib = {},o = r.Base = { extend: function extend(e) {var t = n(this);return e && t.mixIn(e), t.hasOwnProperty("init") && this.init !== t.init || (t.init = function () {t.$super.init.apply(this, arguments);}), t.init.prototype = t, t.$super = this, t;}, create: function create() {var e = this.extend();return e.init.apply(e, arguments), e;}, init: function init() {}, mixIn: function mixIn(e) {for (var t in e) {e.hasOwnProperty(t) && (this[t] = e[t]);}e.hasOwnProperty("toString") && (this.toString = e.toString);}, clone: function clone() {return this.init.prototype.extend(this);} },i = r.WordArray = o.extend({ init: function init(e, n) {e = this.words = e || [], this.sigBytes = n != t ? n : 4 * e.length;}, toString: function toString(e) {return (e || c).stringify(this);}, concat: function concat(e) {var t = this.words,n = e.words,s = this.sigBytes,r = e.sigBytes;if (this.clamp(), s % 4) for (var o = 0; o < r; o++) {var i = n[o >>> 2] >>> 24 - o % 4 * 8 & 255;t[s + o >>> 2] |= i << 24 - (s + o) % 4 * 8;} else for (o = 0; o < r; o += 4) {t[s + o >>> 2] = n[o >>> 2];}return this.sigBytes += r, this;}, clamp: function clamp() {var t = this.words,n = this.sigBytes;t[n >>> 2] &= 4294967295 << 32 - n % 4 * 8, t.length = e.ceil(n / 4);}, clone: function clone() {var e = o.clone.call(this);return e.words = this.words.slice(0), e;}, random: function random(t) {for (var n, s = [], r = function r(t) {t = t;var n = 987654321,s = 4294967295;return function () {var r = ((n = 36969 * (65535 & n) + (n >> 16) & s) << 16) + (t = 18e3 * (65535 & t) + (t >> 16) & s) & s;return r /= 4294967296, (r += .5) * (e.random() > .5 ? 1 : -1);};}, o = 0; o < t; o += 4) {var a = r(4294967296 * (n || e.random()));n = 987654071 * a(), s.push(4294967296 * a() | 0);}return new i.init(s, t);} }),a = s.enc = {},c = a.Hex = { stringify: function stringify(e) {for (var t = e.words, n = e.sigBytes, s = [], r = 0; r < n; r++) {var o = t[r >>> 2] >>> 24 - r % 4 * 8 & 255;s.push((o >>> 4).toString(16)), s.push((15 & o).toString(16));}return s.join("");}, parse: function parse(e) {for (var t = e.length, n = [], s = 0; s < t; s += 2) {n[s >>> 3] |= parseInt(e.substr(s, 2), 16) << 24 - s % 8 * 4;}return new i.init(n, t / 2);} },u = a.Latin1 = { stringify: function stringify(e) {for (var t = e.words, n = e.sigBytes, s = [], r = 0; r < n; r++) {var o = t[r >>> 2] >>> 24 - r % 4 * 8 & 255;s.push(String.fromCharCode(o));}return s.join("");}, parse: function parse(e) {for (var t = e.length, n = [], s = 0; s < t; s++) {n[s >>> 2] |= (255 & e.charCodeAt(s)) << 24 - s % 4 * 8;}return new i.init(n, t);} },h = a.Utf8 = { stringify: function stringify(e) {try {return decodeURIComponent(escape(u.stringify(e)));} catch (e) {throw new Error("Malformed UTF-8 data");}}, parse: function parse(e) {return u.parse(unescape(encodeURIComponent(e)));} },l = r.BufferedBlockAlgorithm = o.extend({ reset: function reset() {this._data = new i.init(), this._nDataBytes = 0;}, _append: function _append(e) {"string" == typeof e && (e = h.parse(e)), this._data.concat(e), this._nDataBytes += e.sigBytes;}, _process: function _process(t) {var n = this._data,s = n.words,r = n.sigBytes,o = this.blockSize,a = r / (4 * o),c = (a = t ? e.ceil(a) : e.max((0 | a) - this._minBufferSize, 0)) * o,u = e.min(4 * c, r);if (c) {for (var h = 0; h < c; h += o) {this._doProcessBlock(s, h);}var l = s.splice(0, c);n.sigBytes -= u;}return new i.init(l, u);}, clone: function clone() {var e = o.clone.call(this);return e._data = this._data.clone(), e;}, _minBufferSize: 0 }),d = (r.Hasher = l.extend({ cfg: o.extend(), init: function init(e) {this.cfg = this.cfg.extend(e), this.reset();}, reset: function reset() {l.reset.call(this), this._doReset();}, update: function update(e) {return this._append(e), this._process(), this;}, finalize: function finalize(e) {return e && this._append(e), this._doFinalize();}, blockSize: 16, _createHelper: function _createHelper(e) {return function (t, n) {return new e.init(n).finalize(t);};}, _createHmacHelper: function _createHmacHelper(e) {return function (t, n) {return new d.HMAC.init(e, n).finalize(t);};} }), s.algo = {});return s;}(Math), n);}),r = (n(function (e, t) {var n;e.exports = (n = s, function (e) {var t = n,s = t.lib,r = s.WordArray,o = s.Hasher,i = t.algo,a = [];!function () {for (var t = 0; t < 64; t++) {a[t] = 4294967296 * e.abs(e.sin(t + 1)) | 0;}}();var c = i.MD5 = o.extend({ _doReset: function _doReset() {this._hash = new r.init([1732584193, 4023233417, 2562383102, 271733878]);}, _doProcessBlock: function _doProcessBlock(e, t) {for (var n = 0; n < 16; n++) {var s = t + n,r = e[s];e[s] = 16711935 & (r << 8 | r >>> 24) | 4278255360 & (r << 24 | r >>> 8);}var o = this._hash.words,i = e[t + 0],c = e[t + 1],f = e[t + 2],p = e[t + 3],g = e[t + 4],m = e[t + 5],y = e[t + 6],_ = e[t + 7],w = e[t + 8],v = e[t + 9],S = e[t + 10],k = e[t + 11],T = e[t + 12],P = e[t + 13],I = e[t + 14],A = e[t + 15],E = o[0],b = o[1],O = o[2],U = o[3];E = u(E, b, O, U, i, 7, a[0]), U = u(U, E, b, O, c, 12, a[1]), O = u(O, U, E, b, f, 17, a[2]), b = u(b, O, U, E, p, 22, a[3]), E = u(E, b, O, U, g, 7, a[4]), U = u(U, E, b, O, m, 12, a[5]), O = u(O, U, E, b, y, 17, a[6]), b = u(b, O, U, E, _, 22, a[7]), E = u(E, b, O, U, w, 7, a[8]), U = u(U, E, b, O, v, 12, a[9]), O = u(O, U, E, b, S, 17, a[10]), b = u(b, O, U, E, k, 22, a[11]), E = u(E, b, O, U, T, 7, a[12]), U = u(U, E, b, O, P, 12, a[13]), O = u(O, U, E, b, I, 17, a[14]), E = h(E, b = u(b, O, U, E, A, 22, a[15]), O, U, c, 5, a[16]), U = h(U, E, b, O, y, 9, a[17]), O = h(O, U, E, b, k, 14, a[18]), b = h(b, O, U, E, i, 20, a[19]), E = h(E, b, O, U, m, 5, a[20]), U = h(U, E, b, O, S, 9, a[21]), O = h(O, U, E, b, A, 14, a[22]), b = h(b, O, U, E, g, 20, a[23]), E = h(E, b, O, U, v, 5, a[24]), U = h(U, E, b, O, I, 9, a[25]), O = h(O, U, E, b, p, 14, a[26]), b = h(b, O, U, E, w, 20, a[27]), E = h(E, b, O, U, P, 5, a[28]), U = h(U, E, b, O, f, 9, a[29]), O = h(O, U, E, b, _, 14, a[30]), E = l(E, b = h(b, O, U, E, T, 20, a[31]), O, U, m, 4, a[32]), U = l(U, E, b, O, w, 11, a[33]), O = l(O, U, E, b, k, 16, a[34]), b = l(b, O, U, E, I, 23, a[35]), E = l(E, b, O, U, c, 4, a[36]), U = l(U, E, b, O, g, 11, a[37]), O = l(O, U, E, b, _, 16, a[38]), b = l(b, O, U, E, S, 23, a[39]), E = l(E, b, O, U, P, 4, a[40]), U = l(U, E, b, O, i, 11, a[41]), O = l(O, U, E, b, p, 16, a[42]), b = l(b, O, U, E, y, 23, a[43]), E = l(E, b, O, U, v, 4, a[44]), U = l(U, E, b, O, T, 11, a[45]), O = l(O, U, E, b, A, 16, a[46]), E = d(E, b = l(b, O, U, E, f, 23, a[47]), O, U, i, 6, a[48]), U = d(U, E, b, O, _, 10, a[49]), O = d(O, U, E, b, I, 15, a[50]), b = d(b, O, U, E, m, 21, a[51]), E = d(E, b, O, U, T, 6, a[52]), U = d(U, E, b, O, p, 10, a[53]), O = d(O, U, E, b, S, 15, a[54]), b = d(b, O, U, E, c, 21, a[55]), E = d(E, b, O, U, w, 6, a[56]), U = d(U, E, b, O, A, 10, a[57]), O = d(O, U, E, b, y, 15, a[58]), b = d(b, O, U, E, P, 21, a[59]), E = d(E, b, O, U, g, 6, a[60]), U = d(U, E, b, O, k, 10, a[61]), O = d(O, U, E, b, f, 15, a[62]), b = d(b, O, U, E, v, 21, a[63]), o[0] = o[0] + E | 0, o[1] = o[1] + b | 0, o[2] = o[2] + O | 0, o[3] = o[3] + U | 0;}, _doFinalize: function _doFinalize() {var t = this._data,n = t.words,s = 8 * this._nDataBytes,r = 8 * t.sigBytes;n[r >>> 5] |= 128 << 24 - r % 32;var o = e.floor(s / 4294967296),i = s;n[15 + (r + 64 >>> 9 << 4)] = 16711935 & (o << 8 | o >>> 24) | 4278255360 & (o << 24 | o >>> 8), n[14 + (r + 64 >>> 9 << 4)] = 16711935 & (i << 8 | i >>> 24) | 4278255360 & (i << 24 | i >>> 8), t.sigBytes = 4 * (n.length + 1), this._process();for (var a = this._hash, c = a.words, u = 0; u < 4; u++) {var h = c[u];c[u] = 16711935 & (h << 8 | h >>> 24) | 4278255360 & (h << 24 | h >>> 8);}return a;}, clone: function clone() {var e = o.clone.call(this);return e._hash = this._hash.clone(), e;} });function u(e, t, n, s, r, o, i) {var a = e + (t & n | ~t & s) + r + i;return (a << o | a >>> 32 - o) + t;}function h(e, t, n, s, r, o, i) {var a = e + (t & s | n & ~s) + r + i;return (a << o | a >>> 32 - o) + t;}function l(e, t, n, s, r, o, i) {var a = e + (t ^ n ^ s) + r + i;return (a << o | a >>> 32 - o) + t;}function d(e, t, n, s, r, o, i) {var a = e + (n ^ (t | ~s)) + r + i;return (a << o | a >>> 32 - o) + t;}t.MD5 = o._createHelper(c), t.HmacMD5 = o._createHmacHelper(c);}(Math), n.MD5);}), n(function (e, t) {var n, r, o;e.exports = (r = (n = s).lib.Base, o = n.enc.Utf8, void (n.algo.HMAC = r.extend({ init: function init(e, t) {e = this._hasher = new e.init(), "string" == typeof t && (t = o.parse(t));var n = e.blockSize,s = 4 * n;t.sigBytes > s && (t = e.finalize(t)), t.clamp();for (var r = this._oKey = t.clone(), i = this._iKey = t.clone(), a = r.words, c = i.words, u = 0; u < n; u++) {a[u] ^= 1549556828, c[u] ^= 909522486;}r.sigBytes = i.sigBytes = s, this.reset();}, reset: function reset() {var e = this._hasher;e.reset(), e.update(this._iKey);}, update: function update(e) {return this._hasher.update(e), this;}, finalize: function finalize(e) {var t = this._hasher,n = t.finalize(e);return t.reset(), t.finalize(this._oKey.clone().concat(n));} })));}), n(function (e, t) {e.exports = s.HmacMD5;}));function o(e) {return Object.prototype.toString.call(e).slice(8, -1).toLowerCase();}function i(e) {return "object" === o(e);}var a = /*#__PURE__*/function (_Error) {_inherits(a, _Error);var _super = _createSuper(a);function a(e, t) {var _this;_classCallCheck(this, a);_this = _super.call(this, e), _this.code = t;return _this;}return a;}( /*#__PURE__*/_wrapNativeSuper(Error));function c(e) {return e && "string" == typeof e ? JSON.parse(e) : e;}var u = "development" === "development",h = "mp-weixin",l = c(undefined),d = c([]),f = true;var p = "";try {{var _e2 = __webpack_require__(/*! uni-stat-config */ 136).default || __webpack_require__(/*! uni-stat-config */ 136);p = _e2.appid;}} catch (e) {}var g = {};function m(e) {var t = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var n, s;return n = g, s = e, Object.prototype.hasOwnProperty.call(n, s) || (g[e] = t), g[e];}"app-plus" === h && (g = uni._globalUniCloudObj ? uni._globalUniCloudObj : uni._globalUniCloudObj = {});var y = ["invoke", "success", "fail", "complete"],_ = m("_globalUniCloudInterceptor");function w(e, t) {_[e] || (_[e] = {}), i(t) && Object.keys(t).forEach(function (n) {y.indexOf(n) > -1 && function (e, t, n) {var s = _[e][t];s || (s = _[e][t] = []), -1 === s.indexOf(n) && "function" == typeof n && s.push(n);}(e, n, t[n]);});}function v(e, t) {_[e] || (_[e] = {}), i(t) ? Object.keys(t).forEach(function (n) {y.indexOf(n) > -1 && function (e, t, n) {var s = _[e][t];if (!s) return;var r = s.indexOf(n);r > -1 && s.splice(r, 1);}(e, n, t[n]);}) : delete _[e];}function S(e, t) {return e && 0 !== e.length ? e.reduce(function (e, n) {return e.then(function () {return n(t);});}, Promise.resolve()) : Promise.resolve();}function k(e, t) {return _[e] && _[e][t] || [];}function T(e, t) {return t ? function (n) {var _this2 = this;var s = "callFunction" === t && "DCloud-clientDB" === (n && n.name);var r;r = this.isReady ? Promise.resolve() : this.initUniCloud, n = n || {};var o = r.then(function () {return s ? Promise.resolve() : S(k(t, "invoke"), n);}).then(function () {return e.call(_this2, n);}).then(function (e) {return s ? Promise.resolve(e) : S(k(t, "success"), e).then(function () {return S(k(t, "complete"), e);}).then(function () {return Promise.resolve(e);});}, function (e) {return s ? Promise.reject(e) : S(k(t, "fail"), e).then(function () {return S(k(t, "complete"), e);}).then(function () {return Promise.reject(e);});});if (!(n.success || n.fail || n.complete)) return o;o.then(function (e) {n.success && n.success(e), n.complete && n.complete(e);}).catch(function (e) {n.fail && n.fail(e), n.complete && n.complete(e);});} : function (t) {if (!((t = t || {}).success || t.fail || t.complete)) return e.call(this, t);e.call(this, t).then(function (e) {t.success && t.success(e), t.complete && t.complete(e);}, function (e) {t.fail && t.fail(e), t.complete && t.complete(e);});};}var P = /*#__PURE__*/function (_Error2) {_inherits(P, _Error2);var _super2 = _createSuper(P);function P(e) {var _this3;_classCallCheck(this, P);_this3 = _super2.call(this, e.message), _this3.errMsg = e.message || "", Object.defineProperties(_assertThisInitialized(_this3), { code: { get: function get() {return e.code;} }, requestId: { get: function get() {return e.requestId;} }, message: { get: function get() {return this.errMsg;}, set: function set(e) {this.errMsg = e;} } });return _this3;}return P;}( /*#__PURE__*/_wrapNativeSuper(Error));var _e3 = (0, _uniI18n.initVueI18n)({ "zh-Hans": { "uniCloud.init.paramRequired": "缺少参数：{param}", "uniCloud.uploadFile.fileError": "filePath应为File对象" }, "zh-Hant": { "uniCloud.init.paramRequired": "缺少参数：{param}", "uniCloud.uploadFile.fileError": "filePath应为File对象" }, en: { "uniCloud.init.paramRequired": "{param} required", "uniCloud.uploadFile.fileError": "filePath should be instance of File" }, fr: { "uniCloud.init.paramRequired": "{param} required", "uniCloud.uploadFile.fileError": "filePath should be instance of File" }, es: { "uniCloud.init.paramRequired": "{param} required", "uniCloud.uploadFile.fileError": "filePath should be instance of File" } }, "zh-Hans"),I = _e3.t,A = _e3.setLocale,E = _e3.getLocale;var b, O;function U() {var e = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 8;var t = "";for (; t.length < e;) {t += Math.random().toString(32).substring(2);}return t.substring(0, e);}function C() {var _uni$getSystemInfoSyn = uni.getSystemInfoSync(),e = _uni$getSystemInfoSyn.deviceId;return { PLATFORM: h, OS: O, APPID: p, LOCALE: E(), DEVICEID: e, CLIENT_SDK_VERSION: "1.0.8" };}function D() {if ("n" === x()) {try {b = plus.runtime.getDCloudId();} catch (e) {b = "";}return b;}return b || (b = U(32), uni.setStorage({ key: "__DC_CLOUD_UUID", data: b })), b;}function x() {var _appPlus$h5$mpWeixi;return (_appPlus$h5$mpWeixi = { "app-plus": "n", h5: "h5", "mp-weixin": "wx" }, _defineProperty(_appPlus$h5$mpWeixi, ["y", "a", "p", "mp-ali"].reverse().join(""), "ali"), _defineProperty(_appPlus$h5$mpWeixi, "mp-baidu", "bd"), _defineProperty(_appPlus$h5$mpWeixi, "mp-toutiao", "tt"), _defineProperty(_appPlus$h5$mpWeixi, "mp-qq", "qq"), _defineProperty(_appPlus$h5$mpWeixi, "quickapp-native", "qn"), _appPlus$h5$mpWeixi)[h];}var R = { sign: function sign(e, t) {var n = "";return Object.keys(e).sort().forEach(function (t) {e[t] && (n = n + "&" + t + "=" + e[t]);}), n = n.slice(1), r(n, t).toString();}, wrappedRequest: function wrappedRequest(e, t) {return new Promise(function (n, s) {t(Object.assign(e, { complete: function complete(e) {e || (e = {}), u && "h5" === h && e.errMsg && 0 === e.errMsg.indexOf("request:fail") && console.warn("发布H5，需要在uniCloud后台操作，绑定安全域名，否则会因为跨域问题而无法访问。教程参考：https://uniapp.dcloud.io/uniCloud/quickstart?id=useinh5");var t = e.data && e.data.header && e.data.header["x-serverless-request-id"] || e.header && e.header["request-id"];if (!e.statusCode || e.statusCode >= 400) return s(new P({ code: "SYS_ERR", message: e.errMsg || "request:fail", requestId: t }));var r = e.data;if (r.error) return s(new P({ code: r.error.code, message: r.error.message, requestId: t }));r.result = r.data, r.requestId = t, delete r.data, n(r);} }));});} };var q = { request: function request(e) {return uni.request(e);}, uploadFile: function uploadFile(e) {return uni.uploadFile(e);}, setStorageSync: function setStorageSync(e, t) {return uni.setStorageSync(e, t);}, getStorageSync: function getStorageSync(e) {return uni.getStorageSync(e);}, removeStorageSync: function removeStorageSync(e) {return uni.removeStorageSync(e);}, clearStorageSync: function clearStorageSync() {return uni.clearStorageSync();} };var F = /*#__PURE__*/function () {function F(e) {_classCallCheck(this, F);["spaceId", "clientSecret"].forEach(function (t) {if (!Object.prototype.hasOwnProperty.call(e, t)) throw new Error(I("uniCloud.init.paramRequired", { param: t }));}), this.config = Object.assign({}, { endpoint: "https://api.bspapp.com" }, e), this.config.provider = "aliyun", this.config.requestUrl = this.config.endpoint + "/client", this.config.envType = this.config.envType || "public", this.config.accessTokenKey = "access_token_" + this.config.spaceId, this.adapter = q, this._getAccessTokenPromise = null, this._getAccessTokenPromiseStatus = null;}_createClass(F, [{ key: "setAccessToken", value: function setAccessToken(e) {this.accessToken = e;} }, { key: "requestWrapped", value: function requestWrapped(e) {return R.wrappedRequest(e, this.adapter.request);} }, { key: "requestAuth", value: function requestAuth(e) {return this.requestWrapped(e);} }, { key: "request", value: function request(e, t) {var _this4 = this;return Promise.resolve().then(function () {return _this4.hasAccessToken ? t ? _this4.requestWrapped(e) : _this4.requestWrapped(e).catch(function (t) {return new Promise(function (e, n) {!t || "GATEWAY_INVALID_TOKEN" !== t.code && "InvalidParameter.InvalidToken" !== t.code ? n(t) : e();}).then(function () {return _this4.getAccessToken();}).then(function () {var t = _this4.rebuildRequest(e);return _this4.request(t, !0);});}) : _this4.getAccessToken().then(function () {var t = _this4.rebuildRequest(e);return _this4.request(t, !0);});});} }, { key: "rebuildRequest", value: function rebuildRequest(e) {var t = Object.assign({}, e);return t.data.token = this.accessToken, t.header["x-basement-token"] = this.accessToken, t.header["x-serverless-sign"] = R.sign(t.data, this.config.clientSecret), t;} }, { key: "setupRequest", value: function setupRequest(e, t) {var n = Object.assign({}, e, { spaceId: this.config.spaceId, timestamp: Date.now() }),s = { "Content-Type": "application/json" };return "auth" !== t && (n.token = this.accessToken, s["x-basement-token"] = this.accessToken), s["x-serverless-sign"] = R.sign(n, this.config.clientSecret), { url: this.config.requestUrl, method: "POST", data: n, dataType: "json", header: s };} }, { key: "getAccessToken", value: function getAccessToken() {var _this5 = this;if ("pending" === this._getAccessTokenPromiseStatus) return this._getAccessTokenPromise;this._getAccessTokenPromiseStatus = "pending";return this._getAccessTokenPromise = this.requestAuth(this.setupRequest({ method: "serverless.auth.user.anonymousAuthorize", params: "{}" }, "auth")).then(function (e) {return new Promise(function (t, n) {e.result && e.result.accessToken ? (_this5.setAccessToken(e.result.accessToken), _this5._getAccessTokenPromiseStatus = "fulfilled", t(_this5.accessToken)) : (_this5._getAccessTokenPromiseStatus = "rejected", n(new P({ code: "AUTH_FAILED", message: "获取accessToken失败" })));});}, function (e) {return _this5._getAccessTokenPromiseStatus = "rejected", Promise.reject(e);}), this._getAccessTokenPromise;} }, { key: "authorize", value: function authorize() {this.getAccessToken();} }, { key: "callFunction", value: function callFunction(e) {var t = { method: "serverless.function.runtime.invoke", params: JSON.stringify({ functionTarget: e.name, functionArgs: e.data || {} }) };return this.request(this.setupRequest(t));} }, { key: "getOSSUploadOptionsFromPath", value: function getOSSUploadOptionsFromPath(e) {var t = { method: "serverless.file.resource.generateProximalSign", params: JSON.stringify(e) };return this.request(this.setupRequest(t));} }, { key: "uploadFileToOSS", value: function uploadFileToOSS(_ref) {var _this6 = this;var e = _ref.url,t = _ref.formData,n = _ref.name,s = _ref.filePath,r = _ref.fileType,o = _ref.onUploadProgress;return new Promise(function (i, a) {var c = _this6.adapter.uploadFile({ url: e, formData: t, name: n, filePath: s, fileType: r, header: { "X-OSS-server-side-encrpytion": "AES256" }, success: function success(e) {e && e.statusCode < 400 ? i(e) : a(new P({ code: "UPLOAD_FAILED", message: "文件上传失败" }));}, fail: function fail(e) {a(new P({ code: e.code || "UPLOAD_FAILED", message: e.message || e.errMsg || "文件上传失败" }));} });"function" == typeof o && c && "function" == typeof c.onProgressUpdate && c.onProgressUpdate(function (e) {o({ loaded: e.totalBytesSent, total: e.totalBytesExpectedToSend });});});} }, { key: "reportOSSUpload", value: function reportOSSUpload(e) {var t = { method: "serverless.file.resource.report", params: JSON.stringify(e) };return this.request(this.setupRequest(t));} }, { key: "uploadFile", value: function uploadFile(_ref2) {var _this7 = this;var e = _ref2.filePath,t = _ref2.cloudPath,_ref2$fileType = _ref2.fileType,n = _ref2$fileType === void 0 ? "image" : _ref2$fileType,s = _ref2.onUploadProgress,r = _ref2.config;if (!t) throw new P({ code: "CLOUDPATH_REQUIRED", message: "cloudPath不可为空" });var o = r && r.envType || this.config.envType;var i, a;return this.getOSSUploadOptionsFromPath({ env: o, filename: t }).then(function (t) {var r = t.result;i = r.id, a = "https://" + r.cdnDomain + "/" + r.ossPath;var o = { url: "https://" + r.host, formData: { "Cache-Control": "max-age=2592000", "Content-Disposition": "attachment", OSSAccessKeyId: r.accessKeyId, Signature: r.signature, host: r.host, id: i, key: r.ossPath, policy: r.policy, success_action_status: 200 }, fileName: "file", name: "file", filePath: e, fileType: n };return _this7.uploadFileToOSS(Object.assign({}, o, { onUploadProgress: s }));}).then(function () {return _this7.reportOSSUpload({ id: i });}).then(function (t) {return new Promise(function (n, s) {t.success ? n({ success: !0, filePath: e, fileID: a }) : s(new P({ code: "UPLOAD_FAILED", message: "文件上传失败" }));});});} }, { key: "deleteFile", value: function deleteFile(_ref3) {var e = _ref3.fileList;var t = { method: "serverless.file.resource.delete", params: JSON.stringify({ id: e[0] }) };return this.request(this.setupRequest(t));} }, { key: "getTempFileURL", value: function getTempFileURL() {var _ref4 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},e = _ref4.fileList;return new Promise(function (t, n) {Array.isArray(e) && 0 !== e.length || n(new P({ code: "INVALID_PARAM", message: "fileList的元素必须是非空的字符串" })), t({ fileList: e.map(function (e) {return { fileID: e, tempFileURL: e };}) });});} }, { key: "hasAccessToken", get: function get() {return !!this.accessToken;} }]);return F;}();var L = { init: function init(e) {var t = new F(e),n = { signInAnonymously: function signInAnonymously() {return t.authorize();}, getLoginState: function getLoginState() {return Promise.resolve(!1);} };return t.auth = function () {return n;}, t.customAuth = t.auth, t;} },N = "undefined" != typeof location && "http:" === location.protocol ? "http:" : "https:";var M;!function (e) {e.local = "local", e.none = "none", e.session = "session";}(M || (M = {}));var $ = function $() {};var j = function j() {var e;if (!Promise) {e = function e() {}, e.promise = {};var _t = function _t() {throw new Error('Your Node runtime does support ES6 Promises. Set "global.Promise" to your preferred implementation of promises.');};return Object.defineProperty(e.promise, "then", { get: _t }), Object.defineProperty(e.promise, "catch", { get: _t }), e;}var t = new Promise(function (t, n) {e = function e(_e4, s) {return _e4 ? n(_e4) : t(s);};});return e.promise = t, e;};function K(e) {return void 0 === e;}function B(e) {return "[object Null]" === Object.prototype.toString.call(e);}var H;function W(e) {var t = (n = e, "[object Array]" === Object.prototype.toString.call(n) ? e : [e]);var n;var _iterator = _createForOfIteratorHelper(t),_step;try {for (_iterator.s(); !(_step = _iterator.n()).done;) {var _e5 = _step.value;var _t2 = _e5.isMatch,_n = _e5.genAdapter,_s = _e5.runtime;if (_t2()) return { adapter: _n(), runtime: _s };}} catch (err) {_iterator.e(err);} finally {_iterator.f();}}!function (e) {e.WEB = "web", e.WX_MP = "wx_mp";}(H || (H = {}));var z = { adapter: null, runtime: void 0 },V = ["anonymousUuidKey"];var J = /*#__PURE__*/function (_$) {_inherits(J, _$);var _super3 = _createSuper(J);function J() {var _this8;_classCallCheck(this, J);_this8 = _super3.call(this), z.adapter.root.tcbObject || (z.adapter.root.tcbObject = {});return _this8;}_createClass(J, [{ key: "setItem", value: function setItem(e, t) {z.adapter.root.tcbObject[e] = t;} }, { key: "getItem", value: function getItem(e) {return z.adapter.root.tcbObject[e];} }, { key: "removeItem", value: function removeItem(e) {delete z.adapter.root.tcbObject[e];} }, { key: "clear", value: function clear() {delete z.adapter.root.tcbObject;} }]);return J;}($);function Y(e, t) {switch (e) {case "local":return t.localStorage || new J();case "none":return new J();default:return t.sessionStorage || new J();}}var X = /*#__PURE__*/function () {function X(e) {_classCallCheck(this, X);if (!this._storage) {this._persistence = z.adapter.primaryStorage || e.persistence, this._storage = Y(this._persistence, z.adapter);var _t3 = "access_token_".concat(e.env),_n2 = "access_token_expire_".concat(e.env),_s2 = "refresh_token_".concat(e.env),_r = "anonymous_uuid_".concat(e.env),_o = "login_type_".concat(e.env),_i = "user_info_".concat(e.env);this.keys = { accessTokenKey: _t3, accessTokenExpireKey: _n2, refreshTokenKey: _s2, anonymousUuidKey: _r, loginTypeKey: _o, userInfoKey: _i };}}_createClass(X, [{ key: "updatePersistence", value: function updatePersistence(e) {if (e === this._persistence) return;var t = "local" === this._persistence;this._persistence = e;var n = Y(e, z.adapter);for (var _e6 in this.keys) {var _s3 = this.keys[_e6];if (t && V.includes(_e6)) continue;var _r2 = this._storage.getItem(_s3);K(_r2) || B(_r2) || (n.setItem(_s3, _r2), this._storage.removeItem(_s3));}this._storage = n;} }, { key: "setStore", value: function setStore(e, t, n) {if (!this._storage) return;var s = { version: n || "localCachev1", content: t },r = JSON.stringify(s);try {this._storage.setItem(e, r);} catch (e) {throw e;}} }, { key: "getStore", value: function getStore(e, t) {try {if (!this._storage) return;} catch (e) {return "";}t = t || "localCachev1";var n = this._storage.getItem(e);if (!n) return "";if (n.indexOf(t) >= 0) {return JSON.parse(n).content;}return "";} }, { key: "removeStore", value: function removeStore(e) {this._storage.removeItem(e);} }]);return X;}();var G = {},Q = {};function Z(e) {return G[e];}var ee = function ee(e, t) {_classCallCheck(this, ee);this.data = t || null, this.name = e;};var te = /*#__PURE__*/function (_ee) {_inherits(te, _ee);var _super4 = _createSuper(te);function te(e, t) {var _this9;_classCallCheck(this, te);_this9 = _super4.call(this, "error", { error: e, data: t }), _this9.error = e;return _this9;}return te;}(ee);var ne = new ( /*#__PURE__*/function () {function _class() {_classCallCheck(this, _class);this._listeners = {};}_createClass(_class, [{ key: "on", value: function on(e, t) {return function (e, t, n) {n[e] = n[e] || [], n[e].push(t);}(e, t, this._listeners), this;} }, { key: "off", value: function off(e, t) {return function (e, t, n) {if (n && n[e]) {var _s4 = n[e].indexOf(t);-1 !== _s4 && n[e].splice(_s4, 1);}}(e, t, this._listeners), this;} }, { key: "fire", value: function fire(e, t) {if (e instanceof te) return console.error(e.error), this;var n = "string" == typeof e ? new ee(e, t || {}) : e;var s = n.name;if (this._listens(s)) {n.target = this;var _e7 = this._listeners[s] ? _toConsumableArray(this._listeners[s]) : [];var _iterator2 = _createForOfIteratorHelper(_e7),_step2;try {for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {var _t4 = _step2.value;_t4.call(this, n);}} catch (err) {_iterator2.e(err);} finally {_iterator2.f();}}return this;} }, { key: "_listens", value: function _listens(e) {return this._listeners[e] && this._listeners[e].length > 0;} }]);return _class;}())();function se(e, t) {ne.on(e, t);}function re(e) {var t = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};ne.fire(e, t);}function oe(e, t) {ne.off(e, t);}var ie = "loginStateChanged",ae = "loginStateExpire",ce = "loginTypeChanged",ue = "anonymousConverted",he = "refreshAccessToken";var le;!function (e) {e.ANONYMOUS = "ANONYMOUS", e.WECHAT = "WECHAT", e.WECHAT_PUBLIC = "WECHAT-PUBLIC", e.WECHAT_OPEN = "WECHAT-OPEN", e.CUSTOM = "CUSTOM", e.EMAIL = "EMAIL", e.USERNAME = "USERNAME", e.NULL = "NULL";}(le || (le = {}));var de = ["auth.getJwt", "auth.logout", "auth.signInWithTicket", "auth.signInAnonymously", "auth.signIn", "auth.fetchAccessTokenWithRefreshToken", "auth.signUpWithEmailAndPassword", "auth.activateEndUserMail", "auth.sendPasswordResetEmail", "auth.resetPasswordWithToken", "auth.isUsernameRegistered"],fe = { "X-SDK-Version": "1.3.5" };function pe(e, t, n) {var s = e[t];e[t] = function (t) {var r = {},o = {};n.forEach(function (n) {var _n$call = n.call(e, t),s = _n$call.data,i = _n$call.headers;Object.assign(r, s), Object.assign(o, i);});var i = t.data;return i && function () {var e;if (e = i, "[object FormData]" !== Object.prototype.toString.call(e)) t.data = _objectSpread(_objectSpread({}, i), r);else for (var _e8 in r) {i.append(_e8, r[_e8]);}}(), t.headers = _objectSpread(_objectSpread({}, t.headers || {}), o), s.call(e, t);};}function ge() {var e = Math.random().toString(16).slice(2);return { data: { seqId: e }, headers: _objectSpread(_objectSpread({}, fe), {}, { "x-seqid": e }) };}var me = /*#__PURE__*/function () {function me() {var e = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};_classCallCheck(this, me);var t;this.config = e, this._reqClass = new z.adapter.reqClass({ timeout: this.config.timeout, timeoutMsg: "\u8BF7\u6C42\u5728".concat(this.config.timeout / 1e3, "s\u5185\u672A\u5B8C\u6210\uFF0C\u5DF2\u4E2D\u65AD"), restrictedMethods: ["post"] }), this._cache = Z(this.config.env), this._localCache = (t = this.config.env, Q[t]), pe(this._reqClass, "post", [ge]), pe(this._reqClass, "upload", [ge]), pe(this._reqClass, "download", [ge]);}_createClass(me, [{ key: "post", value: function () {var _post = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee(e) {return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return this._reqClass.post(e);case 2:return _context.abrupt("return", _context.sent);case 3:case "end":return _context.stop();}}}, _callee, this);}));function post(_x) {return _post.apply(this, arguments);}return post;}() }, { key: "upload", value: function () {var _upload = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2(e) {return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:_context2.next = 2;return this._reqClass.upload(e);case 2:return _context2.abrupt("return", _context2.sent);case 3:case "end":return _context2.stop();}}}, _callee2, this);}));function upload(_x2) {return _upload.apply(this, arguments);}return upload;}() }, { key: "download", value: function () {var _download = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee3(e) {return _regenerator.default.wrap(function _callee3$(_context3) {while (1) {switch (_context3.prev = _context3.next) {case 0:_context3.next = 2;return this._reqClass.download(e);case 2:return _context3.abrupt("return", _context3.sent);case 3:case "end":return _context3.stop();}}}, _callee3, this);}));function download(_x3) {return _download.apply(this, arguments);}return download;}() }, { key: "refreshAccessToken", value: function () {var _refreshAccessToken2 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee4() {var e, t;return _regenerator.default.wrap(function _callee4$(_context4) {while (1) {switch (_context4.prev = _context4.next) {case 0:this._refreshAccessTokenPromise || (this._refreshAccessTokenPromise = this._refreshAccessToken());_context4.prev = 1;_context4.next = 4;return this._refreshAccessTokenPromise;case 4:e = _context4.sent;_context4.next = 10;break;case 7:_context4.prev = 7;_context4.t0 = _context4["catch"](1);t = _context4.t0;case 10:if (!(this._refreshAccessTokenPromise = null, this._shouldRefreshAccessTokenHook = null, t)) {_context4.next = 12;break;}throw t;case 12:return _context4.abrupt("return", e);case 13:case "end":return _context4.stop();}}}, _callee4, this, [[1, 7]]);}));function refreshAccessToken() {return _refreshAccessToken2.apply(this, arguments);}return refreshAccessToken;}() }, { key: "_refreshAccessToken", value: function () {var _refreshAccessToken3 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee5() {var _this$_cache$keys, e, t, n, s, r, o, i, a, _e9, _e10, _t5, _s5;return _regenerator.default.wrap(function _callee5$(_context5) {while (1) {switch (_context5.prev = _context5.next) {case 0:_this$_cache$keys = this._cache.keys, e = _this$_cache$keys.accessTokenKey, t = _this$_cache$keys.accessTokenExpireKey, n = _this$_cache$keys.refreshTokenKey, s = _this$_cache$keys.loginTypeKey, r = _this$_cache$keys.anonymousUuidKey;this._cache.removeStore(e), this._cache.removeStore(t);o = this._cache.getStore(n);if (o) {_context5.next = 5;break;}throw new Error("未登录CloudBase");case 5:i = { refresh_token: o };_context5.next = 8;return this.request("auth.fetchAccessTokenWithRefreshToken", i);case 8:a = _context5.sent;if (!a.data.code) {_context5.next = 21;break;}_e9 = a.data.code;if (!("SIGN_PARAM_INVALID" === _e9 || "REFRESH_TOKEN_EXPIRED" === _e9 || "INVALID_REFRESH_TOKEN" === _e9)) {_context5.next = 20;break;}if (!(this._cache.getStore(s) === le.ANONYMOUS && "INVALID_REFRESH_TOKEN" === _e9)) {_context5.next = 19;break;}_e10 = this._cache.getStore(r);_t5 = this._cache.getStore(n);_context5.next = 17;return this.send("auth.signInAnonymously", { anonymous_uuid: _e10, refresh_token: _t5 });case 17:_s5 = _context5.sent;return _context5.abrupt("return", (this.setRefreshToken(_s5.refresh_token), this._refreshAccessToken()));case 19:re(ae), this._cache.removeStore(n);case 20:throw new Error("\u5237\u65B0access token\u5931\u8D25\uFF1A".concat(a.data.code));case 21:if (!a.data.access_token) {_context5.next = 23;break;}return _context5.abrupt("return", (re(he), this._cache.setStore(e, a.data.access_token), this._cache.setStore(t, a.data.access_token_expire + Date.now()), { accessToken: a.data.access_token, accessTokenExpire: a.data.access_token_expire }));case 23:a.data.refresh_token && (this._cache.removeStore(n), this._cache.setStore(n, a.data.refresh_token), this._refreshAccessToken());case 24:case "end":return _context5.stop();}}}, _callee5, this);}));function _refreshAccessToken() {return _refreshAccessToken3.apply(this, arguments);}return _refreshAccessToken;}() }, { key: "getAccessToken", value: function () {var _getAccessToken = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee6() {var _this$_cache$keys2, e, t, n, s, r, o;return _regenerator.default.wrap(function _callee6$(_context6) {while (1) {switch (_context6.prev = _context6.next) {case 0:_this$_cache$keys2 = this._cache.keys, e = _this$_cache$keys2.accessTokenKey, t = _this$_cache$keys2.accessTokenExpireKey, n = _this$_cache$keys2.refreshTokenKey;if (this._cache.getStore(n)) {_context6.next = 3;break;}throw new Error("refresh token不存在，登录状态异常");case 3:s = this._cache.getStore(e), r = this._cache.getStore(t), o = !0;_context6.t0 = this._shouldRefreshAccessTokenHook;if (!_context6.t0) {_context6.next = 9;break;}_context6.next = 8;return this._shouldRefreshAccessTokenHook(s, r);case 8:_context6.t0 = !_context6.sent;case 9:_context6.t1 = _context6.t0;if (!_context6.t1) {_context6.next = 12;break;}o = !1;case 12:return _context6.abrupt("return", (!s || !r || r < Date.now()) && o ? this.refreshAccessToken() : { accessToken: s, accessTokenExpire: r });case 13:case "end":return _context6.stop();}}}, _callee6, this);}));function getAccessToken() {return _getAccessToken.apply(this, arguments);}return getAccessToken;}() }, { key: "request", value: function () {var _request = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee7(e, t, n) {var s, r, o, _e11, i, _e12, _e13, a, c, u, h, l, d, f, p, g;return _regenerator.default.wrap(function _callee7$(_context7) {while (1) {switch (_context7.prev = _context7.next) {case 0:s = "x-tcb-trace_".concat(this.config.env);r = "application/x-www-form-urlencoded";o = _objectSpread({ action: e, env: this.config.env, dataVersion: "2019-08-16" }, t);if (!(-1 === de.indexOf(e))) {_context7.next = 10;break;}_e11 = this._cache.keys.refreshTokenKey;_context7.t0 = this._cache.getStore(_e11);if (!_context7.t0) {_context7.next = 10;break;}_context7.next = 9;return this.getAccessToken();case 9:o.access_token = _context7.sent.accessToken;case 10:if ("storage.uploadFile" === e) {i = new FormData();for (_e12 in i) {i.hasOwnProperty(_e12) && void 0 !== i[_e12] && i.append(_e12, o[_e12]);}r = "multipart/form-data";} else {r = "application/json;charset=UTF-8", i = {};for (_e13 in o) {void 0 !== o[_e13] && (i[_e13] = o[_e13]);}}a = { headers: { "content-type": r } };n && n.onUploadProgress && (a.onUploadProgress = n.onUploadProgress);c = this._localCache.getStore(s);c && (a.headers["X-TCB-Trace"] = c);u = t.parse, h = t.inQuery, l = t.search;d = { env: this.config.env };u && (d.parse = !0), h && (d = _objectSpread(_objectSpread({}, h), d));f = function (e, t) {var n = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var s = /\?/.test(t);var r = "";for (var _e14 in n) {"" === r ? !s && (t += "?") : r += "&", r += "".concat(_e14, "=").concat(encodeURIComponent(n[_e14]));}return /^http(s)?\:\/\//.test(t += r) ? t : "".concat(e).concat(t);}(N, "//tcb-api.tencentcloudapi.com/web", d);l && (f += l);_context7.next = 22;return this.post(_objectSpread({ url: f, data: i }, a));case 22:p = _context7.sent;g = p.header && p.header["x-tcb-trace"];if (!(g && this._localCache.setStore(s, g), 200 !== Number(p.status) && 200 !== Number(p.statusCode) || !p.data)) {_context7.next = 26;break;}throw new Error("network request error");case 26:return _context7.abrupt("return", p);case 27:case "end":return _context7.stop();}}}, _callee7, this);}));function request(_x4, _x5, _x6) {return _request.apply(this, arguments);}return request;}() }, { key: "send", value: function () {var _send = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee8(e) {var t,n,_n3,_args8 = arguments;return _regenerator.default.wrap(function _callee8$(_context8) {while (1) {switch (_context8.prev = _context8.next) {case 0:t = _args8.length > 1 && _args8[1] !== undefined ? _args8[1] : {};_context8.next = 3;return this.request(e, t, { onUploadProgress: t.onUploadProgress });case 3:n = _context8.sent;if (!("ACCESS_TOKEN_EXPIRED" === n.data.code && -1 === de.indexOf(e))) {_context8.next = 13;break;}_context8.next = 7;return this.refreshAccessToken();case 7:_context8.next = 9;return this.request(e, t, { onUploadProgress: t.onUploadProgress });case 9:_n3 = _context8.sent;if (!_n3.data.code) {_context8.next = 12;break;}throw new Error("[".concat(_n3.data.code, "] ").concat(_n3.data.message));case 12:return _context8.abrupt("return", _n3.data);case 13:if (!n.data.code) {_context8.next = 15;break;}throw new Error("[".concat(n.data.code, "] ").concat(n.data.message));case 15:return _context8.abrupt("return", n.data);case 16:case "end":return _context8.stop();}}}, _callee8, this);}));function send(_x7) {return _send.apply(this, arguments);}return send;}() }, { key: "setRefreshToken", value: function setRefreshToken(e) {var _this$_cache$keys3 = this._cache.keys,t = _this$_cache$keys3.accessTokenKey,n = _this$_cache$keys3.accessTokenExpireKey,s = _this$_cache$keys3.refreshTokenKey;this._cache.removeStore(t), this._cache.removeStore(n), this._cache.setStore(s, e);} }]);return me;}();var ye = {};function _e(e) {return ye[e];}var we = /*#__PURE__*/function () {function we(e) {_classCallCheck(this, we);this.config = e, this._cache = Z(e.env), this._request = _e(e.env);}_createClass(we, [{ key: "setRefreshToken", value: function setRefreshToken(e) {var _this$_cache$keys4 = this._cache.keys,t = _this$_cache$keys4.accessTokenKey,n = _this$_cache$keys4.accessTokenExpireKey,s = _this$_cache$keys4.refreshTokenKey;this._cache.removeStore(t), this._cache.removeStore(n), this._cache.setStore(s, e);} }, { key: "setAccessToken", value: function setAccessToken(e, t) {var _this$_cache$keys5 = this._cache.keys,n = _this$_cache$keys5.accessTokenKey,s = _this$_cache$keys5.accessTokenExpireKey;this._cache.setStore(n, e), this._cache.setStore(s, t);} }, { key: "refreshUserInfo", value: function () {var _refreshUserInfo = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee9() {var _yield$this$_request$, e;return _regenerator.default.wrap(function _callee9$(_context9) {while (1) {switch (_context9.prev = _context9.next) {case 0:_context9.next = 2;return this._request.send("auth.getUserInfo", {});case 2:_yield$this$_request$ = _context9.sent;e = _yield$this$_request$.data;return _context9.abrupt("return", (this.setLocalUserInfo(e), e));case 5:case "end":return _context9.stop();}}}, _callee9, this);}));function refreshUserInfo() {return _refreshUserInfo.apply(this, arguments);}return refreshUserInfo;}() }, { key: "setLocalUserInfo", value: function setLocalUserInfo(e) {var t = this._cache.keys.userInfoKey;this._cache.setStore(t, e);} }]);return we;}();var ve = /*#__PURE__*/function () {function ve(e) {_classCallCheck(this, ve);if (!e) throw new Error("envId is not defined");this._envId = e, this._cache = Z(this._envId), this._request = _e(this._envId), this.setUserInfo();}_createClass(ve, [{ key: "linkWithTicket", value: function linkWithTicket(e) {if ("string" != typeof e) throw new Error("ticket must be string");return this._request.send("auth.linkWithTicket", { ticket: e });} }, { key: "linkWithRedirect", value: function linkWithRedirect(e) {e.signInWithRedirect();} }, { key: "updatePassword", value: function updatePassword(e, t) {return this._request.send("auth.updatePassword", { oldPassword: t, newPassword: e });} }, { key: "updateEmail", value: function updateEmail(e) {return this._request.send("auth.updateEmail", { newEmail: e });} }, { key: "updateUsername", value: function updateUsername(e) {if ("string" != typeof e) throw new Error("username must be a string");return this._request.send("auth.updateUsername", { username: e });} }, { key: "getLinkedUidList", value: function () {var _getLinkedUidList = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee10() {var _yield$this$_request$2, e, t, n;return _regenerator.default.wrap(function _callee10$(_context10) {while (1) {switch (_context10.prev = _context10.next) {case 0:_context10.next = 2;return this._request.send("auth.getLinkedUidList", {});case 2:_yield$this$_request$2 = _context10.sent;e = _yield$this$_request$2.data;t = !1;n = e.users;return _context10.abrupt("return", (n.forEach(function (e) {e.wxOpenId && e.wxPublicId && (t = !0);}), { users: n, hasPrimaryUid: t }));case 7:case "end":return _context10.stop();}}}, _callee10, this);}));function getLinkedUidList() {return _getLinkedUidList.apply(this, arguments);}return getLinkedUidList;}() }, { key: "setPrimaryUid", value: function setPrimaryUid(e) {return this._request.send("auth.setPrimaryUid", { uid: e });} }, { key: "unlink", value: function unlink(e) {return this._request.send("auth.unlink", { platform: e });} }, { key: "update", value: function () {var _update = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee11(e) {var t, n, s, r, o, i, _yield$this$_request$3, a;return _regenerator.default.wrap(function _callee11$(_context11) {while (1) {switch (_context11.prev = _context11.next) {case 0:t = e.nickName;n = e.gender;s = e.avatarUrl;r = e.province;o = e.country;i = e.city;_context11.next = 8;return this._request.send("auth.updateUserInfo", { nickName: t, gender: n, avatarUrl: s, province: r, country: o, city: i });case 8:_yield$this$_request$3 = _context11.sent;a = _yield$this$_request$3.data;this.setLocalUserInfo(a);case 11:case "end":return _context11.stop();}}}, _callee11, this);}));function update(_x8) {return _update.apply(this, arguments);}return update;}() }, { key: "refresh", value: function () {var _refresh = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee12() {var _yield$this$_request$4, e;return _regenerator.default.wrap(function _callee12$(_context12) {while (1) {switch (_context12.prev = _context12.next) {case 0:_context12.next = 2;return this._request.send("auth.getUserInfo", {});case 2:_yield$this$_request$4 = _context12.sent;e = _yield$this$_request$4.data;return _context12.abrupt("return", (this.setLocalUserInfo(e), e));case 5:case "end":return _context12.stop();}}}, _callee12, this);}));function refresh() {return _refresh.apply(this, arguments);}return refresh;}() }, { key: "setUserInfo", value: function setUserInfo() {var _this10 = this;var e = this._cache.keys.userInfoKey,t = this._cache.getStore(e);["uid", "loginType", "openid", "wxOpenId", "wxPublicId", "unionId", "qqMiniOpenId", "email", "hasPassword", "customUserId", "nickName", "gender", "avatarUrl"].forEach(function (e) {_this10[e] = t[e];}), this.location = { country: t.country, province: t.province, city: t.city };} }, { key: "setLocalUserInfo", value: function setLocalUserInfo(e) {var t = this._cache.keys.userInfoKey;this._cache.setStore(t, e), this.setUserInfo();} }]);return ve;}();var Se = /*#__PURE__*/function () {function Se(e) {_classCallCheck(this, Se);if (!e) throw new Error("envId is not defined");this._cache = Z(e);var _this$_cache$keys6 = this._cache.keys,t = _this$_cache$keys6.refreshTokenKey,n = _this$_cache$keys6.accessTokenKey,s = _this$_cache$keys6.accessTokenExpireKey,r = this._cache.getStore(t),o = this._cache.getStore(n),i = this._cache.getStore(s);this.credential = { refreshToken: r, accessToken: o, accessTokenExpire: i }, this.user = new ve(e);}_createClass(Se, [{ key: "isAnonymousAuth", get: function get() {return this.loginType === le.ANONYMOUS;} }, { key: "isCustomAuth", get: function get() {return this.loginType === le.CUSTOM;} }, { key: "isWeixinAuth", get: function get() {return this.loginType === le.WECHAT || this.loginType === le.WECHAT_OPEN || this.loginType === le.WECHAT_PUBLIC;} }, { key: "loginType", get: function get() {return this._cache.getStore(this._cache.keys.loginTypeKey);} }]);return Se;}();var ke = /*#__PURE__*/function (_we) {_inherits(ke, _we);var _super5 = _createSuper(ke);function ke() {_classCallCheck(this, ke);return _super5.apply(this, arguments);}_createClass(ke, [{ key: "signIn", value: function () {var _signIn = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee13() {var _this$_cache$keys7, e, t, n, s, r, _e15;return _regenerator.default.wrap(function _callee13$(_context13) {while (1) {switch (_context13.prev = _context13.next) {case 0:this._cache.updatePersistence("local");_this$_cache$keys7 = this._cache.keys;e = _this$_cache$keys7.anonymousUuidKey;t = _this$_cache$keys7.refreshTokenKey;n = this._cache.getStore(e) || void 0;s = this._cache.getStore(t) || void 0;_context13.next = 8;return this._request.send("auth.signInAnonymously", { anonymous_uuid: n, refresh_token: s });case 8:r = _context13.sent;if (!(r.uuid && r.refresh_token)) {_context13.next = 20;break;}this._setAnonymousUUID(r.uuid);this.setRefreshToken(r.refresh_token);_context13.next = 14;return this._request.refreshAccessToken();case 14:re(ie);re(ce, { env: this.config.env, loginType: le.ANONYMOUS, persistence: "local" });_e15 = new Se(this.config.env);_context13.next = 19;return _e15.user.refresh();case 19:return _context13.abrupt("return", _e15);case 20:throw new Error("匿名登录失败");case 21:case "end":return _context13.stop();}}}, _callee13, this);}));function signIn() {return _signIn.apply(this, arguments);}return signIn;}() }, { key: "linkAndRetrieveDataWithTicket", value: function () {var _linkAndRetrieveDataWithTicket = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee14(e) {var _this$_cache$keys8, t, n, s, r, o;return _regenerator.default.wrap(function _callee14$(_context14) {while (1) {switch (_context14.prev = _context14.next) {case 0:_this$_cache$keys8 = this._cache.keys;t = _this$_cache$keys8.anonymousUuidKey;n = _this$_cache$keys8.refreshTokenKey;s = this._cache.getStore(t);r = this._cache.getStore(n);_context14.next = 7;return this._request.send("auth.linkAndRetrieveDataWithTicket", { anonymous_uuid: s, refresh_token: r, ticket: e });case 7:o = _context14.sent;if (!o.refresh_token) {_context14.next = 16;break;}this._clearAnonymousUUID();this.setRefreshToken(o.refresh_token);_context14.next = 13;return this._request.refreshAccessToken();case 13:re(ue, { env: this.config.env });re(ce, { loginType: le.CUSTOM, persistence: "local" });return _context14.abrupt("return", { credential: { refreshToken: o.refresh_token } });case 16:throw new Error("匿名转化失败");case 17:case "end":return _context14.stop();}}}, _callee14, this);}));function linkAndRetrieveDataWithTicket(_x9) {return _linkAndRetrieveDataWithTicket.apply(this, arguments);}return linkAndRetrieveDataWithTicket;}() }, { key: "_setAnonymousUUID", value: function _setAnonymousUUID(e) {var _this$_cache$keys9 = this._cache.keys,t = _this$_cache$keys9.anonymousUuidKey,n = _this$_cache$keys9.loginTypeKey;this._cache.removeStore(t), this._cache.setStore(t, e), this._cache.setStore(n, le.ANONYMOUS);} }, { key: "_clearAnonymousUUID", value: function _clearAnonymousUUID() {this._cache.removeStore(this._cache.keys.anonymousUuidKey);} }]);return ke;}(we);var Te = /*#__PURE__*/function (_we2) {_inherits(Te, _we2);var _super6 = _createSuper(Te);function Te() {_classCallCheck(this, Te);return _super6.apply(this, arguments);}_createClass(Te, [{ key: "signIn", value: function () {var _signIn2 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee15(e) {var t, n;return _regenerator.default.wrap(function _callee15$(_context15) {while (1) {switch (_context15.prev = _context15.next) {case 0:if (!("string" != typeof e)) {_context15.next = 2;break;}throw new Error("ticket must be a string");case 2:t = this._cache.keys.refreshTokenKey;_context15.next = 5;return this._request.send("auth.signInWithTicket", { ticket: e, refresh_token: this._cache.getStore(t) || "" });case 5:n = _context15.sent;if (!n.refresh_token) {_context15.next = 15;break;}this.setRefreshToken(n.refresh_token);_context15.next = 10;return this._request.refreshAccessToken();case 10:re(ie);re(ce, { env: this.config.env, loginType: le.CUSTOM, persistence: this.config.persistence });_context15.next = 14;return this.refreshUserInfo();case 14:return _context15.abrupt("return", new Se(this.config.env));case 15:throw new Error("自定义登录失败");case 16:case "end":return _context15.stop();}}}, _callee15, this);}));function signIn(_x10) {return _signIn2.apply(this, arguments);}return signIn;}() }]);return Te;}(we);var Pe = /*#__PURE__*/function (_we3) {_inherits(Pe, _we3);var _super7 = _createSuper(Pe);function Pe() {_classCallCheck(this, Pe);return _super7.apply(this, arguments);}_createClass(Pe, [{ key: "signIn", value: function () {var _signIn3 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee16(e, t) {var n, s, r, o, i;return _regenerator.default.wrap(function _callee16$(_context16) {while (1) {switch (_context16.prev = _context16.next) {case 0:if (!("string" != typeof e)) {_context16.next = 2;break;}throw new Error("email must be a string");case 2:n = this._cache.keys.refreshTokenKey;_context16.next = 5;return this._request.send("auth.signIn", { loginType: "EMAIL", email: e, password: t, refresh_token: this._cache.getStore(n) || "" });case 5:s = _context16.sent;r = s.refresh_token;o = s.access_token;i = s.access_token_expire;if (!r) {_context16.next = 22;break;}this.setRefreshToken(r);if (!(o && i)) {_context16.next = 15;break;}this.setAccessToken(o, i);_context16.next = 17;break;case 15:_context16.next = 17;return this._request.refreshAccessToken();case 17:_context16.next = 19;return this.refreshUserInfo();case 19:re(ie);re(ce, { env: this.config.env, loginType: le.EMAIL, persistence: this.config.persistence });return _context16.abrupt("return", new Se(this.config.env));case 22:throw s.code ? new Error("\u90AE\u7BB1\u767B\u5F55\u5931\u8D25: [".concat(s.code, "] ").concat(s.message)) : new Error("邮箱登录失败");case 23:case "end":return _context16.stop();}}}, _callee16, this);}));function signIn(_x11, _x12) {return _signIn3.apply(this, arguments);}return signIn;}() }, { key: "activate", value: function () {var _activate = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee17(e) {return _regenerator.default.wrap(function _callee17$(_context17) {while (1) {switch (_context17.prev = _context17.next) {case 0:return _context17.abrupt("return", this._request.send("auth.activateEndUserMail", { token: e }));case 1:case "end":return _context17.stop();}}}, _callee17, this);}));function activate(_x13) {return _activate.apply(this, arguments);}return activate;}() }, { key: "resetPasswordWithToken", value: function () {var _resetPasswordWithToken = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee18(e, t) {return _regenerator.default.wrap(function _callee18$(_context18) {while (1) {switch (_context18.prev = _context18.next) {case 0:return _context18.abrupt("return", this._request.send("auth.resetPasswordWithToken", { token: e, newPassword: t }));case 1:case "end":return _context18.stop();}}}, _callee18, this);}));function resetPasswordWithToken(_x14, _x15) {return _resetPasswordWithToken.apply(this, arguments);}return resetPasswordWithToken;}() }]);return Pe;}(we);var Ie = /*#__PURE__*/function (_we4) {_inherits(Ie, _we4);var _super8 = _createSuper(Ie);function Ie() {_classCallCheck(this, Ie);return _super8.apply(this, arguments);}_createClass(Ie, [{ key: "signIn", value: function () {var _signIn4 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee19(e, t) {var n, s, r, o, i;return _regenerator.default.wrap(function _callee19$(_context19) {while (1) {switch (_context19.prev = _context19.next) {case 0:if (!("string" != typeof e)) {_context19.next = 2;break;}throw new Error("username must be a string");case 2:"string" != typeof t && (t = "", console.warn("password is empty"));n = this._cache.keys.refreshTokenKey;_context19.next = 6;return this._request.send("auth.signIn", { loginType: le.USERNAME, username: e, password: t, refresh_token: this._cache.getStore(n) || "" });case 6:s = _context19.sent;r = s.refresh_token;o = s.access_token_expire;i = s.access_token;if (!r) {_context19.next = 23;break;}this.setRefreshToken(r);if (!(i && o)) {_context19.next = 16;break;}this.setAccessToken(i, o);_context19.next = 18;break;case 16:_context19.next = 18;return this._request.refreshAccessToken();case 18:_context19.next = 20;return this.refreshUserInfo();case 20:re(ie);re(ce, { env: this.config.env, loginType: le.USERNAME, persistence: this.config.persistence });return _context19.abrupt("return", new Se(this.config.env));case 23:throw s.code ? new Error("\u7528\u6237\u540D\u5BC6\u7801\u767B\u5F55\u5931\u8D25: [".concat(s.code, "] ").concat(s.message)) : new Error("用户名密码登录失败");case 24:case "end":return _context19.stop();}}}, _callee19, this);}));function signIn(_x16, _x17) {return _signIn4.apply(this, arguments);}return signIn;}() }]);return Ie;}(we);var Ae = /*#__PURE__*/function () {function Ae(e) {_classCallCheck(this, Ae);this.config = e, this._cache = Z(e.env), this._request = _e(e.env), this._onAnonymousConverted = this._onAnonymousConverted.bind(this), this._onLoginTypeChanged = this._onLoginTypeChanged.bind(this), se(ce, this._onLoginTypeChanged);}_createClass(Ae, [{ key: "anonymousAuthProvider", value: function anonymousAuthProvider() {return new ke(this.config);} }, { key: "customAuthProvider", value: function customAuthProvider() {return new Te(this.config);} }, { key: "emailAuthProvider", value: function emailAuthProvider() {return new Pe(this.config);} }, { key: "usernameAuthProvider", value: function usernameAuthProvider() {return new Ie(this.config);} }, { key: "signInAnonymously", value: function () {var _signInAnonymously = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee20() {return _regenerator.default.wrap(function _callee20$(_context20) {while (1) {switch (_context20.prev = _context20.next) {case 0:return _context20.abrupt("return", new ke(this.config).signIn());case 1:case "end":return _context20.stop();}}}, _callee20, this);}));function signInAnonymously() {return _signInAnonymously.apply(this, arguments);}return signInAnonymously;}() }, { key: "signInWithEmailAndPassword", value: function () {var _signInWithEmailAndPassword = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee21(e, t) {return _regenerator.default.wrap(function _callee21$(_context21) {while (1) {switch (_context21.prev = _context21.next) {case 0:return _context21.abrupt("return", new Pe(this.config).signIn(e, t));case 1:case "end":return _context21.stop();}}}, _callee21, this);}));function signInWithEmailAndPassword(_x18, _x19) {return _signInWithEmailAndPassword.apply(this, arguments);}return signInWithEmailAndPassword;}() }, { key: "signInWithUsernameAndPassword", value: function signInWithUsernameAndPassword(e, t) {return new Ie(this.config).signIn(e, t);} }, { key: "linkAndRetrieveDataWithTicket", value: function () {var _linkAndRetrieveDataWithTicket2 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee22(e) {return _regenerator.default.wrap(function _callee22$(_context22) {while (1) {switch (_context22.prev = _context22.next) {case 0:this._anonymousAuthProvider || (this._anonymousAuthProvider = new ke(this.config)), se(ue, this._onAnonymousConverted);_context22.next = 3;return this._anonymousAuthProvider.linkAndRetrieveDataWithTicket(e);case 3:return _context22.abrupt("return", _context22.sent);case 4:case "end":return _context22.stop();}}}, _callee22, this);}));function linkAndRetrieveDataWithTicket(_x20) {return _linkAndRetrieveDataWithTicket2.apply(this, arguments);}return linkAndRetrieveDataWithTicket;}() }, { key: "signOut", value: function () {var _signOut = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee23() {var _this$_cache$keys10, e, t, n, s, r;return _regenerator.default.wrap(function _callee23$(_context23) {while (1) {switch (_context23.prev = _context23.next) {case 0:if (!(this.loginType === le.ANONYMOUS)) {_context23.next = 2;break;}throw new Error("匿名用户不支持登出操作");case 2:_this$_cache$keys10 = this._cache.keys, e = _this$_cache$keys10.refreshTokenKey, t = _this$_cache$keys10.accessTokenKey, n = _this$_cache$keys10.accessTokenExpireKey, s = this._cache.getStore(e);if (s) {_context23.next = 5;break;}return _context23.abrupt("return");case 5:_context23.next = 7;return this._request.send("auth.logout", { refresh_token: s });case 7:r = _context23.sent;return _context23.abrupt("return", (this._cache.removeStore(e), this._cache.removeStore(t), this._cache.removeStore(n), re(ie), re(ce, { env: this.config.env, loginType: le.NULL, persistence: this.config.persistence }), r));case 9:case "end":return _context23.stop();}}}, _callee23, this);}));function signOut() {return _signOut.apply(this, arguments);}return signOut;}() }, { key: "signUpWithEmailAndPassword", value: function () {var _signUpWithEmailAndPassword = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee24(e, t) {return _regenerator.default.wrap(function _callee24$(_context24) {while (1) {switch (_context24.prev = _context24.next) {case 0:return _context24.abrupt("return", this._request.send("auth.signUpWithEmailAndPassword", { email: e, password: t }));case 1:case "end":return _context24.stop();}}}, _callee24, this);}));function signUpWithEmailAndPassword(_x21, _x22) {return _signUpWithEmailAndPassword.apply(this, arguments);}return signUpWithEmailAndPassword;}() }, { key: "sendPasswordResetEmail", value: function () {var _sendPasswordResetEmail = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee25(e) {return _regenerator.default.wrap(function _callee25$(_context25) {while (1) {switch (_context25.prev = _context25.next) {case 0:return _context25.abrupt("return", this._request.send("auth.sendPasswordResetEmail", { email: e }));case 1:case "end":return _context25.stop();}}}, _callee25, this);}));function sendPasswordResetEmail(_x23) {return _sendPasswordResetEmail.apply(this, arguments);}return sendPasswordResetEmail;}() }, { key: "onLoginStateChanged", value: function onLoginStateChanged(e) {var _this11 = this;se(ie, function () {var t = _this11.hasLoginState();e.call(_this11, t);});var t = this.hasLoginState();e.call(this, t);} }, { key: "onLoginStateExpired", value: function onLoginStateExpired(e) {se(ae, e.bind(this));} }, { key: "onAccessTokenRefreshed", value: function onAccessTokenRefreshed(e) {se(he, e.bind(this));} }, { key: "onAnonymousConverted", value: function onAnonymousConverted(e) {se(ue, e.bind(this));} }, { key: "onLoginTypeChanged", value: function onLoginTypeChanged(e) {var _this12 = this;se(ce, function () {var t = _this12.hasLoginState();e.call(_this12, t);});} }, { key: "getAccessToken", value: function () {var _getAccessToken2 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee26() {return _regenerator.default.wrap(function _callee26$(_context26) {while (1) {switch (_context26.prev = _context26.next) {case 0:_context26.next = 2;return this._request.getAccessToken();case 2:_context26.t0 = _context26.sent.accessToken;_context26.t1 = this.config.env;return _context26.abrupt("return", { accessToken: _context26.t0, env: _context26.t1 });case 5:case "end":return _context26.stop();}}}, _callee26, this);}));function getAccessToken() {return _getAccessToken2.apply(this, arguments);}return getAccessToken;}() }, { key: "hasLoginState", value: function hasLoginState() {var e = this._cache.keys.refreshTokenKey;return this._cache.getStore(e) ? new Se(this.config.env) : null;} }, { key: "isUsernameRegistered", value: function () {var _isUsernameRegistered = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee27(e) {var _yield$this$_request$5, t;return _regenerator.default.wrap(function _callee27$(_context27) {while (1) {switch (_context27.prev = _context27.next) {case 0:if (!("string" != typeof e)) {_context27.next = 2;break;}throw new Error("username must be a string");case 2:_context27.next = 4;return this._request.send("auth.isUsernameRegistered", { username: e });case 4:_yield$this$_request$5 = _context27.sent;t = _yield$this$_request$5.data;return _context27.abrupt("return", t && t.isRegistered);case 7:case "end":return _context27.stop();}}}, _callee27, this);}));function isUsernameRegistered(_x24) {return _isUsernameRegistered.apply(this, arguments);}return isUsernameRegistered;}() }, { key: "getLoginState", value: function getLoginState() {return Promise.resolve(this.hasLoginState());} }, { key: "signInWithTicket", value: function () {var _signInWithTicket = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee28(e) {return _regenerator.default.wrap(function _callee28$(_context28) {while (1) {switch (_context28.prev = _context28.next) {case 0:return _context28.abrupt("return", new Te(this.config).signIn(e));case 1:case "end":return _context28.stop();}}}, _callee28, this);}));function signInWithTicket(_x25) {return _signInWithTicket.apply(this, arguments);}return signInWithTicket;}() }, { key: "shouldRefreshAccessToken", value: function shouldRefreshAccessToken(e) {this._request._shouldRefreshAccessTokenHook = e.bind(this);} }, { key: "getUserInfo", value: function getUserInfo() {return this._request.send("auth.getUserInfo", {}).then(function (e) {return e.code ? e : _objectSpread(_objectSpread({}, e.data), {}, { requestId: e.seqId });});} }, { key: "getAuthHeader", value: function getAuthHeader() {var _this$_cache$keys11 = this._cache.keys,e = _this$_cache$keys11.refreshTokenKey,t = _this$_cache$keys11.accessTokenKey,n = this._cache.getStore(e);return { "x-cloudbase-credentials": this._cache.getStore(t) + "/@@/" + n };} }, { key: "_onAnonymousConverted", value: function _onAnonymousConverted(e) {var t = e.data.env;t === this.config.env && this._cache.updatePersistence(this.config.persistence);} }, { key: "_onLoginTypeChanged", value: function _onLoginTypeChanged(e) {var _e$data = e.data,t = _e$data.loginType,n = _e$data.persistence,s = _e$data.env;s === this.config.env && (this._cache.updatePersistence(n), this._cache.setStore(this._cache.keys.loginTypeKey, t));} }, { key: "currentUser", get: function get() {var e = this.hasLoginState();return e && e.user || null;} }, { key: "loginType", get: function get() {return this._cache.getStore(this._cache.keys.loginTypeKey);} }]);return Ae;}();var Ee = function Ee(e, t) {t = t || j();var n = _e(this.config.env),s = e.cloudPath,r = e.filePath,o = e.onUploadProgress,_e$fileType = e.fileType,i = _e$fileType === void 0 ? "image" : _e$fileType;return n.send("storage.getUploadMetadata", { path: s }).then(function (e) {var _e$data2 = e.data,a = _e$data2.url,c = _e$data2.authorization,u = _e$data2.token,h = _e$data2.fileId,l = _e$data2.cosFileId,d = e.requestId,f = { key: s, signature: c, "x-cos-meta-fileid": l, success_action_status: "201", "x-cos-security-token": u };n.upload({ url: a, data: f, file: r, name: s, fileType: i, onUploadProgress: o }).then(function (e) {201 === e.statusCode ? t(null, { fileID: h, requestId: d }) : t(new Error("STORAGE_REQUEST_FAIL: ".concat(e.data)));}).catch(function (e) {t(e);});}).catch(function (e) {t(e);}), t.promise;},be = function be(e, t) {t = t || j();var n = _e(this.config.env),s = e.cloudPath;return n.send("storage.getUploadMetadata", { path: s }).then(function (e) {t(null, e);}).catch(function (e) {t(e);}), t.promise;},Oe = function Oe(_ref5, t) {var e = _ref5.fileList;if (t = t || j(), !e || !Array.isArray(e)) return { code: "INVALID_PARAM", message: "fileList必须是非空的数组" };var _iterator3 = _createForOfIteratorHelper(e),_step3;try {for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {var _t6 = _step3.value;if (!_t6 || "string" != typeof _t6) return { code: "INVALID_PARAM", message: "fileList的元素必须是非空的字符串" };}} catch (err) {_iterator3.e(err);} finally {_iterator3.f();}var n = { fileid_list: e };return _e(this.config.env).send("storage.batchDeleteFile", n).then(function (e) {e.code ? t(null, e) : t(null, { fileList: e.data.delete_list, requestId: e.requestId });}).catch(function (e) {t(e);}), t.promise;},Ue = function Ue(_ref6, t) {var e = _ref6.fileList;t = t || j(), e && Array.isArray(e) || t(null, { code: "INVALID_PARAM", message: "fileList必须是非空的数组" });var n = [];var _iterator4 = _createForOfIteratorHelper(e),_step4;try {for (_iterator4.s(); !(_step4 = _iterator4.n()).done;) {var _s6 = _step4.value;"object" == typeof _s6 ? (_s6.hasOwnProperty("fileID") && _s6.hasOwnProperty("maxAge") || t(null, { code: "INVALID_PARAM", message: "fileList的元素必须是包含fileID和maxAge的对象" }), n.push({ fileid: _s6.fileID, max_age: _s6.maxAge })) : "string" == typeof _s6 ? n.push({ fileid: _s6 }) : t(null, { code: "INVALID_PARAM", message: "fileList的元素必须是字符串" });}} catch (err) {_iterator4.e(err);} finally {_iterator4.f();}var s = { file_list: n };return _e(this.config.env).send("storage.batchGetDownloadUrl", s).then(function (e) {e.code ? t(null, e) : t(null, { fileList: e.data.download_list, requestId: e.requestId });}).catch(function (e) {t(e);}), t.promise;},Ce = /*#__PURE__*/function () {var _ref8 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee29(_ref7, t) {var e, n, s, r;return _regenerator.default.wrap(function _callee29$(_context29) {while (1) {switch (_context29.prev = _context29.next) {case 0:e = _ref7.fileID;_context29.next = 3;return Ue.call(this, { fileList: [{ fileID: e, maxAge: 600 }] });case 3:n = _context29.sent.fileList[0];if (!("SUCCESS" !== n.code)) {_context29.next = 6;break;}return _context29.abrupt("return", t ? t(n) : new Promise(function (e) {e(n);}));case 6:s = _e(this.config.env);r = n.download_url;if (!(r = encodeURI(r), !t)) {_context29.next = 10;break;}return _context29.abrupt("return", s.download({ url: r }));case 10:_context29.t0 = t;_context29.next = 13;return s.download({ url: r });case 13:_context29.t1 = _context29.sent;(0, _context29.t0)(_context29.t1);case 15:case "end":return _context29.stop();}}}, _callee29, this);}));return function Ce(_x26, _x27) {return _ref8.apply(this, arguments);};}(),De = function De(_ref9, o) {var e = _ref9.name,t = _ref9.data,n = _ref9.query,s = _ref9.parse,r = _ref9.search;var i = o || j();var a;try {a = t ? JSON.stringify(t) : "";} catch (e) {return Promise.reject(e);}if (!e) return Promise.reject(new Error("函数名不能为空"));var c = { inQuery: n, parse: s, search: r, function_name: e, request_data: a };return _e(this.config.env).send("functions.invokeFunction", c).then(function (e) {if (e.code) i(null, e);else {var _t7 = e.data.response_data;if (s) i(null, { result: _t7, requestId: e.requestId });else try {_t7 = JSON.parse(e.data.response_data), i(null, { result: _t7, requestId: e.requestId });} catch (e) {i(new Error("response data must be json"));}}return i.promise;}).catch(function (e) {i(e);}), i.promise;},xe = { timeout: 15e3, persistence: "session" },Re = {};var qe = /*#__PURE__*/function () {function qe(e) {_classCallCheck(this, qe);this.config = e || this.config, this.authObj = void 0;}_createClass(qe, [{ key: "init", value: function init(e) {switch (z.adapter || (this.requestClient = new z.adapter.reqClass({ timeout: e.timeout || 5e3, timeoutMsg: "\u8BF7\u6C42\u5728".concat((e.timeout || 5e3) / 1e3, "s\u5185\u672A\u5B8C\u6210\uFF0C\u5DF2\u4E2D\u65AD") })), this.config = _objectSpread(_objectSpread({}, xe), e), !0) {case this.config.timeout > 6e5:console.warn("timeout大于可配置上限[10分钟]，已重置为上限数值"), this.config.timeout = 6e5;break;case this.config.timeout < 100:console.warn("timeout小于可配置下限[100ms]，已重置为下限数值"), this.config.timeout = 100;}return new qe(this.config);} }, { key: "auth", value: function auth() {var _ref10 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},e = _ref10.persistence;if (this.authObj) return this.authObj;var t = e || z.adapter.primaryStorage || xe.persistence;var n;return t !== this.config.persistence && (this.config.persistence = t), function (e) {var t = e.env;G[t] = new X(e), Q[t] = new X(_objectSpread(_objectSpread({}, e), {}, { persistence: "local" }));}(this.config), n = this.config, ye[n.env] = new me(n), this.authObj = new Ae(this.config), this.authObj;} }, { key: "on", value: function on(e, t) {return se.apply(this, [e, t]);} }, { key: "off", value: function off(e, t) {return oe.apply(this, [e, t]);} }, { key: "callFunction", value: function callFunction(e, t) {return De.apply(this, [e, t]);} }, { key: "deleteFile", value: function deleteFile(e, t) {return Oe.apply(this, [e, t]);} }, { key: "getTempFileURL", value: function getTempFileURL(e, t) {return Ue.apply(this, [e, t]);} }, { key: "downloadFile", value: function downloadFile(e, t) {return Ce.apply(this, [e, t]);} }, { key: "uploadFile", value: function uploadFile(e, t) {return Ee.apply(this, [e, t]);} }, { key: "getUploadMetadata", value: function getUploadMetadata(e, t) {return be.apply(this, [e, t]);} }, { key: "registerExtension", value: function registerExtension(e) {Re[e.name] = e;} }, { key: "invokeExtension", value: function () {var _invokeExtension = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee30(e, t) {var n;return _regenerator.default.wrap(function _callee30$(_context30) {while (1) {switch (_context30.prev = _context30.next) {case 0:n = Re[e];if (n) {_context30.next = 3;break;}throw Error("\u6269\u5C55".concat(e, " \u5FC5\u987B\u5148\u6CE8\u518C"));case 3:_context30.next = 5;return n.invoke(t, this);case 5:return _context30.abrupt("return", _context30.sent);case 6:case "end":return _context30.stop();}}}, _callee30, this);}));function invokeExtension(_x28, _x29) {return _invokeExtension.apply(this, arguments);}return invokeExtension;}() }, { key: "useAdapters", value: function useAdapters(e) {var _ref11 = W(e) || {},t = _ref11.adapter,n = _ref11.runtime;t && (z.adapter = t), n && (z.runtime = n);} }]);return qe;}();var Fe = new qe();function Le(e, t, n) {void 0 === n && (n = {});var s = /\?/.test(t),r = "";for (var o in n) {"" === r ? !s && (t += "?") : r += "&", r += o + "=" + encodeURIComponent(n[o]);}return /^http(s)?:\/\//.test(t += r) ? t : "" + e + t;}var Ne = /*#__PURE__*/function () {function Ne() {_classCallCheck(this, Ne);}_createClass(Ne, [{ key: "post", value: function post(e) {var t = e.url,n = e.data,s = e.headers;return new Promise(function (e, r) {q.request({ url: Le("https:", t), data: n, method: "POST", header: s, success: function success(t) {e(t);}, fail: function fail(e) {r(e);} });});} }, { key: "upload", value: function upload(e) {return new Promise(function (t, n) {var s = e.url,r = e.file,o = e.data,i = e.headers,a = e.fileType,c = q.uploadFile({ url: Le("https:", s), name: "file", formData: Object.assign({}, o), filePath: r, fileType: a, header: i, success: function success(e) {var n = { statusCode: e.statusCode, data: e.data || {} };200 === e.statusCode && o.success_action_status && (n.statusCode = parseInt(o.success_action_status, 10)), t(n);}, fail: function fail(e) {u && "mp-alipay" === h && console.warn("支付宝小程序开发工具上传腾讯云时无法准确判断是否上传成功，请使用真机测试"), n(new Error(e.errMsg || "uploadFile:fail"));} });"function" == typeof e.onUploadProgress && c && "function" == typeof c.onProgressUpdate && c.onProgressUpdate(function (t) {e.onUploadProgress({ loaded: t.totalBytesSent, total: t.totalBytesExpectedToSend });});});} }]);return Ne;}();var Me = { setItem: function setItem(e, t) {q.setStorageSync(e, t);}, getItem: function getItem(e) {return q.getStorageSync(e);}, removeItem: function removeItem(e) {q.removeStorageSync(e);}, clear: function clear() {q.clearStorageSync();} };var $e = { genAdapter: function genAdapter() {return { root: {}, reqClass: Ne, localStorage: Me, primaryStorage: "local" };}, isMatch: function isMatch() {return !0;}, runtime: "uni_app" };Fe.useAdapters($e);var je = Fe,Ke = je.init;je.init = function (e) {e.env = e.spaceId;var t = Ke.call(this, e);t.config.provider = "tencent", t.config.spaceId = e.spaceId;var n = t.auth;return t.auth = function (e) {var t = n.call(this, e);return ["linkAndRetrieveDataWithTicket", "signInAnonymously", "signOut", "getAccessToken", "getLoginState", "signInWithTicket", "getUserInfo"].forEach(function (e) {t[e] = T(t[e]).bind(t);}), t;}, t.customAuth = t.auth, t;};var Be = /*#__PURE__*/function (_F) {_inherits(Be, _F);var _super9 = _createSuper(Be);function Be() {_classCallCheck(this, Be);return _super9.apply(this, arguments);}_createClass(Be, [{ key: "getAccessToken", value: function getAccessToken() {var _this13 = this;return new Promise(function (e, t) {var n = "Anonymous_Access_token";_this13.setAccessToken(n), e(n);});} }, { key: "setupRequest", value: function setupRequest(e, t) {var n = Object.assign({}, e, { spaceId: this.config.spaceId, timestamp: Date.now() }),s = { "Content-Type": "application/json" };"auth" !== t && (n.token = this.accessToken, s["x-basement-token"] = this.accessToken), s["x-serverless-sign"] = R.sign(n, this.config.clientSecret);var r = C(),o = r.APPID,i = r.PLATFORM,a = r.DEVICEID,c = r.CLIENT_SDK_VERSION;return s["x-client-platform"] = i, s["x-client-appid"] = o, s["x-client-device-id"] = a, s["x-client-version"] = c, s["x-client-token"] = q.getStorageSync("uni_id_token"), { url: this.config.requestUrl, method: "POST", data: n, dataType: "json", header: JSON.parse(JSON.stringify(s)) };} }, { key: "uploadFileToOSS", value: function uploadFileToOSS(_ref12) {var _this14 = this;var e = _ref12.url,t = _ref12.formData,n = _ref12.name,s = _ref12.filePath,r = _ref12.fileType,o = _ref12.onUploadProgress;return new Promise(function (i, a) {var c = _this14.adapter.uploadFile({ url: e, formData: t, name: n, filePath: s, fileType: r, success: function success(e) {e && e.statusCode < 400 ? i(e) : a(new P({ code: "UPLOAD_FAILED", message: "文件上传失败" }));}, fail: function fail(e) {a(new P({ code: e.code || "UPLOAD_FAILED", message: e.message || e.errMsg || "文件上传失败" }));} });"function" == typeof o && c && "function" == typeof c.onProgressUpdate && c.onProgressUpdate(function (e) {o({ loaded: e.totalBytesSent, total: e.totalBytesExpectedToSend });});});} }, { key: "uploadFile", value: function uploadFile(_ref13) {var _this15 = this;var e = _ref13.filePath,t = _ref13.cloudPath,_ref13$fileType = _ref13.fileType,n = _ref13$fileType === void 0 ? "image" : _ref13$fileType,s = _ref13.onUploadProgress;if (!t) throw new P({ code: "CLOUDPATH_REQUIRED", message: "cloudPath不可为空" });var r;return this.getOSSUploadOptionsFromPath({ cloudPath: t }).then(function (t) {var _t$result = t.result,o = _t$result.url,i = _t$result.formData,a = _t$result.name,c = _t$result.fileUrl;r = c;var u = { url: o, formData: i, name: a, filePath: e, fileType: n };return _this15.uploadFileToOSS(Object.assign({}, u, { onUploadProgress: s }));}).then(function () {return _this15.reportOSSUpload({ cloudPath: t });}).then(function (t) {return new Promise(function (n, s) {t.success ? n({ success: !0, filePath: e, fileID: r }) : s(new P({ code: "UPLOAD_FAILED", message: "文件上传失败" }));});});} }]);return Be;}(F);var He = { init: function init(e) {var t = new Be(e),n = { signInAnonymously: function signInAnonymously() {return t.authorize();}, getLoginState: function getLoginState() {return Promise.resolve(!1);} };return t.auth = function () {return n;}, t.customAuth = t.auth, t;} };var We, ze;function Ve(_ref14) {var e = _ref14.name,t = _ref14.data,n = _ref14.spaceId,s = _ref14.provider;We || (We = C(), ze = { ak: p, p: "android" === O ? "a" : "i", ut: x(), uuid: D() });var r = JSON.parse(JSON.stringify(t || {})),o = e,i = n,a = { tencent: "t", aliyun: "a" }[s];{var _e16 = Object.assign({}, ze, { fn: o, sid: i, pvd: a });Object.assign(r, { clientInfo: We, uniCloudClientInfo: encodeURIComponent(JSON.stringify(_e16)) });var _uni$getSystemInfoSyn2 = uni.getSystemInfoSync(),_t8 = _uni$getSystemInfoSyn2.deviceId;r.uniCloudDeviceId = _t8;}if (!r.uniIdToken) {var _e17 = q.getStorageSync("uni_id_token") || q.getStorageSync("uniIdToken");_e17 && (r.uniIdToken = _e17);}return r;}function Je(_ref15) {var _this16 = this;var e = _ref15.name,t = _ref15.data;var n = this.localAddress,s = this.localPort,r = { aliyun: "aliyun", tencent: "tcb" }[this.config.provider],o = this.config.spaceId,i = "http://".concat(n, ":").concat(s, "/system/check-function"),a = "http://".concat(n, ":").concat(s, "/cloudfunctions/").concat(e);return new Promise(function (t, n) {q.request({ method: "POST", url: i, data: { name: e, platform: h, provider: r, spaceId: o }, timeout: 3e3, success: function success(e) {t(e);}, fail: function fail() {t({ data: { code: "NETWORK_ERROR", message: "连接本地调试服务失败，请检查客户端是否和主机在同一局域网下，自动切换为已部署的云函数。" } });} });}).then(function () {var _ref16 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},e = _ref16.data;var _ref17 = e || {},t = _ref17.code,n = _ref17.message;return { code: 0 === t ? 0 : t || "SYS_ERR", message: n || "SYS_ERR" };}).then(function (_ref18) {var n = _ref18.code,s = _ref18.message;if (0 !== n) {switch (n) {case "MODULE_ENCRYPTED":console.error("\u6B64\u4E91\u51FD\u6570\uFF08".concat(e, "\uFF09\u4F9D\u8D56\u52A0\u5BC6\u516C\u5171\u6A21\u5757\u4E0D\u53EF\u672C\u5730\u8C03\u8BD5\uFF0C\u81EA\u52A8\u5207\u6362\u4E3A\u4E91\u7AEF\u5DF2\u90E8\u7F72\u7684\u4E91\u51FD\u6570"));break;case "FUNCTION_ENCRYPTED":console.error("\u6B64\u4E91\u51FD\u6570\uFF08".concat(e, "\uFF09\u5DF2\u52A0\u5BC6\u4E0D\u53EF\u672C\u5730\u8C03\u8BD5\uFF0C\u81EA\u52A8\u5207\u6362\u4E3A\u4E91\u7AEF\u5DF2\u90E8\u7F72\u7684\u4E91\u51FD\u6570"));break;case "ACTION_ENCRYPTED":console.error(s || "需要访问加密的uni-clientDB-action，自动切换为云端环境");break;case "NETWORK_ERROR":{var _e18 = "连接本地调试服务失败，请检查客户端是否和主机在同一局域网下";throw console.error(_e18), new Error(_e18);}case "SWITCH_TO_CLOUD":break;default:{var _e19 = "\u68C0\u6D4B\u672C\u5730\u8C03\u8BD5\u670D\u52A1\u51FA\u73B0\u9519\u8BEF\uFF1A".concat(s, "\uFF0C\u8BF7\u68C0\u67E5\u7F51\u7EDC\u73AF\u5883\u6216\u91CD\u542F\u5BA2\u6237\u7AEF\u518D\u8BD5");throw console.error(_e19), new Error(_e19);}}return _this16._originCallFunction({ name: e, data: t });}return new Promise(function (n, s) {var i = Ve({ name: e, data: t, provider: _this16.config.provider, spaceId: o });q.request({ method: "POST", url: a, data: { provider: r, platform: h, param: i }, success: function success() {var _ref19 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},e = _ref19.statusCode,t = _ref19.data;return !e || e >= 400 ? s(new P({ code: t.code || "SYS_ERR", message: t.message || "request:fail" })) : n({ result: t });}, fail: function fail(e) {s(new P({ code: e.code || e.errCode || "SYS_ERR", message: e.message || e.errMsg || "request:fail" }));} });});});}var Ye = [{ rule: /fc_function_not_found|FUNCTION_NOT_FOUND/, content: "，云函数[{functionName}]在云端不存在，请检查此云函数名称是否正确以及该云函数是否已上传到服务空间", mode: "append" }];var Xe = /[\\^$.*+?()[\]{}|]/g,Ge = RegExp(Xe.source);function Qe(e, t, n) {return e.replace(new RegExp((s = t) && Ge.test(s) ? s.replace(Xe, "\\$&") : s, "g"), n);var s;}function Ze(_ref20) {var e = _ref20.functionName,t = _ref20.result,n = _ref20.logPvd;if (this.config.useDebugFunction && t && t.requestId) {var _s7 = JSON.stringify({ spaceId: this.config.spaceId, functionName: e, requestId: t.requestId });console.log("[".concat(n, "-request]").concat(_s7, "[/").concat(n, "-request]"));}}function et(e) {var t = e.callFunction,n = function n(e) {var _this17 = this;var n = e.name;e.data = Ve({ name: n, data: e.data, provider: this.config.provider, spaceId: this.config.spaceId });var s = { aliyun: "aliyun", tencent: "tcb" }[this.config.provider];return t.call(this, e).then(function (e) {return Ze.call(_this17, { functionName: n, result: e, logPvd: s }), Promise.resolve(e);}, function (t) {return Ze.call(_this17, { functionName: n, result: t, logPvd: s }), t && t.message && (t.message = function () {var _ref21 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},_ref21$message = _ref21.message,e = _ref21$message === void 0 ? "" : _ref21$message,_ref21$extraInfo = _ref21.extraInfo,t = _ref21$extraInfo === void 0 ? {} : _ref21$extraInfo,_ref21$formatter = _ref21.formatter,n = _ref21$formatter === void 0 ? [] : _ref21$formatter;for (var _s8 = 0; _s8 < n.length; _s8++) {var _n$_s = n[_s8],_r3 = _n$_s.rule,_o2 = _n$_s.content,i = _n$_s.mode,_a = e.match(_r3);if (!_a) continue;var _c = _o2;for (var _e20 = 1; _e20 < _a.length; _e20++) {_c = Qe(_c, "{$".concat(_e20, "}"), _a[_e20]);}for (var _e21 in t) {_c = Qe(_c, "{".concat(_e21, "}"), t[_e21]);}switch (i) {case "replace":return _c;case "append":default:return e + _c;}}return e;}({ message: "[".concat(e.name, "]: ").concat(t.message), formatter: Ye, extraInfo: { functionName: n } })), Promise.reject(t);});};e.callFunction = function (t) {var s;return u && e.debugInfo && !e.debugInfo.forceRemote && d ? (e._originCallFunction || (e._originCallFunction = n), s = Je.call(this, t)) : s = n.call(this, t), Object.defineProperty(s, "result", { get: function get() {return console.warn("当前返回结果为Promise类型，不可直接访问其result属性，详情请参考：https://uniapp.dcloud.net.cn/uniCloud/faq?id=promise"), {};} }), s;};}var tt = Symbol("CLIENT_DB_INTERNAL");function nt(e, t) {return e.then = "DoNotReturnProxyWithAFunctionNamedThen", e._internalType = tt, e.__v_raw = void 0, new Proxy(e, { get: function get(e, n, s) {return n in e || "string" != typeof n ? e[n] : t.get(e, n, s);} });}function st(e) {return e && st(e.__v_raw) || e;}function rt(e) {switch (o(e = st(e))) {case "array":return e.map(function (e) {return rt(e);});case "object":return e._internalType === tt || Object.keys(e).forEach(function (t) {e[t] = rt(e[t]);}), e;case "regexp":return { $regexp: { source: e.source, flags: e.flags } };case "date":return { $date: e.toISOString() };default:return e;}}function ot() {var e = q.getStorageSync("uni_id_token") || "",t = e.split(".");if (!e || 3 !== t.length) return { uid: null, role: [], permission: [], tokenExpired: 0 };var n;try {n = JSON.parse((s = t[1], decodeURIComponent(atob(s).split("").map(function (e) {return "%" + ("00" + e.charCodeAt(0).toString(16)).slice(-2);}).join(""))));} catch (e) {throw new Error("获取当前用户信息出错，详细错误信息为：" + e.message);}var s;return n.tokenExpired = 1e3 * n.exp, delete n.exp, delete n.iat, n;}var it = t(n(function (e, t) {Object.defineProperty(t, "__esModule", { value: !0 });var n = "chooseAndUploadFile:ok",s = "chooseAndUploadFile:fail";function r(e, t) {return e.tempFiles.forEach(function (e, n) {e.name || (e.name = e.path.substring(e.path.lastIndexOf("/") + 1)), t && (e.fileType = t), e.cloudPath = Date.now() + "_" + n + e.name.substring(e.name.lastIndexOf("."));}), e.tempFilePaths || (e.tempFilePaths = e.tempFiles.map(function (e) {return e.path;})), e;}function o(e, t, _ref22) {var s = _ref22.onChooseFile,r = _ref22.onUploadProgress;return t.then(function (e) {if (s) {var _t9 = s(e);if (void 0 !== _t9) return Promise.resolve(_t9).then(function (t) {return void 0 === t ? e : t;});}return e;}).then(function (t) {return !1 === t ? { errMsg: n, tempFilePaths: [], tempFiles: [] } : function (e, t) {var s = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 5;var r = arguments.length > 3 ? arguments[3] : undefined;(t = Object.assign({}, t)).errMsg = n;var o = t.tempFiles,i = o.length;var a = 0;return new Promise(function (n) {for (; a < s;) {c();}function c() {var s = a++;if (s >= i) return void (!o.find(function (e) {return !e.url && !e.errMsg;}) && n(t));var u = o[s];e.uploadFile({ filePath: u.path, cloudPath: u.cloudPath, fileType: u.fileType, onUploadProgress: function onUploadProgress(e) {e.index = s, e.tempFile = u, e.tempFilePath = u.path, r && r(e);} }).then(function (e) {u.url = e.fileID, s < i && c();}).catch(function (e) {u.errMsg = e.errMsg || e.message, s < i && c();});}});}(e, t, 5, r);});}t.initChooseAndUploadFile = function (e) {return function () {var t = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : { type: "all" };return "image" === t.type ? o(e, function (e) {var t = e.count,n = e.sizeType,_e$sourceType = e.sourceType,o = _e$sourceType === void 0 ? ["album", "camera"] : _e$sourceType,i = e.extension;return new Promise(function (e, a) {uni.chooseImage({ count: t, sizeType: n, sourceType: o, extension: i, success: function success(t) {e(r(t, "image"));}, fail: function fail(e) {a({ errMsg: e.errMsg.replace("chooseImage:fail", s) });} });});}(t), t) : "video" === t.type ? o(e, function (e) {var t = e.camera,n = e.compressed,o = e.maxDuration,_e$sourceType2 = e.sourceType,i = _e$sourceType2 === void 0 ? ["album", "camera"] : _e$sourceType2,a = e.extension;return new Promise(function (e, c) {uni.chooseVideo({ camera: t, compressed: n, maxDuration: o, sourceType: i, extension: a, success: function success(t) {var n = t.tempFilePath,s = t.duration,o = t.size,i = t.height,a = t.width;e(r({ errMsg: "chooseVideo:ok", tempFilePaths: [n], tempFiles: [{ name: t.tempFile && t.tempFile.name || "", path: n, size: o, type: t.tempFile && t.tempFile.type || "", width: a, height: i, duration: s, fileType: "video", cloudPath: "" }] }, "video"));}, fail: function fail(e) {c({ errMsg: e.errMsg.replace("chooseVideo:fail", s) });} });});}(t), t) : o(e, function (e) {var t = e.count,n = e.extension;return new Promise(function (e, o) {var i = uni.chooseFile;if ("undefined" != typeof wx && "function" == typeof wx.chooseMessageFile && (i = wx.chooseMessageFile), "function" != typeof i) return o({ errMsg: s + " 请指定 type 类型，该平台仅支持选择 image 或 video。" });i({ type: "all", count: t, extension: n, success: function success(t) {e(r(t));}, fail: function fail(e) {o({ errMsg: e.errMsg.replace("chooseFile:fail", s) });} });});}(t), t);};};}));var at = "manual";function ct(e) {return { props: { localdata: { type: Array, default: function _default() {return [];} }, options: { type: [Object, Array], default: function _default() {return {};} }, collection: { type: String, default: "" }, action: { type: String, default: "" }, field: { type: String, default: "" }, orderby: { type: String, default: "" }, where: { type: [String, Object], default: "" }, pageData: { type: String, default: "add" }, pageCurrent: { type: Number, default: 1 }, pageSize: { type: Number, default: 20 }, getcount: { type: [Boolean, String], default: !1 }, gettree: { type: [Boolean, String], default: !1 }, gettreepath: { type: [Boolean, String], default: !1 }, startwith: { type: String, default: "" }, limitlevel: { type: Number, default: 10 }, groupby: { type: String, default: "" }, groupField: { type: String, default: "" }, distinct: { type: [Boolean, String], default: !1 }, foreignKey: { type: String, default: "" }, loadtime: { type: String, default: "auto" }, manual: { type: Boolean, default: !1 } }, data: function data() {return { mixinDatacomLoading: !1, mixinDatacomHasMore: !1, mixinDatacomResData: [], mixinDatacomErrorMessage: "", mixinDatacomPage: {} };}, created: function created() {var _this18 = this;this.mixinDatacomPage = { current: this.pageCurrent, size: this.pageSize, count: 0 }, this.$watch(function () {var e = [];return ["pageCurrent", "pageSize", "localdata", "collection", "action", "field", "orderby", "where", "getont", "getcount", "gettree", "groupby", "groupField", "distinct"].forEach(function (t) {e.push(_this18[t]);}), e;}, function (e, t) {if (_this18.loadtime === at) return;var n = !1;var s = [];for (var _r4 = 2; _r4 < e.length; _r4++) {e[_r4] !== t[_r4] && (s.push(e[_r4]), n = !0);}e[0] !== t[0] && (_this18.mixinDatacomPage.current = _this18.pageCurrent), _this18.mixinDatacomPage.size = _this18.pageSize, _this18.onMixinDatacomPropsChange(n, s);});}, methods: { onMixinDatacomPropsChange: function onMixinDatacomPropsChange(e, t) {}, mixinDatacomEasyGet: function mixinDatacomEasyGet() {var _this19 = this;var _ref23 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},_ref23$getone = _ref23.getone,e = _ref23$getone === void 0 ? !1 : _ref23$getone,t = _ref23.success,n = _ref23.fail;this.mixinDatacomLoading || (this.mixinDatacomLoading = !0, this.mixinDatacomErrorMessage = "", this.mixinDatacomGet().then(function (n) {_this19.mixinDatacomLoading = !1;var _n$result = n.result,s = _n$result.data,r = _n$result.count;_this19.getcount && (_this19.mixinDatacomPage.count = r), _this19.mixinDatacomHasMore = s.length < _this19.pageSize;var o = e ? s.length ? s[0] : void 0 : s;_this19.mixinDatacomResData = o, t && t(o);}).catch(function (e) {_this19.mixinDatacomLoading = !1, _this19.mixinDatacomErrorMessage = e, n && n(e);}));}, mixinDatacomGet: function mixinDatacomGet() {var t = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var n = e.database();var s = t.action || this.action;s && (n = n.action(s));var r = t.collection || this.collection;n = n.collection(r);var o = t.where || this.where;o && Object.keys(o).length && (n = n.where(o));var i = t.field || this.field;i && (n = n.field(i));var a = t.foreignKey || this.foreignKey;a && (n = n.foreignKey(a));var c = t.groupby || this.groupby;c && (n = n.groupBy(c));var u = t.groupField || this.groupField;u && (n = n.groupField(u));!0 === (void 0 !== t.distinct ? t.distinct : this.distinct) && (n = n.distinct());var h = t.orderby || this.orderby;h && (n = n.orderBy(h));var l = void 0 !== t.pageCurrent ? t.pageCurrent : this.mixinDatacomPage.current,d = void 0 !== t.pageSize ? t.pageSize : this.mixinDatacomPage.size,f = void 0 !== t.getcount ? t.getcount : this.getcount,p = void 0 !== t.gettree ? t.gettree : this.gettree,g = void 0 !== t.gettreepath ? t.gettreepath : this.gettreepath,m = { getCount: f },y = { limitLevel: void 0 !== t.limitlevel ? t.limitlevel : this.limitlevel, startWith: void 0 !== t.startwith ? t.startwith : this.startwith };return p && (m.getTree = y), g && (m.getTreePath = y), n = n.skip(d * (l - 1)).limit(d).get(m), n;} } };}function ut(_x30, _x31) {return _ut.apply(this, arguments);}function _ut() {_ut = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee32(e, t) {var n, _e28, s;return _regenerator.default.wrap(function _callee32$(_context32) {while (1) {switch (_context32.prev = _context32.next) {case 0:n = "http://".concat(e, ":").concat(t, "/system/ping");_context32.prev = 1;_context32.next = 4;return s = { url: n, timeout: 500 }, new Promise(function (e, t) {q.request(_objectSpread(_objectSpread({}, s), {}, { success: function success(t) {e(t);}, fail: function fail(e) {t(e);} }));});case 4:_e28 = _context32.sent;return _context32.abrupt("return", !(!_e28.data || 0 !== _e28.data.code));case 8:_context32.prev = 8;_context32.t0 = _context32["catch"](1);return _context32.abrupt("return", !1);case 11:case "end":return _context32.stop();}}}, _callee32, null, [[1, 8]]);}));return _ut.apply(this, arguments);}var ht = new ( /*#__PURE__*/function () {function _class2() {_classCallCheck(this, _class2);}_createClass(_class2, [{ key: "init", value: function init(e) {var t = {};var n = !1 !== e.debugFunction && u && ("h5" === h && navigator.userAgent.indexOf("HBuilderX") > 0 || "app-plus" === h);switch (e.provider) {case "tencent":t = je.init(Object.assign(e, { useDebugFunction: n }));break;case "aliyun":t = L.init(Object.assign(e, { useDebugFunction: n }));break;case "private":t = He.init(Object.assign(e, { useDebugFunction: n }));break;default:throw new Error("未提供正确的provider参数");}var s = l;u && s && !s.code && (t.debugInfo = s);var r = Promise.resolve();var o;o = 1, r = new Promise(function (e, t) {setTimeout(function () {e();}, o);}), t.isReady = !1, t.isDefault = !1;var i = t.auth();t.initUniCloud = r.then(function () {return i.getLoginState();}).then(function (e) {return e ? Promise.resolve() : i.signInAnonymously();}).then(function () {if (u && t.debugInfo) {var _t$debugInfo = t.debugInfo,_e22 = _t$debugInfo.address,_n4 = _t$debugInfo.servePort;return function () {var _ref24 = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee31(e, t) {var n, _s9, _r5;return _regenerator.default.wrap(function _callee31$(_context31) {while (1) {switch (_context31.prev = _context31.next) {case 0:_s9 = 0;case 1:if (!(_s9 < e.length)) {_context31.next = 11;break;}_r5 = e[_s9];_context31.next = 5;return ut(_r5, t);case 5:if (!_context31.sent) {_context31.next = 8;break;}n = _r5;return _context31.abrupt("break", 11);case 8:_s9++;_context31.next = 1;break;case 11:return _context31.abrupt("return", { address: n, port: t });case 12:case "end":return _context31.stop();}}}, _callee31);}));return function (_x32, _x33) {return _ref24.apply(this, arguments);};}()(_e22, _n4);}return Promise.resolve();}).then(function () {var _ref25 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},e = _ref25.address,n = _ref25.port;if (!u) return Promise.resolve();if (e) t.localAddress = e, t.localPort = n;else if (t.debugInfo) {var _e23 = console["app-plus" === h ? "error" : "warn"];"remote" === t.debugInfo.initialLaunchType ? (t.debugInfo.forceRemote = !0, _e23("当前客户端和HBuilderX不在同一局域网下（或其他网络原因无法连接HBuilderX），uniCloud本地调试服务不对当前客户端生效。\n- 如果不使用uniCloud本地调试服务，请直接忽略此信息。\n- 如需使用uniCloud本地调试服务，请将客户端与主机连接到同一局域网下并重新运行到客户端。\n- 如果在HBuilderX开启的状态下切换过网络环境，请重启HBuilderX后再试\n- 检查系统防火墙是否拦截了HBuilderX自带的nodejs")) : _e23("无法连接uniCloud本地调试服务，请检查当前客户端是否与主机在同一局域网下。\n- 如需使用uniCloud本地调试服务，请将客户端与主机连接到同一局域网下并重新运行到客户端。\n- 如果在HBuilderX开启的状态下切换过网络环境，请重启HBuilderX后再试\n- 检查系统防火墙是否拦截了HBuilderX自带的nodejs");}}).then(function () {return function () {if (!u || "h5" !== h) return;if (uni.getStorageSync("__LAST_DCLOUD_APPID") === p) return;uni.setStorageSync("__LAST_DCLOUD_APPID", p), uni.removeStorageSync("uni_id_token") && (console.warn("检测到当前项目与上次运行到此端口的项目不一致，自动清理uni-id保存的token信息（仅开发调试时生效）"), uni.removeStorageSync("uni_id_token"), uni.removeStorageSync("uni_id_token_expired"));}(), new Promise(function (e) {"quickapp-native" === h ? (O = "android", uni.getStorage({ key: "__DC_CLOUD_UUID", success: function success(t) {b = t.data ? t.data : U(32), e();} })) : setTimeout(function () {O = uni.getSystemInfoSync().platform, b = uni.getStorageSync("__DC_CLOUD_UUID") || U(32), e();}, 0);});}).then(function () {t.isReady = !0;}), et(t), function (e) {var t = e.uploadFile;e.uploadFile = function (e) {var _this20 = this;var n;return n = this.isReady ? Promise.resolve() : this.initUniCloud, n.then(function () {return t.call(_this20, e);});};}(t), function (e) {e.database = function () {if (this._database) return this._database;var t = {};var n = {};function s(_ref26) {var s = _ref26.action,r = _ref26.command,o = _ref26.multiCommand;return S(k("database", "invoke")).then(function () {return e.callFunction({ name: "DCloud-clientDB", data: { action: s, command: r, multiCommand: o } });}).then(function (e) {var _e$result = e.result,s = _e$result.code,r = _e$result.message,o = _e$result.token,i = _e$result.tokenExpired,_e$result$systemInfo = _e$result.systemInfo,c = _e$result$systemInfo === void 0 ? [] : _e$result$systemInfo;if (c) for (var _e24 = 0; _e24 < c.length; _e24++) {var _c$_e = c[_e24],_t10 = _c$_e.level,_n5 = _c$_e.message,_s10 = _c$_e.detail,_r6 = console["app-plus" === h && "warn" === _t10 ? "error" : _t10] || console.log;var _o3 = "[System Info]" + _n5;_s10 && (_o3 = "".concat(_o3, "\n\u8BE6\u7EC6\u4FE1\u606F\uFF1A").concat(_s10)), _r6(_o3);}if (s) {var _e25 = new a(r, s);return n.error && n.error.forEach(function (t) {t(_e25);}), Promise.reject(_e25);}o && i && (t.refreshToken && t.refreshToken.forEach(function (e) {e({ token: o, tokenExpired: i });}), n.refreshToken && n.refreshToken.forEach(function (e) {e({ token: o, tokenExpired: i });}));var u = e.result.affectedDocs;return "number" == typeof u && Object.defineProperty(e.result, "affectedDocs", { get: function get() {return console.warn("affectedDocs不再推荐使用，请使用inserted/deleted/updated/data.length替代"), u;} }), S(k("database", "success"), e).then(function () {return S(k("database", "complete"), e);}).then(function () {return Promise.resolve(e);});}, function (e) {var t = new a(e.message, e.code || "SYSTEM_ERROR");return n.error && n.error.forEach(function (e) {e(t);}), /fc_function_not_found|FUNCTION_NOT_FOUND/g.test(e.message) && console.warn("clientDB未初始化，请在web控制台保存一次schema以开启clientDB"), S(k("database", "fail"), e).then(function () {return S(k("database", "complete"), e);}).then(function () {return Promise.reject(e);});});}this.isDefault && (n = m("_globalUniCloudDatabaseCallback"));var r = /*#__PURE__*/function () {function r(e, t) {_classCallCheck(this, r);this.content = e, this.prevStage = t, this.udb = null;}_createClass(r, [{ key: "toJSON", value: function toJSON() {var e = this;var t = [e.content];for (; e.prevStage;) {e = e.prevStage, t.push(e.content);}return { $db: t.reverse().map(function (e) {return { $method: e.$method, $param: rt(e.$param) };}) };} }, { key: "getAction", value: function getAction() {var e = this.toJSON().$db.find(function (e) {return "action" === e.$method;});return e && e.$param && e.$param[0];} }, { key: "getCommand", value: function getCommand() {return { $db: this.toJSON().$db.filter(function (e) {return "action" !== e.$method;}) };} }, { key: "get", value: function get() {return this._send("get", Array.from(arguments));} }, { key: "add", value: function add() {return this._send("add", Array.from(arguments));} }, { key: "remove", value: function remove() {return this._send("remove", Array.from(arguments));} }, { key: "update", value: function update() {return this._send("update", Array.from(arguments));} }, { key: "end", value: function end() {return this._send("end", Array.from(arguments));} }, { key: "set", value: function set() {throw new Error("clientDB禁止使用set方法");} }, { key: "_send", value: function _send(e, t) {var n = this.getAction(),r = this.getCommand();return r.$db.push({ $method: e, $param: rt(t) }), s({ action: n, command: r });} }, { key: "useAggregate", get: function get() {var e = this,t = !1;for (; e.prevStage;) {e = e.prevStage;var _n6 = e.content.$method;if ("aggregate" === _n6 || "pipeline" === _n6) {t = !0;break;}}return t;} }, { key: "count", get: function get() {if (!this.useAggregate) return function () {return this._send("count", Array.from(arguments));};var e = this;return function () {return c({ $method: "count", $param: rt(Array.from(arguments)) }, e);};} }, { key: "multiSend", get: function get() {} }]);return r;}();var o = ["db.Geo", "db.command", "command.aggregate"];function i(e, t) {return o.indexOf("".concat(e, ".").concat(t)) > -1;}function c(e, t) {return nt(new r(e, t), { get: function get(e, t) {var n = "db";return e && e.content && (n = e.content.$method), i(n, t) ? c({ $method: t }, e) : function () {return c({ $method: t, $param: rt(Array.from(arguments)) }, e);};}, set: function set(e, t, n) {e[t] = n;} });}function u(_ref27) {var e = _ref27.path,t = _ref27.method;return /*#__PURE__*/function () {function _class3() {_classCallCheck(this, _class3);this.param = Array.from(arguments);}_createClass(_class3, [{ key: "toJSON", value: function toJSON() {return { $newDb: [].concat(_toConsumableArray(e.map(function (e) {return { $method: e };})), [{ $method: t, $param: this.param }]) };} }]);return _class3;}();}var l = { auth: { on: function on(e, n) {t[e] = t[e] || [], t[e].indexOf(n) > -1 || t[e].push(n);}, off: function off(e, n) {t[e] = t[e] || [];var s = t[e].indexOf(n);-1 !== s && t[e].splice(s, 1);} }, on: function on(e, t) {n[e] = n[e] || [], n[e].indexOf(t) > -1 || n[e].push(t);}, off: function off(e, t) {n[e] = n[e] || [];var s = n[e].indexOf(t);-1 !== s && n[e].splice(s, 1);}, env: nt({}, { get: function get(e, t) {return { $env: t };} }), Geo: nt({}, { get: function get(e, t) {return u({ path: ["Geo"], method: t });} }), getCloudEnv: function getCloudEnv(e) {if ("string" != typeof e || !e.trim()) throw new Error("getCloudEnv参数错误");return { $env: e.replace("$cloudEnv_", "") };}, multiSend: function multiSend() {var e = Array.from(arguments);return s({ multiCommand: e.map(function (e) {var t = e.getAction(),n = e.getCommand();if ("getTemp" !== n.$db[n.$db.length - 1].$method) throw new Error("multiSend只支持子命令内使用getTemp");return { action: t, command: n };}) }).then(function (t) {for (var _n7 = 0; _n7 < e.length; _n7++) {var _s11 = e[_n7];_s11.udb && "function" == typeof _s11.udb.setResult && _s11.udb.setResult(t.result.dataList[_n7]);}return Promise.resolve(t);}, function (t) {for (var _n8 = 0; _n8 < e.length; _n8++) {var _s12 = e[_n8];_s12.udb && "function" == typeof _s12.udb.setResult && _s12.udb.setResult(t);}return Promise.reject(t);});}, get serverDate() {return u({ path: [], method: "serverDate" });}, get RegExp() {return u({ path: [], method: "RegExp" });} },d = nt(l, { get: function get(e, t) {return i("db", t) ? c({ $method: t }) : function () {return c({ $method: t, $param: rt(Array.from(arguments)) });};} });return this._database = d, d;};}(t), function (e) {e.getCurrentUserInfo = ot, e.chooseAndUploadFile = it.initChooseAndUploadFile(e), Object.assign(e, { get mixinDatacom() {return ct(e);} });}(t);return ["callFunction", "uploadFile", "deleteFile", "getTempFileURL", "downloadFile", "chooseAndUploadFile"].forEach(function (e) {t[e] && (t[e] = T(t[e], e));}), t.init = this.init, t;} }]);return _class2;}())();(function () {{var e = d;var t = {};if (1 === e.length) t = e[0], ht = ht.init(t), ht.isDefault = !0;else {var _t11 = ["auth", "callFunction", "uploadFile", "deleteFile", "getTempFileURL", "downloadFile", "database", "getCurrentUSerInfo"];var _n9;_n9 = e && e.length > 0 ? "应用有多个服务空间，请通过uniCloud.init方法指定要使用的服务空间" : f ? "应用未关联服务空间，请在uniCloud目录右键关联服务空间" : "uni-app cli项目内使用uniCloud需要使用HBuilderX的运行菜单运行项目，且需要在uniCloud目录关联服务空间", _t11.forEach(function (e) {ht[e] = function () {return console.error(_n9), Promise.reject(new P({ code: "SYS_ERR", message: _n9 }));};});}Object.assign(ht, { get mixinDatacom() {return ct(ht);} }), ht.addInterceptor = w, ht.removeInterceptor = v, u && "h5" === h && (window.uniCloud = ht);}})();var lt = ht;var _default2 = lt;exports.default = _default2;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 3), __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 135:
-/*!**************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-i18n/dist/uni-i18n.esm.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.initVueI18n = initVueI18n;exports.I18n = void 0;function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var isObject = function isObject(val) {return val !== null && typeof val === 'object';};var
-BaseFormatter = /*#__PURE__*/function () {
-  function BaseFormatter() {_classCallCheck(this, BaseFormatter);
-    this._caches = Object.create(null);
-  }_createClass(BaseFormatter, [{ key: "interpolate", value: function interpolate(
-    message, values) {
-      if (!values) {
-        return [message];
-      }
-      var tokens = this._caches[message];
-      if (!tokens) {
-        tokens = parse(message);
-        this._caches[message] = tokens;
-      }
-      return compile(tokens, values);
-    } }]);return BaseFormatter;}();
-
-var RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
-var RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
-function parse(format) {
-  var tokens = [];
-  var position = 0;
-  var text = '';
-  while (position < format.length) {
-    var _char = format[position++];
-    if (_char === '{') {
-      if (text) {
-        tokens.push({ type: 'text', value: text });
-      }
-      text = '';
-      var sub = '';
-      _char = format[position++];
-      while (_char !== undefined && _char !== '}') {
-        sub += _char;
-        _char = format[position++];
-      }
-      var isClosed = _char === '}';
-      var type = RE_TOKEN_LIST_VALUE.test(sub) ?
-      'list' :
-      isClosed && RE_TOKEN_NAMED_VALUE.test(sub) ?
-      'named' :
-      'unknown';
-      tokens.push({ value: sub, type: type });
-    } else
-    if (_char === '%') {
-      // when found rails i18n syntax, skip text capture
-      if (format[position] !== '{') {
-        text += _char;
-      }
-    } else
-    {
-      text += _char;
-    }
-  }
-  text && tokens.push({ type: 'text', value: text });
-  return tokens;
-}
-function compile(tokens, values) {
-  var compiled = [];
-  var index = 0;
-  var mode = Array.isArray(values) ?
-  'list' :
-  isObject(values) ?
-  'named' :
-  'unknown';
-  if (mode === 'unknown') {
-    return compiled;
-  }
-  while (index < tokens.length) {
-    var token = tokens[index];
-    switch (token.type) {
-      case 'text':
-        compiled.push(token.value);
-        break;
-      case 'list':
-        compiled.push(values[parseInt(token.value, 10)]);
-        break;
-      case 'named':
-        if (mode === 'named') {
-          compiled.push(values[token.value]);
-        } else
-        {
-          if (true) {
-            console.warn("Type of token '".concat(token.type, "' and format of value '").concat(mode, "' don't match!"));
-          }
-        }
-        break;
-      case 'unknown':
-        if (true) {
-          console.warn("Detect 'unknown' type of token!");
-        }
-        break;}
-
-    index++;
-  }
-  return compiled;
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
 }
 
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-var hasOwn = function hasOwn(val, key) {return hasOwnProperty.call(val, key);};
-var defaultFormatter = new BaseFormatter();
-function include(str, parts) {
-  return !!parts.find(function (part) {return str.indexOf(part) !== -1;});
-}
-function startsWith(str, parts) {
-  return parts.find(function (part) {return str.indexOf(part) === 0;});
-}
-function normalizeLocale(locale, messages) {
-  if (!locale) {
-    return;
-  }
-  locale = locale.trim().replace(/_/g, '-');
-  if (messages[locale]) {
-    return locale;
-  }
-  locale = locale.toLowerCase();
-  if (locale.indexOf('zh') === 0) {
-    if (locale.indexOf('-hans') !== -1) {
-      return 'zh-Hans';
-    }
-    if (locale.indexOf('-hant') !== -1) {
-      return 'zh-Hant';
-    }
-    if (include(locale, ['-tw', '-hk', '-mo', '-cht'])) {
-      return 'zh-Hant';
-    }
-    return 'zh-Hans';
-  }
-  var lang = startsWith(locale, ['en', 'fr', 'es']);
-  if (lang) {
-    return lang;
-  }
-}var
-I18n = /*#__PURE__*/function () {
-  function I18n(_ref) {var locale = _ref.locale,fallbackLocale = _ref.fallbackLocale,messages = _ref.messages,watcher = _ref.watcher,formater = _ref.formater;_classCallCheck(this, I18n);
-    this.locale = 'en';
-    this.fallbackLocale = 'en';
-    this.message = {};
-    this.messages = {};
-    this.watchers = [];
-    if (fallbackLocale) {
-      this.fallbackLocale = fallbackLocale;
-    }
-    this.formater = formater || defaultFormatter;
-    this.messages = messages;
-    this.setLocale(locale);
-    if (watcher) {
-      this.watchLocale(watcher);
-    }
-  }_createClass(I18n, [{ key: "setLocale", value: function setLocale(
-    locale) {var _this = this;
-      var oldLocale = this.locale;
-      this.locale = normalizeLocale(locale, this.messages) || this.fallbackLocale;
-      this.message = this.messages[this.locale];
-      this.watchers.forEach(function (watcher) {
-        watcher(_this.locale, oldLocale);
-      });
-    } }, { key: "getLocale", value: function getLocale()
-    {
-      return this.locale;
-    } }, { key: "watchLocale", value: function watchLocale(
-    fn) {var _this2 = this;
-      var index = this.watchers.push(fn) - 1;
-      return function () {
-        _this2.watchers.splice(index, 1);
-      };
-    } }, { key: "t", value: function t(
-    key, locale, values) {
-      var message = this.message;
-      if (typeof locale === 'string') {
-        locale = normalizeLocale(locale, this.messages);
-        locale && (message = this.messages[locale]);
-      } else
-      {
-        values = locale;
-      }
-      if (!hasOwn(message, key)) {
-        console.warn("Cannot translate the value of keypath ".concat(key, ". Use the value of keypath as default."));
-        return key;
-      }
-      return this.formater.interpolate(message[key], values).join('');
-    } }]);return I18n;}();exports.I18n = I18n;
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
 
-
-function initLocaleWatcher(appVm, i18n) {
-  appVm.$i18n &&
-  appVm.$i18n.vm.$watch('locale', function (newLocale) {
-    i18n.setLocale(newLocale);
-  }, {
-    immediate: true });
-
-}
-function getDefaultLocale() {
-  if (typeof navigator !== 'undefined') {
-    return navigator.userLanguage || navigator.language;
-  }
-  if (typeof plus !== 'undefined') {
-    // TODO 待调整为最新的获取语言代码
-    return plus.os.language;
-  }
-  return uni.getSystemInfoSync().language;
-}
-function initVueI18n(messages) {var fallbackLocale = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'en';var locale = arguments.length > 2 ? arguments[2] : undefined;
-  var i18n = new I18n({
-    locale: locale || fallbackLocale,
-    fallbackLocale: fallbackLocale,
-    messages: messages });
-
-  var _t = function t(key, values) {
-    if (typeof getApp !== 'function') {
-      // app-plus view
-      /* eslint-disable no-func-assign */
-      _t = function t(key, values) {
-        return i18n.t(key, values);
-      };
-    } else
-    {
-      var appVm = getApp().$vm;
-      if (!appVm.$t || !appVm.$i18n) {
-        if (!locale) {
-          i18n.setLocale(getDefaultLocale());
-        }
-        /* eslint-disable no-func-assign */
-        _t = function t(key, values) {
-          return i18n.t(key, values);
-        };
-      } else
-      {
-        initLocaleWatcher(appVm, i18n);
-        /* eslint-disable no-func-assign */
-        _t = function t(key, values) {
-          var $i18n = appVm.$i18n;
-          var silentTranslationWarn = $i18n.silentTranslationWarn;
-          $i18n.silentTranslationWarn = true;
-          var msg = appVm.$t(key, values);
-          $i18n.silentTranslationWarn = silentTranslationWarn;
-          if (msg !== key) {
-            return msg;
-          }
-          return i18n.t(key, $i18n.locale, values);
-        };
-      }
-    }
-    return _t(key, values);
-  };
-  return {
-    t: function t(key, values) {
-      return _t(key, values);
-    },
-    getLocale: function getLocale() {
-      return i18n.getLocale();
-    },
-    setLocale: function setLocale(newLocale) {
-      return i18n.setLocale(newLocale);
-    },
-    mixin: {
-      beforeCreate: function beforeCreate() {var _this3 = this;
-        var unwatch = i18n.watchLocale(function () {
-          _this3.$forceUpdate();
-        });
-        this.$once('hook:beforeDestroy', function () {
-          unwatch();
-        });
-      },
-      methods: {
-        $$t: function $$t(key, values) {
-          return _t(key, values);
-        } } } };
-
-
-
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 136:
-/*!*****************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/pages.json?{"type":"stat"} ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "appid": "__UNI__7549A0E" };exports.default = _default;
-
-/***/ }),
-
-/***/ 137:
-/*!************************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-cli-shared/components/i18n/index.js ***!
-  \************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _en_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./en.json */ 138);
-var _en_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./en.json */ 138, 1);
-/* harmony import */ var _es_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./es.json */ 139);
-var _es_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./es.json */ 139, 1);
-/* harmony import */ var _fr_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fr.json */ 140);
-var _fr_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./fr.json */ 140, 1);
-/* harmony import */ var _zh_Hans_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./zh-Hans.json */ 141);
-var _zh_Hans_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./zh-Hans.json */ 141, 1);
-/* harmony import */ var _zh_Hant_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./zh-Hant.json */ 142);
-var _zh_Hant_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./zh-Hant.json */ 142, 1);
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  en: _en_json__WEBPACK_IMPORTED_MODULE_0__,
-  es: _es_json__WEBPACK_IMPORTED_MODULE_1__,
-  fr: _fr_json__WEBPACK_IMPORTED_MODULE_2__,
-  'zh-Hans': _zh_Hans_json__WEBPACK_IMPORTED_MODULE_3__,
-  'zh-Hant': _zh_Hant_json__WEBPACK_IMPORTED_MODULE_4__
-});
+module.exports = g;
 
 
 /***/ }),
-
-/***/ 138:
-/*!***********************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-cli-shared/components/i18n/en.json ***!
-  \***********************************************************************/
-/*! exports provided: uniCloud.component.add.success, uniCloud.component.update.success, uniCloud.component.remove.showModal.title, uniCloud.component.remove.showModal.content, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"Success\",\"uniCloud.component.update.success\":\"Success\",\"uniCloud.component.remove.showModal.title\":\"Tips\",\"uniCloud.component.remove.showModal.content\":\"是否删除该数据\"}");
-
-/***/ }),
-
-/***/ 139:
-/*!***********************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-cli-shared/components/i18n/es.json ***!
-  \***********************************************************************/
-/*! exports provided: uniCloud.component.add.success, uniCloud.component.update.success, uniCloud.component.remove.showModal.title, uniCloud.component.remove.showModal.content, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"新增成功\",\"uniCloud.component.update.success\":\"修改成功\",\"uniCloud.component.remove.showModal.title\":\"提示\",\"uniCloud.component.remove.showModal.content\":\"是否删除该数据\"}");
-
-/***/ }),
-
-/***/ 14:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/request/index.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 15));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
-Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
-    // 设置全局默认配置
-    value: function setConfig(customConfig) {
-      // 深度合并对象，否则会造成对象深层属性丢失
-      this.config = (0, _deepMerge.default)(this.config, customConfig);
-    }
-
-    // 主要请求部分
-  }, { key: "request", value: function request() {var _this = this;var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-      // 检查请求拦截
-      if (this.interceptor.request && typeof this.interceptor.request === 'function') {
-        var tmpConfig = {};
-        var interceptorRequest = this.interceptor.request(options);
-        if (interceptorRequest === false) {
-          // 返回一个处于pending状态中的Promise，来取消原promise，避免进入then()回调
-          return new Promise(function () {});
-        }
-        this.options = interceptorRequest;
-      }
-      options.dataType = options.dataType || this.config.dataType;
-      options.responseType = options.responseType || this.config.responseType;
-      options.url = options.url || '';
-      options.params = options.params || {};
-      options.header = Object.assign({}, this.config.header, options.header);
-      options.method = options.method || this.config.method;
-
-      return new Promise(function (resolve, reject) {
-        options.complete = function (response) {
-          // 请求返回后，隐藏loading(如果请求返回快的话，可能会没有loading)
-          uni.hideLoading();
-          // 清除定时器，如果请求回来了，就无需loading
-          clearTimeout(_this.config.timer);
-          _this.config.timer = null;
-          // 判断用户对拦截返回数据的要求，如果originalData为true，返回所有的数据(response)到拦截器，否则只返回response.data
-          if (_this.config.originalData) {
-            // 判断是否存在拦截器
-            if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
-              var resInterceptors = _this.interceptor.response(response);
-              // 如果拦截器不返回false，就将拦截器返回的内容给this.$u.post的then回调
-              if (resInterceptors !== false) {
-                resolve(resInterceptors);
-              } else {
-                // 如果拦截器返回false，意味着拦截器定义者认为返回有问题，直接接入catch回调
-                reject(response);
-              }
-            } else {
-              // 如果要求返回原始数据，就算没有拦截器，也返回最原始的数据
-              resolve(response);
-            }
-          } else {
-            if (response.statusCode == 200) {
-              if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
-                var _resInterceptors = _this.interceptor.response(response.data);
-                if (_resInterceptors !== false) {
-                  resolve(_resInterceptors);
-                } else {
-                  reject(response.data);
-                }
-              } else {
-                // 如果不是返回原始数据(originalData=false)，且没有拦截器的情况下，返回纯数据给then回调
-                resolve(response.data);
-              }
-            } else {
-              // 不返回原始数据的情况下，服务器状态码不为200，modal弹框提示
-              // if(response.errMsg) {
-              // 	uni.showModal({
-              // 		title: response.errMsg
-              // 	});
-              // }
-              reject(response);
-            }
-          }
-        };
-
-        // 判断用户传递的URL是否/开头,如果不是,加上/，这里使用了uView的test.js验证库的url()方法
-        options.url = _test.default.url(options.url) ? options.url : _this.config.baseUrl + (options.url.indexOf('/') == 0 ?
-        options.url : '/' + options.url);
-
-        // 是否显示loading
-        // 加一个是否已有timer定时器的判断，否则有两个同时请求的时候，后者会清除前者的定时器id
-        // 而没有清除前者的定时器，导致前者超时，一直显示loading
-        if (_this.config.showLoading && !_this.config.timer) {
-          _this.config.timer = setTimeout(function () {
-            uni.showLoading({
-              title: _this.config.loadingText,
-              mask: _this.config.loadingMask });
-
-            _this.config.timer = null;
-          }, _this.config.loadingTime);
-        }
-        uni.request(options);
-      });
-      // .catch(res => {
-      // 	// 如果返回reject()，不让其进入this.$u.post().then().catch()后面的catct()
-      // 	// 因为很多人都会忘了写后面的catch()，导致报错捕获不到catch
-      // 	return new Promise(()=>{});
-      // })
-    } }]);
-
-  function Request() {var _this2 = this;_classCallCheck(this, Request);
-    this.config = {
-      baseUrl: '', // 请求的根域名
-      // 默认的请求头
-      header: {},
-      method: 'POST',
-      // 设置为json，返回后uni.request会对数据进行一次JSON.parse
-      dataType: 'json',
-      // 此参数无需处理，因为5+和支付宝小程序不支持，默认为text即可
-      responseType: 'text',
-      showLoading: true, // 是否显示请求中的loading
-      loadingText: '请求中...',
-      loadingTime: 800, // 在此时间内，请求还没回来的话，就显示加载中动画，单位ms
-      timer: null, // 定时器
-      originalData: false, // 是否在拦截器中返回服务端的原始数据，见文档说明
-      loadingMask: true // 展示loading的时候，是否给一个透明的蒙层，防止触摸穿透
-    };
-
-    // 拦截器
-    this.interceptor = {
-      // 请求前的拦截
-      request: null,
-      // 请求后的拦截
-      response: null };
-
-
-    // get请求
-    this.get = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        method: 'GET',
-        url: url,
-        header: header,
-        data: data });
-
-    };
-
-    // post请求
-    this.post = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'POST',
-        header: header,
-        data: data });
-
-    };
-
-    // put请求，不支持支付宝小程序(HX2.6.15)
-    this.put = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'PUT',
-        header: header,
-        data: data });
-
-    };
-
-    // delete请求，不支持支付宝和头条小程序(HX2.6.15)
-    this.delete = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-      return _this2.request({
-        url: url,
-        method: 'DELETE',
-        header: header,
-        data: data });
-
-    };
-  }return Request;}();var _default =
-
-new Request();exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 140:
-/*!***********************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-cli-shared/components/i18n/fr.json ***!
-  \***********************************************************************/
-/*! exports provided: uniCloud.component.add.success, uniCloud.component.update.success, uniCloud.component.remove.showModal.title, uniCloud.component.remove.showModal.content, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"新增成功\",\"uniCloud.component.update.success\":\"修改成功\",\"uniCloud.component.remove.showModal.title\":\"提示\",\"uniCloud.component.remove.showModal.content\":\"是否删除该数据\"}");
-
-/***/ }),
-
-/***/ 141:
-/*!****************************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-cli-shared/components/i18n/zh-Hans.json ***!
-  \****************************************************************************/
-/*! exports provided: uniCloud.component.add.success, uniCloud.component.update.success, uniCloud.component.remove.showModal.title, uniCloud.component.remove.showModal.content, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"新增成功\",\"uniCloud.component.update.success\":\"修改成功\",\"uniCloud.component.remove.showModal.title\":\"提示\",\"uniCloud.component.remove.showModal.content\":\"是否删除该数据\"}");
-
-/***/ }),
-
-/***/ 142:
-/*!****************************************************************************!*\
-  !*** ./node_modules/@dcloudio/uni-cli-shared/components/i18n/zh-Hant.json ***!
-  \****************************************************************************/
-/*! exports provided: uniCloud.component.add.success, uniCloud.component.update.success, uniCloud.component.remove.showModal.title, uniCloud.component.remove.showModal.content, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uniCloud.component.add.success\":\"新增成功\",\"uniCloud.component.update.success\":\"修改成功\",\"uniCloud.component.remove.showModal.title\":\"提示\",\"uniCloud.component.remove.showModal.content\":\"是否刪除數據\"}");
-
-/***/ }),
-
-/***/ 15:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/deepMerge.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-// JS对象深度合并
-function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  target = (0, _deepClone.default)(target);
-  if (typeof target !== 'object' || typeof source !== 'object') return false;
-  for (var prop in source) {
-    if (!source.hasOwnProperty(prop)) continue;
-    if (prop in target) {
-      if (typeof target[prop] !== 'object') {
-        target[prop] = source[prop];
-      } else {
-        if (typeof source[prop] !== 'object') {
-          target[prop] = source[prop];
-        } else {
-          if (target[prop].concat && source[prop].concat) {
-            target[prop] = target[prop].concat(source[prop]);
-          } else {
-            target[prop] = deepMerge(target[prop], source[prop]);
-          }
-        }
-      }
-    } else {
-      target[prop] = source[prop];
-    }
-  }
-  return target;
-}var _default =
-
-deepMerge;exports.default = _default;
-
-/***/ }),
-
-/***/ 16:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/deepClone.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 判断arr是否为一个数组，返回一个bool值
-function isArray(arr) {
-  return Object.prototype.toString.call(arr) === '[object Array]';
-}
-
-// 深度克隆
-function deepClone(obj) {
-  // 对常见的“非”值，直接返回原来值
-  if ([null, undefined, NaN, false].includes(obj)) return obj;
-  if (typeof obj !== "object" && typeof obj !== 'function') {
-    //原始类型直接返回
-    return obj;
-  }
-  var o = isArray(obj) ? [] : {};
-  for (var i in obj) {
-    if (obj.hasOwnProperty(i)) {
-      o[i] = typeof obj[i] === "object" ? deepClone(obj[i]) : obj[i];
-    }
-  }
-  return o;
-}var _default =
-
-deepClone;exports.default = _default;
-
-/***/ }),
-
-/***/ 17:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/test.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 验证电子邮箱格式
-                                                                                                      */
-function email(value) {
-  return /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/.test(value);
-}
-
-/**
-   * 验证手机格式
-   */
-function mobile(value) {
-  return /^1[3-9]\d{9}$/.test(value);
-}
-
-/**
-   * 验证URL格式
-   */
-function url(value) {
-  return /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?/.test(value);
-}
-
-/**
-   * 验证日期格式
-   */
-function date(value) {
-  return !/Invalid|NaN/.test(new Date(value).toString());
-}
-
-/**
-   * 验证ISO类型的日期格式
-   */
-function dateISO(value) {
-  return /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(value);
-}
-
-/**
-   * 验证十进制数字
-   */
-function number(value) {
-  return /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
-}
-
-/**
-   * 验证整数
-   */
-function digits(value) {
-  return /^\d+$/.test(value);
-}
-
-/**
-   * 验证身份证号码
-   */
-function idCard(value) {
-  return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(
-  value);
-}
-
-/**
-   * 是否车牌号
-   */
-function carNo(value) {
-  // 新能源车牌
-  var xreg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}(([0-9]{5}[DF]$)|([DF][A-HJ-NP-Z0-9][0-9]{4}$))/;
-  // 旧车牌
-  var creg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]{1}$/;
-  if (value.length === 7) {
-    return creg.test(value);
-  } else if (value.length === 8) {
-    return xreg.test(value);
-  } else {
-    return false;
-  }
-}
-
-/**
-   * 金额,只允许2位小数
-   */
-function amount(value) {
-  //金额，只允许保留两位小数
-  return /^[1-9]\d*(,\d{3})*(\.\d{1,2})?$|^0\.\d{1,2}$/.test(value);
-}
-
-/**
-   * 中文
-   */
-function chinese(value) {
-  var reg = /^[\u4e00-\u9fa5]+$/gi;
-  return reg.test(value);
-}
-
-/**
-   * 只能输入字母
-   */
-function letter(value) {
-  return /^[a-zA-Z]*$/.test(value);
-}
-
-/**
-   * 只能是字母或者数字
-   */
-function enOrNum(value) {
-  //英文或者数字
-  var reg = /^[0-9a-zA-Z]*$/g;
-  return reg.test(value);
-}
-
-/**
-   * 验证是否包含某个值
-   */
-function contains(value, param) {
-  return value.indexOf(param) >= 0;
-}
-
-/**
-   * 验证一个值范围[min, max]
-   */
-function range(value, param) {
-  return value >= param[0] && value <= param[1];
-}
-
-/**
-   * 验证一个长度范围[min, max]
-   */
-function rangeLength(value, param) {
-  return value.length >= param[0] && value.length <= param[1];
-}
-
-/**
-   * 是否固定电话
-   */
-function landline(value) {
-  var reg = /^\d{3,4}-\d{7,8}(-\d{3,4})?$/;
-  return reg.test(value);
-}
-
-/**
-   * 判断是否为空
-   */
-function empty(value) {
-  switch (typeof value) {
-    case 'undefined':
-      return true;
-    case 'string':
-      if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
-      break;
-    case 'boolean':
-      if (!value) return true;
-      break;
-    case 'number':
-      if (0 === value || isNaN(value)) return true;
-      break;
-    case 'object':
-      if (null === value || value.length === 0) return true;
-      for (var i in value) {
-        return false;
-      }
-      return true;}
-
-  return false;
-}
-
-/**
-   * 是否json字符串
-   */
-function jsonString(value) {
-  if (typeof value == 'string') {
-    try {
-      var obj = JSON.parse(value);
-      if (typeof obj == 'object' && obj) {
-        return true;
-      } else {
-        return false;
-      }
-    } catch (e) {
-      return false;
-    }
-  }
-  return false;
-}
-
-
-/**
-   * 是否数组
-   */
-function array(value) {
-  if (typeof Array.isArray === "function") {
-    return Array.isArray(value);
-  } else {
-    return Object.prototype.toString.call(value) === "[object Array]";
-  }
-}
-
-/**
-   * 是否对象
-   */
-function object(value) {
-  return Object.prototype.toString.call(value) === '[object Object]';
-}
-
-/**
-   * 是否短信验证码
-   */
-function code(value) {var len = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
-  return new RegExp("^\\d{".concat(len, "}$")).test(value);
-}var _default =
-
-
-{
-  email: email,
-  mobile: mobile,
-  url: url,
-  date: date,
-  dateISO: dateISO,
-  number: number,
-  digits: digits,
-  idCard: idCard,
-  carNo: carNo,
-  amount: amount,
-  chinese: chinese,
-  letter: letter,
-  enOrNum: enOrNum,
-  contains: contains,
-  range: range,
-  rangeLength: rangeLength,
-  empty: empty,
-  isEmpty: empty,
-  jsonString: jsonString,
-  landline: landline,
-  object: object,
-  array: array,
-  code: code };exports.default = _default;
-
-/***/ }),
-
-/***/ 18:
-/*!****************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/queryParams.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 对象转url参数
-                                                                                                      * @param {*} data,对象
-                                                                                                      * @param {*} isPrefix,是否自动加上"?"
-                                                                                                      */
-function queryParams() {var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var isPrefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var arrayFormat = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'brackets';
-  var prefix = isPrefix ? '?' : '';
-  var _result = [];
-  if (['indices', 'brackets', 'repeat', 'comma'].indexOf(arrayFormat) == -1) arrayFormat = 'brackets';var _loop = function _loop(
-  key) {
-    var value = data[key];
-    // 去掉为空的参数
-    if (['', undefined, null].indexOf(value) >= 0) {
-      return "continue";
-    }
-    // 如果值为数组，另行处理
-    if (value.constructor === Array) {
-      // e.g. {ids: [1, 2, 3]}
-      switch (arrayFormat) {
-        case 'indices':
-          // 结果: ids[0]=1&ids[1]=2&ids[2]=3
-          for (var i = 0; i < value.length; i++) {
-            _result.push(key + '[' + i + ']=' + value[i]);
-          }
-          break;
-        case 'brackets':
-          // 结果: ids[]=1&ids[]=2&ids[]=3
-          value.forEach(function (_value) {
-            _result.push(key + '[]=' + _value);
-          });
-          break;
-        case 'repeat':
-          // 结果: ids=1&ids=2&ids=3
-          value.forEach(function (_value) {
-            _result.push(key + '=' + _value);
-          });
-          break;
-        case 'comma':
-          // 结果: ids=1,2,3
-          var commaStr = "";
-          value.forEach(function (_value) {
-            commaStr += (commaStr ? "," : "") + _value;
-          });
-          _result.push(key + '=' + commaStr);
-          break;
-        default:
-          value.forEach(function (_value) {
-            _result.push(key + '[]=' + _value);
-          });}
-
-    } else {
-      _result.push(key + '=' + value);
-    }};for (var key in data) {var _ret = _loop(key);if (_ret === "continue") continue;
-  }
-  return _result.length ? prefix + _result.join('&') : '';
-}var _default =
-
-queryParams;exports.default = _default;
-
-/***/ }),
-
-/***/ 19:
-/*!**********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/route.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 20));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 并且带有路由拦截功能
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              */var
-
-Router = /*#__PURE__*/function () {
-  function Router() {_classCallCheck(this, Router);
-    // 原始属性定义
-    this.config = {
-      type: 'navigateTo',
-      url: '',
-      delta: 1, // navigateBack页面后退时,回退的层数
-      params: {}, // 传递的参数
-      animationType: 'pop-in', // 窗口动画,只在APP有效
-      animationDuration: 300, // 窗口动画持续时间,单位毫秒,只在APP有效
-      intercept: false // 是否需要拦截
-    };
-    // 因为route方法是需要对外赋值给另外的对象使用，同时route内部有使用this，会导致route失去上下文
-    // 这里在构造函数中进行this绑定
-    this.route = this.route.bind(this);
-  }
-
-  // 判断url前面是否有"/"，如果没有则加上，否则无法跳转
-  _createClass(Router, [{ key: "addRootPath", value: function addRootPath(url) {
-      return url[0] === '/' ? url : "/".concat(url);
-    }
-
-    // 整合路由参数
-  }, { key: "mixinParam", value: function mixinParam(url, params) {
-      url = url && this.addRootPath(url);
-
-      // 使用正则匹配，主要依据是判断是否有"/","?","="等，如“/page/index/index?name=mary"
-      // 如果有url中有get参数，转换后无需带上"?"
-      var query = '';
-      if (/.*\/.*\?.*=.*/.test(url)) {
-        // object对象转为get类型的参数
-        query = uni.$u.queryParams(params, false);
-        // 因为已有get参数,所以后面拼接的参数需要带上"&"隔开
-        return url += "&" + query;
-      } else {
-        // 直接拼接参数，因为此处url中没有后面的query参数，也就没有"?/&"之类的符号
-        query = uni.$u.queryParams(params);
-        return url += query;
-      }
-    }
-
-    // 对外的方法名称
-  }, { key: "route", value: function () {var _route = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var options,params,mergeConfig,isNext,_args = arguments;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:options = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};params = _args.length > 1 && _args[1] !== undefined ? _args[1] : {};
-                // 合并用户的配置和内部的默认配置
-                mergeConfig = {};
-
-                if (typeof options === 'string') {
-                  // 如果options为字符串，则为route(url, params)的形式
-                  mergeConfig.url = this.mixinParam(options, params);
-                  mergeConfig.type = 'navigateTo';
-                } else {
-                  mergeConfig = uni.$u.deepClone(options, this.config);
-                  // 否则正常使用mergeConfig中的url和params进行拼接
-                  mergeConfig.url = this.mixinParam(options.url, options.params);
-                }
-
-                if (params.intercept) {
-                  this.config.intercept = params.intercept;
-                }
-                // params参数也带给拦截器
-                mergeConfig.params = params;
-                // 合并内外部参数
-                mergeConfig = uni.$u.deepMerge(this.config, mergeConfig);
-                // 判断用户是否定义了拦截器
-                if (!(typeof uni.$u.routeIntercept === 'function')) {_context.next = 14;break;}_context.next = 10;return (
-
-                  new Promise(function (resolve, reject) {
-                    uni.$u.routeIntercept(mergeConfig, resolve);
-                  }));case 10:isNext = _context.sent;
-                // 如果isNext为true，则执行路由跳转
-                isNext && this.openPage(mergeConfig);_context.next = 15;break;case 14:
-
-                this.openPage(mergeConfig);case 15:case "end":return _context.stop();}}}, _callee, this);}));function route() {return _route.apply(this, arguments);}return route;}()
-
-
-
-    // 执行路由跳转
-  }, { key: "openPage", value: function openPage(config) {
-      // 解构参数
-      var
-      url =
-
-
-
-
-      config.url,type = config.type,delta = config.delta,animationType = config.animationType,animationDuration = config.animationDuration;
-      if (config.type == 'navigateTo' || config.type == 'to') {
-        uni.navigateTo({
-          url: url,
-          animationType: animationType,
-          animationDuration: animationDuration });
-
-      }
-      if (config.type == 'redirectTo' || config.type == 'redirect') {
-        uni.redirectTo({
-          url: url });
-
-      }
-      if (config.type == 'switchTab' || config.type == 'tab') {
-        uni.switchTab({
-          url: url });
-
-      }
-      if (config.type == 'reLaunch' || config.type == 'launch') {
-        uni.reLaunch({
-          url: url });
-
-      }
-      if (config.type == 'navigateBack' || config.type == 'back') {
-        uni.navigateBack({
-          delta: delta });
-
-      }
-    } }]);return Router;}();var _default =
-
-
-new Router().route;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 2:
+/* 3 */
 /*!******************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js ***!
   \******************************************************************************************/
@@ -9462,11 +8129,1535 @@ internalMixin(Vue);
 
 /* harmony default export */ __webpack_exports__["default"] = (Vue);
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 3)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 2)))
 
 /***/ }),
+/* 4 */
+/*!*************************************************************!*\
+  !*** ./node_modules/@dcloudio/uni-i18n/dist/uni-i18n.es.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ 20:
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni, global) {Object.defineProperty(exports, "__esModule", { value: true });exports.compileI18nJsonStr = compileI18nJsonStr;exports.hasI18nJson = hasI18nJson;exports.initVueI18n = initVueI18n;exports.isI18nStr = isI18nStr;exports.normalizeLocale = normalizeLocale;exports.parseI18nJson = parseI18nJson;exports.resolveLocale = resolveLocale;exports.isString = exports.LOCALE_ZH_HANT = exports.LOCALE_ZH_HANS = exports.LOCALE_FR = exports.LOCALE_ES = exports.LOCALE_EN = exports.I18n = exports.Formatter = void 0;function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var isArray = Array.isArray;
+var isObject = function isObject(val) {return val !== null && typeof val === 'object';};
+var defaultDelimiters = ['{', '}'];var
+BaseFormatter = /*#__PURE__*/function () {
+  function BaseFormatter() {_classCallCheck(this, BaseFormatter);
+    this._caches = Object.create(null);
+  }_createClass(BaseFormatter, [{ key: "interpolate", value: function interpolate(
+    message, values) {var delimiters = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : defaultDelimiters;
+      if (!values) {
+        return [message];
+      }
+      var tokens = this._caches[message];
+      if (!tokens) {
+        tokens = parse(message, delimiters);
+        this._caches[message] = tokens;
+      }
+      return compile(tokens, values);
+    } }]);return BaseFormatter;}();exports.Formatter = BaseFormatter;
+
+var RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
+var RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
+function parse(format, _ref) {var _ref2 = _slicedToArray(_ref, 2),startDelimiter = _ref2[0],endDelimiter = _ref2[1];
+  var tokens = [];
+  var position = 0;
+  var text = '';
+  while (position < format.length) {
+    var char = format[position++];
+    if (char === startDelimiter) {
+      if (text) {
+        tokens.push({ type: 'text', value: text });
+      }
+      text = '';
+      var sub = '';
+      char = format[position++];
+      while (char !== undefined && char !== endDelimiter) {
+        sub += char;
+        char = format[position++];
+      }
+      var isClosed = char === endDelimiter;
+      var type = RE_TOKEN_LIST_VALUE.test(sub) ?
+      'list' :
+      isClosed && RE_TOKEN_NAMED_VALUE.test(sub) ?
+      'named' :
+      'unknown';
+      tokens.push({ value: sub, type: type });
+    }
+    //  else if (char === '%') {
+    //   // when found rails i18n syntax, skip text capture
+    //   if (format[position] !== '{') {
+    //     text += char
+    //   }
+    // }
+    else {
+        text += char;
+      }
+  }
+  text && tokens.push({ type: 'text', value: text });
+  return tokens;
+}
+function compile(tokens, values) {
+  var compiled = [];
+  var index = 0;
+  var mode = isArray(values) ?
+  'list' :
+  isObject(values) ?
+  'named' :
+  'unknown';
+  if (mode === 'unknown') {
+    return compiled;
+  }
+  while (index < tokens.length) {
+    var token = tokens[index];
+    switch (token.type) {
+      case 'text':
+        compiled.push(token.value);
+        break;
+      case 'list':
+        compiled.push(values[parseInt(token.value, 10)]);
+        break;
+      case 'named':
+        if (mode === 'named') {
+          compiled.push(values[token.value]);
+        } else
+        {
+          if (true) {
+            console.warn("Type of token '".concat(token.type, "' and format of value '").concat(mode, "' don't match!"));
+          }
+        }
+        break;
+      case 'unknown':
+        if (true) {
+          console.warn("Detect 'unknown' type of token!");
+        }
+        break;}
+
+    index++;
+  }
+  return compiled;
+}
+
+var LOCALE_ZH_HANS = 'zh-Hans';exports.LOCALE_ZH_HANS = LOCALE_ZH_HANS;
+var LOCALE_ZH_HANT = 'zh-Hant';exports.LOCALE_ZH_HANT = LOCALE_ZH_HANT;
+var LOCALE_EN = 'en';exports.LOCALE_EN = LOCALE_EN;
+var LOCALE_FR = 'fr';exports.LOCALE_FR = LOCALE_FR;
+var LOCALE_ES = 'es';exports.LOCALE_ES = LOCALE_ES;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+var hasOwn = function hasOwn(val, key) {return hasOwnProperty.call(val, key);};
+var defaultFormatter = new BaseFormatter();
+function include(str, parts) {
+  return !!parts.find(function (part) {return str.indexOf(part) !== -1;});
+}
+function startsWith(str, parts) {
+  return parts.find(function (part) {return str.indexOf(part) === 0;});
+}
+function normalizeLocale(locale, messages) {
+  if (!locale) {
+    return;
+  }
+  locale = locale.trim().replace(/_/g, '-');
+  if (messages && messages[locale]) {
+    return locale;
+  }
+  locale = locale.toLowerCase();
+  if (locale.indexOf('zh') === 0) {
+    if (locale.indexOf('-hans') > -1) {
+      return LOCALE_ZH_HANS;
+    }
+    if (locale.indexOf('-hant') > -1) {
+      return LOCALE_ZH_HANT;
+    }
+    if (include(locale, ['-tw', '-hk', '-mo', '-cht'])) {
+      return LOCALE_ZH_HANT;
+    }
+    return LOCALE_ZH_HANS;
+  }
+  var lang = startsWith(locale, [LOCALE_EN, LOCALE_FR, LOCALE_ES]);
+  if (lang) {
+    return lang;
+  }
+}var
+I18n = /*#__PURE__*/function () {
+  function I18n(_ref3) {var locale = _ref3.locale,fallbackLocale = _ref3.fallbackLocale,messages = _ref3.messages,watcher = _ref3.watcher,formater = _ref3.formater;_classCallCheck(this, I18n);
+    this.locale = LOCALE_EN;
+    this.fallbackLocale = LOCALE_EN;
+    this.message = {};
+    this.messages = {};
+    this.watchers = [];
+    if (fallbackLocale) {
+      this.fallbackLocale = fallbackLocale;
+    }
+    this.formater = formater || defaultFormatter;
+    this.messages = messages || {};
+    this.setLocale(locale || LOCALE_EN);
+    if (watcher) {
+      this.watchLocale(watcher);
+    }
+  }_createClass(I18n, [{ key: "setLocale", value: function setLocale(
+    locale) {var _this = this;
+      var oldLocale = this.locale;
+      this.locale = normalizeLocale(locale, this.messages) || this.fallbackLocale;
+      if (!this.messages[this.locale]) {
+        // 可能初始化时不存在
+        this.messages[this.locale] = {};
+      }
+      this.message = this.messages[this.locale];
+      // 仅发生变化时，通知
+      if (oldLocale !== this.locale) {
+        this.watchers.forEach(function (watcher) {
+          watcher(_this.locale, oldLocale);
+        });
+      }
+    } }, { key: "getLocale", value: function getLocale()
+    {
+      return this.locale;
+    } }, { key: "watchLocale", value: function watchLocale(
+    fn) {var _this2 = this;
+      var index = this.watchers.push(fn) - 1;
+      return function () {
+        _this2.watchers.splice(index, 1);
+      };
+    } }, { key: "add", value: function add(
+    locale, message) {var override = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      var curMessages = this.messages[locale];
+      if (curMessages) {
+        if (override) {
+          Object.assign(curMessages, message);
+        } else
+        {
+          Object.keys(message).forEach(function (key) {
+            if (!hasOwn(curMessages, key)) {
+              curMessages[key] = message[key];
+            }
+          });
+        }
+      } else
+      {
+        this.messages[locale] = message;
+      }
+    } }, { key: "f", value: function f(
+    message, values, delimiters) {
+      return this.formater.interpolate(message, values, delimiters).join('');
+    } }, { key: "t", value: function t(
+    key, locale, values) {
+      var message = this.message;
+      if (typeof locale === 'string') {
+        locale = normalizeLocale(locale, this.messages);
+        locale && (message = this.messages[locale]);
+      } else
+      {
+        values = locale;
+      }
+      if (!hasOwn(message, key)) {
+        console.warn("Cannot translate the value of keypath ".concat(key, ". Use the value of keypath as default."));
+        return key;
+      }
+      return this.formater.interpolate(message[key], values).join('');
+    } }]);return I18n;}();exports.I18n = I18n;
+
+
+function watchAppLocale(appVm, i18n) {
+  // 需要保证 watch 的触发在组件渲染之前
+  if (appVm.$watchLocale) {
+    // vue2
+    appVm.$watchLocale(function (newLocale) {
+      i18n.setLocale(newLocale);
+    });
+  } else
+  {
+    appVm.$watch(function () {return appVm.$locale;}, function (newLocale) {
+      i18n.setLocale(newLocale);
+    });
+  }
+}
+function getDefaultLocale() {
+  if (typeof uni !== 'undefined' && uni.getLocale) {
+    return uni.getLocale();
+  }
+  // 小程序平台，uni 和 uni-i18n 互相引用，导致访问不到 uni，故在 global 上挂了 getLocale
+  if (typeof global !== 'undefined' && global.getLocale) {
+    return global.getLocale();
+  }
+  return LOCALE_EN;
+}
+function initVueI18n(locale) {var messages = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var fallbackLocale = arguments.length > 2 ? arguments[2] : undefined;var watcher = arguments.length > 3 ? arguments[3] : undefined;
+  // 兼容旧版本入参
+  if (typeof locale !== 'string') {var _ref4 =
+    [
+    messages,
+    locale];locale = _ref4[0];messages = _ref4[1];
+
+  }
+  if (typeof locale !== 'string') {
+    // 因为小程序平台，uni-i18n 和 uni 互相引用，导致此时访问 uni 时，为 undefined
+    locale = getDefaultLocale();
+  }
+  if (typeof fallbackLocale !== 'string') {
+    fallbackLocale =
+    typeof __uniConfig !== 'undefined' && __uniConfig.fallbackLocale ||
+    LOCALE_EN;
+  }
+  var i18n = new I18n({
+    locale: locale,
+    fallbackLocale: fallbackLocale,
+    messages: messages,
+    watcher: watcher });
+
+  var _t = function t(key, values) {
+    if (typeof getApp !== 'function') {
+      // app view
+      /* eslint-disable no-func-assign */
+      _t = function t(key, values) {
+        return i18n.t(key, values);
+      };
+    } else
+    {
+      var isWatchedAppLocale = false;
+      _t = function t(key, values) {
+        var appVm = getApp().$vm;
+        // 可能$vm还不存在，比如在支付宝小程序中，组件定义较早，在props的default里使用了t()函数（如uni-goods-nav），此时app还未初始化
+        // options: {
+        // 	type: Array,
+        // 	default () {
+        // 		return [{
+        // 			icon: 'shop',
+        // 			text: t("uni-goods-nav.options.shop"),
+        // 		}, {
+        // 			icon: 'cart',
+        // 			text: t("uni-goods-nav.options.cart")
+        // 		}]
+        // 	}
+        // },
+        if (appVm) {
+          // 触发响应式
+          appVm.$locale;
+          if (!isWatchedAppLocale) {
+            isWatchedAppLocale = true;
+            watchAppLocale(appVm, i18n);
+          }
+        }
+        return i18n.t(key, values);
+      };
+    }
+    return _t(key, values);
+  };
+  return {
+    i18n: i18n,
+    f: function f(message, values, delimiters) {
+      return i18n.f(message, values, delimiters);
+    },
+    t: function t(key, values) {
+      return _t(key, values);
+    },
+    add: function add(locale, message) {var override = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      return i18n.add(locale, message, override);
+    },
+    watch: function watch(fn) {
+      return i18n.watchLocale(fn);
+    },
+    getLocale: function getLocale() {
+      return i18n.getLocale();
+    },
+    setLocale: function setLocale(newLocale) {
+      return i18n.setLocale(newLocale);
+    } };
+
+}
+
+var isString = function isString(val) {return typeof val === 'string';};exports.isString = isString;
+var formater;
+function hasI18nJson(jsonObj, delimiters) {
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  return walkJsonObj(jsonObj, function (jsonObj, key) {
+    var value = jsonObj[key];
+    if (isString(value)) {
+      if (isI18nStr(value, delimiters)) {
+        return true;
+      }
+    } else
+    {
+      return hasI18nJson(value, delimiters);
+    }
+  });
+}
+function parseI18nJson(jsonObj, values, delimiters) {
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  walkJsonObj(jsonObj, function (jsonObj, key) {
+    var value = jsonObj[key];
+    if (isString(value)) {
+      if (isI18nStr(value, delimiters)) {
+        jsonObj[key] = compileStr(value, values, delimiters);
+      }
+    } else
+    {
+      parseI18nJson(value, values, delimiters);
+    }
+  });
+  return jsonObj;
+}
+function compileI18nJsonStr(jsonStr, _ref5) {var locale = _ref5.locale,locales = _ref5.locales,delimiters = _ref5.delimiters;
+  if (!isI18nStr(jsonStr, delimiters)) {
+    return jsonStr;
+  }
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  var localeValues = [];
+  Object.keys(locales).forEach(function (name) {
+    if (name !== locale) {
+      localeValues.push({
+        locale: name,
+        values: locales[name] });
+
+    }
+  });
+  localeValues.unshift({ locale: locale, values: locales[locale] });
+  try {
+    return JSON.stringify(compileJsonObj(JSON.parse(jsonStr), localeValues, delimiters), null, 2);
+  }
+  catch (e) {}
+  return jsonStr;
+}
+function isI18nStr(value, delimiters) {
+  return value.indexOf(delimiters[0]) > -1;
+}
+function compileStr(value, values, delimiters) {
+  return formater.interpolate(value, values, delimiters).join('');
+}
+function compileValue(jsonObj, key, localeValues, delimiters) {
+  var value = jsonObj[key];
+  if (isString(value)) {
+    // 存在国际化
+    if (isI18nStr(value, delimiters)) {
+      jsonObj[key] = compileStr(value, localeValues[0].values, delimiters);
+      if (localeValues.length > 1) {
+        // 格式化国际化语言
+        var valueLocales = jsonObj[key + 'Locales'] = {};
+        localeValues.forEach(function (localValue) {
+          valueLocales[localValue.locale] = compileStr(value, localValue.values, delimiters);
+        });
+      }
+    }
+  } else
+  {
+    compileJsonObj(value, localeValues, delimiters);
+  }
+}
+function compileJsonObj(jsonObj, localeValues, delimiters) {
+  walkJsonObj(jsonObj, function (jsonObj, key) {
+    compileValue(jsonObj, key, localeValues, delimiters);
+  });
+  return jsonObj;
+}
+function walkJsonObj(jsonObj, walk) {
+  if (isArray(jsonObj)) {
+    for (var i = 0; i < jsonObj.length; i++) {
+      if (walk(jsonObj, i)) {
+        return true;
+      }
+    }
+  } else
+  if (isObject(jsonObj)) {
+    for (var key in jsonObj) {
+      if (walk(jsonObj, key)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+function resolveLocale(locales) {
+  return function (locale) {
+    if (!locale) {
+      return locale;
+    }
+    locale = normalizeLocale(locale) || locale;
+    return resolveLocaleChain(locale).find(function (locale) {return locales.indexOf(locale) > -1;});
+  };
+}
+function resolveLocaleChain(locale) {
+  var chain = [];
+  var tokens = locale.split('-');
+  while (tokens.length) {
+    chain.push(tokens.join('-'));
+    tokens.pop();
+  }
+  return chain;
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"], __webpack_require__(/*! ./../../../webpack/buildin/global.js */ 2)))
+
+/***/ }),
+/* 5 */
+/*!*************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/pages.json ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+/* 6 */,
+/* 7 */,
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent (
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier, /* server only */
+  shadowMode, /* vue-cli only */
+  components, // fixed by xxxxxx auto components
+  renderjs // fixed by xxxxxx renderjs
+) {
+  // Vue.extend constructor export interop
+  var options = typeof scriptExports === 'function'
+    ? scriptExports.options
+    : scriptExports
+
+  // fixed by xxxxxx auto components
+  if (components) {
+    if (!options.components) {
+      options.components = {}
+    }
+    var hasOwn = Object.prototype.hasOwnProperty
+    for (var name in components) {
+      if (hasOwn.call(components, name) && !hasOwn.call(options.components, name)) {
+        options.components[name] = components[name]
+      }
+    }
+  }
+  // fixed by xxxxxx renderjs
+  if (renderjs) {
+    (renderjs.beforeCreate || (renderjs.beforeCreate = [])).unshift(function() {
+      this[renderjs.__module] = this
+    });
+    (options.mixins || (options.mixins = [])).push(renderjs)
+  }
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) { // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functioal component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection (h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing
+        ? [].concat(existing, hook)
+        : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+
+/***/ }),
+/* 12 */
+/*!********************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/index.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 13));
+
+
+
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 14));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 18));
+
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 19));
+
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 23));
+
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 24));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 25));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 26));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 27));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 28));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 29));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 16));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 15));
+
+var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 30));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 17));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 31));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 32));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 33));
+
+var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 34));
+
+var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 35));
+
+
+
+var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 36);
+
+var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 37));
+
+var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 38));
+
+
+
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 39));
+
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 40));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+// 引入关于是否mixin集成小程序分享的配置
+// import wxshare from './libs/mixin/mpShare.js'
+// 全局挂载引入http相关请求拦截插件
+function wranning(str) {// 开发环境进行信息输出,主要是一些报错信息
+  // 这个环境的来由是在程序编写时候,点击hx编辑器运行调试代码的时候,详见:
+  // 	https://uniapp.dcloud.io/frame?id=%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e5%92%8c%e7%94%9f%e4%ba%a7%e7%8e%af%e5%a2%83
+  if (true) {console.warn(str);}} // 尝试判断在根目录的/store中是否有$u.mixin.js，此文件uView默认为需要挂在到全局的vuex的state变量
+// HX2.6.11版本,放到try中,控制台依然会警告,暂时不用此方式，
+// let vuexStore = {};
+// try {
+// 	vuexStore = require("@/store/$u.mixin.js");
+// } catch (e) {
+// 	//TODO handle the exception
+// }
+// post类型对象参数转为get类型url参数
+var $u = { queryParams: _queryParams.default, route: _route.default, timeFormat: _timeFormat.default, date: _timeFormat.default, // 另名date
+  timeFrom: _timeFrom.default, colorGradient: _colorGradient.default.colorGradient, colorToRgba: _colorGradient.default.colorToRgba, guid: _guid.default, color: _color.default, sys: _sys.sys, os: _sys.os, type2icon: _type2icon.default, randomArray: _randomArray.default, wranning: wranning, get: _request.default.get,
+  post: _request.default.post,
+  put: _request.default.put,
+  'delete': _request.default.delete,
+  hexToRgb: _colorGradient.default.hexToRgb,
+  rgbToHex: _colorGradient.default.rgbToHex,
+  test: _test.default,
+  random: _random.default,
+  deepClone: _deepClone.default,
+  deepMerge: _deepMerge.default,
+  getParent: _getParent.default,
+  $parent: _$parent.default,
+  addUnit: _addUnit.default,
+  trim: _trim.default,
+  type: ['primary', 'success', 'error', 'warning', 'info'],
+  http: _request.default,
+  toast: _toast.default,
+  config: _config.default, // uView配置信息相关，比如版本号
+  zIndex: _zIndex.default,
+  debounce: _debounce.default,
+  throttle: _throttle.default };
+
+
+// $u挂载到uni对象上
+uni.$u = $u;
+
+var install = function install(Vue) {
+  Vue.mixin(_mixin.default);
+  if (Vue.prototype.openShare) {
+    Vue.mixin(mpShare);
+  }
+  // Vue.mixin(vuexStore);
+  // 时间格式化，同时两个名称，date和timeFormat
+  Vue.filter('timeFormat', function (timestamp, format) {
+    return (0, _timeFormat.default)(timestamp, format);
+  });
+  Vue.filter('date', function (timestamp, format) {
+    return (0, _timeFormat.default)(timestamp, format);
+  });
+  // 将多久以前的方法，注入到全局过滤器
+  Vue.filter('timeFrom', function (timestamp, format) {
+    return (0, _timeFrom.default)(timestamp, format);
+  });
+  Vue.prototype.$u = $u;
+};var _default =
+
+{
+  install: install };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 13 */
+/*!*******************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/mixin/mixin.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(uni) {module.exports = {
+  data: function data() {
+    return {};
+  },
+  onLoad: function onLoad() {
+    // getRect挂载到$u上，因为这方法需要使用in(this)，所以无法把它独立成一个单独的文件导出
+    this.$u.getRect = this.$uGetRect;
+  },
+  methods: {
+    // 查询节点信息
+    // 目前此方法在支付宝小程序中无法获取组件跟接点的尺寸，为支付宝的bug(2020-07-21)
+    // 解决办法为在组件根部再套一个没有任何作用的view元素
+    $uGetRect: function $uGetRect(selector, all) {var _this = this;
+      return new Promise(function (resolve) {
+        uni.createSelectorQuery().
+        in(_this)[all ? 'selectAll' : 'select'](selector).
+        boundingClientRect(function (rect) {
+          if (all && Array.isArray(rect) && rect.length) {
+            resolve(rect);
+          }
+          if (!all && rect) {
+            resolve(rect);
+          }
+        }).
+        exec();
+      });
+    },
+    getParentData: function getParentData() {var _this2 = this;var parentName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+      // 避免在created中去定义parent变量
+      if (!this.parent) this.parent = false;
+      // 这里的本质原理是，通过获取父组件实例(也即u-radio-group的this)
+      // 将父组件this中对应的参数，赋值给本组件(u-radio的this)的parentData对象中对应的属性
+      // 之所以需要这么做，是因为所有端中，头条小程序不支持通过this.parent.xxx去监听父组件参数的变化
+      this.parent = this.$u.$parent.call(this, parentName);
+      if (this.parent) {
+        // 历遍parentData中的属性，将parent中的同名属性赋值给parentData
+        Object.keys(this.parentData).map(function (key) {
+          _this2.parentData[key] = _this2.parent[key];
+        });
+      }
+    },
+    // 阻止事件冒泡
+    preventEvent: function preventEvent(e) {
+      e && e.stopPropagation && e.stopPropagation();
+    } },
+
+  onReachBottom: function onReachBottom() {
+    uni.$emit('uOnReachBottom');
+  },
+  beforeDestroy: function beforeDestroy() {var _this3 = this;
+    // 判断当前页面是否存在parent和chldren，一般在checkbox和checkbox-group父子联动的场景会有此情况
+    // 组件销毁时，移除子组件在父组件children数组中的实例，释放资源，避免数据混乱
+    if (this.parent && uni.$u.test.array(this.parent.children)) {
+      // 组件销毁时，移除父组件中的children数组中对应的实例
+      var childrenList = this.parent.children;
+      childrenList.map(function (child, index) {
+        // 如果相等，则移除
+        if (child === _this3) {
+          childrenList.splice(index, 1);
+        }
+      });
+    }
+  } };
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 14 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/request/index.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 15));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
+    // 设置全局默认配置
+    value: function setConfig(customConfig) {
+      // 深度合并对象，否则会造成对象深层属性丢失
+      this.config = (0, _deepMerge.default)(this.config, customConfig);
+    }
+
+    // 主要请求部分
+  }, { key: "request", value: function request() {var _this = this;var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      // 检查请求拦截
+      if (this.interceptor.request && typeof this.interceptor.request === 'function') {
+        var tmpConfig = {};
+        var interceptorRequest = this.interceptor.request(options);
+        if (interceptorRequest === false) {
+          // 返回一个处于pending状态中的Promise，来取消原promise，避免进入then()回调
+          return new Promise(function () {});
+        }
+        this.options = interceptorRequest;
+      }
+      options.dataType = options.dataType || this.config.dataType;
+      options.responseType = options.responseType || this.config.responseType;
+      options.url = options.url || '';
+      options.params = options.params || {};
+      options.header = Object.assign({}, this.config.header, options.header);
+      options.method = options.method || this.config.method;
+
+      return new Promise(function (resolve, reject) {
+        options.complete = function (response) {
+          // 请求返回后，隐藏loading(如果请求返回快的话，可能会没有loading)
+          uni.hideLoading();
+          // 清除定时器，如果请求回来了，就无需loading
+          clearTimeout(_this.config.timer);
+          _this.config.timer = null;
+          // 判断用户对拦截返回数据的要求，如果originalData为true，返回所有的数据(response)到拦截器，否则只返回response.data
+          if (_this.config.originalData) {
+            // 判断是否存在拦截器
+            if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
+              var resInterceptors = _this.interceptor.response(response);
+              // 如果拦截器不返回false，就将拦截器返回的内容给this.$u.post的then回调
+              if (resInterceptors !== false) {
+                resolve(resInterceptors);
+              } else {
+                // 如果拦截器返回false，意味着拦截器定义者认为返回有问题，直接接入catch回调
+                reject(response);
+              }
+            } else {
+              // 如果要求返回原始数据，就算没有拦截器，也返回最原始的数据
+              resolve(response);
+            }
+          } else {
+            if (response.statusCode == 200) {
+              if (_this.interceptor.response && typeof _this.interceptor.response === 'function') {
+                var _resInterceptors = _this.interceptor.response(response.data);
+                if (_resInterceptors !== false) {
+                  resolve(_resInterceptors);
+                } else {
+                  reject(response.data);
+                }
+              } else {
+                // 如果不是返回原始数据(originalData=false)，且没有拦截器的情况下，返回纯数据给then回调
+                resolve(response.data);
+              }
+            } else {
+              // 不返回原始数据的情况下，服务器状态码不为200，modal弹框提示
+              // if(response.errMsg) {
+              // 	uni.showModal({
+              // 		title: response.errMsg
+              // 	});
+              // }
+              reject(response);
+            }
+          }
+        };
+
+        // 判断用户传递的URL是否/开头,如果不是,加上/，这里使用了uView的test.js验证库的url()方法
+        options.url = _test.default.url(options.url) ? options.url : _this.config.baseUrl + (options.url.indexOf('/') == 0 ?
+        options.url : '/' + options.url);
+
+        // 是否显示loading
+        // 加一个是否已有timer定时器的判断，否则有两个同时请求的时候，后者会清除前者的定时器id
+        // 而没有清除前者的定时器，导致前者超时，一直显示loading
+        if (_this.config.showLoading && !_this.config.timer) {
+          _this.config.timer = setTimeout(function () {
+            uni.showLoading({
+              title: _this.config.loadingText,
+              mask: _this.config.loadingMask });
+
+            _this.config.timer = null;
+          }, _this.config.loadingTime);
+        }
+        uni.request(options);
+      });
+      // .catch(res => {
+      // 	// 如果返回reject()，不让其进入this.$u.post().then().catch()后面的catct()
+      // 	// 因为很多人都会忘了写后面的catch()，导致报错捕获不到catch
+      // 	return new Promise(()=>{});
+      // })
+    } }]);
+
+  function Request() {var _this2 = this;_classCallCheck(this, Request);
+    this.config = {
+      baseUrl: '', // 请求的根域名
+      // 默认的请求头
+      header: {},
+      method: 'POST',
+      // 设置为json，返回后uni.request会对数据进行一次JSON.parse
+      dataType: 'json',
+      // 此参数无需处理，因为5+和支付宝小程序不支持，默认为text即可
+      responseType: 'text',
+      showLoading: true, // 是否显示请求中的loading
+      loadingText: '请求中...',
+      loadingTime: 800, // 在此时间内，请求还没回来的话，就显示加载中动画，单位ms
+      timer: null, // 定时器
+      originalData: false, // 是否在拦截器中返回服务端的原始数据，见文档说明
+      loadingMask: true // 展示loading的时候，是否给一个透明的蒙层，防止触摸穿透
+    };
+
+    // 拦截器
+    this.interceptor = {
+      // 请求前的拦截
+      request: null,
+      // 请求后的拦截
+      response: null };
+
+
+    // get请求
+    this.get = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        method: 'GET',
+        url: url,
+        header: header,
+        data: data });
+
+    };
+
+    // post请求
+    this.post = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'POST',
+        header: header,
+        data: data });
+
+    };
+
+    // put请求，不支持支付宝小程序(HX2.6.15)
+    this.put = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'PUT',
+        header: header,
+        data: data });
+
+    };
+
+    // delete请求，不支持支付宝和头条小程序(HX2.6.15)
+    this.delete = function (url) {var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var header = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+      return _this2.request({
+        url: url,
+        method: 'DELETE',
+        header: header,
+        data: data });
+
+    };
+  }return Request;}();var _default =
+
+new Request();exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 15 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/deepMerge.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// JS对象深度合并
+function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  target = (0, _deepClone.default)(target);
+  if (typeof target !== 'object' || typeof source !== 'object') return false;
+  for (var prop in source) {
+    if (!source.hasOwnProperty(prop)) continue;
+    if (prop in target) {
+      if (typeof target[prop] !== 'object') {
+        target[prop] = source[prop];
+      } else {
+        if (typeof source[prop] !== 'object') {
+          target[prop] = source[prop];
+        } else {
+          if (target[prop].concat && source[prop].concat) {
+            target[prop] = target[prop].concat(source[prop]);
+          } else {
+            target[prop] = deepMerge(target[prop], source[prop]);
+          }
+        }
+      }
+    } else {
+      target[prop] = source[prop];
+    }
+  }
+  return target;
+}var _default =
+
+deepMerge;exports.default = _default;
+
+/***/ }),
+/* 16 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/deepClone.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 判断arr是否为一个数组，返回一个bool值
+function isArray(arr) {
+  return Object.prototype.toString.call(arr) === '[object Array]';
+}
+
+// 深度克隆
+function deepClone(obj) {
+  // 对常见的“非”值，直接返回原来值
+  if ([null, undefined, NaN, false].includes(obj)) return obj;
+  if (typeof obj !== "object" && typeof obj !== 'function') {
+    //原始类型直接返回
+    return obj;
+  }
+  var o = isArray(obj) ? [] : {};
+  for (var i in obj) {
+    if (obj.hasOwnProperty(i)) {
+      o[i] = typeof obj[i] === "object" ? deepClone(obj[i]) : obj[i];
+    }
+  }
+  return o;
+}var _default =
+
+deepClone;exports.default = _default;
+
+/***/ }),
+/* 17 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/test.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 验证电子邮箱格式
+                                                                                                      */
+function email(value) {
+  return /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/.test(value);
+}
+
+/**
+   * 验证手机格式
+   */
+function mobile(value) {
+  return /^1[3-9]\d{9}$/.test(value);
+}
+
+/**
+   * 验证URL格式
+   */
+function url(value) {
+  return /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?/.test(value);
+}
+
+/**
+   * 验证日期格式
+   */
+function date(value) {
+  return !/Invalid|NaN/.test(new Date(value).toString());
+}
+
+/**
+   * 验证ISO类型的日期格式
+   */
+function dateISO(value) {
+  return /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(value);
+}
+
+/**
+   * 验证十进制数字
+   */
+function number(value) {
+  return /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value);
+}
+
+/**
+   * 验证整数
+   */
+function digits(value) {
+  return /^\d+$/.test(value);
+}
+
+/**
+   * 验证身份证号码
+   */
+function idCard(value) {
+  return /^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(
+  value);
+}
+
+/**
+   * 是否车牌号
+   */
+function carNo(value) {
+  // 新能源车牌
+  var xreg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}(([0-9]{5}[DF]$)|([DF][A-HJ-NP-Z0-9][0-9]{4}$))/;
+  // 旧车牌
+  var creg = /^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-HJ-NP-Z0-9]{4}[A-HJ-NP-Z0-9挂学警港澳]{1}$/;
+  if (value.length === 7) {
+    return creg.test(value);
+  } else if (value.length === 8) {
+    return xreg.test(value);
+  } else {
+    return false;
+  }
+}
+
+/**
+   * 金额,只允许2位小数
+   */
+function amount(value) {
+  //金额，只允许保留两位小数
+  return /^[1-9]\d*(,\d{3})*(\.\d{1,2})?$|^0\.\d{1,2}$/.test(value);
+}
+
+/**
+   * 中文
+   */
+function chinese(value) {
+  var reg = /^[\u4e00-\u9fa5]+$/gi;
+  return reg.test(value);
+}
+
+/**
+   * 只能输入字母
+   */
+function letter(value) {
+  return /^[a-zA-Z]*$/.test(value);
+}
+
+/**
+   * 只能是字母或者数字
+   */
+function enOrNum(value) {
+  //英文或者数字
+  var reg = /^[0-9a-zA-Z]*$/g;
+  return reg.test(value);
+}
+
+/**
+   * 验证是否包含某个值
+   */
+function contains(value, param) {
+  return value.indexOf(param) >= 0;
+}
+
+/**
+   * 验证一个值范围[min, max]
+   */
+function range(value, param) {
+  return value >= param[0] && value <= param[1];
+}
+
+/**
+   * 验证一个长度范围[min, max]
+   */
+function rangeLength(value, param) {
+  return value.length >= param[0] && value.length <= param[1];
+}
+
+/**
+   * 是否固定电话
+   */
+function landline(value) {
+  var reg = /^\d{3,4}-\d{7,8}(-\d{3,4})?$/;
+  return reg.test(value);
+}
+
+/**
+   * 判断是否为空
+   */
+function empty(value) {
+  switch (typeof value) {
+    case 'undefined':
+      return true;
+    case 'string':
+      if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
+      break;
+    case 'boolean':
+      if (!value) return true;
+      break;
+    case 'number':
+      if (0 === value || isNaN(value)) return true;
+      break;
+    case 'object':
+      if (null === value || value.length === 0) return true;
+      for (var i in value) {
+        return false;
+      }
+      return true;}
+
+  return false;
+}
+
+/**
+   * 是否json字符串
+   */
+function jsonString(value) {
+  if (typeof value == 'string') {
+    try {
+      var obj = JSON.parse(value);
+      if (typeof obj == 'object' && obj) {
+        return true;
+      } else {
+        return false;
+      }
+    } catch (e) {
+      return false;
+    }
+  }
+  return false;
+}
+
+
+/**
+   * 是否数组
+   */
+function array(value) {
+  if (typeof Array.isArray === "function") {
+    return Array.isArray(value);
+  } else {
+    return Object.prototype.toString.call(value) === "[object Array]";
+  }
+}
+
+/**
+   * 是否对象
+   */
+function object(value) {
+  return Object.prototype.toString.call(value) === '[object Object]';
+}
+
+/**
+   * 是否短信验证码
+   */
+function code(value) {var len = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
+  return new RegExp("^\\d{".concat(len, "}$")).test(value);
+}var _default =
+
+
+{
+  email: email,
+  mobile: mobile,
+  url: url,
+  date: date,
+  dateISO: dateISO,
+  number: number,
+  digits: digits,
+  idCard: idCard,
+  carNo: carNo,
+  amount: amount,
+  chinese: chinese,
+  letter: letter,
+  enOrNum: enOrNum,
+  contains: contains,
+  range: range,
+  rangeLength: rangeLength,
+  empty: empty,
+  isEmpty: empty,
+  jsonString: jsonString,
+  landline: landline,
+  object: object,
+  array: array,
+  code: code };exports.default = _default;
+
+/***/ }),
+/* 18 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/queryParams.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 对象转url参数
+                                                                                                      * @param {*} data,对象
+                                                                                                      * @param {*} isPrefix,是否自动加上"?"
+                                                                                                      */
+function queryParams() {var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var isPrefix = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var arrayFormat = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'brackets';
+  var prefix = isPrefix ? '?' : '';
+  var _result = [];
+  if (['indices', 'brackets', 'repeat', 'comma'].indexOf(arrayFormat) == -1) arrayFormat = 'brackets';var _loop = function _loop(
+  key) {
+    var value = data[key];
+    // 去掉为空的参数
+    if (['', undefined, null].indexOf(value) >= 0) {
+      return "continue";
+    }
+    // 如果值为数组，另行处理
+    if (value.constructor === Array) {
+      // e.g. {ids: [1, 2, 3]}
+      switch (arrayFormat) {
+        case 'indices':
+          // 结果: ids[0]=1&ids[1]=2&ids[2]=3
+          for (var i = 0; i < value.length; i++) {
+            _result.push(key + '[' + i + ']=' + value[i]);
+          }
+          break;
+        case 'brackets':
+          // 结果: ids[]=1&ids[]=2&ids[]=3
+          value.forEach(function (_value) {
+            _result.push(key + '[]=' + _value);
+          });
+          break;
+        case 'repeat':
+          // 结果: ids=1&ids=2&ids=3
+          value.forEach(function (_value) {
+            _result.push(key + '=' + _value);
+          });
+          break;
+        case 'comma':
+          // 结果: ids=1,2,3
+          var commaStr = "";
+          value.forEach(function (_value) {
+            commaStr += (commaStr ? "," : "") + _value;
+          });
+          _result.push(key + '=' + commaStr);
+          break;
+        default:
+          value.forEach(function (_value) {
+            _result.push(key + '[]=' + _value);
+          });}
+
+    } else {
+      _result.push(key + '=' + value);
+    }};for (var key in data) {var _ret = _loop(key);if (_ret === "continue") continue;
+  }
+  return _result.length ? prefix + _result.join('&') : '';
+}var _default =
+
+queryParams;exports.default = _default;
+
+/***/ }),
+/* 19 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/route.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 20));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 并且带有路由拦截功能
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              */var
+
+Router = /*#__PURE__*/function () {
+  function Router() {_classCallCheck(this, Router);
+    // 原始属性定义
+    this.config = {
+      type: 'navigateTo',
+      url: '',
+      delta: 1, // navigateBack页面后退时,回退的层数
+      params: {}, // 传递的参数
+      animationType: 'pop-in', // 窗口动画,只在APP有效
+      animationDuration: 300, // 窗口动画持续时间,单位毫秒,只在APP有效
+      intercept: false // 是否需要拦截
+    };
+    // 因为route方法是需要对外赋值给另外的对象使用，同时route内部有使用this，会导致route失去上下文
+    // 这里在构造函数中进行this绑定
+    this.route = this.route.bind(this);
+  }
+
+  // 判断url前面是否有"/"，如果没有则加上，否则无法跳转
+  _createClass(Router, [{ key: "addRootPath", value: function addRootPath(url) {
+      return url[0] === '/' ? url : "/".concat(url);
+    }
+
+    // 整合路由参数
+  }, { key: "mixinParam", value: function mixinParam(url, params) {
+      url = url && this.addRootPath(url);
+
+      // 使用正则匹配，主要依据是判断是否有"/","?","="等，如“/page/index/index?name=mary"
+      // 如果有url中有get参数，转换后无需带上"?"
+      var query = '';
+      if (/.*\/.*\?.*=.*/.test(url)) {
+        // object对象转为get类型的参数
+        query = uni.$u.queryParams(params, false);
+        // 因为已有get参数,所以后面拼接的参数需要带上"&"隔开
+        return url += "&" + query;
+      } else {
+        // 直接拼接参数，因为此处url中没有后面的query参数，也就没有"?/&"之类的符号
+        query = uni.$u.queryParams(params);
+        return url += query;
+      }
+    }
+
+    // 对外的方法名称
+  }, { key: "route", value: function () {var _route = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var options,params,mergeConfig,isNext,_args = arguments;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:options = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};params = _args.length > 1 && _args[1] !== undefined ? _args[1] : {};
+                // 合并用户的配置和内部的默认配置
+                mergeConfig = {};
+
+                if (typeof options === 'string') {
+                  // 如果options为字符串，则为route(url, params)的形式
+                  mergeConfig.url = this.mixinParam(options, params);
+                  mergeConfig.type = 'navigateTo';
+                } else {
+                  mergeConfig = uni.$u.deepClone(options, this.config);
+                  // 否则正常使用mergeConfig中的url和params进行拼接
+                  mergeConfig.url = this.mixinParam(options.url, options.params);
+                }
+
+                if (params.intercept) {
+                  this.config.intercept = params.intercept;
+                }
+                // params参数也带给拦截器
+                mergeConfig.params = params;
+                // 合并内外部参数
+                mergeConfig = uni.$u.deepMerge(this.config, mergeConfig);
+                // 判断用户是否定义了拦截器
+                if (!(typeof uni.$u.routeIntercept === 'function')) {_context.next = 14;break;}_context.next = 10;return (
+
+                  new Promise(function (resolve, reject) {
+                    uni.$u.routeIntercept(mergeConfig, resolve);
+                  }));case 10:isNext = _context.sent;
+                // 如果isNext为true，则执行路由跳转
+                isNext && this.openPage(mergeConfig);_context.next = 15;break;case 14:
+
+                this.openPage(mergeConfig);case 15:case "end":return _context.stop();}}}, _callee, this);}));function route() {return _route.apply(this, arguments);}return route;}()
+
+
+
+    // 执行路由跳转
+  }, { key: "openPage", value: function openPage(config) {
+      // 解构参数
+      var
+      url =
+
+
+
+
+      config.url,type = config.type,delta = config.delta,animationType = config.animationType,animationDuration = config.animationDuration;
+      if (config.type == 'navigateTo' || config.type == 'to') {
+        uni.navigateTo({
+          url: url,
+          animationType: animationType,
+          animationDuration: animationDuration });
+
+      }
+      if (config.type == 'redirectTo' || config.type == 'redirect') {
+        uni.redirectTo({
+          url: url });
+
+      }
+      if (config.type == 'switchTab' || config.type == 'tab') {
+        uni.switchTab({
+          url: url });
+
+      }
+      if (config.type == 'reLaunch' || config.type == 'launch') {
+        uni.reLaunch({
+          url: url });
+
+      }
+      if (config.type == 'navigateBack' || config.type == 'back') {
+        uni.navigateBack({
+          delta: delta });
+
+      }
+    } }]);return Router;}();var _default =
+
+
+new Router().route;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 20 */
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
@@ -9476,8 +9667,7 @@ internalMixin(Vue);
 module.exports = __webpack_require__(/*! regenerator-runtime */ 21);
 
 /***/ }),
-
-/***/ 21:
+/* 21 */
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9524,8 +9714,7 @@ if (hadRuntime) {
 
 
 /***/ }),
-
-/***/ 22:
+/* 22 */
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -10256,8 +10445,7 @@ if (hadRuntime) {
 
 
 /***/ }),
-
-/***/ 23:
+/* 23 */
 /*!***************************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/timeFormat.js ***!
   \***************************************************************************************/
@@ -10318,8 +10506,7 @@ function timeFormat() {var dateTime = arguments.length > 0 && arguments[0] !== u
 timeFormat;exports.default = _default;
 
 /***/ }),
-
-/***/ 24:
+/* 24 */
 /*!*************************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/timeFrom.js ***!
   \*************************************************************************************/
@@ -10376,8 +10563,16612 @@ function timeFrom() {var dateTime = arguments.length > 0 && arguments[0] !== und
 timeFrom;exports.default = _default;
 
 /***/ }),
+/* 25 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/colorGradient.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ 246:
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 求两个颜色之间的渐变值
+                                                                                                      * @param {string} startColor 开始的颜色
+                                                                                                      * @param {string} endColor 结束的颜色
+                                                                                                      * @param {number} step 颜色等分的份额
+                                                                                                      * */
+function colorGradient() {var startColor = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'rgb(0, 0, 0)';var endColor = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rgb(255, 255, 255)';var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
+  var startRGB = hexToRgb(startColor, false); //转换为rgb数组模式
+  var startR = startRGB[0];
+  var startG = startRGB[1];
+  var startB = startRGB[2];
+
+  var endRGB = hexToRgb(endColor, false);
+  var endR = endRGB[0];
+  var endG = endRGB[1];
+  var endB = endRGB[2];
+
+  var sR = (endR - startR) / step; //总差值
+  var sG = (endG - startG) / step;
+  var sB = (endB - startB) / step;
+  var colorArr = [];
+  for (var i = 0; i < step; i++) {
+    //计算每一步的hex值 
+    var hex = rgbToHex('rgb(' + Math.round(sR * i + startR) + ',' + Math.round(sG * i + startG) + ',' + Math.round(sB *
+    i + startB) + ')');
+    colorArr.push(hex);
+  }
+  return colorArr;
+}
+
+// 将hex表示方式转换为rgb表示方式(这里返回rgb数组模式)
+function hexToRgb(sColor) {var str = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+  sColor = sColor.toLowerCase();
+  if (sColor && reg.test(sColor)) {
+    if (sColor.length === 4) {
+      var sColorNew = "#";
+      for (var i = 1; i < 4; i += 1) {
+        sColorNew += sColor.slice(i, i + 1).concat(sColor.slice(i, i + 1));
+      }
+      sColor = sColorNew;
+    }
+    //处理六位的颜色值
+    var sColorChange = [];
+    for (var _i = 1; _i < 7; _i += 2) {
+      sColorChange.push(parseInt("0x" + sColor.slice(_i, _i + 2)));
+    }
+    if (!str) {
+      return sColorChange;
+    } else {
+      return "rgb(".concat(sColorChange[0], ",").concat(sColorChange[1], ",").concat(sColorChange[2], ")");
+    }
+  } else if (/^(rgb|RGB)/.test(sColor)) {
+    var arr = sColor.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
+    return arr.map(function (val) {return Number(val);});
+  } else {
+    return sColor;
+  }
+};
+
+// 将rgb表示方式转换为hex表示方式
+function rgbToHex(rgb) {
+  var _this = rgb;
+  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+  if (/^(rgb|RGB)/.test(_this)) {
+    var aColor = _this.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
+    var strHex = "#";
+    for (var i = 0; i < aColor.length; i++) {
+      var hex = Number(aColor[i]).toString(16);
+      hex = String(hex).length == 1 ? 0 + '' + hex : hex; // 保证每个rgb的值为2位
+      if (hex === "0") {
+        hex += hex;
+      }
+      strHex += hex;
+    }
+    if (strHex.length !== 7) {
+      strHex = _this;
+    }
+    return strHex;
+  } else if (reg.test(_this)) {
+    var aNum = _this.replace(/#/, "").split("");
+    if (aNum.length === 6) {
+      return _this;
+    } else if (aNum.length === 3) {
+      var numHex = "#";
+      for (var _i2 = 0; _i2 < aNum.length; _i2 += 1) {
+        numHex += aNum[_i2] + aNum[_i2];
+      }
+      return numHex;
+    }
+  } else {
+    return _this;
+  }
+}
+
+
+/**
+  * JS颜色十六进制转换为rgb或rgba,返回的格式为 rgba（255，255，255，0.5）字符串
+  * sHex为传入的十六进制的色值
+  * alpha为rgba的透明度
+  */
+function colorToRgba(color) {var alpha = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0.3;
+  color = rgbToHex(color);
+  // 十六进制颜色值的正则表达式
+  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+  /* 16进制颜色转为RGB格式 */
+  var sColor = color.toLowerCase();
+  if (sColor && reg.test(sColor)) {
+    if (sColor.length === 4) {
+      var sColorNew = '#';
+      for (var i = 1; i < 4; i += 1) {
+        sColorNew += sColor.slice(i, i + 1).concat(sColor.slice(i, i + 1));
+      }
+      sColor = sColorNew;
+    }
+    // 处理六位的颜色值
+    var sColorChange = [];
+    for (var _i3 = 1; _i3 < 7; _i3 += 2) {
+      sColorChange.push(parseInt('0x' + sColor.slice(_i3, _i3 + 2)));
+    }
+    // return sColorChange.join(',')
+    return 'rgba(' + sColorChange.join(',') + ',' + alpha + ')';
+  } else
+  {
+    return sColor;
+  }
+}var _default =
+
+{
+  colorGradient: colorGradient,
+  hexToRgb: hexToRgb,
+  rgbToHex: rgbToHex,
+  colorToRgba: colorToRgba };exports.default = _default;
+
+/***/ }),
+/* 26 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/guid.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 本算法来源于简书开源代码，详见：https://www.jianshu.com/p/fdbf293d0a85
+                                                                                                      * 全局唯一标识符（uuid，Globally Unique Identifier）,也称作 uuid(Universally Unique IDentifier) 
+                                                                                                      * 一般用于多个组件之间,给它一个唯一的标识符,或者v-for循环的时候,如果使用数组的index可能会导致更新列表出现问题
+                                                                                                      * 最可能的情况是左滑删除item或者对某条信息流"不喜欢"并去掉它的时候,会导致组件内的数据可能出现错乱
+                                                                                                      * v-for的时候,推荐使用后端返回的id而不是循环的index
+                                                                                                      * @param {Number} len uuid的长度
+                                                                                                      * @param {Boolean} firstU 将返回的首字母置为"u"
+                                                                                                      * @param {Nubmer} radix 生成uuid的基数(意味着返回的字符串都是这个基数),2-二进制,8-八进制,10-十进制,16-十六进制
+                                                                                                      */
+function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 32;var firstU = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var radix = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+  var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
+  var uuid = [];
+  radix = radix || chars.length;
+
+  if (len) {
+    // 如果指定uuid长度,只是取随机的字符,0|x为位运算,能去掉x的小数位,返回整数位
+    for (var i = 0; i < len; i++) {uuid[i] = chars[0 | Math.random() * radix];}
+  } else {
+    var r;
+    // rfc4122标准要求返回的uuid中,某些位为固定的字符
+    uuid[8] = uuid[13] = uuid[18] = uuid[23] = '-';
+    uuid[14] = '4';
+
+    for (var _i = 0; _i < 36; _i++) {
+      if (!uuid[_i]) {
+        r = 0 | Math.random() * 16;
+        uuid[_i] = chars[_i == 19 ? r & 0x3 | 0x8 : r];
+      }
+    }
+  }
+  // 移除第一个字符,并用u替代,因为第一个字符为数值时,该guuid不能用作id或者class
+  if (firstU) {
+    uuid.shift();
+    return 'u' + uuid.join('');
+  } else {
+    return uuid.join('');
+  }
+}var _default =
+
+guid;exports.default = _default;
+
+/***/ }),
+/* 27 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/color.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 为了让用户能够自定义主题，会逐步弃用此文件，各颜色通过css提供
+// 为了给某些特殊场景使用和向后兼容，无需删除此文件(2020-06-20)
+var color = {
+  primary: "#2979ff",
+  primaryDark: "#2b85e4",
+  primaryDisabled: "#a0cfff",
+  primaryLight: "#ecf5ff",
+  bgColor: "#f3f4f6",
+
+  info: "#909399",
+  infoDark: "#82848a",
+  infoDisabled: "#c8c9cc",
+  infoLight: "#f4f4f5",
+
+  warning: "#ff9900",
+  warningDark: "#f29100",
+  warningDisabled: "#fcbd71",
+  warningLight: "#fdf6ec",
+
+  error: "#fa3534",
+  errorDark: "#dd6161",
+  errorDisabled: "#fab6b6",
+  errorLight: "#fef0f0",
+
+  success: "#19be6b",
+  successDark: "#18b566",
+  successDisabled: "#71d5a1",
+  successLight: "#dbf1e1",
+
+  mainColor: "#303133",
+  contentColor: "#606266",
+  tipsColor: "#909399",
+  lightColor: "#c0c4cc",
+  borderColor: "#e4e7ed" };var _default =
+
+
+color;exports.default = _default;
+
+/***/ }),
+/* 28 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/type2icon.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * 根据主题type值,获取对应的图标
+                                                                                                      * @param String type 主题名称,primary|info|error|warning|success
+                                                                                                      * @param String fill 是否使用fill填充实体的图标  
+                                                                                                      */
+function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'success';var fill = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  // 如果非预置值,默认为success
+  if (['primary', 'info', 'error', 'warning', 'success'].indexOf(type) == -1) type = 'success';
+  var iconName = '';
+  // 目前(2019-12-12),info和primary使用同一个图标
+  switch (type) {
+    case 'primary':
+      iconName = 'info-circle';
+      break;
+    case 'info':
+      iconName = 'info-circle';
+      break;
+    case 'error':
+      iconName = 'close-circle';
+      break;
+    case 'warning':
+      iconName = 'error-circle';
+      break;
+    case 'success':
+      iconName = 'checkmark-circle';
+      break;
+    default:
+      iconName = 'checkmark-circle';}
+
+  // 是否是实体类型,加上-fill,在icon组件库中,实体的类名是后面加-fill的
+  if (fill) iconName += '-fill';
+  return iconName;
+}var _default =
+
+type2icon;exports.default = _default;
+
+/***/ }),
+/* 29 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/randomArray.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 打乱数组
+function randomArray() {var array = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+  // 原理是sort排序,Math.random()产生0<= x < 1之间的数,会导致x-0.05大于或者小于0
+  return array.sort(function () {return Math.random() - 0.5;});
+}var _default =
+
+randomArray;exports.default = _default;
+
+/***/ }),
+/* 30 */
+/*!************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/addUnit.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+// 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
+function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
+  value = String(value);
+  // 用uView内置验证规则中的number判断是否为数值
+  return _test.default.number(value) ? "".concat(value).concat(unit) : value;
+}
+
+/***/ }),
+/* 31 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/random.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function random(min, max) {
+  if (min >= 0 && max > 0 && max >= min) {
+    var gab = max - min + 1;
+    return Math.floor(Math.random() * gab + min);
+  } else {
+    return 0;
+  }
+}var _default =
+
+random;exports.default = _default;
+
+/***/ }),
+/* 32 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/trim.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function trim(str) {var pos = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'both';
+  if (pos == 'both') {
+    return str.replace(/^\s+|\s+$/g, "");
+  } else if (pos == "left") {
+    return str.replace(/^\s*/, '');
+  } else if (pos == 'right') {
+    return str.replace(/(\s*$)/g, "");
+  } else if (pos == 'all') {
+    return str.replace(/\s+/g, "");
+  } else {
+    return str;
+  }
+}var _default =
+
+trim;exports.default = _default;
+
+/***/ }),
+/* 33 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/toast.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
+  uni.showToast({
+    title: title,
+    icon: 'none',
+    duration: duration });
+
+}var _default =
+
+toast;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 34 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/getParent.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = getParent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+function getParent(name, keys) {
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {var _ret = function () {
+        var data = {};
+        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
+        if (Array.isArray(keys)) {
+          keys.map(function (val) {
+            data[val] = parent[val] ? parent[val] : '';
+          });
+        } else {
+          // 历遍传过来的对象参数
+          for (var i in keys) {
+            // 如果子组件有此值则用，无此值则用父组件的值
+            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
+            if (Array.isArray(keys[i])) {
+              if (keys[i].length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else if (keys[i].constructor === Object) {
+              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
+              if (Object.keys(keys[i]).length) {
+                data[i] = keys[i];
+              } else {
+                data[i] = parent[i];
+              }
+            } else {
+              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
+              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
+            }
+          }
+        }
+        return { v: data };}();if (typeof _ret === "object") return _ret.v;
+    }
+  }
+
+  return {};
+}
+
+/***/ }),
+/* 35 */
+/*!************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/$parent.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
+// 值(默认为undefined)，就是查找最顶层的$parent
+function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options && parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {
+      return parent;
+    }
+  }
+  return false;
+}
+
+/***/ }),
+/* 36 */
+/*!********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/sys.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.os = os;exports.sys = sys;function os() {
+  return uni.getSystemInfoSync().platform;
+};
+
+function sys() {
+  return uni.getSystemInfoSync();
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 37 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/debounce.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timeout = null;
+
+/**
+                                                                                                                         * 防抖原理：一定时间内，只有最后一次操作，再过wait毫秒后才执行函数
+                                                                                                                         * 
+                                                                                                                         * @param {Function} func 要执行的回调函数 
+                                                                                                                         * @param {Number} wait 延时的时间
+                                                                                                                         * @param {Boolean} immediate 是否立即执行 
+                                                                                                                         * @return null
+                                                                                                                         */
+function debounce(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+  // 清除定时器
+  if (timeout !== null) clearTimeout(timeout);
+  // 立即执行，此类情况一般用不到
+  if (immediate) {
+    var callNow = !timeout;
+    timeout = setTimeout(function () {
+      timeout = null;
+    }, wait);
+    if (callNow) typeof func === 'function' && func();
+  } else {
+    // 设置定时器，当最后一次操作后，timeout不会再被清除，所以在延时wait毫秒后执行func回调方法
+    timeout = setTimeout(function () {
+      typeof func === 'function' && func();
+    }, wait);
+  }
+}var _default =
+
+debounce;exports.default = _default;
+
+/***/ }),
+/* 38 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/throttle.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timer, flag;
+/**
+                                                                                                                      * 节流原理：在一定时间内，只能触发一次
+                                                                                                                      * 
+                                                                                                                      * @param {Function} func 要执行的回调函数 
+                                                                                                                      * @param {Number} wait 延时的时间
+                                                                                                                      * @param {Boolean} immediate 是否立即执行
+                                                                                                                      * @return null
+                                                                                                                      */
+function throttle(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  if (immediate) {
+    if (!flag) {
+      flag = true;
+      // 如果是立即执行，则在wait毫秒内开始时执行
+      typeof func === 'function' && func();
+      timer = setTimeout(function () {
+        flag = false;
+      }, wait);
+    }
+  } else {
+    if (!flag) {
+      flag = true;
+      // 如果是非立即执行，则在wait毫秒内的结束处执行
+      timer = setTimeout(function () {
+        flag = false;
+        typeof func === 'function' && func();
+      }, wait);
+    }
+
+  }
+};var _default =
+throttle;exports.default = _default;
+
+/***/ }),
+/* 39 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/config/config.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 此版本发布于2020-03-17
+var version = '1.8.4';var _default =
+
+{
+  v: version,
+  version: version,
+  // 主题名称
+  type: [
+  'primary',
+  'success',
+  'info',
+  'error',
+  'warning'] };exports.default = _default;
+
+/***/ }),
+/* 40 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/config/zIndex.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // uniapp在H5中各API的z-index值如下：
+/**
+ * actionsheet: 999
+ * modal: 999
+ * navigate: 998
+ * tabbar: 998
+ * toast: 999
+ */var _default =
+
+{
+  toast: 10090,
+  noNetwork: 10080,
+  // popup包含popup，actionsheet，keyboard，picker的值
+  popup: 10075,
+  mask: 10070,
+  navbar: 980,
+  topTips: 975,
+  sticky: 970,
+  indexListSticky: 965 };exports.default = _default;
+
+/***/ }),
+/* 41 */
+/*!**************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/util/request/request.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
+var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+var service = _axios.default.create({
+  baseURL: 'http://10.129.85.77:8000',
+  timeout: 6000,
+  crossDomain: true });
+
+
+
+service.interceptors.request.use(
+function (config) {
+  var token = uni.getStorageSync("loginToken");
+  if (token) {
+    config.headers["AUTHORIZATION"] = token;
+  }
+  return config;
+},
+function (error) {
+  console.log(error);
+  return Promise.reject(error);
+});
+
+
+//配置成功后的拦截器
+service.interceptors.response.use(function (res) {
+  var httpStatus = res.status;
+  if (httpStatus == 200) {
+    var code = res.data.code;
+    if (code === "10" || code === "11" || code === "12" || code === "4" || code === "6") {
+      uni.navigateTo({
+        url: "/pages/self/login" });
+
+    } else if (code === "14") {
+      uni.redirectTo({
+        url: "/pages/self/servererror" });
+
+    } else if (code === "2") {
+      uni.showToast({
+        title: "请求失败",
+        icon: "error" });
+
+    } else if (code === "9") {
+      uni.showToast({
+        title: "登录失败，请稍后再试",
+        icon: "none" });
+
+    }
+
+    return res;
+  } else {
+    return Promise.reject(res.errMsg);
+  }
+}, function (error) {
+  var code = error.response.status;
+  if (code === 429) {
+    uni.showToast({
+      title: "操作太快啦，休息一下吧",
+      icon: "none",
+      success: function success() {
+        setTimeout(function () {
+          uni.navigateBack({});
+        }, 2000);
+      } });
+
+  } else {
+    uni.redirectTo({
+      url: "/pages/self/servererror" });
+
+  }
+  return Promise.reject(error);
+});
+
+
+// 在main.js中放入这段自定义适配器的代码，就可以实现uniapp的app和小程序开发中能使用axios进行跨域网络请求，并支持携带cookie
+_axios.default.defaults.adapter = function (config) {
+  return new Promise(function (resolve, reject) {
+    var settle = __webpack_require__(/*! axios/lib/core/settle */ 57);
+    var buildURL = __webpack_require__(/*! axios/lib/helpers/buildURL */ 47);
+    uni.request({
+      method: config.method.toUpperCase(),
+      url: config.baseURL + buildURL(config.url, config.params, config.paramsSerializer),
+      header: config.headers,
+      data: config.data,
+      dataType: config.dataType,
+      responseType: config.responseType,
+      sslVerify: config.sslVerify,
+      complete: function complete(response) {
+        response = {
+          data: response.data,
+          status: response.statusCode,
+          errMsg: response.errMsg,
+          header: response.header,
+          config: config };
+
+
+        settle(resolve, reject, response);
+      } });
+
+  });
+};var _default =
+
+
+service;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 42 */
+/*!******************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/index.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./lib/axios */ 43);
+
+/***/ }),
+/* 43 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/axios.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./utils */ 44);
+var bind = __webpack_require__(/*! ./helpers/bind */ 45);
+var Axios = __webpack_require__(/*! ./core/Axios */ 46);
+var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ 67);
+var defaults = __webpack_require__(/*! ./defaults */ 51);
+
+/**
+                                       * Create an instance of Axios
+                                       *
+                                       * @param {Object} defaultConfig The default config for the instance
+                                       * @return {Axios} A new instance of Axios
+                                       */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  // Factory for creating new instances
+  instance.create = function create(instanceConfig) {
+    return createInstance(mergeConfig(defaultConfig, instanceConfig));
+  };
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance(defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Expose Cancel & CancelToken
+axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ 65);
+axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ 70);
+axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ 66);
+axios.VERSION = __webpack_require__(/*! ./env/data */ 69).version;
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = __webpack_require__(/*! ./helpers/spread */ 71);
+
+// Expose isAxiosError
+axios.isAxiosError = __webpack_require__(/*! ./helpers/isAxiosError */ 72);
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+
+/***/ }),
+/* 44 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/utils.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var bind = __webpack_require__(/*! ./helpers/bind */ 45);
+
+// utils is a library of generic helper functions non-specific to axios
+
+var toString = Object.prototype.toString;
+
+/**
+                                           * Determine if a value is an Array
+                                           *
+                                           * @param {Object} val The value to test
+                                           * @returns {boolean} True if value is an Array, otherwise false
+                                           */
+function isArray(val) {
+  return toString.call(val) === '[object Array]';
+}
+
+/**
+   * Determine if a value is undefined
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if the value is undefined, otherwise false
+   */
+function isUndefined(val) {
+  return typeof val === 'undefined';
+}
+
+/**
+   * Determine if a value is a Buffer
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a Buffer, otherwise false
+   */
+function isBuffer(val) {
+  return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor) &&
+  typeof val.constructor.isBuffer === 'function' && val.constructor.isBuffer(val);
+}
+
+/**
+   * Determine if a value is an ArrayBuffer
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is an ArrayBuffer, otherwise false
+   */
+function isArrayBuffer(val) {
+  return toString.call(val) === '[object ArrayBuffer]';
+}
+
+/**
+   * Determine if a value is a FormData
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is an FormData, otherwise false
+   */
+function isFormData(val) {
+  return typeof FormData !== 'undefined' && val instanceof FormData;
+}
+
+/**
+   * Determine if a value is a view on an ArrayBuffer
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a view on an ArrayBuffer, otherwise false
+   */
+function isArrayBufferView(val) {
+  var result;
+  if (typeof ArrayBuffer !== 'undefined' && ArrayBuffer.isView) {
+    result = ArrayBuffer.isView(val);
+  } else {
+    result = val && val.buffer && val.buffer instanceof ArrayBuffer;
+  }
+  return result;
+}
+
+/**
+   * Determine if a value is a String
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a String, otherwise false
+   */
+function isString(val) {
+  return typeof val === 'string';
+}
+
+/**
+   * Determine if a value is a Number
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a Number, otherwise false
+   */
+function isNumber(val) {
+  return typeof val === 'number';
+}
+
+/**
+   * Determine if a value is an Object
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is an Object, otherwise false
+   */
+function isObject(val) {
+  return val !== null && typeof val === 'object';
+}
+
+/**
+   * Determine if a value is a plain Object
+   *
+   * @param {Object} val The value to test
+   * @return {boolean} True if value is a plain Object, otherwise false
+   */
+function isPlainObject(val) {
+  if (toString.call(val) !== '[object Object]') {
+    return false;
+  }
+
+  var prototype = Object.getPrototypeOf(val);
+  return prototype === null || prototype === Object.prototype;
+}
+
+/**
+   * Determine if a value is a Date
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a Date, otherwise false
+   */
+function isDate(val) {
+  return toString.call(val) === '[object Date]';
+}
+
+/**
+   * Determine if a value is a File
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a File, otherwise false
+   */
+function isFile(val) {
+  return toString.call(val) === '[object File]';
+}
+
+/**
+   * Determine if a value is a Blob
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a Blob, otherwise false
+   */
+function isBlob(val) {
+  return toString.call(val) === '[object Blob]';
+}
+
+/**
+   * Determine if a value is a Function
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a Function, otherwise false
+   */
+function isFunction(val) {
+  return toString.call(val) === '[object Function]';
+}
+
+/**
+   * Determine if a value is a Stream
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a Stream, otherwise false
+   */
+function isStream(val) {
+  return isObject(val) && isFunction(val.pipe);
+}
+
+/**
+   * Determine if a value is a URLSearchParams object
+   *
+   * @param {Object} val The value to test
+   * @returns {boolean} True if value is a URLSearchParams object, otherwise false
+   */
+function isURLSearchParams(val) {
+  return typeof URLSearchParams !== 'undefined' && val instanceof URLSearchParams;
+}
+
+/**
+   * Trim excess whitespace off the beginning and end of a string
+   *
+   * @param {String} str The String to trim
+   * @returns {String} The String freed of excess whitespace
+   */
+function trim(str) {
+  return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g, '');
+}
+
+/**
+   * Determine if we're running in a standard browser environment
+   *
+   * This allows axios to run in a web worker, and react-native.
+   * Both environments support XMLHttpRequest, but not fully standard globals.
+   *
+   * web workers:
+   *  typeof window -> undefined
+   *  typeof document -> undefined
+   *
+   * react-native:
+   *  navigator.product -> 'ReactNative'
+   * nativescript
+   *  navigator.product -> 'NativeScript' or 'NS'
+   */
+function isStandardBrowserEnv() {
+  if (typeof navigator !== 'undefined' && (navigator.product === 'ReactNative' ||
+  navigator.product === 'NativeScript' ||
+  navigator.product === 'NS')) {
+    return false;
+  }
+  return (
+    typeof window !== 'undefined' &&
+    typeof document !== 'undefined');
+
+}
+
+/**
+   * Iterate over an Array or an Object invoking a function for each item.
+   *
+   * If `obj` is an Array callback will be called passing
+   * the value, index, and complete array for each item.
+   *
+   * If 'obj' is an Object callback will be called passing
+   * the value, key, and complete object for each property.
+   *
+   * @param {Object|Array} obj The object to iterate
+   * @param {Function} fn The callback to invoke for each item
+   */
+function forEach(obj, fn) {
+  // Don't bother if no value provided
+  if (obj === null || typeof obj === 'undefined') {
+    return;
+  }
+
+  // Force an array if not already something iterable
+  if (typeof obj !== 'object') {
+    /*eslint no-param-reassign:0*/
+    obj = [obj];
+  }
+
+  if (isArray(obj)) {
+    // Iterate over array values
+    for (var i = 0, l = obj.length; i < l; i++) {
+      fn.call(null, obj[i], i, obj);
+    }
+  } else {
+    // Iterate over object keys
+    for (var key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        fn.call(null, obj[key], key, obj);
+      }
+    }
+  }
+}
+
+/**
+   * Accepts varargs expecting each argument to be an object, then
+   * immutably merges the properties of each object and returns result.
+   *
+   * When multiple objects contain the same key the later object in
+   * the arguments list will take precedence.
+   *
+   * Example:
+   *
+   * ```js
+   * var result = merge({foo: 123}, {foo: 456});
+   * console.log(result.foo); // outputs 456
+   * ```
+   *
+   * @param {Object} obj1 Object to merge
+   * @returns {Object} Result of all merge properties
+   */
+function merge() /* obj1, obj2, obj3, ... */{
+  var result = {};
+  function assignValue(val, key) {
+    if (isPlainObject(result[key]) && isPlainObject(val)) {
+      result[key] = merge(result[key], val);
+    } else if (isPlainObject(val)) {
+      result[key] = merge({}, val);
+    } else if (isArray(val)) {
+      result[key] = val.slice();
+    } else {
+      result[key] = val;
+    }
+  }
+
+  for (var i = 0, l = arguments.length; i < l; i++) {
+    forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+   * Extends object a by mutably adding to it the properties of object b.
+   *
+   * @param {Object} a The object to be extended
+   * @param {Object} b The object to copy properties from
+   * @param {Object} thisArg The object to bind function to
+   * @return {Object} The resulting value of object a
+   */
+function extend(a, b, thisArg) {
+  forEach(b, function assignValue(val, key) {
+    if (thisArg && typeof val === 'function') {
+      a[key] = bind(val, thisArg);
+    } else {
+      a[key] = val;
+    }
+  });
+  return a;
+}
+
+/**
+   * Remove byte order marker. This catches EF BB BF (the UTF-8 BOM)
+   *
+   * @param {string} content with BOM
+   * @return {string} content value without BOM
+   */
+function stripBOM(content) {
+  if (content.charCodeAt(0) === 0xFEFF) {
+    content = content.slice(1);
+  }
+  return content;
+}
+
+module.exports = {
+  isArray: isArray,
+  isArrayBuffer: isArrayBuffer,
+  isBuffer: isBuffer,
+  isFormData: isFormData,
+  isArrayBufferView: isArrayBufferView,
+  isString: isString,
+  isNumber: isNumber,
+  isObject: isObject,
+  isPlainObject: isPlainObject,
+  isUndefined: isUndefined,
+  isDate: isDate,
+  isFile: isFile,
+  isBlob: isBlob,
+  isFunction: isFunction,
+  isStream: isStream,
+  isURLSearchParams: isURLSearchParams,
+  isStandardBrowserEnv: isStandardBrowserEnv,
+  forEach: forEach,
+  merge: merge,
+  extend: extend,
+  trim: trim,
+  stripBOM: stripBOM };
+
+/***/ }),
+/* 45 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/bind.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function bind(fn, thisArg) {
+  return function wrap() {
+    var args = new Array(arguments.length);
+    for (var i = 0; i < args.length; i++) {
+      args[i] = arguments[i];
+    }
+    return fn.apply(thisArg, args);
+  };
+};
+
+/***/ }),
+/* 46 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/Axios.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+var buildURL = __webpack_require__(/*! ../helpers/buildURL */ 47);
+var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ 48);
+var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ 49);
+var mergeConfig = __webpack_require__(/*! ./mergeConfig */ 67);
+var validator = __webpack_require__(/*! ../helpers/validator */ 68);
+
+var validators = validator.validators;
+/**
+                                        * Create a new instance of Axios
+                                        *
+                                        * @param {Object} instanceConfig The default config for the instance
+                                        */
+function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager() };
+
+}
+
+/**
+   * Dispatch a request
+   *
+   * @param {Object} config The config specific for this request (merged with this.defaults)
+   */
+Axios.prototype.request = function request(config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof config === 'string') {
+    config = arguments[1] || {};
+    config.url = arguments[0];
+  } else {
+    config = config || {};
+  }
+
+  config = mergeConfig(this.defaults, config);
+
+  // Set config.method
+  if (config.method) {
+    config.method = config.method.toLowerCase();
+  } else if (this.defaults.method) {
+    config.method = this.defaults.method.toLowerCase();
+  } else {
+    config.method = 'get';
+  }
+
+  var transitional = config.transitional;
+
+  if (transitional !== undefined) {
+    validator.assertOptions(transitional, {
+      silentJSONParsing: validators.transitional(validators.boolean),
+      forcedJSONParsing: validators.transitional(validators.boolean),
+      clarifyTimeoutError: validators.transitional(validators.boolean) },
+    false);
+  }
+
+  // filter out skipped interceptors
+  var requestInterceptorChain = [];
+  var synchronousRequestInterceptors = true;
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    if (typeof interceptor.runWhen === 'function' && interceptor.runWhen(config) === false) {
+      return;
+    }
+
+    synchronousRequestInterceptors = synchronousRequestInterceptors && interceptor.synchronous;
+
+    requestInterceptorChain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  var responseInterceptorChain = [];
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    responseInterceptorChain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  var promise;
+
+  if (!synchronousRequestInterceptors) {
+    var chain = [dispatchRequest, undefined];
+
+    Array.prototype.unshift.apply(chain, requestInterceptorChain);
+    chain = chain.concat(responseInterceptorChain);
+
+    promise = Promise.resolve(config);
+    while (chain.length) {
+      promise = promise.then(chain.shift(), chain.shift());
+    }
+
+    return promise;
+  }
+
+
+  var newConfig = config;
+  while (requestInterceptorChain.length) {
+    var onFulfilled = requestInterceptorChain.shift();
+    var onRejected = requestInterceptorChain.shift();
+    try {
+      newConfig = onFulfilled(newConfig);
+    } catch (error) {
+      onRejected(error);
+      break;
+    }
+  }
+
+  try {
+    promise = dispatchRequest(newConfig);
+  } catch (error) {
+    return Promise.reject(error);
+  }
+
+  while (responseInterceptorChain.length) {
+    promise = promise.then(responseInterceptorChain.shift(), responseInterceptorChain.shift());
+  }
+
+  return promise;
+};
+
+Axios.prototype.getUri = function getUri(config) {
+  config = mergeConfig(this.defaults, config);
+  return buildURL(config.url, config.params, config.paramsSerializer).replace(/^\?/, '');
+};
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function (url, config) {
+    return this.request(mergeConfig(config || {}, {
+      method: method,
+      url: url,
+      data: (config || {}).data }));
+
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function (url, data, config) {
+    return this.request(mergeConfig(config || {}, {
+      method: method,
+      url: url,
+      data: data }));
+
+  };
+});
+
+module.exports = Axios;
+
+/***/ }),
+/* 47 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/buildURL.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+
+function encode(val) {
+  return encodeURIComponent(val).
+  replace(/%3A/gi, ':').
+  replace(/%24/g, '$').
+  replace(/%2C/gi, ',').
+  replace(/%20/g, '+').
+  replace(/%5B/gi, '[').
+  replace(/%5D/gi, ']');
+}
+
+/**
+   * Build a URL by appending params to the end
+   *
+   * @param {string} url The base of the url (e.g., http://www.google.com)
+   * @param {object} [params] The params to be appended
+   * @returns {string} The formatted url
+   */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      } else {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    var hashmarkIndex = url.indexOf('#');
+    if (hashmarkIndex !== -1) {
+      url = url.slice(0, hashmarkIndex);
+    }
+
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+};
+
+/***/ }),
+/* 48 */
+/*!****************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+   * Add a new interceptor to the stack
+   *
+   * @param {Function} fulfilled The function to handle `then` for a `Promise`
+   * @param {Function} rejected The function to handle `reject` for a `Promise`
+   *
+   * @return {Number} An ID used to remove interceptor later
+   */
+InterceptorManager.prototype.use = function use(fulfilled, rejected, options) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected,
+    synchronous: options ? options.synchronous : false,
+    runWhen: options ? options.runWhen : null });
+
+  return this.handlers.length - 1;
+};
+
+/**
+    * Remove an interceptor from the stack
+    *
+    * @param {Number} id The ID that was returned by `use`
+    */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+    * Iterate over all the registered interceptors
+    *
+    * This method is particularly useful for skipping over any
+    * interceptors that may have become `null` calling `eject`.
+    *
+    * @param {Function} fn The function to call for each interceptor
+    */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+
+/***/ }),
+/* 49 */
+/*!*************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+var transformData = __webpack_require__(/*! ./transformData */ 50);
+var isCancel = __webpack_require__(/*! ../cancel/isCancel */ 66);
+var defaults = __webpack_require__(/*! ../defaults */ 51);
+var Cancel = __webpack_require__(/*! ../cancel/Cancel */ 65);
+
+/**
+                                           * Throws a `Cancel` if cancellation has been requested.
+                                           */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+
+  if (config.signal && config.signal.aborted) {
+    throw new Cancel('canceled');
+  }
+}
+
+/**
+   * Dispatch a request to the server using the configured adapter.
+   *
+   * @param {object} config The config that is to be used for the request
+   * @returns {Promise} The Promise to be fulfilled
+   */
+module.exports = function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData.call(
+  config,
+  config.data,
+  config.headers,
+  config.transformRequest);
+
+
+  // Flatten headers
+  config.headers = utils.merge(
+  config.headers.common || {},
+  config.headers[config.method] || {},
+  config.headers);
+
+
+  utils.forEach(
+  ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+  function cleanHeaderConfig(method) {
+    delete config.headers[method];
+  });
+
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData.call(
+    config,
+    response.data,
+    response.headers,
+    config.transformResponse);
+
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData.call(
+        config,
+        reason.response.data,
+        reason.response.headers,
+        config.transformResponse);
+
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+/***/ }),
+/* 50 */
+/*!***********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/transformData.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+var defaults = __webpack_require__(/*! ./../defaults */ 51);
+
+/**
+                                          * Transform the data for a request or a response
+                                          *
+                                          * @param {Object|String} data The data to be transformed
+                                          * @param {Array} headers The headers for the request or response
+                                          * @param {Array|Function} fns A single function or Array of functions
+                                          * @returns {*} The resulting transformed data
+                                          */
+module.exports = function transformData(data, headers, fns) {
+  var context = this || defaults;
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn.call(context, data, headers);
+  });
+
+  return data;
+};
+
+/***/ }),
+/* 51 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/defaults.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var utils = __webpack_require__(/*! ./utils */ 44);
+var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ 54);
+var enhanceError = __webpack_require__(/*! ./core/enhanceError */ 55);
+
+var DEFAULT_CONTENT_TYPE = {
+  'Content-Type': 'application/x-www-form-urlencoded' };
+
+
+function setContentTypeIfUnset(headers, value) {
+  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
+    headers['Content-Type'] = value;
+  }
+}
+
+function getDefaultAdapter() {
+  var adapter;
+  if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = __webpack_require__(/*! ./adapters/xhr */ 56);
+  } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(/*! ./adapters/http */ 56);
+  }
+  return adapter;
+}
+
+function stringifySafely(rawValue, parser, encoder) {
+  if (utils.isString(rawValue)) {
+    try {
+      (parser || JSON.parse)(rawValue);
+      return utils.trim(rawValue);
+    } catch (e) {
+      if (e.name !== 'SyntaxError') {
+        throw e;
+      }
+    }
+  }
+
+  return (encoder || JSON.stringify)(rawValue);
+}
+
+var defaults = {
+
+  transitional: {
+    silentJSONParsing: true,
+    forcedJSONParsing: true,
+    clarifyTimeoutError: false },
+
+
+  adapter: getDefaultAdapter(),
+
+  transformRequest: [function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Accept');
+    normalizeHeaderName(headers, 'Content-Type');
+
+    if (utils.isFormData(data) ||
+    utils.isArrayBuffer(data) ||
+    utils.isBuffer(data) ||
+    utils.isStream(data) ||
+    utils.isFile(data) ||
+    utils.isBlob(data))
+    {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+    if (utils.isObject(data) || headers && headers['Content-Type'] === 'application/json') {
+      setContentTypeIfUnset(headers, 'application/json');
+      return stringifySafely(data);
+    }
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    var transitional = this.transitional || defaults.transitional;
+    var silentJSONParsing = transitional && transitional.silentJSONParsing;
+    var forcedJSONParsing = transitional && transitional.forcedJSONParsing;
+    var strictJSONParsing = !silentJSONParsing && this.responseType === 'json';
+
+    if (strictJSONParsing || forcedJSONParsing && utils.isString(data) && data.length) {
+      try {
+        return JSON.parse(data);
+      } catch (e) {
+        if (strictJSONParsing) {
+          if (e.name === 'SyntaxError') {
+            throw enhanceError(e, this, 'E_JSON_PARSE');
+          }
+          throw e;
+        }
+      }
+    }
+
+    return data;
+  }],
+
+  /**
+       * A timeout in milliseconds to abort a request. If set to 0 (default) a
+       * timeout is not created.
+       */
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+  maxBodyLength: -1,
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  },
+
+  headers: {
+    common: {
+      'Accept': 'application/json, text/plain, */*' } } };
+
+
+
+
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  defaults.headers[method] = {};
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
+});
+
+module.exports = defaults;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../HBuilderX.2.9.8.20201110.full/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 52)))
+
+/***/ }),
+/* 52 */
+/*!********************************************************!*\
+  !*** ./node_modules/node-libs-browser/mock/process.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.nextTick = function nextTick(fn) {
+    var args = Array.prototype.slice.call(arguments);
+    args.shift();
+    setTimeout(function () {
+        fn.apply(null, args);
+    }, 0);
+};
+
+exports.platform = exports.arch = 
+exports.execPath = exports.title = 'browser';
+exports.pid = 1;
+exports.browser = true;
+exports.env = {};
+exports.argv = [];
+
+exports.binding = function (name) {
+	throw new Error('No such module. (Possibly not yet loaded)')
+};
+
+(function () {
+    var cwd = '/';
+    var path;
+    exports.cwd = function () { return cwd };
+    exports.chdir = function (dir) {
+        if (!path) path = __webpack_require__(/*! path */ 53);
+        cwd = path.resolve(dir, cwd);
+    };
+})();
+
+exports.exit = exports.kill = 
+exports.umask = exports.dlopen = 
+exports.uptime = exports.memoryUsage = 
+exports.uvCounters = function() {};
+exports.features = {};
+
+
+/***/ }),
+/* 53 */
+/*!***********************************************!*\
+  !*** ./node_modules/path-browserify/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(process) {// .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
+// backported and transplited with Babel, with backwards-compat fixes
+
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+// resolves . and .. elements in a path array with directory names there
+// must be no slashes, empty elements, or device names (c:\) in the array
+// (so also no leading and trailing slashes - it does not distinguish
+// relative and absolute paths)
+function normalizeArray(parts, allowAboveRoot) {
+  // if the path tries to go above the root, `up` ends up > 0
+  var up = 0;
+  for (var i = parts.length - 1; i >= 0; i--) {
+    var last = parts[i];
+    if (last === '.') {
+      parts.splice(i, 1);
+    } else if (last === '..') {
+      parts.splice(i, 1);
+      up++;
+    } else if (up) {
+      parts.splice(i, 1);
+      up--;
+    }
+  }
+
+  // if the path is allowed to go above the root, restore leading ..s
+  if (allowAboveRoot) {
+    for (; up--; up) {
+      parts.unshift('..');
+    }
+  }
+
+  return parts;
+}
+
+// path.resolve([from ...], to)
+// posix version
+exports.resolve = function() {
+  var resolvedPath = '',
+      resolvedAbsolute = false;
+
+  for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
+    var path = (i >= 0) ? arguments[i] : process.cwd();
+
+    // Skip empty and invalid entries
+    if (typeof path !== 'string') {
+      throw new TypeError('Arguments to path.resolve must be strings');
+    } else if (!path) {
+      continue;
+    }
+
+    resolvedPath = path + '/' + resolvedPath;
+    resolvedAbsolute = path.charAt(0) === '/';
+  }
+
+  // At this point the path should be resolved to a full absolute path, but
+  // handle relative paths to be safe (might happen when process.cwd() fails)
+
+  // Normalize the path
+  resolvedPath = normalizeArray(filter(resolvedPath.split('/'), function(p) {
+    return !!p;
+  }), !resolvedAbsolute).join('/');
+
+  return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
+};
+
+// path.normalize(path)
+// posix version
+exports.normalize = function(path) {
+  var isAbsolute = exports.isAbsolute(path),
+      trailingSlash = substr(path, -1) === '/';
+
+  // Normalize the path
+  path = normalizeArray(filter(path.split('/'), function(p) {
+    return !!p;
+  }), !isAbsolute).join('/');
+
+  if (!path && !isAbsolute) {
+    path = '.';
+  }
+  if (path && trailingSlash) {
+    path += '/';
+  }
+
+  return (isAbsolute ? '/' : '') + path;
+};
+
+// posix version
+exports.isAbsolute = function(path) {
+  return path.charAt(0) === '/';
+};
+
+// posix version
+exports.join = function() {
+  var paths = Array.prototype.slice.call(arguments, 0);
+  return exports.normalize(filter(paths, function(p, index) {
+    if (typeof p !== 'string') {
+      throw new TypeError('Arguments to path.join must be strings');
+    }
+    return p;
+  }).join('/'));
+};
+
+
+// path.relative(from, to)
+// posix version
+exports.relative = function(from, to) {
+  from = exports.resolve(from).substr(1);
+  to = exports.resolve(to).substr(1);
+
+  function trim(arr) {
+    var start = 0;
+    for (; start < arr.length; start++) {
+      if (arr[start] !== '') break;
+    }
+
+    var end = arr.length - 1;
+    for (; end >= 0; end--) {
+      if (arr[end] !== '') break;
+    }
+
+    if (start > end) return [];
+    return arr.slice(start, end - start + 1);
+  }
+
+  var fromParts = trim(from.split('/'));
+  var toParts = trim(to.split('/'));
+
+  var length = Math.min(fromParts.length, toParts.length);
+  var samePartsLength = length;
+  for (var i = 0; i < length; i++) {
+    if (fromParts[i] !== toParts[i]) {
+      samePartsLength = i;
+      break;
+    }
+  }
+
+  var outputParts = [];
+  for (var i = samePartsLength; i < fromParts.length; i++) {
+    outputParts.push('..');
+  }
+
+  outputParts = outputParts.concat(toParts.slice(samePartsLength));
+
+  return outputParts.join('/');
+};
+
+exports.sep = '/';
+exports.delimiter = ':';
+
+exports.dirname = function (path) {
+  if (typeof path !== 'string') path = path + '';
+  if (path.length === 0) return '.';
+  var code = path.charCodeAt(0);
+  var hasRoot = code === 47 /*/*/;
+  var end = -1;
+  var matchedSlash = true;
+  for (var i = path.length - 1; i >= 1; --i) {
+    code = path.charCodeAt(i);
+    if (code === 47 /*/*/) {
+        if (!matchedSlash) {
+          end = i;
+          break;
+        }
+      } else {
+      // We saw the first non-path separator
+      matchedSlash = false;
+    }
+  }
+
+  if (end === -1) return hasRoot ? '/' : '.';
+  if (hasRoot && end === 1) {
+    // return '//';
+    // Backwards-compat fix:
+    return '/';
+  }
+  return path.slice(0, end);
+};
+
+function basename(path) {
+  if (typeof path !== 'string') path = path + '';
+
+  var start = 0;
+  var end = -1;
+  var matchedSlash = true;
+  var i;
+
+  for (i = path.length - 1; i >= 0; --i) {
+    if (path.charCodeAt(i) === 47 /*/*/) {
+        // If we reached a path separator that was not part of a set of path
+        // separators at the end of the string, stop now
+        if (!matchedSlash) {
+          start = i + 1;
+          break;
+        }
+      } else if (end === -1) {
+      // We saw the first non-path separator, mark this as the end of our
+      // path component
+      matchedSlash = false;
+      end = i + 1;
+    }
+  }
+
+  if (end === -1) return '';
+  return path.slice(start, end);
+}
+
+// Uses a mixed approach for backwards-compatibility, as ext behavior changed
+// in new Node.js versions, so only basename() above is backported here
+exports.basename = function (path, ext) {
+  var f = basename(path);
+  if (ext && f.substr(-1 * ext.length) === ext) {
+    f = f.substr(0, f.length - ext.length);
+  }
+  return f;
+};
+
+exports.extname = function (path) {
+  if (typeof path !== 'string') path = path + '';
+  var startDot = -1;
+  var startPart = 0;
+  var end = -1;
+  var matchedSlash = true;
+  // Track the state of characters (if any) we see before our first dot and
+  // after any path separator we find
+  var preDotState = 0;
+  for (var i = path.length - 1; i >= 0; --i) {
+    var code = path.charCodeAt(i);
+    if (code === 47 /*/*/) {
+        // If we reached a path separator that was not part of a set of path
+        // separators at the end of the string, stop now
+        if (!matchedSlash) {
+          startPart = i + 1;
+          break;
+        }
+        continue;
+      }
+    if (end === -1) {
+      // We saw the first non-path separator, mark this as the end of our
+      // extension
+      matchedSlash = false;
+      end = i + 1;
+    }
+    if (code === 46 /*.*/) {
+        // If this is our first dot, mark it as the start of our extension
+        if (startDot === -1)
+          startDot = i;
+        else if (preDotState !== 1)
+          preDotState = 1;
+    } else if (startDot !== -1) {
+      // We saw a non-dot and non-path separator before our dot, so we should
+      // have a good chance at having a non-empty extension
+      preDotState = -1;
+    }
+  }
+
+  if (startDot === -1 || end === -1 ||
+      // We saw a non-dot character immediately before the dot
+      preDotState === 0 ||
+      // The (right-most) trimmed path component is exactly '..'
+      preDotState === 1 && startDot === end - 1 && startDot === startPart + 1) {
+    return '';
+  }
+  return path.slice(startDot, end);
+};
+
+function filter (xs, f) {
+    if (xs.filter) return xs.filter(f);
+    var res = [];
+    for (var i = 0; i < xs.length; i++) {
+        if (f(xs[i], i, xs)) res.push(xs[i]);
+    }
+    return res;
+}
+
+// String.prototype.substr - negative index don't work in IE8
+var substr = 'ab'.substr(-1) === 'b'
+    ? function (str, start, len) { return str.substr(start, len) }
+    : function (str, start, len) {
+        if (start < 0) start = str.length + start;
+        return str.substr(start, len);
+    }
+;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 52)))
+
+/***/ }),
+/* 54 */
+/*!********************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ 44);
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+};
+
+/***/ }),
+/* 55 */
+/*!**********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/enhanceError.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+               * Update an Error with the specified config, error code, and response.
+               *
+               * @param {Error} error The error to update.
+               * @param {Object} config The config.
+               * @param {string} [code] The error code (for example, 'ECONNABORTED').
+               * @param {Object} [request] The request.
+               * @param {Object} [response] The response.
+               * @returns {Error} The error.
+               */
+module.exports = function enhanceError(error, config, code, request, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+
+  error.request = request;
+  error.response = response;
+  error.isAxiosError = true;
+
+  error.toJSON = function toJSON() {
+    return {
+      // Standard
+      message: this.message,
+      name: this.name,
+      // Microsoft
+      description: this.description,
+      number: this.number,
+      // Mozilla
+      fileName: this.fileName,
+      lineNumber: this.lineNumber,
+      columnNumber: this.columnNumber,
+      stack: this.stack,
+      // Axios
+      config: this.config,
+      code: this.code,
+      status: this.response && this.response.status ? this.response.status : null };
+
+  };
+  return error;
+};
+
+/***/ }),
+/* 56 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/adapters/xhr.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+var settle = __webpack_require__(/*! ./../core/settle */ 57);
+var cookies = __webpack_require__(/*! ./../helpers/cookies */ 59);
+var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ 47);
+var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ 60);
+var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ 63);
+var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ 64);
+var createError = __webpack_require__(/*! ../core/createError */ 58);
+var defaults = __webpack_require__(/*! ../defaults */ 51);
+var Cancel = __webpack_require__(/*! ../cancel/Cancel */ 65);
+
+module.exports = function xhrAdapter(config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+    var requestData = config.data;
+    var requestHeaders = config.headers;
+    var responseType = config.responseType;
+    var onCanceled;
+    function done() {
+      if (config.cancelToken) {
+        config.cancelToken.unsubscribe(onCanceled);
+      }
+
+      if (config.signal) {
+        config.signal.removeEventListener('abort', onCanceled);
+      }
+    }
+
+    if (utils.isFormData(requestData)) {
+      delete requestHeaders['Content-Type']; // Let the browser set it
+    }
+
+    var request = new XMLHttpRequest();
+
+    // HTTP basic authentication
+    if (config.auth) {
+      var username = config.auth.username || '';
+      var password = config.auth.password ? unescape(encodeURIComponent(config.auth.password)) : '';
+      requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
+    }
+
+    var fullPath = buildFullPath(config.baseURL, config.url);
+    request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
+
+    // Set the request timeout in MS
+    request.timeout = config.timeout;
+
+    function onloadend() {
+      if (!request) {
+        return;
+      }
+      // Prepare the response
+      var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
+      var responseData = !responseType || responseType === 'text' || responseType === 'json' ?
+      request.responseText : request.response;
+      var response = {
+        data: responseData,
+        status: request.status,
+        statusText: request.statusText,
+        headers: responseHeaders,
+        config: config,
+        request: request };
+
+
+      settle(function _resolve(value) {
+        resolve(value);
+        done();
+      }, function _reject(err) {
+        reject(err);
+        done();
+      }, response);
+
+      // Clean up request
+      request = null;
+    }
+
+    if ('onloadend' in request) {
+      // Use onloadend if available
+      request.onloadend = onloadend;
+    } else {
+      // Listen for ready state to emulate onloadend
+      request.onreadystatechange = function handleLoad() {
+        if (!request || request.readyState !== 4) {
+          return;
+        }
+
+        // The request errored out and we didn't get a response, this will be
+        // handled by onerror instead
+        // With one exception: request that using file: protocol, most browsers
+        // will return status as 0 even though it's a successful request
+        if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+          return;
+        }
+        // readystate handler is calling before onerror or ontimeout handlers,
+        // so we should call onloadend on the next 'tick'
+        setTimeout(onloadend);
+      };
+    }
+
+    // Handle browser request cancellation (as opposed to a manual cancellation)
+    request.onabort = function handleAbort() {
+      if (!request) {
+        return;
+      }
+
+      reject(createError('Request aborted', config, 'ECONNABORTED', request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle low level network errors
+    request.onerror = function handleError() {
+      // Real errors are hidden from us by the browser
+      // onerror should only fire if it's a network error
+      reject(createError('Network Error', config, null, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle timeout
+    request.ontimeout = function handleTimeout() {
+      var timeoutErrorMessage = 'timeout of ' + config.timeout + 'ms exceeded';
+      var transitional = config.transitional || defaults.transitional;
+      if (config.timeoutErrorMessage) {
+        timeoutErrorMessage = config.timeoutErrorMessage;
+      }
+      reject(createError(
+      timeoutErrorMessage,
+      config,
+      transitional.clarifyTimeoutError ? 'ETIMEDOUT' : 'ECONNABORTED',
+      request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we're in a web worker, or react-native.
+    if (utils.isStandardBrowserEnv()) {
+      // Add xsrf header
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(fullPath)) && config.xsrfCookieName ?
+      cookies.read(config.xsrfCookieName) :
+      undefined;
+
+      if (xsrfValue) {
+        requestHeaders[config.xsrfHeaderName] = xsrfValue;
+      }
+    }
+
+    // Add headers to the request
+    if ('setRequestHeader' in request) {
+      utils.forEach(requestHeaders, function setRequestHeader(val, key) {
+        if (typeof requestData === 'undefined' && key.toLowerCase() === 'content-type') {
+          // Remove Content-Type if data is undefined
+          delete requestHeaders[key];
+        } else {
+          // Otherwise add header to the request
+          request.setRequestHeader(key, val);
+        }
+      });
+    }
+
+    // Add withCredentials to request if needed
+    if (!utils.isUndefined(config.withCredentials)) {
+      request.withCredentials = !!config.withCredentials;
+    }
+
+    // Add responseType to request if needed
+    if (responseType && responseType !== 'json') {
+      request.responseType = config.responseType;
+    }
+
+    // Handle progress if needed
+    if (typeof config.onDownloadProgress === 'function') {
+      request.addEventListener('progress', config.onDownloadProgress);
+    }
+
+    // Not all browsers support upload events
+    if (typeof config.onUploadProgress === 'function' && request.upload) {
+      request.upload.addEventListener('progress', config.onUploadProgress);
+    }
+
+    if (config.cancelToken || config.signal) {
+      // Handle cancellation
+      // eslint-disable-next-line func-names
+      onCanceled = function onCanceled(cancel) {
+        if (!request) {
+          return;
+        }
+        reject(!cancel || cancel && cancel.type ? new Cancel('canceled') : cancel);
+        request.abort();
+        request = null;
+      };
+
+      config.cancelToken && config.cancelToken.subscribe(onCanceled);
+      if (config.signal) {
+        config.signal.aborted ? onCanceled() : config.signal.addEventListener('abort', onCanceled);
+      }
+    }
+
+    if (!requestData) {
+      requestData = null;
+    }
+
+    // Send the request
+    request.send(requestData);
+  });
+};
+
+/***/ }),
+/* 57 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/settle.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var createError = __webpack_require__(/*! ./createError */ 58);
+
+/**
+                                             * Resolve or reject a Promise based on response status.
+                                             *
+                                             * @param {Function} resolve A function that resolves the promise.
+                                             * @param {Function} reject A function that rejects the promise.
+                                             * @param {object} response The response.
+                                             */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+    'Request failed with status code ' + response.status,
+    response.config,
+    null,
+    response.request,
+    response));
+
+  }
+};
+
+/***/ }),
+/* 58 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/createError.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var enhanceError = __webpack_require__(/*! ./enhanceError */ 55);
+
+/**
+                                               * Create an Error with the specified message, config, error code, request and response.
+                                               *
+                                               * @param {string} message The error message.
+                                               * @param {Object} config The config.
+                                               * @param {string} [code] The error code (for example, 'ECONNABORTED').
+                                               * @param {Object} [request] The request.
+                                               * @param {Object} [response] The response.
+                                               * @returns {Error} The created error.
+                                               */
+module.exports = function createError(message, config, code, request, response) {
+  var error = new Error(message);
+  return enhanceError(error, config, code, request, response);
+};
+
+/***/ }),
+/* 59 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/cookies.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+
+module.exports =
+utils.isStandardBrowserEnv() ?
+
+// Standard browser envs support document.cookie
+function standardBrowserEnv() {
+  return {
+    write: function write(name, value, expires, path, domain, secure) {
+      var cookie = [];
+      cookie.push(name + '=' + encodeURIComponent(value));
+
+      if (utils.isNumber(expires)) {
+        cookie.push('expires=' + new Date(expires).toGMTString());
+      }
+
+      if (utils.isString(path)) {
+        cookie.push('path=' + path);
+      }
+
+      if (utils.isString(domain)) {
+        cookie.push('domain=' + domain);
+      }
+
+      if (secure === true) {
+        cookie.push('secure');
+      }
+
+      document.cookie = cookie.join('; ');
+    },
+
+    read: function read(name) {
+      var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+      return match ? decodeURIComponent(match[3]) : null;
+    },
+
+    remove: function remove(name) {
+      this.write(name, '', Date.now() - 86400000);
+    } };
+
+}() :
+
+// Non standard browser env (web workers, react-native) lack needed support.
+function nonStandardBrowserEnv() {
+  return {
+    write: function write() {},
+    read: function read() {return null;},
+    remove: function remove() {} };
+
+}();
+
+/***/ }),
+/* 60 */
+/*!***********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/buildFullPath.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ 61);
+var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ 62);
+
+/**
+                                                      * Creates a new URL by combining the baseURL with the requestedURL,
+                                                      * only when the requestedURL is not already an absolute URL.
+                                                      * If the requestURL is absolute, this function returns the requestedURL untouched.
+                                                      *
+                                                      * @param {string} baseURL The base URL
+                                                      * @param {string} requestedURL Absolute or relative URL to combine
+                                                      * @returns {string} The combined full path
+                                                      */
+module.exports = function buildFullPath(baseURL, requestedURL) {
+  if (baseURL && !isAbsoluteURL(requestedURL)) {
+    return combineURLs(baseURL, requestedURL);
+  }
+  return requestedURL;
+};
+
+/***/ }),
+/* 61 */
+/*!**************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+               * Determines whether the specified URL is absolute
+               *
+               * @param {string} url The URL to test
+               * @returns {boolean} True if the specified URL is absolute, otherwise false
+               */
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
+};
+
+/***/ }),
+/* 62 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+               * Creates a new URL by combining the specified URLs
+               *
+               * @param {string} baseURL The base URL
+               * @param {string} relativeURL The relative URL
+               * @returns {string} The combined URL
+               */
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return relativeURL ?
+  baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '') :
+  baseURL;
+};
+
+/***/ }),
+/* 63 */
+/*!*************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+
+// Headers whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+var ignoreDuplicateOf = [
+'age', 'authorization', 'content-length', 'content-type', 'etag',
+'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
+'last-modified', 'location', 'max-forwards', 'proxy-authorization',
+'referer', 'retry-after', 'user-agent'];
+
+
+/**
+                                          * Parse headers into an object
+                                          *
+                                          * ```
+                                          * Date: Wed, 27 Aug 2014 08:58:49 GMT
+                                          * Content-Type: application/json
+                                          * Connection: keep-alive
+                                          * Transfer-Encoding: chunked
+                                          * ```
+                                          *
+                                          * @param {String} headers Headers needing to be parsed
+                                          * @returns {Object} Headers parsed into an object
+                                          */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) {return parsed;}
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      if (parsed[key] && ignoreDuplicateOf.indexOf(key) >= 0) {
+        return;
+      }
+      if (key === 'set-cookie') {
+        parsed[key] = (parsed[key] ? parsed[key] : []).concat([val]);
+      } else {
+        parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+      }
+    }
+  });
+
+  return parsed;
+};
+
+/***/ }),
+/* 64 */
+/*!****************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ 44);
+
+module.exports =
+utils.isStandardBrowserEnv() ?
+
+// Standard browser envs have full support of the APIs needed to test
+// whether the request URL is of the same origin as current location.
+function standardBrowserEnv() {
+  var msie = /(msie|trident)/i.test(navigator.userAgent);
+  var urlParsingNode = document.createElement('a');
+  var originURL;
+
+  /**
+                 * Parse a URL to discover it's components
+                 *
+                 * @param {String} url The URL to be parsed
+                 * @returns {Object}
+                 */
+  function resolveURL(url) {
+    var href = url;
+
+    if (msie) {
+      // IE needs attribute set twice to normalize properties
+      urlParsingNode.setAttribute('href', href);
+      href = urlParsingNode.href;
+    }
+
+    urlParsingNode.setAttribute('href', href);
+
+    // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+    return {
+      href: urlParsingNode.href,
+      protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+      host: urlParsingNode.host,
+      search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+      hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+      hostname: urlParsingNode.hostname,
+      port: urlParsingNode.port,
+      pathname: urlParsingNode.pathname.charAt(0) === '/' ?
+      urlParsingNode.pathname :
+      '/' + urlParsingNode.pathname };
+
+  }
+
+  originURL = resolveURL(window.location.href);
+
+  /**
+                                                * Determine if a URL shares the same origin as the current location
+                                                *
+                                                * @param {String} requestURL The URL to test
+                                                * @returns {boolean} True if URL shares the same origin, otherwise false
+                                                */
+  return function isURLSameOrigin(requestURL) {
+    var parsed = utils.isString(requestURL) ? resolveURL(requestURL) : requestURL;
+    return parsed.protocol === originURL.protocol &&
+    parsed.host === originURL.host;
+  };
+}() :
+
+// Non standard browser envs (web workers, react-native) lack needed support.
+function nonStandardBrowserEnv() {
+  return function isURLSameOrigin() {
+    return true;
+  };
+}();
+
+/***/ }),
+/* 65 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/cancel/Cancel.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+               * A `Cancel` is an object that is thrown when an operation is canceled.
+               *
+               * @class
+               * @param {string=} message The message.
+               */
+function Cancel(message) {
+  this.message = message;
+}
+
+Cancel.prototype.toString = function toString() {
+  return 'Cancel' + (this.message ? ': ' + this.message : '');
+};
+
+Cancel.prototype.__CANCEL__ = true;
+
+module.exports = Cancel;
+
+/***/ }),
+/* 66 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/cancel/isCancel.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function isCancel(value) {
+  return !!(value && value.__CANCEL__);
+};
+
+/***/ }),
+/* 67 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/core/mergeConfig.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ 44);
+
+/**
+                                  * Config-specific merge-function which creates a new config-object
+                                  * by merging two configuration objects together.
+                                  *
+                                  * @param {Object} config1
+                                  * @param {Object} config2
+                                  * @returns {Object} New object resulting from merging config2 to config1
+                                  */
+module.exports = function mergeConfig(config1, config2) {
+  // eslint-disable-next-line no-param-reassign
+  config2 = config2 || {};
+  var config = {};
+
+  function getMergedValue(target, source) {
+    if (utils.isPlainObject(target) && utils.isPlainObject(source)) {
+      return utils.merge(target, source);
+    } else if (utils.isPlainObject(source)) {
+      return utils.merge({}, source);
+    } else if (utils.isArray(source)) {
+      return source.slice();
+    }
+    return source;
+  }
+
+  // eslint-disable-next-line consistent-return
+  function mergeDeepProperties(prop) {
+    if (!utils.isUndefined(config2[prop])) {
+      return getMergedValue(config1[prop], config2[prop]);
+    } else if (!utils.isUndefined(config1[prop])) {
+      return getMergedValue(undefined, config1[prop]);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function valueFromConfig2(prop) {
+    if (!utils.isUndefined(config2[prop])) {
+      return getMergedValue(undefined, config2[prop]);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function defaultToConfig2(prop) {
+    if (!utils.isUndefined(config2[prop])) {
+      return getMergedValue(undefined, config2[prop]);
+    } else if (!utils.isUndefined(config1[prop])) {
+      return getMergedValue(undefined, config1[prop]);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function mergeDirectKeys(prop) {
+    if (prop in config2) {
+      return getMergedValue(config1[prop], config2[prop]);
+    } else if (prop in config1) {
+      return getMergedValue(undefined, config1[prop]);
+    }
+  }
+
+  var mergeMap = {
+    'url': valueFromConfig2,
+    'method': valueFromConfig2,
+    'data': valueFromConfig2,
+    'baseURL': defaultToConfig2,
+    'transformRequest': defaultToConfig2,
+    'transformResponse': defaultToConfig2,
+    'paramsSerializer': defaultToConfig2,
+    'timeout': defaultToConfig2,
+    'timeoutMessage': defaultToConfig2,
+    'withCredentials': defaultToConfig2,
+    'adapter': defaultToConfig2,
+    'responseType': defaultToConfig2,
+    'xsrfCookieName': defaultToConfig2,
+    'xsrfHeaderName': defaultToConfig2,
+    'onUploadProgress': defaultToConfig2,
+    'onDownloadProgress': defaultToConfig2,
+    'decompress': defaultToConfig2,
+    'maxContentLength': defaultToConfig2,
+    'maxBodyLength': defaultToConfig2,
+    'transport': defaultToConfig2,
+    'httpAgent': defaultToConfig2,
+    'httpsAgent': defaultToConfig2,
+    'cancelToken': defaultToConfig2,
+    'socketPath': defaultToConfig2,
+    'responseEncoding': defaultToConfig2,
+    'validateStatus': mergeDirectKeys };
+
+
+  utils.forEach(Object.keys(config1).concat(Object.keys(config2)), function computeConfigValue(prop) {
+    var merge = mergeMap[prop] || mergeDeepProperties;
+    var configValue = merge(prop);
+    utils.isUndefined(configValue) && merge !== mergeDirectKeys || (config[prop] = configValue);
+  });
+
+  return config;
+};
+
+/***/ }),
+/* 68 */
+/*!**********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/validator.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var VERSION = __webpack_require__(/*! ../env/data */ 69).version;
+
+var validators = {};
+
+// eslint-disable-next-line func-names
+['object', 'boolean', 'number', 'function', 'string', 'symbol'].forEach(function (type, i) {
+  validators[type] = function validator(thing) {
+    return typeof thing === type || 'a' + (i < 1 ? 'n ' : ' ') + type;
+  };
+});
+
+var deprecatedWarnings = {};
+
+/**
+                              * Transitional option validator
+                              * @param {function|boolean?} validator - set to false if the transitional option has been removed
+                              * @param {string?} version - deprecated version / removed since version
+                              * @param {string?} message - some message with additional info
+                              * @returns {function}
+                              */
+validators.transitional = function transitional(validator, version, message) {
+  function formatMessage(opt, desc) {
+    return '[Axios v' + VERSION + '] Transitional option \'' + opt + '\'' + desc + (message ? '. ' + message : '');
+  }
+
+  // eslint-disable-next-line func-names
+  return function (value, opt, opts) {
+    if (validator === false) {
+      throw new Error(formatMessage(opt, ' has been removed' + (version ? ' in ' + version : '')));
+    }
+
+    if (version && !deprecatedWarnings[opt]) {
+      deprecatedWarnings[opt] = true;
+      // eslint-disable-next-line no-console
+      console.warn(
+      formatMessage(
+      opt,
+      ' has been deprecated since v' + version + ' and will be removed in the near future'));
+
+
+    }
+
+    return validator ? validator(value, opt, opts) : true;
+  };
+};
+
+/**
+    * Assert object's properties type
+    * @param {object} options
+    * @param {object} schema
+    * @param {boolean?} allowUnknown
+    */
+
+function assertOptions(options, schema, allowUnknown) {
+  if (typeof options !== 'object') {
+    throw new TypeError('options must be an object');
+  }
+  var keys = Object.keys(options);
+  var i = keys.length;
+  while (i-- > 0) {
+    var opt = keys[i];
+    var validator = schema[opt];
+    if (validator) {
+      var value = options[opt];
+      var result = value === undefined || validator(value, opt, options);
+      if (result !== true) {
+        throw new TypeError('option ' + opt + ' must be ' + result);
+      }
+      continue;
+    }
+    if (allowUnknown !== true) {
+      throw Error('Unknown option ' + opt);
+    }
+  }
+}
+
+module.exports = {
+  assertOptions: assertOptions,
+  validators: validators };
+
+/***/ }),
+/* 69 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/env/data.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "version": "0.22.0" };
+
+/***/ }),
+/* 70 */
+/*!***********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var Cancel = __webpack_require__(/*! ./Cancel */ 65);
+
+/**
+                                   * A `CancelToken` is an object that can be used to request cancellation of an operation.
+                                   *
+                                   * @class
+                                   * @param {Function} executor The executor function.
+                                   */
+function CancelToken(executor) {
+  if (typeof executor !== 'function') {
+    throw new TypeError('executor must be a function.');
+  }
+
+  var resolvePromise;
+
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+
+  // eslint-disable-next-line func-names
+  this.promise.then(function (cancel) {
+    if (!token._listeners) return;
+
+    var i;
+    var l = token._listeners.length;
+
+    for (i = 0; i < l; i++) {
+      token._listeners[i](cancel);
+    }
+    token._listeners = null;
+  });
+
+  // eslint-disable-next-line func-names
+  this.promise.then = function (onfulfilled) {
+    var _resolve;
+    // eslint-disable-next-line func-names
+    var promise = new Promise(function (resolve) {
+      token.subscribe(resolve);
+      _resolve = resolve;
+    }).then(onfulfilled);
+
+    promise.cancel = function reject() {
+      token.unsubscribe(_resolve);
+    };
+
+    return promise;
+  };
+
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}
+
+/**
+   * Throws a `Cancel` if cancellation has been requested.
+   */
+CancelToken.prototype.throwIfRequested = function throwIfRequested() {
+  if (this.reason) {
+    throw this.reason;
+  }
+};
+
+/**
+    * Subscribe to the cancel signal
+    */
+
+CancelToken.prototype.subscribe = function subscribe(listener) {
+  if (this.reason) {
+    listener(this.reason);
+    return;
+  }
+
+  if (this._listeners) {
+    this._listeners.push(listener);
+  } else {
+    this._listeners = [listener];
+  }
+};
+
+/**
+    * Unsubscribe from the cancel signal
+    */
+
+CancelToken.prototype.unsubscribe = function unsubscribe(listener) {
+  if (!this._listeners) {
+    return;
+  }
+  var index = this._listeners.indexOf(listener);
+  if (index !== -1) {
+    this._listeners.splice(index, 1);
+  }
+};
+
+/**
+    * Returns an object that contains a new `CancelToken` and a function that, when called,
+    * cancels the `CancelToken`.
+    */
+CancelToken.source = function source() {
+  var cancel;
+  var token = new CancelToken(function executor(c) {
+    cancel = c;
+  });
+  return {
+    token: token,
+    cancel: cancel };
+
+};
+
+module.exports = CancelToken;
+
+/***/ }),
+/* 71 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/spread.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+               * Syntactic sugar for invoking a function and expanding an array for arguments.
+               *
+               * Common use case would be to use `Function.prototype.apply`.
+               *
+               *  ```js
+               *  function f(x, y, z) {}
+               *  var args = [1, 2, 3];
+               *  f.apply(null, args);
+               *  ```
+               *
+               * With `spread` this example can be re-written.
+               *
+               *  ```js
+               *  spread(function(x, y, z) {})([1, 2, 3]);
+               *  ```
+               *
+               * @param {Function} callback
+               * @returns {Function}
+               */
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+
+/***/ }),
+/* 72 */
+/*!*************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/axios/lib/helpers/isAxiosError.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+               * Determines whether the payload is an error thrown by Axios
+               *
+               * @param {*} payload The value to test
+               * @returns {boolean} True if the payload is an error thrown by Axios, otherwise false
+               */
+module.exports = function isAxiosError(payload) {
+  return typeof payload === 'object' && payload.isAxiosError === true;
+};
+
+/***/ }),
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */
+/*!**********************************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-mixins.js ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // mescroll-body 和 mescroll-uni 通用
+var MescrollMixin = {
+  data: function data() {
+    return {
+      mescroll: null //mescroll实例对象
+    };
+  },
+  // 注册系统自带的下拉刷新 (配置down.native为true时生效, 还需在pages配置enablePullDownRefresh:true;详请参考mescroll-native的案例)
+  onPullDownRefresh: function onPullDownRefresh() {
+    this.mescroll && this.mescroll.onPullDownRefresh();
+  },
+  // 注册列表滚动事件,用于判定在顶部可下拉刷新,在指定位置可显示隐藏回到顶部按钮 (此方法为页面生命周期,无法在子组件中触发, 仅在mescroll-body生效)
+  onPageScroll: function onPageScroll(e) {
+    this.mescroll && this.mescroll.onPageScroll(e);
+  },
+  // 注册滚动到底部的事件,用于上拉加载 (此方法为页面生命周期,无法在子组件中触发, 仅在mescroll-body生效)
+  onReachBottom: function onReachBottom() {
+    this.mescroll && this.mescroll.onReachBottom();
+  },
+  methods: {
+    // mescroll组件初始化的回调,可获取到mescroll对象
+    mescrollInit: function mescrollInit(mescroll) {
+      this.mescroll = mescroll;
+      this.mescrollInitByRef(); // 兼容字节跳动小程序
+    },
+    // 以ref的方式初始化mescroll对象 (兼容字节跳动小程序)
+    mescrollInitByRef: function mescrollInitByRef() {
+      if (!this.mescroll || !this.mescroll.resetUpScroll) {
+        var mescrollRef = this.$refs.mescrollRef;
+        if (mescrollRef) this.mescroll = mescrollRef.mescroll;
+      }
+    },
+    // 下拉刷新的回调 (mixin默认resetUpScroll)
+    downCallback: function downCallback() {var _this = this;
+      if (this.mescroll.optUp.use) {
+        this.mescroll.resetUpScroll();
+      } else {
+        setTimeout(function () {
+          _this.mescroll.endSuccess();
+        }, 500);
+      }
+    },
+    // 上拉加载的回调
+    upCallback: function upCallback() {var _this2 = this;
+      // mixin默认延时500自动结束加载
+      setTimeout(function () {
+        _this2.mescroll.endErr();
+      }, 500);
+    } },
+
+  mounted: function mounted() {
+    this.mescrollInitByRef(); // 兼容字节跳动小程序, 避免未设置@init或@init此时未能取到ref的情况
+  } };var _default =
+
+
+
+MescrollMixin;exports.default = _default;
+
+/***/ }),
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */,
+/* 84 */,
+/* 85 */,
+/* 86 */,
+/* 87 */
+/*!**************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/util/api.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.wantEatUrl = exports.approvalUrl = exports.userDataUrl = exports.revertPushDomain = exports.commentPushDomain = exports.shortCommentPushDomain = exports.discussPushDomain = exports.photoDomain = exports.photoTokenUrl = exports.foodPushUrl = void 0; // 美食发布
+var foodPushUrl = "/eat/food_info";
+// 图片上传接口
+exports.foodPushUrl = foodPushUrl;var photoTokenUrl = "/upload";
+
+// 上传的图片前缀
+exports.photoTokenUrl = photoTokenUrl;var photoDomain = "https://hotschool.ltd/";
+
+// 讨论发布url
+exports.photoDomain = photoDomain;var discussPushDomain = "/eat/discuss_info";
+
+// 短评发布url
+exports.discussPushDomain = discussPushDomain;var shortCommentPushDomain = "/eat/short_comment";
+
+// 评论发布url
+exports.shortCommentPushDomain = shortCommentPushDomain;var commentPushDomain = "/eat/comment";
+
+// 回复发布url
+exports.commentPushDomain = commentPushDomain;var revertPushDomain = "/eat/revert";
+
+// 我的页面数据展示
+exports.revertPushDomain = revertPushDomain;var userDataUrl = "/user/self_data";
+
+// 点赞url
+exports.userDataUrl = userDataUrl;var approvalUrl = "/op/approval";
+
+// 想吃url
+exports.approvalUrl = approvalUrl;var wantEatUrl = "/op/want_eat";exports.wantEatUrl = wantEatUrl;
+
+/***/ }),
+/* 88 */
+/*!**************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/util/encrypt/encrypt.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.encrypt = encrypt;var CryptoJS = __webpack_require__(/*! crypto-js */ 89);
+
+// 加密post请求数据
+function encrypt(data) {
+  var iv = CryptoJS.enc.Utf8.parse("\x01\x02\x03\x04\x05\x06\x07\x08\x01\x02\x03\x04\x05\x06\x07\x08");
+  var key = CryptoJS.enc.Utf8.parse("ytUQ7l2ZZu8mLvJZ");
+  var encrypt = CryptoJS.AES.encrypt(JSON.stringify(data), key, {
+    iv: iv,
+    mode: CryptoJS.mode.CBC,
+    padding: CryptoJS.pad.Pkcs7 });
+
+  var encRes = encrypt.toString();
+  var res = {
+    "body_string": encRes };
+
+  return res;
+}
+
+/***/ }),
+/* 89 */
+/*!**********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./x64-core */ 92), __webpack_require__(/*! ./lib-typedarrays */ 93), __webpack_require__(/*! ./enc-utf16 */ 94), __webpack_require__(/*! ./enc-base64 */ 95), __webpack_require__(/*! ./enc-base64url */ 96), __webpack_require__(/*! ./md5 */ 97), __webpack_require__(/*! ./sha1 */ 98), __webpack_require__(/*! ./sha256 */ 99), __webpack_require__(/*! ./sha224 */ 100), __webpack_require__(/*! ./sha512 */ 101), __webpack_require__(/*! ./sha384 */ 102), __webpack_require__(/*! ./sha3 */ 103), __webpack_require__(/*! ./ripemd160 */ 104), __webpack_require__(/*! ./hmac */ 105), __webpack_require__(/*! ./pbkdf2 */ 106), __webpack_require__(/*! ./evpkdf */ 107), __webpack_require__(/*! ./cipher-core */ 108), __webpack_require__(/*! ./mode-cfb */ 109), __webpack_require__(/*! ./mode-ctr */ 110), __webpack_require__(/*! ./mode-ctr-gladman */ 111), __webpack_require__(/*! ./mode-ofb */ 112), __webpack_require__(/*! ./mode-ecb */ 113), __webpack_require__(/*! ./pad-ansix923 */ 114), __webpack_require__(/*! ./pad-iso10126 */ 115), __webpack_require__(/*! ./pad-iso97971 */ 116), __webpack_require__(/*! ./pad-zeropadding */ 117), __webpack_require__(/*! ./pad-nopadding */ 118), __webpack_require__(/*! ./format-hex */ 119), __webpack_require__(/*! ./aes */ 120), __webpack_require__(/*! ./tripledes */ 121), __webpack_require__(/*! ./rc4 */ 122), __webpack_require__(/*! ./rabbit */ 123), __webpack_require__(/*! ./rabbit-legacy */ 124));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  return CryptoJS;
+
+});
+
+/***/ }),
+/* 90 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/core.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory();
+  } else
+  {}
+})(this, function () {
+
+  /*globals window, global, require*/
+
+  /**
+                                       * CryptoJS core components.
+                                       */
+  var CryptoJS = CryptoJS || function (Math, undefined) {
+
+    var crypto;
+
+    // Native crypto from window (Browser)
+    if (typeof window !== 'undefined' && window.crypto) {
+      crypto = window.crypto;
+    }
+
+    // Native crypto in web worker (Browser)
+    if (typeof self !== 'undefined' && self.crypto) {
+      crypto = self.crypto;
+    }
+
+    // Native crypto from worker
+    if (typeof globalThis !== 'undefined' && globalThis.crypto) {
+      crypto = globalThis.crypto;
+    }
+
+    // Native (experimental IE 11) crypto from window (Browser)
+    if (!crypto && typeof window !== 'undefined' && window.msCrypto) {
+      crypto = window.msCrypto;
+    }
+
+    // Native crypto from global (NodeJS)
+    if (!crypto && typeof global !== 'undefined' && global.crypto) {
+      crypto = global.crypto;
+    }
+
+    // Native crypto import via require (NodeJS)
+    if (!crypto && "function" === 'function') {
+      try {
+        crypto = __webpack_require__(/*! crypto */ 91);
+      } catch (err) {}
+    }
+
+    /*
+       * Cryptographically secure pseudorandom number generator
+       *
+       * As Math.random() is cryptographically not safe to use
+       */
+    var cryptoSecureRandomInt = function cryptoSecureRandomInt() {
+      if (crypto) {
+        // Use getRandomValues method (Browser)
+        if (typeof crypto.getRandomValues === 'function') {
+          try {
+            return crypto.getRandomValues(new Uint32Array(1))[0];
+          } catch (err) {}
+        }
+
+        // Use randomBytes method (NodeJS)
+        if (typeof crypto.randomBytes === 'function') {
+          try {
+            return crypto.randomBytes(4).readInt32LE();
+          } catch (err) {}
+        }
+      }
+
+      throw new Error('Native crypto module could not be used to get secure random number.');
+    };
+
+    /*
+        * Local polyfill of Object.create
+         */
+
+    var create = Object.create || function () {
+      function F() {}
+
+      return function (obj) {
+        var subtype;
+
+        F.prototype = obj;
+
+        subtype = new F();
+
+        F.prototype = null;
+
+        return subtype;
+      };
+    }();
+
+    /**
+          * CryptoJS namespace.
+          */
+    var C = {};
+
+    /**
+                 * Library namespace.
+                 */
+    var C_lib = C.lib = {};
+
+    /**
+                             * Base object for prototypal inheritance.
+                             */
+    var Base = C_lib.Base = function () {
+
+
+      return {
+        /**
+                * Creates a new object that inherits from this object.
+                *
+                * @param {Object} overrides Properties to copy into the new object.
+                *
+                * @return {Object} The new object.
+                *
+                * @static
+                *
+                * @example
+                *
+                *     var MyType = CryptoJS.lib.Base.extend({
+                *         field: 'value',
+                *
+                *         method: function () {
+                *         }
+                *     });
+                */
+        extend: function extend(overrides) {
+          // Spawn
+          var subtype = create(this);
+
+          // Augment
+          if (overrides) {
+            subtype.mixIn(overrides);
+          }
+
+          // Create default initializer
+          if (!subtype.hasOwnProperty('init') || this.init === subtype.init) {
+            subtype.init = function () {
+              subtype.$super.init.apply(this, arguments);
+            };
+          }
+
+          // Initializer's prototype is the subtype object
+          subtype.init.prototype = subtype;
+
+          // Reference supertype
+          subtype.$super = this;
+
+          return subtype;
+        },
+
+        /**
+            * Extends this object and runs the init method.
+            * Arguments to create() will be passed to init().
+            *
+            * @return {Object} The new object.
+            *
+            * @static
+            *
+            * @example
+            *
+            *     var instance = MyType.create();
+            */
+        create: function create() {
+          var instance = this.extend();
+          instance.init.apply(instance, arguments);
+
+          return instance;
+        },
+
+        /**
+            * Initializes a newly created object.
+            * Override this method to add some logic when your objects are created.
+            *
+            * @example
+            *
+            *     var MyType = CryptoJS.lib.Base.extend({
+            *         init: function () {
+            *             // ...
+            *         }
+            *     });
+            */
+        init: function init() {
+        },
+
+        /**
+            * Copies properties into this object.
+            *
+            * @param {Object} properties The properties to mix in.
+            *
+            * @example
+            *
+            *     MyType.mixIn({
+            *         field: 'value'
+            *     });
+            */
+        mixIn: function mixIn(properties) {
+          for (var propertyName in properties) {
+            if (properties.hasOwnProperty(propertyName)) {
+              this[propertyName] = properties[propertyName];
+            }
+          }
+
+          // IE won't copy toString using the loop above
+          if (properties.hasOwnProperty('toString')) {
+            this.toString = properties.toString;
+          }
+        },
+
+        /**
+            * Creates a copy of this object.
+            *
+            * @return {Object} The clone.
+            *
+            * @example
+            *
+            *     var clone = instance.clone();
+            */
+        clone: function clone() {
+          return this.init.prototype.extend(this);
+        } };
+
+    }();
+
+    /**
+          * An array of 32-bit words.
+          *
+          * @property {Array} words The array of 32-bit words.
+          * @property {number} sigBytes The number of significant bytes in this word array.
+          */
+    var WordArray = C_lib.WordArray = Base.extend({
+      /**
+                                                     * Initializes a newly created word array.
+                                                     *
+                                                     * @param {Array} words (Optional) An array of 32-bit words.
+                                                     * @param {number} sigBytes (Optional) The number of significant bytes in the words.
+                                                     *
+                                                     * @example
+                                                     *
+                                                     *     var wordArray = CryptoJS.lib.WordArray.create();
+                                                     *     var wordArray = CryptoJS.lib.WordArray.create([0x00010203, 0x04050607]);
+                                                     *     var wordArray = CryptoJS.lib.WordArray.create([0x00010203, 0x04050607], 6);
+                                                     */
+      init: function init(words, sigBytes) {
+        words = this.words = words || [];
+
+        if (sigBytes != undefined) {
+          this.sigBytes = sigBytes;
+        } else {
+          this.sigBytes = words.length * 4;
+        }
+      },
+
+      /**
+          * Converts this word array to a string.
+          *
+          * @param {Encoder} encoder (Optional) The encoding strategy to use. Default: CryptoJS.enc.Hex
+          *
+          * @return {string} The stringified word array.
+          *
+          * @example
+          *
+          *     var string = wordArray + '';
+          *     var string = wordArray.toString();
+          *     var string = wordArray.toString(CryptoJS.enc.Utf8);
+          */
+      toString: function toString(encoder) {
+        return (encoder || Hex).stringify(this);
+      },
+
+      /**
+          * Concatenates a word array to this word array.
+          *
+          * @param {WordArray} wordArray The word array to append.
+          *
+          * @return {WordArray} This word array.
+          *
+          * @example
+          *
+          *     wordArray1.concat(wordArray2);
+          */
+      concat: function concat(wordArray) {
+        // Shortcuts
+        var thisWords = this.words;
+        var thatWords = wordArray.words;
+        var thisSigBytes = this.sigBytes;
+        var thatSigBytes = wordArray.sigBytes;
+
+        // Clamp excess bits
+        this.clamp();
+
+        // Concat
+        if (thisSigBytes % 4) {
+          // Copy one byte at a time
+          for (var i = 0; i < thatSigBytes; i++) {
+            var thatByte = thatWords[i >>> 2] >>> 24 - i % 4 * 8 & 0xff;
+            thisWords[thisSigBytes + i >>> 2] |= thatByte << 24 - (thisSigBytes + i) % 4 * 8;
+          }
+        } else {
+          // Copy one word at a time
+          for (var j = 0; j < thatSigBytes; j += 4) {
+            thisWords[thisSigBytes + j >>> 2] = thatWords[j >>> 2];
+          }
+        }
+        this.sigBytes += thatSigBytes;
+
+        // Chainable
+        return this;
+      },
+
+      /**
+          * Removes insignificant bits.
+          *
+          * @example
+          *
+          *     wordArray.clamp();
+          */
+      clamp: function clamp() {
+        // Shortcuts
+        var words = this.words;
+        var sigBytes = this.sigBytes;
+
+        // Clamp
+        words[sigBytes >>> 2] &= 0xffffffff << 32 - sigBytes % 4 * 8;
+        words.length = Math.ceil(sigBytes / 4);
+      },
+
+      /**
+          * Creates a copy of this word array.
+          *
+          * @return {WordArray} The clone.
+          *
+          * @example
+          *
+          *     var clone = wordArray.clone();
+          */
+      clone: function clone() {
+        var clone = Base.clone.call(this);
+        clone.words = this.words.slice(0);
+
+        return clone;
+      },
+
+      /**
+          * Creates a word array filled with random bytes.
+          *
+          * @param {number} nBytes The number of random bytes to generate.
+          *
+          * @return {WordArray} The random word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.lib.WordArray.random(16);
+          */
+      random: function random(nBytes) {
+        var words = [];
+
+        for (var i = 0; i < nBytes; i += 4) {
+          words.push(cryptoSecureRandomInt());
+        }
+
+        return new WordArray.init(words, nBytes);
+      } });
+
+
+    /**
+             * Encoder namespace.
+             */
+    var C_enc = C.enc = {};
+
+    /**
+                             * Hex encoding strategy.
+                             */
+    var Hex = C_enc.Hex = {
+      /**
+                             * Converts a word array to a hex string.
+                             *
+                             * @param {WordArray} wordArray The word array.
+                             *
+                             * @return {string} The hex string.
+                             *
+                             * @static
+                             *
+                             * @example
+                             *
+                             *     var hexString = CryptoJS.enc.Hex.stringify(wordArray);
+                             */
+      stringify: function stringify(wordArray) {
+        // Shortcuts
+        var words = wordArray.words;
+        var sigBytes = wordArray.sigBytes;
+
+        // Convert
+        var hexChars = [];
+        for (var i = 0; i < sigBytes; i++) {
+          var bite = words[i >>> 2] >>> 24 - i % 4 * 8 & 0xff;
+          hexChars.push((bite >>> 4).toString(16));
+          hexChars.push((bite & 0x0f).toString(16));
+        }
+
+        return hexChars.join('');
+      },
+
+      /**
+          * Converts a hex string to a word array.
+          *
+          * @param {string} hexStr The hex string.
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Hex.parse(hexString);
+          */
+      parse: function parse(hexStr) {
+        // Shortcut
+        var hexStrLength = hexStr.length;
+
+        // Convert
+        var words = [];
+        for (var i = 0; i < hexStrLength; i += 2) {
+          words[i >>> 3] |= parseInt(hexStr.substr(i, 2), 16) << 24 - i % 8 * 4;
+        }
+
+        return new WordArray.init(words, hexStrLength / 2);
+      } };
+
+
+    /**
+            * Latin1 encoding strategy.
+            */
+    var Latin1 = C_enc.Latin1 = {
+      /**
+                                   * Converts a word array to a Latin1 string.
+                                   *
+                                   * @param {WordArray} wordArray The word array.
+                                   *
+                                   * @return {string} The Latin1 string.
+                                   *
+                                   * @static
+                                   *
+                                   * @example
+                                   *
+                                   *     var latin1String = CryptoJS.enc.Latin1.stringify(wordArray);
+                                   */
+      stringify: function stringify(wordArray) {
+        // Shortcuts
+        var words = wordArray.words;
+        var sigBytes = wordArray.sigBytes;
+
+        // Convert
+        var latin1Chars = [];
+        for (var i = 0; i < sigBytes; i++) {
+          var bite = words[i >>> 2] >>> 24 - i % 4 * 8 & 0xff;
+          latin1Chars.push(String.fromCharCode(bite));
+        }
+
+        return latin1Chars.join('');
+      },
+
+      /**
+          * Converts a Latin1 string to a word array.
+          *
+          * @param {string} latin1Str The Latin1 string.
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Latin1.parse(latin1String);
+          */
+      parse: function parse(latin1Str) {
+        // Shortcut
+        var latin1StrLength = latin1Str.length;
+
+        // Convert
+        var words = [];
+        for (var i = 0; i < latin1StrLength; i++) {
+          words[i >>> 2] |= (latin1Str.charCodeAt(i) & 0xff) << 24 - i % 4 * 8;
+        }
+
+        return new WordArray.init(words, latin1StrLength);
+      } };
+
+
+    /**
+            * UTF-8 encoding strategy.
+            */
+    var Utf8 = C_enc.Utf8 = {
+      /**
+                               * Converts a word array to a UTF-8 string.
+                               *
+                               * @param {WordArray} wordArray The word array.
+                               *
+                               * @return {string} The UTF-8 string.
+                               *
+                               * @static
+                               *
+                               * @example
+                               *
+                               *     var utf8String = CryptoJS.enc.Utf8.stringify(wordArray);
+                               */
+      stringify: function stringify(wordArray) {
+        try {
+          return decodeURIComponent(escape(Latin1.stringify(wordArray)));
+        } catch (e) {
+          throw new Error('Malformed UTF-8 data');
+        }
+      },
+
+      /**
+          * Converts a UTF-8 string to a word array.
+          *
+          * @param {string} utf8Str The UTF-8 string.
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Utf8.parse(utf8String);
+          */
+      parse: function parse(utf8Str) {
+        return Latin1.parse(unescape(encodeURIComponent(utf8Str)));
+      } };
+
+
+    /**
+            * Abstract buffered block algorithm template.
+            *
+            * The property blockSize must be implemented in a concrete subtype.
+            *
+            * @property {number} _minBufferSize The number of blocks that should be kept unprocessed in the buffer. Default: 0
+            */
+    var BufferedBlockAlgorithm = C_lib.BufferedBlockAlgorithm = Base.extend({
+      /**
+                                                                               * Resets this block algorithm's data buffer to its initial state.
+                                                                               *
+                                                                               * @example
+                                                                               *
+                                                                               *     bufferedBlockAlgorithm.reset();
+                                                                               */
+      reset: function reset() {
+        // Initial values
+        this._data = new WordArray.init();
+        this._nDataBytes = 0;
+      },
+
+      /**
+          * Adds new data to this block algorithm's buffer.
+          *
+          * @param {WordArray|string} data The data to append. Strings are converted to a WordArray using UTF-8.
+          *
+          * @example
+          *
+          *     bufferedBlockAlgorithm._append('data');
+          *     bufferedBlockAlgorithm._append(wordArray);
+          */
+      _append: function _append(data) {
+        // Convert string to WordArray, else assume WordArray already
+        if (typeof data == 'string') {
+          data = Utf8.parse(data);
+        }
+
+        // Append
+        this._data.concat(data);
+        this._nDataBytes += data.sigBytes;
+      },
+
+      /**
+          * Processes available data blocks.
+          *
+          * This method invokes _doProcessBlock(offset), which must be implemented by a concrete subtype.
+          *
+          * @param {boolean} doFlush Whether all blocks and partial blocks should be processed.
+          *
+          * @return {WordArray} The processed data.
+          *
+          * @example
+          *
+          *     var processedData = bufferedBlockAlgorithm._process();
+          *     var processedData = bufferedBlockAlgorithm._process(!!'flush');
+          */
+      _process: function _process(doFlush) {
+        var processedWords;
+
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+        var dataSigBytes = data.sigBytes;
+        var blockSize = this.blockSize;
+        var blockSizeBytes = blockSize * 4;
+
+        // Count blocks ready
+        var nBlocksReady = dataSigBytes / blockSizeBytes;
+        if (doFlush) {
+          // Round up to include partial blocks
+          nBlocksReady = Math.ceil(nBlocksReady);
+        } else {
+          // Round down to include only full blocks,
+          // less the number of blocks that must remain in the buffer
+          nBlocksReady = Math.max((nBlocksReady | 0) - this._minBufferSize, 0);
+        }
+
+        // Count words ready
+        var nWordsReady = nBlocksReady * blockSize;
+
+        // Count bytes ready
+        var nBytesReady = Math.min(nWordsReady * 4, dataSigBytes);
+
+        // Process blocks
+        if (nWordsReady) {
+          for (var offset = 0; offset < nWordsReady; offset += blockSize) {
+            // Perform concrete-algorithm logic
+            this._doProcessBlock(dataWords, offset);
+          }
+
+          // Remove processed words
+          processedWords = dataWords.splice(0, nWordsReady);
+          data.sigBytes -= nBytesReady;
+        }
+
+        // Return processed words
+        return new WordArray.init(processedWords, nBytesReady);
+      },
+
+      /**
+          * Creates a copy of this object.
+          *
+          * @return {Object} The clone.
+          *
+          * @example
+          *
+          *     var clone = bufferedBlockAlgorithm.clone();
+          */
+      clone: function clone() {
+        var clone = Base.clone.call(this);
+        clone._data = this._data.clone();
+
+        return clone;
+      },
+
+      _minBufferSize: 0 });
+
+
+    /**
+                             * Abstract hasher template.
+                             *
+                             * @property {number} blockSize The number of 32-bit words this hasher operates on. Default: 16 (512 bits)
+                             */
+    var Hasher = C_lib.Hasher = BufferedBlockAlgorithm.extend({
+      /**
+                                                                 * Configuration options.
+                                                                 */
+      cfg: Base.extend(),
+
+      /**
+                           * Initializes a newly created hasher.
+                           *
+                           * @param {Object} cfg (Optional) The configuration options to use for this hash computation.
+                           *
+                           * @example
+                           *
+                           *     var hasher = CryptoJS.algo.SHA256.create();
+                           */
+      init: function init(cfg) {
+        // Apply config defaults
+        this.cfg = this.cfg.extend(cfg);
+
+        // Set initial values
+        this.reset();
+      },
+
+      /**
+          * Resets this hasher to its initial state.
+          *
+          * @example
+          *
+          *     hasher.reset();
+          */
+      reset: function reset() {
+        // Reset data buffer
+        BufferedBlockAlgorithm.reset.call(this);
+
+        // Perform concrete-hasher logic
+        this._doReset();
+      },
+
+      /**
+          * Updates this hasher with a message.
+          *
+          * @param {WordArray|string} messageUpdate The message to append.
+          *
+          * @return {Hasher} This hasher.
+          *
+          * @example
+          *
+          *     hasher.update('message');
+          *     hasher.update(wordArray);
+          */
+      update: function update(messageUpdate) {
+        // Append
+        this._append(messageUpdate);
+
+        // Update the hash
+        this._process();
+
+        // Chainable
+        return this;
+      },
+
+      /**
+          * Finalizes the hash computation.
+          * Note that the finalize operation is effectively a destructive, read-once operation.
+          *
+          * @param {WordArray|string} messageUpdate (Optional) A final message update.
+          *
+          * @return {WordArray} The hash.
+          *
+          * @example
+          *
+          *     var hash = hasher.finalize();
+          *     var hash = hasher.finalize('message');
+          *     var hash = hasher.finalize(wordArray);
+          */
+      finalize: function finalize(messageUpdate) {
+        // Final message update
+        if (messageUpdate) {
+          this._append(messageUpdate);
+        }
+
+        // Perform concrete-hasher logic
+        var hash = this._doFinalize();
+
+        return hash;
+      },
+
+      blockSize: 512 / 32,
+
+      /**
+                            * Creates a shortcut function to a hasher's object interface.
+                            *
+                            * @param {Hasher} hasher The hasher to create a helper for.
+                            *
+                            * @return {Function} The shortcut function.
+                            *
+                            * @static
+                            *
+                            * @example
+                            *
+                            *     var SHA256 = CryptoJS.lib.Hasher._createHelper(CryptoJS.algo.SHA256);
+                            */
+      _createHelper: function _createHelper(hasher) {
+        return function (message, cfg) {
+          return new hasher.init(cfg).finalize(message);
+        };
+      },
+
+      /**
+          * Creates a shortcut function to the HMAC's object interface.
+          *
+          * @param {Hasher} hasher The hasher to use in this HMAC helper.
+          *
+          * @return {Function} The shortcut function.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var HmacSHA256 = CryptoJS.lib.Hasher._createHmacHelper(CryptoJS.algo.SHA256);
+          */
+      _createHmacHelper: function _createHmacHelper(hasher) {
+        return function (message, key) {
+          return new C_algo.HMAC.init(hasher, key).finalize(message);
+        };
+      } });
+
+
+    /**
+             * Algorithm namespace.
+             */
+    var C_algo = C.algo = {};
+
+    return C;
+  }(Math);
+
+
+  return CryptoJS;
+
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../HBuilderX.2.9.8.20201110.full/HBuilderX/plugins/uniapp-cli/node_modules/webpack/buildin/global.js */ 2)))
+
+/***/ }),
+/* 91 */
+/*!************************!*\
+  !*** crypto (ignored) ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 92 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/x64-core.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function (undefined) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var Base = C_lib.Base;
+    var X32WordArray = C_lib.WordArray;
+
+    /**
+                                         * x64 namespace.
+                                         */
+    var C_x64 = C.x64 = {};
+
+    /**
+                             * A 64-bit word.
+                             */
+    var X64Word = C_x64.Word = Base.extend({
+      /**
+                                              * Initializes a newly created 64-bit word.
+                                              *
+                                              * @param {number} high The high 32 bits.
+                                              * @param {number} low The low 32 bits.
+                                              *
+                                              * @example
+                                              *
+                                              *     var x64Word = CryptoJS.x64.Word.create(0x00010203, 0x04050607);
+                                              */
+      init: function init(high, low) {
+        this.high = high;
+        this.low = low;
+      }
+
+      /**
+         * Bitwise NOTs this word.
+         *
+         * @return {X64Word} A new x64-Word object after negating.
+         *
+         * @example
+         *
+         *     var negated = x64Word.not();
+         */
+      // not: function () {
+      // var high = ~this.high;
+      // var low = ~this.low;
+
+      // return X64Word.create(high, low);
+      // },
+
+      /**
+       * Bitwise ANDs this word with the passed word.
+       *
+       * @param {X64Word} word The x64-Word to AND with this word.
+       *
+       * @return {X64Word} A new x64-Word object after ANDing.
+       *
+       * @example
+       *
+       *     var anded = x64Word.and(anotherX64Word);
+       */
+      // and: function (word) {
+      // var high = this.high & word.high;
+      // var low = this.low & word.low;
+
+      // return X64Word.create(high, low);
+      // },
+
+      /**
+       * Bitwise ORs this word with the passed word.
+       *
+       * @param {X64Word} word The x64-Word to OR with this word.
+       *
+       * @return {X64Word} A new x64-Word object after ORing.
+       *
+       * @example
+       *
+       *     var ored = x64Word.or(anotherX64Word);
+       */
+      // or: function (word) {
+      // var high = this.high | word.high;
+      // var low = this.low | word.low;
+
+      // return X64Word.create(high, low);
+      // },
+
+      /**
+       * Bitwise XORs this word with the passed word.
+       *
+       * @param {X64Word} word The x64-Word to XOR with this word.
+       *
+       * @return {X64Word} A new x64-Word object after XORing.
+       *
+       * @example
+       *
+       *     var xored = x64Word.xor(anotherX64Word);
+       */
+      // xor: function (word) {
+      // var high = this.high ^ word.high;
+      // var low = this.low ^ word.low;
+
+      // return X64Word.create(high, low);
+      // },
+
+      /**
+       * Shifts this word n bits to the left.
+       *
+       * @param {number} n The number of bits to shift.
+       *
+       * @return {X64Word} A new x64-Word object after shifting.
+       *
+       * @example
+       *
+       *     var shifted = x64Word.shiftL(25);
+       */
+      // shiftL: function (n) {
+      // if (n < 32) {
+      // var high = (this.high << n) | (this.low >>> (32 - n));
+      // var low = this.low << n;
+      // } else {
+      // var high = this.low << (n - 32);
+      // var low = 0;
+      // }
+
+      // return X64Word.create(high, low);
+      // },
+
+      /**
+       * Shifts this word n bits to the right.
+       *
+       * @param {number} n The number of bits to shift.
+       *
+       * @return {X64Word} A new x64-Word object after shifting.
+       *
+       * @example
+       *
+       *     var shifted = x64Word.shiftR(7);
+       */
+      // shiftR: function (n) {
+      // if (n < 32) {
+      // var low = (this.low >>> n) | (this.high << (32 - n));
+      // var high = this.high >>> n;
+      // } else {
+      // var low = this.high >>> (n - 32);
+      // var high = 0;
+      // }
+
+      // return X64Word.create(high, low);
+      // },
+
+      /**
+       * Rotates this word n bits to the left.
+       *
+       * @param {number} n The number of bits to rotate.
+       *
+       * @return {X64Word} A new x64-Word object after rotating.
+       *
+       * @example
+       *
+       *     var rotated = x64Word.rotL(25);
+       */
+      // rotL: function (n) {
+      // return this.shiftL(n).or(this.shiftR(64 - n));
+      // },
+
+      /**
+       * Rotates this word n bits to the right.
+       *
+       * @param {number} n The number of bits to rotate.
+       *
+       * @return {X64Word} A new x64-Word object after rotating.
+       *
+       * @example
+       *
+       *     var rotated = x64Word.rotR(7);
+       */
+      // rotR: function (n) {
+      // return this.shiftR(n).or(this.shiftL(64 - n));
+      // },
+
+      /**
+       * Adds this word with the passed word.
+       *
+       * @param {X64Word} word The x64-Word to add with this word.
+       *
+       * @return {X64Word} A new x64-Word object after adding.
+       *
+       * @example
+       *
+       *     var added = x64Word.add(anotherX64Word);
+       */
+      // add: function (word) {
+      // var low = (this.low + word.low) | 0;
+      // var carry = (low >>> 0) < (this.low >>> 0) ? 1 : 0;
+      // var high = (this.high + word.high + carry) | 0;
+
+      // return X64Word.create(high, low);
+      // }
+    });
+
+    /**
+         * An array of 64-bit words.
+         *
+         * @property {Array} words The array of CryptoJS.x64.Word objects.
+         * @property {number} sigBytes The number of significant bytes in this word array.
+         */
+    var X64WordArray = C_x64.WordArray = Base.extend({
+      /**
+                                                        * Initializes a newly created word array.
+                                                        *
+                                                        * @param {Array} words (Optional) An array of CryptoJS.x64.Word objects.
+                                                        * @param {number} sigBytes (Optional) The number of significant bytes in the words.
+                                                        *
+                                                        * @example
+                                                        *
+                                                        *     var wordArray = CryptoJS.x64.WordArray.create();
+                                                        *
+                                                        *     var wordArray = CryptoJS.x64.WordArray.create([
+                                                        *         CryptoJS.x64.Word.create(0x00010203, 0x04050607),
+                                                        *         CryptoJS.x64.Word.create(0x18191a1b, 0x1c1d1e1f)
+                                                        *     ]);
+                                                        *
+                                                        *     var wordArray = CryptoJS.x64.WordArray.create([
+                                                        *         CryptoJS.x64.Word.create(0x00010203, 0x04050607),
+                                                        *         CryptoJS.x64.Word.create(0x18191a1b, 0x1c1d1e1f)
+                                                        *     ], 10);
+                                                        */
+      init: function init(words, sigBytes) {
+        words = this.words = words || [];
+
+        if (sigBytes != undefined) {
+          this.sigBytes = sigBytes;
+        } else {
+          this.sigBytes = words.length * 8;
+        }
+      },
+
+      /**
+          * Converts this 64-bit word array to a 32-bit word array.
+          *
+          * @return {CryptoJS.lib.WordArray} This word array's data as a 32-bit word array.
+          *
+          * @example
+          *
+          *     var x32WordArray = x64WordArray.toX32();
+          */
+      toX32: function toX32() {
+        // Shortcuts
+        var x64Words = this.words;
+        var x64WordsLength = x64Words.length;
+
+        // Convert
+        var x32Words = [];
+        for (var i = 0; i < x64WordsLength; i++) {
+          var x64Word = x64Words[i];
+          x32Words.push(x64Word.high);
+          x32Words.push(x64Word.low);
+        }
+
+        return X32WordArray.create(x32Words, this.sigBytes);
+      },
+
+      /**
+          * Creates a copy of this word array.
+          *
+          * @return {X64WordArray} The clone.
+          *
+          * @example
+          *
+          *     var clone = x64WordArray.clone();
+          */
+      clone: function clone() {
+        var clone = Base.clone.call(this);
+
+        // Clone "words" array
+        var words = clone.words = this.words.slice(0);
+
+        // Clone each X64Word object
+        var wordsLength = words.length;
+        for (var i = 0; i < wordsLength; i++) {
+          words[i] = words[i].clone();
+        }
+
+        return clone;
+      } });
+
+  })();
+
+
+  return CryptoJS;
+
+});
+
+/***/ }),
+/* 93 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/lib-typedarrays.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Check if typed arrays are supported
+    if (typeof ArrayBuffer != 'function') {
+      return;
+    }
+
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+
+    // Reference original init
+    var superInit = WordArray.init;
+
+    // Augment WordArray.init to handle typed arrays
+    var subInit = WordArray.init = function (typedArray) {
+      // Convert buffers to uint8
+      if (typedArray instanceof ArrayBuffer) {
+        typedArray = new Uint8Array(typedArray);
+      }
+
+      // Convert other array views to uint8
+      if (
+      typedArray instanceof Int8Array ||
+      typeof Uint8ClampedArray !== "undefined" && typedArray instanceof Uint8ClampedArray ||
+      typedArray instanceof Int16Array ||
+      typedArray instanceof Uint16Array ||
+      typedArray instanceof Int32Array ||
+      typedArray instanceof Uint32Array ||
+      typedArray instanceof Float32Array ||
+      typedArray instanceof Float64Array)
+      {
+        typedArray = new Uint8Array(typedArray.buffer, typedArray.byteOffset, typedArray.byteLength);
+      }
+
+      // Handle Uint8Array
+      if (typedArray instanceof Uint8Array) {
+        // Shortcut
+        var typedArrayByteLength = typedArray.byteLength;
+
+        // Extract bytes
+        var words = [];
+        for (var i = 0; i < typedArrayByteLength; i++) {
+          words[i >>> 2] |= typedArray[i] << 24 - i % 4 * 8;
+        }
+
+        // Initialize this word array
+        superInit.call(this, words, typedArrayByteLength);
+      } else {
+        // Else call normal init
+        superInit.apply(this, arguments);
+      }
+    };
+
+    subInit.prototype = WordArray;
+  })();
+
+
+  return CryptoJS.lib.WordArray;
+
+});
+
+/***/ }),
+/* 94 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/enc-utf16.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var C_enc = C.enc;
+
+    /**
+                        * UTF-16 BE encoding strategy.
+                        */
+    var Utf16BE = C_enc.Utf16 = C_enc.Utf16BE = {
+      /**
+                                                   * Converts a word array to a UTF-16 BE string.
+                                                   *
+                                                   * @param {WordArray} wordArray The word array.
+                                                   *
+                                                   * @return {string} The UTF-16 BE string.
+                                                   *
+                                                   * @static
+                                                   *
+                                                   * @example
+                                                   *
+                                                   *     var utf16String = CryptoJS.enc.Utf16.stringify(wordArray);
+                                                   */
+      stringify: function stringify(wordArray) {
+        // Shortcuts
+        var words = wordArray.words;
+        var sigBytes = wordArray.sigBytes;
+
+        // Convert
+        var utf16Chars = [];
+        for (var i = 0; i < sigBytes; i += 2) {
+          var codePoint = words[i >>> 2] >>> 16 - i % 4 * 8 & 0xffff;
+          utf16Chars.push(String.fromCharCode(codePoint));
+        }
+
+        return utf16Chars.join('');
+      },
+
+      /**
+          * Converts a UTF-16 BE string to a word array.
+          *
+          * @param {string} utf16Str The UTF-16 BE string.
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Utf16.parse(utf16String);
+          */
+      parse: function parse(utf16Str) {
+        // Shortcut
+        var utf16StrLength = utf16Str.length;
+
+        // Convert
+        var words = [];
+        for (var i = 0; i < utf16StrLength; i++) {
+          words[i >>> 1] |= utf16Str.charCodeAt(i) << 16 - i % 2 * 16;
+        }
+
+        return WordArray.create(words, utf16StrLength * 2);
+      } };
+
+
+    /**
+            * UTF-16 LE encoding strategy.
+            */
+    C_enc.Utf16LE = {
+      /**
+                       * Converts a word array to a UTF-16 LE string.
+                       *
+                       * @param {WordArray} wordArray The word array.
+                       *
+                       * @return {string} The UTF-16 LE string.
+                       *
+                       * @static
+                       *
+                       * @example
+                       *
+                       *     var utf16Str = CryptoJS.enc.Utf16LE.stringify(wordArray);
+                       */
+      stringify: function stringify(wordArray) {
+        // Shortcuts
+        var words = wordArray.words;
+        var sigBytes = wordArray.sigBytes;
+
+        // Convert
+        var utf16Chars = [];
+        for (var i = 0; i < sigBytes; i += 2) {
+          var codePoint = swapEndian(words[i >>> 2] >>> 16 - i % 4 * 8 & 0xffff);
+          utf16Chars.push(String.fromCharCode(codePoint));
+        }
+
+        return utf16Chars.join('');
+      },
+
+      /**
+          * Converts a UTF-16 LE string to a word array.
+          *
+          * @param {string} utf16Str The UTF-16 LE string.
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Utf16LE.parse(utf16Str);
+          */
+      parse: function parse(utf16Str) {
+        // Shortcut
+        var utf16StrLength = utf16Str.length;
+
+        // Convert
+        var words = [];
+        for (var i = 0; i < utf16StrLength; i++) {
+          words[i >>> 1] |= swapEndian(utf16Str.charCodeAt(i) << 16 - i % 2 * 16);
+        }
+
+        return WordArray.create(words, utf16StrLength * 2);
+      } };
+
+
+    function swapEndian(word) {
+      return word << 8 & 0xff00ff00 | word >>> 8 & 0x00ff00ff;
+    }
+  })();
+
+
+  return CryptoJS.enc.Utf16;
+
+});
+
+/***/ }),
+/* 95 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/enc-base64.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var C_enc = C.enc;
+
+    /**
+                        * Base64 encoding strategy.
+                        */
+    var Base64 = C_enc.Base64 = {
+      /**
+                                   * Converts a word array to a Base64 string.
+                                   *
+                                   * @param {WordArray} wordArray The word array.
+                                   *
+                                   * @return {string} The Base64 string.
+                                   *
+                                   * @static
+                                   *
+                                   * @example
+                                   *
+                                   *     var base64String = CryptoJS.enc.Base64.stringify(wordArray);
+                                   */
+      stringify: function stringify(wordArray) {
+        // Shortcuts
+        var words = wordArray.words;
+        var sigBytes = wordArray.sigBytes;
+        var map = this._map;
+
+        // Clamp excess bits
+        wordArray.clamp();
+
+        // Convert
+        var base64Chars = [];
+        for (var i = 0; i < sigBytes; i += 3) {
+          var byte1 = words[i >>> 2] >>> 24 - i % 4 * 8 & 0xff;
+          var byte2 = words[i + 1 >>> 2] >>> 24 - (i + 1) % 4 * 8 & 0xff;
+          var byte3 = words[i + 2 >>> 2] >>> 24 - (i + 2) % 4 * 8 & 0xff;
+
+          var triplet = byte1 << 16 | byte2 << 8 | byte3;
+
+          for (var j = 0; j < 4 && i + j * 0.75 < sigBytes; j++) {
+            base64Chars.push(map.charAt(triplet >>> 6 * (3 - j) & 0x3f));
+          }
+        }
+
+        // Add padding
+        var paddingChar = map.charAt(64);
+        if (paddingChar) {
+          while (base64Chars.length % 4) {
+            base64Chars.push(paddingChar);
+          }
+        }
+
+        return base64Chars.join('');
+      },
+
+      /**
+          * Converts a Base64 string to a word array.
+          *
+          * @param {string} base64Str The Base64 string.
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Base64.parse(base64String);
+          */
+      parse: function parse(base64Str) {
+        // Shortcuts
+        var base64StrLength = base64Str.length;
+        var map = this._map;
+        var reverseMap = this._reverseMap;
+
+        if (!reverseMap) {
+          reverseMap = this._reverseMap = [];
+          for (var j = 0; j < map.length; j++) {
+            reverseMap[map.charCodeAt(j)] = j;
+          }
+        }
+
+        // Ignore padding
+        var paddingChar = map.charAt(64);
+        if (paddingChar) {
+          var paddingIndex = base64Str.indexOf(paddingChar);
+          if (paddingIndex !== -1) {
+            base64StrLength = paddingIndex;
+          }
+        }
+
+        // Convert
+        return parseLoop(base64Str, base64StrLength, reverseMap);
+
+      },
+
+      _map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=' };
+
+
+    function parseLoop(base64Str, base64StrLength, reverseMap) {
+      var words = [];
+      var nBytes = 0;
+      for (var i = 0; i < base64StrLength; i++) {
+        if (i % 4) {
+          var bits1 = reverseMap[base64Str.charCodeAt(i - 1)] << i % 4 * 2;
+          var bits2 = reverseMap[base64Str.charCodeAt(i)] >>> 6 - i % 4 * 2;
+          var bitsCombined = bits1 | bits2;
+          words[nBytes >>> 2] |= bitsCombined << 24 - nBytes % 4 * 8;
+          nBytes++;
+        }
+      }
+      return WordArray.create(words, nBytes);
+    }
+  })();
+
+
+  return CryptoJS.enc.Base64;
+
+});
+
+/***/ }),
+/* 96 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/enc-base64url.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var C_enc = C.enc;
+
+    /**
+                        * Base64url encoding strategy.
+                        */
+    var Base64url = C_enc.Base64url = {
+      /**
+                                         * Converts a word array to a Base64url string.
+                                         *
+                                         * @param {WordArray} wordArray The word array.
+                                         *
+                                         * @param {boolean} urlSafe Whether to use url safe
+                                         *
+                                         * @return {string} The Base64url string.
+                                         *
+                                         * @static
+                                         *
+                                         * @example
+                                         *
+                                         *     var base64String = CryptoJS.enc.Base64url.stringify(wordArray);
+                                         */
+      stringify: function stringify(wordArray) {var urlSafe = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+        // Shortcuts
+        var words = wordArray.words;
+        var sigBytes = wordArray.sigBytes;
+        var map = urlSafe ? this._safe_map : this._map;
+
+        // Clamp excess bits
+        wordArray.clamp();
+
+        // Convert
+        var base64Chars = [];
+        for (var i = 0; i < sigBytes; i += 3) {
+          var byte1 = words[i >>> 2] >>> 24 - i % 4 * 8 & 0xff;
+          var byte2 = words[i + 1 >>> 2] >>> 24 - (i + 1) % 4 * 8 & 0xff;
+          var byte3 = words[i + 2 >>> 2] >>> 24 - (i + 2) % 4 * 8 & 0xff;
+
+          var triplet = byte1 << 16 | byte2 << 8 | byte3;
+
+          for (var j = 0; j < 4 && i + j * 0.75 < sigBytes; j++) {
+            base64Chars.push(map.charAt(triplet >>> 6 * (3 - j) & 0x3f));
+          }
+        }
+
+        // Add padding
+        var paddingChar = map.charAt(64);
+        if (paddingChar) {
+          while (base64Chars.length % 4) {
+            base64Chars.push(paddingChar);
+          }
+        }
+
+        return base64Chars.join('');
+      },
+
+      /**
+          * Converts a Base64url string to a word array.
+          *
+          * @param {string} base64Str The Base64url string.
+          *
+          * @param {boolean} urlSafe Whether to use url safe
+          *
+          * @return {WordArray} The word array.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var wordArray = CryptoJS.enc.Base64url.parse(base64String);
+          */
+      parse: function parse(base64Str) {var urlSafe = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+        // Shortcuts
+        var base64StrLength = base64Str.length;
+        var map = urlSafe ? this._safe_map : this._map;
+        var reverseMap = this._reverseMap;
+
+        if (!reverseMap) {
+          reverseMap = this._reverseMap = [];
+          for (var j = 0; j < map.length; j++) {
+            reverseMap[map.charCodeAt(j)] = j;
+          }
+        }
+
+        // Ignore padding
+        var paddingChar = map.charAt(64);
+        if (paddingChar) {
+          var paddingIndex = base64Str.indexOf(paddingChar);
+          if (paddingIndex !== -1) {
+            base64StrLength = paddingIndex;
+          }
+        }
+
+        // Convert
+        return parseLoop(base64Str, base64StrLength, reverseMap);
+
+      },
+
+      _map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',
+      _safe_map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_' };
+
+
+    function parseLoop(base64Str, base64StrLength, reverseMap) {
+      var words = [];
+      var nBytes = 0;
+      for (var i = 0; i < base64StrLength; i++) {
+        if (i % 4) {
+          var bits1 = reverseMap[base64Str.charCodeAt(i - 1)] << i % 4 * 2;
+          var bits2 = reverseMap[base64Str.charCodeAt(i)] >>> 6 - i % 4 * 2;
+          var bitsCombined = bits1 | bits2;
+          words[nBytes >>> 2] |= bitsCombined << 24 - nBytes % 4 * 8;
+          nBytes++;
+        }
+      }
+      return WordArray.create(words, nBytes);
+    }
+  })();
+
+  return CryptoJS.enc.Base64url;
+
+});
+
+/***/ }),
+/* 97 */
+/*!********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/md5.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function (Math) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var Hasher = C_lib.Hasher;
+    var C_algo = C.algo;
+
+    // Constants table
+    var T = [];
+
+    // Compute constants
+    (function () {
+      for (var i = 0; i < 64; i++) {
+        T[i] = Math.abs(Math.sin(i + 1)) * 0x100000000 | 0;
+      }
+    })();
+
+    /**
+           * MD5 hash algorithm.
+           */
+    var MD5 = C_algo.MD5 = Hasher.extend({
+      _doReset: function _doReset() {
+        this._hash = new WordArray.init([
+        0x67452301, 0xefcdab89,
+        0x98badcfe, 0x10325476]);
+
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Swap endian
+        for (var i = 0; i < 16; i++) {
+          // Shortcuts
+          var offset_i = offset + i;
+          var M_offset_i = M[offset_i];
+
+          M[offset_i] =
+          (M_offset_i << 8 | M_offset_i >>> 24) & 0x00ff00ff |
+          (M_offset_i << 24 | M_offset_i >>> 8) & 0xff00ff00;
+
+        }
+
+        // Shortcuts
+        var H = this._hash.words;
+
+        var M_offset_0 = M[offset + 0];
+        var M_offset_1 = M[offset + 1];
+        var M_offset_2 = M[offset + 2];
+        var M_offset_3 = M[offset + 3];
+        var M_offset_4 = M[offset + 4];
+        var M_offset_5 = M[offset + 5];
+        var M_offset_6 = M[offset + 6];
+        var M_offset_7 = M[offset + 7];
+        var M_offset_8 = M[offset + 8];
+        var M_offset_9 = M[offset + 9];
+        var M_offset_10 = M[offset + 10];
+        var M_offset_11 = M[offset + 11];
+        var M_offset_12 = M[offset + 12];
+        var M_offset_13 = M[offset + 13];
+        var M_offset_14 = M[offset + 14];
+        var M_offset_15 = M[offset + 15];
+
+        // Working varialbes
+        var a = H[0];
+        var b = H[1];
+        var c = H[2];
+        var d = H[3];
+
+        // Computation
+        a = FF(a, b, c, d, M_offset_0, 7, T[0]);
+        d = FF(d, a, b, c, M_offset_1, 12, T[1]);
+        c = FF(c, d, a, b, M_offset_2, 17, T[2]);
+        b = FF(b, c, d, a, M_offset_3, 22, T[3]);
+        a = FF(a, b, c, d, M_offset_4, 7, T[4]);
+        d = FF(d, a, b, c, M_offset_5, 12, T[5]);
+        c = FF(c, d, a, b, M_offset_6, 17, T[6]);
+        b = FF(b, c, d, a, M_offset_7, 22, T[7]);
+        a = FF(a, b, c, d, M_offset_8, 7, T[8]);
+        d = FF(d, a, b, c, M_offset_9, 12, T[9]);
+        c = FF(c, d, a, b, M_offset_10, 17, T[10]);
+        b = FF(b, c, d, a, M_offset_11, 22, T[11]);
+        a = FF(a, b, c, d, M_offset_12, 7, T[12]);
+        d = FF(d, a, b, c, M_offset_13, 12, T[13]);
+        c = FF(c, d, a, b, M_offset_14, 17, T[14]);
+        b = FF(b, c, d, a, M_offset_15, 22, T[15]);
+
+        a = GG(a, b, c, d, M_offset_1, 5, T[16]);
+        d = GG(d, a, b, c, M_offset_6, 9, T[17]);
+        c = GG(c, d, a, b, M_offset_11, 14, T[18]);
+        b = GG(b, c, d, a, M_offset_0, 20, T[19]);
+        a = GG(a, b, c, d, M_offset_5, 5, T[20]);
+        d = GG(d, a, b, c, M_offset_10, 9, T[21]);
+        c = GG(c, d, a, b, M_offset_15, 14, T[22]);
+        b = GG(b, c, d, a, M_offset_4, 20, T[23]);
+        a = GG(a, b, c, d, M_offset_9, 5, T[24]);
+        d = GG(d, a, b, c, M_offset_14, 9, T[25]);
+        c = GG(c, d, a, b, M_offset_3, 14, T[26]);
+        b = GG(b, c, d, a, M_offset_8, 20, T[27]);
+        a = GG(a, b, c, d, M_offset_13, 5, T[28]);
+        d = GG(d, a, b, c, M_offset_2, 9, T[29]);
+        c = GG(c, d, a, b, M_offset_7, 14, T[30]);
+        b = GG(b, c, d, a, M_offset_12, 20, T[31]);
+
+        a = HH(a, b, c, d, M_offset_5, 4, T[32]);
+        d = HH(d, a, b, c, M_offset_8, 11, T[33]);
+        c = HH(c, d, a, b, M_offset_11, 16, T[34]);
+        b = HH(b, c, d, a, M_offset_14, 23, T[35]);
+        a = HH(a, b, c, d, M_offset_1, 4, T[36]);
+        d = HH(d, a, b, c, M_offset_4, 11, T[37]);
+        c = HH(c, d, a, b, M_offset_7, 16, T[38]);
+        b = HH(b, c, d, a, M_offset_10, 23, T[39]);
+        a = HH(a, b, c, d, M_offset_13, 4, T[40]);
+        d = HH(d, a, b, c, M_offset_0, 11, T[41]);
+        c = HH(c, d, a, b, M_offset_3, 16, T[42]);
+        b = HH(b, c, d, a, M_offset_6, 23, T[43]);
+        a = HH(a, b, c, d, M_offset_9, 4, T[44]);
+        d = HH(d, a, b, c, M_offset_12, 11, T[45]);
+        c = HH(c, d, a, b, M_offset_15, 16, T[46]);
+        b = HH(b, c, d, a, M_offset_2, 23, T[47]);
+
+        a = II(a, b, c, d, M_offset_0, 6, T[48]);
+        d = II(d, a, b, c, M_offset_7, 10, T[49]);
+        c = II(c, d, a, b, M_offset_14, 15, T[50]);
+        b = II(b, c, d, a, M_offset_5, 21, T[51]);
+        a = II(a, b, c, d, M_offset_12, 6, T[52]);
+        d = II(d, a, b, c, M_offset_3, 10, T[53]);
+        c = II(c, d, a, b, M_offset_10, 15, T[54]);
+        b = II(b, c, d, a, M_offset_1, 21, T[55]);
+        a = II(a, b, c, d, M_offset_8, 6, T[56]);
+        d = II(d, a, b, c, M_offset_15, 10, T[57]);
+        c = II(c, d, a, b, M_offset_6, 15, T[58]);
+        b = II(b, c, d, a, M_offset_13, 21, T[59]);
+        a = II(a, b, c, d, M_offset_4, 6, T[60]);
+        d = II(d, a, b, c, M_offset_11, 10, T[61]);
+        c = II(c, d, a, b, M_offset_2, 15, T[62]);
+        b = II(b, c, d, a, M_offset_9, 21, T[63]);
+
+        // Intermediate hash value
+        H[0] = H[0] + a | 0;
+        H[1] = H[1] + b | 0;
+        H[2] = H[2] + c | 0;
+        H[3] = H[3] + d | 0;
+      },
+
+      _doFinalize: function _doFinalize() {
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+
+        var nBitsTotal = this._nDataBytes * 8;
+        var nBitsLeft = data.sigBytes * 8;
+
+        // Add padding
+        dataWords[nBitsLeft >>> 5] |= 0x80 << 24 - nBitsLeft % 32;
+
+        var nBitsTotalH = Math.floor(nBitsTotal / 0x100000000);
+        var nBitsTotalL = nBitsTotal;
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 15] =
+        (nBitsTotalH << 8 | nBitsTotalH >>> 24) & 0x00ff00ff |
+        (nBitsTotalH << 24 | nBitsTotalH >>> 8) & 0xff00ff00;
+
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 14] =
+        (nBitsTotalL << 8 | nBitsTotalL >>> 24) & 0x00ff00ff |
+        (nBitsTotalL << 24 | nBitsTotalL >>> 8) & 0xff00ff00;
+
+
+        data.sigBytes = (dataWords.length + 1) * 4;
+
+        // Hash final blocks
+        this._process();
+
+        // Shortcuts
+        var hash = this._hash;
+        var H = hash.words;
+
+        // Swap endian
+        for (var i = 0; i < 4; i++) {
+          // Shortcut
+          var H_i = H[i];
+
+          H[i] = (H_i << 8 | H_i >>> 24) & 0x00ff00ff |
+          (H_i << 24 | H_i >>> 8) & 0xff00ff00;
+        }
+
+        // Return final computed hash
+        return hash;
+      },
+
+      clone: function clone() {
+        var clone = Hasher.clone.call(this);
+        clone._hash = this._hash.clone();
+
+        return clone;
+      } });
+
+
+    function FF(a, b, c, d, x, s, t) {
+      var n = a + (b & c | ~b & d) + x + t;
+      return (n << s | n >>> 32 - s) + b;
+    }
+
+    function GG(a, b, c, d, x, s, t) {
+      var n = a + (b & d | c & ~d) + x + t;
+      return (n << s | n >>> 32 - s) + b;
+    }
+
+    function HH(a, b, c, d, x, s, t) {
+      var n = a + (b ^ c ^ d) + x + t;
+      return (n << s | n >>> 32 - s) + b;
+    }
+
+    function II(a, b, c, d, x, s, t) {
+      var n = a + (c ^ (b | ~d)) + x + t;
+      return (n << s | n >>> 32 - s) + b;
+    }
+
+    /**
+       * Shortcut function to the hasher's object interface.
+       *
+       * @param {WordArray|string} message The message to hash.
+       *
+       * @return {WordArray} The hash.
+       *
+       * @static
+       *
+       * @example
+       *
+       *     var hash = CryptoJS.MD5('message');
+       *     var hash = CryptoJS.MD5(wordArray);
+       */
+    C.MD5 = Hasher._createHelper(MD5);
+
+    /**
+                                        * Shortcut function to the HMAC's object interface.
+                                        *
+                                        * @param {WordArray|string} message The message to hash.
+                                        * @param {WordArray|string} key The secret key.
+                                        *
+                                        * @return {WordArray} The HMAC.
+                                        *
+                                        * @static
+                                        *
+                                        * @example
+                                        *
+                                        *     var hmac = CryptoJS.HmacMD5(message, key);
+                                        */
+    C.HmacMD5 = Hasher._createHmacHelper(MD5);
+  })(Math);
+
+
+  return CryptoJS.MD5;
+
+});
+
+/***/ }),
+/* 98 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/sha1.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var Hasher = C_lib.Hasher;
+    var C_algo = C.algo;
+
+    // Reusable object
+    var W = [];
+
+    /**
+                 * SHA-1 hash algorithm.
+                 */
+    var SHA1 = C_algo.SHA1 = Hasher.extend({
+      _doReset: function _doReset() {
+        this._hash = new WordArray.init([
+        0x67452301, 0xefcdab89,
+        0x98badcfe, 0x10325476,
+        0xc3d2e1f0]);
+
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Shortcut
+        var H = this._hash.words;
+
+        // Working variables
+        var a = H[0];
+        var b = H[1];
+        var c = H[2];
+        var d = H[3];
+        var e = H[4];
+
+        // Computation
+        for (var i = 0; i < 80; i++) {
+          if (i < 16) {
+            W[i] = M[offset + i] | 0;
+          } else {
+            var n = W[i - 3] ^ W[i - 8] ^ W[i - 14] ^ W[i - 16];
+            W[i] = n << 1 | n >>> 31;
+          }
+
+          var t = (a << 5 | a >>> 27) + e + W[i];
+          if (i < 20) {
+            t += (b & c | ~b & d) + 0x5a827999;
+          } else if (i < 40) {
+            t += (b ^ c ^ d) + 0x6ed9eba1;
+          } else if (i < 60) {
+            t += (b & c | b & d | c & d) - 0x70e44324;
+          } else /* if (i < 80) */{
+              t += (b ^ c ^ d) - 0x359d3e2a;
+            }
+
+          e = d;
+          d = c;
+          c = b << 30 | b >>> 2;
+          b = a;
+          a = t;
+        }
+
+        // Intermediate hash value
+        H[0] = H[0] + a | 0;
+        H[1] = H[1] + b | 0;
+        H[2] = H[2] + c | 0;
+        H[3] = H[3] + d | 0;
+        H[4] = H[4] + e | 0;
+      },
+
+      _doFinalize: function _doFinalize() {
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+
+        var nBitsTotal = this._nDataBytes * 8;
+        var nBitsLeft = data.sigBytes * 8;
+
+        // Add padding
+        dataWords[nBitsLeft >>> 5] |= 0x80 << 24 - nBitsLeft % 32;
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 14] = Math.floor(nBitsTotal / 0x100000000);
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 15] = nBitsTotal;
+        data.sigBytes = dataWords.length * 4;
+
+        // Hash final blocks
+        this._process();
+
+        // Return final computed hash
+        return this._hash;
+      },
+
+      clone: function clone() {
+        var clone = Hasher.clone.call(this);
+        clone._hash = this._hash.clone();
+
+        return clone;
+      } });
+
+
+    /**
+             * Shortcut function to the hasher's object interface.
+             *
+             * @param {WordArray|string} message The message to hash.
+             *
+             * @return {WordArray} The hash.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var hash = CryptoJS.SHA1('message');
+             *     var hash = CryptoJS.SHA1(wordArray);
+             */
+    C.SHA1 = Hasher._createHelper(SHA1);
+
+    /**
+                                          * Shortcut function to the HMAC's object interface.
+                                          *
+                                          * @param {WordArray|string} message The message to hash.
+                                          * @param {WordArray|string} key The secret key.
+                                          *
+                                          * @return {WordArray} The HMAC.
+                                          *
+                                          * @static
+                                          *
+                                          * @example
+                                          *
+                                          *     var hmac = CryptoJS.HmacSHA1(message, key);
+                                          */
+    C.HmacSHA1 = Hasher._createHmacHelper(SHA1);
+  })();
+
+
+  return CryptoJS.SHA1;
+
+});
+
+/***/ }),
+/* 99 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/sha256.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function (Math) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var Hasher = C_lib.Hasher;
+    var C_algo = C.algo;
+
+    // Initialization and round constants tables
+    var H = [];
+    var K = [];
+
+    // Compute constants
+    (function () {
+      function isPrime(n) {
+        var sqrtN = Math.sqrt(n);
+        for (var factor = 2; factor <= sqrtN; factor++) {
+          if (!(n % factor)) {
+            return false;
+          }
+        }
+
+        return true;
+      }
+
+      function getFractionalBits(n) {
+        return (n - (n | 0)) * 0x100000000 | 0;
+      }
+
+      var n = 2;
+      var nPrime = 0;
+      while (nPrime < 64) {
+        if (isPrime(n)) {
+          if (nPrime < 8) {
+            H[nPrime] = getFractionalBits(Math.pow(n, 1 / 2));
+          }
+          K[nPrime] = getFractionalBits(Math.pow(n, 1 / 3));
+
+          nPrime++;
+        }
+
+        n++;
+      }
+    })();
+
+    // Reusable object
+    var W = [];
+
+    /**
+                 * SHA-256 hash algorithm.
+                 */
+    var SHA256 = C_algo.SHA256 = Hasher.extend({
+      _doReset: function _doReset() {
+        this._hash = new WordArray.init(H.slice(0));
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Shortcut
+        var H = this._hash.words;
+
+        // Working variables
+        var a = H[0];
+        var b = H[1];
+        var c = H[2];
+        var d = H[3];
+        var e = H[4];
+        var f = H[5];
+        var g = H[6];
+        var h = H[7];
+
+        // Computation
+        for (var i = 0; i < 64; i++) {
+          if (i < 16) {
+            W[i] = M[offset + i] | 0;
+          } else {
+            var gamma0x = W[i - 15];
+            var gamma0 = (gamma0x << 25 | gamma0x >>> 7) ^ (
+            gamma0x << 14 | gamma0x >>> 18) ^
+            gamma0x >>> 3;
+
+            var gamma1x = W[i - 2];
+            var gamma1 = (gamma1x << 15 | gamma1x >>> 17) ^ (
+            gamma1x << 13 | gamma1x >>> 19) ^
+            gamma1x >>> 10;
+
+            W[i] = gamma0 + W[i - 7] + gamma1 + W[i - 16];
+          }
+
+          var ch = e & f ^ ~e & g;
+          var maj = a & b ^ a & c ^ b & c;
+
+          var sigma0 = (a << 30 | a >>> 2) ^ (a << 19 | a >>> 13) ^ (a << 10 | a >>> 22);
+          var sigma1 = (e << 26 | e >>> 6) ^ (e << 21 | e >>> 11) ^ (e << 7 | e >>> 25);
+
+          var t1 = h + sigma1 + ch + K[i] + W[i];
+          var t2 = sigma0 + maj;
+
+          h = g;
+          g = f;
+          f = e;
+          e = d + t1 | 0;
+          d = c;
+          c = b;
+          b = a;
+          a = t1 + t2 | 0;
+        }
+
+        // Intermediate hash value
+        H[0] = H[0] + a | 0;
+        H[1] = H[1] + b | 0;
+        H[2] = H[2] + c | 0;
+        H[3] = H[3] + d | 0;
+        H[4] = H[4] + e | 0;
+        H[5] = H[5] + f | 0;
+        H[6] = H[6] + g | 0;
+        H[7] = H[7] + h | 0;
+      },
+
+      _doFinalize: function _doFinalize() {
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+
+        var nBitsTotal = this._nDataBytes * 8;
+        var nBitsLeft = data.sigBytes * 8;
+
+        // Add padding
+        dataWords[nBitsLeft >>> 5] |= 0x80 << 24 - nBitsLeft % 32;
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 14] = Math.floor(nBitsTotal / 0x100000000);
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 15] = nBitsTotal;
+        data.sigBytes = dataWords.length * 4;
+
+        // Hash final blocks
+        this._process();
+
+        // Return final computed hash
+        return this._hash;
+      },
+
+      clone: function clone() {
+        var clone = Hasher.clone.call(this);
+        clone._hash = this._hash.clone();
+
+        return clone;
+      } });
+
+
+    /**
+             * Shortcut function to the hasher's object interface.
+             *
+             * @param {WordArray|string} message The message to hash.
+             *
+             * @return {WordArray} The hash.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var hash = CryptoJS.SHA256('message');
+             *     var hash = CryptoJS.SHA256(wordArray);
+             */
+    C.SHA256 = Hasher._createHelper(SHA256);
+
+    /**
+                                              * Shortcut function to the HMAC's object interface.
+                                              *
+                                              * @param {WordArray|string} message The message to hash.
+                                              * @param {WordArray|string} key The secret key.
+                                              *
+                                              * @return {WordArray} The HMAC.
+                                              *
+                                              * @static
+                                              *
+                                              * @example
+                                              *
+                                              *     var hmac = CryptoJS.HmacSHA256(message, key);
+                                              */
+    C.HmacSHA256 = Hasher._createHmacHelper(SHA256);
+  })(Math);
+
+
+  return CryptoJS.SHA256;
+
+});
+
+/***/ }),
+/* 100 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/sha224.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./sha256 */ 99));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var C_algo = C.algo;
+    var SHA256 = C_algo.SHA256;
+
+    /**
+                                 * SHA-224 hash algorithm.
+                                 */
+    var SHA224 = C_algo.SHA224 = SHA256.extend({
+      _doReset: function _doReset() {
+        this._hash = new WordArray.init([
+        0xc1059ed8, 0x367cd507, 0x3070dd17, 0xf70e5939,
+        0xffc00b31, 0x68581511, 0x64f98fa7, 0xbefa4fa4]);
+
+      },
+
+      _doFinalize: function _doFinalize() {
+        var hash = SHA256._doFinalize.call(this);
+
+        hash.sigBytes -= 4;
+
+        return hash;
+      } });
+
+
+    /**
+             * Shortcut function to the hasher's object interface.
+             *
+             * @param {WordArray|string} message The message to hash.
+             *
+             * @return {WordArray} The hash.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var hash = CryptoJS.SHA224('message');
+             *     var hash = CryptoJS.SHA224(wordArray);
+             */
+    C.SHA224 = SHA256._createHelper(SHA224);
+
+    /**
+                                              * Shortcut function to the HMAC's object interface.
+                                              *
+                                              * @param {WordArray|string} message The message to hash.
+                                              * @param {WordArray|string} key The secret key.
+                                              *
+                                              * @return {WordArray} The HMAC.
+                                              *
+                                              * @static
+                                              *
+                                              * @example
+                                              *
+                                              *     var hmac = CryptoJS.HmacSHA224(message, key);
+                                              */
+    C.HmacSHA224 = SHA256._createHmacHelper(SHA224);
+  })();
+
+
+  return CryptoJS.SHA224;
+
+});
+
+/***/ }),
+/* 101 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/sha512.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./x64-core */ 92));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var Hasher = C_lib.Hasher;
+    var C_x64 = C.x64;
+    var X64Word = C_x64.Word;
+    var X64WordArray = C_x64.WordArray;
+    var C_algo = C.algo;
+
+    function X64Word_create() {
+      return X64Word.create.apply(X64Word, arguments);
+    }
+
+    // Constants
+    var K = [
+    X64Word_create(0x428a2f98, 0xd728ae22), X64Word_create(0x71374491, 0x23ef65cd),
+    X64Word_create(0xb5c0fbcf, 0xec4d3b2f), X64Word_create(0xe9b5dba5, 0x8189dbbc),
+    X64Word_create(0x3956c25b, 0xf348b538), X64Word_create(0x59f111f1, 0xb605d019),
+    X64Word_create(0x923f82a4, 0xaf194f9b), X64Word_create(0xab1c5ed5, 0xda6d8118),
+    X64Word_create(0xd807aa98, 0xa3030242), X64Word_create(0x12835b01, 0x45706fbe),
+    X64Word_create(0x243185be, 0x4ee4b28c), X64Word_create(0x550c7dc3, 0xd5ffb4e2),
+    X64Word_create(0x72be5d74, 0xf27b896f), X64Word_create(0x80deb1fe, 0x3b1696b1),
+    X64Word_create(0x9bdc06a7, 0x25c71235), X64Word_create(0xc19bf174, 0xcf692694),
+    X64Word_create(0xe49b69c1, 0x9ef14ad2), X64Word_create(0xefbe4786, 0x384f25e3),
+    X64Word_create(0x0fc19dc6, 0x8b8cd5b5), X64Word_create(0x240ca1cc, 0x77ac9c65),
+    X64Word_create(0x2de92c6f, 0x592b0275), X64Word_create(0x4a7484aa, 0x6ea6e483),
+    X64Word_create(0x5cb0a9dc, 0xbd41fbd4), X64Word_create(0x76f988da, 0x831153b5),
+    X64Word_create(0x983e5152, 0xee66dfab), X64Word_create(0xa831c66d, 0x2db43210),
+    X64Word_create(0xb00327c8, 0x98fb213f), X64Word_create(0xbf597fc7, 0xbeef0ee4),
+    X64Word_create(0xc6e00bf3, 0x3da88fc2), X64Word_create(0xd5a79147, 0x930aa725),
+    X64Word_create(0x06ca6351, 0xe003826f), X64Word_create(0x14292967, 0x0a0e6e70),
+    X64Word_create(0x27b70a85, 0x46d22ffc), X64Word_create(0x2e1b2138, 0x5c26c926),
+    X64Word_create(0x4d2c6dfc, 0x5ac42aed), X64Word_create(0x53380d13, 0x9d95b3df),
+    X64Word_create(0x650a7354, 0x8baf63de), X64Word_create(0x766a0abb, 0x3c77b2a8),
+    X64Word_create(0x81c2c92e, 0x47edaee6), X64Word_create(0x92722c85, 0x1482353b),
+    X64Word_create(0xa2bfe8a1, 0x4cf10364), X64Word_create(0xa81a664b, 0xbc423001),
+    X64Word_create(0xc24b8b70, 0xd0f89791), X64Word_create(0xc76c51a3, 0x0654be30),
+    X64Word_create(0xd192e819, 0xd6ef5218), X64Word_create(0xd6990624, 0x5565a910),
+    X64Word_create(0xf40e3585, 0x5771202a), X64Word_create(0x106aa070, 0x32bbd1b8),
+    X64Word_create(0x19a4c116, 0xb8d2d0c8), X64Word_create(0x1e376c08, 0x5141ab53),
+    X64Word_create(0x2748774c, 0xdf8eeb99), X64Word_create(0x34b0bcb5, 0xe19b48a8),
+    X64Word_create(0x391c0cb3, 0xc5c95a63), X64Word_create(0x4ed8aa4a, 0xe3418acb),
+    X64Word_create(0x5b9cca4f, 0x7763e373), X64Word_create(0x682e6ff3, 0xd6b2b8a3),
+    X64Word_create(0x748f82ee, 0x5defb2fc), X64Word_create(0x78a5636f, 0x43172f60),
+    X64Word_create(0x84c87814, 0xa1f0ab72), X64Word_create(0x8cc70208, 0x1a6439ec),
+    X64Word_create(0x90befffa, 0x23631e28), X64Word_create(0xa4506ceb, 0xde82bde9),
+    X64Word_create(0xbef9a3f7, 0xb2c67915), X64Word_create(0xc67178f2, 0xe372532b),
+    X64Word_create(0xca273ece, 0xea26619c), X64Word_create(0xd186b8c7, 0x21c0c207),
+    X64Word_create(0xeada7dd6, 0xcde0eb1e), X64Word_create(0xf57d4f7f, 0xee6ed178),
+    X64Word_create(0x06f067aa, 0x72176fba), X64Word_create(0x0a637dc5, 0xa2c898a6),
+    X64Word_create(0x113f9804, 0xbef90dae), X64Word_create(0x1b710b35, 0x131c471b),
+    X64Word_create(0x28db77f5, 0x23047d84), X64Word_create(0x32caab7b, 0x40c72493),
+    X64Word_create(0x3c9ebe0a, 0x15c9bebc), X64Word_create(0x431d67c4, 0x9c100d4c),
+    X64Word_create(0x4cc5d4be, 0xcb3e42b6), X64Word_create(0x597f299c, 0xfc657e2a),
+    X64Word_create(0x5fcb6fab, 0x3ad6faec), X64Word_create(0x6c44198c, 0x4a475817)];
+
+
+    // Reusable objects
+    var W = [];
+    (function () {
+      for (var i = 0; i < 80; i++) {
+        W[i] = X64Word_create();
+      }
+    })();
+
+    /**
+           * SHA-512 hash algorithm.
+           */
+    var SHA512 = C_algo.SHA512 = Hasher.extend({
+      _doReset: function _doReset() {
+        this._hash = new X64WordArray.init([
+        new X64Word.init(0x6a09e667, 0xf3bcc908), new X64Word.init(0xbb67ae85, 0x84caa73b),
+        new X64Word.init(0x3c6ef372, 0xfe94f82b), new X64Word.init(0xa54ff53a, 0x5f1d36f1),
+        new X64Word.init(0x510e527f, 0xade682d1), new X64Word.init(0x9b05688c, 0x2b3e6c1f),
+        new X64Word.init(0x1f83d9ab, 0xfb41bd6b), new X64Word.init(0x5be0cd19, 0x137e2179)]);
+
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Shortcuts
+        var H = this._hash.words;
+
+        var H0 = H[0];
+        var H1 = H[1];
+        var H2 = H[2];
+        var H3 = H[3];
+        var H4 = H[4];
+        var H5 = H[5];
+        var H6 = H[6];
+        var H7 = H[7];
+
+        var H0h = H0.high;
+        var H0l = H0.low;
+        var H1h = H1.high;
+        var H1l = H1.low;
+        var H2h = H2.high;
+        var H2l = H2.low;
+        var H3h = H3.high;
+        var H3l = H3.low;
+        var H4h = H4.high;
+        var H4l = H4.low;
+        var H5h = H5.high;
+        var H5l = H5.low;
+        var H6h = H6.high;
+        var H6l = H6.low;
+        var H7h = H7.high;
+        var H7l = H7.low;
+
+        // Working variables
+        var ah = H0h;
+        var al = H0l;
+        var bh = H1h;
+        var bl = H1l;
+        var ch = H2h;
+        var cl = H2l;
+        var dh = H3h;
+        var dl = H3l;
+        var eh = H4h;
+        var el = H4l;
+        var fh = H5h;
+        var fl = H5l;
+        var gh = H6h;
+        var gl = H6l;
+        var hh = H7h;
+        var hl = H7l;
+
+        // Rounds
+        for (var i = 0; i < 80; i++) {
+          var Wil;
+          var Wih;
+
+          // Shortcut
+          var Wi = W[i];
+
+          // Extend message
+          if (i < 16) {
+            Wih = Wi.high = M[offset + i * 2] | 0;
+            Wil = Wi.low = M[offset + i * 2 + 1] | 0;
+          } else {
+            // Gamma0
+            var gamma0x = W[i - 15];
+            var gamma0xh = gamma0x.high;
+            var gamma0xl = gamma0x.low;
+            var gamma0h = (gamma0xh >>> 1 | gamma0xl << 31) ^ (gamma0xh >>> 8 | gamma0xl << 24) ^ gamma0xh >>> 7;
+            var gamma0l = (gamma0xl >>> 1 | gamma0xh << 31) ^ (gamma0xl >>> 8 | gamma0xh << 24) ^ (gamma0xl >>> 7 | gamma0xh << 25);
+
+            // Gamma1
+            var gamma1x = W[i - 2];
+            var gamma1xh = gamma1x.high;
+            var gamma1xl = gamma1x.low;
+            var gamma1h = (gamma1xh >>> 19 | gamma1xl << 13) ^ (gamma1xh << 3 | gamma1xl >>> 29) ^ gamma1xh >>> 6;
+            var gamma1l = (gamma1xl >>> 19 | gamma1xh << 13) ^ (gamma1xl << 3 | gamma1xh >>> 29) ^ (gamma1xl >>> 6 | gamma1xh << 26);
+
+            // W[i] = gamma0 + W[i - 7] + gamma1 + W[i - 16]
+            var Wi7 = W[i - 7];
+            var Wi7h = Wi7.high;
+            var Wi7l = Wi7.low;
+
+            var Wi16 = W[i - 16];
+            var Wi16h = Wi16.high;
+            var Wi16l = Wi16.low;
+
+            Wil = gamma0l + Wi7l;
+            Wih = gamma0h + Wi7h + (Wil >>> 0 < gamma0l >>> 0 ? 1 : 0);
+            Wil = Wil + gamma1l;
+            Wih = Wih + gamma1h + (Wil >>> 0 < gamma1l >>> 0 ? 1 : 0);
+            Wil = Wil + Wi16l;
+            Wih = Wih + Wi16h + (Wil >>> 0 < Wi16l >>> 0 ? 1 : 0);
+
+            Wi.high = Wih;
+            Wi.low = Wil;
+          }
+
+          var chh = eh & fh ^ ~eh & gh;
+          var chl = el & fl ^ ~el & gl;
+          var majh = ah & bh ^ ah & ch ^ bh & ch;
+          var majl = al & bl ^ al & cl ^ bl & cl;
+
+          var sigma0h = (ah >>> 28 | al << 4) ^ (ah << 30 | al >>> 2) ^ (ah << 25 | al >>> 7);
+          var sigma0l = (al >>> 28 | ah << 4) ^ (al << 30 | ah >>> 2) ^ (al << 25 | ah >>> 7);
+          var sigma1h = (eh >>> 14 | el << 18) ^ (eh >>> 18 | el << 14) ^ (eh << 23 | el >>> 9);
+          var sigma1l = (el >>> 14 | eh << 18) ^ (el >>> 18 | eh << 14) ^ (el << 23 | eh >>> 9);
+
+          // t1 = h + sigma1 + ch + K[i] + W[i]
+          var Ki = K[i];
+          var Kih = Ki.high;
+          var Kil = Ki.low;
+
+          var t1l = hl + sigma1l;
+          var t1h = hh + sigma1h + (t1l >>> 0 < hl >>> 0 ? 1 : 0);
+          var t1l = t1l + chl;
+          var t1h = t1h + chh + (t1l >>> 0 < chl >>> 0 ? 1 : 0);
+          var t1l = t1l + Kil;
+          var t1h = t1h + Kih + (t1l >>> 0 < Kil >>> 0 ? 1 : 0);
+          var t1l = t1l + Wil;
+          var t1h = t1h + Wih + (t1l >>> 0 < Wil >>> 0 ? 1 : 0);
+
+          // t2 = sigma0 + maj
+          var t2l = sigma0l + majl;
+          var t2h = sigma0h + majh + (t2l >>> 0 < sigma0l >>> 0 ? 1 : 0);
+
+          // Update working variables
+          hh = gh;
+          hl = gl;
+          gh = fh;
+          gl = fl;
+          fh = eh;
+          fl = el;
+          el = dl + t1l | 0;
+          eh = dh + t1h + (el >>> 0 < dl >>> 0 ? 1 : 0) | 0;
+          dh = ch;
+          dl = cl;
+          ch = bh;
+          cl = bl;
+          bh = ah;
+          bl = al;
+          al = t1l + t2l | 0;
+          ah = t1h + t2h + (al >>> 0 < t1l >>> 0 ? 1 : 0) | 0;
+        }
+
+        // Intermediate hash value
+        H0l = H0.low = H0l + al;
+        H0.high = H0h + ah + (H0l >>> 0 < al >>> 0 ? 1 : 0);
+        H1l = H1.low = H1l + bl;
+        H1.high = H1h + bh + (H1l >>> 0 < bl >>> 0 ? 1 : 0);
+        H2l = H2.low = H2l + cl;
+        H2.high = H2h + ch + (H2l >>> 0 < cl >>> 0 ? 1 : 0);
+        H3l = H3.low = H3l + dl;
+        H3.high = H3h + dh + (H3l >>> 0 < dl >>> 0 ? 1 : 0);
+        H4l = H4.low = H4l + el;
+        H4.high = H4h + eh + (H4l >>> 0 < el >>> 0 ? 1 : 0);
+        H5l = H5.low = H5l + fl;
+        H5.high = H5h + fh + (H5l >>> 0 < fl >>> 0 ? 1 : 0);
+        H6l = H6.low = H6l + gl;
+        H6.high = H6h + gh + (H6l >>> 0 < gl >>> 0 ? 1 : 0);
+        H7l = H7.low = H7l + hl;
+        H7.high = H7h + hh + (H7l >>> 0 < hl >>> 0 ? 1 : 0);
+      },
+
+      _doFinalize: function _doFinalize() {
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+
+        var nBitsTotal = this._nDataBytes * 8;
+        var nBitsLeft = data.sigBytes * 8;
+
+        // Add padding
+        dataWords[nBitsLeft >>> 5] |= 0x80 << 24 - nBitsLeft % 32;
+        dataWords[(nBitsLeft + 128 >>> 10 << 5) + 30] = Math.floor(nBitsTotal / 0x100000000);
+        dataWords[(nBitsLeft + 128 >>> 10 << 5) + 31] = nBitsTotal;
+        data.sigBytes = dataWords.length * 4;
+
+        // Hash final blocks
+        this._process();
+
+        // Convert hash to 32-bit word array before returning
+        var hash = this._hash.toX32();
+
+        // Return final computed hash
+        return hash;
+      },
+
+      clone: function clone() {
+        var clone = Hasher.clone.call(this);
+        clone._hash = this._hash.clone();
+
+        return clone;
+      },
+
+      blockSize: 1024 / 32 });
+
+
+    /**
+                                * Shortcut function to the hasher's object interface.
+                                *
+                                * @param {WordArray|string} message The message to hash.
+                                *
+                                * @return {WordArray} The hash.
+                                *
+                                * @static
+                                *
+                                * @example
+                                *
+                                *     var hash = CryptoJS.SHA512('message');
+                                *     var hash = CryptoJS.SHA512(wordArray);
+                                */
+    C.SHA512 = Hasher._createHelper(SHA512);
+
+    /**
+                                              * Shortcut function to the HMAC's object interface.
+                                              *
+                                              * @param {WordArray|string} message The message to hash.
+                                              * @param {WordArray|string} key The secret key.
+                                              *
+                                              * @return {WordArray} The HMAC.
+                                              *
+                                              * @static
+                                              *
+                                              * @example
+                                              *
+                                              *     var hmac = CryptoJS.HmacSHA512(message, key);
+                                              */
+    C.HmacSHA512 = Hasher._createHmacHelper(SHA512);
+  })();
+
+
+  return CryptoJS.SHA512;
+
+});
+
+/***/ }),
+/* 102 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/sha384.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./x64-core */ 92), __webpack_require__(/*! ./sha512 */ 101));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_x64 = C.x64;
+    var X64Word = C_x64.Word;
+    var X64WordArray = C_x64.WordArray;
+    var C_algo = C.algo;
+    var SHA512 = C_algo.SHA512;
+
+    /**
+                                 * SHA-384 hash algorithm.
+                                 */
+    var SHA384 = C_algo.SHA384 = SHA512.extend({
+      _doReset: function _doReset() {
+        this._hash = new X64WordArray.init([
+        new X64Word.init(0xcbbb9d5d, 0xc1059ed8), new X64Word.init(0x629a292a, 0x367cd507),
+        new X64Word.init(0x9159015a, 0x3070dd17), new X64Word.init(0x152fecd8, 0xf70e5939),
+        new X64Word.init(0x67332667, 0xffc00b31), new X64Word.init(0x8eb44a87, 0x68581511),
+        new X64Word.init(0xdb0c2e0d, 0x64f98fa7), new X64Word.init(0x47b5481d, 0xbefa4fa4)]);
+
+      },
+
+      _doFinalize: function _doFinalize() {
+        var hash = SHA512._doFinalize.call(this);
+
+        hash.sigBytes -= 16;
+
+        return hash;
+      } });
+
+
+    /**
+             * Shortcut function to the hasher's object interface.
+             *
+             * @param {WordArray|string} message The message to hash.
+             *
+             * @return {WordArray} The hash.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var hash = CryptoJS.SHA384('message');
+             *     var hash = CryptoJS.SHA384(wordArray);
+             */
+    C.SHA384 = SHA512._createHelper(SHA384);
+
+    /**
+                                              * Shortcut function to the HMAC's object interface.
+                                              *
+                                              * @param {WordArray|string} message The message to hash.
+                                              * @param {WordArray|string} key The secret key.
+                                              *
+                                              * @return {WordArray} The HMAC.
+                                              *
+                                              * @static
+                                              *
+                                              * @example
+                                              *
+                                              *     var hmac = CryptoJS.HmacSHA384(message, key);
+                                              */
+    C.HmacSHA384 = SHA512._createHmacHelper(SHA384);
+  })();
+
+
+  return CryptoJS.SHA384;
+
+});
+
+/***/ }),
+/* 103 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/sha3.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./x64-core */ 92));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function (Math) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var Hasher = C_lib.Hasher;
+    var C_x64 = C.x64;
+    var X64Word = C_x64.Word;
+    var C_algo = C.algo;
+
+    // Constants tables
+    var RHO_OFFSETS = [];
+    var PI_INDEXES = [];
+    var ROUND_CONSTANTS = [];
+
+    // Compute Constants
+    (function () {
+      // Compute rho offset constants
+      var x = 1,y = 0;
+      for (var t = 0; t < 24; t++) {
+        RHO_OFFSETS[x + 5 * y] = (t + 1) * (t + 2) / 2 % 64;
+
+        var newX = y % 5;
+        var newY = (2 * x + 3 * y) % 5;
+        x = newX;
+        y = newY;
+      }
+
+      // Compute pi index constants
+      for (var x = 0; x < 5; x++) {
+        for (var y = 0; y < 5; y++) {
+          PI_INDEXES[x + 5 * y] = y + (2 * x + 3 * y) % 5 * 5;
+        }
+      }
+
+      // Compute round constants
+      var LFSR = 0x01;
+      for (var i = 0; i < 24; i++) {
+        var roundConstantMsw = 0;
+        var roundConstantLsw = 0;
+
+        for (var j = 0; j < 7; j++) {
+          if (LFSR & 0x01) {
+            var bitPosition = (1 << j) - 1;
+            if (bitPosition < 32) {
+              roundConstantLsw ^= 1 << bitPosition;
+            } else /* if (bitPosition >= 32) */{
+                roundConstantMsw ^= 1 << bitPosition - 32;
+              }
+          }
+
+          // Compute next LFSR
+          if (LFSR & 0x80) {
+            // Primitive polynomial over GF(2): x^8 + x^6 + x^5 + x^4 + 1
+            LFSR = LFSR << 1 ^ 0x71;
+          } else {
+            LFSR <<= 1;
+          }
+        }
+
+        ROUND_CONSTANTS[i] = X64Word.create(roundConstantMsw, roundConstantLsw);
+      }
+    })();
+
+    // Reusable objects for temporary values
+    var T = [];
+    (function () {
+      for (var i = 0; i < 25; i++) {
+        T[i] = X64Word.create();
+      }
+    })();
+
+    /**
+           * SHA-3 hash algorithm.
+           */
+    var SHA3 = C_algo.SHA3 = Hasher.extend({
+      /**
+                                              * Configuration options.
+                                              *
+                                              * @property {number} outputLength
+                                              *   The desired number of bits in the output hash.
+                                              *   Only values permitted are: 224, 256, 384, 512.
+                                              *   Default: 512
+                                              */
+      cfg: Hasher.cfg.extend({
+        outputLength: 512 }),
+
+
+      _doReset: function _doReset() {
+        var state = this._state = [];
+        for (var i = 0; i < 25; i++) {
+          state[i] = new X64Word.init();
+        }
+
+        this.blockSize = (1600 - 2 * this.cfg.outputLength) / 32;
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Shortcuts
+        var state = this._state;
+        var nBlockSizeLanes = this.blockSize / 2;
+
+        // Absorb
+        for (var i = 0; i < nBlockSizeLanes; i++) {
+          // Shortcuts
+          var M2i = M[offset + 2 * i];
+          var M2i1 = M[offset + 2 * i + 1];
+
+          // Swap endian
+          M2i =
+          (M2i << 8 | M2i >>> 24) & 0x00ff00ff |
+          (M2i << 24 | M2i >>> 8) & 0xff00ff00;
+
+          M2i1 =
+          (M2i1 << 8 | M2i1 >>> 24) & 0x00ff00ff |
+          (M2i1 << 24 | M2i1 >>> 8) & 0xff00ff00;
+
+
+          // Absorb message into state
+          var lane = state[i];
+          lane.high ^= M2i1;
+          lane.low ^= M2i;
+        }
+
+        // Rounds
+        for (var round = 0; round < 24; round++) {
+          // Theta
+          for (var x = 0; x < 5; x++) {
+            // Mix column lanes
+            var tMsw = 0,tLsw = 0;
+            for (var y = 0; y < 5; y++) {
+              var lane = state[x + 5 * y];
+              tMsw ^= lane.high;
+              tLsw ^= lane.low;
+            }
+
+            // Temporary values
+            var Tx = T[x];
+            Tx.high = tMsw;
+            Tx.low = tLsw;
+          }
+          for (var x = 0; x < 5; x++) {
+            // Shortcuts
+            var Tx4 = T[(x + 4) % 5];
+            var Tx1 = T[(x + 1) % 5];
+            var Tx1Msw = Tx1.high;
+            var Tx1Lsw = Tx1.low;
+
+            // Mix surrounding columns
+            var tMsw = Tx4.high ^ (Tx1Msw << 1 | Tx1Lsw >>> 31);
+            var tLsw = Tx4.low ^ (Tx1Lsw << 1 | Tx1Msw >>> 31);
+            for (var y = 0; y < 5; y++) {
+              var lane = state[x + 5 * y];
+              lane.high ^= tMsw;
+              lane.low ^= tLsw;
+            }
+          }
+
+          // Rho Pi
+          for (var laneIndex = 1; laneIndex < 25; laneIndex++) {
+            var tMsw;
+            var tLsw;
+
+            // Shortcuts
+            var lane = state[laneIndex];
+            var laneMsw = lane.high;
+            var laneLsw = lane.low;
+            var rhoOffset = RHO_OFFSETS[laneIndex];
+
+            // Rotate lanes
+            if (rhoOffset < 32) {
+              tMsw = laneMsw << rhoOffset | laneLsw >>> 32 - rhoOffset;
+              tLsw = laneLsw << rhoOffset | laneMsw >>> 32 - rhoOffset;
+            } else /* if (rhoOffset >= 32) */{
+                tMsw = laneLsw << rhoOffset - 32 | laneMsw >>> 64 - rhoOffset;
+                tLsw = laneMsw << rhoOffset - 32 | laneLsw >>> 64 - rhoOffset;
+              }
+
+            // Transpose lanes
+            var TPiLane = T[PI_INDEXES[laneIndex]];
+            TPiLane.high = tMsw;
+            TPiLane.low = tLsw;
+          }
+
+          // Rho pi at x = y = 0
+          var T0 = T[0];
+          var state0 = state[0];
+          T0.high = state0.high;
+          T0.low = state0.low;
+
+          // Chi
+          for (var x = 0; x < 5; x++) {
+            for (var y = 0; y < 5; y++) {
+              // Shortcuts
+              var laneIndex = x + 5 * y;
+              var lane = state[laneIndex];
+              var TLane = T[laneIndex];
+              var Tx1Lane = T[(x + 1) % 5 + 5 * y];
+              var Tx2Lane = T[(x + 2) % 5 + 5 * y];
+
+              // Mix rows
+              lane.high = TLane.high ^ ~Tx1Lane.high & Tx2Lane.high;
+              lane.low = TLane.low ^ ~Tx1Lane.low & Tx2Lane.low;
+            }
+          }
+
+          // Iota
+          var lane = state[0];
+          var roundConstant = ROUND_CONSTANTS[round];
+          lane.high ^= roundConstant.high;
+          lane.low ^= roundConstant.low;
+        }
+      },
+
+      _doFinalize: function _doFinalize() {
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+        var nBitsTotal = this._nDataBytes * 8;
+        var nBitsLeft = data.sigBytes * 8;
+        var blockSizeBits = this.blockSize * 32;
+
+        // Add padding
+        dataWords[nBitsLeft >>> 5] |= 0x1 << 24 - nBitsLeft % 32;
+        dataWords[(Math.ceil((nBitsLeft + 1) / blockSizeBits) * blockSizeBits >>> 5) - 1] |= 0x80;
+        data.sigBytes = dataWords.length * 4;
+
+        // Hash final blocks
+        this._process();
+
+        // Shortcuts
+        var state = this._state;
+        var outputLengthBytes = this.cfg.outputLength / 8;
+        var outputLengthLanes = outputLengthBytes / 8;
+
+        // Squeeze
+        var hashWords = [];
+        for (var i = 0; i < outputLengthLanes; i++) {
+          // Shortcuts
+          var lane = state[i];
+          var laneMsw = lane.high;
+          var laneLsw = lane.low;
+
+          // Swap endian
+          laneMsw =
+          (laneMsw << 8 | laneMsw >>> 24) & 0x00ff00ff |
+          (laneMsw << 24 | laneMsw >>> 8) & 0xff00ff00;
+
+          laneLsw =
+          (laneLsw << 8 | laneLsw >>> 24) & 0x00ff00ff |
+          (laneLsw << 24 | laneLsw >>> 8) & 0xff00ff00;
+
+
+          // Squeeze state to retrieve hash
+          hashWords.push(laneLsw);
+          hashWords.push(laneMsw);
+        }
+
+        // Return final computed hash
+        return new WordArray.init(hashWords, outputLengthBytes);
+      },
+
+      clone: function clone() {
+        var clone = Hasher.clone.call(this);
+
+        var state = clone._state = this._state.slice(0);
+        for (var i = 0; i < 25; i++) {
+          state[i] = state[i].clone();
+        }
+
+        return clone;
+      } });
+
+
+    /**
+             * Shortcut function to the hasher's object interface.
+             *
+             * @param {WordArray|string} message The message to hash.
+             *
+             * @return {WordArray} The hash.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var hash = CryptoJS.SHA3('message');
+             *     var hash = CryptoJS.SHA3(wordArray);
+             */
+    C.SHA3 = Hasher._createHelper(SHA3);
+
+    /**
+                                          * Shortcut function to the HMAC's object interface.
+                                          *
+                                          * @param {WordArray|string} message The message to hash.
+                                          * @param {WordArray|string} key The secret key.
+                                          *
+                                          * @return {WordArray} The HMAC.
+                                          *
+                                          * @static
+                                          *
+                                          * @example
+                                          *
+                                          *     var hmac = CryptoJS.HmacSHA3(message, key);
+                                          */
+    C.HmacSHA3 = Hasher._createHmacHelper(SHA3);
+  })(Math);
+
+
+  return CryptoJS.SHA3;
+
+});
+
+/***/ }),
+/* 104 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/ripemd160.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /** @preserve
+                              (c) 2012 by Cédric Mesnil. All rights reserved.
+                              	Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+                              	    - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+                                  - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+                              	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+                              */
+
+
+
+
+  (function (Math) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var Hasher = C_lib.Hasher;
+    var C_algo = C.algo;
+
+    // Constants table
+    var _zl = WordArray.create([
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+    7, 4, 13, 1, 10, 6, 15, 3, 12, 0, 9, 5, 2, 14, 11, 8,
+    3, 10, 14, 4, 9, 15, 8, 1, 2, 7, 0, 6, 13, 11, 5, 12,
+    1, 9, 11, 10, 0, 8, 12, 4, 13, 3, 7, 15, 14, 5, 6, 2,
+    4, 0, 5, 9, 7, 12, 2, 10, 14, 1, 3, 8, 11, 6, 15, 13]);
+    var _zr = WordArray.create([
+    5, 14, 7, 0, 9, 2, 11, 4, 13, 6, 15, 8, 1, 10, 3, 12,
+    6, 11, 3, 7, 0, 13, 5, 10, 14, 15, 8, 12, 4, 9, 1, 2,
+    15, 5, 1, 3, 7, 14, 6, 9, 11, 8, 12, 2, 10, 0, 4, 13,
+    8, 6, 4, 1, 3, 11, 15, 0, 5, 12, 2, 13, 9, 7, 10, 14,
+    12, 15, 10, 4, 1, 5, 8, 7, 6, 2, 13, 14, 0, 3, 9, 11]);
+    var _sl = WordArray.create([
+    11, 14, 15, 12, 5, 8, 7, 9, 11, 13, 14, 15, 6, 7, 9, 8,
+    7, 6, 8, 13, 11, 9, 7, 15, 7, 12, 15, 9, 11, 7, 13, 12,
+    11, 13, 6, 7, 14, 9, 13, 15, 14, 8, 13, 6, 5, 12, 7, 5,
+    11, 12, 14, 15, 14, 15, 9, 8, 9, 14, 5, 6, 8, 6, 5, 12,
+    9, 15, 5, 11, 6, 8, 13, 12, 5, 12, 13, 14, 11, 8, 5, 6]);
+    var _sr = WordArray.create([
+    8, 9, 9, 11, 13, 15, 15, 5, 7, 7, 8, 11, 14, 14, 12, 6,
+    9, 13, 15, 7, 12, 8, 9, 11, 7, 7, 12, 7, 6, 15, 13, 11,
+    9, 7, 15, 11, 8, 6, 6, 14, 12, 13, 5, 14, 13, 13, 7, 5,
+    15, 5, 8, 11, 14, 14, 6, 14, 6, 9, 12, 9, 12, 5, 15, 8,
+    8, 5, 12, 9, 12, 5, 14, 6, 8, 13, 6, 5, 15, 13, 11, 11]);
+
+    var _hl = WordArray.create([0x00000000, 0x5A827999, 0x6ED9EBA1, 0x8F1BBCDC, 0xA953FD4E]);
+    var _hr = WordArray.create([0x50A28BE6, 0x5C4DD124, 0x6D703EF3, 0x7A6D76E9, 0x00000000]);
+
+    /**
+                                                                                               * RIPEMD160 hash algorithm.
+                                                                                               */
+    var RIPEMD160 = C_algo.RIPEMD160 = Hasher.extend({
+      _doReset: function _doReset() {
+        this._hash = WordArray.create([0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476, 0xC3D2E1F0]);
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+
+        // Swap endian
+        for (var i = 0; i < 16; i++) {
+          // Shortcuts
+          var offset_i = offset + i;
+          var M_offset_i = M[offset_i];
+
+          // Swap
+          M[offset_i] =
+          (M_offset_i << 8 | M_offset_i >>> 24) & 0x00ff00ff |
+          (M_offset_i << 24 | M_offset_i >>> 8) & 0xff00ff00;
+
+        }
+        // Shortcut
+        var H = this._hash.words;
+        var hl = _hl.words;
+        var hr = _hr.words;
+        var zl = _zl.words;
+        var zr = _zr.words;
+        var sl = _sl.words;
+        var sr = _sr.words;
+
+        // Working variables
+        var al, bl, cl, dl, el;
+        var ar, br, cr, dr, er;
+
+        ar = al = H[0];
+        br = bl = H[1];
+        cr = cl = H[2];
+        dr = dl = H[3];
+        er = el = H[4];
+        // Computation
+        var t;
+        for (var i = 0; i < 80; i += 1) {
+          t = al + M[offset + zl[i]] | 0;
+          if (i < 16) {
+            t += f1(bl, cl, dl) + hl[0];
+          } else if (i < 32) {
+            t += f2(bl, cl, dl) + hl[1];
+          } else if (i < 48) {
+            t += f3(bl, cl, dl) + hl[2];
+          } else if (i < 64) {
+            t += f4(bl, cl, dl) + hl[3];
+          } else {// if (i<80) {
+            t += f5(bl, cl, dl) + hl[4];
+          }
+          t = t | 0;
+          t = rotl(t, sl[i]);
+          t = t + el | 0;
+          al = el;
+          el = dl;
+          dl = rotl(cl, 10);
+          cl = bl;
+          bl = t;
+
+          t = ar + M[offset + zr[i]] | 0;
+          if (i < 16) {
+            t += f5(br, cr, dr) + hr[0];
+          } else if (i < 32) {
+            t += f4(br, cr, dr) + hr[1];
+          } else if (i < 48) {
+            t += f3(br, cr, dr) + hr[2];
+          } else if (i < 64) {
+            t += f2(br, cr, dr) + hr[3];
+          } else {// if (i<80) {
+            t += f1(br, cr, dr) + hr[4];
+          }
+          t = t | 0;
+          t = rotl(t, sr[i]);
+          t = t + er | 0;
+          ar = er;
+          er = dr;
+          dr = rotl(cr, 10);
+          cr = br;
+          br = t;
+        }
+        // Intermediate hash value
+        t = H[1] + cl + dr | 0;
+        H[1] = H[2] + dl + er | 0;
+        H[2] = H[3] + el + ar | 0;
+        H[3] = H[4] + al + br | 0;
+        H[4] = H[0] + bl + cr | 0;
+        H[0] = t;
+      },
+
+      _doFinalize: function _doFinalize() {
+        // Shortcuts
+        var data = this._data;
+        var dataWords = data.words;
+
+        var nBitsTotal = this._nDataBytes * 8;
+        var nBitsLeft = data.sigBytes * 8;
+
+        // Add padding
+        dataWords[nBitsLeft >>> 5] |= 0x80 << 24 - nBitsLeft % 32;
+        dataWords[(nBitsLeft + 64 >>> 9 << 4) + 14] =
+        (nBitsTotal << 8 | nBitsTotal >>> 24) & 0x00ff00ff |
+        (nBitsTotal << 24 | nBitsTotal >>> 8) & 0xff00ff00;
+
+        data.sigBytes = (dataWords.length + 1) * 4;
+
+        // Hash final blocks
+        this._process();
+
+        // Shortcuts
+        var hash = this._hash;
+        var H = hash.words;
+
+        // Swap endian
+        for (var i = 0; i < 5; i++) {
+          // Shortcut
+          var H_i = H[i];
+
+          // Swap
+          H[i] = (H_i << 8 | H_i >>> 24) & 0x00ff00ff |
+          (H_i << 24 | H_i >>> 8) & 0xff00ff00;
+        }
+
+        // Return final computed hash
+        return hash;
+      },
+
+      clone: function clone() {
+        var clone = Hasher.clone.call(this);
+        clone._hash = this._hash.clone();
+
+        return clone;
+      } });
+
+
+
+    function f1(x, y, z) {
+      return x ^ y ^ z;
+
+    }
+
+    function f2(x, y, z) {
+      return x & y | ~x & z;
+    }
+
+    function f3(x, y, z) {
+      return (x | ~y) ^ z;
+    }
+
+    function f4(x, y, z) {
+      return x & z | y & ~z;
+    }
+
+    function f5(x, y, z) {
+      return x ^ (y | ~z);
+
+    }
+
+    function rotl(x, n) {
+      return x << n | x >>> 32 - n;
+    }
+
+
+    /**
+       * Shortcut function to the hasher's object interface.
+       *
+       * @param {WordArray|string} message The message to hash.
+       *
+       * @return {WordArray} The hash.
+       *
+       * @static
+       *
+       * @example
+       *
+       *     var hash = CryptoJS.RIPEMD160('message');
+       *     var hash = CryptoJS.RIPEMD160(wordArray);
+       */
+    C.RIPEMD160 = Hasher._createHelper(RIPEMD160);
+
+    /**
+                                                    * Shortcut function to the HMAC's object interface.
+                                                    *
+                                                    * @param {WordArray|string} message The message to hash.
+                                                    * @param {WordArray|string} key The secret key.
+                                                    *
+                                                    * @return {WordArray} The HMAC.
+                                                    *
+                                                    * @static
+                                                    *
+                                                    * @example
+                                                    *
+                                                    *     var hmac = CryptoJS.HmacRIPEMD160(message, key);
+                                                    */
+    C.HmacRIPEMD160 = Hasher._createHmacHelper(RIPEMD160);
+  })(Math);
+
+
+  return CryptoJS.RIPEMD160;
+
+});
+
+/***/ }),
+/* 105 */
+/*!*********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/hmac.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var Base = C_lib.Base;
+    var C_enc = C.enc;
+    var Utf8 = C_enc.Utf8;
+    var C_algo = C.algo;
+
+    /**
+                          * HMAC algorithm.
+                          */
+    var HMAC = C_algo.HMAC = Base.extend({
+      /**
+                                            * Initializes a newly created HMAC.
+                                            *
+                                            * @param {Hasher} hasher The hash algorithm to use.
+                                            * @param {WordArray|string} key The secret key.
+                                            *
+                                            * @example
+                                            *
+                                            *     var hmacHasher = CryptoJS.algo.HMAC.create(CryptoJS.algo.SHA256, key);
+                                            */
+      init: function init(hasher, key) {
+        // Init hasher
+        hasher = this._hasher = new hasher.init();
+
+        // Convert string to WordArray, else assume WordArray already
+        if (typeof key == 'string') {
+          key = Utf8.parse(key);
+        }
+
+        // Shortcuts
+        var hasherBlockSize = hasher.blockSize;
+        var hasherBlockSizeBytes = hasherBlockSize * 4;
+
+        // Allow arbitrary length keys
+        if (key.sigBytes > hasherBlockSizeBytes) {
+          key = hasher.finalize(key);
+        }
+
+        // Clamp excess bits
+        key.clamp();
+
+        // Clone key for inner and outer pads
+        var oKey = this._oKey = key.clone();
+        var iKey = this._iKey = key.clone();
+
+        // Shortcuts
+        var oKeyWords = oKey.words;
+        var iKeyWords = iKey.words;
+
+        // XOR keys with pad constants
+        for (var i = 0; i < hasherBlockSize; i++) {
+          oKeyWords[i] ^= 0x5c5c5c5c;
+          iKeyWords[i] ^= 0x36363636;
+        }
+        oKey.sigBytes = iKey.sigBytes = hasherBlockSizeBytes;
+
+        // Set initial values
+        this.reset();
+      },
+
+      /**
+          * Resets this HMAC to its initial state.
+          *
+          * @example
+          *
+          *     hmacHasher.reset();
+          */
+      reset: function reset() {
+        // Shortcut
+        var hasher = this._hasher;
+
+        // Reset
+        hasher.reset();
+        hasher.update(this._iKey);
+      },
+
+      /**
+          * Updates this HMAC with a message.
+          *
+          * @param {WordArray|string} messageUpdate The message to append.
+          *
+          * @return {HMAC} This HMAC instance.
+          *
+          * @example
+          *
+          *     hmacHasher.update('message');
+          *     hmacHasher.update(wordArray);
+          */
+      update: function update(messageUpdate) {
+        this._hasher.update(messageUpdate);
+
+        // Chainable
+        return this;
+      },
+
+      /**
+          * Finalizes the HMAC computation.
+          * Note that the finalize operation is effectively a destructive, read-once operation.
+          *
+          * @param {WordArray|string} messageUpdate (Optional) A final message update.
+          *
+          * @return {WordArray} The HMAC.
+          *
+          * @example
+          *
+          *     var hmac = hmacHasher.finalize();
+          *     var hmac = hmacHasher.finalize('message');
+          *     var hmac = hmacHasher.finalize(wordArray);
+          */
+      finalize: function finalize(messageUpdate) {
+        // Shortcut
+        var hasher = this._hasher;
+
+        // Compute HMAC
+        var innerHash = hasher.finalize(messageUpdate);
+        hasher.reset();
+        var hmac = hasher.finalize(this._oKey.clone().concat(innerHash));
+
+        return hmac;
+      } });
+
+  })();
+
+
+});
+
+/***/ }),
+/* 106 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/pbkdf2.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./sha1 */ 98), __webpack_require__(/*! ./hmac */ 105));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var Base = C_lib.Base;
+    var WordArray = C_lib.WordArray;
+    var C_algo = C.algo;
+    var SHA1 = C_algo.SHA1;
+    var HMAC = C_algo.HMAC;
+
+    /**
+                             * Password-Based Key Derivation Function 2 algorithm.
+                             */
+    var PBKDF2 = C_algo.PBKDF2 = Base.extend({
+      /**
+                                                * Configuration options.
+                                                *
+                                                * @property {number} keySize The key size in words to generate. Default: 4 (128 bits)
+                                                * @property {Hasher} hasher The hasher to use. Default: SHA1
+                                                * @property {number} iterations The number of iterations to perform. Default: 1
+                                                */
+      cfg: Base.extend({
+        keySize: 128 / 32,
+        hasher: SHA1,
+        iterations: 1 }),
+
+
+      /**
+                           * Initializes a newly created key derivation function.
+                           *
+                           * @param {Object} cfg (Optional) The configuration options to use for the derivation.
+                           *
+                           * @example
+                           *
+                           *     var kdf = CryptoJS.algo.PBKDF2.create();
+                           *     var kdf = CryptoJS.algo.PBKDF2.create({ keySize: 8 });
+                           *     var kdf = CryptoJS.algo.PBKDF2.create({ keySize: 8, iterations: 1000 });
+                           */
+      init: function init(cfg) {
+        this.cfg = this.cfg.extend(cfg);
+      },
+
+      /**
+          * Computes the Password-Based Key Derivation Function 2.
+          *
+          * @param {WordArray|string} password The password.
+          * @param {WordArray|string} salt A salt.
+          *
+          * @return {WordArray} The derived key.
+          *
+          * @example
+          *
+          *     var key = kdf.compute(password, salt);
+          */
+      compute: function compute(password, salt) {
+        // Shortcut
+        var cfg = this.cfg;
+
+        // Init HMAC
+        var hmac = HMAC.create(cfg.hasher, password);
+
+        // Initial values
+        var derivedKey = WordArray.create();
+        var blockIndex = WordArray.create([0x00000001]);
+
+        // Shortcuts
+        var derivedKeyWords = derivedKey.words;
+        var blockIndexWords = blockIndex.words;
+        var keySize = cfg.keySize;
+        var iterations = cfg.iterations;
+
+        // Generate key
+        while (derivedKeyWords.length < keySize) {
+          var block = hmac.update(salt).finalize(blockIndex);
+          hmac.reset();
+
+          // Shortcuts
+          var blockWords = block.words;
+          var blockWordsLength = blockWords.length;
+
+          // Iterations
+          var intermediate = block;
+          for (var i = 1; i < iterations; i++) {
+            intermediate = hmac.finalize(intermediate);
+            hmac.reset();
+
+            // Shortcut
+            var intermediateWords = intermediate.words;
+
+            // XOR intermediate with block
+            for (var j = 0; j < blockWordsLength; j++) {
+              blockWords[j] ^= intermediateWords[j];
+            }
+          }
+
+          derivedKey.concat(block);
+          blockIndexWords[0]++;
+        }
+        derivedKey.sigBytes = keySize * 4;
+
+        return derivedKey;
+      } });
+
+
+    /**
+             * Computes the Password-Based Key Derivation Function 2.
+             *
+             * @param {WordArray|string} password The password.
+             * @param {WordArray|string} salt A salt.
+             * @param {Object} cfg (Optional) The configuration options to use for this computation.
+             *
+             * @return {WordArray} The derived key.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var key = CryptoJS.PBKDF2(password, salt);
+             *     var key = CryptoJS.PBKDF2(password, salt, { keySize: 8 });
+             *     var key = CryptoJS.PBKDF2(password, salt, { keySize: 8, iterations: 1000 });
+             */
+    C.PBKDF2 = function (password, salt, cfg) {
+      return PBKDF2.create(cfg).compute(password, salt);
+    };
+  })();
+
+
+  return CryptoJS.PBKDF2;
+
+});
+
+/***/ }),
+/* 107 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/evpkdf.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./sha1 */ 98), __webpack_require__(/*! ./hmac */ 105));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var Base = C_lib.Base;
+    var WordArray = C_lib.WordArray;
+    var C_algo = C.algo;
+    var MD5 = C_algo.MD5;
+
+    /**
+                           * This key derivation function is meant to conform with EVP_BytesToKey.
+                           * www.openssl.org/docs/crypto/EVP_BytesToKey.html
+                           */
+    var EvpKDF = C_algo.EvpKDF = Base.extend({
+      /**
+                                                * Configuration options.
+                                                *
+                                                * @property {number} keySize The key size in words to generate. Default: 4 (128 bits)
+                                                * @property {Hasher} hasher The hash algorithm to use. Default: MD5
+                                                * @property {number} iterations The number of iterations to perform. Default: 1
+                                                */
+      cfg: Base.extend({
+        keySize: 128 / 32,
+        hasher: MD5,
+        iterations: 1 }),
+
+
+      /**
+                           * Initializes a newly created key derivation function.
+                           *
+                           * @param {Object} cfg (Optional) The configuration options to use for the derivation.
+                           *
+                           * @example
+                           *
+                           *     var kdf = CryptoJS.algo.EvpKDF.create();
+                           *     var kdf = CryptoJS.algo.EvpKDF.create({ keySize: 8 });
+                           *     var kdf = CryptoJS.algo.EvpKDF.create({ keySize: 8, iterations: 1000 });
+                           */
+      init: function init(cfg) {
+        this.cfg = this.cfg.extend(cfg);
+      },
+
+      /**
+          * Derives a key from a password.
+          *
+          * @param {WordArray|string} password The password.
+          * @param {WordArray|string} salt A salt.
+          *
+          * @return {WordArray} The derived key.
+          *
+          * @example
+          *
+          *     var key = kdf.compute(password, salt);
+          */
+      compute: function compute(password, salt) {
+        var block;
+
+        // Shortcut
+        var cfg = this.cfg;
+
+        // Init hasher
+        var hasher = cfg.hasher.create();
+
+        // Initial values
+        var derivedKey = WordArray.create();
+
+        // Shortcuts
+        var derivedKeyWords = derivedKey.words;
+        var keySize = cfg.keySize;
+        var iterations = cfg.iterations;
+
+        // Generate key
+        while (derivedKeyWords.length < keySize) {
+          if (block) {
+            hasher.update(block);
+          }
+          block = hasher.update(password).finalize(salt);
+          hasher.reset();
+
+          // Iterations
+          for (var i = 1; i < iterations; i++) {
+            block = hasher.finalize(block);
+            hasher.reset();
+          }
+
+          derivedKey.concat(block);
+        }
+        derivedKey.sigBytes = keySize * 4;
+
+        return derivedKey;
+      } });
+
+
+    /**
+             * Derives a key from a password.
+             *
+             * @param {WordArray|string} password The password.
+             * @param {WordArray|string} salt A salt.
+             * @param {Object} cfg (Optional) The configuration options to use for this computation.
+             *
+             * @return {WordArray} The derived key.
+             *
+             * @static
+             *
+             * @example
+             *
+             *     var key = CryptoJS.EvpKDF(password, salt);
+             *     var key = CryptoJS.EvpKDF(password, salt, { keySize: 8 });
+             *     var key = CryptoJS.EvpKDF(password, salt, { keySize: 8, iterations: 1000 });
+             */
+    C.EvpKDF = function (password, salt, cfg) {
+      return EvpKDF.create(cfg).compute(password, salt);
+    };
+  })();
+
+
+  return CryptoJS.EvpKDF;
+
+});
+
+/***/ }),
+/* 108 */
+/*!****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/cipher-core.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./evpkdf */ 107));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * Cipher core components.
+                               */
+  CryptoJS.lib.Cipher || function (undefined) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var Base = C_lib.Base;
+    var WordArray = C_lib.WordArray;
+    var BufferedBlockAlgorithm = C_lib.BufferedBlockAlgorithm;
+    var C_enc = C.enc;
+    var Utf8 = C_enc.Utf8;
+    var Base64 = C_enc.Base64;
+    var C_algo = C.algo;
+    var EvpKDF = C_algo.EvpKDF;
+
+    /**
+                                 * Abstract base cipher template.
+                                 *
+                                 * @property {number} keySize This cipher's key size. Default: 4 (128 bits)
+                                 * @property {number} ivSize This cipher's IV size. Default: 4 (128 bits)
+                                 * @property {number} _ENC_XFORM_MODE A constant representing encryption mode.
+                                 * @property {number} _DEC_XFORM_MODE A constant representing decryption mode.
+                                 */
+    var Cipher = C_lib.Cipher = BufferedBlockAlgorithm.extend({
+      /**
+                                                                 * Configuration options.
+                                                                 *
+                                                                 * @property {WordArray} iv The IV to use for this operation.
+                                                                 */
+      cfg: Base.extend(),
+
+      /**
+                           * Creates this cipher in encryption mode.
+                           *
+                           * @param {WordArray} key The key.
+                           * @param {Object} cfg (Optional) The configuration options to use for this operation.
+                           *
+                           * @return {Cipher} A cipher instance.
+                           *
+                           * @static
+                           *
+                           * @example
+                           *
+                           *     var cipher = CryptoJS.algo.AES.createEncryptor(keyWordArray, { iv: ivWordArray });
+                           */
+      createEncryptor: function createEncryptor(key, cfg) {
+        return this.create(this._ENC_XFORM_MODE, key, cfg);
+      },
+
+      /**
+          * Creates this cipher in decryption mode.
+          *
+          * @param {WordArray} key The key.
+          * @param {Object} cfg (Optional) The configuration options to use for this operation.
+          *
+          * @return {Cipher} A cipher instance.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var cipher = CryptoJS.algo.AES.createDecryptor(keyWordArray, { iv: ivWordArray });
+          */
+      createDecryptor: function createDecryptor(key, cfg) {
+        return this.create(this._DEC_XFORM_MODE, key, cfg);
+      },
+
+      /**
+          * Initializes a newly created cipher.
+          *
+          * @param {number} xformMode Either the encryption or decryption transormation mode constant.
+          * @param {WordArray} key The key.
+          * @param {Object} cfg (Optional) The configuration options to use for this operation.
+          *
+          * @example
+          *
+          *     var cipher = CryptoJS.algo.AES.create(CryptoJS.algo.AES._ENC_XFORM_MODE, keyWordArray, { iv: ivWordArray });
+          */
+      init: function init(xformMode, key, cfg) {
+        // Apply config defaults
+        this.cfg = this.cfg.extend(cfg);
+
+        // Store transform mode and key
+        this._xformMode = xformMode;
+        this._key = key;
+
+        // Set initial values
+        this.reset();
+      },
+
+      /**
+          * Resets this cipher to its initial state.
+          *
+          * @example
+          *
+          *     cipher.reset();
+          */
+      reset: function reset() {
+        // Reset data buffer
+        BufferedBlockAlgorithm.reset.call(this);
+
+        // Perform concrete-cipher logic
+        this._doReset();
+      },
+
+      /**
+          * Adds data to be encrypted or decrypted.
+          *
+          * @param {WordArray|string} dataUpdate The data to encrypt or decrypt.
+          *
+          * @return {WordArray} The data after processing.
+          *
+          * @example
+          *
+          *     var encrypted = cipher.process('data');
+          *     var encrypted = cipher.process(wordArray);
+          */
+      process: function process(dataUpdate) {
+        // Append
+        this._append(dataUpdate);
+
+        // Process available blocks
+        return this._process();
+      },
+
+      /**
+          * Finalizes the encryption or decryption process.
+          * Note that the finalize operation is effectively a destructive, read-once operation.
+          *
+          * @param {WordArray|string} dataUpdate The final data to encrypt or decrypt.
+          *
+          * @return {WordArray} The data after final processing.
+          *
+          * @example
+          *
+          *     var encrypted = cipher.finalize();
+          *     var encrypted = cipher.finalize('data');
+          *     var encrypted = cipher.finalize(wordArray);
+          */
+      finalize: function finalize(dataUpdate) {
+        // Final data update
+        if (dataUpdate) {
+          this._append(dataUpdate);
+        }
+
+        // Perform concrete-cipher logic
+        var finalProcessedData = this._doFinalize();
+
+        return finalProcessedData;
+      },
+
+      keySize: 128 / 32,
+
+      ivSize: 128 / 32,
+
+      _ENC_XFORM_MODE: 1,
+
+      _DEC_XFORM_MODE: 2,
+
+      /**
+                           * Creates shortcut functions to a cipher's object interface.
+                           *
+                           * @param {Cipher} cipher The cipher to create a helper for.
+                           *
+                           * @return {Object} An object with encrypt and decrypt shortcut functions.
+                           *
+                           * @static
+                           *
+                           * @example
+                           *
+                           *     var AES = CryptoJS.lib.Cipher._createHelper(CryptoJS.algo.AES);
+                           */
+      _createHelper: function () {
+        function selectCipherStrategy(key) {
+          if (typeof key == 'string') {
+            return PasswordBasedCipher;
+          } else {
+            return SerializableCipher;
+          }
+        }
+
+        return function (cipher) {
+          return {
+            encrypt: function encrypt(message, key, cfg) {
+              return selectCipherStrategy(key).encrypt(cipher, message, key, cfg);
+            },
+
+            decrypt: function decrypt(ciphertext, key, cfg) {
+              return selectCipherStrategy(key).decrypt(cipher, ciphertext, key, cfg);
+            } };
+
+        };
+      }() });
+
+
+    /**
+               * Abstract base stream cipher template.
+               *
+               * @property {number} blockSize The number of 32-bit words this cipher operates on. Default: 1 (32 bits)
+               */
+    var StreamCipher = C_lib.StreamCipher = Cipher.extend({
+      _doFinalize: function _doFinalize() {
+        // Process partial blocks
+        var finalProcessedBlocks = this._process(!!'flush');
+
+        return finalProcessedBlocks;
+      },
+
+      blockSize: 1 });
+
+
+    /**
+                        * Mode namespace.
+                        */
+    var C_mode = C.mode = {};
+
+    /**
+                               * Abstract base block cipher mode template.
+                               */
+    var BlockCipherMode = C_lib.BlockCipherMode = Base.extend({
+      /**
+                                                                 * Creates this mode for encryption.
+                                                                 *
+                                                                 * @param {Cipher} cipher A block cipher instance.
+                                                                 * @param {Array} iv The IV words.
+                                                                 *
+                                                                 * @static
+                                                                 *
+                                                                 * @example
+                                                                 *
+                                                                 *     var mode = CryptoJS.mode.CBC.createEncryptor(cipher, iv.words);
+                                                                 */
+      createEncryptor: function createEncryptor(cipher, iv) {
+        return this.Encryptor.create(cipher, iv);
+      },
+
+      /**
+          * Creates this mode for decryption.
+          *
+          * @param {Cipher} cipher A block cipher instance.
+          * @param {Array} iv The IV words.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var mode = CryptoJS.mode.CBC.createDecryptor(cipher, iv.words);
+          */
+      createDecryptor: function createDecryptor(cipher, iv) {
+        return this.Decryptor.create(cipher, iv);
+      },
+
+      /**
+          * Initializes a newly created mode.
+          *
+          * @param {Cipher} cipher A block cipher instance.
+          * @param {Array} iv The IV words.
+          *
+          * @example
+          *
+          *     var mode = CryptoJS.mode.CBC.Encryptor.create(cipher, iv.words);
+          */
+      init: function init(cipher, iv) {
+        this._cipher = cipher;
+        this._iv = iv;
+      } });
+
+
+    /**
+             * Cipher Block Chaining mode.
+             */
+    var CBC = C_mode.CBC = function () {
+      /**
+                                         * Abstract base CBC mode.
+                                         */
+      var CBC = BlockCipherMode.extend();
+
+      /**
+                                           * CBC encryptor.
+                                           */
+      CBC.Encryptor = CBC.extend({
+        /**
+                                    * Processes the data block at offset.
+                                    *
+                                    * @param {Array} words The data words to operate on.
+                                    * @param {number} offset The offset where the block starts.
+                                    *
+                                    * @example
+                                    *
+                                    *     mode.processBlock(data.words, offset);
+                                    */
+        processBlock: function processBlock(words, offset) {
+          // Shortcuts
+          var cipher = this._cipher;
+          var blockSize = cipher.blockSize;
+
+          // XOR and encrypt
+          xorBlock.call(this, words, offset, blockSize);
+          cipher.encryptBlock(words, offset);
+
+          // Remember this block to use with next block
+          this._prevBlock = words.slice(offset, offset + blockSize);
+        } });
+
+
+      /**
+               * CBC decryptor.
+               */
+      CBC.Decryptor = CBC.extend({
+        /**
+                                    * Processes the data block at offset.
+                                    *
+                                    * @param {Array} words The data words to operate on.
+                                    * @param {number} offset The offset where the block starts.
+                                    *
+                                    * @example
+                                    *
+                                    *     mode.processBlock(data.words, offset);
+                                    */
+        processBlock: function processBlock(words, offset) {
+          // Shortcuts
+          var cipher = this._cipher;
+          var blockSize = cipher.blockSize;
+
+          // Remember this block to use with next block
+          var thisBlock = words.slice(offset, offset + blockSize);
+
+          // Decrypt and XOR
+          cipher.decryptBlock(words, offset);
+          xorBlock.call(this, words, offset, blockSize);
+
+          // This block becomes the previous block
+          this._prevBlock = thisBlock;
+        } });
+
+
+      function xorBlock(words, offset, blockSize) {
+        var block;
+
+        // Shortcut
+        var iv = this._iv;
+
+        // Choose mixing block
+        if (iv) {
+          block = iv;
+
+          // Remove IV for subsequent blocks
+          this._iv = undefined;
+        } else {
+          block = this._prevBlock;
+        }
+
+        // XOR blocks
+        for (var i = 0; i < blockSize; i++) {
+          words[offset + i] ^= block[i];
+        }
+      }
+
+      return CBC;
+    }();
+
+    /**
+          * Padding namespace.
+          */
+    var C_pad = C.pad = {};
+
+    /**
+                             * PKCS #5/7 padding strategy.
+                             */
+    var Pkcs7 = C_pad.Pkcs7 = {
+      /**
+                                 * Pads data using the algorithm defined in PKCS #5/7.
+                                 *
+                                 * @param {WordArray} data The data to pad.
+                                 * @param {number} blockSize The multiple that the data should be padded to.
+                                 *
+                                 * @static
+                                 *
+                                 * @example
+                                 *
+                                 *     CryptoJS.pad.Pkcs7.pad(wordArray, 4);
+                                 */
+      pad: function pad(data, blockSize) {
+        // Shortcut
+        var blockSizeBytes = blockSize * 4;
+
+        // Count padding bytes
+        var nPaddingBytes = blockSizeBytes - data.sigBytes % blockSizeBytes;
+
+        // Create padding word
+        var paddingWord = nPaddingBytes << 24 | nPaddingBytes << 16 | nPaddingBytes << 8 | nPaddingBytes;
+
+        // Create padding
+        var paddingWords = [];
+        for (var i = 0; i < nPaddingBytes; i += 4) {
+          paddingWords.push(paddingWord);
+        }
+        var padding = WordArray.create(paddingWords, nPaddingBytes);
+
+        // Add padding
+        data.concat(padding);
+      },
+
+      /**
+          * Unpads data that had been padded using the algorithm defined in PKCS #5/7.
+          *
+          * @param {WordArray} data The data to unpad.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     CryptoJS.pad.Pkcs7.unpad(wordArray);
+          */
+      unpad: function unpad(data) {
+        // Get number of padding bytes from last byte
+        var nPaddingBytes = data.words[data.sigBytes - 1 >>> 2] & 0xff;
+
+        // Remove padding
+        data.sigBytes -= nPaddingBytes;
+      } };
+
+
+    /**
+            * Abstract base block cipher template.
+            *
+            * @property {number} blockSize The number of 32-bit words this cipher operates on. Default: 4 (128 bits)
+            */
+    var BlockCipher = C_lib.BlockCipher = Cipher.extend({
+      /**
+                                                           * Configuration options.
+                                                           *
+                                                           * @property {Mode} mode The block mode to use. Default: CBC
+                                                           * @property {Padding} padding The padding strategy to use. Default: Pkcs7
+                                                           */
+      cfg: Cipher.cfg.extend({
+        mode: CBC,
+        padding: Pkcs7 }),
+
+
+      reset: function reset() {
+        var modeCreator;
+
+        // Reset cipher
+        Cipher.reset.call(this);
+
+        // Shortcuts
+        var cfg = this.cfg;
+        var iv = cfg.iv;
+        var mode = cfg.mode;
+
+        // Reset block mode
+        if (this._xformMode == this._ENC_XFORM_MODE) {
+          modeCreator = mode.createEncryptor;
+        } else /* if (this._xformMode == this._DEC_XFORM_MODE) */{
+            modeCreator = mode.createDecryptor;
+            // Keep at least one block in the buffer for unpadding
+            this._minBufferSize = 1;
+          }
+
+        if (this._mode && this._mode.__creator == modeCreator) {
+          this._mode.init(this, iv && iv.words);
+        } else {
+          this._mode = modeCreator.call(mode, this, iv && iv.words);
+          this._mode.__creator = modeCreator;
+        }
+      },
+
+      _doProcessBlock: function _doProcessBlock(words, offset) {
+        this._mode.processBlock(words, offset);
+      },
+
+      _doFinalize: function _doFinalize() {
+        var finalProcessedBlocks;
+
+        // Shortcut
+        var padding = this.cfg.padding;
+
+        // Finalize
+        if (this._xformMode == this._ENC_XFORM_MODE) {
+          // Pad data
+          padding.pad(this._data, this.blockSize);
+
+          // Process final blocks
+          finalProcessedBlocks = this._process(!!'flush');
+        } else /* if (this._xformMode == this._DEC_XFORM_MODE) */{
+            // Process final blocks
+            finalProcessedBlocks = this._process(!!'flush');
+
+            // Unpad data
+            padding.unpad(finalProcessedBlocks);
+          }
+
+        return finalProcessedBlocks;
+      },
+
+      blockSize: 128 / 32 });
+
+
+    /**
+                               * A collection of cipher parameters.
+                               *
+                               * @property {WordArray} ciphertext The raw ciphertext.
+                               * @property {WordArray} key The key to this ciphertext.
+                               * @property {WordArray} iv The IV used in the ciphering operation.
+                               * @property {WordArray} salt The salt used with a key derivation function.
+                               * @property {Cipher} algorithm The cipher algorithm.
+                               * @property {Mode} mode The block mode used in the ciphering operation.
+                               * @property {Padding} padding The padding scheme used in the ciphering operation.
+                               * @property {number} blockSize The block size of the cipher.
+                               * @property {Format} formatter The default formatting strategy to convert this cipher params object to a string.
+                               */
+    var CipherParams = C_lib.CipherParams = Base.extend({
+      /**
+                                                           * Initializes a newly created cipher params object.
+                                                           *
+                                                           * @param {Object} cipherParams An object with any of the possible cipher parameters.
+                                                           *
+                                                           * @example
+                                                           *
+                                                           *     var cipherParams = CryptoJS.lib.CipherParams.create({
+                                                           *         ciphertext: ciphertextWordArray,
+                                                           *         key: keyWordArray,
+                                                           *         iv: ivWordArray,
+                                                           *         salt: saltWordArray,
+                                                           *         algorithm: CryptoJS.algo.AES,
+                                                           *         mode: CryptoJS.mode.CBC,
+                                                           *         padding: CryptoJS.pad.PKCS7,
+                                                           *         blockSize: 4,
+                                                           *         formatter: CryptoJS.format.OpenSSL
+                                                           *     });
+                                                           */
+      init: function init(cipherParams) {
+        this.mixIn(cipherParams);
+      },
+
+      /**
+          * Converts this cipher params object to a string.
+          *
+          * @param {Format} formatter (Optional) The formatting strategy to use.
+          *
+          * @return {string} The stringified cipher params.
+          *
+          * @throws Error If neither the formatter nor the default formatter is set.
+          *
+          * @example
+          *
+          *     var string = cipherParams + '';
+          *     var string = cipherParams.toString();
+          *     var string = cipherParams.toString(CryptoJS.format.OpenSSL);
+          */
+      toString: function toString(formatter) {
+        return (formatter || this.formatter).stringify(this);
+      } });
+
+
+    /**
+             * Format namespace.
+             */
+    var C_format = C.format = {};
+
+    /**
+                                   * OpenSSL formatting strategy.
+                                   */
+    var OpenSSLFormatter = C_format.OpenSSL = {
+      /**
+                                                 * Converts a cipher params object to an OpenSSL-compatible string.
+                                                 *
+                                                 * @param {CipherParams} cipherParams The cipher params object.
+                                                 *
+                                                 * @return {string} The OpenSSL-compatible string.
+                                                 *
+                                                 * @static
+                                                 *
+                                                 * @example
+                                                 *
+                                                 *     var openSSLString = CryptoJS.format.OpenSSL.stringify(cipherParams);
+                                                 */
+      stringify: function stringify(cipherParams) {
+        var wordArray;
+
+        // Shortcuts
+        var ciphertext = cipherParams.ciphertext;
+        var salt = cipherParams.salt;
+
+        // Format
+        if (salt) {
+          wordArray = WordArray.create([0x53616c74, 0x65645f5f]).concat(salt).concat(ciphertext);
+        } else {
+          wordArray = ciphertext;
+        }
+
+        return wordArray.toString(Base64);
+      },
+
+      /**
+          * Converts an OpenSSL-compatible string to a cipher params object.
+          *
+          * @param {string} openSSLStr The OpenSSL-compatible string.
+          *
+          * @return {CipherParams} The cipher params object.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var cipherParams = CryptoJS.format.OpenSSL.parse(openSSLString);
+          */
+      parse: function parse(openSSLStr) {
+        var salt;
+
+        // Parse base64
+        var ciphertext = Base64.parse(openSSLStr);
+
+        // Shortcut
+        var ciphertextWords = ciphertext.words;
+
+        // Test for salt
+        if (ciphertextWords[0] == 0x53616c74 && ciphertextWords[1] == 0x65645f5f) {
+          // Extract salt
+          salt = WordArray.create(ciphertextWords.slice(2, 4));
+
+          // Remove salt from ciphertext
+          ciphertextWords.splice(0, 4);
+          ciphertext.sigBytes -= 16;
+        }
+
+        return CipherParams.create({ ciphertext: ciphertext, salt: salt });
+      } };
+
+
+    /**
+            * A cipher wrapper that returns ciphertext as a serializable cipher params object.
+            */
+    var SerializableCipher = C_lib.SerializableCipher = Base.extend({
+      /**
+                                                                       * Configuration options.
+                                                                       *
+                                                                       * @property {Formatter} format The formatting strategy to convert cipher param objects to and from a string. Default: OpenSSL
+                                                                       */
+      cfg: Base.extend({
+        format: OpenSSLFormatter }),
+
+
+      /**
+                                      * Encrypts a message.
+                                      *
+                                      * @param {Cipher} cipher The cipher algorithm to use.
+                                      * @param {WordArray|string} message The message to encrypt.
+                                      * @param {WordArray} key The key.
+                                      * @param {Object} cfg (Optional) The configuration options to use for this operation.
+                                      *
+                                      * @return {CipherParams} A cipher params object.
+                                      *
+                                      * @static
+                                      *
+                                      * @example
+                                      *
+                                      *     var ciphertextParams = CryptoJS.lib.SerializableCipher.encrypt(CryptoJS.algo.AES, message, key);
+                                      *     var ciphertextParams = CryptoJS.lib.SerializableCipher.encrypt(CryptoJS.algo.AES, message, key, { iv: iv });
+                                      *     var ciphertextParams = CryptoJS.lib.SerializableCipher.encrypt(CryptoJS.algo.AES, message, key, { iv: iv, format: CryptoJS.format.OpenSSL });
+                                      */
+      encrypt: function encrypt(cipher, message, key, cfg) {
+        // Apply config defaults
+        cfg = this.cfg.extend(cfg);
+
+        // Encrypt
+        var encryptor = cipher.createEncryptor(key, cfg);
+        var ciphertext = encryptor.finalize(message);
+
+        // Shortcut
+        var cipherCfg = encryptor.cfg;
+
+        // Create and return serializable cipher params
+        return CipherParams.create({
+          ciphertext: ciphertext,
+          key: key,
+          iv: cipherCfg.iv,
+          algorithm: cipher,
+          mode: cipherCfg.mode,
+          padding: cipherCfg.padding,
+          blockSize: cipher.blockSize,
+          formatter: cfg.format });
+
+      },
+
+      /**
+          * Decrypts serialized ciphertext.
+          *
+          * @param {Cipher} cipher The cipher algorithm to use.
+          * @param {CipherParams|string} ciphertext The ciphertext to decrypt.
+          * @param {WordArray} key The key.
+          * @param {Object} cfg (Optional) The configuration options to use for this operation.
+          *
+          * @return {WordArray} The plaintext.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var plaintext = CryptoJS.lib.SerializableCipher.decrypt(CryptoJS.algo.AES, formattedCiphertext, key, { iv: iv, format: CryptoJS.format.OpenSSL });
+          *     var plaintext = CryptoJS.lib.SerializableCipher.decrypt(CryptoJS.algo.AES, ciphertextParams, key, { iv: iv, format: CryptoJS.format.OpenSSL });
+          */
+      decrypt: function decrypt(cipher, ciphertext, key, cfg) {
+        // Apply config defaults
+        cfg = this.cfg.extend(cfg);
+
+        // Convert string to CipherParams
+        ciphertext = this._parse(ciphertext, cfg.format);
+
+        // Decrypt
+        var plaintext = cipher.createDecryptor(key, cfg).finalize(ciphertext.ciphertext);
+
+        return plaintext;
+      },
+
+      /**
+          * Converts serialized ciphertext to CipherParams,
+          * else assumed CipherParams already and returns ciphertext unchanged.
+          *
+          * @param {CipherParams|string} ciphertext The ciphertext.
+          * @param {Formatter} format The formatting strategy to use to parse serialized ciphertext.
+          *
+          * @return {CipherParams} The unserialized ciphertext.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var ciphertextParams = CryptoJS.lib.SerializableCipher._parse(ciphertextStringOrParams, format);
+          */
+      _parse: function _parse(ciphertext, format) {
+        if (typeof ciphertext == 'string') {
+          return format.parse(ciphertext, this);
+        } else {
+          return ciphertext;
+        }
+      } });
+
+
+    /**
+             * Key derivation function namespace.
+             */
+    var C_kdf = C.kdf = {};
+
+    /**
+                             * OpenSSL key derivation function.
+                             */
+    var OpenSSLKdf = C_kdf.OpenSSL = {
+      /**
+                                        * Derives a key and IV from a password.
+                                        *
+                                        * @param {string} password The password to derive from.
+                                        * @param {number} keySize The size in words of the key to generate.
+                                        * @param {number} ivSize The size in words of the IV to generate.
+                                        * @param {WordArray|string} salt (Optional) A 64-bit salt to use. If omitted, a salt will be generated randomly.
+                                        *
+                                        * @return {CipherParams} A cipher params object with the key, IV, and salt.
+                                        *
+                                        * @static
+                                        *
+                                        * @example
+                                        *
+                                        *     var derivedParams = CryptoJS.kdf.OpenSSL.execute('Password', 256/32, 128/32);
+                                        *     var derivedParams = CryptoJS.kdf.OpenSSL.execute('Password', 256/32, 128/32, 'saltsalt');
+                                        */
+      execute: function execute(password, keySize, ivSize, salt) {
+        // Generate random salt
+        if (!salt) {
+          salt = WordArray.random(64 / 8);
+        }
+
+        // Derive key and IV
+        var key = EvpKDF.create({ keySize: keySize + ivSize }).compute(password, salt);
+
+        // Separate key and IV
+        var iv = WordArray.create(key.words.slice(keySize), ivSize * 4);
+        key.sigBytes = keySize * 4;
+
+        // Return params
+        return CipherParams.create({ key: key, iv: iv, salt: salt });
+      } };
+
+
+    /**
+            * A serializable cipher wrapper that derives the key from a password,
+            * and returns ciphertext as a serializable cipher params object.
+            */
+    var PasswordBasedCipher = C_lib.PasswordBasedCipher = SerializableCipher.extend({
+      /**
+                                                                                       * Configuration options.
+                                                                                       *
+                                                                                       * @property {KDF} kdf The key derivation function to use to generate a key and IV from a password. Default: OpenSSL
+                                                                                       */
+      cfg: SerializableCipher.cfg.extend({
+        kdf: OpenSSLKdf }),
+
+
+      /**
+                             * Encrypts a message using a password.
+                             *
+                             * @param {Cipher} cipher The cipher algorithm to use.
+                             * @param {WordArray|string} message The message to encrypt.
+                             * @param {string} password The password.
+                             * @param {Object} cfg (Optional) The configuration options to use for this operation.
+                             *
+                             * @return {CipherParams} A cipher params object.
+                             *
+                             * @static
+                             *
+                             * @example
+                             *
+                             *     var ciphertextParams = CryptoJS.lib.PasswordBasedCipher.encrypt(CryptoJS.algo.AES, message, 'password');
+                             *     var ciphertextParams = CryptoJS.lib.PasswordBasedCipher.encrypt(CryptoJS.algo.AES, message, 'password', { format: CryptoJS.format.OpenSSL });
+                             */
+      encrypt: function encrypt(cipher, message, password, cfg) {
+        // Apply config defaults
+        cfg = this.cfg.extend(cfg);
+
+        // Derive key and other params
+        var derivedParams = cfg.kdf.execute(password, cipher.keySize, cipher.ivSize);
+
+        // Add IV to config
+        cfg.iv = derivedParams.iv;
+
+        // Encrypt
+        var ciphertext = SerializableCipher.encrypt.call(this, cipher, message, derivedParams.key, cfg);
+
+        // Mix in derived params
+        ciphertext.mixIn(derivedParams);
+
+        return ciphertext;
+      },
+
+      /**
+          * Decrypts serialized ciphertext using a password.
+          *
+          * @param {Cipher} cipher The cipher algorithm to use.
+          * @param {CipherParams|string} ciphertext The ciphertext to decrypt.
+          * @param {string} password The password.
+          * @param {Object} cfg (Optional) The configuration options to use for this operation.
+          *
+          * @return {WordArray} The plaintext.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var plaintext = CryptoJS.lib.PasswordBasedCipher.decrypt(CryptoJS.algo.AES, formattedCiphertext, 'password', { format: CryptoJS.format.OpenSSL });
+          *     var plaintext = CryptoJS.lib.PasswordBasedCipher.decrypt(CryptoJS.algo.AES, ciphertextParams, 'password', { format: CryptoJS.format.OpenSSL });
+          */
+      decrypt: function decrypt(cipher, ciphertext, password, cfg) {
+        // Apply config defaults
+        cfg = this.cfg.extend(cfg);
+
+        // Convert string to CipherParams
+        ciphertext = this._parse(ciphertext, cfg.format);
+
+        // Derive key and other params
+        var derivedParams = cfg.kdf.execute(password, cipher.keySize, cipher.ivSize, ciphertext.salt);
+
+        // Add IV to config
+        cfg.iv = derivedParams.iv;
+
+        // Decrypt
+        var plaintext = SerializableCipher.decrypt.call(this, cipher, ciphertext, derivedParams.key, cfg);
+
+        return plaintext;
+      } });
+
+  }();
+
+
+});
+
+/***/ }),
+/* 109 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/mode-cfb.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * Cipher Feedback block mode.
+                               */
+  CryptoJS.mode.CFB = function () {
+    var CFB = CryptoJS.lib.BlockCipherMode.extend();
+
+    CFB.Encryptor = CFB.extend({
+      processBlock: function processBlock(words, offset) {
+        // Shortcuts
+        var cipher = this._cipher;
+        var blockSize = cipher.blockSize;
+
+        generateKeystreamAndEncrypt.call(this, words, offset, blockSize, cipher);
+
+        // Remember this block to use with next block
+        this._prevBlock = words.slice(offset, offset + blockSize);
+      } });
+
+
+    CFB.Decryptor = CFB.extend({
+      processBlock: function processBlock(words, offset) {
+        // Shortcuts
+        var cipher = this._cipher;
+        var blockSize = cipher.blockSize;
+
+        // Remember this block to use with next block
+        var thisBlock = words.slice(offset, offset + blockSize);
+
+        generateKeystreamAndEncrypt.call(this, words, offset, blockSize, cipher);
+
+        // This block becomes the previous block
+        this._prevBlock = thisBlock;
+      } });
+
+
+    function generateKeystreamAndEncrypt(words, offset, blockSize, cipher) {
+      var keystream;
+
+      // Shortcut
+      var iv = this._iv;
+
+      // Generate keystream
+      if (iv) {
+        keystream = iv.slice(0);
+
+        // Remove IV for subsequent blocks
+        this._iv = undefined;
+      } else {
+        keystream = this._prevBlock;
+      }
+      cipher.encryptBlock(keystream, 0);
+
+      // Encrypt
+      for (var i = 0; i < blockSize; i++) {
+        words[offset + i] ^= keystream[i];
+      }
+    }
+
+    return CFB;
+  }();
+
+
+  return CryptoJS.mode.CFB;
+
+});
+
+/***/ }),
+/* 110 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/mode-ctr.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * Counter block mode.
+                               */
+  CryptoJS.mode.CTR = function () {
+    var CTR = CryptoJS.lib.BlockCipherMode.extend();
+
+    var Encryptor = CTR.Encryptor = CTR.extend({
+      processBlock: function processBlock(words, offset) {
+        // Shortcuts
+        var cipher = this._cipher;
+        var blockSize = cipher.blockSize;
+        var iv = this._iv;
+        var counter = this._counter;
+
+        // Generate keystream
+        if (iv) {
+          counter = this._counter = iv.slice(0);
+
+          // Remove IV for subsequent blocks
+          this._iv = undefined;
+        }
+        var keystream = counter.slice(0);
+        cipher.encryptBlock(keystream, 0);
+
+        // Increment counter
+        counter[blockSize - 1] = counter[blockSize - 1] + 1 | 0;
+
+        // Encrypt
+        for (var i = 0; i < blockSize; i++) {
+          words[offset + i] ^= keystream[i];
+        }
+      } });
+
+
+    CTR.Decryptor = Encryptor;
+
+    return CTR;
+  }();
+
+
+  return CryptoJS.mode.CTR;
+
+});
+
+/***/ }),
+/* 111 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/mode-ctr-gladman.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /** @preserve
+                               * Counter block mode compatible with  Dr Brian Gladman fileenc.c
+                               * derived from CryptoJS.mode.CTR
+                               * Jan Hruby jhruby.web@gmail.com
+                               */
+  CryptoJS.mode.CTRGladman = function () {
+    var CTRGladman = CryptoJS.lib.BlockCipherMode.extend();
+
+    function incWord(word)
+    {
+      if ((word >> 24 & 0xff) === 0xff) {//overflow
+        var b1 = word >> 16 & 0xff;
+        var b2 = word >> 8 & 0xff;
+        var b3 = word & 0xff;
+
+        if (b1 === 0xff) // overflow b1
+          {
+            b1 = 0;
+            if (b2 === 0xff)
+            {
+              b2 = 0;
+              if (b3 === 0xff)
+              {
+                b3 = 0;
+              } else
+
+              {
+                ++b3;
+              }
+            } else
+
+            {
+              ++b2;
+            }
+          } else
+
+        {
+          ++b1;
+        }
+
+        word = 0;
+        word += b1 << 16;
+        word += b2 << 8;
+        word += b3;
+      } else
+
+      {
+        word += 0x01 << 24;
+      }
+      return word;
+    }
+
+    function incCounter(counter)
+    {
+      if ((counter[0] = incWord(counter[0])) === 0)
+      {
+        // encr_data in fileenc.c from  Dr Brian Gladman's counts only with DWORD j < 8
+        counter[1] = incWord(counter[1]);
+      }
+      return counter;
+    }
+
+    var Encryptor = CTRGladman.Encryptor = CTRGladman.extend({
+      processBlock: function processBlock(words, offset) {
+        // Shortcuts
+        var cipher = this._cipher;
+        var blockSize = cipher.blockSize;
+        var iv = this._iv;
+        var counter = this._counter;
+
+        // Generate keystream
+        if (iv) {
+          counter = this._counter = iv.slice(0);
+
+          // Remove IV for subsequent blocks
+          this._iv = undefined;
+        }
+
+        incCounter(counter);
+
+        var keystream = counter.slice(0);
+        cipher.encryptBlock(keystream, 0);
+
+        // Encrypt
+        for (var i = 0; i < blockSize; i++) {
+          words[offset + i] ^= keystream[i];
+        }
+      } });
+
+
+    CTRGladman.Decryptor = Encryptor;
+
+    return CTRGladman;
+  }();
+
+
+
+
+  return CryptoJS.mode.CTRGladman;
+
+});
+
+/***/ }),
+/* 112 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/mode-ofb.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * Output Feedback block mode.
+                               */
+  CryptoJS.mode.OFB = function () {
+    var OFB = CryptoJS.lib.BlockCipherMode.extend();
+
+    var Encryptor = OFB.Encryptor = OFB.extend({
+      processBlock: function processBlock(words, offset) {
+        // Shortcuts
+        var cipher = this._cipher;
+        var blockSize = cipher.blockSize;
+        var iv = this._iv;
+        var keystream = this._keystream;
+
+        // Generate keystream
+        if (iv) {
+          keystream = this._keystream = iv.slice(0);
+
+          // Remove IV for subsequent blocks
+          this._iv = undefined;
+        }
+        cipher.encryptBlock(keystream, 0);
+
+        // Encrypt
+        for (var i = 0; i < blockSize; i++) {
+          words[offset + i] ^= keystream[i];
+        }
+      } });
+
+
+    OFB.Decryptor = Encryptor;
+
+    return OFB;
+  }();
+
+
+  return CryptoJS.mode.OFB;
+
+});
+
+/***/ }),
+/* 113 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/mode-ecb.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * Electronic Codebook block mode.
+                               */
+  CryptoJS.mode.ECB = function () {
+    var ECB = CryptoJS.lib.BlockCipherMode.extend();
+
+    ECB.Encryptor = ECB.extend({
+      processBlock: function processBlock(words, offset) {
+        this._cipher.encryptBlock(words, offset);
+      } });
+
+
+    ECB.Decryptor = ECB.extend({
+      processBlock: function processBlock(words, offset) {
+        this._cipher.decryptBlock(words, offset);
+      } });
+
+
+    return ECB;
+  }();
+
+
+  return CryptoJS.mode.ECB;
+
+});
+
+/***/ }),
+/* 114 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/pad-ansix923.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * ANSI X.923 padding strategy.
+                               */
+  CryptoJS.pad.AnsiX923 = {
+    pad: function pad(data, blockSize) {
+      // Shortcuts
+      var dataSigBytes = data.sigBytes;
+      var blockSizeBytes = blockSize * 4;
+
+      // Count padding bytes
+      var nPaddingBytes = blockSizeBytes - dataSigBytes % blockSizeBytes;
+
+      // Compute last byte position
+      var lastBytePos = dataSigBytes + nPaddingBytes - 1;
+
+      // Pad
+      data.clamp();
+      data.words[lastBytePos >>> 2] |= nPaddingBytes << 24 - lastBytePos % 4 * 8;
+      data.sigBytes += nPaddingBytes;
+    },
+
+    unpad: function unpad(data) {
+      // Get number of padding bytes from last byte
+      var nPaddingBytes = data.words[data.sigBytes - 1 >>> 2] & 0xff;
+
+      // Remove padding
+      data.sigBytes -= nPaddingBytes;
+    } };
+
+
+
+  return CryptoJS.pad.Ansix923;
+
+});
+
+/***/ }),
+/* 115 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/pad-iso10126.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * ISO 10126 padding strategy.
+                               */
+  CryptoJS.pad.Iso10126 = {
+    pad: function pad(data, blockSize) {
+      // Shortcut
+      var blockSizeBytes = blockSize * 4;
+
+      // Count padding bytes
+      var nPaddingBytes = blockSizeBytes - data.sigBytes % blockSizeBytes;
+
+      // Pad
+      data.concat(CryptoJS.lib.WordArray.random(nPaddingBytes - 1)).
+      concat(CryptoJS.lib.WordArray.create([nPaddingBytes << 24], 1));
+    },
+
+    unpad: function unpad(data) {
+      // Get number of padding bytes from last byte
+      var nPaddingBytes = data.words[data.sigBytes - 1 >>> 2] & 0xff;
+
+      // Remove padding
+      data.sigBytes -= nPaddingBytes;
+    } };
+
+
+
+  return CryptoJS.pad.Iso10126;
+
+});
+
+/***/ }),
+/* 116 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/pad-iso97971.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * ISO/IEC 9797-1 Padding Method 2.
+                               */
+  CryptoJS.pad.Iso97971 = {
+    pad: function pad(data, blockSize) {
+      // Add 0x80 byte
+      data.concat(CryptoJS.lib.WordArray.create([0x80000000], 1));
+
+      // Zero pad the rest
+      CryptoJS.pad.ZeroPadding.pad(data, blockSize);
+    },
+
+    unpad: function unpad(data) {
+      // Remove zero padding
+      CryptoJS.pad.ZeroPadding.unpad(data);
+
+      // Remove one more byte -- the 0x80 byte
+      data.sigBytes--;
+    } };
+
+
+
+  return CryptoJS.pad.Iso97971;
+
+});
+
+/***/ }),
+/* 117 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/pad-zeropadding.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * Zero padding strategy.
+                               */
+  CryptoJS.pad.ZeroPadding = {
+    pad: function pad(data, blockSize) {
+      // Shortcut
+      var blockSizeBytes = blockSize * 4;
+
+      // Pad
+      data.clamp();
+      data.sigBytes += blockSizeBytes - (data.sigBytes % blockSizeBytes || blockSizeBytes);
+    },
+
+    unpad: function unpad(data) {
+      // Shortcut
+      var dataWords = data.words;
+
+      // Unpad
+      var i = data.sigBytes - 1;
+      for (var i = data.sigBytes - 1; i >= 0; i--) {
+        if (dataWords[i >>> 2] >>> 24 - i % 4 * 8 & 0xff) {
+          data.sigBytes = i + 1;
+          break;
+        }
+      }
+    } };
+
+
+
+  return CryptoJS.pad.ZeroPadding;
+
+});
+
+/***/ }),
+/* 118 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/pad-nopadding.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  /**
+                               * A noop padding strategy.
+                               */
+  CryptoJS.pad.NoPadding = {
+    pad: function pad() {
+    },
+
+    unpad: function unpad() {
+    } };
+
+
+
+  return CryptoJS.pad.NoPadding;
+
+});
+
+/***/ }),
+/* 119 */
+/*!***************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/format-hex.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function (undefined) {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var CipherParams = C_lib.CipherParams;
+    var C_enc = C.enc;
+    var Hex = C_enc.Hex;
+    var C_format = C.format;
+
+    var HexFormatter = C_format.Hex = {
+      /**
+                                         * Converts the ciphertext of a cipher params object to a hexadecimally encoded string.
+                                         *
+                                         * @param {CipherParams} cipherParams The cipher params object.
+                                         *
+                                         * @return {string} The hexadecimally encoded string.
+                                         *
+                                         * @static
+                                         *
+                                         * @example
+                                         *
+                                         *     var hexString = CryptoJS.format.Hex.stringify(cipherParams);
+                                         */
+      stringify: function stringify(cipherParams) {
+        return cipherParams.ciphertext.toString(Hex);
+      },
+
+      /**
+          * Converts a hexadecimally encoded ciphertext string to a cipher params object.
+          *
+          * @param {string} input The hexadecimally encoded string.
+          *
+          * @return {CipherParams} The cipher params object.
+          *
+          * @static
+          *
+          * @example
+          *
+          *     var cipherParams = CryptoJS.format.Hex.parse(hexString);
+          */
+      parse: function parse(input) {
+        var ciphertext = Hex.parse(input);
+        return CipherParams.create({ ciphertext: ciphertext });
+      } };
+
+  })();
+
+
+  return CryptoJS.format.Hex;
+
+});
+
+/***/ }),
+/* 120 */
+/*!********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/aes.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./enc-base64 */ 95), __webpack_require__(/*! ./md5 */ 97), __webpack_require__(/*! ./evpkdf */ 107), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var BlockCipher = C_lib.BlockCipher;
+    var C_algo = C.algo;
+
+    // Lookup tables
+    var SBOX = [];
+    var INV_SBOX = [];
+    var SUB_MIX_0 = [];
+    var SUB_MIX_1 = [];
+    var SUB_MIX_2 = [];
+    var SUB_MIX_3 = [];
+    var INV_SUB_MIX_0 = [];
+    var INV_SUB_MIX_1 = [];
+    var INV_SUB_MIX_2 = [];
+    var INV_SUB_MIX_3 = [];
+
+    // Compute lookup tables
+    (function () {
+      // Compute double table
+      var d = [];
+      for (var i = 0; i < 256; i++) {
+        if (i < 128) {
+          d[i] = i << 1;
+        } else {
+          d[i] = i << 1 ^ 0x11b;
+        }
+      }
+
+      // Walk GF(2^8)
+      var x = 0;
+      var xi = 0;
+      for (var i = 0; i < 256; i++) {
+        // Compute sbox
+        var sx = xi ^ xi << 1 ^ xi << 2 ^ xi << 3 ^ xi << 4;
+        sx = sx >>> 8 ^ sx & 0xff ^ 0x63;
+        SBOX[x] = sx;
+        INV_SBOX[sx] = x;
+
+        // Compute multiplication
+        var x2 = d[x];
+        var x4 = d[x2];
+        var x8 = d[x4];
+
+        // Compute sub bytes, mix columns tables
+        var t = d[sx] * 0x101 ^ sx * 0x1010100;
+        SUB_MIX_0[x] = t << 24 | t >>> 8;
+        SUB_MIX_1[x] = t << 16 | t >>> 16;
+        SUB_MIX_2[x] = t << 8 | t >>> 24;
+        SUB_MIX_3[x] = t;
+
+        // Compute inv sub bytes, inv mix columns tables
+        var t = x8 * 0x1010101 ^ x4 * 0x10001 ^ x2 * 0x101 ^ x * 0x1010100;
+        INV_SUB_MIX_0[sx] = t << 24 | t >>> 8;
+        INV_SUB_MIX_1[sx] = t << 16 | t >>> 16;
+        INV_SUB_MIX_2[sx] = t << 8 | t >>> 24;
+        INV_SUB_MIX_3[sx] = t;
+
+        // Compute next counter
+        if (!x) {
+          x = xi = 1;
+        } else {
+          x = x2 ^ d[d[d[x8 ^ x2]]];
+          xi ^= d[d[xi]];
+        }
+      }
+    })();
+
+    // Precomputed Rcon lookup
+    var RCON = [0x00, 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1b, 0x36];
+
+    /**
+                                                                                    * AES block cipher algorithm.
+                                                                                    */
+    var AES = C_algo.AES = BlockCipher.extend({
+      _doReset: function _doReset() {
+        var t;
+
+        // Skip reset of nRounds has been set before and key did not change
+        if (this._nRounds && this._keyPriorReset === this._key) {
+          return;
+        }
+
+        // Shortcuts
+        var key = this._keyPriorReset = this._key;
+        var keyWords = key.words;
+        var keySize = key.sigBytes / 4;
+
+        // Compute number of rounds
+        var nRounds = this._nRounds = keySize + 6;
+
+        // Compute number of key schedule rows
+        var ksRows = (nRounds + 1) * 4;
+
+        // Compute key schedule
+        var keySchedule = this._keySchedule = [];
+        for (var ksRow = 0; ksRow < ksRows; ksRow++) {
+          if (ksRow < keySize) {
+            keySchedule[ksRow] = keyWords[ksRow];
+          } else {
+            t = keySchedule[ksRow - 1];
+
+            if (!(ksRow % keySize)) {
+              // Rot word
+              t = t << 8 | t >>> 24;
+
+              // Sub word
+              t = SBOX[t >>> 24] << 24 | SBOX[t >>> 16 & 0xff] << 16 | SBOX[t >>> 8 & 0xff] << 8 | SBOX[t & 0xff];
+
+              // Mix Rcon
+              t ^= RCON[ksRow / keySize | 0] << 24;
+            } else if (keySize > 6 && ksRow % keySize == 4) {
+              // Sub word
+              t = SBOX[t >>> 24] << 24 | SBOX[t >>> 16 & 0xff] << 16 | SBOX[t >>> 8 & 0xff] << 8 | SBOX[t & 0xff];
+            }
+
+            keySchedule[ksRow] = keySchedule[ksRow - keySize] ^ t;
+          }
+        }
+
+        // Compute inv key schedule
+        var invKeySchedule = this._invKeySchedule = [];
+        for (var invKsRow = 0; invKsRow < ksRows; invKsRow++) {
+          var ksRow = ksRows - invKsRow;
+
+          if (invKsRow % 4) {
+            var t = keySchedule[ksRow];
+          } else {
+            var t = keySchedule[ksRow - 4];
+          }
+
+          if (invKsRow < 4 || ksRow <= 4) {
+            invKeySchedule[invKsRow] = t;
+          } else {
+            invKeySchedule[invKsRow] = INV_SUB_MIX_0[SBOX[t >>> 24]] ^ INV_SUB_MIX_1[SBOX[t >>> 16 & 0xff]] ^
+            INV_SUB_MIX_2[SBOX[t >>> 8 & 0xff]] ^ INV_SUB_MIX_3[SBOX[t & 0xff]];
+          }
+        }
+      },
+
+      encryptBlock: function encryptBlock(M, offset) {
+        this._doCryptBlock(M, offset, this._keySchedule, SUB_MIX_0, SUB_MIX_1, SUB_MIX_2, SUB_MIX_3, SBOX);
+      },
+
+      decryptBlock: function decryptBlock(M, offset) {
+        // Swap 2nd and 4th rows
+        var t = M[offset + 1];
+        M[offset + 1] = M[offset + 3];
+        M[offset + 3] = t;
+
+        this._doCryptBlock(M, offset, this._invKeySchedule, INV_SUB_MIX_0, INV_SUB_MIX_1, INV_SUB_MIX_2, INV_SUB_MIX_3, INV_SBOX);
+
+        // Inv swap 2nd and 4th rows
+        var t = M[offset + 1];
+        M[offset + 1] = M[offset + 3];
+        M[offset + 3] = t;
+      },
+
+      _doCryptBlock: function _doCryptBlock(M, offset, keySchedule, SUB_MIX_0, SUB_MIX_1, SUB_MIX_2, SUB_MIX_3, SBOX) {
+        // Shortcut
+        var nRounds = this._nRounds;
+
+        // Get input, add round key
+        var s0 = M[offset] ^ keySchedule[0];
+        var s1 = M[offset + 1] ^ keySchedule[1];
+        var s2 = M[offset + 2] ^ keySchedule[2];
+        var s3 = M[offset + 3] ^ keySchedule[3];
+
+        // Key schedule row counter
+        var ksRow = 4;
+
+        // Rounds
+        for (var round = 1; round < nRounds; round++) {
+          // Shift rows, sub bytes, mix columns, add round key
+          var t0 = SUB_MIX_0[s0 >>> 24] ^ SUB_MIX_1[s1 >>> 16 & 0xff] ^ SUB_MIX_2[s2 >>> 8 & 0xff] ^ SUB_MIX_3[s3 & 0xff] ^ keySchedule[ksRow++];
+          var t1 = SUB_MIX_0[s1 >>> 24] ^ SUB_MIX_1[s2 >>> 16 & 0xff] ^ SUB_MIX_2[s3 >>> 8 & 0xff] ^ SUB_MIX_3[s0 & 0xff] ^ keySchedule[ksRow++];
+          var t2 = SUB_MIX_0[s2 >>> 24] ^ SUB_MIX_1[s3 >>> 16 & 0xff] ^ SUB_MIX_2[s0 >>> 8 & 0xff] ^ SUB_MIX_3[s1 & 0xff] ^ keySchedule[ksRow++];
+          var t3 = SUB_MIX_0[s3 >>> 24] ^ SUB_MIX_1[s0 >>> 16 & 0xff] ^ SUB_MIX_2[s1 >>> 8 & 0xff] ^ SUB_MIX_3[s2 & 0xff] ^ keySchedule[ksRow++];
+
+          // Update state
+          s0 = t0;
+          s1 = t1;
+          s2 = t2;
+          s3 = t3;
+        }
+
+        // Shift rows, sub bytes, add round key
+        var t0 = (SBOX[s0 >>> 24] << 24 | SBOX[s1 >>> 16 & 0xff] << 16 | SBOX[s2 >>> 8 & 0xff] << 8 | SBOX[s3 & 0xff]) ^ keySchedule[ksRow++];
+        var t1 = (SBOX[s1 >>> 24] << 24 | SBOX[s2 >>> 16 & 0xff] << 16 | SBOX[s3 >>> 8 & 0xff] << 8 | SBOX[s0 & 0xff]) ^ keySchedule[ksRow++];
+        var t2 = (SBOX[s2 >>> 24] << 24 | SBOX[s3 >>> 16 & 0xff] << 16 | SBOX[s0 >>> 8 & 0xff] << 8 | SBOX[s1 & 0xff]) ^ keySchedule[ksRow++];
+        var t3 = (SBOX[s3 >>> 24] << 24 | SBOX[s0 >>> 16 & 0xff] << 16 | SBOX[s1 >>> 8 & 0xff] << 8 | SBOX[s2 & 0xff]) ^ keySchedule[ksRow++];
+
+        // Set output
+        M[offset] = t0;
+        M[offset + 1] = t1;
+        M[offset + 2] = t2;
+        M[offset + 3] = t3;
+      },
+
+      keySize: 256 / 32 });
+
+
+    /**
+                             * Shortcut functions to the cipher's object interface.
+                             *
+                             * @example
+                             *
+                             *     var ciphertext = CryptoJS.AES.encrypt(message, key, cfg);
+                             *     var plaintext  = CryptoJS.AES.decrypt(ciphertext, key, cfg);
+                             */
+    C.AES = BlockCipher._createHelper(AES);
+  })();
+
+
+  return CryptoJS.AES;
+
+});
+
+/***/ }),
+/* 121 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/tripledes.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./enc-base64 */ 95), __webpack_require__(/*! ./md5 */ 97), __webpack_require__(/*! ./evpkdf */ 107), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var WordArray = C_lib.WordArray;
+    var BlockCipher = C_lib.BlockCipher;
+    var C_algo = C.algo;
+
+    // Permuted Choice 1 constants
+    var PC1 = [
+    57, 49, 41, 33, 25, 17, 9, 1,
+    58, 50, 42, 34, 26, 18, 10, 2,
+    59, 51, 43, 35, 27, 19, 11, 3,
+    60, 52, 44, 36, 63, 55, 47, 39,
+    31, 23, 15, 7, 62, 54, 46, 38,
+    30, 22, 14, 6, 61, 53, 45, 37,
+    29, 21, 13, 5, 28, 20, 12, 4];
+
+
+    // Permuted Choice 2 constants
+    var PC2 = [
+    14, 17, 11, 24, 1, 5,
+    3, 28, 15, 6, 21, 10,
+    23, 19, 12, 4, 26, 8,
+    16, 7, 27, 20, 13, 2,
+    41, 52, 31, 37, 47, 55,
+    30, 40, 51, 45, 33, 48,
+    44, 49, 39, 56, 34, 53,
+    46, 42, 50, 36, 29, 32];
+
+
+    // Cumulative bit shift constants
+    var BIT_SHIFTS = [1, 2, 4, 6, 8, 10, 12, 14, 15, 17, 19, 21, 23, 25, 27, 28];
+
+    // SBOXes and round permutation constants
+    var SBOX_P = [
+    {
+      0x0: 0x808200,
+      0x10000000: 0x8000,
+      0x20000000: 0x808002,
+      0x30000000: 0x2,
+      0x40000000: 0x200,
+      0x50000000: 0x808202,
+      0x60000000: 0x800202,
+      0x70000000: 0x800000,
+      0x80000000: 0x202,
+      0x90000000: 0x800200,
+      0xa0000000: 0x8200,
+      0xb0000000: 0x808000,
+      0xc0000000: 0x8002,
+      0xd0000000: 0x800002,
+      0xe0000000: 0x0,
+      0xf0000000: 0x8202,
+      0x8000000: 0x0,
+      0x18000000: 0x808202,
+      0x28000000: 0x8202,
+      0x38000000: 0x8000,
+      0x48000000: 0x808200,
+      0x58000000: 0x200,
+      0x68000000: 0x808002,
+      0x78000000: 0x2,
+      0x88000000: 0x800200,
+      0x98000000: 0x8200,
+      0xa8000000: 0x808000,
+      0xb8000000: 0x800202,
+      0xc8000000: 0x800002,
+      0xd8000000: 0x8002,
+      0xe8000000: 0x202,
+      0xf8000000: 0x800000,
+      0x1: 0x8000,
+      0x10000001: 0x2,
+      0x20000001: 0x808200,
+      0x30000001: 0x800000,
+      0x40000001: 0x808002,
+      0x50000001: 0x8200,
+      0x60000001: 0x200,
+      0x70000001: 0x800202,
+      0x80000001: 0x808202,
+      0x90000001: 0x808000,
+      0xa0000001: 0x800002,
+      0xb0000001: 0x8202,
+      0xc0000001: 0x202,
+      0xd0000001: 0x800200,
+      0xe0000001: 0x8002,
+      0xf0000001: 0x0,
+      0x8000001: 0x808202,
+      0x18000001: 0x808000,
+      0x28000001: 0x800000,
+      0x38000001: 0x200,
+      0x48000001: 0x8000,
+      0x58000001: 0x800002,
+      0x68000001: 0x2,
+      0x78000001: 0x8202,
+      0x88000001: 0x8002,
+      0x98000001: 0x800202,
+      0xa8000001: 0x202,
+      0xb8000001: 0x808200,
+      0xc8000001: 0x800200,
+      0xd8000001: 0x0,
+      0xe8000001: 0x8200,
+      0xf8000001: 0x808002 },
+
+    {
+      0x0: 0x40084010,
+      0x1000000: 0x4000,
+      0x2000000: 0x80000,
+      0x3000000: 0x40080010,
+      0x4000000: 0x40000010,
+      0x5000000: 0x40084000,
+      0x6000000: 0x40004000,
+      0x7000000: 0x10,
+      0x8000000: 0x84000,
+      0x9000000: 0x40004010,
+      0xa000000: 0x40000000,
+      0xb000000: 0x84010,
+      0xc000000: 0x80010,
+      0xd000000: 0x0,
+      0xe000000: 0x4010,
+      0xf000000: 0x40080000,
+      0x800000: 0x40004000,
+      0x1800000: 0x84010,
+      0x2800000: 0x10,
+      0x3800000: 0x40004010,
+      0x4800000: 0x40084010,
+      0x5800000: 0x40000000,
+      0x6800000: 0x80000,
+      0x7800000: 0x40080010,
+      0x8800000: 0x80010,
+      0x9800000: 0x0,
+      0xa800000: 0x4000,
+      0xb800000: 0x40080000,
+      0xc800000: 0x40000010,
+      0xd800000: 0x84000,
+      0xe800000: 0x40084000,
+      0xf800000: 0x4010,
+      0x10000000: 0x0,
+      0x11000000: 0x40080010,
+      0x12000000: 0x40004010,
+      0x13000000: 0x40084000,
+      0x14000000: 0x40080000,
+      0x15000000: 0x10,
+      0x16000000: 0x84010,
+      0x17000000: 0x4000,
+      0x18000000: 0x4010,
+      0x19000000: 0x80000,
+      0x1a000000: 0x80010,
+      0x1b000000: 0x40000010,
+      0x1c000000: 0x84000,
+      0x1d000000: 0x40004000,
+      0x1e000000: 0x40000000,
+      0x1f000000: 0x40084010,
+      0x10800000: 0x84010,
+      0x11800000: 0x80000,
+      0x12800000: 0x40080000,
+      0x13800000: 0x4000,
+      0x14800000: 0x40004000,
+      0x15800000: 0x40084010,
+      0x16800000: 0x10,
+      0x17800000: 0x40000000,
+      0x18800000: 0x40084000,
+      0x19800000: 0x40000010,
+      0x1a800000: 0x40004010,
+      0x1b800000: 0x80010,
+      0x1c800000: 0x0,
+      0x1d800000: 0x4010,
+      0x1e800000: 0x40080010,
+      0x1f800000: 0x84000 },
+
+    {
+      0x0: 0x104,
+      0x100000: 0x0,
+      0x200000: 0x4000100,
+      0x300000: 0x10104,
+      0x400000: 0x10004,
+      0x500000: 0x4000004,
+      0x600000: 0x4010104,
+      0x700000: 0x4010000,
+      0x800000: 0x4000000,
+      0x900000: 0x4010100,
+      0xa00000: 0x10100,
+      0xb00000: 0x4010004,
+      0xc00000: 0x4000104,
+      0xd00000: 0x10000,
+      0xe00000: 0x4,
+      0xf00000: 0x100,
+      0x80000: 0x4010100,
+      0x180000: 0x4010004,
+      0x280000: 0x0,
+      0x380000: 0x4000100,
+      0x480000: 0x4000004,
+      0x580000: 0x10000,
+      0x680000: 0x10004,
+      0x780000: 0x104,
+      0x880000: 0x4,
+      0x980000: 0x100,
+      0xa80000: 0x4010000,
+      0xb80000: 0x10104,
+      0xc80000: 0x10100,
+      0xd80000: 0x4000104,
+      0xe80000: 0x4010104,
+      0xf80000: 0x4000000,
+      0x1000000: 0x4010100,
+      0x1100000: 0x10004,
+      0x1200000: 0x10000,
+      0x1300000: 0x4000100,
+      0x1400000: 0x100,
+      0x1500000: 0x4010104,
+      0x1600000: 0x4000004,
+      0x1700000: 0x0,
+      0x1800000: 0x4000104,
+      0x1900000: 0x4000000,
+      0x1a00000: 0x4,
+      0x1b00000: 0x10100,
+      0x1c00000: 0x4010000,
+      0x1d00000: 0x104,
+      0x1e00000: 0x10104,
+      0x1f00000: 0x4010004,
+      0x1080000: 0x4000000,
+      0x1180000: 0x104,
+      0x1280000: 0x4010100,
+      0x1380000: 0x0,
+      0x1480000: 0x10004,
+      0x1580000: 0x4000100,
+      0x1680000: 0x100,
+      0x1780000: 0x4010004,
+      0x1880000: 0x10000,
+      0x1980000: 0x4010104,
+      0x1a80000: 0x10104,
+      0x1b80000: 0x4000004,
+      0x1c80000: 0x4000104,
+      0x1d80000: 0x4010000,
+      0x1e80000: 0x4,
+      0x1f80000: 0x10100 },
+
+    {
+      0x0: 0x80401000,
+      0x10000: 0x80001040,
+      0x20000: 0x401040,
+      0x30000: 0x80400000,
+      0x40000: 0x0,
+      0x50000: 0x401000,
+      0x60000: 0x80000040,
+      0x70000: 0x400040,
+      0x80000: 0x80000000,
+      0x90000: 0x400000,
+      0xa0000: 0x40,
+      0xb0000: 0x80001000,
+      0xc0000: 0x80400040,
+      0xd0000: 0x1040,
+      0xe0000: 0x1000,
+      0xf0000: 0x80401040,
+      0x8000: 0x80001040,
+      0x18000: 0x40,
+      0x28000: 0x80400040,
+      0x38000: 0x80001000,
+      0x48000: 0x401000,
+      0x58000: 0x80401040,
+      0x68000: 0x0,
+      0x78000: 0x80400000,
+      0x88000: 0x1000,
+      0x98000: 0x80401000,
+      0xa8000: 0x400000,
+      0xb8000: 0x1040,
+      0xc8000: 0x80000000,
+      0xd8000: 0x400040,
+      0xe8000: 0x401040,
+      0xf8000: 0x80000040,
+      0x100000: 0x400040,
+      0x110000: 0x401000,
+      0x120000: 0x80000040,
+      0x130000: 0x0,
+      0x140000: 0x1040,
+      0x150000: 0x80400040,
+      0x160000: 0x80401000,
+      0x170000: 0x80001040,
+      0x180000: 0x80401040,
+      0x190000: 0x80000000,
+      0x1a0000: 0x80400000,
+      0x1b0000: 0x401040,
+      0x1c0000: 0x80001000,
+      0x1d0000: 0x400000,
+      0x1e0000: 0x40,
+      0x1f0000: 0x1000,
+      0x108000: 0x80400000,
+      0x118000: 0x80401040,
+      0x128000: 0x0,
+      0x138000: 0x401000,
+      0x148000: 0x400040,
+      0x158000: 0x80000000,
+      0x168000: 0x80001040,
+      0x178000: 0x40,
+      0x188000: 0x80000040,
+      0x198000: 0x1000,
+      0x1a8000: 0x80001000,
+      0x1b8000: 0x80400040,
+      0x1c8000: 0x1040,
+      0x1d8000: 0x80401000,
+      0x1e8000: 0x400000,
+      0x1f8000: 0x401040 },
+
+    {
+      0x0: 0x80,
+      0x1000: 0x1040000,
+      0x2000: 0x40000,
+      0x3000: 0x20000000,
+      0x4000: 0x20040080,
+      0x5000: 0x1000080,
+      0x6000: 0x21000080,
+      0x7000: 0x40080,
+      0x8000: 0x1000000,
+      0x9000: 0x20040000,
+      0xa000: 0x20000080,
+      0xb000: 0x21040080,
+      0xc000: 0x21040000,
+      0xd000: 0x0,
+      0xe000: 0x1040080,
+      0xf000: 0x21000000,
+      0x800: 0x1040080,
+      0x1800: 0x21000080,
+      0x2800: 0x80,
+      0x3800: 0x1040000,
+      0x4800: 0x40000,
+      0x5800: 0x20040080,
+      0x6800: 0x21040000,
+      0x7800: 0x20000000,
+      0x8800: 0x20040000,
+      0x9800: 0x0,
+      0xa800: 0x21040080,
+      0xb800: 0x1000080,
+      0xc800: 0x20000080,
+      0xd800: 0x21000000,
+      0xe800: 0x1000000,
+      0xf800: 0x40080,
+      0x10000: 0x40000,
+      0x11000: 0x80,
+      0x12000: 0x20000000,
+      0x13000: 0x21000080,
+      0x14000: 0x1000080,
+      0x15000: 0x21040000,
+      0x16000: 0x20040080,
+      0x17000: 0x1000000,
+      0x18000: 0x21040080,
+      0x19000: 0x21000000,
+      0x1a000: 0x1040000,
+      0x1b000: 0x20040000,
+      0x1c000: 0x40080,
+      0x1d000: 0x20000080,
+      0x1e000: 0x0,
+      0x1f000: 0x1040080,
+      0x10800: 0x21000080,
+      0x11800: 0x1000000,
+      0x12800: 0x1040000,
+      0x13800: 0x20040080,
+      0x14800: 0x20000000,
+      0x15800: 0x1040080,
+      0x16800: 0x80,
+      0x17800: 0x21040000,
+      0x18800: 0x40080,
+      0x19800: 0x21040080,
+      0x1a800: 0x0,
+      0x1b800: 0x21000000,
+      0x1c800: 0x1000080,
+      0x1d800: 0x40000,
+      0x1e800: 0x20040000,
+      0x1f800: 0x20000080 },
+
+    {
+      0x0: 0x10000008,
+      0x100: 0x2000,
+      0x200: 0x10200000,
+      0x300: 0x10202008,
+      0x400: 0x10002000,
+      0x500: 0x200000,
+      0x600: 0x200008,
+      0x700: 0x10000000,
+      0x800: 0x0,
+      0x900: 0x10002008,
+      0xa00: 0x202000,
+      0xb00: 0x8,
+      0xc00: 0x10200008,
+      0xd00: 0x202008,
+      0xe00: 0x2008,
+      0xf00: 0x10202000,
+      0x80: 0x10200000,
+      0x180: 0x10202008,
+      0x280: 0x8,
+      0x380: 0x200000,
+      0x480: 0x202008,
+      0x580: 0x10000008,
+      0x680: 0x10002000,
+      0x780: 0x2008,
+      0x880: 0x200008,
+      0x980: 0x2000,
+      0xa80: 0x10002008,
+      0xb80: 0x10200008,
+      0xc80: 0x0,
+      0xd80: 0x10202000,
+      0xe80: 0x202000,
+      0xf80: 0x10000000,
+      0x1000: 0x10002000,
+      0x1100: 0x10200008,
+      0x1200: 0x10202008,
+      0x1300: 0x2008,
+      0x1400: 0x200000,
+      0x1500: 0x10000000,
+      0x1600: 0x10000008,
+      0x1700: 0x202000,
+      0x1800: 0x202008,
+      0x1900: 0x0,
+      0x1a00: 0x8,
+      0x1b00: 0x10200000,
+      0x1c00: 0x2000,
+      0x1d00: 0x10002008,
+      0x1e00: 0x10202000,
+      0x1f00: 0x200008,
+      0x1080: 0x8,
+      0x1180: 0x202000,
+      0x1280: 0x200000,
+      0x1380: 0x10000008,
+      0x1480: 0x10002000,
+      0x1580: 0x2008,
+      0x1680: 0x10202008,
+      0x1780: 0x10200000,
+      0x1880: 0x10202000,
+      0x1980: 0x10200008,
+      0x1a80: 0x2000,
+      0x1b80: 0x202008,
+      0x1c80: 0x200008,
+      0x1d80: 0x0,
+      0x1e80: 0x10000000,
+      0x1f80: 0x10002008 },
+
+    {
+      0x0: 0x100000,
+      0x10: 0x2000401,
+      0x20: 0x400,
+      0x30: 0x100401,
+      0x40: 0x2100401,
+      0x50: 0x0,
+      0x60: 0x1,
+      0x70: 0x2100001,
+      0x80: 0x2000400,
+      0x90: 0x100001,
+      0xa0: 0x2000001,
+      0xb0: 0x2100400,
+      0xc0: 0x2100000,
+      0xd0: 0x401,
+      0xe0: 0x100400,
+      0xf0: 0x2000000,
+      0x8: 0x2100001,
+      0x18: 0x0,
+      0x28: 0x2000401,
+      0x38: 0x2100400,
+      0x48: 0x100000,
+      0x58: 0x2000001,
+      0x68: 0x2000000,
+      0x78: 0x401,
+      0x88: 0x100401,
+      0x98: 0x2000400,
+      0xa8: 0x2100000,
+      0xb8: 0x100001,
+      0xc8: 0x400,
+      0xd8: 0x2100401,
+      0xe8: 0x1,
+      0xf8: 0x100400,
+      0x100: 0x2000000,
+      0x110: 0x100000,
+      0x120: 0x2000401,
+      0x130: 0x2100001,
+      0x140: 0x100001,
+      0x150: 0x2000400,
+      0x160: 0x2100400,
+      0x170: 0x100401,
+      0x180: 0x401,
+      0x190: 0x2100401,
+      0x1a0: 0x100400,
+      0x1b0: 0x1,
+      0x1c0: 0x0,
+      0x1d0: 0x2100000,
+      0x1e0: 0x2000001,
+      0x1f0: 0x400,
+      0x108: 0x100400,
+      0x118: 0x2000401,
+      0x128: 0x2100001,
+      0x138: 0x1,
+      0x148: 0x2000000,
+      0x158: 0x100000,
+      0x168: 0x401,
+      0x178: 0x2100400,
+      0x188: 0x2000001,
+      0x198: 0x2100000,
+      0x1a8: 0x0,
+      0x1b8: 0x2100401,
+      0x1c8: 0x100401,
+      0x1d8: 0x400,
+      0x1e8: 0x2000400,
+      0x1f8: 0x100001 },
+
+    {
+      0x0: 0x8000820,
+      0x1: 0x20000,
+      0x2: 0x8000000,
+      0x3: 0x20,
+      0x4: 0x20020,
+      0x5: 0x8020820,
+      0x6: 0x8020800,
+      0x7: 0x800,
+      0x8: 0x8020000,
+      0x9: 0x8000800,
+      0xa: 0x20800,
+      0xb: 0x8020020,
+      0xc: 0x820,
+      0xd: 0x0,
+      0xe: 0x8000020,
+      0xf: 0x20820,
+      0x80000000: 0x800,
+      0x80000001: 0x8020820,
+      0x80000002: 0x8000820,
+      0x80000003: 0x8000000,
+      0x80000004: 0x8020000,
+      0x80000005: 0x20800,
+      0x80000006: 0x20820,
+      0x80000007: 0x20,
+      0x80000008: 0x8000020,
+      0x80000009: 0x820,
+      0x8000000a: 0x20020,
+      0x8000000b: 0x8020800,
+      0x8000000c: 0x0,
+      0x8000000d: 0x8020020,
+      0x8000000e: 0x8000800,
+      0x8000000f: 0x20000,
+      0x10: 0x20820,
+      0x11: 0x8020800,
+      0x12: 0x20,
+      0x13: 0x800,
+      0x14: 0x8000800,
+      0x15: 0x8000020,
+      0x16: 0x8020020,
+      0x17: 0x20000,
+      0x18: 0x0,
+      0x19: 0x20020,
+      0x1a: 0x8020000,
+      0x1b: 0x8000820,
+      0x1c: 0x8020820,
+      0x1d: 0x20800,
+      0x1e: 0x820,
+      0x1f: 0x8000000,
+      0x80000010: 0x20000,
+      0x80000011: 0x800,
+      0x80000012: 0x8020020,
+      0x80000013: 0x20820,
+      0x80000014: 0x20,
+      0x80000015: 0x8020000,
+      0x80000016: 0x8000000,
+      0x80000017: 0x8000820,
+      0x80000018: 0x8020820,
+      0x80000019: 0x8000020,
+      0x8000001a: 0x8000800,
+      0x8000001b: 0x0,
+      0x8000001c: 0x20800,
+      0x8000001d: 0x820,
+      0x8000001e: 0x20020,
+      0x8000001f: 0x8020800 }];
+
+
+
+    // Masks that select the SBOX input
+    var SBOX_MASK = [
+    0xf8000001, 0x1f800000, 0x01f80000, 0x001f8000,
+    0x0001f800, 0x00001f80, 0x000001f8, 0x8000001f];
+
+
+    /**
+                                                      * DES block cipher algorithm.
+                                                      */
+    var DES = C_algo.DES = BlockCipher.extend({
+      _doReset: function _doReset() {
+        // Shortcuts
+        var key = this._key;
+        var keyWords = key.words;
+
+        // Select 56 bits according to PC1
+        var keyBits = [];
+        for (var i = 0; i < 56; i++) {
+          var keyBitPos = PC1[i] - 1;
+          keyBits[i] = keyWords[keyBitPos >>> 5] >>> 31 - keyBitPos % 32 & 1;
+        }
+
+        // Assemble 16 subkeys
+        var subKeys = this._subKeys = [];
+        for (var nSubKey = 0; nSubKey < 16; nSubKey++) {
+          // Create subkey
+          var subKey = subKeys[nSubKey] = [];
+
+          // Shortcut
+          var bitShift = BIT_SHIFTS[nSubKey];
+
+          // Select 48 bits according to PC2
+          for (var i = 0; i < 24; i++) {
+            // Select from the left 28 key bits
+            subKey[i / 6 | 0] |= keyBits[(PC2[i] - 1 + bitShift) % 28] << 31 - i % 6;
+
+            // Select from the right 28 key bits
+            subKey[4 + (i / 6 | 0)] |= keyBits[28 + (PC2[i + 24] - 1 + bitShift) % 28] << 31 - i % 6;
+          }
+
+          // Since each subkey is applied to an expanded 32-bit input,
+          // the subkey can be broken into 8 values scaled to 32-bits,
+          // which allows the key to be used without expansion
+          subKey[0] = subKey[0] << 1 | subKey[0] >>> 31;
+          for (var i = 1; i < 7; i++) {
+            subKey[i] = subKey[i] >>> (i - 1) * 4 + 3;
+          }
+          subKey[7] = subKey[7] << 5 | subKey[7] >>> 27;
+        }
+
+        // Compute inverse subkeys
+        var invSubKeys = this._invSubKeys = [];
+        for (var i = 0; i < 16; i++) {
+          invSubKeys[i] = subKeys[15 - i];
+        }
+      },
+
+      encryptBlock: function encryptBlock(M, offset) {
+        this._doCryptBlock(M, offset, this._subKeys);
+      },
+
+      decryptBlock: function decryptBlock(M, offset) {
+        this._doCryptBlock(M, offset, this._invSubKeys);
+      },
+
+      _doCryptBlock: function _doCryptBlock(M, offset, subKeys) {
+        // Get input
+        this._lBlock = M[offset];
+        this._rBlock = M[offset + 1];
+
+        // Initial permutation
+        exchangeLR.call(this, 4, 0x0f0f0f0f);
+        exchangeLR.call(this, 16, 0x0000ffff);
+        exchangeRL.call(this, 2, 0x33333333);
+        exchangeRL.call(this, 8, 0x00ff00ff);
+        exchangeLR.call(this, 1, 0x55555555);
+
+        // Rounds
+        for (var round = 0; round < 16; round++) {
+          // Shortcuts
+          var subKey = subKeys[round];
+          var lBlock = this._lBlock;
+          var rBlock = this._rBlock;
+
+          // Feistel function
+          var f = 0;
+          for (var i = 0; i < 8; i++) {
+            f |= SBOX_P[i][((rBlock ^ subKey[i]) & SBOX_MASK[i]) >>> 0];
+          }
+          this._lBlock = rBlock;
+          this._rBlock = lBlock ^ f;
+        }
+
+        // Undo swap from last round
+        var t = this._lBlock;
+        this._lBlock = this._rBlock;
+        this._rBlock = t;
+
+        // Final permutation
+        exchangeLR.call(this, 1, 0x55555555);
+        exchangeRL.call(this, 8, 0x00ff00ff);
+        exchangeRL.call(this, 2, 0x33333333);
+        exchangeLR.call(this, 16, 0x0000ffff);
+        exchangeLR.call(this, 4, 0x0f0f0f0f);
+
+        // Set output
+        M[offset] = this._lBlock;
+        M[offset + 1] = this._rBlock;
+      },
+
+      keySize: 64 / 32,
+
+      ivSize: 64 / 32,
+
+      blockSize: 64 / 32 });
+
+
+    // Swap bits across the left and right words
+    function exchangeLR(offset, mask) {
+      var t = (this._lBlock >>> offset ^ this._rBlock) & mask;
+      this._rBlock ^= t;
+      this._lBlock ^= t << offset;
+    }
+
+    function exchangeRL(offset, mask) {
+      var t = (this._rBlock >>> offset ^ this._lBlock) & mask;
+      this._lBlock ^= t;
+      this._rBlock ^= t << offset;
+    }
+
+    /**
+       * Shortcut functions to the cipher's object interface.
+       *
+       * @example
+       *
+       *     var ciphertext = CryptoJS.DES.encrypt(message, key, cfg);
+       *     var plaintext  = CryptoJS.DES.decrypt(ciphertext, key, cfg);
+       */
+    C.DES = BlockCipher._createHelper(DES);
+
+    /**
+                                             * Triple-DES block cipher algorithm.
+                                             */
+    var TripleDES = C_algo.TripleDES = BlockCipher.extend({
+      _doReset: function _doReset() {
+        // Shortcuts
+        var key = this._key;
+        var keyWords = key.words;
+        // Make sure the key length is valid (64, 128 or >= 192 bit)
+        if (keyWords.length !== 2 && keyWords.length !== 4 && keyWords.length < 6) {
+          throw new Error('Invalid key length - 3DES requires the key length to be 64, 128, 192 or >192.');
+        }
+
+        // Extend the key according to the keying options defined in 3DES standard
+        var key1 = keyWords.slice(0, 2);
+        var key2 = keyWords.length < 4 ? keyWords.slice(0, 2) : keyWords.slice(2, 4);
+        var key3 = keyWords.length < 6 ? keyWords.slice(0, 2) : keyWords.slice(4, 6);
+
+        // Create DES instances
+        this._des1 = DES.createEncryptor(WordArray.create(key1));
+        this._des2 = DES.createEncryptor(WordArray.create(key2));
+        this._des3 = DES.createEncryptor(WordArray.create(key3));
+      },
+
+      encryptBlock: function encryptBlock(M, offset) {
+        this._des1.encryptBlock(M, offset);
+        this._des2.decryptBlock(M, offset);
+        this._des3.encryptBlock(M, offset);
+      },
+
+      decryptBlock: function decryptBlock(M, offset) {
+        this._des3.decryptBlock(M, offset);
+        this._des2.encryptBlock(M, offset);
+        this._des1.decryptBlock(M, offset);
+      },
+
+      keySize: 192 / 32,
+
+      ivSize: 64 / 32,
+
+      blockSize: 64 / 32 });
+
+
+    /**
+                              * Shortcut functions to the cipher's object interface.
+                              *
+                              * @example
+                              *
+                              *     var ciphertext = CryptoJS.TripleDES.encrypt(message, key, cfg);
+                              *     var plaintext  = CryptoJS.TripleDES.decrypt(ciphertext, key, cfg);
+                              */
+    C.TripleDES = BlockCipher._createHelper(TripleDES);
+  })();
+
+
+  return CryptoJS.TripleDES;
+
+});
+
+/***/ }),
+/* 122 */
+/*!********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/rc4.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./enc-base64 */ 95), __webpack_require__(/*! ./md5 */ 97), __webpack_require__(/*! ./evpkdf */ 107), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var StreamCipher = C_lib.StreamCipher;
+    var C_algo = C.algo;
+
+    /**
+                          * RC4 stream cipher algorithm.
+                          */
+    var RC4 = C_algo.RC4 = StreamCipher.extend({
+      _doReset: function _doReset() {
+        // Shortcuts
+        var key = this._key;
+        var keyWords = key.words;
+        var keySigBytes = key.sigBytes;
+
+        // Init sbox
+        var S = this._S = [];
+        for (var i = 0; i < 256; i++) {
+          S[i] = i;
+        }
+
+        // Key setup
+        for (var i = 0, j = 0; i < 256; i++) {
+          var keyByteIndex = i % keySigBytes;
+          var keyByte = keyWords[keyByteIndex >>> 2] >>> 24 - keyByteIndex % 4 * 8 & 0xff;
+
+          j = (j + S[i] + keyByte) % 256;
+
+          // Swap
+          var t = S[i];
+          S[i] = S[j];
+          S[j] = t;
+        }
+
+        // Counters
+        this._i = this._j = 0;
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        M[offset] ^= generateKeystreamWord.call(this);
+      },
+
+      keySize: 256 / 32,
+
+      ivSize: 0 });
+
+
+    function generateKeystreamWord() {
+      // Shortcuts
+      var S = this._S;
+      var i = this._i;
+      var j = this._j;
+
+      // Generate keystream word
+      var keystreamWord = 0;
+      for (var n = 0; n < 4; n++) {
+        i = (i + 1) % 256;
+        j = (j + S[i]) % 256;
+
+        // Swap
+        var t = S[i];
+        S[i] = S[j];
+        S[j] = t;
+
+        keystreamWord |= S[(S[i] + S[j]) % 256] << 24 - n * 8;
+      }
+
+      // Update counters
+      this._i = i;
+      this._j = j;
+
+      return keystreamWord;
+    }
+
+    /**
+       * Shortcut functions to the cipher's object interface.
+       *
+       * @example
+       *
+       *     var ciphertext = CryptoJS.RC4.encrypt(message, key, cfg);
+       *     var plaintext  = CryptoJS.RC4.decrypt(ciphertext, key, cfg);
+       */
+    C.RC4 = StreamCipher._createHelper(RC4);
+
+    /**
+                                              * Modified RC4 stream cipher algorithm.
+                                              */
+    var RC4Drop = C_algo.RC4Drop = RC4.extend({
+      /**
+                                                 * Configuration options.
+                                                 *
+                                                 * @property {number} drop The number of keystream words to drop. Default 192
+                                                 */
+      cfg: RC4.cfg.extend({
+        drop: 192 }),
+
+
+      _doReset: function _doReset() {
+        RC4._doReset.call(this);
+
+        // Drop
+        for (var i = this.cfg.drop; i > 0; i--) {
+          generateKeystreamWord.call(this);
+        }
+      } });
+
+
+    /**
+             * Shortcut functions to the cipher's object interface.
+             *
+             * @example
+             *
+             *     var ciphertext = CryptoJS.RC4Drop.encrypt(message, key, cfg);
+             *     var plaintext  = CryptoJS.RC4Drop.decrypt(ciphertext, key, cfg);
+             */
+    C.RC4Drop = StreamCipher._createHelper(RC4Drop);
+  })();
+
+
+  return CryptoJS.RC4;
+
+});
+
+/***/ }),
+/* 123 */
+/*!***********************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/rabbit.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./enc-base64 */ 95), __webpack_require__(/*! ./md5 */ 97), __webpack_require__(/*! ./evpkdf */ 107), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var StreamCipher = C_lib.StreamCipher;
+    var C_algo = C.algo;
+
+    // Reusable objects
+    var S = [];
+    var C_ = [];
+    var G = [];
+
+    /**
+                 * Rabbit stream cipher algorithm
+                 */
+    var Rabbit = C_algo.Rabbit = StreamCipher.extend({
+      _doReset: function _doReset() {
+        // Shortcuts
+        var K = this._key.words;
+        var iv = this.cfg.iv;
+
+        // Swap endian
+        for (var i = 0; i < 4; i++) {
+          K[i] = (K[i] << 8 | K[i] >>> 24) & 0x00ff00ff |
+          (K[i] << 24 | K[i] >>> 8) & 0xff00ff00;
+        }
+
+        // Generate initial state values
+        var X = this._X = [
+        K[0], K[3] << 16 | K[2] >>> 16,
+        K[1], K[0] << 16 | K[3] >>> 16,
+        K[2], K[1] << 16 | K[0] >>> 16,
+        K[3], K[2] << 16 | K[1] >>> 16];
+
+
+        // Generate initial counter values
+        var C = this._C = [
+        K[2] << 16 | K[2] >>> 16, K[0] & 0xffff0000 | K[1] & 0x0000ffff,
+        K[3] << 16 | K[3] >>> 16, K[1] & 0xffff0000 | K[2] & 0x0000ffff,
+        K[0] << 16 | K[0] >>> 16, K[2] & 0xffff0000 | K[3] & 0x0000ffff,
+        K[1] << 16 | K[1] >>> 16, K[3] & 0xffff0000 | K[0] & 0x0000ffff];
+
+
+        // Carry bit
+        this._b = 0;
+
+        // Iterate the system four times
+        for (var i = 0; i < 4; i++) {
+          nextState.call(this);
+        }
+
+        // Modify the counters
+        for (var i = 0; i < 8; i++) {
+          C[i] ^= X[i + 4 & 7];
+        }
+
+        // IV setup
+        if (iv) {
+          // Shortcuts
+          var IV = iv.words;
+          var IV_0 = IV[0];
+          var IV_1 = IV[1];
+
+          // Generate four subvectors
+          var i0 = (IV_0 << 8 | IV_0 >>> 24) & 0x00ff00ff | (IV_0 << 24 | IV_0 >>> 8) & 0xff00ff00;
+          var i2 = (IV_1 << 8 | IV_1 >>> 24) & 0x00ff00ff | (IV_1 << 24 | IV_1 >>> 8) & 0xff00ff00;
+          var i1 = i0 >>> 16 | i2 & 0xffff0000;
+          var i3 = i2 << 16 | i0 & 0x0000ffff;
+
+          // Modify counter values
+          C[0] ^= i0;
+          C[1] ^= i1;
+          C[2] ^= i2;
+          C[3] ^= i3;
+          C[4] ^= i0;
+          C[5] ^= i1;
+          C[6] ^= i2;
+          C[7] ^= i3;
+
+          // Iterate the system four times
+          for (var i = 0; i < 4; i++) {
+            nextState.call(this);
+          }
+        }
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Shortcut
+        var X = this._X;
+
+        // Iterate the system
+        nextState.call(this);
+
+        // Generate four keystream words
+        S[0] = X[0] ^ X[5] >>> 16 ^ X[3] << 16;
+        S[1] = X[2] ^ X[7] >>> 16 ^ X[5] << 16;
+        S[2] = X[4] ^ X[1] >>> 16 ^ X[7] << 16;
+        S[3] = X[6] ^ X[3] >>> 16 ^ X[1] << 16;
+
+        for (var i = 0; i < 4; i++) {
+          // Swap endian
+          S[i] = (S[i] << 8 | S[i] >>> 24) & 0x00ff00ff |
+          (S[i] << 24 | S[i] >>> 8) & 0xff00ff00;
+
+          // Encrypt
+          M[offset + i] ^= S[i];
+        }
+      },
+
+      blockSize: 128 / 32,
+
+      ivSize: 64 / 32 });
+
+
+    function nextState() {
+      // Shortcuts
+      var X = this._X;
+      var C = this._C;
+
+      // Save old counter values
+      for (var i = 0; i < 8; i++) {
+        C_[i] = C[i];
+      }
+
+      // Calculate new counter values
+      C[0] = C[0] + 0x4d34d34d + this._b | 0;
+      C[1] = C[1] + 0xd34d34d3 + (C[0] >>> 0 < C_[0] >>> 0 ? 1 : 0) | 0;
+      C[2] = C[2] + 0x34d34d34 + (C[1] >>> 0 < C_[1] >>> 0 ? 1 : 0) | 0;
+      C[3] = C[3] + 0x4d34d34d + (C[2] >>> 0 < C_[2] >>> 0 ? 1 : 0) | 0;
+      C[4] = C[4] + 0xd34d34d3 + (C[3] >>> 0 < C_[3] >>> 0 ? 1 : 0) | 0;
+      C[5] = C[5] + 0x34d34d34 + (C[4] >>> 0 < C_[4] >>> 0 ? 1 : 0) | 0;
+      C[6] = C[6] + 0x4d34d34d + (C[5] >>> 0 < C_[5] >>> 0 ? 1 : 0) | 0;
+      C[7] = C[7] + 0xd34d34d3 + (C[6] >>> 0 < C_[6] >>> 0 ? 1 : 0) | 0;
+      this._b = C[7] >>> 0 < C_[7] >>> 0 ? 1 : 0;
+
+      // Calculate the g-values
+      for (var i = 0; i < 8; i++) {
+        var gx = X[i] + C[i];
+
+        // Construct high and low argument for squaring
+        var ga = gx & 0xffff;
+        var gb = gx >>> 16;
+
+        // Calculate high and low result of squaring
+        var gh = ((ga * ga >>> 17) + ga * gb >>> 15) + gb * gb;
+        var gl = ((gx & 0xffff0000) * gx | 0) + ((gx & 0x0000ffff) * gx | 0);
+
+        // High XOR low
+        G[i] = gh ^ gl;
+      }
+
+      // Calculate new state values
+      X[0] = G[0] + (G[7] << 16 | G[7] >>> 16) + (G[6] << 16 | G[6] >>> 16) | 0;
+      X[1] = G[1] + (G[0] << 8 | G[0] >>> 24) + G[7] | 0;
+      X[2] = G[2] + (G[1] << 16 | G[1] >>> 16) + (G[0] << 16 | G[0] >>> 16) | 0;
+      X[3] = G[3] + (G[2] << 8 | G[2] >>> 24) + G[1] | 0;
+      X[4] = G[4] + (G[3] << 16 | G[3] >>> 16) + (G[2] << 16 | G[2] >>> 16) | 0;
+      X[5] = G[5] + (G[4] << 8 | G[4] >>> 24) + G[3] | 0;
+      X[6] = G[6] + (G[5] << 16 | G[5] >>> 16) + (G[4] << 16 | G[4] >>> 16) | 0;
+      X[7] = G[7] + (G[6] << 8 | G[6] >>> 24) + G[5] | 0;
+    }
+
+    /**
+       * Shortcut functions to the cipher's object interface.
+       *
+       * @example
+       *
+       *     var ciphertext = CryptoJS.Rabbit.encrypt(message, key, cfg);
+       *     var plaintext  = CryptoJS.Rabbit.decrypt(ciphertext, key, cfg);
+       */
+    C.Rabbit = StreamCipher._createHelper(Rabbit);
+  })();
+
+
+  return CryptoJS.Rabbit;
+
+});
+
+/***/ }),
+/* 124 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/crypto-js/rabbit-legacy.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+;(function (root, factory, undef) {
+  if (true) {
+    // CommonJS
+    module.exports = exports = factory(__webpack_require__(/*! ./core */ 90), __webpack_require__(/*! ./enc-base64 */ 95), __webpack_require__(/*! ./md5 */ 97), __webpack_require__(/*! ./evpkdf */ 107), __webpack_require__(/*! ./cipher-core */ 108));
+  } else
+  {}
+})(this, function (CryptoJS) {
+
+  (function () {
+    // Shortcuts
+    var C = CryptoJS;
+    var C_lib = C.lib;
+    var StreamCipher = C_lib.StreamCipher;
+    var C_algo = C.algo;
+
+    // Reusable objects
+    var S = [];
+    var C_ = [];
+    var G = [];
+
+    /**
+                 * Rabbit stream cipher algorithm.
+                 *
+                 * This is a legacy version that neglected to convert the key to little-endian.
+                 * This error doesn't affect the cipher's security,
+                 * but it does affect its compatibility with other implementations.
+                 */
+    var RabbitLegacy = C_algo.RabbitLegacy = StreamCipher.extend({
+      _doReset: function _doReset() {
+        // Shortcuts
+        var K = this._key.words;
+        var iv = this.cfg.iv;
+
+        // Generate initial state values
+        var X = this._X = [
+        K[0], K[3] << 16 | K[2] >>> 16,
+        K[1], K[0] << 16 | K[3] >>> 16,
+        K[2], K[1] << 16 | K[0] >>> 16,
+        K[3], K[2] << 16 | K[1] >>> 16];
+
+
+        // Generate initial counter values
+        var C = this._C = [
+        K[2] << 16 | K[2] >>> 16, K[0] & 0xffff0000 | K[1] & 0x0000ffff,
+        K[3] << 16 | K[3] >>> 16, K[1] & 0xffff0000 | K[2] & 0x0000ffff,
+        K[0] << 16 | K[0] >>> 16, K[2] & 0xffff0000 | K[3] & 0x0000ffff,
+        K[1] << 16 | K[1] >>> 16, K[3] & 0xffff0000 | K[0] & 0x0000ffff];
+
+
+        // Carry bit
+        this._b = 0;
+
+        // Iterate the system four times
+        for (var i = 0; i < 4; i++) {
+          nextState.call(this);
+        }
+
+        // Modify the counters
+        for (var i = 0; i < 8; i++) {
+          C[i] ^= X[i + 4 & 7];
+        }
+
+        // IV setup
+        if (iv) {
+          // Shortcuts
+          var IV = iv.words;
+          var IV_0 = IV[0];
+          var IV_1 = IV[1];
+
+          // Generate four subvectors
+          var i0 = (IV_0 << 8 | IV_0 >>> 24) & 0x00ff00ff | (IV_0 << 24 | IV_0 >>> 8) & 0xff00ff00;
+          var i2 = (IV_1 << 8 | IV_1 >>> 24) & 0x00ff00ff | (IV_1 << 24 | IV_1 >>> 8) & 0xff00ff00;
+          var i1 = i0 >>> 16 | i2 & 0xffff0000;
+          var i3 = i2 << 16 | i0 & 0x0000ffff;
+
+          // Modify counter values
+          C[0] ^= i0;
+          C[1] ^= i1;
+          C[2] ^= i2;
+          C[3] ^= i3;
+          C[4] ^= i0;
+          C[5] ^= i1;
+          C[6] ^= i2;
+          C[7] ^= i3;
+
+          // Iterate the system four times
+          for (var i = 0; i < 4; i++) {
+            nextState.call(this);
+          }
+        }
+      },
+
+      _doProcessBlock: function _doProcessBlock(M, offset) {
+        // Shortcut
+        var X = this._X;
+
+        // Iterate the system
+        nextState.call(this);
+
+        // Generate four keystream words
+        S[0] = X[0] ^ X[5] >>> 16 ^ X[3] << 16;
+        S[1] = X[2] ^ X[7] >>> 16 ^ X[5] << 16;
+        S[2] = X[4] ^ X[1] >>> 16 ^ X[7] << 16;
+        S[3] = X[6] ^ X[3] >>> 16 ^ X[1] << 16;
+
+        for (var i = 0; i < 4; i++) {
+          // Swap endian
+          S[i] = (S[i] << 8 | S[i] >>> 24) & 0x00ff00ff |
+          (S[i] << 24 | S[i] >>> 8) & 0xff00ff00;
+
+          // Encrypt
+          M[offset + i] ^= S[i];
+        }
+      },
+
+      blockSize: 128 / 32,
+
+      ivSize: 64 / 32 });
+
+
+    function nextState() {
+      // Shortcuts
+      var X = this._X;
+      var C = this._C;
+
+      // Save old counter values
+      for (var i = 0; i < 8; i++) {
+        C_[i] = C[i];
+      }
+
+      // Calculate new counter values
+      C[0] = C[0] + 0x4d34d34d + this._b | 0;
+      C[1] = C[1] + 0xd34d34d3 + (C[0] >>> 0 < C_[0] >>> 0 ? 1 : 0) | 0;
+      C[2] = C[2] + 0x34d34d34 + (C[1] >>> 0 < C_[1] >>> 0 ? 1 : 0) | 0;
+      C[3] = C[3] + 0x4d34d34d + (C[2] >>> 0 < C_[2] >>> 0 ? 1 : 0) | 0;
+      C[4] = C[4] + 0xd34d34d3 + (C[3] >>> 0 < C_[3] >>> 0 ? 1 : 0) | 0;
+      C[5] = C[5] + 0x34d34d34 + (C[4] >>> 0 < C_[4] >>> 0 ? 1 : 0) | 0;
+      C[6] = C[6] + 0x4d34d34d + (C[5] >>> 0 < C_[5] >>> 0 ? 1 : 0) | 0;
+      C[7] = C[7] + 0xd34d34d3 + (C[6] >>> 0 < C_[6] >>> 0 ? 1 : 0) | 0;
+      this._b = C[7] >>> 0 < C_[7] >>> 0 ? 1 : 0;
+
+      // Calculate the g-values
+      for (var i = 0; i < 8; i++) {
+        var gx = X[i] + C[i];
+
+        // Construct high and low argument for squaring
+        var ga = gx & 0xffff;
+        var gb = gx >>> 16;
+
+        // Calculate high and low result of squaring
+        var gh = ((ga * ga >>> 17) + ga * gb >>> 15) + gb * gb;
+        var gl = ((gx & 0xffff0000) * gx | 0) + ((gx & 0x0000ffff) * gx | 0);
+
+        // High XOR low
+        G[i] = gh ^ gl;
+      }
+
+      // Calculate new state values
+      X[0] = G[0] + (G[7] << 16 | G[7] >>> 16) + (G[6] << 16 | G[6] >>> 16) | 0;
+      X[1] = G[1] + (G[0] << 8 | G[0] >>> 24) + G[7] | 0;
+      X[2] = G[2] + (G[1] << 16 | G[1] >>> 16) + (G[0] << 16 | G[0] >>> 16) | 0;
+      X[3] = G[3] + (G[2] << 8 | G[2] >>> 24) + G[1] | 0;
+      X[4] = G[4] + (G[3] << 16 | G[3] >>> 16) + (G[2] << 16 | G[2] >>> 16) | 0;
+      X[5] = G[5] + (G[4] << 8 | G[4] >>> 24) + G[3] | 0;
+      X[6] = G[6] + (G[5] << 16 | G[5] >>> 16) + (G[4] << 16 | G[4] >>> 16) | 0;
+      X[7] = G[7] + (G[6] << 8 | G[6] >>> 24) + G[5] | 0;
+    }
+
+    /**
+       * Shortcut functions to the cipher's object interface.
+       *
+       * @example
+       *
+       *     var ciphertext = CryptoJS.RabbitLegacy.encrypt(message, key, cfg);
+       *     var plaintext  = CryptoJS.RabbitLegacy.decrypt(ciphertext, key, cfg);
+       */
+    C.RabbitLegacy = StreamCipher._createHelper(RabbitLegacy);
+  })();
+
+
+  return CryptoJS.RabbitLegacy;
+
+});
+
+/***/ }),
+/* 125 */
+/*!*********************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/util/checkLogin.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.checkLogin = checkLogin;
+// 检查是否登录，未登录就跳转
+function checkLogin() {
+  var token = uni.getStorageSync("loginToken");
+  if (token) {
+    return true;
+  } else {
+    uni.navigateTo({
+      url: '/pages/self/login' });
+
+    return false;
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 126 */,
+/* 127 */,
+/* 128 */,
+/* 129 */,
+/* 130 */,
+/* 131 */,
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */,
+/* 136 */,
+/* 137 */,
+/* 138 */,
+/* 139 */,
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */,
+/* 144 */,
+/* 145 */,
+/* 146 */,
+/* 147 */,
+/* 148 */,
+/* 149 */,
+/* 150 */
+/*!*************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/async-validator/dist-web/index.js ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+
+  _setPrototypeOf(subClass, superClass);
+}
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+function _isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+
+  try {
+    Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function _construct(Parent, args, Class) {
+  if (_isNativeReflectConstruct()) {
+    _construct = Reflect.construct;
+  } else {
+    _construct = function _construct(Parent, args, Class) {
+      var a = [null];
+      a.push.apply(a, args);
+      var Constructor = Function.bind.apply(Parent, a);
+      var instance = new Constructor();
+      if (Class) _setPrototypeOf(instance, Class.prototype);
+      return instance;
+    };
+  }
+
+  return _construct.apply(null, arguments);
+}
+
+function _isNativeFunction(fn) {
+  return Function.toString.call(fn).indexOf("[native code]") !== -1;
+}
+
+function _wrapNativeSuper(Class) {
+  var _cache = typeof Map === "function" ? new Map() : undefined;
+
+  _wrapNativeSuper = function _wrapNativeSuper(Class) {
+    if (Class === null || !_isNativeFunction(Class)) return Class;
+
+    if (typeof Class !== "function") {
+      throw new TypeError("Super expression must either be null or a function");
+    }
+
+    if (typeof _cache !== "undefined") {
+      if (_cache.has(Class)) return _cache.get(Class);
+
+      _cache.set(Class, Wrapper);
+    }
+
+    function Wrapper() {
+      return _construct(Class, arguments, _getPrototypeOf(this).constructor);
+    }
+
+    Wrapper.prototype = Object.create(Class.prototype, {
+      constructor: {
+        value: Wrapper,
+        enumerable: false,
+        writable: true,
+        configurable: true } });
+
+
+    return _setPrototypeOf(Wrapper, Class);
+  };
+
+  return _wrapNativeSuper(Class);
+}
+
+/* eslint no-console:0 */
+var formatRegExp = /%[sdj%]/g;
+var warning = function warning() {}; // don't print warning message when in production env or node runtime
+
+if (typeof process !== 'undefined' && Object({"NODE_ENV":"development","VUE_APP_NAME":"food","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}) && "development" !== 'production' && typeof window !== 'undefined' && typeof document !== 'undefined') {
+  warning = function warning(type, errors) {
+    if (typeof console !== 'undefined' && console.warn && typeof ASYNC_VALIDATOR_NO_WARNING === 'undefined') {
+      if (errors.every(function (e) {
+        return typeof e === 'string';
+      })) {
+        console.warn(type, errors);
+      }
+    }
+  };
+}
+
+function convertFieldsError(errors) {
+  if (!errors || !errors.length) return null;
+  var fields = {};
+  errors.forEach(function (error) {
+    var field = error.field;
+    fields[field] = fields[field] || [];
+    fields[field].push(error);
+  });
+  return fields;
+}
+function format(template) {
+  for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    args[_key - 1] = arguments[_key];
+  }
+
+  var i = 0;
+  var len = args.length;
+
+  if (typeof template === 'function') {
+    return template.apply(null, args);
+  }
+
+  if (typeof template === 'string') {
+    var str = template.replace(formatRegExp, function (x) {
+      if (x === '%%') {
+        return '%';
+      }
+
+      if (i >= len) {
+        return x;
+      }
+
+      switch (x) {
+        case '%s':
+          return String(args[i++]);
+
+        case '%d':
+          return Number(args[i++]);
+
+        case '%j':
+          try {
+            return JSON.stringify(args[i++]);
+          } catch (_) {
+            return '[Circular]';
+          }
+
+          break;
+
+        default:
+          return x;}
+
+    });
+    return str;
+  }
+
+  return template;
+}
+
+function isNativeStringType(type) {
+  return type === 'string' || type === 'url' || type === 'hex' || type === 'email' || type === 'date' || type === 'pattern';
+}
+
+function isEmptyValue(value, type) {
+  if (value === undefined || value === null) {
+    return true;
+  }
+
+  if (type === 'array' && Array.isArray(value) && !value.length) {
+    return true;
+  }
+
+  if (isNativeStringType(type) && typeof value === 'string' && !value) {
+    return true;
+  }
+
+  return false;
+}
+
+function asyncParallelArray(arr, func, callback) {
+  var results = [];
+  var total = 0;
+  var arrLength = arr.length;
+
+  function count(errors) {
+    results.push.apply(results, errors || []);
+    total++;
+
+    if (total === arrLength) {
+      callback(results);
+    }
+  }
+
+  arr.forEach(function (a) {
+    func(a, count);
+  });
+}
+
+function asyncSerialArray(arr, func, callback) {
+  var index = 0;
+  var arrLength = arr.length;
+
+  function next(errors) {
+    if (errors && errors.length) {
+      callback(errors);
+      return;
+    }
+
+    var original = index;
+    index = index + 1;
+
+    if (original < arrLength) {
+      func(arr[original], next);
+    } else {
+      callback([]);
+    }
+  }
+
+  next([]);
+}
+
+function flattenObjArr(objArr) {
+  var ret = [];
+  Object.keys(objArr).forEach(function (k) {
+    ret.push.apply(ret, objArr[k] || []);
+  });
+  return ret;
+}
+
+var AsyncValidationError = /*#__PURE__*/function (_Error) {
+  _inheritsLoose(AsyncValidationError, _Error);
+
+  function AsyncValidationError(errors, fields) {
+    var _this;
+
+    _this = _Error.call(this, 'Async Validation Error') || this;
+    _this.errors = errors;
+    _this.fields = fields;
+    return _this;
+  }
+
+  return AsyncValidationError;
+}( /*#__PURE__*/_wrapNativeSuper(Error));
+function asyncMap(objArr, option, func, callback, source) {
+  if (option.first) {
+    var _pending = new Promise(function (resolve, reject) {
+      var next = function next(errors) {
+        callback(errors);
+        return errors.length ? reject(new AsyncValidationError(errors, convertFieldsError(errors))) : resolve(source);
+      };
+
+      var flattenArr = flattenObjArr(objArr);
+      asyncSerialArray(flattenArr, func, next);
+    });
+
+    _pending["catch"](function (e) {
+      return e;
+    });
+
+    return _pending;
+  }
+
+  var firstFields = option.firstFields === true ? Object.keys(objArr) : option.firstFields || [];
+  var objArrKeys = Object.keys(objArr);
+  var objArrLength = objArrKeys.length;
+  var total = 0;
+  var results = [];
+  var pending = new Promise(function (resolve, reject) {
+    var next = function next(errors) {
+      results.push.apply(results, errors);
+      total++;
+
+      if (total === objArrLength) {
+        callback(results);
+        return results.length ? reject(new AsyncValidationError(results, convertFieldsError(results))) : resolve(source);
+      }
+    };
+
+    if (!objArrKeys.length) {
+      callback(results);
+      resolve(source);
+    }
+
+    objArrKeys.forEach(function (key) {
+      var arr = objArr[key];
+
+      if (firstFields.indexOf(key) !== -1) {
+        asyncSerialArray(arr, func, next);
+      } else {
+        asyncParallelArray(arr, func, next);
+      }
+    });
+  });
+  pending["catch"](function (e) {
+    return e;
+  });
+  return pending;
+}
+
+function isErrorObj(obj) {
+  return !!(obj && obj.message !== undefined);
+}
+
+function getValue(value, path) {
+  var v = value;
+
+  for (var i = 0; i < path.length; i++) {
+    if (v == undefined) {
+      return v;
+    }
+
+    v = v[path[i]];
+  }
+
+  return v;
+}
+
+function complementError(rule, source) {
+  return function (oe) {
+    var fieldValue;
+
+    if (rule.fullFields) {
+      fieldValue = getValue(source, rule.fullFields);
+    } else {
+      fieldValue = source[oe.field || rule.fullField];
+    }
+
+    if (isErrorObj(oe)) {
+      oe.field = oe.field || rule.fullField;
+      oe.fieldValue = fieldValue;
+      return oe;
+    }
+
+    return {
+      message: typeof oe === 'function' ? oe() : oe,
+      fieldValue: fieldValue,
+      field: oe.field || rule.fullField };
+
+  };
+}
+function deepMerge(target, source) {
+  if (source) {
+    for (var s in source) {
+      if (source.hasOwnProperty(s)) {
+        var value = source[s];
+
+        if (typeof value === 'object' && typeof target[s] === 'object') {
+          target[s] = _extends({}, target[s], value);
+        } else {
+          target[s] = value;
+        }
+      }
+    }
+  }
+
+  return target;
+}
+
+var required$1 = function required(rule, value, source, errors, options, type) {
+  if (rule.required && (!source.hasOwnProperty(rule.field) || isEmptyValue(value, type || rule.type))) {
+    errors.push(format(options.messages.required, rule.fullField));
+  }
+};
+
+/**
+    *  Rule for validating whitespace.
+    *
+    *  @param rule The validation rule.
+    *  @param value The value of the field on the source object.
+    *  @param source The source object being validated.
+    *  @param errors An array of errors that this rule may add
+    *  validation errors to.
+    *  @param options The validation options.
+    *  @param options.messages The validation messages.
+    */
+
+var whitespace = function whitespace(rule, value, source, errors, options) {
+  if (/^\s+$/.test(value) || value === '') {
+    errors.push(format(options.messages.whitespace, rule.fullField));
+  }
+};
+
+/* eslint max-len:0 */
+
+var pattern$2 = {
+  // http://emailregex.com/
+  email: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+\.)+[a-zA-Z\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]{2,}))$/,
+  url: new RegExp("^(?!mailto:)(?:(?:http|https|ftp)://|//)(?:\\S+(?::\\S*)?@)?(?:(?:(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}(?:\\.(?:[0-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))|(?:(?:[a-z\\u00a1-\\uffff0-9]+-*)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]+-*)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.(?:[a-z\\u00a1-\\uffff]{2,})))|localhost)(?::\\d{2,5})?(?:(/|\\?|#)[^\\s]*)?$", 'i'),
+  hex: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/i };
+
+var types = {
+  integer: function integer(value) {
+    return types.number(value) && parseInt(value, 10) === value;
+  },
+  "float": function float(value) {
+    return types.number(value) && !types.integer(value);
+  },
+  array: function array(value) {
+    return Array.isArray(value);
+  },
+  regexp: function regexp(value) {
+    if (value instanceof RegExp) {
+      return true;
+    }
+
+    try {
+      return !!new RegExp(value);
+    } catch (e) {
+      return false;
+    }
+  },
+  date: function date(value) {
+    return typeof value.getTime === 'function' && typeof value.getMonth === 'function' && typeof value.getYear === 'function' && !isNaN(value.getTime());
+  },
+  number: function number(value) {
+    if (isNaN(value)) {
+      return false;
+    }
+
+    return typeof value === 'number';
+  },
+  object: function object(value) {
+    return typeof value === 'object' && !types.array(value);
+  },
+  method: function method(value) {
+    return typeof value === 'function';
+  },
+  email: function email(value) {
+    return typeof value === 'string' && value.length <= 320 && !!value.match(pattern$2.email);
+  },
+  url: function url(value) {
+    return typeof value === 'string' && value.length <= 2048 && !!value.match(pattern$2.url);
+  },
+  hex: function hex(value) {
+    return typeof value === 'string' && !!value.match(pattern$2.hex);
+  } };
+
+
+var type$1 = function type(rule, value, source, errors, options) {
+  if (rule.required && value === undefined) {
+    required$1(rule, value, source, errors, options);
+    return;
+  }
+
+  var custom = ['integer', 'float', 'array', 'regexp', 'object', 'method', 'email', 'number', 'date', 'url', 'hex'];
+  var ruleType = rule.type;
+
+  if (custom.indexOf(ruleType) > -1) {
+    if (!types[ruleType](value)) {
+      errors.push(format(options.messages.types[ruleType], rule.fullField, rule.type));
+    } // straight typeof check
+
+  } else if (ruleType && typeof value !== rule.type) {
+    errors.push(format(options.messages.types[ruleType], rule.fullField, rule.type));
+  }
+};
+
+var range = function range(rule, value, source, errors, options) {
+  var len = typeof rule.len === 'number';
+  var min = typeof rule.min === 'number';
+  var max = typeof rule.max === 'number'; // 正则匹配码点范围从U+010000一直到U+10FFFF的文字（补充平面Supplementary Plane）
+
+  var spRegexp = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g;
+  var val = value;
+  var key = null;
+  var num = typeof value === 'number';
+  var str = typeof value === 'string';
+  var arr = Array.isArray(value);
+
+  if (num) {
+    key = 'number';
+  } else if (str) {
+    key = 'string';
+  } else if (arr) {
+    key = 'array';
+  } // if the value is not of a supported type for range validation
+  // the validation rule rule should use the
+  // type property to also test for a particular type
+
+
+  if (!key) {
+    return false;
+  }
+
+  if (arr) {
+    val = value.length;
+  }
+
+  if (str) {
+    // 处理码点大于U+010000的文字length属性不准确的bug，如"𠮷𠮷𠮷".lenght !== 3
+    val = value.replace(spRegexp, '_').length;
+  }
+
+  if (len) {
+    if (val !== rule.len) {
+      errors.push(format(options.messages[key].len, rule.fullField, rule.len));
+    }
+  } else if (min && !max && val < rule.min) {
+    errors.push(format(options.messages[key].min, rule.fullField, rule.min));
+  } else if (max && !min && val > rule.max) {
+    errors.push(format(options.messages[key].max, rule.fullField, rule.max));
+  } else if (min && max && (val < rule.min || val > rule.max)) {
+    errors.push(format(options.messages[key].range, rule.fullField, rule.min, rule.max));
+  }
+};
+
+var ENUM$1 = 'enum';
+
+var enumerable$1 = function enumerable(rule, value, source, errors, options) {
+  rule[ENUM$1] = Array.isArray(rule[ENUM$1]) ? rule[ENUM$1] : [];
+
+  if (rule[ENUM$1].indexOf(value) === -1) {
+    errors.push(format(options.messages[ENUM$1], rule.fullField, rule[ENUM$1].join(', ')));
+  }
+};
+
+var pattern$1 = function pattern(rule, value, source, errors, options) {
+  if (rule.pattern) {
+    if (rule.pattern instanceof RegExp) {
+      // if a RegExp instance is passed, reset `lastIndex` in case its `global`
+      // flag is accidentally set to `true`, which in a validation scenario
+      // is not necessary and the result might be misleading
+      rule.pattern.lastIndex = 0;
+
+      if (!rule.pattern.test(value)) {
+        errors.push(format(options.messages.pattern.mismatch, rule.fullField, value, rule.pattern));
+      }
+    } else if (typeof rule.pattern === 'string') {
+      var _pattern = new RegExp(rule.pattern);
+
+      if (!_pattern.test(value)) {
+        errors.push(format(options.messages.pattern.mismatch, rule.fullField, value, rule.pattern));
+      }
+    }
+  }
+};
+
+var rules = {
+  required: required$1,
+  whitespace: whitespace,
+  type: type$1,
+  range: range,
+  "enum": enumerable$1,
+  pattern: pattern$1 };
+
+
+var string = function string(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, 'string') && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options, 'string');
+
+    if (!isEmptyValue(value, 'string')) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+      rules.pattern(rule, value, source, errors, options);
+
+      if (rule.whitespace === true) {
+        rules.whitespace(rule, value, source, errors, options);
+      }
+    }
+  }
+
+  callback(errors);
+};
+
+var method = function method(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var number = function number(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (value === '') {
+      value = undefined;
+    }
+
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var _boolean = function _boolean(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var regexp = function regexp(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (!isEmptyValue(value)) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var integer = function integer(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var floatFn = function floatFn(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var array = function array(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if ((value === undefined || value === null) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options, 'array');
+
+    if (value !== undefined && value !== null) {
+      rules.type(rule, value, source, errors, options);
+      rules.range(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var object = function object(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var ENUM = 'enum';
+
+var enumerable = function enumerable(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (value !== undefined) {
+      rules[ENUM](rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var pattern = function pattern(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, 'string') && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (!isEmptyValue(value, 'string')) {
+      rules.pattern(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var date = function date(rule, value, callback, source, options) {
+  // console.log('integer rule called %j', rule);
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field); // console.log('validate on %s value', value);
+
+  if (validate) {
+    if (isEmptyValue(value, 'date') && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+
+    if (!isEmptyValue(value, 'date')) {
+      var dateObject;
+
+      if (value instanceof Date) {
+        dateObject = value;
+      } else {
+        dateObject = new Date(value);
+      }
+
+      rules.type(rule, dateObject, source, errors, options);
+
+      if (dateObject) {
+        rules.range(rule, dateObject.getTime(), source, errors, options);
+      }
+    }
+  }
+
+  callback(errors);
+};
+
+var required = function required(rule, value, callback, source, options) {
+  var errors = [];
+  var type = Array.isArray(value) ? 'array' : typeof value;
+  rules.required(rule, value, source, errors, options, type);
+  callback(errors);
+};
+
+var type = function type(rule, value, callback, source, options) {
+  var ruleType = rule.type;
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value, ruleType) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options, ruleType);
+
+    if (!isEmptyValue(value, ruleType)) {
+      rules.type(rule, value, source, errors, options);
+    }
+  }
+
+  callback(errors);
+};
+
+var any = function any(rule, value, callback, source, options) {
+  var errors = [];
+  var validate = rule.required || !rule.required && source.hasOwnProperty(rule.field);
+
+  if (validate) {
+    if (isEmptyValue(value) && !rule.required) {
+      return callback();
+    }
+
+    rules.required(rule, value, source, errors, options);
+  }
+
+  callback(errors);
+};
+
+var validators = {
+  string: string,
+  method: method,
+  number: number,
+  "boolean": _boolean,
+  regexp: regexp,
+  integer: integer,
+  "float": floatFn,
+  array: array,
+  object: object,
+  "enum": enumerable,
+  pattern: pattern,
+  date: date,
+  url: type,
+  hex: type,
+  email: type,
+  required: required,
+  any: any };
+
+
+function newMessages() {
+  return {
+    "default": 'Validation error on field %s',
+    required: '%s is required',
+    "enum": '%s must be one of %s',
+    whitespace: '%s cannot be empty',
+    date: {
+      format: '%s date %s is invalid for format %s',
+      parse: '%s date could not be parsed, %s is invalid ',
+      invalid: '%s date %s is invalid' },
+
+    types: {
+      string: '%s is not a %s',
+      method: '%s is not a %s (function)',
+      array: '%s is not an %s',
+      object: '%s is not an %s',
+      number: '%s is not a %s',
+      date: '%s is not a %s',
+      "boolean": '%s is not a %s',
+      integer: '%s is not an %s',
+      "float": '%s is not a %s',
+      regexp: '%s is not a valid %s',
+      email: '%s is not a valid %s',
+      url: '%s is not a valid %s',
+      hex: '%s is not a valid %s' },
+
+    string: {
+      len: '%s must be exactly %s characters',
+      min: '%s must be at least %s characters',
+      max: '%s cannot be longer than %s characters',
+      range: '%s must be between %s and %s characters' },
+
+    number: {
+      len: '%s must equal %s',
+      min: '%s cannot be less than %s',
+      max: '%s cannot be greater than %s',
+      range: '%s must be between %s and %s' },
+
+    array: {
+      len: '%s must be exactly %s in length',
+      min: '%s cannot be less than %s in length',
+      max: '%s cannot be greater than %s in length',
+      range: '%s must be between %s and %s in length' },
+
+    pattern: {
+      mismatch: '%s value %s does not match pattern %s' },
+
+    clone: function clone() {
+      var cloned = JSON.parse(JSON.stringify(this));
+      cloned.clone = this.clone;
+      return cloned;
+    } };
+
+}
+var messages = newMessages();
+
+/**
+                               *  Encapsulates a validation schema.
+                               *
+                               *  @param descriptor An object declaring validation rules
+                               *  for this schema.
+                               */
+
+var Schema = /*#__PURE__*/function () {
+  // ========================= Static =========================
+  // ======================== Instance ========================
+  function Schema(descriptor) {
+    this.rules = null;
+    this._messages = messages;
+    this.define(descriptor);
+  }
+
+  var _proto = Schema.prototype;
+
+  _proto.define = function define(rules) {
+    var _this = this;
+
+    if (!rules) {
+      throw new Error('Cannot configure a schema with no rules');
+    }
+
+    if (typeof rules !== 'object' || Array.isArray(rules)) {
+      throw new Error('Rules must be an object');
+    }
+
+    this.rules = {};
+    Object.keys(rules).forEach(function (name) {
+      var item = rules[name];
+      _this.rules[name] = Array.isArray(item) ? item : [item];
+    });
+  };
+
+  _proto.messages = function messages(_messages) {
+    if (_messages) {
+      this._messages = deepMerge(newMessages(), _messages);
+    }
+
+    return this._messages;
+  };
+
+  _proto.validate = function validate(source_, o, oc) {
+    var _this2 = this;
+
+    if (o === void 0) {
+      o = {};
+    }
+
+    if (oc === void 0) {
+      oc = function oc() {};
+    }
+
+    var source = source_;
+    var options = o;
+    var callback = oc;
+
+    if (typeof options === 'function') {
+      callback = options;
+      options = {};
+    }
+
+    if (!this.rules || Object.keys(this.rules).length === 0) {
+      if (callback) {
+        callback(null, source);
+      }
+
+      return Promise.resolve(source);
+    }
+
+    function complete(results) {
+      var errors = [];
+      var fields = {};
+
+      function add(e) {
+        if (Array.isArray(e)) {
+          var _errors;
+
+          errors = (_errors = errors).concat.apply(_errors, e);
+        } else {
+          errors.push(e);
+        }
+      }
+
+      for (var i = 0; i < results.length; i++) {
+        add(results[i]);
+      }
+
+      if (!errors.length) {
+        callback(null, source);
+      } else {
+        fields = convertFieldsError(errors);
+        callback(errors, fields);
+      }
+    }
+
+    if (options.messages) {
+      var messages$1 = this.messages();
+
+      if (messages$1 === messages) {
+        messages$1 = newMessages();
+      }
+
+      deepMerge(messages$1, options.messages);
+      options.messages = messages$1;
+    } else {
+      options.messages = this.messages();
+    }
+
+    var series = {};
+    var keys = options.keys || Object.keys(this.rules);
+    keys.forEach(function (z) {
+      var arr = _this2.rules[z];
+      var value = source[z];
+      arr.forEach(function (r) {
+        var rule = r;
+
+        if (typeof rule.transform === 'function') {
+          if (source === source_) {
+            source = _extends({}, source);
+          }
+
+          value = source[z] = rule.transform(value);
+        }
+
+        if (typeof rule === 'function') {
+          rule = {
+            validator: rule };
+
+        } else {
+          rule = _extends({}, rule);
+        } // Fill validator. Skip if nothing need to validate
+
+
+        rule.validator = _this2.getValidationMethod(rule);
+
+        if (!rule.validator) {
+          return;
+        }
+
+        rule.field = z;
+        rule.fullField = rule.fullField || z;
+        rule.type = _this2.getType(rule);
+        series[z] = series[z] || [];
+        series[z].push({
+          rule: rule,
+          value: value,
+          source: source,
+          field: z });
+
+      });
+    });
+    var errorFields = {};
+    return asyncMap(series, options, function (data, doIt) {
+      var rule = data.rule;
+      var deep = (rule.type === 'object' || rule.type === 'array') && (typeof rule.fields === 'object' || typeof rule.defaultField === 'object');
+      deep = deep && (rule.required || !rule.required && data.value);
+      rule.field = data.field;
+
+      function addFullField(key, schema) {
+        return _extends({}, schema, {
+          fullField: rule.fullField + "." + key,
+          fullFields: rule.fullFields ? [].concat(rule.fullFields, [key]) : [key] });
+
+      }
+
+      function cb(e) {
+        if (e === void 0) {
+          e = [];
+        }
+
+        var errorList = Array.isArray(e) ? e : [e];
+
+        if (!options.suppressWarning && errorList.length) {
+          Schema.warning('async-validator:', errorList);
+        }
+
+        if (errorList.length && rule.message !== undefined) {
+          errorList = [].concat(rule.message);
+        } // Fill error info
+
+
+        var filledErrors = errorList.map(complementError(rule, source));
+
+        if (options.first && filledErrors.length) {
+          errorFields[rule.field] = 1;
+          return doIt(filledErrors);
+        }
+
+        if (!deep) {
+          doIt(filledErrors);
+        } else {
+          // if rule is required but the target object
+          // does not exist fail at the rule level and don't
+          // go deeper
+          if (rule.required && !data.value) {
+            if (rule.message !== undefined) {
+              filledErrors = [].concat(rule.message).map(complementError(rule, source));
+            } else if (options.error) {
+              filledErrors = [options.error(rule, format(options.messages.required, rule.field))];
+            }
+
+            return doIt(filledErrors);
+          }
+
+          var fieldsSchema = {};
+
+          if (rule.defaultField) {
+            Object.keys(data.value).map(function (key) {
+              fieldsSchema[key] = rule.defaultField;
+            });
+          }
+
+          fieldsSchema = _extends({}, fieldsSchema, data.rule.fields);
+          var paredFieldsSchema = {};
+          Object.keys(fieldsSchema).forEach(function (field) {
+            var fieldSchema = fieldsSchema[field];
+            var fieldSchemaList = Array.isArray(fieldSchema) ? fieldSchema : [fieldSchema];
+            paredFieldsSchema[field] = fieldSchemaList.map(addFullField.bind(null, field));
+          });
+          var schema = new Schema(paredFieldsSchema);
+          schema.messages(options.messages);
+
+          if (data.rule.options) {
+            data.rule.options.messages = options.messages;
+            data.rule.options.error = options.error;
+          }
+
+          schema.validate(data.value, data.rule.options || options, function (errs) {
+            var finalErrors = [];
+
+            if (filledErrors && filledErrors.length) {
+              finalErrors.push.apply(finalErrors, filledErrors);
+            }
+
+            if (errs && errs.length) {
+              finalErrors.push.apply(finalErrors, errs);
+            }
+
+            doIt(finalErrors.length ? finalErrors : null);
+          });
+        }
+      }
+
+      var res;
+
+      if (rule.asyncValidator) {
+        res = rule.asyncValidator(rule, data.value, cb, data.source, options);
+      } else if (rule.validator) {
+        res = rule.validator(rule, data.value, cb, data.source, options);
+
+        if (res === true) {
+          cb();
+        } else if (res === false) {
+          cb(typeof rule.message === 'function' ? rule.message(rule.fullField || rule.field) : rule.message || (rule.fullField || rule.field) + " fails");
+        } else if (res instanceof Array) {
+          cb(res);
+        } else if (res instanceof Error) {
+          cb(res.message);
+        }
+      }
+
+      if (res && res.then) {
+        res.then(function () {
+          return cb();
+        }, function (e) {
+          return cb(e);
+        });
+      }
+    }, function (results) {
+      complete(results);
+    }, source);
+  };
+
+  _proto.getType = function getType(rule) {
+    if (rule.type === undefined && rule.pattern instanceof RegExp) {
+      rule.type = 'pattern';
+    }
+
+    if (typeof rule.validator !== 'function' && rule.type && !validators.hasOwnProperty(rule.type)) {
+      throw new Error(format('Unknown rule type %s', rule.type));
+    }
+
+    return rule.type || 'string';
+  };
+
+  _proto.getValidationMethod = function getValidationMethod(rule) {
+    if (typeof rule.validator === 'function') {
+      return rule.validator;
+    }
+
+    var keys = Object.keys(rule);
+    var messageIndex = keys.indexOf('message');
+
+    if (messageIndex !== -1) {
+      keys.splice(messageIndex, 1);
+    }
+
+    if (keys.length === 1 && keys[0] === 'required') {
+      return validators.required;
+    }
+
+    return validators[this.getType(rule)] || undefined;
+  };
+
+  return Schema;
+}();exports.default = Schema;
+
+Schema.register = function register(type, validator) {
+  if (typeof validator !== 'function') {
+    throw new Error('Cannot register a validator by type, validator is not a function');
+  }
+
+  validators[type] = validator;
+};
+
+Schema.warning = warning;
+Schema.messages = messages;
+Schema.validators = validators;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../HBuilderX.2.9.8.20201110.full/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 52)))
+
+/***/ }),
+/* 151 */,
+/* 152 */,
+/* 153 */,
+/* 154 */,
+/* 155 */,
+/* 156 */,
+/* 157 */,
+/* 158 */,
+/* 159 */,
+/* 160 */,
+/* 161 */,
+/* 162 */,
+/* 163 */,
+/* 164 */,
+/* 165 */,
+/* 166 */,
+/* 167 */,
+/* 168 */,
+/* 169 */,
+/* 170 */,
+/* 171 */,
+/* 172 */,
+/* 173 */,
+/* 174 */,
+/* 175 */,
+/* 176 */,
+/* 177 */,
+/* 178 */,
+/* 179 */,
+/* 180 */,
+/* 181 */,
+/* 182 */,
+/* 183 */,
+/* 184 */,
+/* 185 */,
+/* 186 */,
+/* 187 */,
+/* 188 */,
+/* 189 */
+/*!*************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/util/request/upload.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.getUploadToken = getUploadToken;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 20));
+
+var _api = __webpack_require__(/*! ../api.js */ 87);
+var _request = _interopRequireDefault(__webpack_require__(/*! ./request.js */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var qiniu = __webpack_require__(/*! qiniu-js */ 190);
+
+// 获取上传 token
+function getUploadToken() {return _getUploadToken.apply(this, arguments);}
+
+
+
+
+
+// 执行上传
+function _getUploadToken() {_getUploadToken = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var _yield$axios$get, res, token;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return _request.default.get(_api.photoTokenUrl);case 2:_yield$axios$get = _context.sent;res = _yield$axios$get.data;token = res.data.uptoken;return _context.abrupt("return", token);case 6:case "end":return _context.stop();}}}, _callee);}));return _getUploadToken.apply(this, arguments);}function upLoadPhoto(_x, _x2, _x3) {return _upLoadPhoto.apply(this, arguments);}function _upLoadPhoto() {_upLoadPhoto = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2(img, token, key) {var options, observer, observable;return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:
+
+            options = {
+              quality: 0.80,
+              noCompressIfLarger: true };
+
+
+            observer = {
+              error: function error(err) {
+
+              },
+              complete: function complete(res) {
+
+              } };_context2.next = 4;return (
+
+
+              qiniu.compressImage(img, options));case 4:data = _context2.sent;
+            observable = qiniu.upload(data.dist, key, token);case 6:case "end":return _context2.stop();}}}, _callee2);}));return _upLoadPhoto.apply(this, arguments);}
+
+/***/ }),
+/* 190 */
+/*!*************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/index.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });Object.defineProperty(exports, "QiniuErrorName", { enumerable: true, get: function get() {return _errors.QiniuErrorName;} });Object.defineProperty(exports, "QiniuError", { enumerable: true, get: function get() {return _errors.QiniuError;} });Object.defineProperty(exports, "QiniuRequestError", { enumerable: true, get: function get() {return _errors.QiniuRequestError;} });Object.defineProperty(exports, "QiniuNetworkError", { enumerable: true, get: function get() {return _errors.QiniuNetworkError;} });Object.defineProperty(exports, "imageMogr2", { enumerable: true, get: function get() {return _image.imageMogr2;} });Object.defineProperty(exports, "watermark", { enumerable: true, get: function get() {return _image.watermark;} });Object.defineProperty(exports, "imageInfo", { enumerable: true, get: function get() {return _image.imageInfo;} });Object.defineProperty(exports, "exif", { enumerable: true, get: function get() {return _image.exif;} });Object.defineProperty(exports, "pipeline", { enumerable: true, get: function get() {return _image.pipeline;} });Object.defineProperty(exports, "deleteUploadedChunks", { enumerable: true, get: function get() {return _api.deleteUploadedChunks;} });Object.defineProperty(exports, "getUploadUrl", { enumerable: true, get: function get() {return _api.getUploadUrl;} });Object.defineProperty(exports, "upload", { enumerable: true, get: function get() {return _upload.default;} });Object.defineProperty(exports, "region", { enumerable: true, get: function get() {return _config.region;} });Object.defineProperty(exports, "compressImage", { enumerable: true, get: function get() {return _utils.compressImage;} });Object.defineProperty(exports, "urlSafeBase64Encode", { enumerable: true, get: function get() {return _utils.urlSafeBase64Encode;} });Object.defineProperty(exports, "urlSafeBase64Decode", { enumerable: true, get: function get() {return _utils.urlSafeBase64Decode;} });Object.defineProperty(exports, "getHeadersForMkFile", { enumerable: true, get: function get() {return _utils.getHeadersForMkFile;} });Object.defineProperty(exports, "getHeadersForChunkUpload", { enumerable: true, get: function get() {return _utils.getHeadersForChunkUpload;} });var _errors = __webpack_require__(/*! ./errors */ 191);
+var _image = __webpack_require__(/*! ./image */ 192);
+var _api = __webpack_require__(/*! ./api */ 204);
+var _upload = _interopRequireDefault(__webpack_require__(/*! ./upload */ 202));
+var _config = __webpack_require__(/*! ./config */ 200);
+var _utils = __webpack_require__(/*! ./utils */ 193);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+/***/ }),
+/* 191 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/errors/index.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.QiniuNetworkError = exports.QiniuRequestError = exports.QiniuError = exports.QiniuErrorName = void 0;var __extends = void 0 && (void 0).__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf ||
+    { __proto__: [] } instanceof Array && function (d, b) {d.__proto__ = b;} ||
+    function (d, b) {for (var p in b) {if (b.hasOwnProperty(p)) d[p] = b[p];}};
+    return _extendStatics(d, b);
+  };
+  return function (d, b) {
+    _extendStatics(d, b);
+    function __() {this.constructor = d;}
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+var QiniuErrorName;exports.QiniuErrorName = QiniuErrorName;
+(function (QiniuErrorName) {
+  // 输入错误
+  QiniuErrorName["InvalidFile"] = "InvalidFile";
+  QiniuErrorName["InvalidToken"] = "InvalidToken";
+  QiniuErrorName["InvalidMetadata"] = "InvalidMetadata";
+  QiniuErrorName["InvalidChunkSize"] = "InvalidChunkSize";
+  QiniuErrorName["InvalidCustomVars"] = "InvalidCustomVars";
+  QiniuErrorName["NotAvailableUploadHost"] = "NotAvailableUploadHost";
+  // 缓存相关
+  QiniuErrorName["ReadCacheFailed"] = "ReadCacheFailed";
+  QiniuErrorName["InvalidCacheData"] = "InvalidCacheData";
+  QiniuErrorName["WriteCacheFailed"] = "WriteCacheFailed";
+  QiniuErrorName["RemoveCacheFailed"] = "RemoveCacheFailed";
+  // 图片压缩模块相关
+  QiniuErrorName["GetCanvasContextFailed"] = "GetCanvasContextFailed";
+  QiniuErrorName["UnsupportedFileType"] = "UnsupportedFileType";
+  // 运行环境相关
+  QiniuErrorName["FileReaderReadFailed"] = "FileReaderReadFailed";
+  QiniuErrorName["NotAvailableXMLHttpRequest"] = "NotAvailableXMLHttpRequest";
+  QiniuErrorName["InvalidProgressEventTarget"] = "InvalidProgressEventTarget";
+  // 请求错误
+  QiniuErrorName["RequestError"] = "RequestError";
+})(QiniuErrorName || (exports.QiniuErrorName = QiniuErrorName = {}));
+var QiniuError = /** @class */function () {
+  function QiniuError(name, message) {
+    this.name = name;
+    this.message = message;
+    this.stack = new Error().stack;
+  }
+  return QiniuError;
+}();exports.QiniuError = QiniuError;
+
+var QiniuRequestError = /** @class */function (_super) {
+  __extends(QiniuRequestError, _super);
+  function QiniuRequestError(code, reqId, message, data) {
+    var _this = _super.call(this, QiniuErrorName.RequestError, message) || this;
+    _this.code = code;
+    _this.reqId = reqId;
+    /**
+                          * @description 标记当前的 error 类型是一个 QiniuRequestError
+                          * @deprecated 下一个大版本将会移除，不推荐使用，推荐直接使用 instanceof 进行判断
+                          */
+    _this.isRequestError = true;
+    _this.data = data;
+    return _this;
+  }
+  return QiniuRequestError;
+}(QiniuError);exports.QiniuRequestError = QiniuRequestError;
+
+/**
+                                                              * @description 由于跨域、证书错误、断网、host 解析失败、系统拦截等原因导致的错误
+                                                              */
+var QiniuNetworkError = /** @class */function (_super) {
+  __extends(QiniuNetworkError, _super);
+  function QiniuNetworkError(message, reqId) {
+    if (reqId === void 0) {reqId = '';}
+    return _super.call(this, 0, reqId, message) || this;
+  }
+  return QiniuNetworkError;
+}(QiniuRequestError);exports.QiniuNetworkError = QiniuNetworkError;
+
+/***/ }),
+/* 192 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/image/index.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.imageView2 = imageView2;exports.imageMogr2 = imageMogr2;exports.watermark = watermark;exports.imageInfo = imageInfo;exports.exif = exif;exports.pipeline = pipeline;var _utils = __webpack_require__(/*! ../utils */ 193);
+function getImageUrl(key, domain) {
+  key = encodeURIComponent(key);
+  if (domain.slice(domain.length - 1) !== '/') {
+    domain += '/';
+  }
+  return domain + key;
+}
+function imageView2(op, key, domain) {
+  if (!/^\d$/.test(String(op.mode))) {
+    throw 'mode should be number in imageView2';
+  }
+  var mode = op.mode,w = op.w,h = op.h,q = op.q,format = op.format;
+  if (!w && !h) {
+    throw 'param w and h is empty in imageView2';
+  }
+  var imageUrl = 'imageView2/' + encodeURIComponent(mode);
+  imageUrl += w ? '/w/' + encodeURIComponent(w) : '';
+  imageUrl += h ? '/h/' + encodeURIComponent(h) : '';
+  imageUrl += q ? '/q/' + encodeURIComponent(q) : '';
+  imageUrl += format ? '/format/' + encodeURIComponent(format) : '';
+  if (key && domain) {
+    imageUrl = getImageUrl(key, domain) + '?' + imageUrl;
+  }
+  return imageUrl;
+}
+// invoke the imageMogr2 api of Qiniu
+function imageMogr2(op, key, domain) {
+  var autoOrient = op['auto-orient'];
+  var thumbnail = op.thumbnail,strip = op.strip,gravity = op.gravity,crop = op.crop,quality = op.quality,rotate = op.rotate,format = op.format,blur = op.blur;
+  var imageUrl = 'imageMogr2';
+  imageUrl += autoOrient ? '/auto-orient' : '';
+  imageUrl += thumbnail ? '/thumbnail/' + encodeURIComponent(thumbnail) : '';
+  imageUrl += strip ? '/strip' : '';
+  imageUrl += gravity ? '/gravity/' + encodeURIComponent(gravity) : '';
+  imageUrl += quality ? '/quality/' + encodeURIComponent(quality) : '';
+  imageUrl += crop ? '/crop/' + encodeURIComponent(crop) : '';
+  imageUrl += rotate ? '/rotate/' + encodeURIComponent(rotate) : '';
+  imageUrl += format ? '/format/' + encodeURIComponent(format) : '';
+  imageUrl += blur ? '/blur/' + encodeURIComponent(blur) : '';
+  if (key && domain) {
+    imageUrl = getImageUrl(key, domain) + '?' + imageUrl;
+  }
+  return imageUrl;
+}
+// invoke the watermark api of Qiniu
+function watermark(op, key, domain) {
+  var mode = op.mode;
+  if (!mode) {
+    throw "mode can't be empty in watermark";
+  }
+  var imageUrl = 'watermark/' + mode;
+  if (mode !== 1 && mode !== 2) {
+    throw 'mode is wrong';
+  }
+  if (mode === 1) {
+    var image = op.image;
+    if (!image) {
+      throw "image can't be empty in watermark";
+    }
+    imageUrl += image ? '/image/' + (0, _utils.urlSafeBase64Encode)(image) : '';
+  }
+  if (mode === 2) {
+    var text = op.text,font = op.font,fontsize = op.fontsize,fill = op.fill;
+    if (!text) {
+      throw "text can't be empty in watermark";
+    }
+    imageUrl += text ? '/text/' + (0, _utils.urlSafeBase64Encode)(text) : '';
+    imageUrl += font ? '/font/' + (0, _utils.urlSafeBase64Encode)(font) : '';
+    imageUrl += fontsize ? '/fontsize/' + fontsize : '';
+    imageUrl += fill ? '/fill/' + (0, _utils.urlSafeBase64Encode)(fill) : '';
+  }
+  var dissolve = op.dissolve,gravity = op.gravity,dx = op.dx,dy = op.dy;
+  imageUrl += dissolve ? '/dissolve/' + encodeURIComponent(dissolve) : '';
+  imageUrl += gravity ? '/gravity/' + encodeURIComponent(gravity) : '';
+  imageUrl += dx ? '/dx/' + encodeURIComponent(dx) : '';
+  imageUrl += dy ? '/dy/' + encodeURIComponent(dy) : '';
+  if (key && domain) {
+    imageUrl = getImageUrl(key, domain) + '?' + imageUrl;
+  }
+  return imageUrl;
+}
+// invoke the imageInfo api of Qiniu
+function imageInfo(key, domain) {
+  var url = getImageUrl(key, domain) + '?imageInfo';
+  return (0, _utils.request)(url, { method: 'GET' });
+}
+// invoke the exif api of Qiniu
+function exif(key, domain) {
+  var url = getImageUrl(key, domain) + '?exif';
+  return (0, _utils.request)(url, { method: 'GET' });
+}
+function pipeline(arr, key, domain) {
+  var isArray = Object.prototype.toString.call(arr) === '[object Array]';
+  var option;
+  var errOp = false;
+  var imageUrl = '';
+  if (isArray) {
+    for (var i = 0, len = arr.length; i < len; i++) {
+      option = arr[i];
+      if (!option.fop) {
+        throw "fop can't be empty in pipeline";
+      }
+      switch (option.fop) {
+        case 'watermark':
+          imageUrl += watermark(option) + '|';
+          break;
+        case 'imageView2':
+          imageUrl += imageView2(option) + '|';
+          break;
+        case 'imageMogr2':
+          imageUrl += imageMogr2(option) + '|';
+          break;
+        default:
+          errOp = true;
+          break;}
+
+      if (errOp) {
+        throw 'fop is wrong in pipeline';
+      }
+    }
+    if (key && domain) {
+      imageUrl = getImageUrl(key, domain) + '?' + imageUrl;
+      var length_1 = imageUrl.length;
+      if (imageUrl.slice(length_1 - 1) === '|') {
+        imageUrl = imageUrl.slice(0, length_1 - 1);
+      }
+    }
+    return imageUrl;
+  }
+  throw "pipeline's first param should be array";
+}
+
+/***/ }),
+/* 193 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/index.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });var _exportNames = { compressImage: true };Object.defineProperty(exports, "compressImage", { enumerable: true, get: function get() {return _compress.default;} });var _pool = __webpack_require__(/*! ./pool */ 194);Object.keys(_pool).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _pool[key];} });});
+var _observable = __webpack_require__(/*! ./observable */ 195);Object.keys(_observable).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _observable[key];} });});
+var _base = __webpack_require__(/*! ./base64 */ 196);Object.keys(_base).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _base[key];} });});
+var _helper = __webpack_require__(/*! ./helper */ 197);Object.keys(_helper).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _helper[key];} });});
+var _config = __webpack_require__(/*! ./config */ 199);Object.keys(_config).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _config[key];} });});
+var _compress = _interopRequireDefault(__webpack_require__(/*! ./compress */ 214));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+/***/ }),
+/* 194 */
+/*!******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/pool.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.Pool = void 0;var Pool = /** @class */function () {
+  function Pool(runTask, limit) {
+    this.runTask = runTask;
+    this.limit = limit;
+    this.queue = [];
+    this.processing = [];
+  }
+  Pool.prototype.enqueue = function (task) {
+    var _this = this;
+    return new Promise(function (resolve, reject) {
+      _this.queue.push({
+        task: task,
+        resolve: resolve,
+        reject: reject });
+
+      _this.check();
+    });
+  };
+  Pool.prototype.run = function (item) {
+    var _this = this;
+    this.queue = this.queue.filter(function (v) {return v !== item;});
+    this.processing.push(item);
+    this.runTask(item.task).then(function () {
+      _this.processing = _this.processing.filter(function (v) {return v !== item;});
+      item.resolve();
+      _this.check();
+    }, function (err) {return item.reject(err);});
+  };
+  Pool.prototype.check = function () {
+    var _this = this;
+    var processingNum = this.processing.length;
+    var availableNum = this.limit - processingNum;
+    this.queue.slice(0, availableNum).forEach(function (item) {
+      _this.run(item);
+    });
+  };
+  return Pool;
+}();exports.Pool = Pool;
+
+/***/ }),
+/* 195 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/observable.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.Observable = exports.Subscriber = void 0;var __extends = void 0 && (void 0).__extends || function () {
+  var _extendStatics = function extendStatics(d, b) {
+    _extendStatics = Object.setPrototypeOf ||
+    { __proto__: [] } instanceof Array && function (d, b) {d.__proto__ = b;} ||
+    function (d, b) {for (var p in b) {if (b.hasOwnProperty(p)) d[p] = b[p];}};
+    return _extendStatics(d, b);
+  };
+  return function (d, b) {
+    _extendStatics(d, b);
+    function __() {this.constructor = d;}
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+  };
+}();
+var __assign = void 0 && (void 0).__assign || function () {
+  __assign = Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+      s = arguments[i];
+      for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p))
+        t[p] = s[p];}
+    }
+    return t;
+  };
+  return __assign.apply(this, arguments);
+};
+/** 表示可清理的资源，比如 Observable 的执行 */
+var Subscription = /** @class */function () {
+  function Subscription() {
+    /** 用来标示该 Subscription 是否被取消订阅的标示位 */
+    this.closed = false;
+  }
+  /** 取消 observer 的订阅 */
+  Subscription.prototype.unsubscribe = function () {
+    if (this.closed) {
+      return;
+    }
+    this.closed = true;
+    if (this._unsubscribe) {
+      this._unsubscribe();
+    }
+  };
+  /** 添加一个 tear down 在该 Subscription 的 unsubscribe() 期间调用 */
+  Subscription.prototype.add = function (teardown) {
+    this._unsubscribe = teardown;
+  };
+  return Subscription;
+}();
+/**
+      * 实现 Observer 接口并且继承 Subscription 类，Observer 是消费 Observable 值的公有 API
+      * 所有 Observers 都转化成了 Subscriber，以便提供类似 Subscription 的能力，比如 unsubscribe
+     */
+var Subscriber = /** @class */function (_super) {
+  __extends(Subscriber, _super);
+  function Subscriber(observerOrNext, error, complete) {
+    var _this = _super.call(this) || this;
+    _this.isStopped = false;
+    if (observerOrNext && typeof observerOrNext === 'object') {
+      _this.destination = observerOrNext;
+    } else
+    {
+      _this.destination = __assign(__assign(__assign({}, observerOrNext && { next: observerOrNext }), error && { error: error }), complete && { complete: complete });
+    }
+    return _this;
+  }
+  Subscriber.prototype.unsubscribe = function () {
+    if (this.closed) {
+      return;
+    }
+    this.isStopped = true;
+    _super.prototype.unsubscribe.call(this);
+  };
+  Subscriber.prototype.next = function (value) {
+    if (!this.isStopped && this.destination.next) {
+      this.destination.next(value);
+    }
+  };
+  Subscriber.prototype.error = function (err) {
+    if (!this.isStopped && this.destination.error) {
+      this.isStopped = true;
+      this.destination.error(err);
+    }
+  };
+  Subscriber.prototype.complete = function (result) {
+    if (!this.isStopped && this.destination.complete) {
+      this.isStopped = true;
+      this.destination.complete(result);
+    }
+  };
+  return Subscriber;
+}(Subscription);exports.Subscriber = Subscriber;
+
+/** 可观察对象，当前的上传事件的集合 */
+var Observable = /** @class */function () {
+  function Observable(_subscribe) {
+    this._subscribe = _subscribe;
+  }
+  Observable.prototype.subscribe = function (observerOrNext, error, complete) {
+    var sink = new Subscriber(observerOrNext, error, complete);
+    sink.add(this._subscribe(sink));
+    return sink;
+  };
+  return Observable;
+}();exports.Observable = Observable;
+
+/***/ }),
+/* 196 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/base64.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.urlSafeBase64Encode = urlSafeBase64Encode;exports.urlSafeBase64Decode = urlSafeBase64Decode; /* eslint-disable */
+// https://github.com/locutusjs/locutus/blob/master/src/php/xml/utf8_encode.js
+function utf8Encode(argString) {
+  // http://kevin.vanzonneveld.net
+  // +   original by: Webtoolkit.info (http://www.webtoolkit.info/)
+  // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // +   improved by: sowberry
+  // +    tweaked by: Jack
+  // +   bugfixed by: Onno Marsman
+  // +   improved by: Yves Sucaet
+  // +   bugfixed by: Onno Marsman
+  // +   bugfixed by: Ulrich
+  // +   bugfixed by: Rafal Kukawski
+  // +   improved by: kirilloid
+  // +   bugfixed by: kirilloid
+  // *     example 1: this.utf8Encode('Kevin van Zonneveld')
+  // *     returns 1: 'Kevin van Zonneveld'
+  if (argString === null || typeof argString === 'undefined') {
+    return '';
+  }
+  var string = argString + ''; // .replace(/\r\n/g, '\n').replace(/\r/g, '\n')
+  var utftext = '',start,end,stringl = 0;
+  start = end = 0;
+  stringl = string.length;
+  for (var n = 0; n < stringl; n++) {
+    var c1 = string.charCodeAt(n);
+    var enc = null;
+    if (c1 < 128) {
+      end++;
+    } else
+    if (c1 > 127 && c1 < 2048) {
+      enc = String.fromCharCode(c1 >> 6 | 192, c1 & 63 | 128);
+    } else
+    if ((c1 & 0xf800 ^ 0xd800) > 0) {
+      enc = String.fromCharCode(c1 >> 12 | 224, c1 >> 6 & 63 | 128, c1 & 63 | 128);
+    } else
+    {
+      // surrogate pairs
+      if ((c1 & 0xfc00 ^ 0xd800) > 0) {
+        throw new RangeError('Unmatched trail surrogate at ' + n);
+      }
+      var c2 = string.charCodeAt(++n);
+      if ((c2 & 0xfc00 ^ 0xdc00) > 0) {
+        throw new RangeError('Unmatched lead surrogate at ' + (n - 1));
+      }
+      c1 = ((c1 & 0x3ff) << 10) + (c2 & 0x3ff) + 0x10000;
+      enc = String.fromCharCode(c1 >> 18 | 240, c1 >> 12 & 63 | 128, c1 >> 6 & 63 | 128, c1 & 63 | 128);
+    }
+    if (enc !== null) {
+      if (end > start) {
+        utftext += string.slice(start, end);
+      }
+      utftext += enc;
+      start = end = n + 1;
+    }
+  }
+  if (end > start) {
+    utftext += string.slice(start, stringl);
+  }
+  return utftext;
+}
+// https://github.com/locutusjs/locutus/blob/master/src/php/xml/utf8_decode.js
+function utf8Decode(strData) {
+  // eslint-disable-line camelcase
+  //  discuss at: https://locutus.io/php/utf8_decode/
+  // original by: Webtoolkit.info (https://www.webtoolkit.info/)
+  //    input by: Aman Gupta
+  //    input by: Brett Zamir (https://brett-zamir.me)
+  // improved by: Kevin van Zonneveld (https://kvz.io)
+  // improved by: Norman "zEh" Fuchs
+  // bugfixed by: hitwork
+  // bugfixed by: Onno Marsman (https://twitter.com/onnomarsman)
+  // bugfixed by: Kevin van Zonneveld (https://kvz.io)
+  // bugfixed by: kirilloid
+  // bugfixed by: w35l3y (https://www.wesley.eti.br)
+  //   example 1: utf8_decode('Kevin van Zonneveld')
+  //   returns 1: 'Kevin van Zonneveld'
+  var tmpArr = [];
+  var i = 0;
+  var c1 = 0;
+  var seqlen = 0;
+  strData += '';
+  while (i < strData.length) {
+    c1 = strData.charCodeAt(i) & 0xFF;
+    seqlen = 0;
+    // https://en.wikipedia.org/wiki/UTF-8#Codepage_layout
+    if (c1 <= 0xBF) {
+      c1 = c1 & 0x7F;
+      seqlen = 1;
+    } else
+    if (c1 <= 0xDF) {
+      c1 = c1 & 0x1F;
+      seqlen = 2;
+    } else
+    if (c1 <= 0xEF) {
+      c1 = c1 & 0x0F;
+      seqlen = 3;
+    } else
+    {
+      c1 = c1 & 0x07;
+      seqlen = 4;
+    }
+    for (var ai = 1; ai < seqlen; ++ai) {
+      c1 = c1 << 0x06 | strData.charCodeAt(ai + i) & 0x3F;
+    }
+    if (seqlen === 4) {
+      c1 -= 0x10000;
+      tmpArr.push(String.fromCharCode(0xD800 | c1 >> 10 & 0x3FF));
+      tmpArr.push(String.fromCharCode(0xDC00 | c1 & 0x3FF));
+    } else
+    {
+      tmpArr.push(String.fromCharCode(c1));
+    }
+    i += seqlen;
+  }
+  return tmpArr.join('');
+}
+function base64Encode(data) {
+  // http://kevin.vanzonneveld.net
+  // +   original by: Tyler Akins (http://rumkin.com)
+  // +   improved by: Bayron Guevara
+  // +   improved by: Thunder.m
+  // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // +   bugfixed by: Pellentesque Malesuada
+  // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // -    depends on: this.utf8Encode
+  // *     example 1: this.base64Encode('Kevin van Zonneveld')
+  // *     returns 1: 'S2V2aW4gdmFuIFpvbm5ldmVsZA=='
+  // mozilla has this native
+  // - but breaks in 2.0.0.12!
+  // if (typeof this.window['atob'] == 'function') {
+  //    return atob(data)
+  // }
+  var b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+  var o1,o2,o3,h1,h2,h3,h4,bits,i = 0,ac = 0,enc = '',tmp_arr = [];
+  if (!data) {
+    return data;
+  }
+  data = utf8Encode(data + '');
+  do {
+    // pack three octets into four hexets
+    o1 = data.charCodeAt(i++);
+    o2 = data.charCodeAt(i++);
+    o3 = data.charCodeAt(i++);
+    bits = o1 << 16 | o2 << 8 | o3;
+    h1 = bits >> 18 & 0x3f;
+    h2 = bits >> 12 & 0x3f;
+    h3 = bits >> 6 & 0x3f;
+    h4 = bits & 0x3f;
+    // use hexets to index into b64, and append result to encoded string
+    tmp_arr[ac++] =
+    b64.charAt(h1) + b64.charAt(h2) + b64.charAt(h3) + b64.charAt(h4);
+  } while (i < data.length);
+  enc = tmp_arr.join('');
+  switch (data.length % 3) {
+    case 1:
+      enc = enc.slice(0, -2) + '==';
+      break;
+    case 2:
+      enc = enc.slice(0, -1) + '=';
+      break;}
+
+  return enc;
+}
+function base64Decode(data) {
+  // http://kevin.vanzonneveld.net
+  // +   original by: Tyler Akins (http://rumkin.com)
+  // +   improved by: Thunder.m
+  // +      input by: Aman Gupta
+  // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // +   bugfixed by: Onno Marsman
+  // +   bugfixed by: Pellentesque Malesuada
+  // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // +      input by: Brett Zamir (http://brett-zamir.me)
+  // +   bugfixed by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
+  // *     example 1: base64_decode('S2V2aW4gdmFuIFpvbm5ldmVsZA==')
+  // *     returns 1: 'Kevin van Zonneveld'
+  // mozilla has this native
+  // - but breaks in 2.0.0.12!
+  // if (typeof this.window['atob'] == 'function') {
+  //    return atob(data)
+  // }
+  var b64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+  var o1,o2,o3,h1,h2,h3,h4,bits,i = 0,ac = 0,dec = '',tmp_arr = [];
+  if (!data) {
+    return data;
+  }
+  data += '';
+  do {// unpack four hexets into three octets using index points in b64
+    h1 = b64.indexOf(data.charAt(i++));
+    h2 = b64.indexOf(data.charAt(i++));
+    h3 = b64.indexOf(data.charAt(i++));
+    h4 = b64.indexOf(data.charAt(i++));
+    bits = h1 << 18 | h2 << 12 | h3 << 6 | h4;
+    o1 = bits >> 16 & 0xff;
+    o2 = bits >> 8 & 0xff;
+    o3 = bits & 0xff;
+    if (h3 === 64) {
+      tmp_arr[ac++] = String.fromCharCode(o1);
+    } else
+    if (h4 === 64) {
+      tmp_arr[ac++] = String.fromCharCode(o1, o2);
+    } else
+    {
+      tmp_arr[ac++] = String.fromCharCode(o1, o2, o3);
+    }
+  } while (i < data.length);
+  dec = tmp_arr.join('');
+  return utf8Decode(dec);
+}
+function urlSafeBase64Encode(v) {
+  v = base64Encode(v);
+  // 参考 https://tools.ietf.org/html/rfc4648#section-5
+  return v.replace(/\//g, '_').replace(/\+/g, '-');
+}
+function urlSafeBase64Decode(v) {
+  v = v.replace(/_/g, '/').replace(/-/g, '+');
+  return base64Decode(v);
+}
+
+/***/ }),
+/* 197 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/helper.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.getChunks = getChunks;exports.isMetaDataValid = isMetaDataValid;exports.isCustomVarsValid = isCustomVarsValid;exports.sum = sum;exports.setLocalFileInfo = setLocalFileInfo;exports.createLocalKey = createLocalKey;exports.removeLocalFileInfo = removeLocalFileInfo;exports.getLocalFileInfo = getLocalFileInfo;exports.getAuthHeaders = getAuthHeaders;exports.getHeadersForChunkUpload = getHeadersForChunkUpload;exports.getHeadersForMkFile = getHeadersForMkFile;exports.createXHR = createXHR;exports.computeMd5 = computeMd5;exports.readAsArrayBuffer = readAsArrayBuffer;exports.request = request;exports.getPortFromUrl = getPortFromUrl;exports.getDomainFromUrl = getDomainFromUrl;exports.getPutPolicy = getPutPolicy;exports.createObjectURL = createObjectURL;exports.MB = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _sparkMd = _interopRequireDefault(__webpack_require__(/*! spark-md5 */ 198));
+var _errors = __webpack_require__(/*! ../errors */ 191);
+var _base = __webpack_require__(/*! ./base64 */ 196);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var __assign = void 0 && (void 0).__assign || function () {__assign = Object.assign || function (t) {for (var s, i = 1, n = arguments.length; i < n; i++) {s = arguments[i];for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];}}return t;};return __assign.apply(this, arguments);};var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};
+var MB = Math.pow(1024, 2);
+// 文件分块
+exports.MB = MB;function getChunks(file, blockSize) {
+  var chunkByteSize = blockSize * MB; // 转换为字节
+  // 如果 chunkByteSize 比文件大，则直接取文件的大小
+  if (chunkByteSize > file.size) {
+    chunkByteSize = file.size;
+  } else
+  {
+    // 因为最多 10000 chunk，所以如果 chunkSize 不符合则把每片 chunk 大小扩大两倍
+    while (file.size > chunkByteSize * 10000) {
+      chunkByteSize *= 2;
+    }
+  }
+  var chunks = [];
+  var count = Math.ceil(file.size / chunkByteSize);
+  for (var i = 0; i < count; i++) {
+    var chunk = file.slice(chunkByteSize * i, i === count - 1 ? file.size : chunkByteSize * (i + 1));
+    chunks.push(chunk);
+  }
+  return chunks;
+}
+function isMetaDataValid(params) {
+  return Object.keys(params).every(function (key) {return key.indexOf('x-qn-meta-') === 0;});
+}
+function isCustomVarsValid(params) {
+  return Object.keys(params).every(function (key) {return key.indexOf('x:') === 0;});
+}
+function sum(list) {
+  return list.reduce(function (data, loaded) {return data + loaded;}, 0);
+}
+function setLocalFileInfo(localKey, info, logger) {
+  try {
+    localStorage.setItem(localKey, JSON.stringify(info));
+  }
+  catch (err) {
+    logger.warn(new _errors.QiniuError(_errors.QiniuErrorName.WriteCacheFailed, "setLocalFileInfo failed: " + localKey));
+  }
+}
+function createLocalKey(name, key, size) {
+  var localKey = key == null ? '_' : "_key_" + key + "_";
+  return "qiniu_js_sdk_upload_file_name_" + name + localKey + "size_" + size;
+}
+function removeLocalFileInfo(localKey, logger) {
+  try {
+    localStorage.removeItem(localKey);
+  }
+  catch (err) {
+    logger.warn(new _errors.QiniuError(_errors.QiniuErrorName.RemoveCacheFailed, "removeLocalFileInfo failed. key: " + localKey));
+  }
+}
+function getLocalFileInfo(localKey, logger) {
+  var localInfoString = null;
+  try {
+    localInfoString = localStorage.getItem(localKey);
+  }
+  catch (_a) {
+    logger.warn(new _errors.QiniuError(_errors.QiniuErrorName.ReadCacheFailed, "getLocalFileInfo failed. key: " + localKey));
+  }
+  if (localInfoString == null) {
+    return null;
+  }
+  var localInfo = null;
+  try {
+    localInfo = JSON.parse(localInfoString);
+  }
+  catch (_b) {
+    // 本地信息已被破坏，直接删除
+    removeLocalFileInfo(localKey, logger);
+    logger.warn(new _errors.QiniuError(_errors.QiniuErrorName.InvalidCacheData, "getLocalFileInfo failed to parse. key: " + localKey));
+  }
+  return localInfo;
+}
+function getAuthHeaders(token) {
+  var auth = 'UpToken ' + token;
+  return { Authorization: auth };
+}
+function getHeadersForChunkUpload(token) {
+  var header = getAuthHeaders(token);
+  return __assign({ 'content-type': 'application/octet-stream' }, header);
+}
+function getHeadersForMkFile(token) {
+  var header = getAuthHeaders(token);
+  return __assign({ 'content-type': 'application/json' }, header);
+}
+function createXHR() {
+  if (window.XMLHttpRequest) {
+    return new XMLHttpRequest();
+  }
+  if (window.ActiveXObject) {
+    return new window.ActiveXObject('Microsoft.XMLHTTP');
+  }
+  throw new _errors.QiniuError(_errors.QiniuErrorName.NotAvailableXMLHttpRequest, 'the current environment does not support.');
+}
+function computeMd5(data) {
+  return __awaiter(this, void 0, void 0, function () {
+    var buffer, spark;
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0:return [4 /*yield*/, readAsArrayBuffer(data)];
+        case 1:
+          buffer = _a.sent();
+          spark = new _sparkMd.default.ArrayBuffer();
+          spark.append(buffer);
+          return [2 /*return*/, spark.end()];}
+
+    });
+  });
+}
+function readAsArrayBuffer(data) {
+  return new Promise(function (resolve, reject) {
+    var reader = new FileReader();
+    // evt 类型目前存在问题 https://github.com/Microsoft/TypeScript/issues/4163
+    reader.onload = function (evt) {
+      if (evt.target) {
+        var body = evt.target.result;
+        resolve(body);
+      } else
+      {
+        reject(new _errors.QiniuError(_errors.QiniuErrorName.InvalidProgressEventTarget, 'progress event target is undefined'));
+      }
+    };
+    reader.onerror = function () {
+      reject(new _errors.QiniuError(_errors.QiniuErrorName.FileReaderReadFailed, 'fileReader read failed'));
+    };
+    reader.readAsArrayBuffer(data);
+  });
+}
+function request(url, options) {
+  return new Promise(function (resolve, reject) {
+    var xhr = createXHR();
+    xhr.open(options.method, url);
+    if (options.onCreate) {
+      options.onCreate(xhr);
+    }
+    if (options.headers) {
+      var headers_1 = options.headers;
+      Object.keys(headers_1).forEach(function (k) {
+        xhr.setRequestHeader(k, headers_1[k]);
+      });
+    }
+    xhr.upload.addEventListener('progress', function (evt) {
+      if (evt.lengthComputable && options.onProgress) {
+        options.onProgress({
+          loaded: evt.loaded,
+          total: evt.total });
+
+      }
+    });
+    xhr.onreadystatechange = function () {
+      var responseText = xhr.responseText;
+      if (xhr.readyState !== 4) {
+        return;
+      }
+      var reqId = xhr.getResponseHeader('x-reqId') || '';
+      if (xhr.status === 0) {
+        // 发生 0 基本都是网络错误，常见的比如跨域、断网、host 解析失败、系统拦截等等
+        reject(new _errors.QiniuNetworkError('network error.', reqId));
+        return;
+      }
+      if (xhr.status !== 200) {
+        var message = "xhr request failed, code: " + xhr.status;
+        if (responseText) {
+          message += " response: " + responseText;
+        }
+        var data = void 0;
+        try {
+          data = JSON.parse(responseText);
+        }
+        catch (_a) {
+          // 无需处理该错误、可能拿到非 json 格式的响应是预期的
+        }
+        reject(new _errors.QiniuRequestError(xhr.status, reqId, message, data));
+        return;
+      }
+      try {
+        resolve({
+          data: JSON.parse(responseText),
+          reqId: reqId });
+
+      }
+      catch (err) {
+        reject(err);
+      }
+    };
+    xhr.send(options.body);
+  });
+}
+function getPortFromUrl(url) {
+  if (url && url.match) {
+    var groups = url.match(/(^https?)/);
+    if (!groups) {
+      return '';
+    }
+    var type = groups[1];
+    groups = url.match(/^https?:\/\/([^:^/]*):(\d*)/);
+    if (groups) {
+      return groups[2];
+    }
+    if (type === 'http') {
+      return '80';
+    }
+    return '443';
+  }
+  return '';
+}
+function getDomainFromUrl(url) {
+  if (url && url.match) {
+    var groups = url.match(/^https?:\/\/([^:^/]*)/);
+    return groups ? groups[1] : '';
+  }
+  return '';
+}
+function getPutPolicy(token) {
+  if (!token)
+  throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'invalid token.');
+  var segments = token.split(':');
+  if (segments.length === 1)
+  throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'invalid token segments.');
+  // token 构造的差异参考：https://github.com/qbox/product/blob/master/kodo/auths/UpToken.md#admin-uptoken-authorization
+  var assessKey = segments.length > 3 ? segments[1] : segments[0];
+  if (!assessKey)
+  throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'missing assess key field.');
+  var putPolicy = null;
+  try {
+    putPolicy = JSON.parse((0, _base.urlSafeBase64Decode)(segments[segments.length - 1]));
+  }
+  catch (error) {
+    throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'token parse failed.');
+  }
+  if (putPolicy == null) {
+    throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'putPolicy is null.');
+  }
+  if (putPolicy.scope == null) {
+    throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'scope field is null.');
+  }
+  var bucketName = putPolicy.scope.split(':')[0];
+  if (!bucketName) {
+    throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidToken, 'resolve bucketName failed.');
+  }
+  return { assessKey: assessKey, bucketName: bucketName, scope: putPolicy.scope };
+}
+function createObjectURL(file) {
+  var URL = window.URL || window.webkitURL || window.mozURL;
+  // FIXME:  需要 revokeObjectURL
+  return URL.createObjectURL(file);
+}
+
+/***/ }),
+/* 198 */
+/*!**************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/spark-md5/spark-md5.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(function (factory) {
+  if (true) {
+    // Node/CommonJS
+    module.exports = factory();
+  } else { var glob; }
+})(function (undefined) {
+
+  'use strict';
+
+  /*
+                 * Fastest md5 implementation around (JKM md5).
+                 * Credits: Joseph Myers
+                 *
+                 * @see http://www.myersdaily.org/joseph/javascript/md5-text.html
+                 * @see http://jsperf.com/md5-shootout/7
+                 */
+
+  /* this function is much faster,
+                      so if possible we use it. Some IEs
+                      are the only ones I know of that
+                      need the idiotic second function,
+                      generated by an if clause.  */
+  var add32 = function add32(a, b) {
+    return a + b & 0xFFFFFFFF;
+  },
+  hex_chr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
+
+
+  function cmn(q, a, b, x, s, t) {
+    a = add32(add32(a, q), add32(x, t));
+    return add32(a << s | a >>> 32 - s, b);
+  }
+
+  function md5cycle(x, k) {
+    var a = x[0],
+    b = x[1],
+    c = x[2],
+    d = x[3];
+
+    a += (b & c | ~b & d) + k[0] - 680876936 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[1] - 389564586 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[2] + 606105819 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[3] - 1044525330 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & c | ~b & d) + k[4] - 176418897 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[5] + 1200080426 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[6] - 1473231341 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[7] - 45705983 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & c | ~b & d) + k[8] + 1770035416 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[9] - 1958414417 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[10] - 42063 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[11] - 1990404162 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+    a += (b & c | ~b & d) + k[12] + 1804603682 | 0;
+    a = (a << 7 | a >>> 25) + b | 0;
+    d += (a & b | ~a & c) + k[13] - 40341101 | 0;
+    d = (d << 12 | d >>> 20) + a | 0;
+    c += (d & a | ~d & b) + k[14] - 1502002290 | 0;
+    c = (c << 17 | c >>> 15) + d | 0;
+    b += (c & d | ~c & a) + k[15] + 1236535329 | 0;
+    b = (b << 22 | b >>> 10) + c | 0;
+
+    a += (b & d | c & ~d) + k[1] - 165796510 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[6] - 1069501632 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[11] + 643717713 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[0] - 373897302 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b & d | c & ~d) + k[5] - 701558691 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[10] + 38016083 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[15] - 660478335 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[4] - 405537848 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b & d | c & ~d) + k[9] + 568446438 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[14] - 1019803690 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[3] - 187363961 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[8] + 1163531501 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+    a += (b & d | c & ~d) + k[13] - 1444681467 | 0;
+    a = (a << 5 | a >>> 27) + b | 0;
+    d += (a & c | b & ~c) + k[2] - 51403784 | 0;
+    d = (d << 9 | d >>> 23) + a | 0;
+    c += (d & b | a & ~b) + k[7] + 1735328473 | 0;
+    c = (c << 14 | c >>> 18) + d | 0;
+    b += (c & a | d & ~a) + k[12] - 1926607734 | 0;
+    b = (b << 20 | b >>> 12) + c | 0;
+
+    a += (b ^ c ^ d) + k[5] - 378558 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[8] - 2022574463 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[11] + 1839030562 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[14] - 35309556 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (b ^ c ^ d) + k[1] - 1530992060 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[4] + 1272893353 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[7] - 155497632 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[10] - 1094730640 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (b ^ c ^ d) + k[13] + 681279174 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[0] - 358537222 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[3] - 722521979 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[6] + 76029189 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+    a += (b ^ c ^ d) + k[9] - 640364487 | 0;
+    a = (a << 4 | a >>> 28) + b | 0;
+    d += (a ^ b ^ c) + k[12] - 421815835 | 0;
+    d = (d << 11 | d >>> 21) + a | 0;
+    c += (d ^ a ^ b) + k[15] + 530742520 | 0;
+    c = (c << 16 | c >>> 16) + d | 0;
+    b += (c ^ d ^ a) + k[2] - 995338651 | 0;
+    b = (b << 23 | b >>> 9) + c | 0;
+
+    a += (c ^ (b | ~d)) + k[0] - 198630844 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[7] + 1126891415 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[14] - 1416354905 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[5] - 57434055 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    a += (c ^ (b | ~d)) + k[12] + 1700485571 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[3] - 1894986606 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[10] - 1051523 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[1] - 2054922799 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    a += (c ^ (b | ~d)) + k[8] + 1873313359 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[15] - 30611744 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[6] - 1560198380 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[13] + 1309151649 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+    a += (c ^ (b | ~d)) + k[4] - 145523070 | 0;
+    a = (a << 6 | a >>> 26) + b | 0;
+    d += (b ^ (a | ~c)) + k[11] - 1120210379 | 0;
+    d = (d << 10 | d >>> 22) + a | 0;
+    c += (a ^ (d | ~b)) + k[2] + 718787259 | 0;
+    c = (c << 15 | c >>> 17) + d | 0;
+    b += (d ^ (c | ~a)) + k[9] - 343485551 | 0;
+    b = (b << 21 | b >>> 11) + c | 0;
+
+    x[0] = a + x[0] | 0;
+    x[1] = b + x[1] | 0;
+    x[2] = c + x[2] | 0;
+    x[3] = d + x[3] | 0;
+  }
+
+  function md5blk(s) {
+    var md5blks = [],
+    i; /* Andy King said do it this way. */
+
+    for (i = 0; i < 64; i += 4) {
+      md5blks[i >> 2] = s.charCodeAt(i) + (s.charCodeAt(i + 1) << 8) + (s.charCodeAt(i + 2) << 16) + (s.charCodeAt(i + 3) << 24);
+    }
+    return md5blks;
+  }
+
+  function md5blk_array(a) {
+    var md5blks = [],
+    i; /* Andy King said do it this way. */
+
+    for (i = 0; i < 64; i += 4) {
+      md5blks[i >> 2] = a[i] + (a[i + 1] << 8) + (a[i + 2] << 16) + (a[i + 3] << 24);
+    }
+    return md5blks;
+  }
+
+  function md51(s) {
+    var n = s.length,
+    state = [1732584193, -271733879, -1732584194, 271733878],
+    i,
+    length,
+    tail,
+    tmp,
+    lo,
+    hi;
+
+    for (i = 64; i <= n; i += 64) {
+      md5cycle(state, md5blk(s.substring(i - 64, i)));
+    }
+    s = s.substring(i - 64);
+    length = s.length;
+    tail = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    for (i = 0; i < length; i += 1) {
+      tail[i >> 2] |= s.charCodeAt(i) << (i % 4 << 3);
+    }
+    tail[i >> 2] |= 0x80 << (i % 4 << 3);
+    if (i > 55) {
+      md5cycle(state, tail);
+      for (i = 0; i < 16; i += 1) {
+        tail[i] = 0;
+      }
+    }
+
+    // Beware that the final length might not fit in 32 bits so we take care of that
+    tmp = n * 8;
+    tmp = tmp.toString(16).match(/(.*?)(.{0,8})$/);
+    lo = parseInt(tmp[2], 16);
+    hi = parseInt(tmp[1], 16) || 0;
+
+    tail[14] = lo;
+    tail[15] = hi;
+
+    md5cycle(state, tail);
+    return state;
+  }
+
+  function md51_array(a) {
+    var n = a.length,
+    state = [1732584193, -271733879, -1732584194, 271733878],
+    i,
+    length,
+    tail,
+    tmp,
+    lo,
+    hi;
+
+    for (i = 64; i <= n; i += 64) {
+      md5cycle(state, md5blk_array(a.subarray(i - 64, i)));
+    }
+
+    // Not sure if it is a bug, however IE10 will always produce a sub array of length 1
+    // containing the last element of the parent array if the sub array specified starts
+    // beyond the length of the parent array - weird.
+    // https://connect.microsoft.com/IE/feedback/details/771452/typed-array-subarray-issue
+    a = i - 64 < n ? a.subarray(i - 64) : new Uint8Array(0);
+
+    length = a.length;
+    tail = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    for (i = 0; i < length; i += 1) {
+      tail[i >> 2] |= a[i] << (i % 4 << 3);
+    }
+
+    tail[i >> 2] |= 0x80 << (i % 4 << 3);
+    if (i > 55) {
+      md5cycle(state, tail);
+      for (i = 0; i < 16; i += 1) {
+        tail[i] = 0;
+      }
+    }
+
+    // Beware that the final length might not fit in 32 bits so we take care of that
+    tmp = n * 8;
+    tmp = tmp.toString(16).match(/(.*?)(.{0,8})$/);
+    lo = parseInt(tmp[2], 16);
+    hi = parseInt(tmp[1], 16) || 0;
+
+    tail[14] = lo;
+    tail[15] = hi;
+
+    md5cycle(state, tail);
+
+    return state;
+  }
+
+  function rhex(n) {
+    var s = '',
+    j;
+    for (j = 0; j < 4; j += 1) {
+      s += hex_chr[n >> j * 8 + 4 & 0x0F] + hex_chr[n >> j * 8 & 0x0F];
+    }
+    return s;
+  }
+
+  function hex(x) {
+    var i;
+    for (i = 0; i < x.length; i += 1) {
+      x[i] = rhex(x[i]);
+    }
+    return x.join('');
+  }
+
+  // In some cases the fast add32 function cannot be used..
+  if (hex(md51('hello')) !== '5d41402abc4b2a76b9719d911017c592') {
+    add32 = function add32(x, y) {
+      var lsw = (x & 0xFFFF) + (y & 0xFFFF),
+      msw = (x >> 16) + (y >> 16) + (lsw >> 16);
+      return msw << 16 | lsw & 0xFFFF;
+    };
+  }
+
+  // ---------------------------------------------------
+
+  /**
+   * ArrayBuffer slice polyfill.
+   *
+   * @see https://github.com/ttaubert/node-arraybuffer-slice
+   */
+
+  if (typeof ArrayBuffer !== 'undefined' && !ArrayBuffer.prototype.slice) {
+    (function () {
+      function clamp(val, length) {
+        val = val | 0 || 0;
+
+        if (val < 0) {
+          return Math.max(val + length, 0);
+        }
+
+        return Math.min(val, length);
+      }
+
+      ArrayBuffer.prototype.slice = function (from, to) {
+        var length = this.byteLength,
+        begin = clamp(from, length),
+        end = length,
+        num,
+        target,
+        targetArray,
+        sourceArray;
+
+        if (to !== undefined) {
+          end = clamp(to, length);
+        }
+
+        if (begin > end) {
+          return new ArrayBuffer(0);
+        }
+
+        num = end - begin;
+        target = new ArrayBuffer(num);
+        targetArray = new Uint8Array(target);
+
+        sourceArray = new Uint8Array(this, begin, num);
+        targetArray.set(sourceArray);
+
+        return target;
+      };
+    })();
+  }
+
+  // ---------------------------------------------------
+
+  /**
+   * Helpers.
+   */
+
+  function toUtf8(str) {
+    if (/[\u0080-\uFFFF]/.test(str)) {
+      str = unescape(encodeURIComponent(str));
+    }
+
+    return str;
+  }
+
+  function utf8Str2ArrayBuffer(str, returnUInt8Array) {
+    var length = str.length,
+    buff = new ArrayBuffer(length),
+    arr = new Uint8Array(buff),
+    i;
+
+    for (i = 0; i < length; i += 1) {
+      arr[i] = str.charCodeAt(i);
+    }
+
+    return returnUInt8Array ? arr : buff;
+  }
+
+  function arrayBuffer2Utf8Str(buff) {
+    return String.fromCharCode.apply(null, new Uint8Array(buff));
+  }
+
+  function concatenateArrayBuffers(first, second, returnUInt8Array) {
+    var result = new Uint8Array(first.byteLength + second.byteLength);
+
+    result.set(new Uint8Array(first));
+    result.set(new Uint8Array(second), first.byteLength);
+
+    return returnUInt8Array ? result : result.buffer;
+  }
+
+  function hexToBinaryString(hex) {
+    var bytes = [],
+    length = hex.length,
+    x;
+
+    for (x = 0; x < length - 1; x += 2) {
+      bytes.push(parseInt(hex.substr(x, 2), 16));
+    }
+
+    return String.fromCharCode.apply(String, bytes);
+  }
+
+  // ---------------------------------------------------
+
+  /**
+   * SparkMD5 OOP implementation.
+   *
+   * Use this class to perform an incremental md5, otherwise use the
+   * static methods instead.
+   */
+
+  function SparkMD5() {
+    // call reset to init the instance
+    this.reset();
+  }
+
+  /**
+     * Appends a string.
+     * A conversion will be applied if an utf8 string is detected.
+     *
+     * @param {String} str The string to be appended
+     *
+     * @return {SparkMD5} The instance itself
+     */
+  SparkMD5.prototype.append = function (str) {
+    // Converts the string to utf8 bytes if necessary
+    // Then append as binary
+    this.appendBinary(toUtf8(str));
+
+    return this;
+  };
+
+  /**
+      * Appends a binary string.
+      *
+      * @param {String} contents The binary string to be appended
+      *
+      * @return {SparkMD5} The instance itself
+      */
+  SparkMD5.prototype.appendBinary = function (contents) {
+    this._buff += contents;
+    this._length += contents.length;
+
+    var length = this._buff.length,
+    i;
+
+    for (i = 64; i <= length; i += 64) {
+      md5cycle(this._hash, md5blk(this._buff.substring(i - 64, i)));
+    }
+
+    this._buff = this._buff.substring(i - 64);
+
+    return this;
+  };
+
+  /**
+      * Finishes the incremental computation, reseting the internal state and
+      * returning the result.
+      *
+      * @param {Boolean} raw True to get the raw string, false to get the hex string
+      *
+      * @return {String} The result
+      */
+  SparkMD5.prototype.end = function (raw) {
+    var buff = this._buff,
+    length = buff.length,
+    i,
+    tail = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ret;
+
+    for (i = 0; i < length; i += 1) {
+      tail[i >> 2] |= buff.charCodeAt(i) << (i % 4 << 3);
+    }
+
+    this._finish(tail, length);
+    ret = hex(this._hash);
+
+    if (raw) {
+      ret = hexToBinaryString(ret);
+    }
+
+    this.reset();
+
+    return ret;
+  };
+
+  /**
+      * Resets the internal state of the computation.
+      *
+      * @return {SparkMD5} The instance itself
+      */
+  SparkMD5.prototype.reset = function () {
+    this._buff = '';
+    this._length = 0;
+    this._hash = [1732584193, -271733879, -1732584194, 271733878];
+
+    return this;
+  };
+
+  /**
+      * Gets the internal state of the computation.
+      *
+      * @return {Object} The state
+      */
+  SparkMD5.prototype.getState = function () {
+    return {
+      buff: this._buff,
+      length: this._length,
+      hash: this._hash.slice() };
+
+  };
+
+  /**
+      * Gets the internal state of the computation.
+      *
+      * @param {Object} state The state
+      *
+      * @return {SparkMD5} The instance itself
+      */
+  SparkMD5.prototype.setState = function (state) {
+    this._buff = state.buff;
+    this._length = state.length;
+    this._hash = state.hash;
+
+    return this;
+  };
+
+  /**
+      * Releases memory used by the incremental buffer and other additional
+      * resources. If you plan to use the instance again, use reset instead.
+      */
+  SparkMD5.prototype.destroy = function () {
+    delete this._hash;
+    delete this._buff;
+    delete this._length;
+  };
+
+  /**
+      * Finish the final calculation based on the tail.
+      *
+      * @param {Array}  tail   The tail (will be modified)
+      * @param {Number} length The length of the remaining buffer
+      */
+  SparkMD5.prototype._finish = function (tail, length) {
+    var i = length,
+    tmp,
+    lo,
+    hi;
+
+    tail[i >> 2] |= 0x80 << (i % 4 << 3);
+    if (i > 55) {
+      md5cycle(this._hash, tail);
+      for (i = 0; i < 16; i += 1) {
+        tail[i] = 0;
+      }
+    }
+
+    // Do the final computation based on the tail and length
+    // Beware that the final length may not fit in 32 bits so we take care of that
+    tmp = this._length * 8;
+    tmp = tmp.toString(16).match(/(.*?)(.{0,8})$/);
+    lo = parseInt(tmp[2], 16);
+    hi = parseInt(tmp[1], 16) || 0;
+
+    tail[14] = lo;
+    tail[15] = hi;
+    md5cycle(this._hash, tail);
+  };
+
+  /**
+      * Performs the md5 hash on a string.
+      * A conversion will be applied if utf8 string is detected.
+      *
+      * @param {String}  str The string
+      * @param {Boolean} [raw] True to get the raw string, false to get the hex string
+      *
+      * @return {String} The result
+      */
+  SparkMD5.hash = function (str, raw) {
+    // Converts the string to utf8 bytes if necessary
+    // Then compute it using the binary function
+    return SparkMD5.hashBinary(toUtf8(str), raw);
+  };
+
+  /**
+      * Performs the md5 hash on a binary string.
+      *
+      * @param {String}  content The binary string
+      * @param {Boolean} [raw]     True to get the raw string, false to get the hex string
+      *
+      * @return {String} The result
+      */
+  SparkMD5.hashBinary = function (content, raw) {
+    var hash = md51(content),
+    ret = hex(hash);
+
+    return raw ? hexToBinaryString(ret) : ret;
+  };
+
+  // ---------------------------------------------------
+
+  /**
+   * SparkMD5 OOP implementation for array buffers.
+   *
+   * Use this class to perform an incremental md5 ONLY for array buffers.
+   */
+  SparkMD5.ArrayBuffer = function () {
+    // call reset to init the instance
+    this.reset();
+  };
+
+  /**
+      * Appends an array buffer.
+      *
+      * @param {ArrayBuffer} arr The array to be appended
+      *
+      * @return {SparkMD5.ArrayBuffer} The instance itself
+      */
+  SparkMD5.ArrayBuffer.prototype.append = function (arr) {
+    var buff = concatenateArrayBuffers(this._buff.buffer, arr, true),
+    length = buff.length,
+    i;
+
+    this._length += arr.byteLength;
+
+    for (i = 64; i <= length; i += 64) {
+      md5cycle(this._hash, md5blk_array(buff.subarray(i - 64, i)));
+    }
+
+    this._buff = i - 64 < length ? new Uint8Array(buff.buffer.slice(i - 64)) : new Uint8Array(0);
+
+    return this;
+  };
+
+  /**
+      * Finishes the incremental computation, reseting the internal state and
+      * returning the result.
+      *
+      * @param {Boolean} raw True to get the raw string, false to get the hex string
+      *
+      * @return {String} The result
+      */
+  SparkMD5.ArrayBuffer.prototype.end = function (raw) {
+    var buff = this._buff,
+    length = buff.length,
+    tail = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    i,
+    ret;
+
+    for (i = 0; i < length; i += 1) {
+      tail[i >> 2] |= buff[i] << (i % 4 << 3);
+    }
+
+    this._finish(tail, length);
+    ret = hex(this._hash);
+
+    if (raw) {
+      ret = hexToBinaryString(ret);
+    }
+
+    this.reset();
+
+    return ret;
+  };
+
+  /**
+      * Resets the internal state of the computation.
+      *
+      * @return {SparkMD5.ArrayBuffer} The instance itself
+      */
+  SparkMD5.ArrayBuffer.prototype.reset = function () {
+    this._buff = new Uint8Array(0);
+    this._length = 0;
+    this._hash = [1732584193, -271733879, -1732584194, 271733878];
+
+    return this;
+  };
+
+  /**
+      * Gets the internal state of the computation.
+      *
+      * @return {Object} The state
+      */
+  SparkMD5.ArrayBuffer.prototype.getState = function () {
+    var state = SparkMD5.prototype.getState.call(this);
+
+    // Convert buffer to a string
+    state.buff = arrayBuffer2Utf8Str(state.buff);
+
+    return state;
+  };
+
+  /**
+      * Gets the internal state of the computation.
+      *
+      * @param {Object} state The state
+      *
+      * @return {SparkMD5.ArrayBuffer} The instance itself
+      */
+  SparkMD5.ArrayBuffer.prototype.setState = function (state) {
+    // Convert string to buffer
+    state.buff = utf8Str2ArrayBuffer(state.buff, true);
+
+    return SparkMD5.prototype.setState.call(this, state);
+  };
+
+  SparkMD5.ArrayBuffer.prototype.destroy = SparkMD5.prototype.destroy;
+
+  SparkMD5.ArrayBuffer.prototype._finish = SparkMD5.prototype._finish;
+
+  /**
+                                                                        * Performs the md5 hash on an array buffer.
+                                                                        *
+                                                                        * @param {ArrayBuffer} arr The array buffer
+                                                                        * @param {Boolean}     [raw] True to get the raw string, false to get the hex one
+                                                                        *
+                                                                        * @return {String} The result
+                                                                        */
+  SparkMD5.ArrayBuffer.hash = function (arr, raw) {
+    var hash = md51_array(new Uint8Array(arr)),
+    ret = hex(hash);
+
+    return raw ? hexToBinaryString(ret) : ret;
+  };
+
+  return SparkMD5;
+});
+
+/***/ }),
+/* 199 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/config.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.normalizeUploadConfig = normalizeUploadConfig;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _config = __webpack_require__(/*! ../config */ 200);
+var _upload = __webpack_require__(/*! ../upload */ 202);var __assign = void 0 && (void 0).__assign || function () {__assign = Object.assign || function (t) {for (var s, i = 1, n = arguments.length; i < n; i++) {s = arguments[i];for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];}}return t;};return __assign.apply(this, arguments);};var __rest = void 0 && (void 0).__rest || function (s, e) {var t = {};for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];}if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];}return t;};var __read = void 0 && (void 0).__read || function (o, n) {var m = typeof Symbol === "function" && o[Symbol.iterator];if (!m) return o;var i = m.call(o),r,ar = [],e;try {while ((n === void 0 || n-- > 0) && !(r = i.next()).done) {ar.push(r.value);}} catch (error) {e = { error: error };} finally {try {if (r && !r.done && (m = i["return"])) m.call(i);} finally {if (e) throw e.error;}}return ar;};var __spread = void 0 && (void 0).__spread || function () {for (var ar = [], i = 0; i < arguments.length; i++) {ar = ar.concat(__read(arguments[i]));}return ar;};
+function normalizeUploadConfig(config, logger) {
+  var _a = __assign({}, config),upprotocol = _a.upprotocol,uphost = _a.uphost,otherConfig = __rest(_a, ["upprotocol", "uphost"]);
+  var normalizeConfig = __assign({ uphost: [], retryCount: 3, checkByMD5: false, forceDirect: false, useCdnDomain: true, checkByServer: false, concurrentRequestLimit: 3, chunkSize: _upload.DEFAULT_CHUNK_SIZE, upprotocol: 'https', debugLogLevel: 'OFF', disableStatisticsReport: false }, otherConfig);
+  // 兼容原来的 http: https: 的写法
+  if (upprotocol) {
+    normalizeConfig.upprotocol = upprotocol.
+    replace(/:$/, '');
+  }
+  var hostList = [];
+  if (logger && (config === null || config === void 0 ? void 0 : config.uphost) != null && (config === null || config === void 0 ? void 0 : config.region) != null) {
+    logger.warn('do not use both the uphost and region config.');
+  }
+  // 如果同时指定了 uphost 参数，添加到可用 host 列表
+  if (uphost) {
+    if (Array.isArray(uphost)) {
+      hostList.push.apply(hostList, __spread(uphost));
+    } else
+    {
+      hostList.push(uphost);
+    }
+    // 否则如果用户传了 region，添加指定 region 的 host 到可用 host 列表
+  } else
+  if (normalizeConfig === null || normalizeConfig === void 0 ? void 0 : normalizeConfig.region) {
+    var hostMap = _config.regionUphostMap[normalizeConfig === null || normalizeConfig === void 0 ? void 0 : normalizeConfig.region];
+    if (normalizeConfig.useCdnDomain) {
+      hostList.push.apply(hostList, __spread(hostMap.cdnUphost));
+    } else
+    {
+      hostList.push.apply(hostList, __spread(hostMap.srcUphost));
+    }
+  }
+  return __assign(__assign({}, normalizeConfig), { uphost: hostList.filter(Boolean) });
+}
+
+/***/ }),
+/* 200 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/config/index.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });var _region = __webpack_require__(/*! ./region */ 201);Object.keys(_region).forEach(function (key) {if (key === "default" || key === "__esModule") return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _region[key];} });});
+
+/***/ }),
+/* 201 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/config/region.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.regionUphostMap = exports.region = void 0;var _a;
+/** 上传区域 */
+var region = {
+  z0: 'z0',
+  z1: 'z1',
+  z2: 'z2',
+  na0: 'na0',
+  as0: 'as0',
+  cnEast2: 'cn-east-2' };
+
+/** 上传区域对应的 host */exports.region = region;
+var regionUphostMap = (_a = {},
+_a[region.z0] = {
+  srcUphost: ['up.qiniup.com'],
+  cdnUphost: ['upload.qiniup.com'] },
+
+_a[region.z1] = {
+  srcUphost: ['up-z1.qiniup.com'],
+  cdnUphost: ['upload-z1.qiniup.com'] },
+
+_a[region.z2] = {
+  srcUphost: ['up-z2.qiniup.com'],
+  cdnUphost: ['upload-z2.qiniup.com'] },
+
+_a[region.na0] = {
+  srcUphost: ['up-na0.qiniup.com'],
+  cdnUphost: ['upload-na0.qiniup.com'] },
+
+_a[region.as0] = {
+  srcUphost: ['up-as0.qiniup.com'],
+  cdnUphost: ['upload-as0.qiniup.com'] },
+
+_a[region.cnEast2] = {
+  srcUphost: ['up-cn-east-2.qiniup.com'],
+  cdnUphost: ['upload-cn-east-2.qiniup.com'] },
+
+_a);exports.regionUphostMap = regionUphostMap;
+
+/***/ }),
+/* 202 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/upload/index.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });var _exportNames = { createUploadManager: true };exports.createUploadManager = createUploadManager;exports.default = upload;var _resume = _interopRequireWildcard(__webpack_require__(/*! ./resume */ 203));
+
+
+
+
+
+Object.keys(_resume).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _resume[key];} });});var _direct = _interopRequireDefault(__webpack_require__(/*! ./direct */ 209));var _logger = _interopRequireDefault(__webpack_require__(/*! ../logger */ 211));var _utils = __webpack_require__(/*! ../utils */ 193);var _hosts = __webpack_require__(/*! ./hosts */ 213);var _base = __webpack_require__(/*! ./base */ 208);Object.keys(_base).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _base[key];} });});function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _getRequireWildcardCache() {if (typeof WeakMap !== "function") return null;var cache = new WeakMap();_getRequireWildcardCache = function _getRequireWildcardCache() {return cache;};return cache;}function _interopRequireWildcard(obj) {if (obj && obj.__esModule) {return obj;}if (obj === null || typeof obj !== "object" && typeof obj !== "function") {return { default: obj };}var cache = _getRequireWildcardCache();if (cache && cache.has(obj)) {return cache.get(obj);}var newObj = {};var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;for (var key in obj) {if (Object.prototype.hasOwnProperty.call(obj, key)) {var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;if (desc && (desc.get || desc.set)) {Object.defineProperty(newObj, key, desc);} else {newObj[key] = obj[key];}}}newObj.default = obj;if (cache) {cache.set(obj, newObj);}return newObj;}
+function createUploadManager(options, handlers, hostPool, logger) {
+  if (options.config && options.config.forceDirect) {
+    logger.info('ues forceDirect mode.');
+    return new _direct.default(options, handlers, hostPool, logger);
+  }
+  if (options.file.size > 4 * _utils.MB) {
+    logger.info('file size over 4M, use Resume.');
+    return new _resume.default(options, handlers, hostPool, logger);
+  }
+  logger.info('file size less or equal than 4M, use Direct.');
+  return new _direct.default(options, handlers, hostPool, logger);
+}
+/**
+   * @param file 上传文件
+   * @param key 目标文件名
+   * @param token 上传凭证
+   * @param putExtra 上传文件的相关资源信息配置
+   * @param config 上传任务的配置
+   * @returns 返回用于上传任务的可观察对象
+   */
+function upload(file, key, token, putExtra, config) {
+  // 为每个任务创建单独的 Logger
+  var logger = new _logger.default(token, config === null || config === void 0 ? void 0 : config.disableStatisticsReport, config === null || config === void 0 ? void 0 : config.debugLogLevel, file.name);
+  var options = {
+    file: file,
+    key: key,
+    token: token,
+    putExtra: putExtra,
+    config: (0, _utils.normalizeUploadConfig)(config, logger) };
+
+  // 创建 host 池
+  var hostPool = new _hosts.HostPool(options.config.uphost);
+  return new _utils.Observable(function (observer) {
+    var manager = createUploadManager(options, {
+      onData: function onData(data) {return observer.next(data);},
+      onError: function onError(err) {return observer.error(err);},
+      onComplete: function onComplete(res) {return observer.complete(res);} },
+    hostPool, logger);
+    manager.putFile();
+    return manager.stop.bind(manager);
+  });
+}
+
+/***/ }),
+/* 203 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/upload/resume.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _api = __webpack_require__(/*! ../api */ 204);
+var _errors = __webpack_require__(/*! ../errors */ 191);
+var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 193));
+var _base = _interopRequireDefault(__webpack_require__(/*! ./base */ 208));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _getRequireWildcardCache() {if (typeof WeakMap !== "function") return null;var cache = new WeakMap();_getRequireWildcardCache = function _getRequireWildcardCache() {return cache;};return cache;}function _interopRequireWildcard(obj) {if (obj && obj.__esModule) {return obj;}if (obj === null || typeof obj !== "object" && typeof obj !== "function") {return { default: obj };}var cache = _getRequireWildcardCache();if (cache && cache.has(obj)) {return cache.get(obj);}var newObj = {};var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;for (var key in obj) {if (Object.prototype.hasOwnProperty.call(obj, key)) {var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;if (desc && (desc.get || desc.set)) {Object.defineProperty(newObj, key, desc);} else {newObj[key] = obj[key];}}}newObj.default = obj;if (cache) {cache.set(obj, newObj);}return newObj;}var __extends = void 0 && (void 0).__extends || function () {var _extendStatics = function extendStatics(d, b) {_extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {d.__proto__ = b;} || function (d, b) {for (var p in b) {if (b.hasOwnProperty(p)) d[p] = b[p];}};return _extendStatics(d, b);};return function (d, b) {_extendStatics(d, b);function __() {this.constructor = d;}d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());};}();var __assign = void 0 && (void 0).__assign || function () {__assign = Object.assign || function (t) {for (var s, i = 1, n = arguments.length; i < n; i++) {s = arguments[i];for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];}}return t;};return __assign.apply(this, arguments);};var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};
+/** 是否为正整数 */
+function isPositiveInteger(n) {
+  var re = /^[1-9]\d*$/;
+  return re.test(String(n));
+}
+var Resume = /** @class */function (_super) {
+  __extends(Resume, _super);
+  function Resume() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+  /**
+     * @returns  {Promise<ResponseSuccess<any>>}
+     * @description 实现了 Base 的 run 接口，处理具体的分片上传事务，并抛出过程中的异常。
+     */
+  Resume.prototype.run = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var pool, mkFileResponse, localKey, uploadChunks, error_1;
+      var _this = this;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            this.logger.info('start run Resume.');
+            if (!this.config.chunkSize || !isPositiveInteger(this.config.chunkSize)) {
+              throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidChunkSize, 'chunkSize must be a positive integer');
+            }
+            if (this.config.chunkSize > 1024) {
+              throw new _errors.QiniuError(_errors.QiniuErrorName.InvalidChunkSize, 'chunkSize maximum value is 1024');
+            }
+            return [4 /*yield*/, this.initBeforeUploadChunks()];
+          case 1:
+            _a.sent();
+            pool = new utils.Pool(function (chunkInfo) {return _this.uploadChunk(chunkInfo);}, this.config.concurrentRequestLimit);
+            mkFileResponse = null;
+            localKey = this.getLocalKey();
+            uploadChunks = this.chunks.map(function (chunk, index) {return pool.enqueue({ chunk: chunk, index: index });});
+            _a.label = 2;
+          case 2:
+            _a.trys.push([2, 5,, 6]);
+            return [4 /*yield*/, Promise.all(uploadChunks)];
+          case 3:
+            _a.sent();
+            return [4 /*yield*/, this.mkFileReq()];
+          case 4:
+            mkFileResponse = _a.sent();
+            return [3 /*break*/, 6];
+          case 5:
+            error_1 = _a.sent();
+            // uploadId 无效，上传参数有误（多由于本地存储信息的 uploadId 失效）
+            if (error_1 instanceof _errors.QiniuRequestError && (error_1.code === 612 || error_1.code === 400)) {
+              utils.removeLocalFileInfo(localKey, this.logger);
+            }
+            throw error_1;
+          case 6:
+            // 上传成功，清理本地缓存数据
+            utils.removeLocalFileInfo(localKey, this.logger);
+            return [2 /*return*/, mkFileResponse];}
+
+      });
+    });
+  };
+  Resume.prototype.uploadChunk = function (chunkInfo) {
+    return __awaiter(this, void 0, void 0, function () {
+      var index, chunk, cachedInfo, shouldCheckMD5, reuseSaved, md5, onProgress, requestOptions, response;
+      var _this = this;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            index = chunkInfo.index, chunk = chunkInfo.chunk;
+            cachedInfo = this.cachedUploadedList[index];
+            this.logger.info("upload part " + index + ", cache:", cachedInfo);
+            shouldCheckMD5 = this.config.checkByMD5;
+            reuseSaved = function reuseSaved() {
+              _this.usedCacheList[index] = true;
+              _this.updateChunkProgress(chunk.size, index);
+              _this.uploadedList[index] = cachedInfo;
+              _this.updateLocalCache();
+            };
+            // FIXME: 至少判断一下 size
+            if (cachedInfo && !shouldCheckMD5) {
+              reuseSaved();
+              return [2 /*return*/];
+            }
+            return [4 /*yield*/, utils.computeMd5(chunk)];
+          case 1:
+            md5 = _a.sent();
+            this.logger.info('computed part md5.', md5);
+            if (cachedInfo && md5 === cachedInfo.md5) {
+              reuseSaved();
+              return [2 /*return*/];
+            }
+            // 没有使用缓存设置标记为 false
+            this.usedCacheList[index] = false;
+            onProgress = function onProgress(data) {
+              _this.updateChunkProgress(data.loaded, index);
+            };
+            requestOptions = {
+              body: chunk,
+              md5: this.config.checkByServer ? md5 : undefined,
+              onProgress: onProgress,
+              onCreate: function onCreate(xhr) {return _this.addXhr(xhr);} };
+
+            this.logger.info("part " + index + " start uploading.");
+            return [4 /*yield*/, (0, _api.uploadChunk)(this.token, this.key, chunkInfo.index + 1, this.getUploadInfo(), requestOptions)];
+          case 2:
+            response = _a.sent();
+            this.logger.info("part " + index + " upload completed.");
+            // 在某些浏览器环境下，xhr 的 progress 事件无法被触发，progress 为 null，这里在每次分片上传完成后都手动更新下 progress
+            onProgress({
+              loaded: chunk.size,
+              total: chunk.size });
+
+            this.uploadedList[index] = {
+              etag: response.data.etag,
+              md5: response.data.md5,
+              size: chunk.size };
+
+            this.updateLocalCache();
+            return [2 /*return*/];}
+
+      });
+    });
+  };
+  Resume.prototype.mkFileReq = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var data, result;
+      var _this = this;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            data = __assign(__assign(__assign({ parts: this.uploadedList.map(function (value, index) {return {
+                  etag: value.etag,
+                  // 接口要求 index 需要从 1 开始，所以需要整体 + 1
+                  partNumber: index + 1 };
+              }), fname: this.putExtra.fname }, this.putExtra.mimeType && { mimeType: this.putExtra.mimeType }), this.putExtra.customVars && { customVars: this.putExtra.customVars }), this.putExtra.metadata && { metadata: this.putExtra.metadata });
+            this.logger.info('parts upload completed, make file.', data);
+            return [4 /*yield*/, (0, _api.uploadComplete)(this.token, this.key, this.getUploadInfo(), {
+              onCreate: function onCreate(xhr) {return _this.addXhr(xhr);},
+              body: JSON.stringify(data) })];
+
+          case 1:
+            result = _a.sent();
+            this.logger.info('finish Resume Progress.');
+            this.updateMkFileProgress(1);
+            return [2 /*return*/, result];}
+
+      });
+    });
+  };
+  Resume.prototype.initBeforeUploadChunks = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var cachedInfo, res, infoMessage;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            this.uploadedList = [];
+            this.usedCacheList = [];
+            cachedInfo = utils.getLocalFileInfo(this.getLocalKey(), this.logger);
+            if (!!cachedInfo) return [3 /*break*/, 2];
+            this.logger.info('init upload parts from api.');
+            return [4 /*yield*/, (0, _api.initUploadParts)(this.token, this.bucketName, this.key, this.uploadHost.getUrl())];
+          case 1:
+            res = _a.sent();
+            this.logger.info("initd upload parts of id: " + res.data.uploadId + ".");
+            this.uploadId = res.data.uploadId;
+            this.cachedUploadedList = [];
+            return [3 /*break*/, 3];
+          case 2:
+            infoMessage = [
+            'resume upload parts from local cache,',
+            "total " + cachedInfo.data.length + " part,",
+            "id is " + cachedInfo.id + "."];
+
+            this.logger.info(infoMessage.join(' '));
+            this.cachedUploadedList = cachedInfo.data;
+            this.uploadId = cachedInfo.id;
+            _a.label = 3;
+          case 3:
+            this.chunks = utils.getChunks(this.file, this.config.chunkSize);
+            this.loaded = {
+              mkFileProgress: 0,
+              chunks: this.chunks.map(function (_) {return 0;}) };
+
+            this.notifyResumeProgress();
+            return [2 /*return*/];}
+
+      });
+    });
+  };
+  Resume.prototype.getUploadInfo = function () {
+    return {
+      id: this.uploadId,
+      url: this.uploadHost.getUrl() };
+
+  };
+  Resume.prototype.getLocalKey = function () {
+    return utils.createLocalKey(this.file.name, this.key, this.file.size);
+  };
+  Resume.prototype.updateLocalCache = function () {
+    utils.setLocalFileInfo(this.getLocalKey(), {
+      id: this.uploadId,
+      data: this.uploadedList },
+    this.logger);
+  };
+  Resume.prototype.updateChunkProgress = function (loaded, index) {
+    this.loaded.chunks[index] = loaded;
+    this.notifyResumeProgress();
+  };
+  Resume.prototype.updateMkFileProgress = function (progress) {
+    this.loaded.mkFileProgress = progress;
+    this.notifyResumeProgress();
+  };
+  Resume.prototype.notifyResumeProgress = function () {
+    var _this = this;
+    this.progress = {
+      total: this.getProgressInfoItem(utils.sum(this.loaded.chunks) + this.loaded.mkFileProgress,
+      // FIXME: 不准确的 fileSize
+      this.file.size + 1 // 防止在 complete 未调用的时候进度显示 100%
+      ),
+      chunks: this.chunks.map(function (chunk, index) {
+        var fromCache = _this.usedCacheList[index];
+        return _this.getProgressInfoItem(_this.loaded.chunks[index], chunk.size, fromCache);
+      }),
+      uploadInfo: {
+        id: this.uploadId,
+        url: this.uploadHost.getUrl() } };
+
+
+    this.onData(this.progress);
+  };
+  return Resume;
+}(_base.default);var _default =
+Resume;exports.default = _default;
+
+/***/ }),
+/* 204 */
+/*!*****************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/api/index.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.getUpHosts = getUpHosts;exports.initUploadParts = initUploadParts;exports.uploadChunk = uploadChunk;exports.uploadComplete = uploadComplete;exports.deleteUploadedChunks = deleteUploadedChunks;exports.direct = direct;exports.getUploadUrl = getUploadUrl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _querystring = __webpack_require__(/*! querystring */ 205);
+var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 193));function _getRequireWildcardCache() {if (typeof WeakMap !== "function") return null;var cache = new WeakMap();_getRequireWildcardCache = function _getRequireWildcardCache() {return cache;};return cache;}function _interopRequireWildcard(obj) {if (obj && obj.__esModule) {return obj;}if (obj === null || typeof obj !== "object" && typeof obj !== "function") {return { default: obj };}var cache = _getRequireWildcardCache();if (cache && cache.has(obj)) {return cache.get(obj);}var newObj = {};var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;for (var key in obj) {if (Object.prototype.hasOwnProperty.call(obj, key)) {var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;if (desc && (desc.get || desc.set)) {Object.defineProperty(newObj, key, desc);} else {newObj[key] = obj[key];}}}newObj.default = obj;if (cache) {cache.set(obj, newObj);}return newObj;}var __assign = void 0 && (void 0).__assign || function () {__assign = Object.assign || function (t) {for (var s, i = 1, n = arguments.length; i < n; i++) {s = arguments[i];for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];}}return t;};return __assign.apply(this, arguments);};var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};
+
+function getUpHosts(accessKey, bucketName, protocol) {
+  return __awaiter(this, void 0, void 0, function () {
+    var params, url;
+    return __generator(this, function (_a) {
+      params = (0, _querystring.stringify)({ ak: accessKey, bucket: bucketName });
+      url = protocol + "://api.qiniu.com/v2/query?" + params;
+      return [2 /*return*/, utils.request(url, { method: 'GET' })];
+    });
+  });
+}
+/**
+   * @param bucket 空间名
+   * @param key 目标文件名
+   * @param uploadInfo 上传信息
+   */
+function getBaseUrl(bucket, key, uploadInfo) {
+  var url = uploadInfo.url,id = uploadInfo.id;
+  return url + "/buckets/" + bucket + "/objects/" + (key != null ? utils.urlSafeBase64Encode(key) : '~') + "/uploads/" + id;
+}
+/**
+   * @param token 上传鉴权凭证
+   * @param bucket 上传空间
+   * @param key 目标文件名
+   * @param uploadUrl 上传地址
+   */
+function initUploadParts(token, bucket, key, uploadUrl) {
+  var url = uploadUrl + "/buckets/" + bucket + "/objects/" + (key != null ? utils.urlSafeBase64Encode(key) : '~') + "/uploads";
+  return utils.request(url, {
+    method: 'POST',
+    headers: utils.getAuthHeaders(token) });
+
+}
+/**
+   * @param token 上传鉴权凭证
+   * @param index 当前 chunk 的索引
+   * @param uploadInfo 上传信息
+   * @param options 请求参数
+   */
+function uploadChunk(token, key, index, uploadInfo, options) {
+  var bucket = utils.getPutPolicy(token).bucketName;
+  var url = getBaseUrl(bucket, key, uploadInfo) + ("/" + index);
+  var headers = utils.getHeadersForChunkUpload(token);
+  if (options.md5)
+  headers['Content-MD5'] = options.md5;
+  return utils.request(url, __assign(__assign({}, options), { method: 'PUT', headers: headers }));
+}
+/**
+   * @param token 上传鉴权凭证
+   * @param key 目标文件名
+   * @param uploadInfo 上传信息
+   * @param options 请求参数
+   */
+function uploadComplete(token, key, uploadInfo, options) {
+  var bucket = utils.getPutPolicy(token).bucketName;
+  var url = getBaseUrl(bucket, key, uploadInfo);
+  return utils.request(url, __assign(__assign({}, options), { method: 'POST', headers: utils.getHeadersForMkFile(token) }));
+}
+/**
+   * @param token 上传鉴权凭证
+   * @param key 目标文件名
+   * @param uploadInfo 上传信息
+   */
+function deleteUploadedChunks(token, key, uploadinfo) {
+  var bucket = utils.getPutPolicy(token).bucketName;
+  var url = getBaseUrl(bucket, key, uploadinfo);
+  return utils.request(url, {
+    method: 'DELETE',
+    headers: utils.getAuthHeaders(token) });
+
+}
+/**
+   * @param  {string} url
+   * @param  {FormData} data
+   * @param  {Partial<utils.RequestOptions>} options
+   * @returns Promise
+   * @description 直传接口
+   */
+function direct(url, data, options) {
+  return utils.request(url, __assign({ method: 'POST', body: data }, options));
+}
+/**
+   * @param  {UploadUrlConfig} config
+   * @param  {string} token
+   * @returns Promise
+   * @description 获取上传 url
+   */
+function getUploadUrl(_config, token) {
+  return __awaiter(this, void 0, void 0, function () {
+    var config, protocol, putPolicy, res, hosts;
+    return __generator(this, function (_a) {
+      switch (_a.label) {
+        case 0:
+          config = (0, utils.normalizeUploadConfig)(_config);
+          protocol = config.upprotocol;
+          if (config.uphost.length > 0) {
+            return [2 /*return*/, protocol + "://" + config.uphost[0]];
+          }
+          putPolicy = utils.getPutPolicy(token);
+          return [4 /*yield*/, getUpHosts(putPolicy.assessKey, putPolicy.bucketName, protocol)];
+        case 1:
+          res = _a.sent();
+          hosts = res.data.up.acc.main;
+          return [2 /*return*/, protocol + "://" + hosts[0]];}
+
+    });
+  });
+}
+
+/***/ }),
+/* 205 */
+/*!***********************************************!*\
+  !*** ./node_modules/querystring-es3/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.decode = exports.parse = __webpack_require__(/*! ./decode */ 206);
+exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ 207);
+
+
+/***/ }),
+/* 206 */
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/decode.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+// If obj.hasOwnProperty has been overridden, then calling
+// obj.hasOwnProperty(prop) will break.
+// See: https://github.com/joyent/node/issues/1707
+function hasOwnProperty(obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
+}
+
+module.exports = function(qs, sep, eq, options) {
+  sep = sep || '&';
+  eq = eq || '=';
+  var obj = {};
+
+  if (typeof qs !== 'string' || qs.length === 0) {
+    return obj;
+  }
+
+  var regexp = /\+/g;
+  qs = qs.split(sep);
+
+  var maxKeys = 1000;
+  if (options && typeof options.maxKeys === 'number') {
+    maxKeys = options.maxKeys;
+  }
+
+  var len = qs.length;
+  // maxKeys <= 0 means that we should not limit keys count
+  if (maxKeys > 0 && len > maxKeys) {
+    len = maxKeys;
+  }
+
+  for (var i = 0; i < len; ++i) {
+    var x = qs[i].replace(regexp, '%20'),
+        idx = x.indexOf(eq),
+        kstr, vstr, k, v;
+
+    if (idx >= 0) {
+      kstr = x.substr(0, idx);
+      vstr = x.substr(idx + 1);
+    } else {
+      kstr = x;
+      vstr = '';
+    }
+
+    k = decodeURIComponent(kstr);
+    v = decodeURIComponent(vstr);
+
+    if (!hasOwnProperty(obj, k)) {
+      obj[k] = v;
+    } else if (isArray(obj[k])) {
+      obj[k].push(v);
+    } else {
+      obj[k] = [obj[k], v];
+    }
+  }
+
+  return obj;
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+
+/***/ }),
+/* 207 */
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/encode.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+var stringifyPrimitive = function(v) {
+  switch (typeof v) {
+    case 'string':
+      return v;
+
+    case 'boolean':
+      return v ? 'true' : 'false';
+
+    case 'number':
+      return isFinite(v) ? v : '';
+
+    default:
+      return '';
+  }
+};
+
+module.exports = function(obj, sep, eq, name) {
+  sep = sep || '&';
+  eq = eq || '=';
+  if (obj === null) {
+    obj = undefined;
+  }
+
+  if (typeof obj === 'object') {
+    return map(objectKeys(obj), function(k) {
+      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
+      if (isArray(obj[k])) {
+        return map(obj[k], function(v) {
+          return ks + encodeURIComponent(stringifyPrimitive(v));
+        }).join(sep);
+      } else {
+        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
+      }
+    }).join(sep);
+
+  }
+
+  if (!name) return '';
+  return encodeURIComponent(stringifyPrimitive(name)) + eq +
+         encodeURIComponent(stringifyPrimitive(obj));
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+function map (xs, f) {
+  if (xs.map) return xs.map(f);
+  var res = [];
+  for (var i = 0; i < xs.length; i++) {
+    res.push(f(xs[i], i));
+  }
+  return res;
+}
+
+var objectKeys = Object.keys || function (obj) {
+  var res = [];
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
+  }
+  return res;
+};
+
+
+/***/ }),
+/* 208 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/upload/base.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = exports.RETRY_CODE_LIST = exports.FREEZE_CODE_LIST = exports.DEFAULT_CHUNK_SIZE = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _errors = __webpack_require__(/*! ../errors */ 191);
+var utils = _interopRequireWildcard(__webpack_require__(/*! ../utils */ 193));function _getRequireWildcardCache() {if (typeof WeakMap !== "function") return null;var cache = new WeakMap();_getRequireWildcardCache = function _getRequireWildcardCache() {return cache;};return cache;}function _interopRequireWildcard(obj) {if (obj && obj.__esModule) {return obj;}if (obj === null || typeof obj !== "object" && typeof obj !== "function") {return { default: obj };}var cache = _getRequireWildcardCache();if (cache && cache.has(obj)) {return cache.get(obj);}var newObj = {};var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;for (var key in obj) {if (Object.prototype.hasOwnProperty.call(obj, key)) {var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;if (desc && (desc.get || desc.set)) {Object.defineProperty(newObj, key, desc);} else {newObj[key] = obj[key];}}}newObj.default = obj;if (cache) {cache.set(obj, newObj);}return newObj;}var __assign = void 0 && (void 0).__assign || function () {__assign = Object.assign || function (t) {for (var s, i = 1, n = arguments.length; i < n; i++) {s = arguments[i];for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];}}return t;};return __assign.apply(this, arguments);};var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};var __read = void 0 && (void 0).__read || function (o, n) {var m = typeof Symbol === "function" && o[Symbol.iterator];if (!m) return o;var i = m.call(o),r,ar = [],e;try {while ((n === void 0 || n-- > 0) && !(r = i.next()).done) {ar.push(r.value);}} catch (error) {e = { error: error };} finally {try {if (r && !r.done && (m = i["return"])) m.call(i);} finally {if (e) throw e.error;}}return ar;};var __spread = void 0 && (void 0).__spread || function () {for (var ar = [], i = 0; i < arguments.length; i++) {ar = ar.concat(__read(arguments[i]));}return ar;};
+var DEFAULT_CHUNK_SIZE = 4; // 单位 MB
+// code 信息地址 https://developer.qiniu.com/kodo/3928/error-responses
+exports.DEFAULT_CHUNK_SIZE = DEFAULT_CHUNK_SIZE;var FREEZE_CODE_LIST = [0, 502, 503, 504, 599]; // 将会冻结当前 host 的 code
+exports.FREEZE_CODE_LIST = FREEZE_CODE_LIST;var RETRY_CODE_LIST = __spread(FREEZE_CODE_LIST, [612]); // 会进行重试的 code
+exports.RETRY_CODE_LIST = RETRY_CODE_LIST;var GB = Math.pow(1024, 3);
+var Base = /** @class */function () {
+  function Base(options, handlers, hostPool, logger) {
+    this.hostPool = hostPool;
+    this.logger = logger;
+    this.aborted = false;
+    this.retryCount = 0;
+    this.xhrList = [];
+    this.config = options.config;
+    logger.info('config inited.', this.config);
+    this.putExtra = __assign({ fname: '' }, options.putExtra);
+    logger.info('putExtra inited.', this.putExtra);
+    this.key = options.key;
+    this.file = options.file;
+    this.token = options.token;
+    this.onData = handlers.onData;
+    this.onError = handlers.onError;
+    this.onComplete = handlers.onComplete;
+    try {
+      var putPolicy = utils.getPutPolicy(this.token);
+      this.bucketName = putPolicy.bucketName;
+      this.assessKey = putPolicy.assessKey;
+    }
+    catch (error) {
+      logger.error('get putPolicy from token failed.', error);
+      this.onError(error);
+    }
+  }
+  // 检查并更新 upload host
+  Base.prototype.checkAndUpdateUploadHost = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var newHost;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            // 从 hostPool 中获取一个可用的 host 挂载在 this
+            this.logger.info('get available upload host.');
+            return [4 /*yield*/, this.hostPool.getUp(this.assessKey, this.bucketName, this.config.upprotocol)];
+          case 1:
+            newHost = _a.sent();
+            if (newHost == null) {
+              throw new _errors.QiniuError(_errors.QiniuErrorName.NotAvailableUploadHost, 'no available upload host.');
+            }
+            if (this.uploadHost != null && this.uploadHost.host !== newHost.host) {
+              this.logger.warn("host switches from " + this.uploadHost.host + " to " + newHost.host + ".");
+            } else
+            {
+              this.logger.info("use host " + newHost.host + ".");
+            }
+            this.uploadHost = newHost;
+            return [2 /*return*/];}
+
+      });
+    });
+  };
+  // 检查并解冻当前的 host
+  Base.prototype.checkAndUnfreezeHost = function () {
+    this.logger.info('check unfreeze host.');
+    if (this.uploadHost != null && this.uploadHost.isFrozen()) {
+      this.logger.warn(this.uploadHost.host + " will be unfrozen.");
+      this.uploadHost.unfreeze();
+    }
+  };
+  // 检查并更新冻结当前的 host
+  Base.prototype.checkAndFreezeHost = function (error) {
+    this.logger.info('check freeze host.');
+    if (error instanceof _errors.QiniuRequestError && this.uploadHost != null) {
+      if (FREEZE_CODE_LIST.includes(error.code)) {
+        this.logger.warn(this.uploadHost.host + " will be temporarily frozen.");
+        this.uploadHost.freeze();
+      }
+    }
+  };
+  Base.prototype.handleError = function (error) {
+    this.logger.error(error.message);
+    this.onError(error);
+  };
+  /**
+      * @returns Promise 返回结果与上传最终状态无关，状态信息请通过 [Subscriber] 获取。
+      * @description 上传文件，状态信息请通过 [Subscriber] 获取。
+      */
+  Base.prototype.putFile = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var result, err_1, reqId, code, notReachRetryCount, needRetry;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            this.aborted = false;
+            if (!this.putExtra.fname) {
+              this.logger.info('use file.name as fname.');
+              this.putExtra.fname = this.file.name;
+            }
+            if (this.file.size > 10000 * GB) {
+              this.handleError(new _errors.QiniuError(_errors.QiniuErrorName.InvalidFile, 'file size exceed maximum value 10000G'));
+              return [2 /*return*/];
+            }
+            if (this.putExtra.customVars) {
+              if (!utils.isCustomVarsValid(this.putExtra.customVars)) {
+                this.handleError(new _errors.QiniuError(_errors.QiniuErrorName.InvalidCustomVars,
+                // FIXME: width => with
+                'customVars key should start width x:'));
+                return [2 /*return*/];
+              }
+            }
+            if (this.putExtra.metadata) {
+              if (!utils.isMetaDataValid(this.putExtra.metadata)) {
+                this.handleError(new _errors.QiniuError(_errors.QiniuErrorName.InvalidMetadata, 'metadata key should start with x-qn-meta-'));
+                return [2 /*return*/];
+              }
+            }
+            _a.label = 1;
+          case 1:
+            _a.trys.push([1, 4,, 5]);
+            this.uploadAt = new Date().getTime();
+            return [4 /*yield*/, this.checkAndUpdateUploadHost()];
+          case 2:
+            _a.sent();
+            return [4 /*yield*/, this.run()];
+          case 3:
+            result = _a.sent();
+            this.onComplete(result.data);
+            this.checkAndUnfreezeHost();
+            this.sendLog(result.reqId, 200);
+            return [2 /*return*/];
+          case 4:
+            err_1 = _a.sent();
+            this.logger.error(err_1);
+            this.clear();
+            if (err_1 instanceof _errors.QiniuRequestError) {
+              reqId = this.aborted ? '' : err_1.reqId;
+              code = this.aborted ? -2 : err_1.code;
+              this.sendLog(reqId, code);
+              // 检查并冻结当前的 host
+              this.checkAndFreezeHost(err_1);
+              notReachRetryCount = ++this.retryCount <= this.config.retryCount;
+              needRetry = !this.aborted && RETRY_CODE_LIST.includes(err_1.code);
+              // 以下条件满足其中之一则会进行重新上传：
+              // 1. 满足 needRetry 的条件且 retryCount 不为 0
+              // 2. uploadId 无效时在 resume 里会清除本地数据，并且这里触发重新上传
+              if (needRetry && notReachRetryCount) {
+                this.logger.warn("error auto retry: " + this.retryCount + "/" + this.config.retryCount + ".");
+                this.putFile();
+                return [2 /*return*/];
+              }
+            }
+            this.onError(err_1);
+            return [3 /*break*/, 5];
+          case 5:return [2 /*return*/];}
+
+      });
+    });
+  };
+  Base.prototype.clear = function () {
+    this.logger.info('start cleaning all xhr.');
+    this.xhrList.forEach(function (xhr) {
+      xhr.onreadystatechange = null;
+      xhr.abort();
+    });
+    this.logger.info('cleanup completed.');
+    this.xhrList = [];
+  };
+  Base.prototype.stop = function () {
+    this.logger.info('stop.');
+    this.clear();
+    this.aborted = true;
+  };
+  Base.prototype.addXhr = function (xhr) {
+    this.xhrList.push(xhr);
+  };
+  Base.prototype.sendLog = function (reqId, code) {
+    var _a, _b;
+    this.logger.report({
+      code: code,
+      reqId: reqId,
+      remoteIp: '',
+      upType: 'jssdk-h5',
+      size: this.file.size,
+      time: Math.floor(this.uploadAt / 1000),
+      port: utils.getPortFromUrl((_a = this.uploadHost) === null || _a === void 0 ? void 0 : _a.getUrl()),
+      host: utils.getDomainFromUrl((_b = this.uploadHost) === null || _b === void 0 ? void 0 : _b.getUrl()),
+      bytesSent: this.progress ? this.progress.total.loaded : 0,
+      duration: Math.floor((new Date().getTime() - this.uploadAt) / 1000) });
+
+  };
+  Base.prototype.getProgressInfoItem = function (loaded, size, fromCache) {
+    return __assign({ size: size,
+      loaded: loaded, percent: loaded / size * 100 }, fromCache == null ? {} : { fromCache: fromCache });
+  };
+  return Base;
+}();var _default =
+Base;exports.default = _default;
+
+/***/ }),
+/* 209 */
+/*!*********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/upload/direct.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _crc = __webpack_require__(/*! ../utils/crc32 */ 210);
+var _api = __webpack_require__(/*! ../api */ 204);
+var _base = _interopRequireDefault(__webpack_require__(/*! ./base */ 208));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var __extends = void 0 && (void 0).__extends || function () {var _extendStatics = function extendStatics(d, b) {_extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {d.__proto__ = b;} || function (d, b) {for (var p in b) {if (b.hasOwnProperty(p)) d[p] = b[p];}};return _extendStatics(d, b);};return function (d, b) {_extendStatics(d, b);function __() {this.constructor = d;}d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());};}();var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};
+var Direct = /** @class */function (_super) {
+  __extends(Direct, _super);
+  function Direct() {
+    return _super !== null && _super.apply(this, arguments) || this;
+  }
+  Direct.prototype.run = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var formData, crcSign, customVars_1, result;
+      var _this = this;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            this.logger.info('start run Direct.');
+            formData = new FormData();
+            formData.append('file', this.file);
+            formData.append('token', this.token);
+            if (this.key != null) {
+              formData.append('key', this.key);
+            }
+            formData.append('fname', this.putExtra.fname);
+            if (!this.config.checkByServer) return [3 /*break*/, 2];
+            return [4 /*yield*/, _crc.CRC32.file(this.file)];
+          case 1:
+            crcSign = _a.sent();
+            formData.append('crc32', crcSign.toString());
+            _a.label = 2;
+          case 2:
+            if (this.putExtra.customVars) {
+              this.logger.info('init customVars.');
+              customVars_1 = this.putExtra.customVars;
+              Object.keys(customVars_1).forEach(function (key) {return formData.append(key, customVars_1[key].toString());});
+              this.logger.info('customVars inited.');
+            }
+            this.logger.info('formData inited.');
+            return [4 /*yield*/, (0, _api.direct)(this.uploadHost.getUrl(), formData, {
+              onProgress: function onProgress(data) {
+                _this.updateDirectProgress(data.loaded, data.total);
+              },
+              onCreate: function onCreate(xhr) {return _this.addXhr(xhr);} })];
+
+          case 3:
+            result = _a.sent();
+            this.logger.info('Direct progress finish.');
+            this.finishDirectProgress();
+            return [2 /*return*/, result];}
+
+      });
+    });
+  };
+  Direct.prototype.updateDirectProgress = function (loaded, total) {
+    // 当请求未完成时可能进度会达到100，所以total + 1来防止这种情况出现
+    this.progress = { total: this.getProgressInfoItem(loaded, total + 1) };
+    this.onData(this.progress);
+  };
+  Direct.prototype.finishDirectProgress = function () {
+    // 在某些浏览器环境下，xhr 的 progress 事件无法被触发，progress 为 null，这里 fake 下
+    if (!this.progress) {
+      this.logger.warn('progress is null.');
+      this.progress = { total: this.getProgressInfoItem(this.file.size, this.file.size) };
+      this.onData(this.progress);
+      return;
+    }
+    var total = this.progress.total;
+    this.progress = { total: this.getProgressInfoItem(total.loaded + 1, total.size) };
+    this.onData(this.progress);
+  };
+  return Direct;
+}(_base.default);var _default =
+Direct;exports.default = _default;
+
+/***/ }),
+/* 210 */
+/*!*******************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/crc32.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.CRC32 = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _helper = __webpack_require__(/*! ./helper */ 197); /* eslint-disable no-bitwise */var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};
+/**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  * 以下 class 实现参考
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  * https://github.com/Stuk/jszip/blob/d4702a70834bd953d4c2d0bc155fad795076631a/lib/crc32.js
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  * 该实现主要针对大文件优化、对计算的值进行了 `>>> 0` 运算（为与服务端保持一致）
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  */
+var CRC32 = /** @class */function () {
+  function CRC32() {
+    this.crc = -1;
+    this.table = this.makeTable();
+  }
+  CRC32.prototype.makeTable = function () {
+    var table = new Array();
+    for (var i = 0; i < 256; i++) {
+      var t = i;
+      for (var j = 0; j < 8; j++) {
+        if (t & 1) {
+          // IEEE 标准
+          t = t >>> 1 ^ 0xEDB88320;
+        } else
+        {
+          t >>>= 1;
+        }
+      }
+      table[i] = t;
+    }
+    return table;
+  };
+  CRC32.prototype.append = function (data) {
+    var crc = this.crc;
+    for (var offset = 0; offset < data.byteLength; offset++) {
+      crc = crc >>> 8 ^ this.table[(crc ^ data[offset]) & 0xFF];
+    }
+    this.crc = crc;
+  };
+  CRC32.prototype.compute = function () {
+    return (this.crc ^ -1) >>> 0;
+  };
+  CRC32.prototype.readAsUint8Array = function (file) {
+    return __awaiter(this, void 0, void 0, function () {
+      var _a;
+      return __generator(this, function (_b) {
+        switch (_b.label) {
+          case 0:
+            if (!(typeof file.arrayBuffer === 'function')) return [3 /*break*/, 2];
+            _a = Uint8Array.bind;
+            return [4 /*yield*/, file.arrayBuffer()];
+          case 1:return [2 /*return*/, new (_a.apply(Uint8Array, [void 0, _b.sent()]))()];
+          case 2:return [2 /*return*/, new Promise(function (resolve, reject) {
+              var reader = new FileReader();
+              reader.onload = function () {
+                if (reader.result == null) {
+                  reject();
+                  return;
+                }
+                if (typeof reader.result === 'string') {
+                  reject();
+                  return;
+                }
+                resolve(new Uint8Array(reader.result));
+              };
+              reader.readAsArrayBuffer(file);
+            })];}
+
+      });
+    });
+  };
+  CRC32.prototype.file = function (file) {
+    return __awaiter(this, void 0, void 0, function () {
+      var _a, count, index, start, end, chuck;
+      return __generator(this, function (_b) {
+        switch (_b.label) {
+          case 0:
+            if (!(file.size <= _helper.MB)) return [3 /*break*/, 2];
+            _a = this.append;
+            return [4 /*yield*/, this.readAsUint8Array(file)];
+          case 1:
+            _a.apply(this, [_b.sent()]);
+            return [2 /*return*/, this.compute()];
+          case 2:
+            count = Math.ceil(file.size / _helper.MB);
+            index = 0;
+            _b.label = 3;
+          case 3:
+            if (!(index < count)) return [3 /*break*/, 6];
+            start = index * _helper.MB;
+            end = index === count - 1 ? file.size : start + _helper.MB;
+            return [4 /*yield*/, this.readAsUint8Array(file.slice(start, end))];
+          case 4:
+            chuck = _b.sent();
+            this.append(new Uint8Array(chuck));
+            _b.label = 5;
+          case 5:
+            index++;
+            return [3 /*break*/, 3];
+          case 6:return [2 /*return*/, this.compute()];}
+
+      });
+    });
+  };
+  CRC32.file = function (file) {
+    var crc = new CRC32();
+    return crc.file(file);
+  };
+  return CRC32;
+}();exports.CRC32 = CRC32;
+
+/***/ }),
+/* 211 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/logger/index.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _reportV = __webpack_require__(/*! ./report-v3 */ 212);var __read = void 0 && (void 0).__read || function (o, n) {var m = typeof Symbol === "function" && o[Symbol.iterator];if (!m) return o;var i = m.call(o),r,ar = [],e;try {while ((n === void 0 || n-- > 0) && !(r = i.next()).done) {ar.push(r.value);}} catch (error) {e = { error: error };} finally {try {if (r && !r.done && (m = i["return"])) m.call(i);} finally {if (e) throw e.error;}}return ar;};var __spread = void 0 && (void 0).__spread || function () {for (var ar = [], i = 0; i < arguments.length; i++) {ar = ar.concat(__read(arguments[i]));}return ar;};
+var Logger = /** @class */function () {
+  function Logger(token, disableReport, level, prefix) {
+    if (disableReport === void 0) {disableReport = true;}
+    if (level === void 0) {level = 'OFF';}
+    if (prefix === void 0) {prefix = 'UPLOAD';}
+    this.token = token;
+    this.disableReport = disableReport;
+    this.level = level;
+    this.prefix = prefix;
+    // 为每个类分配一个 id
+    // 用以区分不同的上传任务
+    this.id = ++Logger.id;
+  }
+  Logger.prototype.getPrintPrefix = function (level) {
+    return "Qiniu-JS-SDK [" + level + "][" + this.prefix + "#" + this.id + "]:";
+  };
+  /**
+      * @param  {V3LogInfo} data 上报的数据。
+      * @param  {boolean} retry 重试次数，可选，默认为 3。
+      * @description 向服务端上报统计信息。
+      */
+  Logger.prototype.report = function (data, retry) {
+    if (this.disableReport)
+    return;
+    try {
+      (0, _reportV.reportV3)(this.token, data, retry);
+    }
+    catch (error) {
+      this.warn(error);
+    }
+  };
+  /**
+      * @param  {unknown[]} ...args
+      * @description 输出 info 级别的调试信息。
+      */
+  Logger.prototype.info = function () {
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+      args[_i] = arguments[_i];
+    }
+    var allowLevel = ['INFO'];
+    if (allowLevel.includes(this.level)) {
+      // eslint-disable-next-line no-console
+      console.log.apply(console, __spread([this.getPrintPrefix('INFO')], args));
+    }
+  };
+  /**
+      * @param  {unknown[]} ...args
+      * @description 输出 warn 级别的调试信息。
+      */
+  Logger.prototype.warn = function () {
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+      args[_i] = arguments[_i];
+    }
+    var allowLevel = ['INFO', 'WARN'];
+    if (allowLevel.includes(this.level)) {
+      // eslint-disable-next-line no-console
+      console.warn.apply(console, __spread([this.getPrintPrefix('WARN')], args));
+    }
+  };
+  /**
+      * @param  {unknown[]} ...args
+      * @description 输出 error 级别的调试信息。
+      */
+  Logger.prototype.error = function () {
+    var args = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+      args[_i] = arguments[_i];
+    }
+    var allowLevel = ['INFO', 'WARN', 'ERROR'];
+    if (allowLevel.includes(this.level)) {
+      // eslint-disable-next-line no-console
+      console.error.apply(console, __spread([this.getPrintPrefix('ERROR')], args));
+    }
+  };
+  Logger.id = 0;
+  return Logger;
+}();var _default =
+Logger;exports.default = _default;
+
+/***/ }),
+/* 212 */
+/*!************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/logger/report-v3.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.reportV3 = reportV3;var _utils = __webpack_require__(/*! ../utils */ 193);
+/**
+                                                                                                                                          * @param  {string} token 上传使用的 token
+                                                                                                                                          * @param  {V3LogInfo} data 上报的统计数据
+                                                                                                                                          * @param  {number} retry 重试的次数，默认值 3
+                                                                                                                                          * @description v3 版本的日志上传接口，参考文档 https://github.com/qbox/product/blob/master/kodo/uplog.md#%E7%89%88%E6%9C%AC-3。
+                                                                                                                                          */
+function reportV3(token, data, retry) {
+  if (retry === void 0) {retry = 3;}
+  var xhr = (0, _utils.createXHR)();
+  xhr.open('POST', 'https://uplog.qbox.me/log/3');
+  xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+  xhr.setRequestHeader('Authorization', (0, _utils.getAuthHeaders)(token).Authorization);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status !== 200 && retry > 0) {
+      reportV3(token, data, retry - 1);
+    }
+  };
+  // 顺序参考：https://github.com/qbox/product/blob/master/kodo/uplog.md#%E7%89%88%E6%9C%AC-3
+  var stringifyData = [
+  data.code || '',
+  data.reqId || '',
+  data.host || '',
+  data.remoteIp || '',
+  data.port || '',
+  data.duration || '',
+  data.time || '',
+  data.bytesSent || '',
+  data.upType || '',
+  data.size || ''].
+  join(',');
+  xhr.send(stringifyData);
+}
+
+/***/ }),
+/* 213 */
+/*!********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/upload/hosts.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.HostPool = exports.Host = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _api = __webpack_require__(/*! ../api */ 204);var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};var __read = void 0 && (void 0).__read || function (o, n) {var m = typeof Symbol === "function" && o[Symbol.iterator];if (!m) return o;var i = m.call(o),r,ar = [],e;try {while ((n === void 0 || n-- > 0) && !(r = i.next()).done) {ar.push(r.value);}} catch (error) {e = { error: error };} finally {try {if (r && !r.done && (m = i["return"])) m.call(i);} finally {if (e) throw e.error;}}return ar;};var __spread = void 0 && (void 0).__spread || function () {for (var ar = [], i = 0; i < arguments.length; i++) {ar = ar.concat(__read(arguments[i]));}return ar;};
+/**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            * @description 解冻时间，key 是 host，value 为解冻时间
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            */
+var unfreezeTimeMap = new Map();
+var Host = /** @class */function () {
+  function Host(host, protocol) {
+    this.host = host;
+    this.protocol = protocol;
+  }
+  /**
+     * @description 当前 host 是否为冻结状态
+     */
+  Host.prototype.isFrozen = function () {
+    var currentTime = new Date().getTime();
+    var unfreezeTime = unfreezeTimeMap.get(this.host);
+    return unfreezeTime != null && unfreezeTime >= currentTime;
+  };
+  /**
+      * @param  {number} time 单位秒，默认 20s
+      * @description 冻结该 host 对象，该 host 将在指定时间内不可用
+      */
+  Host.prototype.freeze = function (time) {
+    if (time === void 0) {time = 20;}
+    var unfreezeTime = new Date().getTime() + time * 1000;
+    unfreezeTimeMap.set(this.host, unfreezeTime);
+  };
+  /**
+      * @description 解冻该 host
+      */
+  Host.prototype.unfreeze = function () {
+    unfreezeTimeMap["delete"](this.host);
+  };
+  /**
+      * @description 获取当前 host 的完整 url
+      */
+  Host.prototype.getUrl = function () {
+    return this.protocol + "://" + this.host;
+  };
+  /**
+      * @description 获取解冻时间
+      */
+  Host.prototype.getUnfreezeTime = function () {
+    return unfreezeTimeMap.get(this.host);
+  };
+  return Host;
+}();exports.Host = Host;
+
+var HostPool = /** @class */function () {
+  /**
+                                          * @param  {string[]} initHosts
+                                          * @description 如果在构造时传入 initHosts，则该 host 池始终使用传入的 initHosts 做为可用的数据
+                                          */
+  function HostPool(initHosts) {
+    if (initHosts === void 0) {initHosts = [];}
+    this.initHosts = initHosts;
+    /**
+                                 * @description 缓存的 host 表，以 bucket 和 accessKey 作为 key
+                                 */
+    this.cachedHostsMap = new Map();
+  }
+  /**
+     * @param  {string} accessKey
+     * @param  {string} bucketName
+     * @param  {string[]} hosts
+     * @param  {InternalConfig['upprotocol']} protocol
+     * @returns  {void}
+     * @description 注册可用 host
+     */
+  HostPool.prototype.register = function (accessKey, bucketName, hosts, protocol) {
+    this.cachedHostsMap.set(accessKey + "@" + bucketName, hosts.map(function (host) {return new Host(host, protocol);}));
+  };
+  /**
+      * @param  {string} accessKey
+      * @param  {string} bucketName
+      * @param  {InternalConfig['upprotocol']} protocol
+      * @returns  {Promise<void>}
+      * @description 刷新最新的 host 数据，如果用户在构造时该类时传入了 host 或者已经存在缓存则不会发起请求
+      */
+  HostPool.prototype.refresh = function (accessKey, bucketName, protocol) {
+    var _a, _b, _c, _d;
+    return __awaiter(this, void 0, void 0, function () {
+      var cachedHostList, response, stashHosts;
+      return __generator(this, function (_e) {
+        switch (_e.label) {
+          case 0:
+            cachedHostList = this.cachedHostsMap.get(accessKey + "@" + bucketName) || [];
+            if (cachedHostList.length > 0)
+            return [2 /*return*/];
+            if (this.initHosts.length > 0) {
+              this.register(accessKey, bucketName, this.initHosts, protocol);
+              return [2 /*return*/];
+            }
+            return [4 /*yield*/, (0, _api.getUpHosts)(accessKey, bucketName, protocol)];
+          case 1:
+            response = _e.sent();
+            if ((response === null || response === void 0 ? void 0 : response.data) != null) {
+              stashHosts = __spread(((_b = (_a = response.data.up) === null || _a === void 0 ? void 0 : _a.acc) === null || _b === void 0 ? void 0 : _b.main) || [], ((_d = (_c = response.data.up) === null || _c === void 0 ? void 0 : _c.acc) === null || _d === void 0 ? void 0 : _d.backup) || []);
+              this.register(accessKey, bucketName, stashHosts, protocol);
+            }
+            return [2 /*return*/];}
+
+      });
+    });
+  };
+  /**
+      * @param  {string} accessKey
+      * @param  {string} bucketName
+      * @param  {InternalConfig['upprotocol']} protocol
+      * @returns  {Promise<Host | null>}
+      * @description 获取一个可用的上传 Host，排除已冻结的
+      */
+  HostPool.prototype.getUp = function (accessKey, bucketName, protocol) {
+    return __awaiter(this, void 0, void 0, function () {
+      var cachedHostList, availableHostList, priorityQueue;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:return [4 /*yield*/, this.refresh(accessKey, bucketName, protocol)];
+          case 1:
+            _a.sent();
+            cachedHostList = this.cachedHostsMap.get(accessKey + "@" + bucketName) || [];
+            if (cachedHostList.length === 0)
+            return [2 /*return*/, null];
+            availableHostList = cachedHostList.filter(function (host) {return !host.isFrozen();});
+            if (availableHostList.length > 0)
+            return [2 /*return*/, availableHostList[0]
+            // 无可用的，去取离解冻最近的 host
+            ];
+            priorityQueue = cachedHostList.
+            slice().sort(function (hostA, hostB) {return (hostA.getUnfreezeTime() || 0) - (hostB.getUnfreezeTime() || 0);});
+            return [2 /*return*/, priorityQueue[0]];}
+
+      });
+    });
+  };
+  return HostPool;
+}();exports.HostPool = HostPool;
+
+/***/ }),
+/* 214 */
+/*!**********************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/node_modules/qiniu-js/esm/utils/compress.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _errors = __webpack_require__(/*! ../errors */ 191);
+var _helper = __webpack_require__(/*! ./helper */ 197);var __assign = void 0 && (void 0).__assign || function () {__assign = Object.assign || function (t) {for (var s, i = 1, n = arguments.length; i < n; i++) {s = arguments[i];for (var p in s) {if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];}}return t;};return __assign.apply(this, arguments);};var __awaiter = void 0 && (void 0).__awaiter || function (thisArg, _arguments, P, generator) {function adopt(value) {return value instanceof P ? value : new P(function (resolve) {resolve(value);});}return new (P || (P = Promise))(function (resolve, reject) {function fulfilled(value) {try {step(generator.next(value));} catch (e) {reject(e);}}function rejected(value) {try {step(generator["throw"](value));} catch (e) {reject(e);}}function step(result) {result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);}step((generator = generator.apply(thisArg, _arguments || [])).next());});};var __generator = void 0 && (void 0).__generator || function (thisArg, body) {var _ = { label: 0, sent: function sent() {if (t[0] & 1) throw t[1];return t[1];}, trys: [], ops: [] },f,y,t,g;return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {return this;}), g;function verb(n) {return function (v) {return step([n, v]);};}function step(op) {if (f) throw new TypeError("Generator is already executing.");while (_) {try {if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;if (y = 0, t) op = [op[0] & 2, t.value];switch (op[0]) {case 0:case 1:t = op;break;case 4:_.label++;return { value: op[1], done: false };case 5:_.label++;y = op[1];op = [0];continue;case 7:op = _.ops.pop();_.trys.pop();continue;default:if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {_ = 0;continue;}if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {_.label = op[1];break;}if (op[0] === 6 && _.label < t[1]) {_.label = t[1];t = op;break;}if (t && _.label < t[2]) {_.label = t[2];_.ops.push(op);break;}if (t[2]) _.ops.pop();_.trys.pop();continue;}op = body.call(thisArg, _);} catch (e) {op = [6, e];y = 0;} finally {f = t = 0;}}if (op[0] & 5) throw op[1];return { value: op[0] ? op[1] : void 0, done: true };}};
+var mimeTypes = {
+  PNG: 'image/png',
+  JPEG: 'image/jpeg',
+  WEBP: 'image/webp',
+  BMP: 'image/bmp' };
+
+var maxSteps = 4;
+var scaleFactor = Math.log(2);
+var supportMimeTypes = Object.keys(mimeTypes).map(function (type) {return mimeTypes[type];});
+var defaultType = mimeTypes.JPEG;
+function isSupportedType(type) {
+  return supportMimeTypes.includes(type);
+}
+var Compress = /** @class */function () {
+  function Compress(file, config) {
+    this.file = file;
+    this.config = config;
+    this.config = __assign({ quality: 0.92, noCompressIfLarger: false }, this.config);
+  }
+  Compress.prototype.process = function () {
+    return __awaiter(this, void 0, void 0, function () {
+      var srcDimension, originImage, canvas, scale, scaleCanvas, distBlob;
+      return __generator(this, function (_a) {
+        switch (_a.label) {
+          case 0:
+            this.outputType = this.file.type;
+            srcDimension = {};
+            if (!isSupportedType(this.file.type)) {
+              throw new _errors.QiniuError(_errors.QiniuErrorName.UnsupportedFileType, "unsupported file type: " + this.file.type);
+            }
+            return [4 /*yield*/, this.getOriginImage()];
+          case 1:
+            originImage = _a.sent();
+            return [4 /*yield*/, this.getCanvas(originImage)];
+          case 2:
+            canvas = _a.sent();
+            scale = 1;
+            if (this.config.maxWidth) {
+              scale = Math.min(1, this.config.maxWidth / canvas.width);
+            }
+            if (this.config.maxHeight) {
+              scale = Math.min(1, scale, this.config.maxHeight / canvas.height);
+            }
+            srcDimension.width = canvas.width;
+            srcDimension.height = canvas.height;
+            return [4 /*yield*/, this.doScale(canvas, scale)];
+          case 3:
+            scaleCanvas = _a.sent();
+            distBlob = this.toBlob(scaleCanvas);
+            if (distBlob.size > this.file.size && this.config.noCompressIfLarger) {
+              return [2 /*return*/, {
+                dist: this.file,
+                width: srcDimension.width,
+                height: srcDimension.height }];
+
+            }
+            return [2 /*return*/, {
+              dist: distBlob,
+              width: scaleCanvas.width,
+              height: scaleCanvas.height }];}
+
+
+      });
+    });
+  };
+  Compress.prototype.clear = function (ctx, width, height) {
+    // jpeg 没有 alpha 通道，透明区间会被填充成黑色，这里把透明区间填充为白色
+    if (this.outputType === defaultType) {
+      ctx.fillStyle = '#fff';
+      ctx.fillRect(0, 0, width, height);
+    } else
+    {
+      ctx.clearRect(0, 0, width, height);
+    }
+  };
+  /** 通过 file 初始化 image 对象 */
+  Compress.prototype.getOriginImage = function () {
+    var _this = this;
+    return new Promise(function (resolve, reject) {
+      var url = (0, _helper.createObjectURL)(_this.file);
+      var img = new Image();
+      img.onload = function () {
+        resolve(img);
+      };
+      img.onerror = function () {
+        reject('image load error');
+      };
+      img.src = url;
+    });
+  };
+  Compress.prototype.getCanvas = function (img) {
+    var _this = this;
+    return new Promise(function (resolve, reject) {
+      var canvas = document.createElement('canvas');
+      var context = canvas.getContext('2d');
+      if (!context) {
+        reject(new _errors.QiniuError(_errors.QiniuErrorName.GetCanvasContextFailed, 'context is null'));
+        return;
+      }
+      var width = img.width,height = img.height;
+      canvas.height = height;
+      canvas.width = width;
+      _this.clear(context, width, height);
+      context.drawImage(img, 0, 0);
+      resolve(canvas);
+    });
+  };
+  Compress.prototype.doScale = function (source, scale) {
+    return __awaiter(this, void 0, void 0, function () {
+      var sctx, steps, factor, mirror, mctx, width, height, originWidth, originHeight, src, context, i, dw, dh, canvas, data;
+      return __generator(this, function (_a) {
+        if (scale === 1) {
+          return [2 /*return*/, source];
+        }
+        sctx = source.getContext('2d');
+        steps = Math.min(maxSteps, Math.ceil(1 / scale / scaleFactor));
+        factor = Math.pow(scale, 1 / steps);
+        mirror = document.createElement('canvas');
+        mctx = mirror.getContext('2d');
+        width = source.width, height = source.height;
+        originWidth = width;
+        originHeight = height;
+        mirror.width = width;
+        mirror.height = height;
+        if (!mctx || !sctx) {
+          throw new _errors.QiniuError(_errors.QiniuErrorName.GetCanvasContextFailed, "mctx or sctx can't be null");
+        }
+        for (i = 0; i < steps; i++) {
+          dw = width * factor | 0 // eslint-disable-line no-bitwise
+          ;
+          dh = height * factor | 0 // eslint-disable-line no-bitwise
+          ;
+          // 到最后一步的时候 dw, dh 用目标缩放尺寸，否则会出现最后尺寸偏小的情况
+          if (i === steps - 1) {
+            dw = originWidth * scale;
+            dh = originHeight * scale;
+          }
+          if (i % 2 === 0) {
+            src = source;
+            context = mctx;
+          } else
+          {
+            src = mirror;
+            context = sctx;
+          }
+          // 每次画前都清空，避免图像重叠
+          this.clear(context, width, height);
+          context.drawImage(src, 0, 0, width, height, 0, 0, dw, dh);
+          width = dw;
+          height = dh;
+        }
+        canvas = src === source ? mirror : source;
+        data = context.getImageData(0, 0, width, height);
+        // resize
+        canvas.width = width;
+        canvas.height = height;
+        // store image data
+        context.putImageData(data, 0, 0);
+        return [2 /*return*/, canvas];
+      });
+    });
+  };
+  /** 这里把 base64 字符串转为 blob 对象 */
+  Compress.prototype.toBlob = function (result) {
+    var dataURL = result.toDataURL(this.outputType, this.config.quality);
+    var buffer = atob(dataURL.split(',')[1]).split('').map(function (char) {return char.charCodeAt(0);});
+    var blob = new Blob([new Uint8Array(buffer)], { type: this.outputType });
+    return blob;
+  };
+  return Compress;
+}();
+var compressImage = function compressImage(file, options) {return new Compress(file, options).process();};var _default =
+compressImage;exports.default = _default;
+
+/***/ }),
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */,
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */,
+/* 276 */,
+/* 277 */,
+/* 278 */,
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */,
+/* 295 */,
+/* 296 */,
+/* 297 */,
+/* 298 */,
+/* 299 */,
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */
+/*!*******************************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-uni.js ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = MeScroll; /* mescroll
+                                                                                                        * version 1.3.7
+                                                                                                        * 2021-04-12 wenju
+                                                                                                        * https://www.mescroll.com
+                                                                                                        */
+
+function MeScroll(options, isScrollBody) {
+  var me = this;
+  me.version = '1.3.7'; // mescroll版本号
+  me.options = options || {}; // 配置
+  me.isScrollBody = isScrollBody || false; // 滚动区域是否为原生页面滚动; 默认为scroll-view
+
+  me.isDownScrolling = false; // 是否在执行下拉刷新的回调
+  me.isUpScrolling = false; // 是否在执行上拉加载的回调
+  var hasDownCallback = me.options.down && me.options.down.callback; // 是否配置了down的callback
+
+  // 初始化下拉刷新
+  me.initDownScroll();
+  // 初始化上拉加载,则初始化
+  me.initUpScroll();
+
+  // 自动加载
+  setTimeout(function () {// 待主线程执行完毕再执行,避免new MeScroll未初始化,在回调获取不到mescroll的实例
+    // 自动触发下拉刷新 (只有配置了down的callback才自动触发下拉刷新)
+    if ((me.optDown.use || me.optDown.native) && me.optDown.auto && hasDownCallback) {
+      if (me.optDown.autoShowLoading) {
+        me.triggerDownScroll(); // 显示下拉进度,执行下拉回调
+      } else {
+        me.optDown.callback && me.optDown.callback(me); // 不显示下拉进度,直接执行下拉回调
+      }
+    }
+    // 自动触发上拉加载
+    if (!me.isUpAutoLoad) {// 部分小程序(头条小程序)emit是异步, 会导致isUpAutoLoad判断有误, 先延时确保先执行down的callback,再执行up的callback
+      setTimeout(function () {
+        me.optUp.use && me.optUp.auto && !me.isUpAutoLoad && me.triggerUpScroll();
+      }, 100);
+    }
+  }, 30); // 需让me.optDown.inited和me.optUp.inited先执行
+}
+
+/* 配置参数:下拉刷新 */
+MeScroll.prototype.extendDownScroll = function (optDown) {
+  // 下拉刷新的配置
+  MeScroll.extend(optDown, {
+    use: true, // 是否启用下拉刷新; 默认true
+    auto: true, // 是否在初始化完毕之后自动执行下拉刷新的回调; 默认true
+    native: false, // 是否使用系统自带的下拉刷新; 默认false; 仅mescroll-body生效 (值为true时,还需在pages配置enablePullDownRefresh:true;详请参考mescroll-native的案例)
+    autoShowLoading: false, // 如果设置auto=true(在初始化完毕之后自动执行下拉刷新的回调),那么是否显示下拉刷新的进度; 默认false
+    isLock: false, // 是否锁定下拉刷新,默认false;
+    offset: 80, // 在列表顶部,下拉大于80px,松手即可触发下拉刷新的回调
+    startTop: 100, // scroll-view快速滚动到顶部时,此时的scroll-top可能大于0, 此值用于控制最大的误差
+    inOffsetRate: 1, // 在列表顶部,下拉的距离小于offset时,改变下拉区域高度比例;值小于1且越接近0,高度变化越小,表现为越往下越难拉
+    outOffsetRate: 0.2, // 在列表顶部,下拉的距离大于offset时,改变下拉区域高度比例;值小于1且越接近0,高度变化越小,表现为越往下越难拉
+    bottomOffset: 20, // 当手指touchmove位置在距离body底部20px范围内的时候结束上拉刷新,避免Webview嵌套导致touchend事件不执行
+    minAngle: 45, // 向下滑动最少偏移的角度,取值区间  [0,90];默认45度,即向下滑动的角度大于45度则触发下拉;而小于45度,将不触发下拉,避免与左右滑动的轮播等组件冲突;
+    textInOffset: '下拉刷新', // 下拉的距离在offset范围内的提示文本
+    textOutOffset: '释放更新', // 下拉的距离大于offset范围的提示文本
+    textLoading: '加载中 ...', // 加载中的提示文本
+    textSuccess: '加载成功', // 加载成功的文本
+    textErr: '加载失败', // 加载失败的文本
+    beforeEndDelay: 0, // 延时结束的时长 (显示加载成功/失败的时长, android小程序设置此项结束下拉会卡顿, 配置后请注意测试)
+    bgColor: "transparent", // 背景颜色 (建议在pages.json中再设置一下backgroundColorTop)
+    textColor: "gray", // 文本颜色 (当bgColor配置了颜色,而textColor未配置时,则textColor会默认为白色)
+    inited: null, // 下拉刷新初始化完毕的回调
+    inOffset: null, // 下拉的距离进入offset范围内那一刻的回调
+    outOffset: null, // 下拉的距离大于offset那一刻的回调
+    onMoving: null, // 下拉过程中的回调,滑动过程一直在执行; rate下拉区域当前高度与指定距离的比值(inOffset: rate<1; outOffset: rate>=1); downHight当前下拉区域的高度
+    beforeLoading: null, // 准备触发下拉刷新的回调: 如果return true,将不触发showLoading和callback回调; 常用来完全自定义下拉刷新, 参考案例【淘宝 v6.8.0】
+    showLoading: null, // 显示下拉刷新进度的回调
+    afterLoading: null, // 显示下拉刷新进度的回调之后,马上要执行的代码 (如: 在wxs中使用)
+    beforeEndDownScroll: null, // 准备结束下拉的回调. 返回结束下拉的延时执行时间,默认0ms; 常用于结束下拉之前再显示另外一小段动画,才去隐藏下拉刷新的场景, 参考案例【dotJump】
+    endDownScroll: null, // 结束下拉刷新的回调
+    afterEndDownScroll: null, // 结束下拉刷新的回调,马上要执行的代码 (如: 在wxs中使用)
+    callback: function callback(mescroll) {
+      // 下拉刷新的回调;默认重置上拉加载列表为第一页
+      mescroll.resetUpScroll();
+    } });
+
+};
+
+/* 配置参数:上拉加载 */
+MeScroll.prototype.extendUpScroll = function (optUp) {
+  // 上拉加载的配置
+  MeScroll.extend(optUp, {
+    use: true, // 是否启用上拉加载; 默认true
+    auto: true, // 是否在初始化完毕之后自动执行上拉加载的回调; 默认true
+    isLock: false, // 是否锁定上拉加载,默认false;
+    isBoth: true, // 上拉加载时,如果滑动到列表顶部是否可以同时触发下拉刷新;默认true,两者可同时触发;
+    callback: null, // 上拉加载的回调;function(page,mescroll){ }
+    page: {
+      num: 0, // 当前页码,默认0,回调之前会加1,即callback(page)会从1开始
+      size: 10, // 每页数据的数量
+      time: null // 加载第一页数据服务器返回的时间; 防止用户翻页时,后台新增了数据从而导致下一页数据重复;
+    },
+    noMoreSize: 5, // 如果列表已无数据,可设置列表的总数量要大于等于5条才显示无更多数据;避免列表数据过少(比如只有一条数据),显示无更多数据会不好看
+    offset: 150, // 距底部多远时,触发upCallback,仅mescroll-uni生效 ( mescroll-body配置的是pages.json的 onReachBottomDistance )
+    textLoading: '加载中 ...', // 加载中的提示文本
+    textNoMore: '-- END --', // 没有更多数据的提示文本
+    bgColor: "transparent", // 背景颜色 (建议在pages.json中再设置一下backgroundColorBottom)
+    textColor: "gray", // 文本颜色 (当bgColor配置了颜色,而textColor未配置时,则textColor会默认为白色)
+    inited: null, // 初始化完毕的回调
+    showLoading: null, // 显示加载中的回调
+    showNoMore: null, // 显示无更多数据的回调
+    hideUpScroll: null, // 隐藏上拉加载的回调
+    errDistance: 60, // endErr的时候需往上滑动一段距离,使其往下滑动时再次触发onReachBottom,仅mescroll-body生效
+    toTop: {
+      // 回到顶部按钮,需配置src才显示
+      src: null, // 图片路径,默认null (绝对路径或网络图)
+      offset: 1000, // 列表滚动多少距离才显示回到顶部按钮,默认1000
+      duration: 300, // 回到顶部的动画时长,默认300ms (当值为0或300则使用系统自带回到顶部,更流畅; 其他值则通过step模拟,部分机型可能不够流畅,所以非特殊情况不建议修改此项)
+      btnClick: null, // 点击按钮的回调
+      onShow: null, // 是否显示的回调
+      zIndex: 9990, // fixed定位z-index值
+      left: null, // 到左边的距离, 默认null. 此项有值时,right不生效. (支持20, "20rpx", "20px", "20%"格式的值, 其中纯数字则默认单位rpx)
+      right: 20, // 到右边的距离, 默认20 (支持20, "20rpx", "20px", "20%"格式的值, 其中纯数字则默认单位rpx)
+      bottom: 120, // 到底部的距离, 默认120 (支持20, "20rpx", "20px", "20%"格式的值, 其中纯数字则默认单位rpx)
+      safearea: false, // bottom的偏移量是否加上底部安全区的距离, 默认false, 需要适配iPhoneX时使用 (具体的界面如果不配置此项,则取本vue的safearea值)
+      width: 72, // 回到顶部图标的宽度, 默认72 (支持20, "20rpx", "20px", "20%"格式的值, 其中纯数字则默认单位rpx)
+      radius: "50%" // 圆角, 默认"50%" (支持20, "20rpx", "20px", "20%"格式的值, 其中纯数字则默认单位rpx)
+    },
+    empty: {
+      use: true, // 是否显示空布局
+      icon: null, // 图标路径
+      tip: '~ 暂无相关数据 ~', // 提示
+      btnText: '', // 按钮
+      btnClick: null, // 点击按钮的回调
+      onShow: null, // 是否显示的回调
+      fixed: false, // 是否使用fixed定位,默认false; 配置fixed为true,以下的top和zIndex才生效 (transform会使fixed失效,最终会降级为absolute)
+      top: "100rpx", // fixed定位的top值 (完整的单位值,如 "10%"; "100rpx")
+      zIndex: 99 // fixed定位z-index值
+    },
+    onScroll: false // 是否监听滚动事件
+  });
+};
+
+/* 配置参数 */
+MeScroll.extend = function (userOption, defaultOption) {
+  if (!userOption) return defaultOption;
+  for (var key in defaultOption) {
+    if (userOption[key] == null) {
+      var def = defaultOption[key];
+      if (def != null && typeof def === 'object') {
+        userOption[key] = MeScroll.extend({}, def); // 深度匹配
+      } else {
+        userOption[key] = def;
+      }
+    } else if (typeof userOption[key] === 'object') {
+      MeScroll.extend(userOption[key], defaultOption[key]); // 深度匹配
+    }
+  }
+  return userOption;
+};
+
+/* 简单判断是否配置了颜色 (非透明,非白色) */
+MeScroll.prototype.hasColor = function (color) {
+  if (!color) return false;
+  var c = color.toLowerCase();
+  return c != "#fff" && c != "#ffffff" && c != "transparent" && c != "white";
+};
+
+/* -------初始化下拉刷新------- */
+MeScroll.prototype.initDownScroll = function () {
+  var me = this;
+  // 配置参数
+  me.optDown = me.options.down || {};
+  if (!me.optDown.textColor && me.hasColor(me.optDown.bgColor)) me.optDown.textColor = "#fff"; // 当bgColor有值且textColor未设置,则textColor默认白色
+  me.extendDownScroll(me.optDown);
+
+  // 如果是mescroll-body且配置了native,则禁止自定义的下拉刷新
+  if (me.isScrollBody && me.optDown.native) {
+    me.optDown.use = false;
+  } else {
+    me.optDown.native = false; // 仅mescroll-body支持,mescroll-uni不支持
+  }
+
+  me.downHight = 0; // 下拉区域的高度
+
+  // 在页面中加入下拉布局
+  if (me.optDown.use && me.optDown.inited) {
+    // 初始化完毕的回调
+    setTimeout(function () {// 待主线程执行完毕再执行,避免new MeScroll未初始化,在回调获取不到mescroll的实例
+      me.optDown.inited(me);
+    }, 0);
+  }
+};
+
+/* 列表touchstart事件 */
+MeScroll.prototype.touchstartEvent = function (e) {
+  if (!this.optDown.use) return;
+
+  this.startPoint = this.getPoint(e); // 记录起点
+  this.startTop = this.getScrollTop(); // 记录此时的滚动条位置
+  this.startAngle = 0; // 初始角度
+  this.lastPoint = this.startPoint; // 重置上次move的点
+  this.maxTouchmoveY = this.getBodyHeight() - this.optDown.bottomOffset; // 手指触摸的最大范围(写在touchstart避免body获取高度为0的情况)
+  this.inTouchend = false; // 标记不是touchend
+};
+
+/* 列表touchmove事件 */
+MeScroll.prototype.touchmoveEvent = function (e) {
+  if (!this.optDown.use) return;
+  var me = this;
+
+  var scrollTop = me.getScrollTop(); // 当前滚动条的距离
+  var curPoint = me.getPoint(e); // 当前点
+
+  var moveY = curPoint.y - me.startPoint.y; // 和起点比,移动的距离,大于0向下拉,小于0向上拉
+
+  // 向下拉 && 在顶部
+  // mescroll-body,直接判定在顶部即可
+  // scroll-view在滚动时不会触发touchmove,当触顶/底/左/右时,才会触发touchmove
+  // scroll-view滚动到顶部时,scrollTop不一定为0,也有可能大于0; 在iOS的APP中scrollTop可能为负数,不一定和startTop相等
+  if (moveY > 0 && (
+  me.isScrollBody && scrollTop <= 0 ||
+
+  !me.isScrollBody && (scrollTop <= 0 || scrollTop <= me.optDown.startTop && scrollTop === me.startTop)))
+  {
+    // 可下拉的条件
+    if (!me.inTouchend && !me.isDownScrolling && !me.optDown.isLock && (!me.isUpScrolling || me.isUpScrolling &&
+    me.optUp.isBoth)) {
+
+      // 下拉的初始角度是否在配置的范围内
+      if (!me.startAngle) me.startAngle = me.getAngle(me.lastPoint, curPoint); // 两点之间的角度,区间 [0,90]
+      if (me.startAngle < me.optDown.minAngle) return; // 如果小于配置的角度,则不往下执行下拉刷新
+
+      // 如果手指的位置超过配置的距离,则提前结束下拉,避免Webview嵌套导致touchend无法触发
+      if (me.maxTouchmoveY > 0 && curPoint.y >= me.maxTouchmoveY) {
+        me.inTouchend = true; // 标记执行touchend
+        me.touchendEvent(); // 提前触发touchend
+        return;
+      }
+
+      me.preventDefault(e); // 阻止默认事件
+
+      var diff = curPoint.y - me.lastPoint.y; // 和上次比,移动的距离 (大于0向下,小于0向上)
+
+      // 下拉距离  < 指定距离
+      if (me.downHight < me.optDown.offset) {
+        if (me.movetype !== 1) {
+          me.movetype = 1; // 加入标记,保证只执行一次
+          me.isDownEndSuccess = null; // 重置是否加载成功的状态 (wxs执行的是wxs.wxs)
+          me.optDown.inOffset && me.optDown.inOffset(me); // 进入指定距离范围内那一刻的回调,只执行一次
+          me.isMoveDown = true; // 标记下拉区域高度改变,在touchend重置回来
+        }
+        me.downHight += diff * me.optDown.inOffsetRate; // 越往下,高度变化越小
+
+        // 指定距离  <= 下拉距离
+      } else {
+        if (me.movetype !== 2) {
+          me.movetype = 2; // 加入标记,保证只执行一次
+          me.optDown.outOffset && me.optDown.outOffset(me); // 下拉超过指定距离那一刻的回调,只执行一次
+          me.isMoveDown = true; // 标记下拉区域高度改变,在touchend重置回来
+        }
+        if (diff > 0) {// 向下拉
+          me.downHight += diff * me.optDown.outOffsetRate; // 越往下,高度变化越小
+        } else {// 向上收
+          me.downHight += diff; // 向上收回高度,则向上滑多少收多少高度
+        }
+      }
+
+      me.downHight = Math.round(me.downHight); // 取整
+      var rate = me.downHight / me.optDown.offset; // 下拉区域当前高度与指定距离的比值
+      me.optDown.onMoving && me.optDown.onMoving(me, rate, me.downHight); // 下拉过程中的回调,一直在执行
+    }
+  }
+
+  me.lastPoint = curPoint; // 记录本次移动的点
+};
+
+/* 列表touchend事件 */
+MeScroll.prototype.touchendEvent = function (e) {
+  if (!this.optDown.use) return;
+  // 如果下拉区域高度已改变,则需重置回来
+  if (this.isMoveDown) {
+    if (this.downHight >= this.optDown.offset) {
+      // 符合触发刷新的条件
+      this.triggerDownScroll();
+    } else {
+      // 不符合的话 则重置
+      this.downHight = 0;
+      this.endDownScrollCall(this);
+    }
+    this.movetype = 0;
+    this.isMoveDown = false;
+  } else if (!this.isScrollBody && this.getScrollTop() === this.startTop) {// scroll-view到顶/左/右/底的滑动事件
+    var isScrollUp = this.getPoint(e).y - this.startPoint.y < 0; // 和起点比,移动的距离,大于0向下拉,小于0向上拉
+    // 上滑
+    if (isScrollUp) {
+      // 需检查滑动的角度
+      var angle = this.getAngle(this.getPoint(e), this.startPoint); // 两点之间的角度,区间 [0,90]
+      if (angle > 80) {
+        // 检查并触发上拉
+        this.triggerUpScroll(true);
+      }
+    }
+  }
+};
+
+/* 根据点击滑动事件获取第一个手指的坐标 */
+MeScroll.prototype.getPoint = function (e) {
+  if (!e) {
+    return {
+      x: 0,
+      y: 0 };
+
+  }
+  if (e.touches && e.touches[0]) {
+    return {
+      x: e.touches[0].pageX,
+      y: e.touches[0].pageY };
+
+  } else if (e.changedTouches && e.changedTouches[0]) {
+    return {
+      x: e.changedTouches[0].pageX,
+      y: e.changedTouches[0].pageY };
+
+  } else {
+    return {
+      x: e.clientX,
+      y: e.clientY };
+
+  }
+};
+
+/* 计算两点之间的角度: 区间 [0,90]*/
+MeScroll.prototype.getAngle = function (p1, p2) {
+  var x = Math.abs(p1.x - p2.x);
+  var y = Math.abs(p1.y - p2.y);
+  var z = Math.sqrt(x * x + y * y);
+  var angle = 0;
+  if (z !== 0) {
+    angle = Math.asin(y / z) / Math.PI * 180;
+  }
+  return angle;
+};
+
+/* 触发下拉刷新 */
+MeScroll.prototype.triggerDownScroll = function () {
+  if (this.optDown.beforeLoading && this.optDown.beforeLoading(this)) {
+    //return true则处于完全自定义状态
+  } else {
+    this.showDownScroll(); // 下拉刷新中...
+    !this.optDown.native && this.optDown.callback && this.optDown.callback(this); // 执行回调,联网加载数据
+  }
+};
+
+/* 显示下拉进度布局 */
+MeScroll.prototype.showDownScroll = function () {
+  this.isDownScrolling = true; // 标记下拉中
+  if (this.optDown.native) {
+    uni.startPullDownRefresh(); // 系统自带的下拉刷新
+    this.showDownLoadingCall(0); // 仍触发showLoading,因为上拉加载用到
+  } else {
+    this.downHight = this.optDown.offset; // 更新下拉区域高度
+    this.showDownLoadingCall(this.downHight); // 下拉刷新中...
+  }
+};
+
+MeScroll.prototype.showDownLoadingCall = function (downHight) {
+  this.optDown.showLoading && this.optDown.showLoading(this, downHight); // 下拉刷新中...
+  this.optDown.afterLoading && this.optDown.afterLoading(this, downHight); // 下拉刷新中...触发之后马上要执行的代码
+};
+
+/* 显示系统自带的下拉刷新时需要处理的业务 */
+MeScroll.prototype.onPullDownRefresh = function () {
+  this.isDownScrolling = true; // 标记下拉中
+  this.showDownLoadingCall(0); // 仍触发showLoading,因为上拉加载用到
+  this.optDown.callback && this.optDown.callback(this); // 执行回调,联网加载数据
+};
+
+/* 结束下拉刷新 */
+MeScroll.prototype.endDownScroll = function () {
+  if (this.optDown.native) {// 结束原生下拉刷新
+    this.isDownScrolling = false;
+    this.endDownScrollCall(this);
+    uni.stopPullDownRefresh();
+    return;
+  }
+  var me = this;
+  // 结束下拉刷新的方法
+  var endScroll = function endScroll() {
+    me.downHight = 0;
+    me.isDownScrolling = false;
+    me.endDownScrollCall(me);
+    if (!me.isScrollBody) {
+      me.setScrollHeight(0); // scroll-view重置滚动区域,使数据不满屏时仍可检查触发翻页
+      me.scrollTo(0, 0); // scroll-view需重置滚动条到顶部,避免startTop大于0时,对下拉刷新的影响
+    }
+  };
+  // 结束下拉刷新时的回调
+  var delay = 0;
+  if (me.optDown.beforeEndDownScroll) {
+    delay = me.optDown.beforeEndDownScroll(me); // 结束下拉刷新的延时,单位ms
+    if (me.isDownEndSuccess == null) delay = 0; // 没有执行加载中,则不延时
+  }
+  if (typeof delay === 'number' && delay > 0) {
+    setTimeout(endScroll, delay);
+  } else {
+    endScroll();
+  }
+};
+
+MeScroll.prototype.endDownScrollCall = function () {
+  this.optDown.endDownScroll && this.optDown.endDownScroll(this);
+  this.optDown.afterEndDownScroll && this.optDown.afterEndDownScroll(this);
+};
+
+/* 锁定下拉刷新:isLock=ture,null锁定;isLock=false解锁 */
+MeScroll.prototype.lockDownScroll = function (isLock) {
+  if (isLock == null) isLock = true;
+  this.optDown.isLock = isLock;
+};
+
+/* 锁定上拉加载:isLock=ture,null锁定;isLock=false解锁 */
+MeScroll.prototype.lockUpScroll = function (isLock) {
+  if (isLock == null) isLock = true;
+  this.optUp.isLock = isLock;
+};
+
+/* -------初始化上拉加载------- */
+MeScroll.prototype.initUpScroll = function () {
+  var me = this;
+  // 配置参数
+  me.optUp = me.options.up || { use: false };
+  if (!me.optUp.textColor && me.hasColor(me.optUp.bgColor)) me.optUp.textColor = "#fff"; // 当bgColor有值且textColor未设置,则textColor默认白色
+  me.extendUpScroll(me.optUp);
+
+  if (me.optUp.use === false) return; // 配置不使用上拉加载时,则不初始化上拉布局
+  me.optUp.hasNext = true; // 如果使用上拉,则默认有下一页
+  me.startNum = me.optUp.page.num + 1; // 记录page开始的页码
+
+  // 初始化完毕的回调
+  if (me.optUp.inited) {
+    setTimeout(function () {// 待主线程执行完毕再执行,避免new MeScroll未初始化,在回调获取不到mescroll的实例
+      me.optUp.inited(me);
+    }, 0);
+  }
+};
+
+/*滚动到底部的事件 (仅mescroll-body生效)*/
+MeScroll.prototype.onReachBottom = function () {
+  if (this.isScrollBody && !this.isUpScrolling) {// 只能支持下拉刷新的时候同时可以触发上拉加载,否则滚动到底部就需要上滑一点才能触发onReachBottom
+    if (!this.optUp.isLock && this.optUp.hasNext) {
+      this.triggerUpScroll();
+    }
+  }
+};
+
+/*列表滚动事件 (仅mescroll-body生效)*/
+MeScroll.prototype.onPageScroll = function (e) {
+  if (!this.isScrollBody) return;
+
+  // 更新滚动条的位置 (主要用于判断下拉刷新时,滚动条是否在顶部)
+  this.setScrollTop(e.scrollTop);
+
+  // 顶部按钮的显示隐藏
+  if (e.scrollTop >= this.optUp.toTop.offset) {
+    this.showTopBtn();
+  } else {
+    this.hideTopBtn();
+  }
+};
+
+/*列表滚动事件*/
+MeScroll.prototype.scroll = function (e, onScroll) {
+  // 更新滚动条的位置
+  this.setScrollTop(e.scrollTop);
+  // 更新滚动内容高度
+  this.setScrollHeight(e.scrollHeight);
+
+  // 向上滑还是向下滑动
+  if (this.preScrollY == null) this.preScrollY = 0;
+  this.isScrollUp = e.scrollTop - this.preScrollY > 0;
+  this.preScrollY = e.scrollTop;
+
+  // 上滑 && 检查并触发上拉
+  this.isScrollUp && this.triggerUpScroll(true);
+
+  // 顶部按钮的显示隐藏
+  if (e.scrollTop >= this.optUp.toTop.offset) {
+    this.showTopBtn();
+  } else {
+    this.hideTopBtn();
+  }
+
+  // 滑动监听
+  this.optUp.onScroll && onScroll && onScroll();
+};
+
+/* 触发上拉加载 */
+MeScroll.prototype.triggerUpScroll = function (isCheck) {
+  if (!this.isUpScrolling && this.optUp.use && this.optUp.callback) {
+    // 是否校验在底部; 默认不校验
+    if (isCheck === true) {
+      var canUp = false;
+      // 还有下一页 && 没有锁定 && 不在下拉中
+      if (this.optUp.hasNext && !this.optUp.isLock && !this.isDownScrolling) {
+        if (this.getScrollBottom() <= this.optUp.offset) {// 到底部
+          canUp = true; // 标记可上拉
+        }
+      }
+      if (canUp === false) return;
+    }
+    this.showUpScroll(); // 上拉加载中...
+    this.optUp.page.num++; // 预先加一页,如果失败则减回
+    this.isUpAutoLoad = true; // 标记上拉已经自动执行过,避免初始化时多次触发上拉回调
+    this.num = this.optUp.page.num; // 把最新的页数赋值在mescroll上,避免对page的影响
+    this.size = this.optUp.page.size; // 把最新的页码赋值在mescroll上,避免对page的影响
+    this.time = this.optUp.page.time; // 把最新的页码赋值在mescroll上,避免对page的影响
+    this.optUp.callback(this); // 执行回调,联网加载数据
+  }
+};
+
+/* 显示上拉加载中 */
+MeScroll.prototype.showUpScroll = function () {
+  this.isUpScrolling = true; // 标记上拉加载中
+  this.optUp.showLoading && this.optUp.showLoading(this); // 回调
+};
+
+/* 显示上拉无更多数据 */
+MeScroll.prototype.showNoMore = function () {
+  this.optUp.hasNext = false; // 标记无更多数据
+  this.optUp.showNoMore && this.optUp.showNoMore(this); // 回调
+};
+
+/* 隐藏上拉区域**/
+MeScroll.prototype.hideUpScroll = function () {
+  this.optUp.hideUpScroll && this.optUp.hideUpScroll(this); // 回调
+};
+
+/* 结束上拉加载 */
+MeScroll.prototype.endUpScroll = function (isShowNoMore) {
+  if (isShowNoMore != null) {// isShowNoMore=null,不处理下拉状态,下拉刷新的时候调用
+    if (isShowNoMore) {
+      this.showNoMore(); // isShowNoMore=true,显示无更多数据
+    } else {
+      this.hideUpScroll(); // isShowNoMore=false,隐藏上拉加载
+    }
+  }
+  this.isUpScrolling = false; // 标记结束上拉加载
+};
+
+/* 重置上拉加载列表为第一页
+    *isShowLoading 是否显示进度布局;
+    * 1.默认null,不传参,则显示上拉加载的进度布局
+    * 2.传参true, 则显示下拉刷新的进度布局
+    * 3.传参false,则不显示上拉和下拉的进度 (常用于静默更新列表数据)
+    */
+MeScroll.prototype.resetUpScroll = function (isShowLoading) {
+  if (this.optUp && this.optUp.use) {
+    var page = this.optUp.page;
+    this.prePageNum = page.num; // 缓存重置前的页码,加载失败可退回
+    this.prePageTime = page.time; // 缓存重置前的时间,加载失败可退回
+    page.num = this.startNum; // 重置为第一页
+    page.time = null; // 重置时间为空
+    if (!this.isDownScrolling && isShowLoading !== false) {// 如果不是下拉刷新触发的resetUpScroll并且不配置列表静默更新,则显示进度;
+      if (isShowLoading == null) {
+        this.removeEmpty(); // 移除空布局
+        this.showUpScroll(); // 不传参,默认显示上拉加载的进度布局
+      } else {
+        this.showDownScroll(); // 传true,显示下拉刷新的进度布局,不清空列表
+      }
+    }
+    this.isUpAutoLoad = true; // 标记上拉已经自动执行过,避免初始化时多次触发上拉回调
+    this.num = page.num; // 把最新的页数赋值在mescroll上,避免对page的影响
+    this.size = page.size; // 把最新的页码赋值在mescroll上,避免对page的影响
+    this.time = page.time; // 把最新的页码赋值在mescroll上,避免对page的影响
+    this.optUp.callback && this.optUp.callback(this); // 执行上拉回调
+  }
+};
+
+/* 设置page.num的值 */
+MeScroll.prototype.setPageNum = function (num) {
+  this.optUp.page.num = num - 1;
+};
+
+/* 设置page.size的值 */
+MeScroll.prototype.setPageSize = function (size) {
+  this.optUp.page.size = size;
+};
+
+/* 联网回调成功,结束下拉刷新和上拉加载
+    * dataSize: 当前页的数据量(必传)
+    * totalPage: 总页数(必传)
+    * systime: 服务器时间 (可空)
+    */
+MeScroll.prototype.endByPage = function (dataSize, totalPage, systime) {
+  var hasNext;
+  if (this.optUp.use && totalPage != null) hasNext = this.optUp.page.num < totalPage; // 是否还有下一页
+  this.endSuccess(dataSize, hasNext, systime);
+};
+
+/* 联网回调成功,结束下拉刷新和上拉加载
+    * dataSize: 当前页的数据量(必传)
+    * totalSize: 列表所有数据总数量(必传)
+    * systime: 服务器时间 (可空)
+    */
+MeScroll.prototype.endBySize = function (dataSize, totalSize, systime) {
+  var hasNext;
+  if (this.optUp.use && totalSize != null) {
+    var loadSize = (this.optUp.page.num - 1) * this.optUp.page.size + dataSize; // 已加载的数据总数
+    hasNext = loadSize < totalSize; // 是否还有下一页
+  }
+  this.endSuccess(dataSize, hasNext, systime);
+};
+
+/* 联网回调成功,结束下拉刷新和上拉加载
+    * dataSize: 当前页的数据个数(不是所有页的数据总和),用于上拉加载判断是否还有下一页.如果不传,则会判断还有下一页
+    * hasNext: 是否还有下一页,布尔类型;用来解决这个小问题:比如列表共有20条数据,每页加载10条,共2页.如果只根据dataSize判断,则需翻到第三页才会知道无更多数据,如果传了hasNext,则翻到第二页即可显示无更多数据.
+    * systime: 服务器时间(可空);用来解决这个小问题:当准备翻下一页时,数据库新增了几条记录,此时翻下一页,前面的几条数据会和上一页的重复;这里传入了systime,那么upCallback的page.time就会有值,把page.time传给服务器,让后台过滤新加入的那几条记录
+    */
+MeScroll.prototype.endSuccess = function (dataSize, hasNext, systime) {
+  var me = this;
+  // 结束下拉刷新
+  if (me.isDownScrolling) {
+    me.isDownEndSuccess = true;
+    me.endDownScroll();
+  }
+
+  // 结束上拉加载
+  if (me.optUp.use) {
+    var isShowNoMore; // 是否已无更多数据
+    if (dataSize != null) {
+      var pageNum = me.optUp.page.num; // 当前页码
+      var pageSize = me.optUp.page.size; // 每页长度
+      // 如果是第一页
+      if (pageNum === 1) {
+        if (systime) me.optUp.page.time = systime; // 设置加载列表数据第一页的时间
+      }
+      if (dataSize < pageSize || hasNext === false) {
+        // 返回的数据不满一页时,则说明已无更多数据
+        me.optUp.hasNext = false;
+        if (dataSize === 0 && pageNum === 1) {
+          // 如果第一页无任何数据且配置了空布局
+          isShowNoMore = false;
+          me.showEmpty();
+        } else {
+          // 总列表数少于配置的数量,则不显示无更多数据
+          var allDataSize = (pageNum - 1) * pageSize + dataSize;
+          if (allDataSize < me.optUp.noMoreSize) {
+            isShowNoMore = false;
+          } else {
+            isShowNoMore = true;
+          }
+          me.removeEmpty(); // 移除空布局
+        }
+      } else {
+        // 还有下一页
+        isShowNoMore = false;
+        me.optUp.hasNext = true;
+        me.removeEmpty(); // 移除空布局
+      }
+    }
+
+    // 隐藏上拉
+    me.endUpScroll(isShowNoMore);
+  }
+};
+
+/* 回调失败,结束下拉刷新和上拉加载 */
+MeScroll.prototype.endErr = function (errDistance) {
+  // 结束下拉,回调失败重置回原来的页码和时间
+  if (this.isDownScrolling) {
+    this.isDownEndSuccess = false;
+    var page = this.optUp.page;
+    if (page && this.prePageNum) {
+      page.num = this.prePageNum;
+      page.time = this.prePageTime;
+    }
+    this.endDownScroll();
+  }
+  // 结束上拉,回调失败重置回原来的页码
+  if (this.isUpScrolling) {
+    this.optUp.page.num--;
+    this.endUpScroll(false);
+    // 如果是mescroll-body,则需往回滚一定距离
+    if (this.isScrollBody && errDistance !== 0) {// 不处理0
+      if (!errDistance) errDistance = this.optUp.errDistance; // 不传,则取默认
+      this.scrollTo(this.getScrollTop() - errDistance, 0); // 往上回滚的距离
+    }
+  }
+};
+
+/* 显示空布局 */
+MeScroll.prototype.showEmpty = function () {
+  this.optUp.empty.use && this.optUp.empty.onShow && this.optUp.empty.onShow(true);
+};
+
+/* 移除空布局 */
+MeScroll.prototype.removeEmpty = function () {
+  this.optUp.empty.use && this.optUp.empty.onShow && this.optUp.empty.onShow(false);
+};
+
+/* 显示回到顶部的按钮 */
+MeScroll.prototype.showTopBtn = function () {
+  if (!this.topBtnShow) {
+    this.topBtnShow = true;
+    this.optUp.toTop.onShow && this.optUp.toTop.onShow(true);
+  }
+};
+
+/* 隐藏回到顶部的按钮 */
+MeScroll.prototype.hideTopBtn = function () {
+  if (this.topBtnShow) {
+    this.topBtnShow = false;
+    this.optUp.toTop.onShow && this.optUp.toTop.onShow(false);
+  }
+};
+
+/* 获取滚动条的位置 */
+MeScroll.prototype.getScrollTop = function () {
+  return this.scrollTop || 0;
+};
+
+/* 记录滚动条的位置 */
+MeScroll.prototype.setScrollTop = function (y) {
+  this.scrollTop = y;
+};
+
+/* 滚动到指定位置 */
+MeScroll.prototype.scrollTo = function (y, t) {
+  this.myScrollTo && this.myScrollTo(y, t); // scrollview需自定义回到顶部方法
+};
+
+/* 自定义scrollTo */
+MeScroll.prototype.resetScrollTo = function (myScrollTo) {
+  this.myScrollTo = myScrollTo;
+};
+
+/* 滚动条到底部的距离 */
+MeScroll.prototype.getScrollBottom = function () {
+  return this.getScrollHeight() - this.getClientHeight() - this.getScrollTop();
+};
+
+/* 计步器
+    star: 开始值
+    end: 结束值
+    callback(step,timer): 回调step值,计步器timer,可自行通过window.clearInterval(timer)结束计步器;
+    t: 计步时长,传0则直接回调end值;不传则默认300ms
+    rate: 周期;不传则默认30ms计步一次
+    * */
+MeScroll.prototype.getStep = function (star, end, callback, t, rate) {
+  var diff = end - star; // 差值
+  if (t === 0 || diff === 0) {
+    callback && callback(end);
+    return;
+  }
+  t = t || 300; // 时长 300ms
+  rate = rate || 30; // 周期 30ms
+  var count = t / rate; // 次数
+  var step = diff / count; // 步长
+  var i = 0; // 计数
+  var timer = setInterval(function () {
+    if (i < count - 1) {
+      star += step;
+      callback && callback(star, timer);
+      i++;
+    } else {
+      callback && callback(end, timer); // 最后一次直接设置end,避免计算误差
+      clearInterval(timer);
+    }
+  }, rate);
+};
+
+/* 滚动容器的高度 */
+MeScroll.prototype.getClientHeight = function (isReal) {
+  var h = this.clientHeight || 0;
+  if (h === 0 && isReal !== true) {// 未获取到容器的高度,可临时取body的高度 (可能会有误差)
+    h = this.getBodyHeight();
+  }
+  return h;
+};
+MeScroll.prototype.setClientHeight = function (h) {
+  this.clientHeight = h;
+};
+
+/* 滚动内容的高度 */
+MeScroll.prototype.getScrollHeight = function () {
+  return this.scrollHeight || 0;
+};
+MeScroll.prototype.setScrollHeight = function (h) {
+  this.scrollHeight = h;
+};
+
+/* body的高度 */
+MeScroll.prototype.getBodyHeight = function () {
+  return this.bodyHeight || 0;
+};
+MeScroll.prototype.setBodyHeight = function (h) {
+  this.bodyHeight = h;
+};
+
+/* 阻止浏览器默认滚动事件 */
+MeScroll.prototype.preventDefault = function (e) {
+  // 小程序不支持e.preventDefault, 已在wxs中禁止
+  // app的bounce只能通过配置pages.json的style.app-plus.bounce为"none"来禁止, 或使用renderjs禁止
+  // cancelable:是否可以被禁用; defaultPrevented:是否已经被禁用
+  if (e && e.cancelable && !e.defaultPrevented) e.preventDefault();
+};
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 304 */
+/*!**************************************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-uni-option.js ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 全局配置
+// mescroll-body 和 mescroll-uni 通用
+var GlobalOption = {
+  down: {
+    // 其他down的配置参数也可以写,这里只展示了常用的配置:
+    offset: 80, // 在列表顶部,下拉大于80px,松手即可触发下拉刷新的回调
+    native: false // 是否使用系统自带的下拉刷新; 默认false; 仅在mescroll-body生效 (值为true时,还需在pages配置enablePullDownRefresh:true;详请参考mescroll-native的案例)
+  },
+  up: {
+    // 其他up的配置参数也可以写,这里只展示了常用的配置:
+    offset: 150, // 距底部多远时,触发upCallback,仅mescroll-uni生效 ( mescroll-body配置的是pages.json的 onReachBottomDistance )
+    toTop: {
+      // 回到顶部按钮,需配置src才显示
+      src: "https://www.mescroll.com/img/mescroll-totop.png", // 图片路径 (建议放入static目录, 如 /static/img/mescroll-totop.png )
+      offset: 1000, // 列表滚动多少距离才显示回到顶部按钮,默认1000px
+      right: 20, // 到右边的距离, 默认20 (支持"20rpx", "20px", "20%"格式的值, 纯数字则默认单位rpx)
+      bottom: 120, // 到底部的距离, 默认120 (支持"20rpx", "20px", "20%"格式的值, 纯数字则默认单位rpx)
+      width: 72 // 回到顶部图标的宽度, 默认72 (支持"20rpx", "20px", "20%"格式的值, 纯数字则默认单位rpx)
+    },
+    empty: {
+      use: true, // 是否显示空布局
+      icon: "https://www.mescroll.com/img/mescroll-empty.png" // 图标路径 (建议放入static目录, 如 /static/img/mescroll-empty.png )
+    } },
+
+  // 国际化配置
+  i18n: {
+    // 中文
+    zh: {
+      down: {
+        textInOffset: '下拉刷新', // 下拉的距离在offset范围内的提示文本
+        textOutOffset: '释放更新', // 下拉的距离大于offset范围的提示文本
+        textLoading: '加载中 ...', // 加载中的提示文本
+        textSuccess: '加载成功', // 加载成功的文本
+        textErr: '加载失败' // 加载失败的文本
+      },
+      up: {
+        textLoading: '加载中 ...', // 加载中的提示文本
+        textNoMore: '-- END --', // 没有更多数据的提示文本
+        empty: {
+          tip: '~ 空空如也 ~' // 空提示
+        } } },
+
+
+    // 英文
+    en: {
+      down: {
+        textInOffset: 'drop down refresh',
+        textOutOffset: 'release updates',
+        textLoading: 'loading ...',
+        textSuccess: 'loaded successfully',
+        textErr: 'loading failed' },
+
+      up: {
+        textLoading: 'loading ...',
+        textNoMore: '-- END --',
+        empty: {
+          tip: '~ absolutely empty ~' } } } } };var _default =
+
+
+
+
+
+
+GlobalOption;exports.default = _default;
+
+/***/ }),
+/* 305 */
+/*!********************************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-i18n.js ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 国际化工具类
+var mescrollI18n = {
+  // 默认语言
+  def: "zh",
+  // 获取当前语言类型
+  getType: function getType() {
+    return uni.getStorageSync("mescroll-i18n") || this.def;
+  },
+  // 设置当前语言类型
+  setType: function setType(type) {
+    uni.setStorageSync("mescroll-i18n", type);
+  } };var _default =
+
+
+mescrollI18n;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 306 */
+/*!*****************************************************************************************************************!*\
+  !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/mescroll-uni/components/mescroll-uni/wxs/mixins.js ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 定义在wxs (含renderjs) 逻辑层的数据和方法, 与视图层相互通信
+var WxsMixin = {
+  data: function data() {
+    return {
+      // 传入wxs视图层的数据 (响应式)
+      wxsProp: {
+        optDown: {}, // 下拉刷新的配置
+        scrollTop: 0, // 滚动条的距离
+        bodyHeight: 0, // body的高度
+        isDownScrolling: false, // 是否正在下拉刷新中
+        isUpScrolling: false, // 是否正在上拉加载中
+        isScrollBody: true, // 是否为mescroll-body滚动
+        isUpBoth: true, // 上拉加载时,是否同时可以下拉刷新
+        t: 0 // 数据更新的标记 (只有数据更新了,才会触发wxs的Observer)
+      },
+
+      // 标记调用wxs视图层的方法
+      callProp: {
+        callType: '', // 方法名
+        t: 0 // 数据更新的标记 (只有数据更新了,才会触发wxs的Observer)
+      },
+
+      // 不用wxs的平台使用此处的wxsBiz对象,抹平wxs的写法 (微信小程序和APP使用的wxsBiz对象是./wxs/wxs.wxs)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // 不用renderjs的平台使用此处的renderBiz对象,抹平renderjs的写法 (app 和 h5 使用的renderBiz对象是./wxs/renderjs.js)
+
+      renderBiz: {
+        propObserver: function propObserver() {} // 抹平renderjs的写法
+      } };
+
+
+  },
+  methods: {
+    // wxs视图层调用逻辑层的回调
+    wxsCall: function wxsCall(msg) {
+      if (msg.type === 'setWxsProp') {
+        // 更新wxsProp数据 (值改变才触发更新)
+        this.wxsProp = {
+          optDown: this.mescroll.optDown,
+          scrollTop: this.mescroll.getScrollTop(),
+          bodyHeight: this.mescroll.getBodyHeight(),
+          isDownScrolling: this.mescroll.isDownScrolling,
+          isUpScrolling: this.mescroll.isUpScrolling,
+          isUpBoth: this.mescroll.optUp.isBoth,
+          isScrollBody: this.mescroll.isScrollBody,
+          t: Date.now() };
+
+      } else if (msg.type === 'setLoadType') {
+        // 设置inOffset,outOffset的状态
+        this.downLoadType = msg.downLoadType;
+        // 状态挂载到mescroll对象, 以便在其他组件中使用, 比如<me-video>中
+        this.$set(this.mescroll, 'downLoadType', this.downLoadType);
+        // 重置是否加载成功的状态
+        this.$set(this.mescroll, 'isDownEndSuccess', null);
+      } else if (msg.type === 'triggerDownScroll') {
+        // 主动触发下拉刷新
+        this.mescroll.triggerDownScroll();
+      } else if (msg.type === 'endDownScroll') {
+        // 结束下拉刷新
+        this.mescroll.endDownScroll();
+      } else if (msg.type === 'triggerUpScroll') {
+        // 主动触发上拉加载
+        this.mescroll.triggerUpScroll(true);
+      }
+    } },
+
+  mounted: function mounted() {var _this = this;
+
+    // 配置主动触发wxs显示加载进度的回调
+    this.mescroll.optDown.afterLoading = function () {
+      _this.callProp = { callType: "showLoading", t: Date.now() }; // 触发wxs的方法 (值改变才触发更新)
+    };
+    // 配置主动触发wxs隐藏加载进度的回调
+    this.mescroll.optDown.afterEndDownScroll = function () {
+      _this.callProp = { callType: "endDownScroll", t: Date.now() }; // 触发wxs的方法 (值改变才触发更新)
+      var delay = 300 + (_this.mescroll.optDown.beforeEndDelay || 0);
+      setTimeout(function () {
+        if (_this.downLoadType === 4 || _this.downLoadType === 0) {
+          _this.callProp = { callType: "clearTransform", t: Date.now() }; // 触发wxs的方法 (值改变才触发更新)
+        }
+        // 状态挂载到mescroll对象, 以便在其他组件中使用, 比如<me-video>中
+        _this.$set(_this.mescroll, 'downLoadType', _this.downLoadType);
+      }, delay);
+    };
+    // 初始化wxs的数据
+    this.wxsCall({ type: 'setWxsProp' });
+
+  } };var _default =
+
+
+WxsMixin;exports.default = _default;
+
+/***/ }),
+/* 307 */,
+/* 308 */,
+/* 309 */,
+/* 310 */,
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */,
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */,
+/* 327 */,
+/* 328 */,
+/* 329 */,
+/* 330 */,
+/* 331 */,
+/* 332 */,
+/* 333 */,
+/* 334 */,
+/* 335 */,
+/* 336 */,
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */,
+/* 341 */,
+/* 342 */,
+/* 343 */,
+/* 344 */,
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
+/* 352 */,
+/* 353 */,
+/* 354 */,
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */,
+/* 373 */,
+/* 374 */,
+/* 375 */,
+/* 376 */,
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */,
+/* 383 */,
+/* 384 */,
+/* 385 */,
+/* 386 */,
+/* 387 */,
+/* 388 */,
+/* 389 */,
+/* 390 */,
+/* 391 */,
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */,
+/* 396 */,
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */,
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */,
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */,
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */,
+/* 426 */,
+/* 427 */,
+/* 428 */
 /*!***************************************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/components/u-parse/libs/MpHtmlParser.js ***!
   \***************************************************************************************************/
@@ -10391,9 +27182,9 @@ timeFrom;exports.default = _default;
  * @author JinYufeng
  * @listens MIT
  */
-var cfg = __webpack_require__(/*! ./config.js */ 247),
+var cfg = __webpack_require__(/*! ./config.js */ 429),
 blankChar = cfg.blankChar,
-CssHandler = __webpack_require__(/*! ./CssHandler.js */ 248),
+CssHandler = __webpack_require__(/*! ./CssHandler.js */ 430),
 windowWidth = uni.getSystemInfoSync().windowWidth;
 var emoji;
 
@@ -10967,8 +27758,7 @@ module.exports = MpHtmlParser;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-
-/***/ 247:
+/* 429 */
 /*!*********************************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/components/u-parse/libs/config.js ***!
   \*********************************************************************************************/
@@ -11057,15 +27847,14 @@ if (wx.canIUse('editor')) {
 module.exports = cfg;
 
 /***/ }),
-
-/***/ 248:
+/* 430 */
 /*!*************************************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/components/u-parse/libs/CssHandler.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var cfg = __webpack_require__(/*! ./config.js */ 247),
+var cfg = __webpack_require__(/*! ./config.js */ 429),
 isLetter = function isLetter(c) {return c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z';};
 
 function CssHandler(tagStyle) {
@@ -11167,413 +27956,56 @@ parser.prototype.Content = function () {
 };
 
 /***/ }),
-
-/***/ 25:
-/*!******************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/colorGradient.js ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 求两个颜色之间的渐变值
-                                                                                                      * @param {string} startColor 开始的颜色
-                                                                                                      * @param {string} endColor 结束的颜色
-                                                                                                      * @param {number} step 颜色等分的份额
-                                                                                                      * */
-function colorGradient() {var startColor = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'rgb(0, 0, 0)';var endColor = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rgb(255, 255, 255)';var step = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
-  var startRGB = hexToRgb(startColor, false); //转换为rgb数组模式
-  var startR = startRGB[0];
-  var startG = startRGB[1];
-  var startB = startRGB[2];
-
-  var endRGB = hexToRgb(endColor, false);
-  var endR = endRGB[0];
-  var endG = endRGB[1];
-  var endB = endRGB[2];
-
-  var sR = (endR - startR) / step; //总差值
-  var sG = (endG - startG) / step;
-  var sB = (endB - startB) / step;
-  var colorArr = [];
-  for (var i = 0; i < step; i++) {
-    //计算每一步的hex值 
-    var hex = rgbToHex('rgb(' + Math.round(sR * i + startR) + ',' + Math.round(sG * i + startG) + ',' + Math.round(sB *
-    i + startB) + ')');
-    colorArr.push(hex);
-  }
-  return colorArr;
-}
-
-// 将hex表示方式转换为rgb表示方式(这里返回rgb数组模式)
-function hexToRgb(sColor) {var str = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
-  sColor = sColor.toLowerCase();
-  if (sColor && reg.test(sColor)) {
-    if (sColor.length === 4) {
-      var sColorNew = "#";
-      for (var i = 1; i < 4; i += 1) {
-        sColorNew += sColor.slice(i, i + 1).concat(sColor.slice(i, i + 1));
-      }
-      sColor = sColorNew;
-    }
-    //处理六位的颜色值
-    var sColorChange = [];
-    for (var _i = 1; _i < 7; _i += 2) {
-      sColorChange.push(parseInt("0x" + sColor.slice(_i, _i + 2)));
-    }
-    if (!str) {
-      return sColorChange;
-    } else {
-      return "rgb(".concat(sColorChange[0], ",").concat(sColorChange[1], ",").concat(sColorChange[2], ")");
-    }
-  } else if (/^(rgb|RGB)/.test(sColor)) {
-    var arr = sColor.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
-    return arr.map(function (val) {return Number(val);});
-  } else {
-    return sColor;
-  }
-};
-
-// 将rgb表示方式转换为hex表示方式
-function rgbToHex(rgb) {
-  var _this = rgb;
-  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
-  if (/^(rgb|RGB)/.test(_this)) {
-    var aColor = _this.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
-    var strHex = "#";
-    for (var i = 0; i < aColor.length; i++) {
-      var hex = Number(aColor[i]).toString(16);
-      hex = String(hex).length == 1 ? 0 + '' + hex : hex; // 保证每个rgb的值为2位
-      if (hex === "0") {
-        hex += hex;
-      }
-      strHex += hex;
-    }
-    if (strHex.length !== 7) {
-      strHex = _this;
-    }
-    return strHex;
-  } else if (reg.test(_this)) {
-    var aNum = _this.replace(/#/, "").split("");
-    if (aNum.length === 6) {
-      return _this;
-    } else if (aNum.length === 3) {
-      var numHex = "#";
-      for (var _i2 = 0; _i2 < aNum.length; _i2 += 1) {
-        numHex += aNum[_i2] + aNum[_i2];
-      }
-      return numHex;
-    }
-  } else {
-    return _this;
-  }
-}
-
-
-/**
-  * JS颜色十六进制转换为rgb或rgba,返回的格式为 rgba（255，255，255，0.5）字符串
-  * sHex为传入的十六进制的色值
-  * alpha为rgba的透明度
-  */
-function colorToRgba(color) {var alpha = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0.3;
-  color = rgbToHex(color);
-  // 十六进制颜色值的正则表达式
-  var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
-  /* 16进制颜色转为RGB格式 */
-  var sColor = color.toLowerCase();
-  if (sColor && reg.test(sColor)) {
-    if (sColor.length === 4) {
-      var sColorNew = '#';
-      for (var i = 1; i < 4; i += 1) {
-        sColorNew += sColor.slice(i, i + 1).concat(sColor.slice(i, i + 1));
-      }
-      sColor = sColorNew;
-    }
-    // 处理六位的颜色值
-    var sColorChange = [];
-    for (var _i3 = 1; _i3 < 7; _i3 += 2) {
-      sColorChange.push(parseInt('0x' + sColor.slice(_i3, _i3 + 2)));
-    }
-    // return sColorChange.join(',')
-    return 'rgba(' + sColorChange.join(',') + ',' + alpha + ')';
-  } else
-  {
-    return sColor;
-  }
-}var _default =
-
-{
-  colorGradient: colorGradient,
-  hexToRgb: hexToRgb,
-  rgbToHex: rgbToHex,
-  colorToRgba: colorToRgba };exports.default = _default;
-
-/***/ }),
-
-/***/ 26:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/guid.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 本算法来源于简书开源代码，详见：https://www.jianshu.com/p/fdbf293d0a85
-                                                                                                      * 全局唯一标识符（uuid，Globally Unique Identifier）,也称作 uuid(Universally Unique IDentifier) 
-                                                                                                      * 一般用于多个组件之间,给它一个唯一的标识符,或者v-for循环的时候,如果使用数组的index可能会导致更新列表出现问题
-                                                                                                      * 最可能的情况是左滑删除item或者对某条信息流"不喜欢"并去掉它的时候,会导致组件内的数据可能出现错乱
-                                                                                                      * v-for的时候,推荐使用后端返回的id而不是循环的index
-                                                                                                      * @param {Number} len uuid的长度
-                                                                                                      * @param {Boolean} firstU 将返回的首字母置为"u"
-                                                                                                      * @param {Nubmer} radix 生成uuid的基数(意味着返回的字符串都是这个基数),2-二进制,8-八进制,10-十进制,16-十六进制
-                                                                                                      */
-function guid() {var len = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 32;var firstU = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;var radix = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-  var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
-  var uuid = [];
-  radix = radix || chars.length;
-
-  if (len) {
-    // 如果指定uuid长度,只是取随机的字符,0|x为位运算,能去掉x的小数位,返回整数位
-    for (var i = 0; i < len; i++) {uuid[i] = chars[0 | Math.random() * radix];}
-  } else {
-    var r;
-    // rfc4122标准要求返回的uuid中,某些位为固定的字符
-    uuid[8] = uuid[13] = uuid[18] = uuid[23] = '-';
-    uuid[14] = '4';
-
-    for (var _i = 0; _i < 36; _i++) {
-      if (!uuid[_i]) {
-        r = 0 | Math.random() * 16;
-        uuid[_i] = chars[_i == 19 ? r & 0x3 | 0x8 : r];
-      }
-    }
-  }
-  // 移除第一个字符,并用u替代,因为第一个字符为数值时,该guuid不能用作id或者class
-  if (firstU) {
-    uuid.shift();
-    return 'u' + uuid.join('');
-  } else {
-    return uuid.join('');
-  }
-}var _default =
-
-guid;exports.default = _default;
-
-/***/ }),
-
-/***/ 27:
-/*!**********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/color.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 为了让用户能够自定义主题，会逐步弃用此文件，各颜色通过css提供
-// 为了给某些特殊场景使用和向后兼容，无需删除此文件(2020-06-20)
-var color = {
-  primary: "#2979ff",
-  primaryDark: "#2b85e4",
-  primaryDisabled: "#a0cfff",
-  primaryLight: "#ecf5ff",
-  bgColor: "#f3f4f6",
-
-  info: "#909399",
-  infoDark: "#82848a",
-  infoDisabled: "#c8c9cc",
-  infoLight: "#f4f4f5",
-
-  warning: "#ff9900",
-  warningDark: "#f29100",
-  warningDisabled: "#fcbd71",
-  warningLight: "#fdf6ec",
-
-  error: "#fa3534",
-  errorDark: "#dd6161",
-  errorDisabled: "#fab6b6",
-  errorLight: "#fef0f0",
-
-  success: "#19be6b",
-  successDark: "#18b566",
-  successDisabled: "#71d5a1",
-  successLight: "#dbf1e1",
-
-  mainColor: "#303133",
-  contentColor: "#606266",
-  tipsColor: "#909399",
-  lightColor: "#c0c4cc",
-  borderColor: "#e4e7ed" };var _default =
-
-
-color;exports.default = _default;
-
-/***/ }),
-
-/***/ 28:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/type2icon.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
-                                                                                                      * 根据主题type值,获取对应的图标
-                                                                                                      * @param String type 主题名称,primary|info|error|warning|success
-                                                                                                      * @param String fill 是否使用fill填充实体的图标  
-                                                                                                      */
-function type2icon() {var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'success';var fill = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  // 如果非预置值,默认为success
-  if (['primary', 'info', 'error', 'warning', 'success'].indexOf(type) == -1) type = 'success';
-  var iconName = '';
-  // 目前(2019-12-12),info和primary使用同一个图标
-  switch (type) {
-    case 'primary':
-      iconName = 'info-circle';
-      break;
-    case 'info':
-      iconName = 'info-circle';
-      break;
-    case 'error':
-      iconName = 'close-circle';
-      break;
-    case 'warning':
-      iconName = 'error-circle';
-      break;
-    case 'success':
-      iconName = 'checkmark-circle';
-      break;
-    default:
-      iconName = 'checkmark-circle';}
-
-  // 是否是实体类型,加上-fill,在icon组件库中,实体的类名是后面加-fill的
-  if (fill) iconName += '-fill';
-  return iconName;
-}var _default =
-
-type2icon;exports.default = _default;
-
-/***/ }),
-
-/***/ 29:
-/*!****************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/randomArray.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 打乱数组
-function randomArray() {var array = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-  // 原理是sort排序,Math.random()产生0<= x < 1之间的数,会导致x-0.05大于或者小于0
-  return array.sort(function () {return Math.random() - 0.5;});
-}var _default =
-
-randomArray;exports.default = _default;
-
-/***/ }),
-
-/***/ 3:
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
-/***/ 30:
-/*!************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/addUnit.js ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-
-// 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
-function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
-  value = String(value);
-  // 用uView内置验证规则中的number判断是否为数值
-  return _test.default.number(value) ? "".concat(value).concat(unit) : value;
-}
-
-/***/ }),
-
-/***/ 31:
-/*!***********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/random.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function random(min, max) {
-  if (min >= 0 && max > 0 && max >= min) {
-    var gab = max - min + 1;
-    return Math.floor(Math.random() * gab + min);
-  } else {
-    return 0;
-  }
-}var _default =
-
-random;exports.default = _default;
-
-/***/ }),
-
-/***/ 32:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/trim.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function trim(str) {var pos = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'both';
-  if (pos == 'both') {
-    return str.replace(/^\s+|\s+$/g, "");
-  } else if (pos == "left") {
-    return str.replace(/^\s*/, '');
-  } else if (pos == 'right') {
-    return str.replace(/(\s*$)/g, "");
-  } else if (pos == 'all') {
-    return str.replace(/\s+/g, "");
-  } else {
-    return str;
-  }
-}var _default =
-
-trim;exports.default = _default;
-
-/***/ }),
-
-/***/ 326:
+/* 431 */,
+/* 432 */,
+/* 433 */,
+/* 434 */,
+/* 435 */,
+/* 436 */,
+/* 437 */,
+/* 438 */,
+/* 439 */,
+/* 440 */,
+/* 441 */,
+/* 442 */,
+/* 443 */,
+/* 444 */,
+/* 445 */,
+/* 446 */,
+/* 447 */,
+/* 448 */,
+/* 449 */,
+/* 450 */,
+/* 451 */,
+/* 452 */,
+/* 453 */,
+/* 454 */,
+/* 455 */,
+/* 456 */,
+/* 457 */,
+/* 458 */,
+/* 459 */,
+/* 460 */,
+/* 461 */,
+/* 462 */,
+/* 463 */,
+/* 464 */,
+/* 465 */,
+/* 466 */,
+/* 467 */,
+/* 468 */,
+/* 469 */,
+/* 470 */,
+/* 471 */,
+/* 472 */,
+/* 473 */,
+/* 474 */,
+/* 475 */,
+/* 476 */,
+/* 477 */,
+/* 478 */,
+/* 479 */,
+/* 480 */
 /*!******************************************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \******************************************************************************************************/
@@ -11714,242 +28146,49 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   "shop": "\uE609" };exports.default = _default;
 
 /***/ }),
-
-/***/ 33:
-/*!**********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/toast.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
-  uni.showToast({
-    title: title,
-    icon: 'none',
-    duration: duration });
-
-}var _default =
-
-toast;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 34:
-/*!**************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/getParent.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = getParent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-function getParent(name, keys) {
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {var _ret = function () {
-        var data = {};
-        // 判断keys是否数组，如果传过来的是一个数组，那么直接使用数组元素值当做键值去父组件寻找
-        if (Array.isArray(keys)) {
-          keys.map(function (val) {
-            data[val] = parent[val] ? parent[val] : '';
-          });
-        } else {
-          // 历遍传过来的对象参数
-          for (var i in keys) {
-            // 如果子组件有此值则用，无此值则用父组件的值
-            // 判断是否空数组，如果是，则用父组件的值，否则用子组件的值
-            if (Array.isArray(keys[i])) {
-              if (keys[i].length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else if (keys[i].constructor === Object) {
-              // 判断是否对象，如果是对象，且有属性，那么使用子组件的值，否则使用父组件的值
-              if (Object.keys(keys[i]).length) {
-                data[i] = keys[i];
-              } else {
-                data[i] = parent[i];
-              }
-            } else {
-              // 只要子组件有传值，即使是false值，也是“传值”了，也需要覆盖父组件的同名参数
-              data[i] = keys[i] || keys[i] === false ? keys[i] : parent[i];
-            }
-          }
-        }
-        return { v: data };}();if (typeof _ret === "object") return _ret.v;
-    }
-  }
-
-  return {};
-}
-
-/***/ }),
-
-/***/ 35:
-/*!************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/$parent.js ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
-// 值(默认为undefined)，就是查找最顶层的$parent
-function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options && parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {
-      return parent;
-    }
-  }
-  return false;
-}
-
-/***/ }),
-
-/***/ 36:
-/*!********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/sys.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.os = os;exports.sys = sys;function os() {
-  return uni.getSystemInfoSync().platform;
-};
-
-function sys() {
-  return uni.getSystemInfoSync();
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 37:
-/*!*************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/debounce.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timeout = null;
-
-/**
-                                                                                                                         * 防抖原理：一定时间内，只有最后一次操作，再过wait毫秒后才执行函数
-                                                                                                                         * 
-                                                                                                                         * @param {Function} func 要执行的回调函数 
-                                                                                                                         * @param {Number} wait 延时的时间
-                                                                                                                         * @param {Boolean} immediate 是否立即执行 
-                                                                                                                         * @return null
-                                                                                                                         */
-function debounce(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-  // 清除定时器
-  if (timeout !== null) clearTimeout(timeout);
-  // 立即执行，此类情况一般用不到
-  if (immediate) {
-    var callNow = !timeout;
-    timeout = setTimeout(function () {
-      timeout = null;
-    }, wait);
-    if (callNow) typeof func === 'function' && func();
-  } else {
-    // 设置定时器，当最后一次操作后，timeout不会再被清除，所以在延时wait毫秒后执行func回调方法
-    timeout = setTimeout(function () {
-      typeof func === 'function' && func();
-    }, wait);
-  }
-}var _default =
-
-debounce;exports.default = _default;
-
-/***/ }),
-
-/***/ 38:
-/*!*************************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/function/throttle.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var timer, flag;
-/**
-                                                                                                                      * 节流原理：在一定时间内，只能触发一次
-                                                                                                                      * 
-                                                                                                                      * @param {Function} func 要执行的回调函数 
-                                                                                                                      * @param {Number} wait 延时的时间
-                                                                                                                      * @param {Boolean} immediate 是否立即执行
-                                                                                                                      * @return null
-                                                                                                                      */
-function throttle(func) {var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 500;var immediate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
-  if (immediate) {
-    if (!flag) {
-      flag = true;
-      // 如果是立即执行，则在wait毫秒内开始时执行
-      typeof func === 'function' && func();
-      timer = setTimeout(function () {
-        flag = false;
-      }, wait);
-    }
-  } else {
-    if (!flag) {
-      flag = true;
-      // 如果是非立即执行，则在wait毫秒内的结束处执行
-      timer = setTimeout(function () {
-        flag = false;
-        typeof func === 'function' && func();
-      }, wait);
-    }
-
-  }
-};var _default =
-throttle;exports.default = _default;
-
-/***/ }),
-
-/***/ 39:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/config/config.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // 此版本发布于2020-03-17
-var version = '1.8.4';var _default =
-
-{
-  v: version,
-  version: version,
-  // 主题名称
-  type: [
-  'primary',
-  'success',
-  'info',
-  'error',
-  'warning'] };exports.default = _default;
-
-/***/ }),
-
-/***/ 390:
+/* 481 */,
+/* 482 */,
+/* 483 */,
+/* 484 */,
+/* 485 */,
+/* 486 */,
+/* 487 */,
+/* 488 */,
+/* 489 */,
+/* 490 */,
+/* 491 */,
+/* 492 */,
+/* 493 */,
+/* 494 */,
+/* 495 */,
+/* 496 */,
+/* 497 */,
+/* 498 */,
+/* 499 */,
+/* 500 */,
+/* 501 */,
+/* 502 */,
+/* 503 */,
+/* 504 */,
+/* 505 */,
+/* 506 */,
+/* 507 */,
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
+/* 512 */,
+/* 513 */,
+/* 514 */,
+/* 515 */,
+/* 516 */,
+/* 517 */,
+/* 518 */,
+/* 519 */,
+/* 520 */,
+/* 521 */,
+/* 522 */,
+/* 523 */
 /*!********************************************************************************!*\
   !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/util/emitter.js ***!
   \********************************************************************************/
@@ -12007,48 +28246,6 @@ function _broadcast(componentName, eventName, params) {
       _broadcast.call(this, componentName, eventName, params);
     } } };exports.default = _default;
 
-/***/ }),
-
-/***/ 4:
-/*!*************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/pages.json ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 40:
-/*!*********************************************************************************!*\
-  !*** C:/Users/m/Documents/HBuilderProjects/food/uview-ui/libs/config/zIndex.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // uniapp在H5中各API的z-index值如下：
-/**
- * actionsheet: 999
- * modal: 999
- * navigate: 998
- * tabbar: 998
- * toast: 999
- */var _default =
-
-{
-  toast: 10090,
-  noNetwork: 10080,
-  // popup包含popup，actionsheet，keyboard，picker的值
-  popup: 10075,
-  mask: 10070,
-  navbar: 980,
-  topTips: 975,
-  sticky: 970,
-  indexListSticky: 965 };exports.default = _default;
-
 /***/ })
-
-}]);
+]]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map

@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "讨论",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "my-loading": "/components/my-loading/my-loading",
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "discuss": "/components/discuss/discuss",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "dis-cuss": "/components/discuss/discuss",
+    "dis-cuss-edit": "/components/edit-discuss/edit-discuss"
+  }
+}

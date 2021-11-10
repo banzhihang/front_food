@@ -25,8 +25,6 @@
 /* 透明度 */
 /* 文章场景相关 */
 .comment.data-v-2fbbad3c {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   padding: 5rpx 0 0 0;
   position: relative;
@@ -44,41 +42,29 @@
   background-color: #f2f2f2;
 }
 .comment .right.data-v-2fbbad3c {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
   padding-left: 15rpx;
   font-size: 30rpx;
 }
 .comment .right .top.data-v-2fbbad3c {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 10rpx;
 }
 .comment .right .top .name.data-v-2fbbad3c {
-  font-size: 25rpx;
+  font-size: 30rpx;
   color: #000000;
 }
 .comment .right .top .like.data-v-2fbbad3c {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  color: #9a9a9a;
+  align-items: center;
+  color: #808080;
   font-size: 26rpx;
 }
 .comment .right .top .like .num.data-v-2fbbad3c {
   margin-right: 4rpx;
-  color: #9a9a9a;
+  color: #808080;
 }
 .comment .right .top .highlight.data-v-2fbbad3c {
   color: #1a56b4;
@@ -87,17 +73,17 @@
   color: #1a56b4;
 }
 .comment .right .content.data-v-2fbbad3c {
-  font-size: 28rpx;
+  font-size: 30rpx;
   margin-bottom: 30rpx;
+  color: #000000;
 }
 .comment .right .score-time.data-v-2fbbad3c {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
+  align-items: center;
 }
 .comment .right .score-time .time.data-v-2fbbad3c {
-  margin-top: -7rpx;
   margin-left: 15rpx;
-  font-size: 20rpx;
+  font-size: 23rpx;
+  color: #808080;
 }
 

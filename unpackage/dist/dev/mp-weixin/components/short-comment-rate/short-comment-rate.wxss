@@ -57,5 +57,17 @@
   position: absolute;
   top: 400rpx;
   width: 650rpx;
+  color: #bfbac2;
+}
+.box .err-item.data-v-09e54c64 {
+  margin-top: 70rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.box .err-title.data-v-09e54c64 {
+  margin-top: 60rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #000000;
 }
 

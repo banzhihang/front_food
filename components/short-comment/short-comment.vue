@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view class="comment" v-for="res in shortCommentList" :key="res.id">
+		<view class="comment" v-for="(res,idx) in shortCommentList" :key="res.id">
 			<view class="left">
 				<image :src="res.user_head_portrait" mode="aspectFill"></image>
 			</view>
@@ -9,19 +9,22 @@
 					<view>
 						<view class="name">{{ res.user_nick_name }}</view>
 						<view class="score-time">
-							<uni-rate :value="res.user_score" size="10" allowHalf readonly active-color='#EC9F3A'/>
+							<uni-rate :value="res.user_score" size="12" allowHalf readonly active-color='#EC9F3A'/>
 							<text class="time">{{res.add_time}}</text>
 						</view>
 					</view>
-					<view class="like" :class="{ highlight: getIsApproval(res.is_approval) }">
-						<view class="num">{{res.approval_number}}</view>
-						<u-icon v-if="!getIsApproval(res.is_approval)" name="thumb-up" :size="30" color="#9a9a9a" ></u-icon>
-						<u-icon v-if="getIsApproval(res.is_approval)" name="thumb-up" :size="30"  color="#1a56b4" ></u-icon>
+					<view class="like" @click="approvalShortComment(idx)">
+						<u-icon
+						:name="res.is_approval ? 'thumb-up-fill' : 'thumb-up'" 
+						class="like" size="35" 
+						:color="res.is_approval ? '#1a56b4': '#808080'"></u-icon>
+						
+						<view class="num" :style="{color:(res.is_approval ? '#1a56b4' : '#808080')}">{{ res.approval_number }}</view>
 					</view>
 				</view>
 				<view class="content">{{ res.content }}</view>
 			</view>
-			<view class="bottom-line">
+			<view class="bottom-line" v-show="showBottomLine(idx)">
 				<u-line color="#e0dde3" length="800rpx"/>
 			</view>
 		</view>
@@ -30,14 +33,28 @@
 </template>
 
 <script>
+	import {
+		approvalUrl,
+	} from '@/util/api.js';
+	import {
+		encrypt
+	} from '@/util/encrypt/encrypt.js'
+	import {
+		checkLogin
+	} from '@/util/checkLogin.js'
 	export default {
-		props: ['shortCommentList'],
+		props: {
+			shortCommentList:{
+				type:Array,
+				default:[]
+			},
+			hiddenBottom:{
+				type:Boolean,
+				default:true
+			}
+		},
 		name:"shortComment",
 		methods:{
-			getIsApproval(is_approval) {
-				if (is_approval ===0 ) return false
-				return true
-			},
 			getScore(score) {
 				if (score !== null) {
 					return (score/2).toFixed(1)
@@ -45,7 +62,59 @@
 					return 'www'
 				}
 			},
+			showBottomLine(idx){
+				if (idx === this.shortCommentList.length-1  && this.hiddenBottom ) {
+					return false
+				}else {
+					return true
+				}
+			},
 			
+			// 短评点赞
+			async approvalShortComment(index) {
+				// 先检查用户是否登录
+				const canContinue = checkLogin()
+				if (!canContinue) {
+					return
+				}
+				
+				uni.vibrateShort({})
+				let obj = this.shortCommentList[index]
+				let data = {
+					"short_comment":obj.id
+				}
+				
+				const url = approvalUrl
+				const enData = encrypt(data)
+				const {
+					data: res
+				} = await this.$http.post(url, enData)
+				
+				if (res.code !== "0") {
+					uni.showToast({
+						title:"操作失败",
+						icon:"error"
+					})
+				} else {
+					this.alterApprovalStatus(index)
+				}
+			},
+			
+			// 点赞改变状态
+			alterApprovalStatus(index){
+				let obj = this.shortCommentList[index]
+				const is_approval = obj.is_approval
+				let data = {
+					index:index
+				}
+				
+				if (is_approval) {
+					data.kind = "sub"
+				} else {
+					data.kind = "add"
+				}
+				this.$emit("approval",data)
+			},
 		}
 	}
 </script>
@@ -79,17 +148,17 @@
 			align-items: center;
 			margin-bottom: 10rpx;
 			.name {
-				font-size: 25rpx;
+				font-size: 30rpx;
 				color: #000000;
 			}
 			.like {
 				display: flex;
 				align-items: center;
-				color: #9a9a9a;
+				color: #808080;
 				font-size: 26rpx;
 				.num {
 					margin-right: 4rpx;
-					color: #9a9a9a;
+					color: #808080;
 				}
 			}
 			.highlight {
@@ -100,16 +169,18 @@
 			}
 		}
 		.content {
-			font-size: 28rpx;
+			font-size: 30rpx;
 			margin-bottom: 30rpx;
+			color: #000000;
 		}
 		
 		.score-time {
 			display: flex;
+			align-items: center;
 			.time {
-				margin-top: -7rpx;
 				margin-left: 15rpx;
-				font-size: 20rpx;
+				font-size: 23rpx;
+				color: #808080;
 			}
 		}
 	}

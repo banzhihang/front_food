@@ -25,8 +25,6 @@
 /* 透明度 */
 /* 文章场景相关 */
 .score-body.data-v-11e01d64 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .score-body .score-text.data-v-11e01d64 {
@@ -42,9 +40,7 @@
   width: 150rpx;
 }
 .score-body .score-rate.data-v-11e01d64  .uni-rate {
-  -webkit-box-pack: end !important;
-  -webkit-justify-content: flex-end !important;
-          justify-content: flex-end !important;
+  justify-content: flex-end !important;
 }
 .score-body .score-progress.data-v-11e01d64 {
   margin-top: -17rpx;

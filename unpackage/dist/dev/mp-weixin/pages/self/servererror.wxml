@@ -1,0 +1,1 @@
+<view><u-empty vue-id="71ed728b-1" text="服务器开小差啦" mode="list" margin-top="100" bind:__l="__l"></u-empty></view>

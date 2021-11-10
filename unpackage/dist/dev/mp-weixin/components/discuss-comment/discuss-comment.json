@@ -1,10 +1,12 @@
 {
   "component": true,
   "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
     "u-icon": "/uview-ui/components/u-icon/u-icon",
     "discuss-reply": "/components/discuss-reply/discuss-reply",
     "u-button": "/uview-ui/components/u-button/u-button",
-    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
     "reply": "/components/discuss-reply/discuss-reply"
   }
 }

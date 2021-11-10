@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "async-validator": "^4.0.7",
+    "axios": "^0.22.0",
+    "crypto-js": "^4.1.1",
+    "qiniu-js": "^3.4.0",
+    "save-dev": "^0.0.1-security"
+  }
+}

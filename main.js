@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import App from './App'
-import { myRequest } from './util/api.js'
 import uView from "uview-ui";
+import axios from './util/request/request.js'
+import ourLoading from '@/components/our-loading/our-loading.vue'
 
 Vue.use(uView);
-Vue.prototype.$myRuquest = myRequest
+
 Vue.filter('formatDate',(date)=>{
 	const nDate = new Date(date)
 	const year = nDate.getFullYear()
@@ -14,8 +15,11 @@ Vue.filter('formatDate',(date)=>{
 })
 
 Vue.config.productionTip = false
+Vue.component('ourLoading', ourLoading)
 
 App.mpType = 'app'
+
+Vue.prototype.$http = axios
 
 const app = new Vue({
     ...App

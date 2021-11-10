@@ -25,30 +25,20 @@
 /* 透明度 */
 /* 文章场景相关 */
 .uni-flex.data-v-4227a229, .uni-flex-row.data-v-4227a229, .uni-list-box.data-v-4227a229, .uni-media-box.data-v-4227a229, .uni-footer.data-v-4227a229, .uni-flex-column.data-v-4227a229, .uni-content.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .uni-flex-row.data-v-4227a229, .uni-list-box.data-v-4227a229, .uni-media-box.data-v-4227a229, .uni-footer.data-v-4227a229 {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   box-sizing: border-box;
 }
 .uni-flex-column.data-v-4227a229, .uni-content.data-v-4227a229 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .uni-color-gary.data-v-4227a229 {
   color: #3b4144;
 }
 /* 标题 */
 .uni-title.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   margin-bottom: 8px;
   font-size: 16;
@@ -56,8 +46,6 @@
   color: #3b4144;
 }
 .uni-title-sub.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   font-size: 14px;
   font-weight: 500;
@@ -71,15 +59,12 @@
 }
 /* 列表内容 */
 .uni-list-box.data-v-4227a229 {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
   margin-top: 10px;
 }
 /* 略缩图 */
 .uni-thumb.data-v-4227a229 {
-  -webkit-flex-shrink: 0;
-          flex-shrink: 0;
+  flex-shrink: 0;
   margin-right: 10px;
   width: 125px;
   height: 75px;
@@ -98,8 +83,7 @@
 .uni-media-box .uni-thumb.data-v-4227a229 {
   margin: 0;
   margin-left: 4px;
-  -webkit-flex-shrink: 1;
-          flex-shrink: 1;
+  flex-shrink: 1;
   width: 33%;
   border-radius: 0;
 }
@@ -108,15 +92,11 @@
 }
 /* 内容 */
 .uni-content.data-v-4227a229 {
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 /* 列表footer */
 .uni-footer.data-v-4227a229 {
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 12px;
 }
 .uni-footer-text.data-v-4227a229 {
@@ -126,8 +106,7 @@
 }
 /* 标签 */
 .uni-tag.data-v-4227a229 {
-  -webkit-flex-shrink: 0;
-          flex-shrink: 0;
+  flex-shrink: 0;
   padding: 0 5px;
   border: 1px #c8c7cc solid;
   margin-right: 5px;
@@ -147,9 +126,9 @@
   margin-top: 20rpx;
 }
 .header.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
+  /* 美食没有吃过和没有想吃 */
+  /* 美食已经吃过 */
 }
 .header .food-picture.data-v-4227a229 {
   height: 230rpx;
@@ -165,21 +144,28 @@
   width: 500rpx;
 }
 .header .food-address text.data-v-4227a229 {
-  margin-left: 5rpx;
+  margin-left: 4rpx;
 }
 .header .food-time.data-v-4227a229 {
-  margin-top: 10rpx;
+  margin-top: 5rpx;
   color: #696a6c;
   font-size: 25rpx;
 }
 .header .food-time text.data-v-4227a229 {
   margin-left: 5rpx;
 }
+.header .restaurant-nme.data-v-4227a229 {
+  margin-top: 1rpx;
+  color: #696a6c;
+  font-size: 25rpx;
+}
+.header .restaurant-nme text.data-v-4227a229 {
+  margin-left: 5rpx;
+}
 .header .food-want-eated.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  margin-top: 30rpx;
+  margin-top: 20rpx;
+  /* 已吃过 */
 }
 .header .food-want-eated.data-v-4227a229 .u-size-default {
   height: 60rpx;
@@ -199,12 +185,44 @@
   font-size: 25rpx;
   width: 200rpx;
 }
+.header .food-want-eated .food-wanted.data-v-4227a229 {
+  width: 220rpx;
+  background-color: rgba(178, 179, 180, 0.3);
+  display: flex;
+  align-items: center;
+  color: #3f3f41;
+  justify-content: center;
+  margin-right: 40rpx;
+  border-radius: 10rpx;
+}
+.header .food-already-eated.data-v-4227a229 {
+  border-radius: 10rpx;
+  margin-top: 15rpx;
+  width: 495rpx;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35rpx;
+  padding-right: 25rpx;
+  background-color: rgba(216, 219, 220, 0.3);
+}
+.header .food-already-eated .food-already-eated-left.data-v-4227a229 {
+  font-size: 23rpx;
+  color: #696a6c;
+}
+.header .food-already-eated .food-already-eated-right.data-v-4227a229 {
+  font-size: 23rpx;
+  color: #9a9b9e;
+}
 .score.data-v-4227a229 {
   margin-top: 30rpx;
   font-size: 25rpx;
   margin-left: -30rpx;
 }
 .score .score-head.data-v-4227a229 {
+  display: flex;
+  align-items: center;
   position: relative;
 }
 .score .score-head .score-head-right.data-v-4227a229 {
@@ -212,75 +230,103 @@
   right: 0;
   top: 0;
 }
+.score .score-head .score-head-left.data-v-4227a229 {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
 .desc.data-v-4227a229 {
-  font-size: 25rpx;
+  font-size: 30rpx;
   margin-left: -30rpx;
 }
 .desc .desc-body.data-v-4227a229 {
+  font-size: 30rpx;
   margin-top: -40rpx;
+}
+.desc .desc-head.data-v-4227a229 {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
 }
 .food-photo.data-v-4227a229 {
   font-size: 25rpx;
   margin-left: -30rpx;
 }
 .food-photo .photo-head.data-v-4227a229 {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .food-photo .photo-head .photo-head-right.data-v-4227a229 {
-  position: absolute;
-  right: 0;
-  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+.food-photo .photo-head .photo-head-left.data-v-4227a229 {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
 }
 .food-photo.data-v-4227a229  .u-icon__icon {
-  left: -15rpx;
+  left: -5rpx;
 }
 .food-address-photo-ing.data-v-4227a229 {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .short-comment.data-v-4227a229 {
   margin-left: -30rpx;
 }
 .short-comment .comment-head.data-v-4227a229 {
+  display: flex;
+  align-items: center;
   margin-bottom: -10rpx;
   position: relative;
 }
 .short-comment .comment-head .comment-head-right.data-v-4227a229 {
-  position: absolute;
-  right: 0;
-  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+.short-comment .comment-head .comment-head-left.data-v-4227a229 {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
 }
 .short-comment-foot.data-v-4227a229 {
   margin-top: -30rpx;
-  font-size: 25rpx;
+  font-size: 30rpx;
   position: relative;
-}
-.short-comment-foot .short-comment-foot-arrow.data-v-4227a229 {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .discuss.data-v-4227a229 {
   margin-left: -30rpx;
 }
 .discuss .discuss-head.data-v-4227a229 {
-  margin-bottom: -10rpx;
-  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: -30rpx;
 }
 .discuss .discuss-head .discuss-head-right.data-v-4227a229 {
-  position: absolute;
-  right: 0;
-  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+.discuss .discuss-head .discuss-head-left.data-v-4227a229 {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
 }
 .discuss-foot.data-v-4227a229 {
-  margin-top: -40rpx;
-  font-size: 25rpx;
+  margin-top: -20rpx;
+  font-size: 30rpx;
   position: relative;
-}
-.discuss-foot .discuss-foot-arrow.data-v-4227a229 {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 

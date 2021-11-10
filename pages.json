@@ -1,35 +1,37 @@
 {
 	"easycom": {
-	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+			"tui-(.*)": "@/thorui/tui-$1/tui-$1.vue"
 	    },
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
 		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationStyle": "custom" ,
-				"navigationBarTextStyle": "white" 
+				"navigationBarTextStyle":"black",
+				"app-plus" : {
+						"softinputMode":"adjustResize",
+						"bounce" : "none"
+						// 取消APP端iOS回弹,避免与下拉刷新冲突 (可统一配在 'globalStyle')
+				},
+				"mp-alipay":{"allowsBounceVertical":"NO"}
 			}
 		},
 		{
             "path" :"pages/self/self",
             "style" : {
-                "navigationBarTitleText": "我",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "吃小猪",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
             }
-        }
-        ,{
-            "path" : "pages/list/list",
-            "style" : {
-                "enablePullDownRefresh": true,
-                "navigationBarTitleText": "美食列表"
-            } 
         },
         {
             "path" : "pages/index/food-details",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "美食详情",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
             }
             
         }
@@ -38,7 +40,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "讨论详情",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
             }
             
         }
@@ -47,6 +50,102 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "评论回复",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/self/my-content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吃小猪",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/all-discuss/all-discuss",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "讨论",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				 "app-plus": {
+				        "animationType": "slide-in-bottom",
+				        "animationDuration": 300
+				    }
+            }
+            
+        }
+        ,{
+            "path" : "pages/all-short-comment/all-short-comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "短评",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/food-push/food-push",
+            "style": {
+            	"navigationStyle": "custom" ,
+            	"navigationBarTextStyle":"black"
+            }
+        }
+        ,{
+            "path" : "pages/discuss-push/discuss-push",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom" 
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/search/search-history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/search/location",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/self/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/self/servererror",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -57,18 +156,17 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+		
 	},
 	"tabBar":{
 		"selectedColor":"#1a56b4",
 		"list":[
 			{
-				"text":"吃",
 				"pagePath":"pages/index/index",
 				"iconPath":"static/icon/eat.png",
 				"selectedIconPath":"static/icon/eat-active.png"
 			},
 			{
-				"text":"我",
 				"pagePath":"pages/self/self",
 				"iconPath":"static/icon/self.png",
 				"selectedIconPath":"static/icon/self-active.png"

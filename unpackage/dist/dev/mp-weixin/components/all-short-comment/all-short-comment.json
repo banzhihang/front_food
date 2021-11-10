@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
-    "short-comment": "/components/short-comment/short-comment"
-  }
-}

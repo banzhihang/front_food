@@ -1,20 +1,24 @@
 {
   "navigationBarTitleText": "美食详情",
   "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "my-loading": "/components/my-loading/my-loading",
     "u-icon": "/uview-ui/components/u-icon/u-icon",
     "u-button": "/uview-ui/components/u-button/u-button",
     "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "eated-show": "/components/eated-show/eated-show",
     "u-card": "/uview-ui/components/u-card/u-card",
     "food-rate": "/components/food-rate/food-rate",
     "photo-list": "/components/photo-list/photo-list",
     "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
     "short-comment": "/components/short-comment/short-comment",
-    "all-short-comment": "/components/all-short-comment/all-short-comment",
     "discuss": "/components/discuss/discuss",
-    "all-discuss": "/components/all-discuss/all-discuss",
     "dis-cuss": "/components/discuss/discuss",
     "short-comment-edit": "/components/short-comment-rate/short-comment-rate",
-    "all-photo": "/components/photo-list/photo-list"
+    "all-photo": "/components/photo-list/photo-list",
+    "eated-data": "/components/eated-show/eated-show"
   }
 }

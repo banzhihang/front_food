@@ -1,12 +1,19 @@
 {
   "navigationBarTitleText": "评论回复",
   "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
   "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
     "u-icon": "/uview-ui/components/u-icon/u-icon",
     "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-line": "/uview-ui/components/u-line/u-line",
     "discuss-reply": "/components/discuss-reply/discuss-reply",
-    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
     "input-comment-reply": "/components/input-comment-reply/input-comment-reply",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-alert-tips": "/uview-ui/components/u-alert-tips/u-alert-tips",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
     "reply": "/components/discuss-reply/discuss-reply"
   }
 }
