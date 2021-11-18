@@ -25,7 +25,7 @@
 			<view class="title">
 				<u-input v-model="discussTitle" type="text"
 				:clearable="false" placeholder="标题" height="80" 
-				maxlength="30"
+				maxlength="10"
 				:custom-style="titleCustomStyle"
 				placeholder-style="font-size: 38rpx;color:#c8c5ca"/>
 			</view>
@@ -112,6 +112,11 @@
 			},
 			// 提交信息
 			async submitDiscuss(){
+				const concanContinue = checkLogin()
+				if (!concanContinue) {
+					return
+				}
+				
 				let imageResp = this.$refs.uUpload.lists.filter(val => {
 					return val.progress == 100;
 				})
@@ -123,7 +128,7 @@
 				
 				const data = {
 					food:this.food,
-					title:this.discussTitle,
+					title:this.discussTitle.replace(/\s+/g,""),
 					content:this.content,
 					image:this.imageList
 				}
@@ -132,7 +137,7 @@
 				const descriptor = {
 				  title: {
 				    title: "string",
-					max:20,
+					max:10,
 					min:2,
 				    required: true,
 				    message: "标题最少两个字"
@@ -166,6 +171,7 @@
 						that.errInfo.push(tmp)
 					}
 					that.showError=true
+					that.imageList = []
 					return
 				  } else {
 					  this.subPostData(data)
@@ -183,7 +189,7 @@
 				const {data:res} = await this.$http.post(url,enData)
 				uni.hideLoading()
 				uni.showToast({
-					title:"发布成功",
+					title:"已提交审核",
 					success() {
 						setTimeout(()=>{
 							uni.navigateBack({})
@@ -202,9 +208,9 @@
 			},
 		},
 		onLoad(options) {
-			console.log(options)
 			let data = JSON.parse(decodeURIComponent(options.item))
 			this.food = data.food
+			checkLogin()
 		}
 	}
 </script>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "our-loading": "/components/our-loading/our-loading"
+  }
+}

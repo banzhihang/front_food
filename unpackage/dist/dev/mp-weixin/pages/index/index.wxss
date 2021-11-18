@@ -198,12 +198,13 @@
   justify-content: space-between;
 }
 .write.data-v-57280228 {
-  width: 80rpx;
-  height: 80rpx;
+  width: 73rpx;
+  height: 70rpx;
   position: fixed;
   bottom: 120rpx;
   right: 30rpx;
   background-color: #FFFFFF;
   z-index: 1000;
+  border-radius: 50%;
 }
 

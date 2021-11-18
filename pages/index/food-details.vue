@@ -17,7 +17,7 @@
 					<text>{{food.restaurant_name}}</text>
 				</view>
 				<view class="food-address" @click="jumpToMap">
-					<u-icon name="map" color="#1a56b4" size="26"></u-icon>
+					<u-icon name="map" color="#1a56b4" size="27"></u-icon>
 					<text>{{food.address}}</text>
 					<u-icon name="arrow-right" color="#696a6c" size="20"></u-icon>
 				</view>
@@ -50,7 +50,7 @@
 					<view class="food-already-eated" v-if="food.is_want_eated === 1" @click="isShowRateInfo = true">
 						<view class="food-already-eated-left">
 							<text style="margin-right: 5rpx;">已吃过</text>
-							<u-rate size='20' active-color='#EC9F3A' inactive-color='#b4b7c1' gutter='7' min-count='1'
+							<u-rate size='23' active-color='#EC9F3A' inactive-color='#b4b7c1' gutter='7' min-count='1'
 								v-model="userRateInfo.score" :disabled="true"></u-rate>
 						</view>
 						<view class="food-already-eated-right">
@@ -76,8 +76,10 @@
 							style="margin-right: 7rpx;"></u-icon>
 						<text>吃小猪评分</text>
 					</view>
-					<text class="score-head-right" v-if="food.rate_score.score !== -1">{{food.vote_number}}人评分</text>
-					<text class="score-head-right" v-if="food.rate_score.score === -1">{{food.want_eat_num}}人想吃</text>
+					<view class="score-head-right" v-if="food.rate_score.score !== -1">
+						<text>{{food.vote_number}}人吃过</text>
+						<text>{{food.want_eat_num}}人想吃</text>
+					</view>
 				</view>
 				<view slot="body" class="score-body">
 					<view v-if="food.rate_score.score !== -1">
@@ -235,7 +237,7 @@
 	import {
 		checkLogin
 	} from '@/util/checkLogin.js'
-
+	import {getLocationFail,getUserInfoFail} from '@/util/checkAuth.js'
 
 	export default {
 		options: {
@@ -352,7 +354,7 @@
 						});
 					},
 					fail(err) {
-
+						getLocationFail()
 					}
 				})
 			},
@@ -478,10 +480,10 @@
 
 		.food-address {
 			margin-top: 5rpx;
+			margin-left: -1rpx;
 			color: #696a6c;
 			font-size: 25rpx;
 			width: 500rpx;
-
 			text {
 				margin-left: 4rpx;
 			}
@@ -557,15 +559,18 @@
 			justify-content: space-between;
 			align-items: center;
 			padding-left: 35rpx;
-			padding-right: 25rpx;
+			padding-right: 35rpx;
 			background-color: rgba(216, 219, 220, 0.3);
 
 			.food-already-eated-left {
 				font-size: 23rpx;
 				color: #696a6c;
+				
 			}
 
 			.food-already-eated-right {
+				flex: 1;
+				text-align: right;
 				font-size: 23rpx;
 				color: #9a9b9e;
 			}
@@ -580,12 +585,14 @@
 		.score-head {
 			display: flex;
 			align-items: center;
-			position: relative;
-
+			justify-content: space-between;
 			.score-head-right {
-				position: absolute;
-				right: 0;
-				top: 0;
+				margin-right: 10rpx;
+				color: #808080;
+				font-size: 25rpx;
+				text {
+					margin-left: 30rpx;
+				}
 			}
 
 			.score-head-left {

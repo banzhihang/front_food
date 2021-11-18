@@ -166,6 +166,7 @@
   bottom: 150rpx;
   right: 30rpx;
   z-index: 1000;
+  border-radius: 50%;
 }
 .box.data-v-394292f0  .u-icon__icon {
   left: -25rpx;

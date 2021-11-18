@@ -1,6 +1,5 @@
 <template>
 	<view>
-		<u-toast ref="uToast" />
 		<view class="header">
 			<view class="in">
 				<u-avatar size="120" class="photo"></u-avatar>
@@ -49,9 +48,9 @@ export default {
 						that.code = res.code
 					},
 					fail() {
-						that.$refs.uToast.show({
-							title: '登录失败',
-							type: 'error ',
+						uni.showToast({
+							title:"登录失败",
+							icon:"error"
 						})
 						that.btnLoaded()
 					}
@@ -64,9 +63,9 @@ export default {
 						that.loginMyService()
 					},
 					fail() {
-						that.$refs.uToast.show({
-							title: '登录失败',
-							type: 'error ',
+						uni.showToast({
+							title:"登录失败",
+							icon:"error"
 						})
 						that.btnLoaded()
 					}
@@ -93,9 +92,9 @@ export default {
 						console.log(token)
 						if (token) {
 							that.btnLoaded()
-							that.$refs.uToast.show({
-								title: '登录成功',
-								type: 'success',
+							uni.showToast({
+								title:"登录成功",
+								icon:"success"
 							})
 							uni.navigateBack()
 						}

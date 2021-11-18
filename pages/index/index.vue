@@ -30,16 +30,18 @@
 		</view>
 		<!-- 下拉刷新 -->
 		<mescroll-uni ref="mescrollRef" @down="firstSyncData" top=250 @up="getNext" 
-		:up="upOption" :down="downOption" @init="init" v-show="showEmpty === false && showResult === true">
+		:up="upOption" :down="downOption" @init="init" >
 			<view class="middle">
 				<food-list :foodsInfo="foods" @wantEta="wantEatHandle"></food-list>
 			</view>
+			<u-empty text="附近没有美食,扩大一下筛选范围吧" mode="data" margin-top="100" v-show="showEmpty === true && showNoAuth===false"></u-empty>
+			<u-empty text="授权之后下拉刷新" mode="data" margin-top="100" v-show="showNoAuth === true && showEmpty === false"></u-empty>
 		</mescroll-uni>
 		<!-- 右下角发布按钮 -->
 		<view class="write" @click="jumpFoodPush" v-if="!showLoading">
 			<u-image width="70rpx" height="70rpx" src="https://hotschool.ltd/add_food.png"></u-image>
 		</view>
-		<u-empty text="没有相关内容,试着更换一下筛选范围吧" mode="data" margin-top="100" v-show="showEmpty === true && showResult === false "></u-empty>
+		
 	</view>
 </template>
 
@@ -56,6 +58,7 @@
 	import {
 		checkLogin
 	} from '@/util/checkLogin.js'
+	import {getLocationFail,getUserInfoFail} from '@/util/checkAuth.js'
 	export default {
 		mixins: [MescrollMixin],
 		data() {
@@ -67,6 +70,15 @@
 						num : 0 ,
 						size : 6 ,
 						time : null
+					},
+					empty:{
+						  use : true ,
+						  icon : null ,
+						  tip : "暂无相关数据",
+						  btnText : "",
+						  fixed: false,
+						  top: "100rpx",
+						  zIndex: 99
 					}
 				},
 				downOption:{
@@ -144,7 +156,7 @@
 				// 用户当前的定位坐标
 				location:"",
 				showEmpty:false,
-				showResult:true
+				showNoAuth:false,
 			}
 		},
 		components:{
@@ -157,6 +169,7 @@
 			},
 			// 获得美食数据
 			async getFoodData() {
+				this.showNoAuth = false
 				const sort = this.sortValue
 				const distance = this.distanceValue
 				const from_point = 0
@@ -192,16 +205,16 @@
 										that.dumpUpStart()
 									},
 									fail:async function() {
-										that.dumpUpStart()
-										console.log("获取定位失败失败")
+										that.showNoAuth = true
+										getLocationFail()
+										that.mescroll.endErr();
 									}
 								})
 							},
 							fail: function(){
-								that.$refs.uToast.show({
-									title: '获取位置信息失败',
-									type: 'fail',
-								})
+								getUserInfoFail()
+								that.showNoAuth = true
+								that.mescroll.endErr();
 							}
 						}
 					)
@@ -218,10 +231,10 @@
 				this.nextUrl = res.data.next
 				this.haveNext = res.data.has_next
 				let curDataLen = res.data.filter_res.length
-				this.mescroll.endSuccess(curDataLen,this.haveNext)
+				this.mescroll.endSuccess(100,this.haveNext)
 			},
 			
-			// 地理位置子组件出发的事件
+			// 地理位置子组件触发的事件
 			async changeLocation(locationInfo) {
 				this.location = locationInfo.latitude.toString() + "," + locationInfo.longitude.toString()
 				this.mescroll.triggerDownScroll()
@@ -229,11 +242,9 @@
 			// 下拉刷新
 			async dumpUpStart(){
 				await this.getFoodData()
-				this.mescroll.endSuccess()
 				this.mescroll.endSuccess(100,this.haveNext)
 			},
 			changeSelectDistance(value){
-				
 				this.distanceText = this.distanceDict[value]
 				this.dumpUpStart()
 			},
@@ -266,11 +277,11 @@
 			},
 			showEmptyUi(){
 				this.showEmpty = true
-				this.showResult = false
+				this.mescroll.optUp.use = false
 			},
 			showResultUi(){
 				this.showEmpty = false,
-				this.showResult = true
+				this.mescroll.optUp.use = true
 			},
 			
 			// 想吃
@@ -359,13 +370,14 @@
 }
 
 .write {
-		width: 80rpx;
-		height: 80rpx;
+		width: 73rpx;
+		height: 70rpx;
 		position: fixed;
 		bottom: 120rpx;
 		right: 30rpx;
 		background-color: #FFFFFF;
 		z-index: 1000;
+		border-radius: 50%;
 	}
 
 </style>

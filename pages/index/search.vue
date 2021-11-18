@@ -12,7 +12,7 @@
 				</u-search>
 			</view>
 			<view class="search-text">
-				<text :style="{color:(inputValue ? '#1a5abf' : '#B9D0F9')}" @click="searchStart">搜索</text>
+				<text :style="{color:(inputValue ? '#1a5abf' : '#B9D0F9')}" @click=" searchStart">搜索</text>
 			</view>
 			<view class="search-line">
 				<u-line color="#f4f4f5" :hair-line="false"/>
@@ -24,11 +24,11 @@
 		<mescroll-uni ref="mescrollRef" top=110 @up="getNext" :down="downOption"
 			:up="upOption"  @init="init" v-show="showResult ===true && showEmpty===false&&showHistory===false&& showLoading === false">
 				<view >
-					<food-list :foodsInfo="foodList"></food-list>
+					<food-list :foodsInfo="foodList" @wantEta="wantEatHandle"></food-list>
 				</view>
 		</mescroll-uni>
 		<u-empty text="没有相关内容" mode="data" margin-top="100"
-		v-show="showEmpty===true && showHistory===false && showResult===false&& showLoading === false"></u-empty>
+		v-show="showEmpty===true && showHistory===false && showResult===false&& showLoading === false"></u-empty> 
 		<view v-show="showEmpty===false && showHistory===false && showResult===false&& showLoading === true" class="load-ui">
 			<u-loading mode="circle"
 			:show="showEmpty===false && showHistory===false && showResult===false&& showLoading === true"></u-loading>
@@ -41,6 +41,15 @@
 	import history from 'components/search/search-history.vue';
 	import MescrollMixin from "@/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-mixins.js";
 	import foodList from '../../components/food-list/food-list.vue';
+	import {
+		encrypt
+	} from '@/util/encrypt/encrypt.js'
+	import {
+		checkLogin
+	} from '@/util/checkLogin.js'
+	import {
+		wantEatUrl
+	} from '@/util/api.js';
 	export default {
 		data() {
 			return {
@@ -53,6 +62,7 @@
 						time : null
 					}
 				},
+				
 				downOption:{
 					use: false,
 				},
@@ -76,11 +86,11 @@
 				this.mescroll = mescroll;
 			},
 			searchStart(){
-				this.showLoadingUi()
 				let vaildKey = this.inputValue.replace(/\s+/g,"");
 				if (vaildKey === ""){
 					return
 				}
+				this.showLoadingUi()
 				this.$refs.historyRef.addKey(vaildKey)
 				this.searchData()
 			},
@@ -107,7 +117,6 @@
 			},
 			async searchData() {
 				await this.getFoodData()
-				this.mescroll.endSuccess()
 				this.mescroll.endSuccess(100,this.haveNext)
 			},
 			async getNext(page) {
@@ -120,7 +129,7 @@
 				this.haveNext = res.data.has_next
 				console.log(res.data.search_res.length)
 				let curDataLen = res.data.search_res.length
-				this.mescroll.endSuccess(curDataLen,this.haveNext)
+				this.mescroll.endSuccess(100,this.haveNext)
 			},
 			showHistoryUi(){
 				this.showHistory = true
@@ -149,7 +158,44 @@
 			clickKey(key) {
 				this.inputValue = key
 				this.searchStart()
-			}
+			},
+			// 想吃
+			wantEatHandle(index) {
+				// 先检查用户是否登录
+				const canContinue = checkLogin()
+				if (!canContinue) {
+					return
+				}
+				
+				let obj = this.foodList[index]
+				let data = {
+					"food": obj.id
+				}
+				this.subPostData(data, wantEatUrl,index)
+			},
+			
+			// 真正发起数据请求
+			async subPostData(data, push_url,index) {
+				uni.showLoading({
+					title: "标记中",
+					mask: true
+				})
+				const url = push_url
+				const enData = encrypt(data)
+				const {
+					data: res
+				} = await this.$http.post(url, enData)
+				uni.hideLoading()
+				let that = this
+				uni.showToast({
+					title: "标记成功",
+					success() {
+						let obj = that.foodList[index]
+						obj.is_want_eated = 2
+					}
+				})
+			
+			},
 		},
 		watch:{
 			inputValue(newVal,oldVal){

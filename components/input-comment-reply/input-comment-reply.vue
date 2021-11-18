@@ -104,6 +104,13 @@
 			
 			// 抛出数据给上一层处理
 			throwData(){
+				let checkInput = this.inputValue
+				let vaildKey = checkInput.replace(/\s+/g,"");
+				if (vaildKey === ""){
+					this.inputValue = ""
+					return
+				}
+				
 				let data = {
 					"targetUserId":this.targetUserIdIn,
 					"targetUserName":this.targetUserNameIn,

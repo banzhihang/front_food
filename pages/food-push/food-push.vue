@@ -52,7 +52,7 @@
 			</view>
 			<view class="upload">
 				<u-upload :action="action" :max-size="4 * 1024 * 1024" :auto-upload="false" @on-choose-complete="chooseReady"
-				upload-text="添加美食图片" del-bg-color="#1a56b4"  :formData="formData" 
+				upload-text="美食·餐厅图片" del-bg-color="#1a56b4"  :formData="formData" 
 				max-count="20" ref="uUpload"
 				></u-upload>
 				
@@ -63,7 +63,7 @@
 				<view class="name-input">
 					<u-input v-model="restaurantName" type="text"
 					:clearable="false" placeholder=" " height="60" 
-					maxlength="10"
+					maxlength="20"
 					:custom-style="restaurantNameCustomStyle"
 					/>
 				</view>
@@ -85,6 +85,7 @@
 						<view style="height: 20rpx;"></view>
 					</view>
 				</view>
+				
 			</u-popup>
 		</view>
 	</view>
@@ -96,6 +97,7 @@
 	import {getUploadToken} from '../../util/request/upload.js';
 	import {encrypt} from '../../util/encrypt/encrypt.js'
 	import {checkLogin} from '../../util/checkLogin.js'
+	import {getLocationFail,getUserInfoFail} from '@/util/checkAuth.js'
 	export default {
 		options: { styleIsolation: 'shared' },
 		data() {
@@ -168,14 +170,14 @@
 							success: function (res) {
 								that.location = res.latitude.toString() + "," + res.longitude.toString()
 								that.locationName = res.address
+							 },
+							 fail() {
+							 	getLocationFail()
 							 }
 						});
 					},
 					fail(err) {
-						that.$refs.uToast.show({
-							title: '获取位置信息失败',
-							type: 'fail',
-						})
+						getUserInfoFail()
 					}
 				})
 			},
@@ -195,6 +197,11 @@
 			
 			// 提交信息
 			async submitFood(){
+				const concanContinue = checkLogin()
+				if (!concanContinue) {
+					return
+				}
+				
 				let imageResp = this.$refs.uUpload.lists.filter(val => {
 					return val.progress == 100;
 				})
@@ -205,10 +212,10 @@
 				})
 				
 				const data = {
-					name:this.foodName,
-					desc:this.desc,
+					name:this.foodName.replace(/\s+/g,""),
+					desc:this.desc.replace(/\s+/g,""),
 					address:this.locationName,
-					restaurant_name:this.restaurantName,
+					restaurant_name:this.restaurantName.replace(/\s+/g,""),
 					location:this.location,
 					image:this.imageList
 				}
@@ -232,16 +239,16 @@
 				  address:{
 					type: "string",
 					max:100,
-					min:5,
+					min:4,
 					required: true,
 					message: "美食地点最少四个字"  
 				  },
 				  restaurant_name:{
 					  type: "string",
-					  max:10,
-					  min:1,
+					  max:20,
+					  min:2,
 					  required: true,
-					  message: "餐厅名称最少一个字" 
+					  message: "餐厅名称最少2个字" 
 				  },
 				  image:{
 					 type: "array",
@@ -265,6 +272,7 @@
 						that.errInfo.push(tmp)
 					}
 					that.showError=true
+					that.imageList = []
 					return
 				  } else {
 					  this.subPostData(data)
@@ -283,7 +291,7 @@
 				const {data:res} = await this.$http.post(url,enData)
 				uni.hideLoading()
 				uni.showToast({
-					title:"发布成功",
+					title:"已提交审核",
 					success() {
 						setTimeout(()=>{
 							uni.navigateBack({})
@@ -304,14 +312,12 @@
 			},
 		},
 		
-		onShow() {
-			checkLogin()
-		},
-		
+
 		onLoad(options) {
 			let data = JSON.parse(decodeURIComponent(options.item))
 			this.location = data.location
 			this.getLocationNameFromIndex()
+			checkLogin()
 		}
 	}
 </script>

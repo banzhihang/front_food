@@ -1,5 +1,5 @@
 {
-    "name" : "food",
+    "name" : "吃小猪",
     "appid" : "__UNI__7549A0E",
     "description" : "",
     "versionName" : "1.0.0",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx2e61484c1dfce59e",
+        "appid" : "wxd1d899ff490c9a02",
         "setting" : {
             "urlCheck" : false
         },

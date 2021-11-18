@@ -29,7 +29,6 @@
 
 <script>
 	import disCuss from 'components/discuss/discuss.vue';
-	import disCussEdit from 'components/edit-discuss/edit-discuss.vue';
 	export default {
 		name:"all-discuss",
 		options: { styleIsolation: 'shared' },
@@ -57,7 +56,6 @@
 		},
 		components:{
 			disCuss,
-			disCussEdit,
 		},
 		methods:{
 			jumpToDiscussPush(){
@@ -189,6 +187,7 @@
 		bottom: 150rpx;
 		right: 30rpx;
 		z-index: 1000;
+		border-radius: 50%;
 	}
 	
 	::v-deep .u-icon__icon {

@@ -43,6 +43,9 @@
 </template>
 
 <script>
+	import {
+		getScore
+	} from '@/util/getScore.js';
 	export default {
 		props: ['foodsInfo'],
 		name: "my-food",
@@ -50,13 +53,7 @@
 			navigator(id) {
 				this.$emit('foodsItemClick', id)
 			},
-			getScore(score) {
-				if (score !== -1) {
-					return (score / 2).toFixed(1)
-				} else {
-					return -1
-				}
-			},
+			getScore,
 			showScore(score) {
 				if (score !== -1) {
 					return true

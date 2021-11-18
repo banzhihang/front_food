@@ -69,4 +69,16 @@ page.data-v-6cbfa486 {
   margin-top: 10rpx;
   margin-bottom: 10rpx;
 }
+.body-login.data-v-6cbfa486 {
+  text-align: center;
+  margin-top: 150rpx;
+}
+.body-login .btn.data-v-6cbfa486 {
+  width: 100%;
+  text-align: center;
+}
+.body-login .content.data-v-6cbfa486 {
+  margin-bottom: 20rpx;
+  font-size: 35rpx;
+}
 

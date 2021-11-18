@@ -1,53 +1,110 @@
 <template>
 	<view>
 		<my-loading :active="showLoading" v-if="showLoading"></my-loading>
-		<view class="header">
-			<view class="avatar">
-				<u-avatar :src="userInfo.user_head_portrait" size="100"></u-avatar>
-			</view>
-			<view class="name">
-				<view >{{userInfo.user_nick_name}}</view>
-			</view>
-		</view>
-		
-		<view class="body">
-			<u-card 
-			box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 3rpx 3rpx"
-			:head-border-bottom="false"
-			:foot-border-top="false"
-			border-radius="20"
-			>
-				<view slot="body" class="body-middle">
-					<view class="first-box" @click="jumpToMyContent('想吃',1)">
-						<text>想吃</text>
-						<u-icon name="arrow-right" size="20"></u-icon>
-						<view class="eated-want first">
-							<u-image width="100%" height="200rpx" :src="userInfo.want_eat_img"></u-image>
-						</view>
-						<text>{{userInfo.want_eat_num}}</text>
-					</view>
-					
-					<view class="second-box" @click="jumpToMyContent('吃过',2)">
-						<text>吃过</text>
-						<u-icon name="arrow-right" size="20"></u-icon>
-						<view class="eated-want first">
-							<u-image width="100%" height="200rpx" :src="userInfo.eated_img"></u-image>
-						</view>
-						<text>{{userInfo.eated_num}}</text>
-					</view>
-					
-					<view class="third-box" @click="jumpToMyContent('我的发布',3)">
-						<text>我的发布</text>
-						<u-icon name="arrow-right" size="20"></u-icon>
-						<view class="eated-want first">
-							<u-image width="100%" height="200rpx" :src="userInfo.my_push_img"></u-image>
-						</view>
-						<text>{{userInfo.push_num}}</text>
-					</view>
+		<view v-if="haveToken">
+			<view class="header">
+				<view class="avatar">
+					<u-avatar :src="userInfo.user_head_portrait" size="100"></u-avatar>
 				</view>
-			</u-card>
+				<view class="name">
+					<view >{{userInfo.user_nick_name}}</view>
+				</view>
+			</view>
+			<view class="body">
+				<u-card 
+				box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 3rpx 3rpx"
+				:head-border-bottom="false"
+				:foot-border-top="false"
+				border-radius="20"
+				>
+					<view slot="body" class="body-middle">
+						<view class="first-box" @click="jumpToMyContent('想吃',1)">
+							<text>想吃</text>
+							<u-icon name="arrow-right" size="20"></u-icon>
+							<view class="eated-want first">
+								<u-image width="100%" height="200rpx" :src="userInfo.want_eat_img"></u-image>
+							</view>
+							<text>{{userInfo.want_eat_num}}</text>
+						</view>
+						
+						<view class="second-box" @click="jumpToMyContent('吃过',2)">
+							<text>吃过</text>
+							<u-icon name="arrow-right" size="20"></u-icon>
+							<view class="eated-want first">
+								<u-image width="100%" height="200rpx" :src="userInfo.eated_img"></u-image>
+							</view>
+							<text>{{userInfo.eated_num}}</text>
+						</view>
+						
+						<view class="third-box" @click="jumpToMyContent('我的发布',3)">
+							<text>我的发布</text>
+							<u-icon name="arrow-right" size="20"></u-icon>
+							<view class="eated-want first">
+								<u-image width="100%" height="200rpx" :src="userInfo.my_push_img"></u-image>
+							</view>
+							<text>{{userInfo.push_num}}</text>
+						</view>
+					</view>
+				</u-card>
+			</view>
 		</view>
-		
+		<view v-if="!haveToken">
+			<view class="header">
+				<view class="avatar">
+					<u-avatar size="100" class="photo"></u-avatar>
+				</view>
+				<view class="name">
+					<view >未登录</view>
+				</view>
+			</view>
+			<view class="body">
+				<u-card 
+				box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 3rpx 3rpx"
+				:head-border-bottom="false"
+				:foot-border-top="false"
+				border-radius="20"
+				>
+					<view slot="body" class="body-middle">
+						<view class="first-box">
+							<text>想吃</text>
+							<u-icon name="arrow-right" size="20"></u-icon>
+							<view class="eated-want first">
+								<u-image width="100%" height="200rpx"></u-image>
+							</view>
+							<text>0</text>
+						</view>
+						
+						<view class="second-box">
+							<text>吃过</text>
+							<u-icon name="arrow-right" size="20"></u-icon>
+							<view class="eated-want first">
+								<u-image width="100%" height="200rpx"></u-image>
+							</view>
+							<text>0</text>
+						</view>
+						
+						<view class="third-box">
+							<text>我的发布</text>
+							<u-icon name="arrow-right" size="20"></u-icon>
+							<view class="eated-want first">
+								<u-image width="100%" height="200rpx"></u-image>
+							</view>
+							<text>0</text>
+						</view>
+					</view>
+				</u-card>
+			</view>
+			<view class="body-login">
+				<view class="btn">
+					<u-button type="default" 
+					:loading="btnLoading"
+					:hair-line="false" :ripple="true"
+					:plain="true"
+					@click="jumpLogin"
+					:custom-style="customStyle" >登录</u-button>
+				</view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -55,6 +112,7 @@
 	import {
 		checkLogin
 	} from '../../util/checkLogin.js'
+	import {getLocationFail,getUserInfoFail} from '@/util/checkAuth.js'
 	import {userDataUrl} from '@/util/api.js';
 	export default {
 		data() {
@@ -62,6 +120,14 @@
 				showLoading:true,
 				userInfo:{},
 				location:"",
+				haveToken:false,
+				customStyle:{
+					height:"80rpx",
+					width:"430rpx",
+					backgroundColor:"#1a5abf",
+					color:"#FFFFFF",
+					fontSize:"30rpx"
+				},
 			}
 		},
 		methods: {
@@ -98,12 +164,14 @@
 										const location = r.latitude.toString() + "," + r.longitude.toString()
 										that.location = location
 										that.syncData()
-								}})
+								},
+								fail() {
+									getLocationFail()
+								}
+						      })
 							},
 							fail() {
-								uni.showToast({
-									title:"获取定位失败"
-								})
+								getUserInfoFail()
 							}
 						}
 					)
@@ -118,13 +186,24 @@
 				this.userInfo = res.data
 				this.nextUrl = res.data.next
 				this.showLoading = false
+			},
+			
+			// 跳转到登陆页面
+			jumpLogin(){
+				uni.navigateTo({
+					url:'/pages/self/login'
+				})
 			}
 		},
 		onShow() {
 			// 先检查用户是否登录
-			const canContinue = checkLogin()
+			const canContinue = checkLogin(true)
 			if (canContinue) {
+				this.haveToken = true
 				this.getLocation()
+			} else {
+				this.haveToken = false
+				this.showLoading = false
 			}
 		}
 	}
@@ -178,5 +257,18 @@ page{
 			margin-bottom: 10rpx;
 		}
 	}
+}
+.body-login{
+	text-align: center;
+	margin-top: 150rpx;
+	.btn {
+		width: 100%;
+		text-align: center;
+	}
+	.content {
+		margin-bottom: 20rpx;
+		font-size: 35rpx;
+	}
+	
 }
 </style>

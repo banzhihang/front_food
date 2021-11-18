@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control"],{"079c":function(t,e,n){"use strict";var r=n("08e5"),u=n.n(r);u.a},"08e5":function(t,e,n){},"0937":function(t,e,n){"use strict";var r;n.d(e,"b",(function(){return u})),n.d(e,"c",(function(){return c})),n.d(e,"a",(function(){return r}));var u=function(){var t=this,e=t.$createElement;t._self._c},c=[]},"4b03":function(t,e,n){"use strict";n.r(e);var r=n("0937"),u=n("51b9");for(var c in u)"default"!==c&&function(t){n.d(e,t,(function(){return u[t]}))}(c);n("079c");var i,o=n("f0c5"),a=Object(o["a"])(u["default"],r["b"],r["c"],!1,null,"8cfed216",null,!1,r["a"],i);e["default"]=a.exports},"51b9":function(t,e,n){"use strict";n.r(e);var r=n("f70e"),u=n.n(r);for(var c in r)"default"!==c&&function(t){n.d(e,t,(function(){return r[t]}))}(c);e["default"]=u.a},f70e:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var r={name:"UniSegmentedControl",emits:["clickItem"],props:{current:{type:Number,default:0},values:{type:Array,default:function(){return[]}},activeColor:{type:String,default:"#007aff"},styleType:{type:String,default:"button"}},data:function(){return{currentIndex:0}},watch:{current:function(t){t!==this.currentIndex&&(this.currentIndex=t)}},created:function(){this.currentIndex=this.current},methods:{_onClick:function(t){this.currentIndex!==t&&(this.currentIndex=t,this.$emit("clickItem",{currentIndex:t}))}}};e.default=r}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control-create-component',
+    {
+        'uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("4b03"))
+        })
+    },
+    [['uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control-create-component']]
+]);

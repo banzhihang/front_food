@@ -2,7 +2,7 @@ import Vue from 'vue'
 import axios from 'axios'
 
 const service = axios.create({
-	baseURL: 'http://10.129.85.77:8000', 
+	baseURL: 'https://eatpig.top',
 	timeout: 6000, 
 	crossDomain: true
 })
@@ -14,6 +14,7 @@ service.interceptors.request.use(
 		if (token) {
 			config.headers["AUTHORIZATION"] = token
 		}
+		config.headers["FIX"] = '0854'
         return config;
     },
     error => {

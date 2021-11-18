@@ -92,7 +92,10 @@
 			},
 			// 提交信息
 			async submitShortComment(){
-				console.log("开始")
+				const concanContinue = checkLogin()
+				if (!concanContinue) {
+					return
+				}
 				const data = {
 					food:this.food,
 					content:this.content,
@@ -157,9 +160,6 @@
 				})
 			},
 		},
-		onShow() {
-			checkLogin()
-		}
 	}
 </script>
 

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App'
 import uView from "uview-ui";
 import axios from './util/request/request.js'
-import ourLoading from '@/components/our-loading/our-loading.vue'
+
 
 Vue.use(uView);
 
@@ -15,7 +15,7 @@ Vue.filter('formatDate',(date)=>{
 })
 
 Vue.config.productionTip = false
-Vue.component('ourLoading', ourLoading)
+
 
 App.mpType = 'app'
 

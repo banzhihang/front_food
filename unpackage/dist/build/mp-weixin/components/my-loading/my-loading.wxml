@@ -1,0 +1,1 @@
+<view class="data-v-8ad2334c"><view class="parent data-v-8ad2334c"><our-loading vue-id="0e7a08a2-1" isFullScreen="{{true}}" active="{{active}}" text=" " background-color="#FFFFFF" class="data-v-8ad2334c" bind:__l="__l" vue-slots="{{['default']}}"><image class="img data-v-8ad2334c" src="../../static/gif/loading.gif" mode="aspectFit"></image></our-loading></view></view>

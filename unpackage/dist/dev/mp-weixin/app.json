@@ -1,50 +1,48 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/self/self",
-        "pages/index/food-details",
-        "pages/discuss-info/discuss-info",
-        "pages/discuss-info/disscuss-reply-page/disscuss-reply-page",
-        "pages/self/my-content",
-        "pages/all-discuss/all-discuss",
-        "pages/all-short-comment/all-short-comment",
-        "pages/food-push/food-push",
-        "pages/discuss-push/discuss-push",
-        "pages/index/search",
-        "components/search/search-history",
-        "components/search/location",
-        "pages/self/login",
-        "pages/self/servererror"
-    ],
-    "subPackages": [],
-    "window": {
-        "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#F8F8F8",
-        "backgroundColor": "#F8F8F8"
-    },
-    "tabBar": {
-        "selectedColor": "#1a56b4",
-        "list": [
-            {
-                "pagePath": "pages/index/index",
-                "iconPath": "static/icon/eat.png",
-                "selectedIconPath": "static/icon/eat-active.png"
-            },
-            {
-                "pagePath": "pages/self/self",
-                "iconPath": "static/icon/self.png",
-                "selectedIconPath": "static/icon/self-active.png"
-            }
-        ]
-    },
-    "permission": {
-        "scope.userLocation": {
-            "desc": "获取定位"
-        }
-    },
-    "usingComponents": {
-        "our-loading": "/components/our-loading/our-loading"
-    },
-    "sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/index/index",
+    "pages/self/self",
+    "pages/index/food-details",
+    "pages/discuss-info/discuss-info",
+    "pages/discuss-info/disscuss-reply-page/disscuss-reply-page",
+    "pages/self/my-content",
+    "pages/all-discuss/all-discuss",
+    "pages/all-short-comment/all-short-comment",
+    "pages/food-push/food-push",
+    "pages/discuss-push/discuss-push",
+    "pages/index/search",
+    "components/search/search-history",
+    "components/search/location",
+    "pages/self/login",
+    "pages/self/servererror",
+    "pages/openauth/openauth"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1a56b4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/eat.png",
+        "selectedIconPath": "static/icon/eat-active.png"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "iconPath": "static/icon/self.png",
+        "selectedIconPath": "static/icon/self-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取定位"
+    }
+  },
+  "usingComponents": {}
 }

@@ -45,6 +45,9 @@
 </template>
 
 <script>
+	import {
+		getScore
+	} from '@/util/getScore.js';
 	export default {
 		props: ['foodsInfo'],
 		name:"food-list",
@@ -52,13 +55,7 @@
 			wantEat (index) {
 				this.$emit('wantEta',index)
 			},
-			getScore(score) {
-				if (score !== null) {
-					return (score/2).toFixed(1)
-				}else {	
-					return -1
-				}
-			},
+			getScore,
 			showScore(score){
 				if (score !== -1) {
 					return true

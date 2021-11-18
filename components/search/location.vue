@@ -1,6 +1,5 @@
 <template>
 	<view class="box-x" @click="chooseLocation">
-		<u-toast ref="uToast" />
 		<view>
 			<u-icon name="map" size="40" color="#1a5abf"></u-icon>
 		</view>
@@ -12,6 +11,7 @@
 </template>
 
 <script>
+	import {getLocationFail,getUserInfoFail} from '@/util/checkAuth.js'
 	export default {
 		props:{
 			locationStr:{
@@ -21,7 +21,7 @@
 		name:"locationUi",
 		data() {
 			return {
-				locationName:"惠水",
+				locationName:"北京市朝阳区",
 				needGetNameFromBackend:true
 			}
 		},
@@ -51,10 +51,7 @@
 							})
 						},
 						fail(){
-							that.$refs.uToast.show({
-								title: '获取位置信息失败',
-								type: 'fail',
-							})
+							getUserInfoFail()
 						}
 						
 					}
@@ -91,10 +88,7 @@
 						});
 					},
 					fail(err) {
-						that.$refs.uToast.show({
-							title: '获取位置信息失败',
-							type: 'fail',
-						})
+						getUserInfoFail()
 					}
 				})
 			}
