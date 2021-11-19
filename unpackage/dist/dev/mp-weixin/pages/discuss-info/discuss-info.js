@@ -96,37 +96,37 @@ var components
 try {
   components = {
     uEmpty: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-empty/u-empty */ "uview-ui/components/u-empty/u-empty").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-empty/u-empty.vue */ 320))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-empty/u-empty */ "uview-ui/components/u-empty/u-empty").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-empty/u-empty.vue */ 321))
     },
     myLoading: function() {
-      return __webpack_require__.e(/*! import() | components/my-loading/my-loading */ "components/my-loading/my-loading").then(__webpack_require__.bind(null, /*! @/components/my-loading/my-loading.vue */ 334))
+      return __webpack_require__.e(/*! import() | components/my-loading/my-loading */ "components/my-loading/my-loading").then(__webpack_require__.bind(null, /*! @/components/my-loading/my-loading.vue */ 335))
     },
     uParse: function() {
-      return Promise.all(/*! import() | uview-ui/components/u-parse/u-parse */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-parse/u-parse")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-parse/u-parse.vue */ 425))
+      return Promise.all(/*! import() | uview-ui/components/u-parse/u-parse */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uview-ui/components/u-parse/u-parse")]).then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-parse/u-parse.vue */ 426))
     },
     uImage: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 327))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 328))
     },
     uGap: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-gap/u-gap */ "uview-ui/components/u-gap/u-gap").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-gap/u-gap.vue */ 435))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-gap/u-gap */ "uview-ui/components/u-gap/u-gap").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-gap/u-gap.vue */ 436))
     },
     uTabs: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-tabs/u-tabs */ "uview-ui/components/u-tabs/u-tabs").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-tabs/u-tabs.vue */ 442))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-tabs/u-tabs */ "uview-ui/components/u-tabs/u-tabs").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-tabs/u-tabs.vue */ 443))
     },
     uLine: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-line/u-line */ "uview-ui/components/u-line/u-line").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-line/u-line.vue */ 449))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-line/u-line */ "uview-ui/components/u-line/u-line").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-line/u-line.vue */ 450))
     },
     discussComment: function() {
-      return __webpack_require__.e(/*! import() | components/discuss-comment/discuss-comment */ "components/discuss-comment/discuss-comment").then(__webpack_require__.bind(null, /*! @/components/discuss-comment/discuss-comment.vue */ 456))
+      return __webpack_require__.e(/*! import() | components/discuss-comment/discuss-comment */ "components/discuss-comment/discuss-comment").then(__webpack_require__.bind(null, /*! @/components/discuss-comment/discuss-comment.vue */ 457))
     },
     inputCommentReply: function() {
-      return __webpack_require__.e(/*! import() | components/input-comment-reply/input-comment-reply */ "components/input-comment-reply/input-comment-reply").then(__webpack_require__.bind(null, /*! @/components/input-comment-reply/input-comment-reply.vue */ 463))
+      return __webpack_require__.e(/*! import() | components/input-comment-reply/input-comment-reply */ "components/input-comment-reply/input-comment-reply").then(__webpack_require__.bind(null, /*! @/components/input-comment-reply/input-comment-reply.vue */ 464))
     },
     uPopup: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-popup/u-popup */ "uview-ui/components/u-popup/u-popup").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-popup/u-popup.vue */ 362))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-popup/u-popup */ "uview-ui/components/u-popup/u-popup").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-popup/u-popup.vue */ 363))
     },
     uAlertTips: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-alert-tips/u-alert-tips */ "uview-ui/components/u-alert-tips/u-alert-tips").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-alert-tips/u-alert-tips.vue */ 470))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-alert-tips/u-alert-tips */ "uview-ui/components/u-alert-tips/u-alert-tips").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-alert-tips/u-alert-tips.vue */ 471))
     }
   }
 } catch (e) {
@@ -265,7 +265,7 @@ var _api = __webpack_require__(/*! ../../util/api.js */ 88);
 var _encrypt = __webpack_require__(/*! ../../util/encrypt/encrypt.js */ 89);
 
 
-var _checkLogin = __webpack_require__(/*! ../../util/checkLogin.js */ 126);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var commentInput = function commentInput() {__webpack_require__.e(/*! require.ensure | components/input-comment-reply/input-comment-reply */ "components/input-comment-reply/input-comment-reply").then((function () {return resolve(__webpack_require__(/*! @/components/input-comment-reply/input-comment-reply.vue */ 463));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var discussComment = function discussComment() {__webpack_require__.e(/*! require.ensure | components/discuss-comment/discuss-comment */ "components/discuss-comment/discuss-comment").then((function () {return resolve(__webpack_require__(/*! @/components/discuss-comment/discuss-comment.vue */ 456));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+var _checkLogin = __webpack_require__(/*! ../../util/checkLogin.js */ 126);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var commentInput = function commentInput() {__webpack_require__.e(/*! require.ensure | components/input-comment-reply/input-comment-reply */ "components/input-comment-reply/input-comment-reply").then((function () {return resolve(__webpack_require__(/*! @/components/input-comment-reply/input-comment-reply.vue */ 464));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var discussComment = function discussComment() {__webpack_require__.e(/*! require.ensure | components/discuss-comment/discuss-comment */ "components/discuss-comment/discuss-comment").then((function () {return resolve(__webpack_require__(/*! @/components/discuss-comment/discuss-comment.vue */ 457));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 {

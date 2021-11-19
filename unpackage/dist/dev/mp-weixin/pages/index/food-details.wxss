@@ -257,6 +257,10 @@
 .food-photo.data-v-4227a229 {
   font-size: 25rpx;
   margin-left: -30rpx;
+  margin-bottom: 70rpx;
+}
+.food-photo.data-v-4227a229  .u-card {
+  overflow: visible;
 }
 .food-photo .photo-head.data-v-4227a229 {
   display: flex;
@@ -264,6 +268,7 @@
   justify-content: space-between;
 }
 .food-photo .photo-head .photo-head-right.data-v-4227a229 {
+  color: #838383;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -276,6 +281,18 @@
 }
 .food-photo.data-v-4227a229  .u-icon__icon {
   left: -5rpx;
+}
+.food-photo .photo-box.data-v-4227a229 {
+  margin-top: -20rpx;
+  display: flex;
+  overflow: scroll;
+  width: 120%;
+  margin-left: -50rpx;
+  padding-left: 20rpx;
+}
+.food-photo .photo-box .photo-box-in.data-v-4227a229 {
+  box-sizing: border-box;
+  border-right: 7rpx solid #FFFFFF;
 }
 .food-address-photo-ing.data-v-4227a229 {
   display: flex;
@@ -290,6 +307,7 @@
   position: relative;
 }
 .short-comment .comment-head .comment-head-right.data-v-4227a229 {
+  color: #838383;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -317,6 +335,7 @@
   margin-bottom: -30rpx;
 }
 .discuss .discuss-head .discuss-head-right.data-v-4227a229 {
+  color: #838383;
   display: flex;
   align-items: center;
   justify-content: flex-end;

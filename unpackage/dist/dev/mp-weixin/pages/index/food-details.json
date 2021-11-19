@@ -13,7 +13,7 @@
     "u-card": "/uview-ui/components/u-card/u-card",
     "food-rate": "/components/food-rate/food-rate",
     "photo-list": "/components/photo-list/photo-list",
-    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
     "short-comment": "/components/short-comment/short-comment",
     "discuss": "/components/discuss/discuss",
     "dis-cuss": "/components/discuss/discuss",

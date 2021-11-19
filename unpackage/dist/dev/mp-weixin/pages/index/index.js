@@ -124,9 +124,6 @@ __webpack_require__.r(__webpack_exports__);
 var components
 try {
   components = {
-    uToast: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-toast/u-toast */ "uview-ui/components/u-toast/u-toast").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-toast/u-toast.vue */ 265))
-    },
     uNavbar: function() {
       return __webpack_require__.e(/*! import() | uview-ui/components/u-navbar/u-navbar */ "uview-ui/components/u-navbar/u-navbar").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-navbar/u-navbar.vue */ 272))
     },
@@ -146,10 +143,10 @@ try {
       return Promise.all(/*! import() | components/food-list/food-list */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/food-list/food-list")]).then(__webpack_require__.bind(null, /*! @/components/food-list/food-list.vue */ 313))
     },
     uEmpty: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-empty/u-empty */ "uview-ui/components/u-empty/u-empty").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-empty/u-empty.vue */ 320))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-empty/u-empty */ "uview-ui/components/u-empty/u-empty").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-empty/u-empty.vue */ 321))
     },
     uImage: function() {
-      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 327))
+      return __webpack_require__.e(/*! import() | uview-ui/components/u-image/u-image */ "uview-ui/components/u-image/u-image").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-image/u-image.vue */ 328))
     }
   }
 } catch (e) {
@@ -253,8 +250,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 var _mescrollMixins = _interopRequireDefault(__webpack_require__(/*! @/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-mixins.js */ 79));
 var _location = _interopRequireDefault(__webpack_require__(/*! components/search/location.vue */ 80));
 var _api = __webpack_require__(/*! @/util/api.js */ 88);
@@ -292,7 +287,8 @@ var _checkAuth = __webpack_require__(/*! @/util/checkAuth.js */ 85);function _in
       downOption: {
         auto: true,
         autoShowLoading: true,
-        offset: 120 },
+        offset: 120,
+        outOffsetRate: 0.5 },
 
       customStyle: {
         borderStyle: "none",

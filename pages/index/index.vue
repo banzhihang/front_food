@@ -1,6 +1,5 @@
 <template>
 	<view class="content">
-		<u-toast ref="uToast" />
 		<view class="top-select">
 			<view class="top">
 				<u-navbar :is-back="false" :border-bottom="false"  >
@@ -41,7 +40,6 @@
 		<view class="write" @click="jumpFoodPush" v-if="!showLoading">
 			<u-image width="70rpx" height="70rpx" src="https://hotschool.ltd/add_food.png"></u-image>
 		</view>
-		
 	</view>
 </template>
 
@@ -84,7 +82,8 @@
 				downOption:{
 					auto:true,
 					autoShowLoading:true,
-					offset:120
+					offset:120,
+					outOffsetRate:0.5
 				},
 				customStyle:{
 					borderStyle:"none" ,
@@ -362,7 +361,7 @@
 	.search-wrap {
 		width: 100%;
 		display: flex;
-		padding: 0 30rpx;
+		padding: 0 30rpx 0 20rpx;
 		align-items: center;
 		justify-content: space-between;
 		

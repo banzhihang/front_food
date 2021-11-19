@@ -3,8 +3,8 @@
 		<view class="food-info" v-for="food in foodsInfo" :key="food.id">
 			<view class="left-wrap" @click="jumpFoodDetails(food.link)">
 				<view class="left">
-					<view class="food-picture uni-thumb">
-						<image :src="food.first_image" mode="aspectFill"></image>
+					<view class="food-picture">
+						<u-lazy-load :image="food.first_image" img-mode="aspectFill" height="200rpx"></u-lazy-load>
 					</view>
 				</view>
 				<view class="middle">
@@ -12,10 +12,10 @@
 						<text style="color:#3b3b3c;">{{ food.name }}</text>
 					</view>
 					<view class="middle-rate">
-						<uni-rate :value="getScore(food.score)" size="12" allowHalf readonly activeColor="#EC9F3A" />
+						<uni-rate :value="getScore(food.score)" size="12" allowHalf readonly activeColor="#EC9F3A" color="#dddddd"/>
 						<view class="score-text" style="color:#E69F3D ;" v-show="showScore(food.score)">{{food.score}}
 						</view>
-						<view class="score-text" style="color:#808080;font-size: 25rpx;"
+						<view class="score-text" style="color:#808080;font-size: 23rpx;"
 							v-show="!showScore(food.score)">暂无评分</view>
 					</view>
 					<view class="middle-distance">
@@ -86,7 +86,7 @@
 
 	.food-info {
 		font-size: 33rpx;
-		margin: 10rpx 40rpx 0 40rpx;
+		margin: 10rpx 20rpx 30rpx 20rpx;
 		display: flex;
 		justify-content: space-between;
 
@@ -107,9 +107,11 @@
 			}
 
 			.food-picture {
-				margin-top: 1rpx;
-				height: 95px;
-				width: 80px;
+				overflow: hidden;
+				border-radius: 10rpx;
+				width: 170rpx;
+				margin-right: 25rpx;
+				
 			}
 
 			.middle-distance {

@@ -5,7 +5,7 @@
 		</view>
 		<view class="photo-box"> 
 			<view v-for="(item,index) in photoInfoList" :key="index" class="photoInfo uni-thumb">
-				<u-lazy-load :image="item" img-mode="aspectFill" height="245rpx" @click="prePhoto(index)"></u-lazy-load>
+				<u-lazy-load :image="item" img-mode="aspectFill" height="245rpx" @click="prePhoto(index)" border-radius="10"></u-lazy-load>
 			</view>
 		</view>
 	</view>

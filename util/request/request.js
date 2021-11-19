@@ -64,7 +64,9 @@ service.interceptors.response.use(res => {
 				},2000)
 			}
 		})
-	} else {
+	} else if (code === 404) {
+		
+	}else {
 		uni.redirectTo({
 			url: "/pages/self/servererror",
 		})

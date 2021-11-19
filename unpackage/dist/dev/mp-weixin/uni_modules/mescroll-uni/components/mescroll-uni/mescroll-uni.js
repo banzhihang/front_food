@@ -85,7 +85,7 @@ var components
 try {
   components = {
     mescrollEmpty: function() {
-      return __webpack_require__.e(/*! import() | uni_modules/mescroll-uni/components/mescroll-empty/mescroll-empty */ "uni_modules/mescroll-uni/components/mescroll-empty/mescroll-empty").then(__webpack_require__.bind(null, /*! @/uni_modules/mescroll-uni/components/mescroll-empty/mescroll-empty.vue */ 556))
+      return __webpack_require__.e(/*! import() | uni_modules/mescroll-uni/components/mescroll-empty/mescroll-empty */ "uni_modules/mescroll-uni/components/mescroll-empty/mescroll-empty").then(__webpack_require__.bind(null, /*! @/uni_modules/mescroll-uni/components/mescroll-empty/mescroll-empty.vue */ 557))
     }
   }
 } catch (e) {
@@ -309,7 +309,7 @@ var _mixins = _interopRequireDefault(__webpack_require__(/*! ./wxs/mixins.js */ 
 // 引入mescroll-uni.js,处理核心逻辑
 // 引入全局配置
 // 引入国际化工具类
-var MescrollTop = function MescrollTop() {__webpack_require__.e(/*! require.ensure | uni_modules/mescroll-uni/components/mescroll-uni/components/mescroll-top */ "uni_modules/mescroll-uni/components/mescroll-uni/components/mescroll-top").then((function () {return resolve(__webpack_require__(/*! ./components/mescroll-top.vue */ 563));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);}; /**
+var MescrollTop = function MescrollTop() {__webpack_require__.e(/*! require.ensure | uni_modules/mescroll-uni/components/mescroll-uni/components/mescroll-top */ "uni_modules/mescroll-uni/components/mescroll-uni/components/mescroll-top").then((function () {return resolve(__webpack_require__(/*! ./components/mescroll-top.vue */ 564));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);}; /**
                                                                                                                                                                                                                       * mescroll-uni 嵌在页面某个区域的下拉刷新和上拉加载组件, 如嵌在弹窗,浮层,swiper中...
                                                                                                                                                                                                                       * @property {Object} down 下拉刷新的参数配置
                                                                                                                                                                                                                       * @property {Object} up 上拉加载的参数配置

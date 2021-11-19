@@ -33,11 +33,12 @@
   text-align: center;
   font-size: 40rpx;
   margin-top: 10rpx;
-  margin-left: 60rpx;
+  margin-left: 35rpx;
 }
 .score-body .start-progress.data-v-11e01d64 {
   margin-top: 15rpx;
-  flex: 1;
+  margin-left: 20rpx;
+  width: 60%;
 }
 .score-body .start-progress.data-v-11e01d64  .uni-rate {
   justify-content: flex-end !important;
@@ -45,11 +46,10 @@
 .score-body .start-progress .start-progress-in.data-v-11e01d64 {
   display: flex;
   width: 100%;
-  justify-content: center;
 }
 .score-body .start-progress .start-progress-in .progress.data-v-11e01d64 {
   margin-left: 7rpx;
-  line-height: 35%;
-  width: 60%;
+  line-height: 12rpx;
+  width: 70%;
 }
 

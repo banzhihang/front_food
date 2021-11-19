@@ -123,7 +123,7 @@
 }
 .food-info.data-v-a8be0c78 {
   font-size: 33rpx;
-  margin: 10rpx 40rpx 0 40rpx;
+  margin: 10rpx 20rpx 30rpx 20rpx;
   display: flex;
   justify-content: space-between;
 }
@@ -142,9 +142,10 @@
   width: 400rpx;
 }
 .food-info .left-wrap .food-picture.data-v-a8be0c78 {
-  margin-top: 1rpx;
-  height: 95px;
-  width: 80px;
+  overflow: hidden;
+  border-radius: 10rpx;
+  width: 170rpx;
+  margin-right: 25rpx;
 }
 .food-info .left-wrap .middle-distance.data-v-a8be0c78 {
   font-size: 25rpx;

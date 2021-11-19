@@ -67,7 +67,8 @@
 			</view>
 		</view>
 		<view class="score" v-if="!showLoading && !showEmpty">
-			<u-card title="吃小猪评分" style="background: rgba(0,0,0,0.02);"
+			<u-card  style="background: rgba(0,0,0,0.02);"
+				margin="30rpx 20rpx 30rpx 30rpx"
 				box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx" border-radius="20"
 				:head-border-bottom="food.rate_score.score !== -1">
 				<view slot="head" class="score-head">
@@ -98,7 +99,7 @@
 			</u-card>
 		</view>
 		<view class="desc" v-if="!showLoading && !showEmpty">
-			<u-card :border="false" :head-border-bottom="false">
+			<u-card :border="false" :head-border-bottom="false" margin="30rpx 20rpx 30rpx 30rpx">
 				<view slot="head" class="desc-head">
 					<u-icon name="https://hotschool.ltd/brief.png" color="#1a56b4" size="30"
 						style="margin-right: 10rpx;"></u-icon>
@@ -110,7 +111,7 @@
 			</u-card>
 		</view>
 		<view class="food-photo" v-if="!showLoading && !showEmpty">
-			<u-card title="图片" :border="false" :head-border-bottom="false">
+			<u-card title="图片" :border="false" :head-border-bottom="false" :foot-border-top="false" margin="30rpx 20rpx 30rpx 30rpx">
 				<view slot="head" class="photo-head">
 					<view class="photo-head-left">
 						<u-icon name="https://hotschool.ltd/photo.png" color="#1a56b4" size="32"
@@ -121,7 +122,7 @@
 						<text style="margin-right: 5rpx;">
 							全部{{food.photo_num}}
 						</text>
-						<u-icon name="arrow-right" color="#000000" size="20"
+						<u-icon name="arrow-right" color="#838383" size="20"
 							style="margin-left: 5rpx;margin-right: -10rpx;"></u-icon>
 					</view>
 
@@ -131,15 +132,18 @@
 						</photo-list>
 					</u-popup>
 				</view>
-				<view slot="body">
-					<u-swiper :list="food.image" mode="none" :effect3d="true" effect3d-previous-margin="40"
-						duration="1000"></u-swiper>
+				<view slot="body" class="photo-box">
+					<view v-for="(item,index) in food.image" :key="index" class="photo-box-in">
+						<u-lazy-load :image="item" img-mode="heightFix" @click="prePhoto(index)" 
+						height="330rpx" threshold="900" border-radius="10">
+						</u-lazy-load>
+					</view>
 				</view>
 			</u-card>
 		</view>
 		<view class="short-comment" v-if="!showLoading && !showEmpty">
 			<u-card title="短评" style="background: rgba(0,0,0,0.02);" box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx"
-				:head-border-bottom="false" :foot-border-top="false" border-radius="20" :foot-style="cardStyle">
+				:head-border-bottom="false" :foot-border-top="false" border-radius="20" :foot-style="cardStyle" margin="30rpx 20rpx 50rpx 30rpx">
 				<view slot="head" class="comment-head">
 					<view class="comment-head-left">
 						<u-icon name="https://hotschool.ltd/short-comment.png" color="#1a56b4" size="30"
@@ -151,7 +155,7 @@
 						<text>
 							全部{{food.short_comment_number}}
 						</text>
-						<u-icon name="arrow-right" color="#000000" size="20"
+						<u-icon name="arrow-right" color="#838383" size="20"
 							style="margin-left: 5rpx;margin-right: -10rpx;"></u-icon>
 					</view>
 				</view>
@@ -182,7 +186,7 @@
 		</view>
 		<view class="discuss" v-if="!showLoading && !showEmpty">
 			<u-card title="讨论" style="background: rgba(0,0,0,0.02);" box-shadow="rgba(0, 0, 0, 0.1) 1rpx 1rpx 5rpx 5rpx"
-				:head-border-bottom="false" :foot-border-top="false" border-radius="20" :foot-style="cardStyle">
+				:head-border-bottom="false" :foot-border-top="false" border-radius="20" :foot-style="cardStyle" margin="30rpx 20rpx 30rpx 30rpx">
 				<view slot="head" class="discuss-head">
 					<view class="discuss-head-left">
 						<u-icon name="https://hotschool.ltd/discuss.png" color="#1a56b4" size="35"
@@ -195,7 +199,7 @@
 						<text>
 							全部{{food.discuss_number}}
 						</text>
-						<u-icon name="arrow-right" color="#000000" size="20"
+						<u-icon name="arrow-right" color="#838383" size="20"
 							style="margin-left: 5rpx;margin-right: -10rpx;"></u-icon>
 					</view>
 				</view>
@@ -237,7 +241,10 @@
 	import {
 		checkLogin
 	} from '@/util/checkLogin.js'
-	import {getLocationFail,getUserInfoFail} from '@/util/checkAuth.js'
+	import {
+		getLocationFail,
+		getUserInfoFail
+	} from '@/util/checkAuth.js'
 
 	export default {
 		options: {
@@ -277,11 +284,11 @@
 					return 'zaneu'
 				}
 			},
-			
+
 			rateBack() {
 				this.$refs.rateEdit.clean()
 			},
-			
+
 			// 跳转到讨论发布页面
 			jumpToDiscussPush() {
 				let data = {
@@ -302,7 +309,7 @@
 				this.isShowShortCommentEdit = true
 				this.$refs.rateEdit.ready()
 			},
-			
+
 			getShortCommentNum(num) {
 				return "全部" + num + " >"
 			},
@@ -310,7 +317,7 @@
 			getDiscussNum(num) {
 				return "全部" + num + " >"
 			},
-			
+
 			jumpToAllDiscuss(link) {
 				let data = {
 					link: link,
@@ -438,7 +445,13 @@
 						that.food.is_want_eated = 2
 					}
 				})
-
+			},
+			prePhoto(index) {
+				uni.previewImage({
+					urls: this.food.image,
+					current: this.food.image[index],
+					indicator: "number"
+				})
 			},
 		},
 		components: {
@@ -484,6 +497,7 @@
 			color: #696a6c;
 			font-size: 25rpx;
 			width: 500rpx;
+
 			text {
 				margin-left: 4rpx;
 			}
@@ -565,7 +579,7 @@
 			.food-already-eated-left {
 				font-size: 23rpx;
 				color: #696a6c;
-				
+
 			}
 
 			.food-already-eated-right {
@@ -586,16 +600,19 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+
 			.score-head-right {
 				margin-right: 10rpx;
 				color: #808080;
 				font-size: 25rpx;
+
 				text {
 					margin-left: 30rpx;
 				}
 			}
 
 			.score-head-left {
+			
 				display: flex;
 				align-items: center;
 				font-size: 30rpx;
@@ -613,6 +630,7 @@
 		}
 
 		.desc-head {
+			
 			display: flex;
 			align-items: center;
 			font-size: 30rpx;
@@ -622,6 +640,10 @@
 	.food-photo {
 		font-size: 25rpx;
 		margin-left: -30rpx;
+		margin-bottom: 70rpx;
+		::v-deep .u-card {
+			overflow: visible;
+		}
 
 		.photo-head {
 			display: flex;
@@ -629,6 +651,7 @@
 			justify-content: space-between;
 
 			.photo-head-right {
+				color: #838383;
 				display: flex;
 				align-items: center;
 				justify-content: flex-end;
@@ -646,6 +669,18 @@
 			left: -5rpx;
 		}
 
+		.photo-box {
+			margin-top: -20rpx;
+			display: flex;
+			overflow: scroll;
+			width: 120%;
+			margin-left: -50rpx;
+			padding-left: 20rpx;
+			.photo-box-in {
+				box-sizing: border-box;
+				border-right: 7rpx solid #FFFFFF;
+			}
+		}
 	}
 
 	.food-address-photo-ing {
@@ -662,6 +697,7 @@
 			position: relative;
 
 			.comment-head-right {
+				color: #838383;
 				display: flex;
 				justify-content: flex-end;
 				align-items: center;
@@ -694,6 +730,7 @@
 			margin-bottom: -30rpx;
 
 			.discuss-head-right {
+				color: #838383;
 				display: flex;
 				align-items: center;
 				justify-content: flex-end;
